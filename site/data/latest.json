@@ -1,0 +1,425 @@
+{
+ "id": 1790979541652,
+ "time": "2026-10-02T23:19:01.652998+01:00",
+ "trigger": "on demand",
+ "lines": [
+  {
+   "agent": "chief",
+   "yesterday": "Model record: 51% over 788 graded games; Daily List 65% (15/23).",
+   "today": "Focus: Lift accuracy in England Championship (37% over 76 games).",
+   "blockers": "None."
+  },
+  {
+   "agent": "scout",
+   "yesterday": "Swept 1271 football fixtures across 159 competitions for 2026-10-02, plus 52 other-sport and 36 tennis matches.",
+   "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes.",
+   "blockers": "None."
+  },
+  {
+   "agent": "quality",
+   "yesterday": "0 unrated fixtures in today's slate; 159 competitions matched to a rated team pool.",
+   "today": "Recheck club-name matching for new API-Football leagues.",
+   "blockers": "None."
+  },
+  {
+   "agent": "source",
+   "yesterday": "Coverage is API-Football plus free sources; 9/10 recent builds pulled data cleanly.",
+   "today": "Watch API rate limits during the 03:00 and 13:00 sweeps.",
+   "blockers": "None."
+  },
+  {
+   "agent": "ratings",
+   "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
+   "today": "Rate today's 1271 fixtures; overall log loss is 1.0004.",
+   "blockers": "None."
+  },
+  {
+   "agent": "experiment",
+   "yesterday": "Weekly retune 2026-09-30 passed its gates. Latest test: Record the recency-weighted ratings test (rejected).",
+   "today": "Overnight at 23:30: backtest one change aimed at the weakest league.",
+   "blockers": "None."
+  },
+  {
+   "agent": "sports",
+   "yesterday": "Other sports: NFL 2/3, MLB 6/9. Tennis 58% over 249 matches (expected 60%).",
+   "today": "Build up NBA and rugby graded history before they go on the board.",
+   "blockers": "NBA and rugby have no graded games yet."
+  },
+  {
+   "agent": "auditor",
+   "yesterday": "Graded 2026-10-01: 17/32 correct (53%). Daily List misses: Azerbaijan v Liechtenstein (85%, finished 0-0).",
+   "today": "Grade early kick-offs at 13:00 and the full day at 23:30.",
+   "blockers": "None."
+  },
+  {
+   "agent": "calib",
+   "yesterday": "Biggest calibration gap: picks at 60%-70% won 76% vs 64% expected (78 games).",
+   "today": "Track tiers: Strong 77% vs 79%, Firm 76% vs 69%, Lean 68% vs 59%.",
+   "blockers": "None."
+  },
+  {
+   "agent": "curator",
+   "yesterday": "Daily List for 2026-10-02: 21 picks. Top: Albania v San Marino 98%; Argentina v Benin 97%; Belarus v San Marino 96%.",
+   "today": "Re-rank at 13:00 if any team news shifts confidence.",
+   "blockers": "None."
+  },
+  {
+   "agent": "engineer",
+   "yesterday": "9/10 recent 'Rebuild and publish' runs green.",
+   "today": "Keep the build ahead of the 03:00 sweep.",
+   "blockers": "None."
+  },
+  {
+   "agent": "chief",
+   "yesterday": "Shout-out: scout for 'Competitions covered today' \u2014 ahead of target.",
+   "today": "Keep encouraging each other: every objective owner posts one learning in the playback.",
+   "blockers": "None.",
+   "kudos": "scout"
+  }
+ ],
+ "objectives": [
+  {
+   "owner": "curator",
+   "name": "Daily List hit rate",
+   "actual": 0.6522,
+   "target": 0.7,
+   "fmt": "pct",
+   "higher": true,
+   "status": "at risk"
+  },
+  {
+   "owner": "chief",
+   "name": "Overall hit rate",
+   "actual": 0.5089,
+   "target": 0.55,
+   "fmt": "pct",
+   "higher": true,
+   "status": "behind"
+  },
+  {
+   "owner": "ratings",
+   "name": "Strong tier hit rate",
+   "actual": 0.766,
+   "target": 0.8,
+   "fmt": "pct",
+   "higher": true,
+   "status": "at risk"
+  },
+  {
+   "owner": "calib",
+   "name": "Largest calibration gap",
+   "actual": 0.1139,
+   "target": 0.05,
+   "fmt": "pct",
+   "higher": false,
+   "status": "behind"
+  },
+  {
+   "owner": "scout",
+   "name": "Competitions covered today",
+   "actual": 159,
+   "target": 150,
+   "fmt": "num",
+   "higher": true,
+   "status": "on track"
+  },
+  {
+   "owner": "quality",
+   "name": "Unrated fixtures",
+   "actual": 0,
+   "target": 0,
+   "fmt": "num",
+   "higher": false,
+   "status": "on track"
+  },
+  {
+   "owner": "source",
+   "name": "Clean data pulls (last 10)",
+   "actual": 0.9,
+   "target": 0.95,
+   "fmt": "pct",
+   "higher": true,
+   "status": "at risk"
+  },
+  {
+   "owner": "engineer",
+   "name": "Builds green (last 10)",
+   "actual": 0.9,
+   "target": 1.0,
+   "fmt": "pct",
+   "higher": true,
+   "status": "behind"
+  },
+  {
+   "owner": "sports",
+   "name": "Tennis hit vs expected",
+   "actual": -0.019199999999999995,
+   "target": 0.0,
+   "fmt": "pt",
+   "higher": true,
+   "status": "behind"
+  },
+  {
+   "owner": "experiment",
+   "name": "Weekly retune passed",
+   "actual": 1,
+   "target": 1,
+   "fmt": "bool",
+   "higher": true,
+   "status": "on track"
+  },
+  {
+   "owner": "auditor",
+   "name": "Graded days in record",
+   "actual": 14,
+   "target": 14,
+   "fmt": "num",
+   "higher": true,
+   "status": "on track"
+  }
+ ],
+ "star": "scout",
+ "wins": [
+  "Argentina v Bolivia (98%) finished 4-0"
+ ],
+ "lessons": [
+  "Daily List miss: Azerbaijan v Liechtenstein (85%, finished 0-0)",
+  "Calibration: 60%-70% band won 76% vs 64% expected",
+  "Weakest league: England Championship at 37% over 76 games"
+ ],
+ "stats": {
+  "fixtures": 1271,
+  "competitions": 159,
+  "listPicks": 21,
+  "overallAcc": 0.5089,
+  "listAcc": 0.6522,
+  "listN": 23,
+  "graded": 788,
+  "logLoss": 1.0004,
+  "dayAcc": 0.5312,
+  "dayDate": "2026-10-01",
+  "tennisAcc": 0.5823,
+  "runsOk": 9,
+  "runsTotal": 10,
+  "tiers": [
+   {
+    "name": "Strong",
+    "k": 3,
+    "min": 0.7,
+    "n": 47,
+    "correct": 36,
+    "hit": 0.766,
+    "expected": 0.7862,
+    "drawnOut": 8
+   },
+   {
+    "name": "Firm",
+    "k": 2,
+    "min": 0.62,
+    "n": 50,
+    "correct": 38,
+    "hit": 0.76,
+    "expected": 0.6949,
+    "drawnOut": 4
+   },
+   {
+    "name": "Lean",
+    "k": 1,
+    "min": 0.55,
+    "n": 85,
+    "correct": 58,
+    "hit": 0.6824,
+    "expected": 0.5917,
+    "drawnOut": 15
+   },
+   {
+    "name": "No read",
+    "k": 0,
+    "min": 0.0,
+    "n": 606,
+    "correct": 269,
+    "hit": 0.4439,
+    "expected": 0.4458,
+    "drawnOut": 159
+   }
+  ],
+  "bands": [
+   {
+    "from": 0.0,
+    "to": 0.4,
+    "n": 161,
+    "hit": 0.3789,
+    "expected": 0.3755
+   },
+   {
+    "from": 0.4,
+    "to": 0.5,
+    "n": 324,
+    "hit": 0.4784,
+    "expected": 0.4486
+   },
+   {
+    "from": 0.5,
+    "to": 0.6,
+    "n": 169,
+    "hit": 0.4852,
+    "expected": 0.5431
+   },
+   {
+    "from": 0.6,
+    "to": 0.7,
+    "n": 78,
+    "hit": 0.7564,
+    "expected": 0.6425
+   },
+   {
+    "from": 0.7,
+    "to": 1.0,
+    "n": 56,
+    "hit": 0.7857,
+    "expected": 0.7937
+   }
+  ],
+  "days": [
+   {
+    "date": "2026-10-01",
+    "acc": 0.5312,
+    "n": 32
+   },
+   {
+    "date": "2026-09-30",
+    "acc": 0.5366,
+    "n": 41
+   },
+   {
+    "date": "2026-09-29",
+    "acc": 0.6087,
+    "n": 46
+   },
+   {
+    "date": "2026-09-28",
+    "acc": 0.6296,
+    "n": 27
+   },
+   {
+    "date": "2026-09-27",
+    "acc": 0.5846,
+    "n": 65
+   },
+   {
+    "date": "2026-09-26",
+    "acc": 0.4643,
+    "n": 84
+   },
+   {
+    "date": "2026-09-20",
+    "acc": 0.475,
+    "n": 40
+   },
+   {
+    "date": "2026-09-19",
+    "acc": 0.4259,
+    "n": 54
+   },
+   {
+    "date": "2026-09-18",
+    "acc": 0.875,
+    "n": 8
+   },
+   {
+    "date": "2026-09-17",
+    "acc": 1.0,
+    "n": 2
+   },
+   {
+    "date": "2026-09-16",
+    "acc": 0.8,
+    "n": 5
+   },
+   {
+    "date": "2026-09-15",
+    "acc": 0.2667,
+    "n": 15
+   },
+   {
+    "date": "2026-09-14",
+    "acc": 0.75,
+    "n": 8
+   },
+   {
+    "date": "2026-09-13",
+    "acc": 0.4583,
+    "n": 24
+   }
+  ],
+  "weak": [
+   {
+    "name": "England Championship",
+    "acc": 0.3684,
+    "n": 76
+   },
+   {
+    "name": "England Premier League",
+    "acc": 0.4167,
+    "n": 48
+   },
+   {
+    "name": "Netherlands Eredivisie",
+    "acc": 0.4419,
+    "n": 43
+   },
+   {
+    "name": "International UEFA Nations League",
+    "acc": 0.5,
+    "n": 40
+   },
+   {
+    "name": "Portugal Primeira Liga",
+    "acc": 0.5,
+    "n": 42
+   }
+  ],
+  "top": [
+   {
+    "m": "Albania v San Marino",
+    "c": 0.9783,
+    "lg": "uefa.nations"
+   },
+   {
+    "m": "Argentina v Benin",
+    "c": 0.9697,
+    "lg": "friendly"
+   },
+   {
+    "m": "Belarus v San Marino",
+    "c": 0.9628,
+    "lg": "uefa.nations"
+   },
+   {
+    "m": "Argentina v Burkina Faso",
+    "c": 0.9264,
+    "lg": "friendly"
+   },
+   {
+    "m": "Algeria v Niger",
+    "c": 0.8938,
+    "lg": "friendly"
+   },
+   {
+    "m": "Aruba v Anguilla",
+    "c": 0.8588,
+    "lg": "concacaf.nations"
+   },
+   {
+    "m": "Minija v Kauno \u017dalgiris II",
+    "c": 0.8546,
+    "lg": "af.361"
+   },
+   {
+    "m": "Switzerland v North Macedonia",
+    "c": 0.8544,
+    "lg": "uefa.nations"
+   }
+  ]
+ }
+}

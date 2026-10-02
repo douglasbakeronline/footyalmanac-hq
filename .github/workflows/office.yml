@@ -1,0 +1,54 @@
+name: Office rhythm
+
+# GitHub cron is always UTC. Each UK slot is listed twice (BST = UTC+1, GMT = UTC+0);
+# office.py works out UK time itself and skips anything already done today.
+on:
+  schedule:
+    - cron: "0,30 2 * * *"    # 03:00 / 03:30 BST
+    - cron: "0,30 3 * * *"    # 04:00 BST, 03:00 / 03:30 GMT
+    - cron: "0 4 * * *"       # 04:00 GMT
+    - cron: "0,30 12 * * *"   # 13:00 / 13:30 BST
+    - cron: "0,30 13 * * *"   # 13:00 / 13:30 GMT
+    - cron: "30,45 22 * * *"  # 23:30 / 23:45 BST
+    - cron: "30,45 23 * * *"  # 23:30 / 23:45 GMT
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "What to run now"
+        type: choice
+        options: [standup, report, work]
+        default: standup
+      period:
+        description: "Playback period (report only)"
+        type: choice
+        options: [day, week]
+        default: day
+
+permissions:
+  contents: write
+
+concurrency:
+  group: office
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the office
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/office.py --slot "${{ inputs.slot }}" --period "${{ inputs.period || 'day' }}"
+      - name: Save results
+        run: |
+          git config user.name "footyalmanac-hq[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Office: ${{ inputs.slot || 'scheduled' }} $(TZ=Europe/London date +'%Y-%m-%d %H:%M') UK"
+          git push
