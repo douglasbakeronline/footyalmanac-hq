@@ -1,23 +1,23 @@
 {
- "id": 1790982218443,
- "time": "2026-10-03T00:03:38.443573+01:00",
- "trigger": "on demand",
+ "id": 1790985388979,
+ "time": "2026-10-03T00:56:28.979545+01:00",
+ "trigger": "work",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Model record: 51% over 788 graded games; Daily List 65% (15/23).",
+   "yesterday": "Model record: 51% over 846 graded games; Daily List 67% (16/24).",
    "today": "Focus: Lift accuracy in England Championship (37% over 76 games).",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1271 football fixtures across 159 competitions for 2026-10-02, plus 52 other-sport and 36 tennis matches.",
+   "yesterday": "Swept 1193 football fixtures across 156 competitions for 2026-10-02, plus 52 other-sport and 43 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes.",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 159 competitions matched to a rated team pool.",
+   "yesterday": "0 unrated fixtures in today's slate; 156 competitions matched to a rated team pool.",
    "today": "Recheck club-name matching for new API-Football leagues.",
    "blockers": "None."
   },
@@ -30,36 +30,36 @@
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1271 fixtures; overall log loss is 1.0004.",
+   "today": "Rate today's 1193 fixtures; overall log loss is 1.0061.",
    "blockers": "None."
   },
   {
    "agent": "experiment",
-   "yesterday": "Weekly retune 2026-09-30 passed its gates. Latest test: Record the recency-weighted ratings test (rejected).",
+   "yesterday": "Weekly retune 2026-09-30 passed its gates. Latest test: Review fixes: golden tolerance, refuse unprovable archive entries, CI tests.",
    "today": "Overnight at 23:30: backtest one change aimed at the weakest league.",
    "blockers": "None."
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 2/3, MLB 6/9. Tennis 58% over 249 matches (expected 60%).",
+   "yesterday": "Other sports: NFL 2/3, MLB 6/9. Tennis 58% over 255 matches (expected 60%).",
    "today": "Build up NBA and rugby graded history before they go on the board.",
    "blockers": "NBA and rugby have no graded games yet."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-10-01: 17/32 correct (53%). Daily List misses: Azerbaijan v Liechtenstein (85%, finished 0-0).",
+   "yesterday": "Graded 2026-10-02: 27/58 correct (47%).",
    "today": "Grade early kick-offs at 13:00 and the full day at 23:30.",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 60%-70% won 76% vs 64% expected (78 games).",
-   "today": "Track tiers: Strong 77% vs 79%, Firm 76% vs 69%, Lean 68% vs 59%.",
+   "yesterday": "Biggest calibration gap: picks at 60%-70% won 73% vs 64% expected (85 games).",
+   "today": "Track tiers: Strong 76% vs 79%, Firm 75% vs 69%, Lean 67% vs 59%.",
    "blockers": "None."
   },
   {
    "agent": "curator",
-   "yesterday": "Daily List for 2026-10-02: 21 picks. Top: Albania v San Marino 98%; Argentina v Benin 97%; Belarus v San Marino 96%.",
+   "yesterday": "Daily List for 2026-10-02: 20 picks. Top: Albania v San Marino 98%; Argentina v Benin 97%; Belarus v San Marino 96%.",
    "today": "Re-rank at 13:00 if any team news shifts confidence.",
    "blockers": "None."
   },
@@ -81,7 +81,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.6522,
+   "actual": 0.6667,
    "target": 0.7,
    "fmt": "pct",
    "higher": true,
@@ -90,7 +90,7 @@
   {
    "owner": "chief",
    "name": "Overall hit rate",
-   "actual": 0.5089,
+   "actual": 0.5059,
    "target": 0.55,
    "fmt": "pct",
    "higher": true,
@@ -99,7 +99,7 @@
   {
    "owner": "ratings",
    "name": "Strong tier hit rate",
-   "actual": 0.766,
+   "actual": 0.7551,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -108,7 +108,7 @@
   {
    "owner": "calib",
    "name": "Largest calibration gap",
-   "actual": 0.1139,
+   "actual": 0.08900000000000008,
    "target": 0.05,
    "fmt": "pct",
    "higher": false,
@@ -117,7 +117,7 @@
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 159,
+   "actual": 156,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -180,27 +180,26 @@
  ],
  "star": "scout",
  "wins": [
-  "Argentina v Bolivia (98%) finished 4-0"
+  "Minija v Kauno \u017dalgiris II (85%) finished 5-0"
  ],
  "dev": [],
  "shipped": [],
  "lessons": [
-  "Daily List miss: Azerbaijan v Liechtenstein (85%, finished 0-0)",
-  "Calibration: 60%-70% band won 76% vs 64% expected",
+  "Calibration: 60%-70% band won 73% vs 64% expected",
   "Weakest league: England Championship at 37% over 76 games"
  ],
  "stats": {
-  "fixtures": 1271,
-  "competitions": 159,
-  "listPicks": 21,
-  "overallAcc": 0.5089,
-  "listAcc": 0.6522,
-  "listN": 23,
-  "graded": 788,
-  "logLoss": 1.0004,
-  "dayAcc": 0.5312,
-  "dayDate": "2026-10-01",
-  "tennisAcc": 0.5823,
+  "fixtures": 1193,
+  "competitions": 156,
+  "listPicks": 20,
+  "overallAcc": 0.5059,
+  "listAcc": 0.6667,
+  "listN": 24,
+  "graded": 846,
+  "logLoss": 1.0061,
+  "dayAcc": 0.4655,
+  "dayDate": "2026-10-02",
+  "tennisAcc": 0.5843,
   "runsOk": 8,
   "runsTotal": 10,
   "tiers": [
@@ -208,81 +207,86 @@
     "name": "Strong",
     "k": 3,
     "min": 0.7,
-    "n": 47,
-    "correct": 36,
-    "hit": 0.766,
-    "expected": 0.7862,
+    "n": 49,
+    "correct": 37,
+    "hit": 0.7551,
+    "expected": 0.7859,
     "drawnOut": 8
    },
    {
     "name": "Firm",
     "k": 2,
     "min": 0.62,
-    "n": 50,
-    "correct": 38,
-    "hit": 0.76,
-    "expected": 0.6949,
+    "n": 52,
+    "correct": 39,
+    "hit": 0.75,
+    "expected": 0.6924,
     "drawnOut": 4
    },
    {
     "name": "Lean",
     "k": 1,
     "min": 0.55,
-    "n": 85,
-    "correct": 58,
-    "hit": 0.6824,
-    "expected": 0.5917,
-    "drawnOut": 15
+    "n": 93,
+    "correct": 62,
+    "hit": 0.6667,
+    "expected": 0.5914,
+    "drawnOut": 16
    },
    {
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 606,
-    "correct": 269,
-    "hit": 0.4439,
-    "expected": 0.4458,
-    "drawnOut": 159
+    "n": 652,
+    "correct": 290,
+    "hit": 0.4448,
+    "expected": 0.446,
+    "drawnOut": 171
    }
   ],
   "bands": [
    {
     "from": 0.0,
     "to": 0.4,
-    "n": 161,
-    "hit": 0.3789,
+    "n": 174,
+    "hit": 0.3851,
     "expected": 0.3755
    },
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 324,
+    "n": 347,
     "hit": 0.4784,
-    "expected": 0.4486
+    "expected": 0.4483
    },
    {
     "from": 0.5,
     "to": 0.6,
-    "n": 169,
-    "hit": 0.4852,
-    "expected": 0.5431
+    "n": 182,
+    "hit": 0.4835,
+    "expected": 0.5437
    },
    {
     "from": 0.6,
     "to": 0.7,
-    "n": 78,
-    "hit": 0.7564,
-    "expected": 0.6425
+    "n": 85,
+    "hit": 0.7294,
+    "expected": 0.6404
    },
    {
     "from": 0.7,
     "to": 1.0,
-    "n": 56,
-    "hit": 0.7857,
-    "expected": 0.7937
+    "n": 58,
+    "hit": 0.7759,
+    "expected": 0.7932
    }
   ],
   "days": [
+   {
+    "date": "2026-10-02",
+    "acc": 0.4655,
+    "n": 58
+   },
    {
     "date": "2026-10-01",
     "acc": 0.5312,
@@ -347,11 +351,6 @@
     "date": "2026-09-14",
     "acc": 0.75,
     "n": 8
-   },
-   {
-    "date": "2026-09-13",
-    "acc": 0.4583,
-    "n": 24
    }
   ],
   "weak": [
@@ -413,14 +412,14 @@
     "lg": "concacaf.nations"
    },
    {
-    "m": "Minija v Kauno \u017dalgiris II",
-    "c": 0.8546,
-    "lg": "af.361"
-   },
-   {
     "m": "Switzerland v North Macedonia",
     "c": 0.8544,
     "lg": "uefa.nations"
+   },
+   {
+    "m": "Russia v Namibia",
+    "c": 0.8474,
+    "lg": "friendly"
    }
   ]
  }
