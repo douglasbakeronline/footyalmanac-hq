@@ -55,9 +55,29 @@ def gather():
     _, spreds = latest_dir_file("predictions-sports")
     _, tpreds = latest_dir_file("predictions-tennis")
     commits = gh_json(["api", f"repos/{REPO}/commits?per_page=40"]) or []
-    runs = gh_json(["run", "list", "-R", REPO, "-L", "15", "--json", "name,conclusion,status,createdAt,url"]) or []
-    return dict(rec=rec, calib=calib, tune=tune, srec=srec, trec=trec, pdate=(pname or "").replace(".json", ""),
+    runs = gh_json(["run", "list", "-R", REPO, "--workflow", "deploy.yml", "-L", "15", "--json", "name,conclusion,status,createdAt,url"]) or []
+    prs = agent_prs()
+    return dict(prs=prs, rec=rec, calib=calib, tune=tune, srec=srec, trec=trec, pdate=(pname or "").replace(".json", ""),
                 preds=preds or [], spreds=spreds or [], tpreds=tpreds or [], commits=commits, runs=runs)
+
+def agent_prs():
+    """Real development work: pull requests the office agents opened on footyalmanac."""
+    out = []
+    for p in gh_json(["pr", "list", "-R", REPO, "--label", "office-agent", "--state", "all", "-L", "30",
+                      "--json", "number,title,state,url,createdAt,mergedAt,labels"]) or []:
+        lab = {l["name"] for l in p.get("labels", [])}
+        owner = next((l[6:] for l in lab if l.startswith("agent:")), None)
+        if p["state"] == "MERGED": status = "shipped"
+        elif p["state"] == "CLOSED": status = "closed"
+        elif "hold" in lab: status = "on hold"
+        elif "needs-owner" in lab: status = "waiting for Douglas"
+        elif "auto-merge-ok" in lab: status = "ships at 22:00"
+        else: status = "open"
+        out.append({"n": p["number"], "title": p["title"], "url": p["url"], "owner": owner, "status": status,
+                    "opened": p["createdAt"], "merged": p.get("mergedAt")})
+    return out
+
+def pr_line(p): return f"PR #{p['n']} {p['title'].split('] ',1)[-1]} ({p['status']})"
 
 LOCK = threading.Lock()
 CACHE = {"d": None, "at": 0}
@@ -127,6 +147,11 @@ def _build(d, trigger):
     say("engineer", f"{ok}/{min(10,len(runs))} recent 'Rebuild and publish' runs green.",
         "Keep the build ahead of the 03:00 sweep.", "None." if not failed else f"Failed: {failed[0]['name']} {failed[0]['createdAt'][:16]}")
 
+    prs = d.get("prs") or []
+    for line in L:
+        mine = [p for p in prs if p["owner"] == line["agent"] and p["status"] not in ("closed",)][:1]
+        if mine: line["today"] += f" Dev work: {pr_line(mine[0])}."
+    shipped = [p for p in prs if p["status"] == "shipped"]
     tiers = {t["name"]: t for t in rec.get("tiers", [])}
     strong = tiers.get("Strong", {})
     maxgap = max((abs(b["hit"] - b["expected"]) for b in bands), default=None)
@@ -161,6 +186,7 @@ def _build(d, trigger):
     s = {"id": int(time.time() * 1000), "time": datetime.now(UK).isoformat(), "trigger": trigger, "lines": L,
          "objectives": OBJ, "star": star["owner"],
          "wins": [f"{g['home']} v {g['away']} ({pct(g['confidence'])}) finished {g['result'][0]}-{g['result'][1]}" for g in sorted(hits, key=lambda g: -g["confidence"])[:5]],
+         "dev": prs[:12], "shipped": [pr_line(p) + f" by {NAMES.get(p['owner'], p['owner'])}" for p in shipped[:6]],
          "lessons": ([f"Daily List miss: {m}" for m in misses[:3]] +
                      ([f"Calibration: {pct(gap['from'])}-{pct(gap['to'])} band won {pct(gap['hit'])} vs {pct(gap['expected'])} expected"] if gap else []) +
                      ([f"Weakest league: {weak[0][1]} at {pct(weak[0][0])} over {weak[0][2]} games"] if weak else [])),
@@ -185,6 +211,7 @@ def build_report(period="day"):
     chats = [c for c in STATE["chats"] if datetime.fromisoformat(c["time"]) >= since][:20]
     r = {"id": int(time.time() * 1000), "time": datetime.now(UK).isoformat(), "period": period,
          "objectives": s["objectives"], "star": s["star"], "wins": s["wins"], "lessons": s["lessons"],
+         "dev": s.get("dev", []), "shipped": [x for x in s.get("shipped", []) if True],
          "standups": len(recent), "trend": trend, "chats": chats, "stats": s["stats"],
          "next": [o["name"] + " — " + o["owner"] for o in s["objectives"] if o["status"] in ("behind", "at risk")][:5]}
     STATE["reports"].insert(0, r); STATE["reports"] = STATE["reports"][:60]; _save("reports.json", STATE["reports"])
@@ -223,7 +250,7 @@ def make_chats(s, n=2):
 def write_activity():
     cm = gh_json(["api", f"repos/{REPO}/commits?per_page=20"]) or []
     runs = gh_json(["run", "list", "-R", REPO, "-L", "10", "--json", "name,conclusion,createdAt,url"]) or []
-    _save("activity.json", {"fetched": datetime.now(UK).isoformat(),
+    _save("activity.json", {"prs": agent_prs(), "fetched": datetime.now(UK).isoformat(),
         "commits": [{"sha": c["sha"][:7], "msg": c["commit"]["message"].split("\n")[0], "date": c["commit"]["author"]["date"], "url": c["html_url"]} for c in cm if isinstance(c, dict)],
         "runs": runs})
 

@@ -1,6 +1,6 @@
 {
- "id": 1790979695957,
- "time": "2026-10-02T23:21:35.957671+01:00",
+ "id": 1790982218443,
+ "time": "2026-10-03T00:03:38.443573+01:00",
  "trigger": "on demand",
  "lines": [
   {
@@ -23,7 +23,7 @@
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 9/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 8/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps.",
    "blockers": "None."
   },
@@ -65,7 +65,7 @@
   },
   {
    "agent": "engineer",
-   "yesterday": "9/10 recent 'Rebuild and publish' runs green.",
+   "yesterday": "8/10 recent 'Rebuild and publish' runs green.",
    "today": "Keep the build ahead of the 03:00 sweep.",
    "blockers": "None."
   },
@@ -135,16 +135,16 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 0.9,
+   "actual": 0.8,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
-   "status": "at risk"
+   "status": "behind"
   },
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 0.9,
+   "actual": 0.8,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
@@ -182,6 +182,8 @@
  "wins": [
   "Argentina v Bolivia (98%) finished 4-0"
  ],
+ "dev": [],
+ "shipped": [],
  "lessons": [
   "Daily List miss: Azerbaijan v Liechtenstein (85%, finished 0-0)",
   "Calibration: 60%-70% band won 76% vs 64% expected",
@@ -199,7 +201,7 @@
   "dayAcc": 0.5312,
   "dayDate": "2026-10-01",
   "tennisAcc": 0.5823,
-  "runsOk": 9,
+  "runsOk": 8,
   "runsTotal": 10,
   "tiers": [
    {

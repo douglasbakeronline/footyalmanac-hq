@@ -1,6 +1,13 @@
 {
- "fetched": "2026-10-02T23:21:37.082626+01:00",
+ "prs": [],
+ "fetched": "2026-10-03T00:03:39.898354+01:00",
  "commits": [
+  {
+   "sha": "24f4cbd",
+   "msg": "Office agents: unattended daily development with a gated merge window",
+   "date": "2026-10-02T23:01:37Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/24f4cbde118dded75b01700fcc1f92058c70189b"
+  },
   {
    "sha": "cb83e16",
    "msg": "Archive predictions and record for 2026-10-02",
@@ -114,15 +121,39 @@
    "msg": "Archive predictions and record for 2026-09-30",
    "date": "2026-09-30T13:40:33Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f494e9bb4c9d3f9cdd4e8cfef52ac8cbf2342025"
-  },
-  {
-   "sha": "5271e6a",
-   "msg": "Handover: paid data and new sports plan",
-   "date": "2026-09-30T13:36:46Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5271e6a3f26bb0eb8ca5e42810f0d3bd08add1cf"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-02T23:01:48Z",
+   "name": "Office merge window",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37075559578"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-02T23:01:46Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37075557070"
+  },
+  {
+   "conclusion": "",
+   "createdAt": "2026-10-02T23:01:41Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37075549386"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-02T22:43:56Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37074040427"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-02T22:36:46Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37073419254"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-02T21:10:57Z",
@@ -152,36 +183,6 @@
    "createdAt": "2026-09-30T16:24:40Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/36743986873"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-09-30T15:44:53Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/36739077368"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-09-30T15:30:20Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/36737240763"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-09-30T15:16:03Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/36735410788"
-  },
-  {
-   "conclusion": "cancelled",
-   "createdAt": "2026-09-30T15:13:30Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/36735078865"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-09-30T14:41:51Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/36731064399"
   }
  ]
 }
