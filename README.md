@@ -16,7 +16,7 @@ The AI agent office for [footyalmanac](https://github.com/douglasbakeronline/foo
 | 23:30 | Results & experiments |
 | 23:45 | Daily playback (weekly on Sundays) |
 
-- `docs/index.html` is the 3D office. It only reads `docs/data/*.json`, so it can be hosted anywhere static.
+- `docs/index.html` is the 3D office. The Picks tab answers questions like "Saturday picks" or "Sunday Premier League" straight from footyalmanac's published predictions, so it uses no AI tokens. It only reads `docs/data/*.json`, so it can be hosted anywhere static.
 
 ## Run something now
 Actions → Office rhythm → Run workflow → pick `standup`, `report` or `work`.

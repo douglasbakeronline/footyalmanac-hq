@@ -38,11 +38,16 @@ main{flex:1;display:grid;grid-template-columns:1fr 400px;min-height:0}
 .hud button{background:#1b1612e6;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:6px 10px;font:500 12px "General Sans";cursor:pointer}
 .hud button:hover{border-color:var(--acc)}
 .banner{position:absolute;left:50%;top:14px;transform:translateX(-50%);background:#1b1612e6;border:1px solid var(--acc);border-radius:999px;padding:6px 16px;font-size:12px;display:none}
-aside{border-left:1px solid var(--line);display:flex;flex-direction:column;min-height:0;background:var(--panel)}
+aside{min-width:0;border-left:1px solid var(--line);display:flex;flex-direction:column;min-height:0;background:var(--panel)}
 .tabs{display:flex;border-bottom:1px solid var(--line)}
 .tabs{overflow-x:auto;scrollbar-width:none}.tabs div{flex:1 0 auto;text-align:center;padding:11px 9px;cursor:pointer;color:var(--mut);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.1em}
 .tabs .on{color:var(--txt);box-shadow:inset 0 -2px var(--acc)}
 .pane{flex:1;overflow:auto;padding:14px 16px;display:none}.pane.on{display:block}
+.ask{display:flex;gap:6px;margin:4px 0 8px}.ask input{flex:1;min-width:0;background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:8px 10px;font:500 13px "General Sans"}.ask input:focus{outline:2px solid var(--acc);outline-offset:1px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}.chips .sbtn{font-size:11px;padding:4px 8px}
+.qa{margin:10px 0 14px}.qa .q{color:var(--mut);font-size:12px;margin-bottom:6px}.qa .a{background:var(--panel2);border:1px solid var(--line);border-left:3px solid #62d68f;border-radius:8px;padding:10px 12px;font-size:12.5px;line-height:1.45}
+.pk{display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:2px 8px;padding:7px 0;border-bottom:1px solid var(--line)}.pk:last-child{border-bottom:0}.pk .tm{color:var(--mut);font-variant-numeric:tabular-nums;font-size:11.5px}.pk .m b{color:var(--txt)}.pk .lg{grid-column:2/4;color:var(--mut);font-size:11px}.pk .cf{font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+.ptag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border:1px solid var(--line);border-radius:4px;padding:0 4px;margin-left:4px;color:var(--mut)}.ptag.l{color:#62d68f;border-color:#62d68f55}.ptag.w{color:#ffb86b;border-color:#ffb86b55}
 .k{color:var(--mut);font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;font-weight:600}
 .msg{margin:0 0 10px;padding:9px 11px;border-radius:10px;background:var(--panel2);border-left:3px solid;transition:background .3s}
 .msg.now{background:#3a2c1c}
@@ -63,7 +68,7 @@ td.n{text-align:right;font-family:"JetBrains Mono",monospace}
 .foot{padding:8px 16px;border-top:1px solid var(--line);color:var(--mut);font-size:11px}
 .card{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:14px}
 .skel{height:14px;border-radius:6px;background:linear-gradient(90deg,#2a221b,#3a2f25,#2a221b);background-size:200% 100%;animation:sk 1.2s infinite;margin:8px 0}@keyframes sk{to{background-position:-200% 0}}
-@media(max-width:980px){main{grid-template-columns:1fr;grid-template-rows:58vh 1fr}aside{border-left:0;border-top:1px solid var(--line)}.roster{display:none}}
+@media(max-width:980px){main{grid-template-columns:minmax(0,1fr);grid-template-rows:58vh 1fr}aside{border-left:0;border-top:1px solid var(--line)}.roster{display:none}}
 button.cta.ghost{background:transparent;color:var(--acc);border:1px solid var(--acc)}
 .chipS{display:inline-block;padding:1px 8px;border-radius:999px;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
 .s-on{background:#1f3a2a;color:var(--good)}.s-risk{background:#3a2f1a;color:var(--acc)}.s-behind{background:#3a1f1f;color:var(--bad)}.s-nodata{background:#2a2a2a;color:var(--mut)}
@@ -88,9 +93,9 @@ ul.l{margin:4px 0 14px;padding-left:18px;font-size:12.5px}ul.l li{margin:4px 0}
 <main>
  <div id="stage"><div id="labels"></div><div class="banner" id="banner"></div><div class="hud" id="hud"></div></div>
  <aside>
-  <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
+  <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
   <div class="pane on" id="log"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
-  <div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
+  <div class="pane" id="picks"></div><div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
   <div class="foot" id="foot">Loading office data…</div>
  </aside>
 </main>
@@ -521,6 +526,43 @@ function renderRhythm(n){const nxt=RHYTHM.map(r=>({...r,d:(toMin(r.t)-n+1440)%14
  $("#rhy").innerHTML=`<div class="k">Daily rhythm · UK time</div><p style="color:var(--mut);font-size:12.5px;margin:6px 0 4px">Work runs from 03:00 so everything is surfaced by the 04:00 stand-up. A second cycle at 13:00 re-checks data and accuracy, and the day closes with a business playback.</p><div class="tl">`+
  RHYTHM.map(r=>`<div class="it ${r.kind!=="work"?"su":""} ${r.t===nxt.t?"next":""}"><span class="t">${r.t}</span><b>${r.name}</b>${r.t===nxt.t?' <span class="k" style="color:var(--acc)">· next</span>':""}<div style="color:var(--mut);font-size:12.5px">${r.desc}</div><div style="margin-top:4px;display:flex;gap:4px;flex-wrap:wrap">${(r.who==="all"?AGENTS.map(a=>a.id):r.who).map(id=>`<span class="av" title="${AG[id].name}" style="background:${DEPT[AG[id].d].c};width:20px;height:20px">${AG[id].name[0]}</span>`).join("")}</div></div>`).join("")+
  `<div class="it"><span class="t">Sun</span><b>Weekly playback</b><div style="color:var(--mut);font-size:12.5px">Sunday's 23:45 playback covers the whole week.</div></div><div class="it"><span class="t">Mon</span><b>Weekly retune</b><div style="color:var(--mut);font-size:12.5px">Model refit with pass/fail gates, reviewed at the Monday morning stand-up.</div></div></div>`+(EVENTS.length?`<div class="k" style="margin-top:16px">Recent runs</div>`+EVENTS.slice(0,12).map(e=>`<div class="row"><b class="mono">${fmt(e.time)}</b> · ${e.name}<br><span style="color:var(--mut)">${e.summary||""}</span></div>`).join(""):"")}
+/* ---------- picks desk: answered from the published predictions, no AI tokens ---------- */
+let PICKS=null;const DOW=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+async function loadPicks(){try{PICKS=await J("picks.json");if(!$("#picks").dataset.ready)renderPicksDesk()}catch(e){$("#picks").innerHTML="<p class='k'>Picks are not published yet.</p>"}}
+function ukToday(){return new Date().toLocaleDateString("en-CA",{timeZone:"Europe/London"})}
+function addDays(iso,n){const d=new Date(iso+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)}
+function dayName(iso){return new Date(iso+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"short",timeZone:"UTC"})}
+function answer(q){const t=q.toLowerCase(),days=PICKS.days.map(d=>d.date),today=ukToday();let want=[];
+ if(/weekend/.test(t)){for(const d of days){const w=new Date(d+"T12:00:00Z").getUTCDay();if((w===6||w===0)&&d>=today)want.push(d)}want=want.slice(0,2)}
+ else if(/tomorrow/.test(t))want=[addDays(today,1)];
+ else{const w=DOW.findIndex(x=>t.includes(x)||t.includes(x.slice(0,3)+" ")||t.endsWith(x.slice(0,3)));if(w>=0){want=days.filter(d=>d>=today&&new Date(d+"T12:00:00Z").getUTCDay()===w).slice(0,1)}
+  const m=t.match(/(\d{1,2})(st|nd|rd|th)?\s*(oct|nov|dec|jan|feb|mar|apr|may|jun|jul|aug|sep)/);if(m){const mo=["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"].indexOf(m[3])+1;want=days.filter(d=>+d.slice(5,7)===mo&&+d.slice(8)===+m[1])}}
+ if(!want.length)want=[days.includes(today)?today:days[0]];
+ const strong=/strong|banker|best|safest|safe|certain|lock/.test(t),btts=/btts|both teams/.test(t),over=/over|goals/.test(t),draw=/draw/.test(t);
+ const stop=new Set("give me show the for on and of a an what are is picks pick tips tip predictions prediction games game fixtures matches match today tomorrow weekend this next please any top best strong bankers banker safest safe list daily btts both teams to score over goals draw draws who will win winners".split(" ").concat(DOW,DOW.map(x=>x.slice(0,3))));
+ const ALIAS=[["scottish premiership","sco.1"],["scottish championship","sco.2"],["2. bundesliga","de.2"],["premier league","en.1"],["epl","en.1"],["championship","en.2"],["league one","en.3"],["league two","en.4"],["national league","en.5"],["la liga","es.1"],["laliga","es.1"],["bundesliga","de.1"],["serie a","it.1"],["serie b","it.2"],["ligue 1","fr.1"],["ligue 2","fr.2"],["eredivisie","nl.1"],["primeira liga","pt.1"],["mls","us.1"]];
+ let code=null,tt=t;for(const [k,c] of ALIAS){if(tt.includes(k)){code=c;tt=tt.replace(k," ");break}}
+ const words0=tt.replace(/[^a-z0-9 .]/g," ").split(/\s+/).filter(w=>w.length>2&&!stop.has(w)&&!/^\d/.test(w));
+ if(words0.length)code=null;
+ const words=code?[]:t.replace(/[^a-z0-9 .]/g," ").split(/\s+/).filter(w=>w.length>2&&!stop.has(w)&&!/^\d/.test(w));
+ let out=[];for(const d of want){const day=PICKS.days.find(x=>x.date===d);if(!day)continue;let g=day.games;
+  if(code&&!words.length){g=g.filter(x=>x.lg===code)}
+  else if(words.length){g=g.filter(x=>words.every(w=>(x.lgName+" "+x.country+" "+x.h+" "+x.a).toLowerCase().includes(w)))}
+  else if(!btts&&!over&&!draw){g=g.filter(x=>x.list||x.reserve)}
+  if(strong)g=g.filter(x=>x.c>=0.7);if(draw)g=g.filter(x=>x.side==="d"||(x.p&&x.p.d>=0.3));
+  if(btts)g=[...g].sort((a,b)=>b.btts-a.btts);else if(over)g=[...g].sort((a,b)=>b.o25-a.o25);
+  out.push({d,games:g.slice(0,words.length||code?25:20),total:g.length,listN:day.games.filter(x=>x.list).length})}
+ return {out,words,code,strong,btts,over};}
+const LGN={"en.1":"Premier League","en.2":"Championship","en.3":"League One","en.4":"League Two","en.5":"National League","sco.1":"Scottish Premiership","sco.2":"Scottish Championship","es.1":"La Liga","de.1":"Bundesliga","de.2":"2. Bundesliga","it.1":"Serie A","it.2":"Serie B","fr.1":"Ligue 1","fr.2":"Ligue 2","nl.1":"Eredivisie","pt.1":"Primeira Liga","us.1":"MLS"};
+function pickRow(x,mode){const val=mode==="btts"?x.btts:mode==="over"?x.o25:x.c;const lab=mode==="btts"?"BTTS":mode==="over"?"O2.5":x.pick;
+ return `<div class="pk"><span class="tm">${x.ko?new Date(x.ko).toLocaleTimeString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit"}):x.t||""}</span><span class="m"><b>${x.h}</b> v <b>${x.a}</b> · ${lab}${x.list?'<span class="ptag l">List</span>':x.reserve?'<span class="ptag">Reserve</span>':""}${x.celtic?'<span class="ptag w">Celtic flag</span>':""}</span><span class="cf">${pct(val)}</span><span class="lg">${x.lgName}${x.score?` · likely ${x.score[0]}-${x.score[1]}`:""}${x.hit!=null&&mode!=="btts"&&mode!=="over"?` · calls at this level won ${pct(x.hit)} in testing (${x.hitN})`:""}</span></div>`}
+function ask(q){if(!PICKS||!q.trim())return;const r=answer(q),mode=r.btts?"btts":r.over?"over":"pick";
+ const body=r.out.map(o=>`<div class="k" style="margin-top:6px">${dayName(o.d)} · ${o.total} ${r.words.length||r.code?"games":r.btts||r.over?"games":"picks"}${!r.words.length&&!r.code&&!r.btts&&!r.over?` (${o.listN} clear the ${pct(PICKS.bar)} bar)`:""}</div>`+(o.games.length?o.games.map(x=>pickRow(x,mode)).join(""):`<div class="row" style="color:var(--mut)">${r.code?`No ${LGN[r.code]} games that day${PICKS.days.find(d=>d.games.some(x=>x.lg===r.code))?`. Next: ${dayName(PICKS.days.find(d=>d.date>o.d&&d.games.some(x=>x.lg===r.code))?.date||PICKS.days.find(d=>d.games.some(x=>x.lg===r.code)).date)}`:" in the published week (international break?)"}.`:"Nothing matches that on this day."}</div>`)).join("")||`<div class="row" style="color:var(--mut)">That day isn't published yet. Picks cover ${dayName(PICKS.days[0].date)} to ${dayName(PICKS.days.at(-1).date)}.</div>`;
+ const intro=r.btts?"Most likely both-teams-to-score games. BTTS is weaker than the winner board, so treat it as a lean.":r.over?"Most likely over 2.5 goals games.":r.strong?"Strong calls only (70% and up), strongest first.":r.code?`${LGN[r.code]} games, strongest first.`:r.words.length?`Everything I have for "${r.words.join(" ")}", strongest first.`:"The Daily List first, then the reserve, strongest first.";
+ const el=document.createElement("div");el.className="qa";el.innerHTML=`<div class="q">You: ${q.replace(/</g,"&lt;")}</div><div class="a"><b style="color:#62d68f">Nina · Picks Curator</b><br>${intro}${body}<div style="color:var(--mut);font-size:11px;margin-top:8px">Model probabilities from the ${fmt(PICKS.generated)} build. Kick-offs in UK time. No bookmaker prices. Not betting advice.</div></div>`;
+ $("#pkAns").prepend(el)}
+function renderPicksDesk(){const p=$("#picks");p.dataset.ready=1;p.innerHTML=`<div class="k">Ask the Picks desk</div><form class="ask" id="pkForm"><input id="pkQ" placeholder="e.g. Saturday picks, Sunday Premier League, weekend strong" aria-label="Ask for picks"><button class="sbtn">Ask</button></form><div class="chips">${["Today's picks","Saturday picks","Sunday picks","Weekend strong picks","Saturday Premier League","Saturday Championship","Saturday BTTS"].map(c=>`<button class="sbtn" type="button">${c}</button>`).join("")}</div><div id="pkAns"></div>`;
+ $("#pkForm").onsubmit=e=>{e.preventDefault();ask($("#pkQ").value);$("#pkQ").value=""};p.querySelectorAll(".chips .sbtn").forEach(b=>b.onclick=()=>ask(b.textContent));ask("Saturday picks")}
 let EVENTS=[];async function loadEvents(){try{EVENTS=await J("events.json");rhythmTick()}catch(e){}}
 
 /* ---------- panels ---------- */
@@ -656,5 +698,5 @@ $("#present").onclick=()=>present();
 document.fonts.ready.then(async()=>{rhythmTick();await poll(true);loadReports();loadChats();loadGH()});
 J("rhythm.json").then(d=>{if(d.rhythm)RHYTHM=d.rhythm;rhythmTick()}).catch(()=>{});
 setInterval(()=>poll(false),20000);setInterval(loadGH,180000);setInterval(loadReports,120000);setInterval(loadChats,60000);
-setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);
+setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);loadPicks();setInterval(()=>J("picks.json").then(d=>PICKS=d).catch(()=>{}),600000);
 </script></body></html>

@@ -247,6 +247,32 @@ def make_chats(s, n=2):
     STATE["chats"] = out + STATE["chats"]; STATE["chats"] = STATE["chats"][:200]; _save("chats.json", STATE["chats"])
     return out
 
+SITE_DATA = "https://douglasbakeronline.github.io/footyalmanac/data.json"
+
+def write_picks():
+    """The next seven days of picks from footyalmanac's published site data, for the Picks desk. No AI tokens."""
+    import urllib.request
+    try:
+        with urllib.request.urlopen(SITE_DATA, timeout=60) as r: d = json.load(r)
+    except Exception as e:
+        print("picks: could not fetch site data:", e); return
+    days = []
+    for day in d.get("days", []):
+        games = []
+        for g in sorted(day.get("games", []), key=lambda g: -(g.get("confidence") or 0)):
+            p = g.get("p") or {}
+            side = max(p, key=p.get) if p else "h"
+            acc = g.get("accuracy") or {}
+            games.append({"t": g.get("time"), "ko": g.get("kickoff"), "lg": g.get("league"), "lgName": g.get("leagueName"),
+                          "country": g.get("country"), "h": g["home"]["name"], "a": g["away"]["name"], "side": side,
+                          "pick": {"h": g["home"]["name"], "a": g["away"]["name"], "d": "Draw"}[side],
+                          "c": g.get("confidence"), "p": p, "score": g.get("score"), "btts": g.get("btts"), "o25": g.get("over25"),
+                          "hit": acc.get("hit"), "hitN": acc.get("n"), "celtic": bool(g.get("celtic")),
+                          "list": bool(g.get("list")), "reserve": bool(g.get("reserve")), "unrated": bool(g.get("unrated"))})
+        days.append({"date": day["date"], "count": len(games), "games": games})
+    _save("picks.json", {"generated": d.get("generated"), "fetched": datetime.now(UK).isoformat(),
+                         "bar": (d.get("list") or {}).get("min"), "days": days})
+
 def write_activity():
     cm = gh_json(["api", f"repos/{REPO}/commits?per_page=20"]) or []
     runs = gh_json(["run", "list", "-R", REPO, "-L", "10", "--json", "name,conclusion,createdAt,url"]) or []
@@ -274,7 +300,7 @@ def run(slot=None, force=False):
             if timedelta(0) <= now - at <= timedelta(minutes=95) and f"{today}-{item['t']}" not in done:
                 due.append(item)
     if not due:
-        print("Nothing due at", now.strftime("%H:%M"), "UK"); write_activity(); return
+        print("Nothing due at", now.strftime("%H:%M"), "UK"); write_activity(); write_picks(); return
     for item in due:
         key = f"{today}-{item['t']}" + ("-manual-" + now.strftime("%H%M%S") if slot else "")
         kind = item["kind"]
@@ -289,7 +315,7 @@ def run(slot=None, force=False):
         STATE["events"].insert(0, {"key": key, "time": now.isoformat(), "t": item["t"], "name": item["name"], "kind": kind, "who": item["who"], "summary": summary})
     STATE["events"] = STATE["events"][:300]; _save("events.json", STATE["events"])
     _save("rhythm.json", {"rhythm": RHYTHM, "updated": now.isoformat()})
-    write_activity()
+    write_activity(); write_picks()
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
