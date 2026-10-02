@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 REPO = "douglasbakeronline/footyalmanac"
 UK = ZoneInfo("Europe/London")
 import os
-DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "site", "data")
+DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs", "data")
 os.makedirs(DATA, exist_ok=True)
 def _load(name, default):
     try: return json.load(open(os.path.join(DATA, name)))

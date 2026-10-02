@@ -3,7 +3,7 @@
 The AI agent office for [footyalmanac](https://github.com/douglasbakeronline/footyalmanac): eleven agents who run the prediction business's daily rhythm, hold stand-ups, chat at the water cooler and present a business playback.
 
 ## How it works
-- `scripts/office.py` reads footyalmanac's public data (record, calibration, predictions, builds) and writes stand-ups, objectives, playbacks and chats to `site/data/`.
+- `scripts/office.py` reads footyalmanac's public data (record, calibration, predictions, builds) and writes stand-ups, objectives, playbacks and chats to `docs/data/`.
 - `.github/workflows/office.yml` runs it on the UK rhythm and commits the results:
 
 | UK time | Run |
@@ -16,12 +16,12 @@ The AI agent office for [footyalmanac](https://github.com/douglasbakeronline/foo
 | 23:30 | Results & experiments |
 | 23:45 | Daily playback (weekly on Sundays) |
 
-- `site/index.html` is the 3D office. It only reads `site/data/*.json`, so it can be hosted anywhere static.
+- `docs/index.html` is the 3D office. It only reads `docs/data/*.json`, so it can be hosted anywhere static.
 
 ## Run something now
 Actions → Office rhythm → Run workflow → pick `standup`, `report` or `work`.
 
 ## Local preview
 ```
-python -m http.server -d site 8080
+python -m http.server -d docs 8080
 ```
