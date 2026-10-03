@@ -34,7 +34,8 @@ main{flex:1;display:grid;grid-template-columns:1fr 400px;min-height:0}
 .board header b{font:700 11px "General Sans";letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}.board header span{color:var(--mut);font-size:11px;flex:1}
 .board header button{background:none;border:1px solid var(--line);color:var(--mut);border-radius:6px;font:600 11px "General Sans";padding:3px 7px;cursor:pointer}
 .board .bl{overflow:auto;padding:2px 12px 8px}.board .pk{grid-template-columns:38px minmax(0,1fr) auto;padding:6px 0}.board .pk .lg{font-size:10.5px}
-.board .sub{font:700 10px "General Sans";letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin:10px 0 2px}
+.board .sub,#briefCard .sub{font:700 10px "General Sans";letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin:10px 0 2px}
+#briefCard .sub{margin:12px 0 4px;color:#f0b35a}
 .board.min .bl{display:none}.board .dsw{display:flex;gap:4px;padding:8px 12px 0}.board .dsw button{flex:1;background:var(--panel2);border:1px solid var(--line);color:var(--mut);border-radius:6px;font:600 11px "General Sans";padding:4px 0;cursor:pointer}.board .dsw button.on{color:var(--txt);border-color:var(--acc)}
 .board.min .dsw{display:none}
 @media(max-width:980px){.board{left:8px;top:8px;right:8px;width:auto;max-height:calc(100% - 150px)}}
@@ -197,6 +198,9 @@ let RHYTHM=[
  {t:"03:00",kind:"work",name:"Fixture sweep",who:["scout","quality","source"],desc:"Gather every fixture worldwide and check names, leagues and history."},
  {t:"03:30",kind:"work",name:"Predictions ranked",who:["ratings","curator"],desc:"Rate every match and rank the strongest picks."},
  {t:"04:00",kind:"standup",name:"Morning stand-up",who:"all",desc:"All of today's work surfaced before you wake."},
+ {t:"07:45",kind:"briefing",name:"Douglas's daily briefing",who:["h2","h3","curator","auditor"],desc:"Yesterday, today's big games and why, tomorrow, and three groups of five."},
+ {t:"12:30",kind:"refresh",name:"Groups refresh",who:["h2","h3"],desc:"Re-price and regroup from games still to start."},
+ {t:"17:00",kind:"refresh",name:"Evening groups",who:["h2","h3"],desc:"Late kick-offs regrouped for the evening."},
  {t:"13:00",kind:"work",name:"Midday refresh",who:["scout","quality","auditor"],desc:"Late fixtures, team news, early results graded."},
  {t:"13:30",kind:"standup",name:"Afternoon stand-up",who:"all",desc:"Accuracy check-in and any changes to the board."},
  {t:"23:30",kind:"work",name:"Results & experiments",who:["auditor","calib","experiment"],desc:"Grade the day and run overnight accuracy tests."},
@@ -645,6 +649,21 @@ function renderRhythm(n){const nxt=RHYTHM.map(r=>({...r,d:(toMin(r.t)-n+1440)%14
  `<div class="it"><span class="t">Sun</span><b>Weekly playback</b><div style="color:var(--mut);font-size:12.5px">Sunday's 23:45 playback covers the whole week.</div></div><div class="it"><span class="t">Mon</span><b>Weekly retune</b><div style="color:var(--mut);font-size:12.5px">Model refit with pass/fail gates, reviewed at the Monday morning stand-up.</div></div></div>`+(EVENTS.length?`<div class="k" style="margin-top:16px">Recent runs</div>`+EVENTS.slice(0,12).map(e=>`<div class="row"><b class="mono">${fmt(e.time)}</b> · ${e.name}<br><span style="color:var(--mut)">${e.summary||""}</span></div>`).join(""):"")}
 /* ---------- picks desk: answered from the published predictions, no AI tokens ---------- */
 let PICKS=null;const DOW=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+let BRIEF=null;
+async function loadBrief(){try{BRIEF=await J("briefing.json")}catch(e){BRIEF=null}renderBoard();renderBriefCard()}
+function grpRows(g){return g.legs.map(l=>{const t=l.when?new Date(l.when).toLocaleTimeString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit"}):"";
+ const st=l.status==="won"?'<span class="ptag l">Won</span>':l.status==="lost"?'<span class="ptag w">Lost</span>':"";
+ return `<div class="pk"><span class="tm">${t}</span><span class="m"><b>${l.selection}</b>${st}</span><span class="cf">${(+l.odds).toFixed(2)}${l.est?"*":""}</span><span class="lg">${l.event}${l.comp?` · ${l.comp}`:""} · our chance ${pct(l.p)}</span></div>`}).join("")}
+function grpHead(g){const st=g.status==="won"?" · landed":g.status==="lost"?" · lost":"";return `${g.name} · odds ${(+g.odds).toFixed(2)} · all five ${pct(g.p)}${st}`}
+function groupsHTML(b){if(!b||!b.groups||!b.groups.length)return"";return b.groups.map(g=>`<div class="sub" style="color:#f0b35a">${grpHead(g)}</div>${grpRows(g)}`).join("")+`<div style="color:var(--mut);font-size:10.5px;margin-top:6px">* estimated from the model, no bookmaker price yet · Oscar and Jade, Markets & Groupings · ${fmt(b.time)}</div>`}
+function renderBriefCard(){const el=$("#briefCard");if(!el)return;const b=BRIEF;if(!b||b.date!==ukToday()){el.innerHTML="";return}
+ const y=b.yesterday||{},yl=[];if(y.list)yl.push(`Daily List ${y.list.won}/${y.list.n}`);if(y.tennis)yl.push(`tennis ${y.tennis.correct}/${y.tennis.n}`);if(y.sports)yl.push(`other sports ${y.sports.correct}/${y.sports.n}`);if(y.groups)yl.push(`groups landed ${y.groups.landed}/${y.groups.n}`);
+ const imp=(b.impactful||[]).map(l=>`<div style="margin:4px 0"><b>${l.event}</b> <span style="color:var(--mut)">${l.comp||l.sport}</span><br><span style="font-size:12px">${l.why}</span></div>`).join("");
+ const tom=(b.tomorrow||[]).slice(0,3).map(l=>`<div style="margin:4px 0"><b>${l.event}</b> <span style="color:var(--mut)">${l.comp||l.sport}</span> · ${pct(l.p)} ${l.selection}</div>`).join("");
+ el.innerHTML=`<div class="qa" style="margin-top:0"><div class="a" style="border-left-color:#f0b35a"><div class="k" style="margin:0 0 6px">Daily briefing · ${fmt(b.time)}${b.url?` · <a href="${b.url}" target="_blank" rel="noopener" style="color:var(--acc)">full briefing</a>`:""}</div>
+ ${yl.length?`<div class="sub" style="margin-top:0">Yesterday</div><div style="font-size:12px">${yl.join(" · ")}</div>`:""}
+ ${imp?`<div class="sub">Today: what matters and why</div>${imp}`:""}${tom?`<div class="sub">Tomorrow</div>${tom}`:""}
+ <div class="sub">Three groups of five</div>${groupsHTML(b)||'<div style="font-size:12px;color:var(--mut)">No groups yet today.</div>'}</div></div>`}
 let SLIP=null;
 async function loadSlip(){try{const all=await J("slips.json");SLIP=all.find(x=>x.status==="open")||all.find(x=>Date.now()-new Date(x.time)<36e5*36)||null}catch(e){SLIP=null}renderBoard();renderSlipCard()}
 function slipRows(sl){const legs=sl.legs.slice().sort((a,b)=>(a.when||"9").localeCompare(b.when||"9"));
@@ -689,7 +708,7 @@ function ask(q){if(!PICKS||!q.trim())return;const r=answer(q),mode=r.btts?"btts"
  const intro=r.btts?"Most likely both-teams-to-score games. BTTS is weaker than the winner board, so treat it as a lean.":r.over?"Most likely over 2.5 goals games.":r.strong?"Strong calls only (70% and up), strongest first.":r.code?`${LGN[r.code]} games, strongest first.`:r.words.length?`Everything I have for "${r.words.join(" ")}", strongest first.`:"The Daily List first, then the reserve, strongest first.";
  const el=document.createElement("div");el.className="qa";el.innerHTML=`<div class="q">You: ${q.replace(/</g,"&lt;")}</div><div class="a"><b style="color:#62d68f">Nina · Picks Curator</b><br>${intro}${body}<div style="color:var(--mut);font-size:11px;margin-top:8px">Model probabilities from the ${fmt(PICKS.generated)} build. Kick-offs in UK time. No bookmaker prices. Not betting advice.</div></div>`;
  $("#pkAns").prepend(el)}
-function renderPicksDesk(){const p=$("#picks");p.dataset.ready=1;p.innerHTML=`<div id="slipCard"></div><div id="satCard"></div><div class="k">Ask the Picks desk</div><form class="ask" id="pkForm"><input id="pkQ" placeholder="e.g. Saturday picks, Sunday Premier League, weekend strong" aria-label="Ask for picks"><button class="sbtn">Ask</button></form><div class="chips">${["Today's picks","Saturday picks","Sunday picks","Weekend strong picks","Saturday Premier League","Saturday Championship","Saturday BTTS"].map(c=>`<button class="sbtn" type="button">${c}</button>`).join("")}</div><div id="pkAns"></div>`;
+function renderPicksDesk(){const p=$("#picks");p.dataset.ready=1;p.innerHTML=`<div id="briefCard"></div><div id="slipCard"></div><div id="satCard"></div><div class="k">Ask the Picks desk</div><form class="ask" id="pkForm"><input id="pkQ" placeholder="e.g. Saturday picks, Sunday Premier League, weekend strong" aria-label="Ask for picks"><button class="sbtn">Ask</button></form><div class="chips">${["Today's picks","Saturday picks","Sunday picks","Weekend strong picks","Saturday Premier League","Saturday Championship","Saturday BTTS"].map(c=>`<button class="sbtn" type="button">${c}</button>`).join("")}</div><div id="pkAns"></div>`;renderBriefCard();
  $("#pkForm").onsubmit=e=>{e.preventDefault();ask($("#pkQ").value);$("#pkQ").value=""};p.querySelectorAll(".chips .sbtn").forEach(b=>b.onclick=()=>ask(b.textContent));loadSat()}
 async function loadSat(){try{const all=await J("saturday.json");const b=all.find(x=>x.stage!=="review"),rv=all.find(x=>x.stage==="review");if(!b&&!rv)return;
  const who=l=>`<b style="color:${AG[l.agent]?DEPT[AG[l.agent].d].c:"var(--acc)"}">${AG[l.agent]?.name||l.agent}</b> ${l.text}`;
@@ -702,9 +721,10 @@ function renderBoard(){const el=$("#board");if(!PICKS)return;const today=ukToday
  if(!BOARD_DAY||!days.some(d=>d.date===BOARD_DAY))BOARD_DAY=days[0].date;const day=days.find(d=>d.date===BOARD_DAY);
  const lst=day.games.filter(x=>x.list),res=day.games.filter(x=>x.reserve);const min=el.classList.contains("min");
  const lab=d=>d===today?"Today":d===addDays(today,1)?"Tomorrow":new Date(d+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"short",timeZone:"UTC"});
+ const gOn=BRIEF&&BRIEF.date===today&&day.date===today&&BRIEF.groups&&BRIEF.groups.length;
  el.innerHTML=`<header><b>Daily List</b><span>${dayName(day.date)} · ${lst.length} picks${res.length?` + ${res.length} reserve`:""}</span><button type="button" id="bdMin" aria-expanded="${!min}">${min?"Show":"Hide"}</button></header>
  <div class="dsw">${days.map(d=>`<button type="button" data-d="${d.date}" class="${d.date===BOARD_DAY?"on":""}">${lab(d.date)}</button>`).join("")}</div>
- <div class="bl">${SLIP&&day.date===today?`<div class="sub" style="margin-top:0;color:#ff8a8a">Your slip · ${slipHead(SLIP)}</div>${slipRows(SLIP)}<div class="sub">Daily List</div>`:""}${lst.length?lst.map(x=>pickRow(x,"board")).join(""):`<div class="row" style="color:var(--mut)">No Daily List picks published for this day yet.</div>`}
+ <div class="bl">${SLIP&&day.date===today?`<div class="sub" style="margin-top:0;color:#ff8a8a">Your slip · ${slipHead(SLIP)}</div>${slipRows(SLIP)}${gOn?"":`<div class="sub">Daily List</div>`}`:""}${gOn?`<details class="grp"><summary class="sub" style="cursor:pointer;color:#f0b35a;margin-top:0">Today's groups of five · ${BRIEF.groups.map(g=>g.name+" "+(+g.odds).toFixed(2)).join(" · ")}</summary>${groupsHTML(BRIEF)}</details><div class="sub">Daily List</div>`:""}${lst.length?lst.map(x=>pickRow(x,"board")).join(""):`<div class="row" style="color:var(--mut)">No Daily List picks published for this day yet.</div>`}
  ${res.length?`<div class="sub">Reserve · ${res.length}</div>`+(BOARD_RES?res.map(x=>pickRow(x,"board")).join(""):res.slice(0,5).map(x=>pickRow(x,"board")).join("")+(res.length>5?`<button class="sbtn" type="button" id="bdRes" style="margin:8px 0 2px;width:100%">Show all ${res.length} reserve picks</button>`:"")):""}
  <div style="color:var(--mut);font-size:10.5px;margin-top:8px">UK kick-offs · model probabilities from the ${fmt(PICKS.generated)} build · not betting advice</div></div>`;
  $("#bdMin").onclick=()=>{el.classList.toggle("min");renderBoard()};el.querySelectorAll(".dsw button").forEach(b=>b.onclick=()=>{BOARD_DAY=b.dataset.d;BOARD_RES=false;renderBoard()});
@@ -877,5 +897,5 @@ $("#present").onclick=()=>present();
 document.fonts.ready.then(async()=>{rhythmTick();await poll(true);loadReports();loadChats();loadGH()});
 J("rhythm.json").then(d=>{if(d.rhythm)RHYTHM=d.rhythm;rhythmTick()}).catch(()=>{});
 setInterval(()=>poll(false),20000);setInterval(loadGH,180000);setInterval(loadReports,120000);setInterval(loadChats,60000);
-setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);loadPicks().then(loadSlip);setInterval(loadSlip,120000);setInterval(()=>J("picks.json").then(d=>{PICKS=d;renderBoard()}).catch(()=>{}),600000);if(matchMedia("(max-width:980px)").matches)$("#board").classList.add("min");
+setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);loadPicks().then(()=>{loadSlip();loadBrief()});setInterval(()=>{loadSlip();loadBrief()},120000);setInterval(()=>J("picks.json").then(d=>{PICKS=d;renderBoard()}).catch(()=>{}),600000);if(matchMedia("(max-width:980px)").matches)$("#board").classList.add("min");
 </script></body></html>

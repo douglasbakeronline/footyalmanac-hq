@@ -16,10 +16,65 @@
    "skin": "#e8b996",
    "hair": "#2b1d14",
    "slot": 0
+  },
+  {
+   "id": "h2",
+   "key": "markets-odds",
+   "name": "Oscar",
+   "role": "Odds Analyst",
+   "d": "markets",
+   "kpi": {
+    "type": "priced",
+    "target": 0.6
+   },
+   "reason": "Douglas asked for a desk that checks bookmaker odds on every game we suggest.",
+   "hired": "2026-10-03",
+   "skin": "#b07c58",
+   "hair": "#16100c",
+   "slot": 1,
+   "by": "Douglas"
+  },
+  {
+   "id": "h3",
+   "key": "markets-groups",
+   "name": "Jade",
+   "role": "Accumulator Strategist",
+   "d": "markets",
+   "kpi": {
+    "type": "grouplegs",
+    "target": 0.78
+   },
+   "reason": "Douglas asked for three groups of five each day with a mix of odds for a decent return.",
+   "hired": "2026-10-03",
+   "skin": "#f2d0b4",
+   "hair": "#8a5a2e",
+   "slot": 2,
+   "by": "Douglas"
   }
  ],
- "departments": {},
+ "departments": {
+  "markets": {
+   "name": "Markets & Groupings",
+   "c": "#f0b35a",
+   "opened": "2026-10-03"
+  }
+ },
  "log": [
+  {
+   "date": "2026-10-03",
+   "type": "hire",
+   "text": "Hired Jade as Accumulator Strategist at Douglas's request: three groups of five a day, mixed odds."
+  },
+  {
+   "date": "2026-10-03",
+   "type": "hire",
+   "text": "Hired Oscar as Odds Analyst at Douglas's request: bookmaker prices on every suggested leg."
+  },
+  {
+   "date": "2026-10-03",
+   "type": "department",
+   "text": "Opened a new department: Markets & Groupings."
+  },
   {
    "date": "2026-10-03",
    "type": "hire",

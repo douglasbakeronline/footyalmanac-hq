@@ -50,3 +50,12 @@ Tell the agents what you've backed and they'll give their read, show it on the h
 - Run the Office rhythm workflow with slot `slip` and your selections.
 
 Each leg is matched to footyalmanac's published pick, with our probability, whether the model agrees and the combined chance. Susie settles legs from the graded records at each office run and closes the issue when everything is in.
+
+## Markets & Groupings (Oscar and Jade)
+
+Every morning at 07:45 UK you get a daily briefing as a GitHub issue (so it lands in your email): yesterday's results, today's most important games and why, tomorrow's, and three groups of five. Groups are refreshed at 12:30 and 17:00 from games still to start, as comments on the same issue. The home screen and Picks tab show the latest.
+
+- Steady: combined odds 2.5 to 4. Balanced: 4 to 7. Stretch: 7 to 14.
+- Each group is the five model picks with the best chance of all winning inside its odds band, no leg used twice, at most two very short legs, mixed sports where possible.
+- Prices: UK bookmaker averages from football-data.co.uk for the bigger football divisions. Add a free key from the-odds-api.com as the repo secret `ODDS_API_KEY` to price tennis, rugby, NFL and more football. Anything without a price uses the model's fair price, marked with a star.
+- Group legs are settled from footyalmanac's graded records; Oscar's KPI is the share of legs with a live price, Jade's is the share of group legs that win.

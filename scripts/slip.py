@@ -151,31 +151,42 @@ def add(text, issue=None):
     slips.insert(0, s); save(slips[:60])
     print(body(s)); return s
 
+_IDX = None
+def records():
+    global _IDX
+    if _IDX is None:
+        rec, srec, trec = raw("record.json") or {}, raw("sports-record.json") or {}, raw("tennis-record.json") or {}
+        _IDX = ({(norm(g["home"]), norm(g["away"])): g for d in rec.get("days") or [] for g in d.get("games") or []},
+                {str(g.get("id")): g for d in srec.get("days") or [] for g in d.get("games") or []},
+                {str(g.get("key")): g for d in trec.get("days") or [] for g in d.get("games") or []})
+    return _IDX
+
+def settle(legs):
+    """Settle pending legs in place from the graded records. Returns the legs settled now."""
+    fb, sp, tn = records(); newly = []
+    for l in legs:
+        if l.get("status") != "pending" or l.get("p") is None: continue
+        res = None
+        if l["sport"] == "football":
+            g = fb.get((norm(l["home"]), norm(l["away"])))
+            if g and g.get("result"):
+                h, a = g["result"]; win = "h" if h > a else "a" if a > h else "d"
+                res = ("won" if win == l["side"] else "lost", f"{h}-{a}")
+        elif l["sport"] == "tennis":
+            g = tn.get(str(l.get("id")))
+            if g: res = ("void", "void") if g.get("void") else ("won" if norm(g.get("winner")) == norm(l["selection"]) else "lost", g.get("note") or g.get("winner"))
+        else:
+            g = sp.get(str(l.get("id")))
+            if g and g.get("winner"): res = ("won" if norm(g["winner"]) == norm(l["selection"]) else "lost", "-".join(map(str, g.get("score") or [])))
+        if res:
+            l["status"], l["result"] = res; newly.append(l)
+    return newly
+
 def grade():
     slips = load(); open_ = [s for s in slips if s.get("status") == "open"]
     if not open_: return
-    rec, srec, trec = raw("record.json") or {}, raw("sports-record.json") or {}, raw("tennis-record.json") or {}
-    fb = {(norm(g["home"]), norm(g["away"])): g for d in rec.get("days") or [] for g in d.get("games") or []}
-    sp = {str(g.get("id")): g for d in srec.get("days") or [] for g in d.get("games") or []}
-    tn = {str(g.get("key")): g for d in trec.get("days") or [] for g in d.get("games") or []}
     for s in open_:
-        newly = []
-        for l in s["legs"]:
-            if l.get("status") != "pending" or l.get("p") is None: continue
-            res = None
-            if l["sport"] == "football":
-                g = fb.get((norm(l["home"]), norm(l["away"])))
-                if g and g.get("result"):
-                    h, a = g["result"]; win = "h" if h > a else "a" if a > h else "d"
-                    res = ("won" if win == l["side"] else "lost", f"{h}-{a}")
-            elif l["sport"] == "tennis":
-                g = tn.get(str(l.get("id")))
-                if g: res = ("void", "void") if g.get("void") else ("won" if norm(g.get("winner")) == norm(l["selection"]) else "lost", g.get("note") or g.get("winner"))
-            else:
-                g = sp.get(str(l.get("id")))
-                if g and g.get("winner"): res = ("won" if norm(g["winner"]) == norm(l["selection"]) else "lost", "-".join(map(str, g.get("score") or [])))
-            if res:
-                l["status"], l["result"] = res; newly.append(l)
+        newly = settle(s["legs"])
         done = all(l.get("status") != "pending" for l in s["legs"] if l.get("p") is not None)
         if newly and s.get("issue"):
             msg = "**Susie (Auditor):** " + "; ".join(f"{l['selection']} {l['status']} ({l['result']})" for l in newly) + "."

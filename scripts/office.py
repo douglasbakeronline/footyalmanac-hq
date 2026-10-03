@@ -21,6 +21,9 @@ RHYTHM = [
     {"t": "03:00", "kind": "work", "name": "Fixture sweep", "who": ["scout", "quality", "source"], "desc": "Gather every fixture worldwide and check names, leagues and history."},
     {"t": "03:30", "kind": "work", "name": "Predictions ranked", "who": ["ratings", "curator"], "desc": "Rate every match and rank the strongest picks."},
     {"t": "04:00", "kind": "standup", "name": "Morning stand-up", "who": "all", "desc": "All of today's work surfaced before you wake."},
+    {"t": "07:45", "kind": "briefing", "name": "Douglas's daily briefing", "who": ["h2", "h3", "curator", "auditor"], "desc": "Yesterday, today's big games and why, tomorrow, and three groups of five."},
+    {"t": "12:30", "kind": "refresh", "name": "Groups refresh", "who": ["h2", "h3"], "desc": "Re-price and regroup from games still to start."},
+    {"t": "17:00", "kind": "refresh", "name": "Evening groups", "who": ["h2", "h3"], "desc": "Late kick-offs regrouped for the evening."},
     {"t": "13:00", "kind": "work", "name": "Midday refresh", "who": ["scout", "quality", "auditor"], "desc": "Late fixtures, team news, early results graded."},
     {"t": "13:30", "kind": "standup", "name": "Afternoon stand-up", "who": "all", "desc": "Accuracy check-in and any changes to the board."},
     {"t": "23:30", "kind": "work", "name": "Results & experiments", "who": ["auditor", "calib", "experiment"], "desc": "Grade the day and run overnight accuracy tests."},
@@ -332,6 +335,10 @@ def run(slot=None, force=False):
             s = build_standup("on demand" if slot else f"scheduled {item['t']}"); _save("latest.json", s); make_chats(s, 2); summary = f"{len(s['lines'])} updates, {sum(o['status']=='on track' for o in s['objectives'])}/{len(s['objectives'])} objectives on track."
         elif kind == "report":
             r = build_report("week" if (now.weekday() == 6 and not slot) or item.get("period") == "week" else "day"); summary = f"{r['period'].title()} playback: {sum(o['status']=='on track' for o in r['objectives'])}/{len(r['objectives'])} on track; star {NAMES.get(r['star'])}."
+        elif kind in ("briefing", "refresh"):
+            import markets as MK
+            b = MK.run(kind)
+            summary = f"{len(b['groups'])} groups of five posted" + (f", Steady at {b['groups'][0]['odds']:.2f}" if b["groups"] else "") + "."
         elif kind == "saturday":
             import saturday as SAT
             write_picks()

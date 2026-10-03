@@ -16,6 +16,7 @@ LOOKS = [("#e8b996", "#2b1d14"), ("#b07c58", "#16100c"), ("#f2d0b4", "#8a5a2e"),
 NEW_DEPTS = {
     "multi": {"name": "Multi-sport", "c": "#ffb86b"},
     "growth": {"name": "Growth & Support", "c": "#7fb2ff"},
+    "markets": {"name": "Markets & Groupings", "c": "#f0b35a"},
 }
 
 def pct(x): return "–" if x is None else f"{x*100:.0f}%"
@@ -48,6 +49,12 @@ def metric(h, d):
         v = rec.get("list") or {}
         a = v.get("accuracy")
         return a, k["target"], True, "pct", f"Daily List {pct(a)} over {v.get('n', 0)} picks: the proof we take to market (target {pct(k['target'])})."
+    if k["type"] in ("priced", "grouplegs"):
+        import markets as M
+        share, hit, n = M.kpis()
+        if k["type"] == "priced":
+            return share, k["target"], True, "pct", (f"{pct(share)} of today's picks carry a live bookmaker price (target {pct(k['target'])})." if share is not None else "No prices collected yet.")
+        return hit, k["target"], True, "pct", (f"Group legs won: {pct(hit)} of {n} settled over 30 days (target {pct(k['target'])})." if hit is not None else "No group legs settled yet.")
     return None, k.get("target"), True, "pct", "No data yet."
 
 NEXT = {
@@ -56,6 +63,8 @@ NEXT = {
     "builds": "Trace each failed build to its cause and add a guard.",
     "sport": "Grow graded history before the sport goes on the board.",
     "listhit": "Prepare the launch story from the published, graded record.",
+    "priced": "Price every candidate leg before the 07:45 briefing and flag anything still on an estimate.",
+    "grouplegs": "Build today's three groups of five and review every losing leg in the playback.",
 }
 
 def candidates(d, org):
@@ -119,6 +128,7 @@ def lines_and_objectives(d, org):
         k = h["kpi"]
         label = {"league": f"{h['role'].replace(' Specialist', '')} hit rate", "draws": "Strong calls drawn out",
                  "builds": "Builds green (last 10)", "sport": f"{k.get('code', '').upper()} hit rate",
-                 "listhit": "Daily List hit rate (launch)"}.get(k["type"], h["role"] + " KPI")
+                 "listhit": "Daily List hit rate (launch)", "priced": "Legs with a live price",
+                 "grouplegs": "Group legs won (30 days)"}.get(k["type"], h["role"] + " KPI")
         objs.append({"owner": h["id"], "name": label, "actual": a, "target": t, "fmt": fmt, "higher": higher, "status": status})
     return lines, objs
