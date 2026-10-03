@@ -28,3 +28,16 @@ Actions → Office rhythm → Run workflow → pick `standup`, `report` or `work
 ```
 python -m http.server -d docs 8080
 ```
+
+## Team, KPIs and hiring
+
+- **Team tab:** every agent's KPI today (now vs target, status, 14-day trend, days on track). Tap an agent, in the tab or in the office, for their profile: today's done/next/blockers, the last 7 days of work, development PRs and Agent of the Week days.
+- **Luke's hiring desk** (`scripts/org.py`, no AI tokens): at each stand-up the Chief of Staff checks for a gap nobody owns full-time and hires one specialist, at most one a day and six in total, each with one KPI and a stated reason:
+  - weakest league under 45% over at least 60 games: league specialist
+  - Strong calls drawn out 15% or more: draw risk analyst
+  - 80% or fewer recent builds green: reliability engineer
+  - another sport with 50 or more graded games: analyst, and a new Multi-sport department
+  - Daily List at 70% or better over 100 or more picks: Growth Lead, and a new Growth & Support department
+
+  Hires sit in the Expansion Wing, join stand-ups, playback and chats, and appear on the objectives wall. State is in `docs/data/org.json`. Delete an entry to let someone go.
+- **Mobile:** the office fills the screen and turns side-on to fit a phone. Room tags and room buttons are compact, and "Team & reports" jumps to the panel.

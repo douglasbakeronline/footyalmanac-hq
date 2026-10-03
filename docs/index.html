@@ -36,6 +36,8 @@ main{flex:1;display:grid;grid-template-columns:1fr 400px;min-height:0}
 @media(max-width:980px){.board{left:8px;top:8px;right:8px;width:auto;max-height:calc(100% - 150px)}}
 #labels{position:absolute;inset:0;pointer-events:none}
 .tag{position:absolute;transform:translate(-50%,-100%);background:#120e0bdd;border:1px solid #ffffff22;color:#fff;font-size:11px;font-weight:600;padding:2px 7px 2px 5px;border-radius:6px;display:flex;align-items:center;gap:5px;white-space:nowrap;pointer-events:auto;cursor:pointer}
+.rtag{position:absolute;transform:translate(0,-50%);display:flex;align-items:center;gap:5px;font:700 9.5px "General Sans";letter-spacing:.12em;text-transform:uppercase;color:#f4ece0;background:#120e0bb3;border:1px solid #ffffff1f;border-radius:999px;padding:2px 8px 2px 6px;white-space:nowrap;pointer-events:auto;cursor:pointer;backdrop-filter:blur(3px)}
+.rtag i{width:6px;height:6px;border-radius:50%}.rtag:hover{border-color:var(--acc)}
 .tag i{width:6px;height:6px;border-radius:50%;background:var(--good)}
 .tag.busy i{background:var(--acc);box-shadow:0 0 6px var(--acc)}
 .tag.talk{background:var(--acc);color:#1a1208}
@@ -87,6 +89,30 @@ button.cta.ghost{background:transparent;color:var(--acc);border:1px solid var(--
 .chatm{padding:8px 10px;background:var(--panel2);border-radius:10px;margin-bottom:8px;font-size:12.5px}.chatm .w{color:var(--mut);font-size:11px;margin-bottom:3px}
 .sbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:5px 10px;font:600 12px "General Sans";cursor:pointer}.sbtn:hover{border-color:var(--acc)}
 ul.l{margin:4px 0 14px;padding-left:18px;font-size:12.5px}ul.l li{margin:4px 0}
+.sm{display:none}
+.sc{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;padding:9px 10px;border:1px solid var(--line);border-radius:10px;margin-bottom:6px;background:var(--panel);cursor:pointer}
+.sc:hover{border-color:var(--acc)}.sc .nm{font-weight:600;font-size:13px}.sc .rl{font-size:11px;color:var(--mut)}.sc .kp{font-size:11px;color:var(--mut);margin-top:2px}
+.pill{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:999px;color:#1a1208}
+.spark{display:block}.prof h3{margin:4px 0 2px;font-size:18px}.prof .card{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;background:var(--panel)}
+.prof .big{font:700 26px "JetBrains Mono",monospace}.prof .day{border-left:2px solid var(--line);padding:2px 0 6px 10px;margin-left:4px}.prof .day b{font-size:11px;color:var(--mut);font-weight:600}
+.back{background:none;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:4px 10px;font:500 12px "General Sans";cursor:pointer}
+.orglog{font-size:12px;color:var(--mut);border:1px dashed var(--line);border-radius:10px;padding:8px 10px;margin-bottom:10px}
+@media(max-width:700px){
+ html,body{height:auto}body{overflow:auto}
+ main{display:block}
+ #stage{height:calc(100svh - 50px)}
+ aside{height:100svh;border-left:0;border-top:1px solid var(--line)}
+ header{padding:6px 10px;gap:8px}.logo svg{width:24px;height:24px}.logo span{display:none}.logo b{font-size:10px;letter-spacing:.16em}
+ .clock .t{font-size:15px}.clock .n{display:none}
+ button.cta{padding:6px 9px;font-size:11px}.lg{display:none}.sm{display:inline}
+ .hud{left:0;right:0;bottom:0;max-width:none;flex-wrap:nowrap;overflow-x:auto;padding:10px 8px calc(8px + env(safe-area-inset-bottom));gap:5px;background:linear-gradient(transparent,#120e0bd9 45%);scrollbar-width:none}
+ .hud::-webkit-scrollbar{display:none}
+ .hud button{flex:0 0 auto;padding:6px 10px;font-size:11px;border-radius:999px}
+ .hud button.more{border-color:var(--acc);color:var(--acc)}
+ .rtag{font-size:8.5px;letter-spacing:.08em;padding:2px 6px 2px 5px}.tag{font-size:9px;padding:1px 4px 1px 3px;gap:3px;border-radius:4px}.tag i{width:5px;height:5px}
+ .bubble{width:190px;font-size:11px}
+ .board{max-height:calc(100% - 120px)}
+}
 </style>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.183.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.183.0/examples/jsm/"}}</script>
 </head><body>
@@ -97,14 +123,14 @@ ul.l{margin:4px 0 14px;padding-left:18px;font-size:12.5px}ul.l li{margin:4px 0}
  </div>
  <div class="roster" id="roster"></div>
  <div class="clock"><div class="t mono" id="clk">--:--</div><div class="n" id="nxt">UK time</div></div>
- <button class="cta ghost" id="present">Present playback</button><button class="cta" id="go">Call stand-up</button>
+ <button class="cta ghost" id="present"><span class="lg">Present playback</span><span class="sm">Playback</span></button><button class="cta" id="go"><span class="lg">Call stand-up</span><span class="sm">Stand-up</span></button>
 </header>
 <main>
  <div id="stage"><div id="labels"></div><div class="banner" id="banner"></div><div class="hud" id="hud"></div><section class="board" id="board" aria-label="Today's Daily List"></section></div>
  <aside>
-  <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
+  <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="team">Team</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
   <div class="pane on" id="log"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
-  <div class="pane" id="picks"></div><div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
+  <div class="pane" id="team"></div><div class="pane" id="picks"></div><div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
   <div class="foot" id="foot">Loading office data…</div>
  </aside>
 </main>
@@ -132,6 +158,12 @@ const AGENTS=[
  {id:"calib",name:"Andrew",role:"Calibration & Market",d:"valid",desk:[26,-13,0],skin:"#d9a882",hair:"#2b1d14"},
  {id:"curator",name:"Nina",role:"Picks Curator",d:"board",desk:[20,3,0],skin:"#b98260",hair:"#24170f"},
  {id:"engineer",name:"Allan",role:"Engineer",d:"eng",desk:[-24,17,0],skin:"#efc4a0",hair:"#6b6b6b"}];
+const ORG=await fetch(DATA+"org.json?t="+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)||{hires:[],departments:{},log:[]};
+Object.entries(ORG.departments||{}).forEach(([k,v])=>DEPT[k]={name:v.name,c:v.c});
+const WING_DESKS=[[20,15],[25,15],[30,15],[20,20.5],[25,20.5],[30,20.5]];
+(ORG.hires||[]).slice(0,6).forEach((h,i)=>{if(!DEPT[h.d])DEPT[h.d]={name:h.d,c:"#cfc2b2"};const [x,z]=WING_DESKS[i];
+ AGENTS.push({id:h.id,name:h.name,role:h.role,d:h.d,desk:[x,z,0],skin:h.skin,hair:h.hair,hire:h,wing:true})});
+const WING_OPEN=AGENTS.some(a=>a.wing);
 let RHYTHM=[
  {t:"03:00",kind:"work",name:"Fixture sweep",who:["scout","quality","source"],desc:"Gather every fixture worldwide and check names, leagues and history."},
  {t:"03:30",kind:"work",name:"Predictions ranked",who:["ratings","curator"],desc:"Rate every match and rank the strongest picks."},
@@ -156,9 +188,18 @@ const controls=new OrbitControls(cam,renderer.domElement);
 controls.target.set(0,0,1);controls.enableDamping=true;controls.dampingFactor=.08;
 controls.minPolarAngle=.55;controls.maxPolarAngle=1.05;controls.minZoom=.6;controls.maxZoom=4;
 controls.minAzimuthAngle=.15;controls.maxAzimuthAngle=1.45;controls.screenSpacePanning=true;
+const PORTRAIT=()=>stage.clientWidth/stage.clientHeight<0.9;
+if(PORTRAIT()){const r=cam.position.clone().sub(controls.target).length(),th=Math.PI/2,ph=.6;controls.maxAzimuthAngle=Math.PI/2;cam.position.set(controls.target.x+r*Math.sin(ph)*Math.sin(th),r*Math.cos(ph),controls.target.z+r*Math.sin(ph)*Math.cos(th))}
+let FITZ=.78;const focusAnimOn=()=>false;
+function fitZoom(){cam.updateMatrixWorld();const inv=cam.matrixWorldInverse,c=new THREE.Vector3().copy(controls.target).applyMatrix4(inv);let mx=0,my=0;
+ for(const x of [-34,34])for(const z of [-23,25])for(const y of [0,6.4]){const p=new THREE.Vector3(x,y,z).applyMatrix4(inv);mx=Math.max(mx,Math.abs(p.x-c.x));my=Math.max(my,Math.abs(p.y-c.y))}
+ return Math.min((cam.right-cam.left)/(2*mx),(cam.top-cam.bottom)/(2*my))*(PORTRAIT()?1.0:.97)}
+let userMoved=false;controls.addEventListener("start",()=>{userMoved=true});
 function resize(){const w=stage.clientWidth,h=stage.clientHeight,v=40;const a=w/h;
  cam.left=-v*a/2*1.0;cam.right=v*a/2;cam.top=v/2;cam.bottom=-v/2;
  if(a<1.2){cam.left=-28;cam.right=28;cam.top=28/a;cam.bottom=-28/a;}
+ FITZ=fitZoom();if(window.__F)window.__F["Whole office"][2]=FITZ;
+ if(!userMoved&&!focusAnimOn()){cam.zoom=FITZ}controls.minZoom=Math.min(.6,FITZ*.9);
  cam.updateProjectionMatrix();renderer.setSize(w,h);}
 new ResizeObserver(resize).observe(stage);
 
@@ -190,7 +231,7 @@ const ROOMS={
  eng:{x:[-33,-14],z:[11,24],floor:"#2f4f4c",label:"ENGINEERING"},
  cafe:{x:[-14,5],z:[11,24],floor:"#8a6444",herring:true,label:"CANTEEN"},
  lounge:{x:[5,17],z:[11,24],floor:"#3a2230",carpet:true,label:"PLAYBACK LOUNGE"},
- launch:{x:[17,33],z:[11,24],floor:"#2b2724",label:"LAUNCH WING · LATER"}};
+ launch:{x:[17,33],z:[11,24],floor:"#2b2724",label:(WING_OPEN?"EXPANSION WING":"LAUNCH WING · LATER")}};
 // base slab
 box(68,.6,48,"#3b3029",0,-.6,1,scene,{r:.9});
 const planks=canvasTex(512,512,(c,w,h)=>{c.fillStyle="#cbb79c";c.fillRect(0,0,w,h);for(let i=0;i<16;i++){c.fillStyle=i%2?"#c4ae92":"#d1bea4";c.fillRect(0,i*32,w,31);c.fillStyle="#b39d82";for(let j=0;j<3;j++)c.fillRect(((i*137+j*190)%512),i*32,2,32)}});
@@ -205,7 +246,7 @@ for(const [k,r] of Object.entries(ROOMS)){
  const f=new THREE.Mesh(new THREE.PlaneGeometry(w-.2,d-.2),new THREE.MeshStandardMaterial({map:tt.t,roughness:.85}));f.rotation.x=-Math.PI/2;f.position.set((r.x[0]+r.x[1])/2,.02,(r.z[0]+r.z[1])/2);f.receiveShadow=true;scene.add(f);
  // floor label decal near front edge
  const lab=canvasTex(1024,128,(c,W,H)=>{c.font=`700 64px ${FONT}`;c.fillStyle=r.marble?"rgba(120,90,40,.6)":"rgba(255,255,255,.55)";c.textBaseline="middle";c.fillText(r.label,24,H/2)});
- const lm=new THREE.Mesh(new THREE.PlaneGeometry(8,1),new THREE.MeshBasicMaterial({map:lab.t,transparent:true,depthWrite:false}));lm.rotation.x=-Math.PI/2;lm.position.set(r.x[0]+4.6,.04,r.z[1]-.9);scene.add(lm);r.labelTex=lab;
+ const lm=new THREE.Mesh(new THREE.PlaneGeometry(8,1),new THREE.MeshBasicMaterial({map:lab.t,transparent:true,depthWrite:false}));lm.rotation.x=-Math.PI/2;lm.position.set(r.x[0]+4.6,.04,r.z[1]-.9);lm.visible=false;scene.add(lm);r.labelTex=lab;r.labelMesh=lm;
 }
 /* walls */
 const WALL="#e9dfd1",TRIM="#c9a65a";const GOLD=M("#d4a64a",{m:.85,r:.28});
@@ -316,7 +357,7 @@ function paintMeeting(c,w,h){hdr(c,w,SPEAKER?"NOW SPEAKING":"STAND-UP AGENDA","#
  c.fillStyle="#7a6a5a";c.font=`500 22px ${FONT}`;c.fillText("Stand-ups 04:00 & 13:30 UK · playback 23:45",36,h-28)}
 function paintObjectives(c,w,h){hdr(c,w,"OBJECTIVES WALL","#f0b35a","Every agent owns one KPI · green = on track");const ob=LASTSU?.objectives||[];
  const on=ob.filter(o=>o.status==="on track").length;c.font=`700 64px ${MONO}`;c.fillStyle="#f0b35a";c.fillText(`${on}/${ob.length||11}`,w-230,80);
- ob.forEach((o,i)=>{const col=i<6?0:1,row=i%6,x=32+col*(w/2),y=130+row*62;const a=AG[o.owner];
+ const RW=Math.max(6,Math.ceil(ob.length/2)),RH=Math.min(62,(h-150)/RW);ob.forEach((o,i)=>{const col=i<RW?0:1,row=i%RW,x=32+col*(w/2),y=130+row*RH;const a=AG[o.owner];
   c.fillStyle=DEPT[a.d].c;c.beginPath();c.arc(x+18,y+16,16,0,7);c.fill();c.fillStyle="#1a1208";c.font=`700 18px ${FONT}`;c.fillText(a.name[0],x+12,y+23);
   c.fillStyle="#e8e2d8";c.font=`600 22px ${FONT}`;c.fillText(fit(c,o.name,w/2-280),x+46,y+18);c.fillStyle="#8a8";c.font=`500 18px ${MONO}`;c.fillStyle="#9aa";c.fillText(`${objFmt(o)} / target ${tgtFmt(o)}`,x+46,y+44);
   c.fillStyle=stCol(o.status);c.beginPath();c.roundRect(x+w/2-200,y,150,32,16);c.fill();c.fillStyle="#111";c.font=`700 16px ${FONT}`;c.fillText(o.status.toUpperCase(),x+w/2-186,y+22)})}
@@ -398,7 +439,7 @@ chandelier(-25,4.2,4.4);tallPlant(-32.2,7.2);tallPlant(-15,7.2);lamp(-31.8,-3.2)
 {const g=grp(0,2,0);box(13,.12,3,"#2b1a10",0,.84,0,g,{r:.35});box(13.1,.04,3.1,GOLD,0,.8,0,g);for(const x of [-5.5,0,5.5])box(.5,.8,1.6,"#1d140d",x,0,0,g);
  for(let i=0;i<5;i++){box(.5,.02,.35,"#f4efe6",-4.4+i*2.2,.96,.7,g);box(.5,.02,.35,"#f4efe6",-4.4+i*2.2,.96,-.7,g)}
  for(let i=0;i<3;i++)cyl(.06,.06,.18,"#7fb3d5",-3+i*3,.96,0,g,{t:.6})}
-const SEATS=[];for(let i=0;i<5;i++){SEATS.push([-4.4+i*2.2,-.25,0]);SEATS.push([-4.4+i*2.2,4.25,Math.PI])}SEATS.push([-7.6,2,Math.PI/2]);
+const SEATS=[];for(let i=0;i<5;i++){SEATS.push([-4.4+i*2.2,-.25,0]);SEATS.push([-4.4+i*2.2,4.25,Math.PI])}SEATS.push([-7.6,2,Math.PI/2]);for(let i=0;i<6;i++)SEATS.push([-5.5+i*2.2,6.9,Math.PI]);
 SEATS.forEach(([x,z,r])=>chair(scene,x,z,r+Math.PI,"#4a2a1c"));
 screens.meet=standScreen(7.4,3.4,1000,460,5.2,-3.3,0,paintMeeting,.7);
 chandelier(-2.2,2,4.6,.8);chandelier(2.8,2,4.6,.8);
@@ -425,11 +466,11 @@ for(const [x,z] of [[-11.5,16.2],[0.5,17.5],[0.5,21.8]]){cyl(.7,.7,.06,"#efe9df"
 cooler(2,10.5);plant(4,23,1.1);plant(-13.2,23,1.1);tallPlant(4.2,14.6);
 // Playback Lounge — cinema wall, recliners, gold
 screens.playback=wallScreen(11.4,4.2,1280,470,5.22,3.9,17.5,Math.PI/2,paintPlayback);
-const LSEATS=[];for(const x of [9,11.6,14.2])for(const z of [14.4,16.8,19.2,21.6]){recliner(x,z,Math.PI/2);LSEATS.push([x,z,-Math.PI/2])}
+const LSEATS=[];for(const x of [9,11.6,14.2,16.4])for(const z of [14.4,16.8,19.2,21.6]){recliner(x,z,Math.PI/2);LSEATS.push([x,z,-Math.PI/2])}
 chandelier(11.6,18,4.6,1);rug(11.6,18,10,11,"#4a1c2c","#d4a64a");tallPlant(16.3,23.3);tallPlant(16.3,12);
 // Launch wing (locked)
-for(const [x,z] of [[21,15],[27,15],[21,20],[27,20]])desk(x,z,0,"#555",{lit:false});
-{const sign=canvasTex(768,256,(c,w,h)=>{c.fillStyle="#1d1915";c.fillRect(0,0,w,h);c.strokeStyle="#d4a64a";c.lineWidth=6;c.strokeRect(6,6,w-12,h-12);c.fillStyle="#f0b35a";c.font=`700 40px ${FONT}`;c.fillText("LAUNCH WING",36,72);c.fillStyle="#cfc2b2";c.font=`500 30px ${FONT}`;c.fillText("Growth & Brand · Customer Support",36,130);c.fillStyle="#8a7b6a";c.font=`500 26px ${FONT}`;c.fillText("Opens closer to the product launch",36,186)});
+WING_DESKS.forEach(([x,z])=>{if(!AGENTS.some(a=>a.wing&&a.desk[0]===x&&a.desk[1]===z))desk(x,z,0,"#555",{lit:false})});
+{const sign=canvasTex(768,256,(c,w,h)=>{c.fillStyle="#1d1915";c.fillRect(0,0,w,h);c.strokeStyle="#d4a64a";c.lineWidth=6;c.strokeRect(6,6,w-12,h-12);c.fillStyle="#f0b35a";c.font=`700 40px ${FONT}`;c.fillText(WING_OPEN?"EXPANSION WING":"LAUNCH WING",36,72);c.fillStyle="#cfc2b2";c.font=`500 30px ${FONT}`;c.fillText(WING_OPEN?AGENTS.filter(a=>a.wing).map(a=>a.name).join(" · "):"Growth & Brand · Customer Support",36,130);c.fillStyle="#8a7b6a";c.font=`500 26px ${FONT}`;c.fillText(WING_OPEN?"New hires by Luke, Chief of Staff":"Opens closer to the product launch",36,186)});
  const g=grp(25,11.6,0);box(4.2,.08,.6,"#2b2b2b",0,0,0,g);box(.1,1.1,.1,GOLD,-1.6,0,0,g);box(.1,1.1,.1,GOLD,1.6,0,0,g);
  const m=new THREE.Mesh(new THREE.PlaneGeometry(3.9,1.3),new THREE.MeshBasicMaterial({map:sign.t}));m.position.set(0,1.75,.06);g.add(m)}
 plant(32,23,1);
@@ -459,7 +500,7 @@ AGENTS.forEach(person);window.__office={people};
 
 /* ---------- navigation ---------- */
 const CORR_N=-5.5,CORR_S=9.5;
-function doorOf(a){if(a.d==="data")return [[-22,-8],[-22,CORR_N]];if(a.d==="model")return [[0,-8],[0,CORR_N]];if(a.d==="valid")return [[22,-8],[22,CORR_N]];
+function doorOf(a){if(a.wing){const x=a.desk[0]+2.5;return [[x,a.seat.z+.9],[x,12.4],[x,CORR_S]]}if(a.d==="data")return [[-22,-8],[-22,CORR_N]];if(a.d==="model")return [[0,-8],[0,CORR_N]];if(a.d==="valid")return [[22,-8],[22,CORR_N]];
  if(a.d==="lead")return [[-21.5,2.4],[-21,-3],[-21,CORR_N]];if(a.d==="board")return [[17.6,4.9],[18,-3],[18,CORR_N]];if(a.d==="eng")return [[-21.5,18.9],[-20,12],[-20,CORR_S]]}
 function exitPath(a){const d=doorOf(a);const last=d[d.length-1];return {pts:[[a.seat.x,a.seat.z+.9],...d],corr:last[1]===CORR_N?"N":"S",x:last[0]}}
 function corrTravel(fc,fx,tc,tx){const z1=fc==="N"?CORR_N:CORR_S,z2=tc==="N"?CORR_N:CORR_S;if(fc===tc)return [[tx,z1]];
@@ -483,6 +524,16 @@ async function goHome(p,pts){const back=pts.slice(0,-1).reverse();back.push([p.a
 const labels=$("#labels");
 people.forEach(p=>{const el=document.createElement("div");el.className="tag";el.innerHTML=`<i></i>${p.a.name}`;el.onclick=()=>showAgent(p.a.id);labels.appendChild(el);p.tag=el});
 const v3=new THREE.Vector3();
+/* room tags: HTML, always upright and readable, short on phones, tap to zoom */
+const RT={data:["Fixtures & Data","Data","Fixtures & Data","#4cc3e6"],model:["Modelling & Research","Models","Modelling","#a98bff"],valid:["Validation","Validation","Validation","#ff7f9f"],
+ lead:["Chief of Staff","Chief","Chief of Staff","#f0b35a"],meet:["Stand-up Room","Stand-up","Stand-up room","#e8e2d8"],board:["Daily Board","Board","Daily Board","#62d68f"],
+ eng:["Engineering","Eng","Engineering","#6fb6ad"],cafe:["Canteen","Canteen","Canteen","#d9a066"],lounge:["Playback Lounge","Lounge","Playback Lounge","#d4a64a"],
+ launch:[WING_OPEN?"Expansion Wing":"Launch Wing · later",WING_OPEN?"Wing":"Launch",WING_OPEN?"Expansion Wing":"Launch Wing","#cfc2b2"]};
+const RTAGS=Object.entries(ROOMS).map(([k,r])=>{const t=RT[k];const el=document.createElement("div");el.className="rtag";el.innerHTML=`<i style="background:${t[3]}"></i><span class="lg">${t[0]}</span><span class="sm">${t[1]}</span>`;
+ el.onclick=()=>focus(t[2]);labels.prepend(el);return {el,pts:[[r.x[0]+1.2,r.z[0]+1.2],[r.x[1]-1.2,r.z[0]+1.2],[r.x[0]+1.2,r.z[1]-1.2],[r.x[1]-1.2,r.z[1]-1.2]]}});
+const pv=new THREE.Vector3();
+function placeRoomTags(){const W=stage.clientWidth,H=stage.clientHeight;for(const t of RTAGS){let best=null;for(const [x,z] of t.pts){pv.set(x,0,z).project(cam);const sx=(pv.x+1)/2*W,sy=(1-pv.y)/2*H;if(!best||sy+sx*.15<best[1]+best[0]*.15)best=[sx,sy]}
+ t.el.style.left=best[0]+"px";t.el.style.top=best[1]+"px"}}
 function project(obj,yOff){obj.getWorldPosition(v3);v3.y+=yOff;v3.project(cam);return [(v3.x+1)/2*stage.clientWidth,(1-v3.y)/2*stage.clientHeight]}
 const BUBBLES=new Map();
 function say(p,html,ms,light){const old=BUBBLES.get(p);old&&old.remove();const el=document.createElement("div");el.className="bubble";if(light){el.style.width="220px";el.style.background="#fff4df"}el.innerHTML=html;labels.appendChild(el);BUBBLES.set(p,el);
@@ -504,17 +555,20 @@ function tick(){const dt=Math.min(clock.getDelta(),.2);const T=clock.elapsedTime
    if(talk){p.armL.rotation.x=-.8+Math.sin(p.t*4)*.4;p.head.rotation.y=Math.sin(p.t*1.5)*.3}else p.head.rotation.y=Math.sin(p.t*.4+p.a.name.length)*.15}
   const [x,y]=project(p.head,.9);p.tag.style.left=x+"px";p.tag.style.top=y+"px";p.tag.classList.toggle("busy",p.busy);p.tag.classList.toggle("talk",SPEAKER===p.a.id||BUBBLES.has(p));
   const b=BUBBLES.get(p);if(b){b.style.left=x+"px";b.style.top=y+"px"}}
- RACKS.forEach((g,i)=>g.userData.leds.forEach((l,j)=>l.visible=Math.sin(T*(3+j%4)+j*1.3+i)>-.3));
+ placeRoomTags();RACKS.forEach((g,i)=>g.userData.leds.forEach((l,j)=>l.visible=Math.sin(T*(3+j%4)+j*1.3+i)>-.3));
  ticker.t.offset.x=(T*.012)%1;
  FISH.forEach(o=>{const u=Math.sin(T*o.sp+o.ph);o.f.position.x=u*(o.w/2-.4);o.f.rotation.y=Math.cos(T*o.sp+o.ph)>0?0:Math.PI;o.f.position.y+=Math.sin(T*2+o.ph)*.002});
  controls.update();renderer.render(scene,cam);requestAnimationFrame(tick)}
 resize();tick();
 
 /* ---------- camera focus ---------- */
-const FOCUS={"Whole office":[0,1,.78],"Fixtures & Data":[-22,-14,2],"Modelling":[0,-14,2],"Validation":[22,-14,2],"Stand-up room":[0,2,2.1],"Daily Board":[23,1,2],"Chief of Staff":[-24,2,2],"Engineering":[-24,17,2],"Canteen":[-5,16,2],"Playback Lounge":[11,17.5,2.2],"Launch Wing":[25,17,2.2]};
-let focusAnim=null;function focus(name){const [x,z,zoom]=FOCUS[name];focusAnim={from:controls.target.clone(),to:new THREE.Vector3(x,0,z),z0:cam.zoom,z1:zoom,t:0}}
+const FOCUS={"Whole office":[0,1,FITZ],"Fixtures & Data":[-22,-14,2],"Modelling":[0,-14,2],"Validation":[22,-14,2],"Stand-up room":[0,2,2.1],"Daily Board":[23,1,2],"Chief of Staff":[-24,2,2],"Engineering":[-24,17,2],"Canteen":[-5,16,2],"Playback Lounge":[11,17.5,2.2],"Launch Wing":[25,17,2.2]};window.__F=FOCUS;
+let focusAnim=null;function focus(name){userMoved=name!=="Whole office";const [x,z,zoom]=FOCUS[name];focusAnim={from:controls.target.clone(),to:new THREE.Vector3(x,0,z),z0:cam.zoom,z1:zoom,t:0}}
 (function fa(){if(focusAnim){focusAnim.t=Math.min(1,focusAnim.t+.03);const e=1-Math.pow(1-focusAnim.t,3);const d=new THREE.Vector3().lerpVectors(focusAnim.from,focusAnim.to,e).sub(controls.target);controls.target.add(d);cam.position.add(d);cam.zoom=focusAnim.z0+(focusAnim.z1-focusAnim.z0)*e;cam.updateProjectionMatrix();if(focusAnim.t>=1)focusAnim=null}requestAnimationFrame(fa)})();
-Object.keys(FOCUS).forEach(n=>{const b=document.createElement("button");b.textContent=n;b.onclick=()=>focus(n);$("#hud").appendChild(b)});
+const SHORT={"Whole office":"All","Fixtures & Data":"Data","Modelling":"Models","Validation":"Validation","Stand-up room":"Stand-up","Daily Board":"Board","Chief of Staff":"Chief","Engineering":"Eng","Canteen":"Canteen","Playback Lounge":"Lounge","Launch Wing":WING_OPEN?"Wing":"Launch"};
+if(WING_OPEN){FOCUS["Expansion Wing"]=FOCUS["Launch Wing"];delete FOCUS["Launch Wing"];SHORT["Expansion Wing"]="Wing"}
+Object.keys(FOCUS).forEach(n=>{const b=document.createElement("button");b.innerHTML=`<span class="lg">${n}</span><span class="sm">${SHORT[n]||n}</span>`;b.onclick=()=>focus(n);$("#hud").appendChild(b)});
+{const b=document.createElement("button");b.className="more sm";b.textContent="Team & reports";b.onclick=()=>{openTab("team");document.querySelector("aside").scrollIntoView({behavior:"smooth"})};$("#hud").appendChild(b)}
 
 /* ---------- roster ---------- */
 AGENTS.forEach(a=>{const c=document.createElement("div");c.className="chip";c.title=`${a.role} · ${DEPT[a.d].name}`;c.innerHTML=`<span class="av" style="background:${DEPT[a.d].c}">${a.name[0]}</span>${a.name}<span class="st" id="st-${a.id}"></span>`;c.onclick=()=>showAgent(a.id);$("#roster").appendChild(c)});
@@ -596,9 +650,42 @@ let EVENTS=[];async function loadEvents(){try{EVENTS=await J("events.json");rhyt
 document.querySelectorAll(".tabs div").forEach(t=>t.onclick=()=>openTab(t.dataset.p));
 function openTab(id){document.querySelectorAll(".tabs div,.pane").forEach(x=>x.classList.remove("on"));document.querySelector(`[data-p="${id}"]`).classList.add("on");$("#"+id).classList.add("on")}
 const fmt=t=>new Date(t).toLocaleString("en-GB",{timeZone:"Europe/London",weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
-let HISTORY=[];
+let HISTORY=[],PROFILE=null,ACT_PRS=[];
+/* ---------- team: daily work and KPIs per agent ---------- */
+const ukDate=t=>new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/London"}).format(new Date(t));
+function daily(){const seen=new Set(),out=[];for(const s of HISTORY){const d=ukDate(s.time);if(!seen.has(d)){seen.add(d);out.push({date:d,s})}}return out}
+function spark(vals,target,higher){const v=vals.filter(x=>x!=null);if(v.length<2)return "";const W=120,H=28,lo=Math.min(...v,target),hi=Math.max(...v,target),r=(hi-lo)||1;
+ const X=i=>i/(vals.length-1)*W,Y=x=>H-2-(x-lo)/r*(H-4);const pts=vals.map((x,i)=>x==null?null:`${X(i).toFixed(1)},${Y(x).toFixed(1)}`).filter(Boolean).join(" ");
+ const last=v[v.length-1],ok=higher?last>=target:last<=target;
+ return `<svg class="spark" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><line x1="0" x2="${W}" y1="${Y(target)}" y2="${Y(target)}" stroke="#ffffff33" stroke-dasharray="3 3"/><polyline points="${pts}" fill="none" stroke="${ok?"#5fd38d":"#f0b35a"}" stroke-width="1.8"/></svg>`}
+function kpiHist(id,name){return daily().slice(0,14).reverse().map(({s})=>{const o=(s.objectives||[]).find(o=>o.owner===id&&o.name===name);return o?o:null})}
+function renderTeam(){const el=$("#team");if(!el||!HISTORY.length){if(el)el.innerHTML="<p class='k'>No stand-ups yet.</p>";return}
+ if(PROFILE&&AG[PROFILE]){el.innerHTML=profileHTML(PROFILE);el.querySelector(".back").onclick=()=>{PROFILE=null;renderTeam()};return}
+ const s=HISTORY[0],ob=s.objectives||[];const on=ob.filter(o=>o.status==="on track").length;
+ const log=(ORG.log||[]).slice(0,3);
+ el.innerHTML=`<div class="k" style="margin-bottom:8px">${AGENTS.length} agents · ${on}/${ob.length} KPIs on track · ${fmt(s.time)}</div>`+
+  `<div class="orglog"><b style="color:var(--acc)">Luke's hiring desk</b><br>${log.length?log.map(l=>`${l.date}: ${l.text}`).join("<br>"):"No hires yet. Luke hires when a KPI has a gap nobody owns full-time (weakest league, draw misses, build reliability, a new sport with enough history, or a proven Daily List that justifies Growth & Support). At most one hire a day, six desks in the Expansion Wing."}</div>`+
+  AGENTS.map(a=>{const mine=ob.filter(o=>o.owner===a.id);const o=mine[0];const h=o?kpiHist(a.id,o.name):[];const days=h.filter(Boolean);const ontrack=days.filter(x=>x.status==="on track").length;
+   return `<div class="sc" data-id="${a.id}"><span class="av" style="background:${DEPT[a.d].c};width:28px;height:28px;font-size:13px">${a.name[0]}</span>
+    <div><div class="nm">${a.name} <span class="rl">· ${a.role}${a.hire?" · new hire":""}</span></div><div class="kp">${o?`${o.name}: <b style="color:var(--txt)">${objFmt(o)}</b> / ${tgtFmt(o)} · on track ${ontrack}/${days.length} days`:"Leads the stand-up and the hiring desk"}</div></div>
+    <div style="text-align:right">${o?`<span class="pill" style="background:${stCol(o.status)}">${o.status}</span>${spark(h.map(x=>x?x.actual:null),o.target,o.higher)}`:""}</div></div>`}).join("");
+ el.querySelectorAll(".sc").forEach(c=>c.onclick=()=>showAgent(c.dataset.id))}
+function profileHTML(id){const a=AG[id],c=DEPT[a.d].c,s=HISTORY[0];const mine=(s.objectives||[]).filter(o=>o.owner===id);
+ const today=(s.lines||[]).filter(l=>l.agent===id);const D=daily();
+ const stars=D.slice(0,30).filter(x=>x.s.star===id).length;
+ const hist=D.slice(0,7).map(({date,s})=>{const ls=(s.lines||[]).filter(l=>l.agent===id&&!l.kudos);return ls.length?`<div class="day"><b>${new Date(date+"T12:00").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"})}</b><div>${ls.map(l=>l.yesterday).join("<br>")}</div></div>`:""}).join("");
+ const prs=ACT_PRS.filter(p=>p.owner===id);
+ return `<div class="prof"><button class="back">Back to team</button>
+  <div style="display:flex;gap:10px;align-items:center;margin-top:10px"><span class="av" style="background:${c};width:40px;height:40px;font-size:18px">${a.name[0]}</span><div><h3>${a.name}</h3><div class="k">${a.role} · ${DEPT[a.d].name}${a.hire?` · hired ${a.hire.hired}`:""}</div></div></div>
+  ${a.hire?`<div class="orglog" style="margin-top:10px">Why Luke hired ${a.name}: ${a.hire.reason}</div>`:""}
+  ${mine.map(o=>{const h=kpiHist(id,o.name);const days=h.filter(Boolean);const on=days.filter(x=>x.status==="on track").length;
+   return `<div class="card"><div class="k">KPI · ${o.name}</div><div style="display:flex;justify-content:space-between;align-items:end;gap:10px"><div><span class="big">${objFmt(o)}</span> <span class="k">target ${tgtFmt(o)}</span></div><span class="pill" style="background:${stCol(o.status)}">${o.status}</span></div>${spark(h.map(x=>x?x.actual:null),o.target,o.higher)}<div class="k">On track ${on} of the last ${days.length} days${stars?` · Agent of the Week ${stars} day${stars>1?"s":""} this month`:""}</div></div>`}).join("")||`<div class="card k">No KPI of their own${stars?` · Agent of the Week ${stars} days`:""}</div>`}
+  <div class="card"><div class="k">Today · ${fmt(s.time)}</div>${today.map(l=>`<p><em>Done</em> ${l.yesterday}</p><p><em>Next</em> ${l.today}</p>${l.kudos?"":`<p><em>Blockers</em> ${l.blockers}</p>`}`).join("")||"<p class='k'>Not in this stand-up.</p>"}</div>
+  ${prs.length?`<div class="card"><div class="k">Development work</div>${prs.map(p=>`<div><a href="${p.url}" target="_blank" rel="noopener" style="color:var(--acc)">#${p.n}</a> ${p.title} <span class="k">(${p.status})</span></div>`).join("")}</div>`:""}
+  <div class="card"><div class="k" style="margin-bottom:6px">Last 7 days</div>${hist||"<p class='k'>No history yet.</p>"}</div></div>`}
+
 function line(l,cur){const a=AG[l.agent];return `<div class="msg ${cur?"now":""}" id="m-${l.agent}" style="border-color:${DEPT[a.d].c}"><div class="h"><b style="color:${DEPT[a.d].c}">${a.name} · ${a.role}</b><span>${DEPT[a.d].name}</span></div><p><em>Done</em>${l.yesterday}</p><p><em>Next</em>${l.today}</p>${l.kudos?"":`<p><em>Blockers</em>${l.blockers}</p>`}</div>`}
-function renderLog(list){HISTORY=list;if(!list.length){$("#log").innerHTML="<p class='k'>No stand-ups yet.</p>";return}
+function renderLog(list){HISTORY=list;renderTeam();if(!list.length){$("#log").innerHTML="<p class='k'>No stand-ups yet.</p>";return}
  const s=list[0];$("#log").innerHTML=`<div class="k" style="margin-bottom:10px">${fmt(s.time)} · ${s.trigger}</div>`+s.lines.map(l=>line(l)).join("")}
 function objTable(ob){return `<table><tr><th>Objective</th><th>Owner</th><th class="n">Now</th><th class="n">Target</th><th></th></tr>${ob.map(o=>`<tr><td>${o.name}</td><td style="color:${DEPT[AG[o.owner].d].c}">${AG[o.owner].name}</td><td class="n">${objFmt(o)}</td><td class="n">${tgtFmt(o)}</td><td><span class="chipS ${o.status==="on track"?"s-on":o.status==="at risk"?"s-risk":o.status==="behind"?"s-behind":"s-nodata"}">${o.status}</span></td></tr>`).join("")}</table>`}
 function renderAcc(s){if(!s)return;const t=s.stats;STATS=t;LASTSU=s;
@@ -647,10 +734,10 @@ let CHATS=[],LOCALCHATS=[];
 function renderChats(){$("#chat").innerHTML=`<div class="k">Water cooler & canteen chatter</div><p style="color:var(--mut);font-size:12.5px;margin:6px 0 12px">Agents take breaks between work blocks, swap learnings and cheer each other on. Best bits feed the playback.</p>`+
  (CHATS.length?CHATS.slice(0,30).map(c=>`<div class="chatm"><div class="w">${fmt(c.time)} · ${c.spot||""}</div>${(c.lines||[]).map(l=>`<div><b style="color:${DEPT[AG[l.a]?.d]?.c||"#fff"}">${AG[l.a]?.name||l.a}:</b> ${l.t}</div>`).join("")}</div>`).join(""):"<p class='k'>No chats yet — first break coming up.</p>")}
 async function loadChats(){try{const saved=await J("chats.json");CHATS=[...LOCALCHATS,...saved];renderChats()}catch(e){}}
-function showAgent(id){const a=AG[id];openTab("log");const el=$("#m-"+id);if(el){el.scrollIntoView({behavior:"smooth",block:"center"});el.classList.add("now");setTimeout(()=>el.classList.remove("now"),1800)}
- const fk={data:"Fixtures & Data",model:"Modelling",valid:"Validation",lead:"Chief of Staff",board:"Daily Board",eng:"Engineering"}[a.d];if(!a.p.away)focus(fk)}
+function showAgent(id){const a=AG[id];PROFILE=id;renderTeam();openTab("team");$("#team").scrollTop=0;
+ const fk=a.wing?(WING_OPEN?"Expansion Wing":"Launch Wing"):{data:"Fixtures & Data",model:"Modelling",valid:"Validation",lead:"Chief of Staff",board:"Daily Board",eng:"Engineering"}[a.d];if(fk&&!a.p.away)focus(fk)}
 async function loadGH(){try{const d=await J("activity.json");
- const PR=d.prs||[];$("#gh").innerHTML=`<div class="k">Agent development work</div>`+(PR.length?PR.map(p=>`<div class="row"><b style="color:${AG[p.owner]?DEPT[AG[p.owner].d].c:"var(--acc)"}">${(AG[p.owner]||{}).name||p.owner}</b> · <a href="${p.url}" target="_blank" rel="noopener">#${p.n} ${p.title.replace(/^\[[^\]]*\]\s*/,"")}</a><br><small style="color:${p.status==="shipped"?"var(--good)":"var(--mut)"}">${p.status} · opened ${fmt(p.opened)}</small></div>`).join(""):`<div class="row" style="color:var(--mut)">No pull requests yet. Agents start work at 07:30 UK once the Claude key is added to footyalmanac.</div>`)+`<div class="k" style="margin-top:16px">Recent commits · footyalmanac</div>`+d.commits.map(c=>`<div class="row"><a href="${c.url}" target="_blank" rel="noopener">${c.msg}</a><br><small style="color:var(--mut)" class="mono">${c.sha} · ${fmt(c.date)}</small></div>`).join("")+`<div class="k" style="margin-top:16px">Workflow runs</div>`+d.runs.map(r=>`<div class="row"><span style="color:${r.conclusion==="success"?"var(--good)":r.conclusion==="failure"?"var(--bad)":"var(--mut)"}">●</span> ${r.name} · ${fmt(r.createdAt)}</div>`).join("")}catch(e){$("#gh").innerHTML="<p class='k'>Couldn't reach GitHub right now.</p>"}}
+ const PR=d.prs||[];ACT_PRS=PR;$("#gh").innerHTML=`<div class="k">Agent development work</div>`+(PR.length?PR.map(p=>`<div class="row"><b style="color:${AG[p.owner]?DEPT[AG[p.owner].d].c:"var(--acc)"}">${(AG[p.owner]||{}).name||p.owner}</b> · <a href="${p.url}" target="_blank" rel="noopener">#${p.n} ${p.title.replace(/^\[[^\]]*\]\s*/,"")}</a><br><small style="color:${p.status==="shipped"?"var(--good)":"var(--mut)"}">${p.status} · opened ${fmt(p.opened)}</small></div>`).join(""):`<div class="row" style="color:var(--mut)">No pull requests yet. Agents start work at 07:30 UK once the Claude key is added to footyalmanac.</div>`)+`<div class="k" style="margin-top:16px">Recent commits · footyalmanac</div>`+d.commits.map(c=>`<div class="row"><a href="${c.url}" target="_blank" rel="noopener">${c.msg}</a><br><small style="color:var(--mut)" class="mono">${c.sha} · ${fmt(c.date)}</small></div>`).join("")+`<div class="k" style="margin-top:16px">Workflow runs</div>`+d.runs.map(r=>`<div class="row"><span style="color:${r.conclusion==="success"?"var(--good)":r.conclusion==="failure"?"var(--bad)":"var(--mut)"}">●</span> ${r.name} · ${fmt(r.createdAt)}</div>`).join("")}catch(e){$("#gh").innerHTML="<p class='k'>Couldn't reach GitHub right now.</p>"}}
 
 /* ---------- chit-chat ---------- */
 function chatScripts(){const s=STATS||{},o=LASTSU?.objectives||[],top=(s.top||[])[0],wk=(s.weak||[])[0],t=(s.tiers||[]),strong=t.find(x=>x.name==="Strong"),lean=t.find(x=>x.name==="Lean");
@@ -687,7 +774,7 @@ async function everyoneHome(){for(let i=0;i<80&&people.some(p=>p.away);i++)await
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function play(s,replay){if(meetingOn||presenting)return;meetingOn=true;const b=$("#banner");b.style.display="block";b.textContent=(replay?"Replaying stand-up · ":"Stand-up · ")+"everyone to the stand-up room";
  BUBBLES.forEach(el=>el.remove());BUBBLES.clear();await everyoneHome();focus("Stand-up room");
- const order=[...new Set(s.lines.map(l=>l.agent))];const seatFor={};order.forEach((id,i)=>seatFor[id]=id==="chief"?SEATS[10]:SEATS[(i-1+10)%10]);
+ const order=[...new Set(s.lines.map(l=>l.agent))];const seatFor={};const OTHER=[...SEATS.slice(0,10),...SEATS.slice(11)];let k=0;order.forEach(id=>{seatFor[id]=id==="chief"?SEATS[10]:OTHER[(k++)%OTHER.length]});people.forEach(p=>{if(!seatFor[p.a.id])seatFor[p.a.id]=OTHER[(k++)%OTHER.length]});
  const routes={};await Promise.all(people.map(p=>{const st=seatFor[p.a.id];routes[p.a.id]=routeToMeeting(p.a,st);return sleep(Math.random()*700).then(()=>go(p,routes[p.a.id],st[2],"sit"))}));
  openTab("log");$("#log").innerHTML=`<div class="k" style="margin-bottom:10px">${fmt(s.time)} · ${replay?"replay":s.trigger} · live</div>`;
  for(const l of s.lines){const p=AG[l.agent].p;SPEAKER=l.agent;screens.meet.redraw(paintMeeting);
@@ -702,7 +789,7 @@ async function present(){if(meetingOn||presenting)return;if(!REPORT)return;prese
  BUBBLES.forEach(el=>el.remove());BUBBLES.clear();await everyoneHome();focus("Playback Lounge");
  const routes={};const audience=people.filter(p=>p.a.id!=="chief");const chief=AG.chief.p;
  routes.chief=routeTo(chief.a,PLACES.lounge,[6.4,15.2]);
- await Promise.all([go(chief,routes.chief,Math.PI/2,"stand"),...audience.map((p,i)=>{const st=LSEATS[i];const ax=st[0]<10?10.3:12.9;routes[p.a.id]=routeTo(p.a,{corr:"S",x:ax,inner:[[ax,12.6],[ax,st[1]]]},[st[0],st[1]]);return sleep(i*250).then(()=>go(p,routes[p.a.id],st[2],"sit"))})]);
+ await Promise.all([go(chief,routes.chief,Math.PI/2,"stand"),...audience.map((p,i)=>{const st=LSEATS[i%LSEATS.length];const ax=st[0]<10?10.3:st[0]<13?12.9:15.3;routes[p.a.id]=routeTo(p.a,{corr:"S",x:ax,inner:[[ax,12.6],[ax,st[1]]]},[st[0],st[1]]);return sleep(i*250).then(()=>go(p,routes[p.a.id],st[2],"sit"))})]);
  openTab("pb");const r=REPORT;const star=AG[r.star];
  const script={cover:`Welcome to the ${r.period==="week"?"weekly":"daily"} playback. Daily List is at ${pct(r.stats.listAcc)}, overall ${pct(r.stats.overallAcc)}.`,
   objectives:`${r.objectives.filter(o=>o.status==="on track").length} of ${r.objectives.length} objectives on track. Owners, this is our scoreboard.`,
@@ -718,7 +805,7 @@ async function present(){if(meetingOn||presenting)return;if(!REPORT)return;prese
  presenting=false;meetingOn=false;b.style.display="none"}
 
 let lastId=null;
-async function poll(quiet){try{const l=await J("standups.json");if(!meetingOn)renderLog(l);else HISTORY=l;renderAcc(l[0]);
+async function poll(quiet){try{const l=await J("standups.json");if(!meetingOn)renderLog(l);else{HISTORY=l;renderTeam()}renderAcc(l[0]);
  if(!quiet&&lastId!==null&&l[0]&&l[0].id!==lastId)play(l[0]);lastId=l[0]?l[0].id:0;$("#foot").innerHTML=`Last stand-up ${l[0]?fmt(l[0].time):"–"} · runs on GitHub Actions · <a href="${RUN_URL}" target="_blank" rel="noopener" style="color:var(--acc)">run one now</a>`}catch(e){$("#foot").textContent="Could not load office data · showing last known state"}}
 $("#go").onclick=async e=>{const btn=e.target;if(!HISTORY[0])return;btn.disabled=true;btn.textContent="In session";try{await play(HISTORY[0],true)}finally{btn.disabled=false;btn.textContent="Call stand-up"}};
 $("#present").onclick=()=>present();

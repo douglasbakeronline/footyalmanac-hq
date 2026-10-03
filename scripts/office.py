@@ -179,6 +179,20 @@ def _build(d, trigger):
         obj("experiment", "Weekly retune passed", 1 if tr.get("pass") else 0, 1, fmt="bool"),
         obj("auditor", "Graded days in record", len(rec.get("days") or []), 14, fmt="num"),
     ]
+    import org as ORG
+    org_path = os.path.join(DATA, "org.json")
+    org = ORG.load(org_path)
+    org, new_hire = ORG.review(d, org, datetime.now(UK).date().isoformat(), None) if trigger.startswith(("scheduled", "on demand")) else (org, None)
+    if new_hire:
+        json.dump(org, open(org_path, "w"), indent=1)
+    for h in org["hires"]: NAMES[h["id"]] = h["name"]
+    hl, hobj = ORG.lines_and_objectives(d, org)
+    L.extend(hl); OBJ.extend(hobj)
+    if new_hire:
+        dept = (org["departments"].get(new_hire["d"]) or {}).get("name")
+        L.append({"agent": "chief", "yesterday": f"New hire: {new_hire['name']} joins as {new_hire['role']}. {new_hire['reason']}",
+                  "today": f"{new_hire['name']} owns one KPI from today: {hobj[-1]['name']}." + (f" New department: {dept}." if dept and org['departments'][new_hire['d']].get('opened') == new_hire['hired'] else ""),
+                  "blockers": "None.", "hire": new_hire["id"]})
     def margin(o):
         if o["actual"] is None or o["status"] != "on track": return -9
         a, t = o["actual"], o["target"]
@@ -186,7 +200,7 @@ def _build(d, trigger):
     star = max(OBJ, key=margin)
     hits = [g for g in ((rec.get("listDays") or [{}])[0].get("games") or []) if g.get("ok")]
     misses_g = [g for g in ((rec.get("listDays") or [{}])[0].get("games") or []) if g.get("ok") is False]
-    L.append({"agent": "chief", "yesterday": f"Shout-out: {star['owner']} for '{star['name']}' — ahead of target.", "today": "Keep encouraging each other: every objective owner posts one learning in the playback.", "blockers": "None.", "kudos": star["owner"]})
+    L.append({"agent": "chief", "yesterday": f"Shout-out: {NAMES.get(star['owner'], star['owner'])} for '{star['name']}' — ahead of target.", "today": "Keep encouraging each other: every objective owner posts one learning in the playback.", "blockers": "None.", "kudos": star["owner"]})
     s = {"id": int(time.time() * 1000), "time": datetime.now(UK).isoformat(), "trigger": trigger, "lines": L,
          "objectives": OBJ, "star": star["owner"],
          "wins": [f"{g['home']} v {g['away']} ({pct(g['confidence'])}) finished {g['result'][0]}-{g['result'][1]}" for g in sorted(hits, key=lambda g: -g["confidence"])[:5]],
@@ -242,7 +256,11 @@ def make_chats(s, n=2):
     if weak: pool.append([("auditor", f"{weak['name']} is still our weak spot at {pct(weak['acc'])}."), ("experiment", "I'll queue a home-advantage backtest for that league tonight."), ("quality", "Send me the misses and I'll check the club matching too.")])
     if lean: pool.append([("calib", f"Lean tier is winning {pct(lean['hit'])} vs {pct(lean['expected'])} expected."), ("ratings", "So we're under-confident there. Could promote some Leans to Firm."), ("experiment", "Worth an experiment. I'll draft it for Friday.")])
     if top: pool.append([("curator", f"Have you seen {top['m']} at {pct(top['c'])}? Biggest mismatch on the board."), ("scout", "That's exactly the best-v-worst game we're built to find.")])
-    if star: pool.append([("chief", f"Congrats on Agent of the Week, {NAMES[star]}!"), (star, "Thanks! It's the whole team's data that gets us there.")])
+    if star: pool.append([("chief", f"Congrats on Agent of the Week, {NAMES.get(star, star)}!"), (star, "Thanks! It's the whole team's data that gets us there.")])
+    for o in ob:
+        if o["owner"].startswith("h") and o["owner"] in NAMES:
+            pool.append([("chief", f"How's the first stretch going, {NAMES[o['owner']]}?"), (o["owner"], f"Good. My KPI is '{o['name']}' and it's {o['status']} today."), ("auditor", "Shout if you need the graded misses, I keep them all.")])
+            break
     if behind: pool.append([("chief", f"We've got {len(behind)} objectives not yet on track."), (behind[0]["owner"], f"I own '{behind[0]['name']}'. A second pair of eyes on yesterday's misses would help."), ("auditor", "I'm on it after the 13:00 grading.")])
     out = []
     for lines in random.sample(pool, min(n, len(pool))):
