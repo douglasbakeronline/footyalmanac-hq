@@ -58,6 +58,50 @@
    "desc": "Grade the day and run overnight accuracy tests."
   },
   {
+   "t": "18:00",
+   "dow": 4,
+   "kind": "saturday",
+   "name": "Fri: Saturday picks preview",
+   "who": [
+    "curator",
+    "scout",
+    "ratings",
+    "calib",
+    "quality",
+    "auditor",
+    "chief"
+   ],
+   "desc": "First look at Saturday's board, posted to GitHub."
+  },
+  {
+   "t": "07:00",
+   "dow": 5,
+   "kind": "saturday",
+   "name": "Sat: Saturday picks final",
+   "who": [
+    "curator",
+    "scout",
+    "ratings",
+    "calib",
+    "quality",
+    "auditor",
+    "chief"
+   ],
+   "desc": "Final Saturday board after the morning build."
+  },
+  {
+   "t": "07:30",
+   "dow": 6,
+   "kind": "saturday",
+   "name": "Sun: Saturday picks graded",
+   "who": [
+    "auditor",
+    "calib",
+    "chief"
+   ],
+   "desc": "How Saturday's picks did, with the misses reviewed."
+  },
+  {
    "t": "23:45",
    "kind": "report",
    "name": "Daily playback",
@@ -65,5 +109,5 @@
    "desc": "Business playback: KPIs vs objectives, wins, lessons and shout-outs."
   }
  ],
- "updated": "2026-10-03T00:56:23.409719+01:00"
+ "updated": "2026-10-03T01:09:26.041532+01:00"
 }
