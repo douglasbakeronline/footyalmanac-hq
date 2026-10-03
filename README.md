@@ -15,6 +15,9 @@ The AI agent office for [footyalmanac](https://github.com/douglasbakeronline/foo
 | 13:30 | Afternoon stand-up |
 | 23:30 | Results & experiments |
 | 23:45 | Daily playback (weekly on Sundays) |
+| Fri 18:00 | Saturday picks preview (GitHub issue) |
+| Sat 07:00 | Saturday picks final, after the morning build |
+| Sun 07:30 | Saturday picks graded, issue closed |
 
 - `docs/index.html` is the 3D office. The Picks tab answers questions like "Saturday picks" or "Sunday Premier League" straight from footyalmanac's published predictions, so it uses no AI tokens. It only reads `docs/data/*.json`, so it can be hosted anywhere static.
 

@@ -16,6 +16,7 @@ def _save(name, obj):
 STATE = {"standups": _load("standups.json", []), "events": _load("events.json", []), "chats": _load("chats.json", []), "reports": _load("reports.json", [])}
 
 # UK-time rhythm. kind: "work" = background task, "standup" = full meeting
+STAGE = None
 RHYTHM = [
     {"t": "03:00", "kind": "work", "name": "Fixture sweep", "who": ["scout", "quality", "source"], "desc": "Gather every fixture worldwide and check names, leagues and history."},
     {"t": "03:30", "kind": "work", "name": "Predictions ranked", "who": ["ratings", "curator"], "desc": "Rate every match and rank the strongest picks."},
@@ -23,6 +24,9 @@ RHYTHM = [
     {"t": "13:00", "kind": "work", "name": "Midday refresh", "who": ["scout", "quality", "auditor"], "desc": "Late fixtures, team news, early results graded."},
     {"t": "13:30", "kind": "standup", "name": "Afternoon stand-up", "who": "all", "desc": "Accuracy check-in and any changes to the board."},
     {"t": "23:30", "kind": "work", "name": "Results & experiments", "who": ["auditor", "calib", "experiment"], "desc": "Grade the day and run overnight accuracy tests."},
+    {"t": "18:00", "dow": 4, "kind": "saturday", "name": "Fri: Saturday picks preview", "who": ["curator", "scout", "ratings", "calib", "quality", "auditor", "chief"], "desc": "First look at Saturday's board, posted to GitHub."},
+    {"t": "07:00", "dow": 5, "kind": "saturday", "name": "Sat: Saturday picks final", "who": ["curator", "scout", "ratings", "calib", "quality", "auditor", "chief"], "desc": "Final Saturday board after the morning build."},
+    {"t": "07:30", "dow": 6, "kind": "saturday", "name": "Sun: Saturday picks graded", "who": ["auditor", "calib", "chief"], "desc": "How Saturday's picks did, with the misses reviewed."},
     {"t": "23:45", "kind": "report", "name": "Daily playback", "who": "all", "desc": "Business playback: KPIs vs objectives, wins, lessons and shout-outs."},
 ]
 
@@ -292,11 +296,12 @@ def run(slot=None, force=False):
     done = {e["key"] for e in STATE["events"]}
     due = []
     if slot:
-        due = [i for i in RHYTHM if i["kind"] == slot or i["t"] == slot] [:1] or [{"t": now.strftime("%H:%M"), "kind": slot, "name": slot, "who": "all", "desc": "On-demand run"}]
+        due = ([i for i in RHYTHM if i["kind"] == "saturday" and i.get("dow") == {"preview": 4, "final": 5, "review": 6}.get(STAGE or "", now.weekday())][:1] or [i for i in RHYTHM if i["kind"] == "saturday"][:1]) if slot == "saturday" else [i for i in RHYTHM if i["kind"] == slot or i["t"] == slot] [:1] or [{"t": now.strftime("%H:%M"), "kind": slot, "name": slot, "who": "all", "desc": "On-demand run"}]
     else:
         for item in RHYTHM:
             h, m = map(int, item["t"].split(":"))
             at = now.replace(hour=h, minute=m, second=0, microsecond=0)
+            if "dow" in item and now.weekday() != item["dow"]: continue
             if timedelta(0) <= now - at <= timedelta(minutes=95) and f"{today}-{item['t']}" not in done:
                 due.append(item)
     if not due:
@@ -309,6 +314,15 @@ def run(slot=None, force=False):
             s = build_standup("on demand" if slot else f"scheduled {item['t']}"); _save("latest.json", s); make_chats(s, 2); summary = f"{len(s['lines'])} updates, {sum(o['status']=='on track' for o in s['objectives'])}/{len(s['objectives'])} objectives on track."
         elif kind == "report":
             r = build_report("week" if (now.weekday() == 6 and not slot) or item.get("period") == "week" else "day"); summary = f"{r['period'].title()} playback: {sum(o['status']=='on track' for o in r['objectives'])}/{len(r['objectives'])} on track; star {NAMES.get(r['star'])}."
+        elif kind == "saturday":
+            import saturday as SAT
+            write_picks()
+            stage = STAGE or {4: "preview", 5: "final", 6: "review"}.get(item.get("dow"), SAT.stage_for(now))
+            b = SAT.build(stage, now, _load("picks.json", {}), raw("record.json") or {}, NAMES)
+            b["issue"] = SAT.post(b, NAMES)
+            hist = [x for x in _load("saturday.json", []) if not (x["date"] == b["date"] and x["stage"] == b["stage"])]
+            _save("saturday.json", ([b] + hist)[:24])
+            summary = next((l["text"] for l in b["lines"] if l["agent"] in ("curator", "auditor")), b["lines"][0]["text"])
         else:
             s = build_standup("work"); STATE["standups"].pop(0); _save("standups.json", STATE["standups"]); make_chats(s, 1); summary = work_summary(item, s)
             _save("latest.json", s)
@@ -321,7 +335,9 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--slot", default="", help="standup | report | work | blank for schedule")
     ap.add_argument("--period", default="day")
+    ap.add_argument("--stage", default="", help="saturday slot: preview | final | review (default by weekday)")
     a = ap.parse_args()
     if a.slot == "report" and a.period == "week":
         RHYTHM = [dict(i, period="week") if i["kind"] == "report" else i for i in RHYTHM]
+    STAGE = a.stage or None
     run(a.slot or None)
