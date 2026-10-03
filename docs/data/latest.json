@@ -1,36 +1,36 @@
 {
- "id": 1790985388979,
- "time": "2026-10-03T00:56:28.979545+01:00",
- "trigger": "work",
+ "id": 1790988630157,
+ "time": "2026-10-03T01:50:30.157294+01:00",
+ "trigger": "on demand",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Model record: 51% over 846 graded games; Daily List 67% (16/24).",
+   "yesterday": "Model record: 51% over 796 graded games; Daily List 67% (16/24).",
    "today": "Focus: Lift accuracy in England Championship (37% over 76 games).",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1193 football fixtures across 156 competitions for 2026-10-02, plus 52 other-sport and 43 tennis matches.",
+   "yesterday": "Swept 1368 football fixtures across 199 competitions for 2026-10-03, plus 53 other-sport and 35 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes.",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 156 competitions matched to a rated team pool.",
+   "yesterday": "0 unrated fixtures in today's slate; 199 competitions matched to a rated team pool.",
    "today": "Recheck club-name matching for new API-Football leagues.",
    "blockers": "None."
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 8/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 9/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps.",
    "blockers": "None."
   },
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1193 fixtures; overall log loss is 1.0061.",
+   "today": "Rate today's 1368 fixtures; overall log loss is 1.0049.",
    "blockers": "None."
   },
   {
@@ -41,37 +41,50 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 2/3, MLB 6/9. Tennis 58% over 255 matches (expected 60%).",
+   "yesterday": "Other sports: NFL 2/3, MLB 6/9, RUGBY 2/4. Tennis 58% over 255 matches (expected 60%).",
    "today": "Build up NBA and rugby graded history before they go on the board.",
    "blockers": "NBA and rugby have no graded games yet."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-10-02: 27/58 correct (47%).",
+   "yesterday": "Graded 2026-10-02: 41/84 correct (49%).",
    "today": "Grade early kick-offs at 13:00 and the full day at 23:30.",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 60%-70% won 73% vs 64% expected (85 games).",
-   "today": "Track tiers: Strong 76% vs 79%, Firm 75% vs 69%, Lean 67% vs 59%.",
+   "yesterday": "Biggest calibration gap: picks at 60%-70% won 69% vs 64% expected (81 games).",
+   "today": "Track tiers: Strong 73% vs 78%, Firm 72% vs 69%, Lean 67% vs 59%.",
    "blockers": "None."
   },
   {
    "agent": "curator",
-   "yesterday": "Daily List for 2026-10-02: 20 picks. Top: Albania v San Marino 98%; Argentina v Benin 97%; Belarus v San Marino 96%.",
+   "yesterday": "Daily List for 2026-10-03: 23 picks. Top: Albania v San Marino 98%; Argentina v Benin 97%; Belarus v San Marino 96%.",
    "today": "Re-rank at 13:00 if any team news shifts confidence.",
    "blockers": "None."
   },
   {
    "agent": "engineer",
-   "yesterday": "8/10 recent 'Rebuild and publish' runs green.",
+   "yesterday": "9/10 recent 'Rebuild and publish' runs green.",
    "today": "Keep the build ahead of the 03:00 sweep.",
    "blockers": "None."
   },
   {
+   "agent": "h1",
+   "yesterday": "England Championship: 37% over 76 graded games (target 50%), 23 drawn out.",
+   "today": "Review every miss in the league with Mia and queue one tested change.",
+   "blockers": "None."
+  },
+  {
    "agent": "chief",
-   "yesterday": "Shout-out: scout for 'Competitions covered today' \u2014 ahead of target.",
+   "yesterday": "New hire: Priya joins as England Championship Specialist. England Championship is at 37% over 76 games, the weakest league, and nobody owns it full-time.",
+   "today": "Priya owns one KPI from today: England Championship hit rate.",
+   "blockers": "None.",
+   "hire": "h1"
+  },
+  {
+   "agent": "chief",
+   "yesterday": "Shout-out: Ava for 'Competitions covered today' \u2014 ahead of target.",
    "today": "Keep encouraging each other: every objective owner posts one learning in the playback.",
    "blockers": "None.",
    "kudos": "scout"
@@ -90,34 +103,34 @@
   {
    "owner": "chief",
    "name": "Overall hit rate",
-   "actual": 0.5059,
+   "actual": 0.5138,
    "target": 0.55,
-   "fmt": "pct",
-   "higher": true,
-   "status": "behind"
-  },
-  {
-   "owner": "ratings",
-   "name": "Strong tier hit rate",
-   "actual": 0.7551,
-   "target": 0.8,
    "fmt": "pct",
    "higher": true,
    "status": "at risk"
   },
   {
+   "owner": "ratings",
+   "name": "Strong tier hit rate",
+   "actual": 0.7333,
+   "target": 0.8,
+   "fmt": "pct",
+   "higher": true,
+   "status": "behind"
+  },
+  {
    "owner": "calib",
    "name": "Largest calibration gap",
-   "actual": 0.08900000000000008,
+   "actual": 0.050000000000000044,
    "target": 0.05,
    "fmt": "pct",
    "higher": false,
-   "status": "behind"
+   "status": "at risk"
   },
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 156,
+   "actual": 199,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -135,16 +148,16 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 0.8,
+   "actual": 0.9,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
-   "status": "behind"
+   "status": "at risk"
   },
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 0.8,
+   "actual": 0.9,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
@@ -176,6 +189,15 @@
    "fmt": "num",
    "higher": true,
    "status": "on track"
+  },
+  {
+   "owner": "h1",
+   "name": "England Championship hit rate",
+   "actual": 0.3684,
+   "target": 0.5,
+   "fmt": "pct",
+   "higher": true,
+   "status": "behind"
   }
  ],
  "star": "scout",
@@ -185,107 +207,107 @@
  "dev": [],
  "shipped": [],
  "lessons": [
-  "Calibration: 60%-70% band won 73% vs 64% expected",
+  "Calibration: 60%-70% band won 69% vs 64% expected",
   "Weakest league: England Championship at 37% over 76 games"
  ],
  "stats": {
-  "fixtures": 1193,
-  "competitions": 156,
-  "listPicks": 20,
-  "overallAcc": 0.5059,
+  "fixtures": 1368,
+  "competitions": 199,
+  "listPicks": 23,
+  "overallAcc": 0.5138,
   "listAcc": 0.6667,
   "listN": 24,
-  "graded": 846,
-  "logLoss": 1.0061,
-  "dayAcc": 0.4655,
+  "graded": 796,
+  "logLoss": 1.0049,
+  "dayAcc": 0.4881,
   "dayDate": "2026-10-02",
   "tennisAcc": 0.5843,
-  "runsOk": 8,
+  "runsOk": 9,
   "runsTotal": 10,
   "tiers": [
    {
     "name": "Strong",
     "k": 3,
     "min": 0.7,
-    "n": 49,
-    "correct": 37,
-    "hit": 0.7551,
-    "expected": 0.7859,
+    "n": 45,
+    "correct": 33,
+    "hit": 0.7333,
+    "expected": 0.7841,
     "drawnOut": 8
    },
    {
     "name": "Firm",
     "k": 2,
     "min": 0.62,
-    "n": 52,
-    "correct": 39,
-    "hit": 0.75,
-    "expected": 0.6924,
+    "n": 53,
+    "correct": 38,
+    "hit": 0.717,
+    "expected": 0.6914,
     "drawnOut": 4
    },
    {
     "name": "Lean",
     "k": 1,
     "min": 0.55,
-    "n": 93,
-    "correct": 62,
-    "hit": 0.6667,
-    "expected": 0.5914,
-    "drawnOut": 16
+    "n": 89,
+    "correct": 60,
+    "hit": 0.6742,
+    "expected": 0.591,
+    "drawnOut": 18
    },
    {
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 652,
-    "correct": 290,
-    "hit": 0.4448,
+    "n": 609,
+    "correct": 278,
+    "hit": 0.4565,
     "expected": 0.446,
-    "drawnOut": 171
+    "drawnOut": 155
    }
   ],
   "bands": [
    {
     "from": 0.0,
     "to": 0.4,
-    "n": 174,
-    "hit": 0.3851,
-    "expected": 0.3755
+    "n": 157,
+    "hit": 0.4013,
+    "expected": 0.376
    },
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 347,
-    "hit": 0.4784,
-    "expected": 0.4483
+    "n": 333,
+    "hit": 0.4805,
+    "expected": 0.4478
    },
    {
     "from": 0.5,
     "to": 0.6,
-    "n": 182,
-    "hit": 0.4835,
-    "expected": 0.5437
+    "n": 171,
+    "hit": 0.5205,
+    "expected": 0.5455
    },
    {
     "from": 0.6,
     "to": 0.7,
-    "n": 85,
-    "hit": 0.7294,
-    "expected": 0.6404
+    "n": 81,
+    "hit": 0.6914,
+    "expected": 0.6414
    },
    {
     "from": 0.7,
     "to": 1.0,
-    "n": 58,
-    "hit": 0.7759,
-    "expected": 0.7932
+    "n": 54,
+    "hit": 0.7593,
+    "expected": 0.7922
    }
   ],
   "days": [
    {
     "date": "2026-10-02",
-    "acc": 0.4655,
-    "n": 58
+    "acc": 0.4881,
+    "n": 84
    },
    {
     "date": "2026-10-01",
@@ -314,8 +336,8 @@
    },
    {
     "date": "2026-09-26",
-    "acc": 0.4643,
-    "n": 84
+    "acc": 0.75,
+    "n": 8
    },
    {
     "date": "2026-09-20",
@@ -370,14 +392,14 @@
     "n": 43
    },
    {
-    "name": "International UEFA Nations League",
-    "acc": 0.5,
-    "n": 40
-   },
-   {
     "name": "Portugal Primeira Liga",
     "acc": 0.5,
     "n": 42
+   },
+   {
+    "name": "International UEFA Nations League",
+    "acc": 0.5128,
+    "n": 39
    }
   ],
   "top": [
@@ -407,6 +429,11 @@
     "lg": "friendly"
    },
    {
+    "m": "La Fiorita v Murata",
+    "c": 0.8721,
+    "lg": "af.404"
+   },
+   {
     "m": "Aruba v Anguilla",
     "c": 0.8588,
     "lg": "concacaf.nations"
@@ -415,11 +442,6 @@
     "m": "Switzerland v North Macedonia",
     "c": 0.8544,
     "lg": "uefa.nations"
-   },
-   {
-    "m": "Russia v Namibia",
-    "c": 0.8474,
-    "lg": "friendly"
    }
   ]
  }

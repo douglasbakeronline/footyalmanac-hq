@@ -1,7 +1,31 @@
 {
  "prs": [],
- "fetched": "2026-10-03T01:09:31.170705+01:00",
+ "fetched": "2026-10-03T01:50:31.692701+01:00",
  "commits": [
+  {
+   "sha": "bc8be79",
+   "msg": "Archive predictions and record for 2026-10-03",
+   "date": "2026-10-03T00:29:41Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/bc8be793e4bac374b780b957ee45381b08688440"
+  },
+  {
+   "sha": "1a0cb89",
+   "msg": "Merge pull request #2 from douglasbakeronline/fix/calibration-baseline",
+   "date": "2026-10-03T00:23:44Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1a0cb8902ec42ba93e83f35b772cc95c629a55c7"
+  },
+  {
+   "sha": "a7cf561",
+   "msg": "tuning-evidence: advisory sweep against the live configuration (snapshot aa19d05b)",
+   "date": "2026-10-03T00:21:26Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a7cf561712cc7e8cce79fad4dc73d8bf4336bf00"
+  },
+  {
+   "sha": "59d3361",
+   "msg": "Gate calibration refits against the live curve, not flat 1.15",
+   "date": "2026-10-03T00:15:43Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/59d3361e3d6b1b3acf014fe75368e9991be784b4"
+  },
   {
    "sha": "8be9d57",
    "msg": "Archive predictions and record for 2026-10-02",
@@ -97,92 +121,68 @@
    "msg": "Competition filter collapses behind one control with a finder",
    "date": "2026-09-30T16:24:34Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/24a3ade11b525a9277459835496a7d177864d3b1"
-  },
-  {
-   "sha": "7102188",
-   "msg": "Archive predictions and record for 2026-09-30",
-   "date": "2026-09-30T15:51:00Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/7102188ca274eb1b1e7544c6cc1eb4836a56a35c"
-  },
-  {
-   "sha": "f348eed",
-   "msg": "Release 2026-09-30-9: match clubs within gender, country and continent",
-   "date": "2026-09-30T15:44:48Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f348eedb3a1734d61307b4a00255467d00183eea"
-  },
-  {
-   "sha": "c0aa151",
-   "msg": "Archive predictions and record for 2026-09-30",
-   "date": "2026-09-30T15:36:34Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/c0aa151fb4e91cb33e92d3675b70eb5e3d1261b3"
-  },
-  {
-   "sha": "642e9c4",
-   "msg": "Release 2026-09-30-8: pace and retry API-Football calls",
-   "date": "2026-09-30T15:30:14Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/642e9c4842236a6745d5c122fa6428a127bdd4bc"
   }
  ],
  "runs": [
   {
-   "conclusion": "success",
-   "createdAt": "2026-10-02T23:49:42Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37079384183"
-  },
-  {
-   "conclusion": "cancelled",
-   "createdAt": "2026-10-02T23:46:06Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37079115749"
+   "conclusion": "failure",
+   "createdAt": "2026-10-03T00:28:38Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082221371"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-02T23:01:48Z",
-   "name": "Office merge window",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37075559578"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-02T23:01:46Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37075557070"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-02T23:01:41Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37075549386"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-02T22:43:56Z",
+   "createdAt": "2026-10-03T00:28:38Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37074040427"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082220837"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-02T22:36:46Z",
+   "createdAt": "2026-10-03T00:28:34Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37073419254"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082216989"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-02T21:10:57Z",
+   "createdAt": "2026-10-03T00:28:16Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37065280087"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082194883"
+  },
+  {
+   "conclusion": "failure",
+   "createdAt": "2026-10-03T00:28:16Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082194727"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-02T11:06:01Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/36999134950"
+   "createdAt": "2026-10-03T00:27:51Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082165740"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-01T11:36:45Z",
+   "createdAt": "2026-10-03T00:23:54Z",
    "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/36856453136"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37081896735"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-03T00:23:19Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37081855394"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-03T00:21:30Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37081724356"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-03T00:15:47Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37081313466"
   }
  ]
 }
