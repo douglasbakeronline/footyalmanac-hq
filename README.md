@@ -41,3 +41,12 @@ python -m http.server -d docs 8080
 
   Hires sit in the Expansion Wing, join stand-ups, playback and chats, and appear on the objectives wall. State is in `docs/data/org.json`. Delete an entry to let someone go.
 - **Mobile:** the office fills the screen and turns side-on to fit a phone. Room tags and room buttons are compact, and "Team & reports" jumps to the panel.
+
+## Your slip
+
+Tell the agents what you've backed and they'll give their read, show it on the home screen and settle it as results come in. Three ways:
+- Ask in chat.
+- Open an issue labelled `my-slip` with one selection per line.
+- Run the Office rhythm workflow with slot `slip` and your selections.
+
+Each leg is matched to footyalmanac's published pick, with our probability, whether the model agrees and the combined chance. Susie settles legs from the graded records at each office run and closes the issue when everything is in.

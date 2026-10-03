@@ -14,17 +14,23 @@ on:
     - cron: "0 17,18 * * 5"   # Fri 18:00 UK: Saturday picks preview
     - cron: "0 6,7 * * 6"     # Sat 07:00 UK: Saturday picks final
     - cron: "30 6,7 * * 0"    # Sun 07:30 UK: Saturday picks graded
+  issues:
+    types: [opened, labeled]
   workflow_dispatch:
     inputs:
       slot:
         description: "What to run now"
         type: choice
-        options: [standup, report, work, saturday]
+        options: [standup, report, work, saturday, slip]
         default: standup
       stage:
         description: "Saturday picks stage (saturday only; blank = by weekday)"
         type: choice
         options: ["", preview, final, review]
+        default: ""
+      selections:
+        description: "Your selections (slip only), comma separated"
+        type: string
         default: ""
       period:
         description: "Playback period (report only)"
@@ -42,6 +48,11 @@ concurrency:
 
 jobs:
   run:
+    # Issues only matter when Douglas opens one labelled my-slip (the agents' own slip issues are skipped).
+    if: >-
+      github.event_name != 'issues' ||
+      (contains(github.event.issue.labels.*.name, 'my-slip') && github.event.issue.user.login == 'douglasbakeronline' &&
+       !startsWith(github.event.issue.body, 'Douglas has gone with these'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -49,10 +60,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Log Douglas's slip
+        if: github.event_name == 'issues' || inputs.slot == 'slip'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLIP_TEXT: ${{ github.event.issue.body || inputs.selections }}
+          SLIP_ISSUE: ${{ github.event.issue.number }}
+        run: python scripts/slip.py add --text "$SLIP_TEXT" ${SLIP_ISSUE:+--issue "$SLIP_ISSUE"}
       - name: Run the office
+        if: github.event_name != 'issues' && inputs.slot != 'slip'
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/office.py --slot "${{ inputs.slot }}" --period "${{ inputs.period || 'day' }}" --stage "${{ inputs.stage }}"
+      - name: Settle slips
+        if: github.event_name != 'issues' && inputs.slot != 'slip'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/slip.py grade || true
       - name: Save results
         run: |
           git config user.name "footyalmanac-hq[bot]"
