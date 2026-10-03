@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Footyalmanac HQ · AI Agent Office</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-hq-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-hq-64.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-hq-180.png">
+<meta name="theme-color" content="#120e0b">
 <link rel="preconnect" href="https://api.fontshare.com">
 <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -113,12 +117,32 @@ ul.l{margin:4px 0 14px;padding-left:18px;font-size:12.5px}ul.l li{margin:4px 0}
  .bubble{width:190px;font-size:11px}
  .board{max-height:calc(100% - 120px)}
 }
+.mark{border-radius:7px;display:block}
+.viewbar{position:absolute;right:12px;top:12px;z-index:8;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.vrow{display:flex;gap:6px}
+.vbtn{display:flex;align-items:center;gap:6px;background:#1b1612e6;border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:7px 12px;font:600 12px "General Sans";cursor:pointer;backdrop-filter:blur(6px)}
+.vbtn:hover,.vbtn[aria-pressed="true"],.vbtn[aria-expanded="true"]{border-color:var(--acc);color:var(--acc)}
+.vpop{display:none;background:#1b1612f2;border:1px solid var(--line);border-radius:12px;padding:6px;min-width:200px;box-shadow:0 12px 40px rgba(0,0,0,.45);backdrop-filter:blur(6px)}
+.vpop.on{display:block}
+.vpop label{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:7px 8px;font-size:12px;cursor:pointer;border-radius:8px}
+.vpop label:hover{background:#ffffff0d}
+.vpop input{appearance:none;width:30px;height:17px;border-radius:999px;background:#3a322b;position:relative;cursor:pointer;flex:0 0 auto;transition:background .2s}
+.vpop input::after{content:"";position:absolute;top:2px;left:2px;width:13px;height:13px;border-radius:50%;background:#cfc2b2;transition:transform .2s}
+.vpop input:checked{background:var(--acc)}.vpop input:checked::after{transform:translateX(13px);background:#1a1208}
+.vpop input:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.vpop .vh{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);padding:4px 8px 2px}
+body.full header,body.full aside{display:none}
+body.full main{grid-template-columns:minmax(0,1fr)!important;display:grid}
+body.full #stage{height:100vh;height:100svh}
+body.hide-names .tag,body.hide-rooms .rtag,body.hide-bubbles .bubble,body.hide-board #board,body.hide-hud #hud,body.hide-banner #banner{display:none!important}
+@media(max-width:980px){.board{right:64px!important}}
+@media(max-width:700px){.vbtn{padding:8px 10px}.vbtn .lbl{display:none}.viewbar{right:8px;top:8px}body.full .board{right:64px!important}}
 </style>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.183.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.183.0/examples/jsm/"}}</script>
 </head><body>
 <header>
  <div class="logo">
-  <svg width="30" height="30" viewBox="0 0 32 32" fill="none" aria-label="Footyalmanac HQ"><path d="M16 3 28 10v12L16 29 4 22V10z" stroke="#f0b35a" stroke-width="2"/><path d="M16 9l6 3.5v7L16 23l-6-3.5v-7z" fill="#f0b35a"/><path d="M16 3v6M28 10l-6 2.5M4 10l6 2.5" stroke="#f0b35a" stroke-width="1.5"/></svg>
+  <img class="mark" src="assets/logo-a.png" width="30" height="30" alt="Footyalmanac">
   <div><b>FOOTYALMANAC HQ</b><br><span>AI agent office · accuracy first</span></div>
  </div>
  <div class="roster" id="roster"></div>
@@ -126,7 +150,12 @@ ul.l{margin:4px 0 14px;padding-left:18px;font-size:12.5px}ul.l li{margin:4px 0}
  <button class="cta ghost" id="present"><span class="lg">Present playback</span><span class="sm">Playback</span></button><button class="cta" id="go"><span class="lg">Call stand-up</span><span class="sm">Stand-up</span></button>
 </header>
 <main>
- <div id="stage"><div id="labels"></div><div class="banner" id="banner"></div><div class="hud" id="hud"></div><section class="board" id="board" aria-label="Today's Daily List"></section></div>
+ <div id="stage"><div id="labels"></div>
+ <div class="viewbar" id="viewbar">
+  <div class="vrow"><button class="vbtn" id="vFull" aria-pressed="false" title="Full view of the office (F)"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4"/></svg><span class="lbl">Full view</span></button>
+  <button class="vbtn" id="vFilt" aria-expanded="false" title="Show or hide layers"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 4h12M4.5 8h7M7 12h2"/></svg><span class="lbl">Layers</span></button></div>
+  <div class="vpop" id="vpop" role="group" aria-label="Office layers"></div>
+ </div><div class="banner" id="banner"></div><div class="hud" id="hud"></div><section class="board" id="board" aria-label="Today's Daily List"></section></div>
  <aside>
   <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="team">Team</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
   <div class="pane on" id="log"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
@@ -429,6 +458,11 @@ screens.score=wallScreen(13,5,1300,500,22,3.6,-21.86,0,paintScore);
 plant(12.2,-20.8,1.2);tallPlant(32,-20.6);plant(32,-8.4);rug(21.5,-11.5,13,6,"#5a3040","#ff7f9f");
 // north corridor: water coolers + aquarium
 cooler(-12.5,-6.5);cooler(12.5,-6.5);aquarium(29.6,-5.5,5);plant(-32,-5.5,1);
+// Framed company logo on the Chief of Staff's north wall
+{const S=2.3,g=grp(-31.0,-3.82,0);box(S+.44,S+.44,.12,"#b8892f",0,3.6-S/2-.22,0,g,{m:.85,r:.28});box(S+.2,S+.2,.14,"#f4efe6",0,3.6-S/2-.1,0,g);
+ const img=new Image();img.crossOrigin="anonymous";const ct=screenMesh(S,S,512,512,(c,w,h)=>{c.fillStyle="#c8102e";c.fillRect(0,0,w,h)},g,0,3.6,.09);
+ img.onload=()=>{try{ct.redraw((c,w,h)=>{c.clearRect(0,0,w,h);c.drawImage(img,0,0,w,h)})}catch(e){}};img.src="assets/logo-a.png";
+ box(1.5,.26,.06,GOLD,0,3.6-S/2-.62,.04,g);screenMesh(1.4,.2,512,72,(c,w,h)=>{c.fillStyle="#2a1d0e";c.fillRect(0,0,w,h);c.fillStyle="#f0d48a";c.font=`700 40px ${FONT}`;c.textAlign="center";c.textBaseline="middle";c.fillText("FOOTYALMANAC",w/2,h/2+2)},g,0,3.6-S/2-.49,.08)}
 // Chief of Staff — marble, chesterfield, objectives wall, trophies, art
 screens.objectives=wallScreen(10.5,4.6,1300,570,-32.86,3.7,2,Math.PI/2,paintObjectives);
 chesterfield(-24,6.6,Math.PI,"#5a2e1c",3.6);chesterfield(-28.6,3.6,Math.PI/2,"#5a2e1c",2.6);
@@ -569,6 +603,26 @@ const SHORT={"Whole office":"All","Fixtures & Data":"Data","Modelling":"Models",
 if(WING_OPEN){FOCUS["Expansion Wing"]=FOCUS["Launch Wing"];delete FOCUS["Launch Wing"];SHORT["Expansion Wing"]="Wing"}
 Object.keys(FOCUS).forEach(n=>{const b=document.createElement("button");b.innerHTML=`<span class="lg">${n}</span><span class="sm">${SHORT[n]||n}</span>`;b.onclick=()=>focus(n);$("#hud").appendChild(b)});
 {const b=document.createElement("button");b.className="more sm";b.textContent="Team & reports";b.onclick=()=>{openTab("team");document.querySelector("aside").scrollIntoView({behavior:"smooth"})};$("#hud").appendChild(b)}
+
+/* ---------- full view + layers ---------- */
+const LAYERS=[["names","Agent names"],["rooms","Room tags"],["bubbles","Speech bubbles"],["board","Daily List"],["hud","Room buttons"],["banner","Status banner"]];
+const VKEY="hq-view-v1";let VS={};try{VS=JSON.parse(localStorage.getItem(VKEY)||"{}")}catch(e){}
+VS.normal=Object.assign({names:1,rooms:1,bubbles:1,board:1,hud:1,banner:1},VS.normal||{});
+VS.full=Object.assign({names:1,rooms:0,bubbles:1,board:0,hud:0,banner:0},VS.full||{});
+let FULL=false;
+function applyView(){const st=FULL?VS.full:VS.normal;document.body.classList.toggle("full",FULL);LAYERS.forEach(([k])=>document.body.classList.toggle("hide-"+k,!st[k]));
+ $("#vFull").setAttribute("aria-pressed",FULL);$("#vFull .lbl").textContent=FULL?"Exit full view":"Full view";
+ $("#vpop").innerHTML=`<div class="vh">${FULL?"Full view":"Office"} layers</div>`+LAYERS.map(([k,n])=>`<label>${n}<input type="checkbox" data-k="${k}" ${st[k]?"checked":""}></label>`).join("");
+ $("#vpop").querySelectorAll("input").forEach(i=>i.onchange=()=>{st[i.dataset.k]=i.checked?1:0;save();applyView()});
+ userMoved=false;requestAnimationFrame(()=>resize())}
+function save(){try{localStorage.setItem(VKEY,JSON.stringify(VS))}catch(e){}}
+function setFull(on){FULL=on;applyView();setTimeout(()=>{resize();focus("Whole office")},80);try{if(on&&document.documentElement.requestFullscreen&&matchMedia("(min-width:701px)").matches)document.documentElement.requestFullscreen().catch(()=>{});else if(!on&&document.fullscreenElement)document.exitFullscreen()}catch(e){}}
+$("#vFull").onclick=()=>setFull(!FULL);
+$("#vFilt").onclick=()=>{const o=$("#vpop").classList.toggle("on");$("#vFilt").setAttribute("aria-expanded",o)};
+document.addEventListener("keydown",e=>{if(e.target.closest("input,textarea"))return;if(e.key==="f"||e.key==="F")setFull(!FULL);if(e.key==="Escape"&&FULL)setFull(false)});
+document.addEventListener("fullscreenchange",()=>{if(!document.fullscreenElement&&FULL&&matchMedia("(min-width:701px)").matches){FULL=false;applyView()}});
+document.addEventListener("click",e=>{if(!e.target.closest("#viewbar")){$("#vpop").classList.remove("on");$("#vFilt").setAttribute("aria-expanded",false)}});
+applyView();
 
 /* ---------- roster ---------- */
 AGENTS.forEach(a=>{const c=document.createElement("div");c.className="chip";c.title=`${a.role} · ${DEPT[a.d].name}`;c.innerHTML=`<span class="av" style="background:${DEPT[a.d].c}">${a.name[0]}</span>${a.name}<span class="st" id="st-${a.id}"></span>`;c.onclick=()=>showAgent(a.id);$("#roster").appendChild(c)});
