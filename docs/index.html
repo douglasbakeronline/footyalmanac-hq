@@ -25,6 +25,15 @@ button.cta:disabled{opacity:.55;cursor:progress}
 main{flex:1;display:grid;grid-template-columns:1fr 400px;min-height:0}
 #stage{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#2a211a 0%,#120e0b 70%)}
 #stage canvas{display:block}
+.board{position:absolute;left:14px;top:14px;width:340px;max-height:calc(100% - 132px);display:flex;flex-direction:column;background:rgba(27,22,18,.94);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 40px rgba(0,0,0,.45);z-index:6;backdrop-filter:blur(6px)}
+.board:empty{display:none}.board header{display:flex;align-items:center;gap:8px;padding:10px 12px;border-bottom:1px solid var(--line)}
+.board header b{font:700 11px "General Sans";letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}.board header span{color:var(--mut);font-size:11px;flex:1}
+.board header button{background:none;border:1px solid var(--line);color:var(--mut);border-radius:6px;font:600 11px "General Sans";padding:3px 7px;cursor:pointer}
+.board .bl{overflow:auto;padding:2px 12px 8px}.board .pk{grid-template-columns:38px minmax(0,1fr) auto;padding:6px 0}.board .pk .lg{font-size:10.5px}
+.board .sub{font:700 10px "General Sans";letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin:10px 0 2px}
+.board.min .bl{display:none}.board .dsw{display:flex;gap:4px;padding:8px 12px 0}.board .dsw button{flex:1;background:var(--panel2);border:1px solid var(--line);color:var(--mut);border-radius:6px;font:600 11px "General Sans";padding:4px 0;cursor:pointer}.board .dsw button.on{color:var(--txt);border-color:var(--acc)}
+.board.min .dsw{display:none}
+@media(max-width:980px){.board{left:8px;top:8px;right:8px;width:auto;max-height:calc(100% - 150px)}}
 #labels{position:absolute;inset:0;pointer-events:none}
 .tag{position:absolute;transform:translate(-50%,-100%);background:#120e0bdd;border:1px solid #ffffff22;color:#fff;font-size:11px;font-weight:600;padding:2px 7px 2px 5px;border-radius:6px;display:flex;align-items:center;gap:5px;white-space:nowrap;pointer-events:auto;cursor:pointer}
 .tag i{width:6px;height:6px;border-radius:50%;background:var(--good)}
@@ -91,7 +100,7 @@ ul.l{margin:4px 0 14px;padding-left:18px;font-size:12.5px}ul.l li{margin:4px 0}
  <button class="cta ghost" id="present">Present playback</button><button class="cta" id="go">Call stand-up</button>
 </header>
 <main>
- <div id="stage"><div id="labels"></div><div class="banner" id="banner"></div><div class="hud" id="hud"></div></div>
+ <div id="stage"><div id="labels"></div><div class="banner" id="banner"></div><div class="hud" id="hud"></div><section class="board" id="board" aria-label="Today's Daily List"></section></div>
  <aside>
   <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
   <div class="pane on" id="log"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
@@ -528,7 +537,7 @@ function renderRhythm(n){const nxt=RHYTHM.map(r=>({...r,d:(toMin(r.t)-n+1440)%14
  `<div class="it"><span class="t">Sun</span><b>Weekly playback</b><div style="color:var(--mut);font-size:12.5px">Sunday's 23:45 playback covers the whole week.</div></div><div class="it"><span class="t">Mon</span><b>Weekly retune</b><div style="color:var(--mut);font-size:12.5px">Model refit with pass/fail gates, reviewed at the Monday morning stand-up.</div></div></div>`+(EVENTS.length?`<div class="k" style="margin-top:16px">Recent runs</div>`+EVENTS.slice(0,12).map(e=>`<div class="row"><b class="mono">${fmt(e.time)}</b> · ${e.name}<br><span style="color:var(--mut)">${e.summary||""}</span></div>`).join(""):"")}
 /* ---------- picks desk: answered from the published predictions, no AI tokens ---------- */
 let PICKS=null;const DOW=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
-async function loadPicks(){try{PICKS=await J("picks.json");if(!$("#picks").dataset.ready)renderPicksDesk()}catch(e){$("#picks").innerHTML="<p class='k'>Picks are not published yet.</p>"}}
+async function loadPicks(){try{PICKS=await J("picks.json");renderBoard();if(!$("#picks").dataset.ready)renderPicksDesk()}catch(e){$("#picks").innerHTML="<p class='k'>Picks are not published yet.</p>"}}
 function ukToday(){return new Date().toLocaleDateString("en-CA",{timeZone:"Europe/London"})}
 function addDays(iso,n){const d=new Date(iso+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)}
 function dayName(iso){return new Date(iso+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"short",timeZone:"UTC"})}
@@ -555,7 +564,7 @@ function answer(q){const t=q.toLowerCase(),days=PICKS.days.map(d=>d.date),today=
  return {out,words,code,strong,btts,over};}
 const LGN={"en.1":"Premier League","en.2":"Championship","en.3":"League One","en.4":"League Two","en.5":"National League","sco.1":"Scottish Premiership","sco.2":"Scottish Championship","es.1":"La Liga","de.1":"Bundesliga","de.2":"2. Bundesliga","it.1":"Serie A","it.2":"Serie B","fr.1":"Ligue 1","fr.2":"Ligue 2","nl.1":"Eredivisie","pt.1":"Primeira Liga","us.1":"MLS"};
 function pickRow(x,mode){const val=mode==="btts"?x.btts:mode==="over"?x.o25:x.c;const lab=mode==="btts"?"BTTS":mode==="over"?"O2.5":x.pick;
- return `<div class="pk"><span class="tm">${x.ko?new Date(x.ko).toLocaleTimeString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit"}):x.t||""}</span><span class="m"><b>${x.h}</b> v <b>${x.a}</b> · ${lab}${x.list?'<span class="ptag l">List</span>':x.reserve?'<span class="ptag">Reserve</span>':""}${x.celtic?'<span class="ptag w">Celtic flag</span>':""}</span><span class="cf">${pct(val)}</span><span class="lg">${x.lgName}${x.score?` · likely ${x.score[0]}-${x.score[1]}`:""}${x.hit!=null&&mode!=="btts"&&mode!=="over"?` · calls at this level won ${pct(x.hit)} in testing (${x.hitN})`:""}</span></div>`}
+ return `<div class="pk"><span class="tm">${x.ko?new Date(x.ko).toLocaleTimeString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit"}):x.t||""}</span><span class="m"><b>${x.h}</b> v <b>${x.a}</b> · ${lab}${mode==="board"?"":x.list?'<span class="ptag l">List</span>':x.reserve?'<span class="ptag">Reserve</span>':""}${x.celtic?'<span class="ptag w">Celtic flag</span>':""}</span><span class="cf">${pct(val)}</span><span class="lg">${x.lgName}${x.score?` · likely ${x.score[0]}-${x.score[1]}`:""}${x.hit!=null&&mode!=="btts"&&mode!=="over"?` · calls at this level won ${pct(x.hit)} in testing (${x.hitN})`:""}</span></div>`}
 function ask(q){if(!PICKS||!q.trim())return;const r=answer(q),mode=r.btts?"btts":r.over?"over":"pick";
  const body=r.out.map(o=>`<div class="k" style="margin-top:6px">${dayName(o.d)} · ${o.total} ${r.words.length||r.code?"games":r.btts||r.over?"games":"picks"}${!r.words.length&&!r.code&&!r.btts&&!r.over?` (${o.listN} on the Daily List)`:""}</div>`+(o.games.length?o.games.map(x=>pickRow(x,mode)).join(""):`<div class="row" style="color:var(--mut)">${r.code?`No ${LGN[r.code]} games that day${PICKS.days.find(d=>d.games.some(x=>x.lg===r.code))?`. Next: ${dayName(PICKS.days.find(d=>d.date>o.d&&d.games.some(x=>x.lg===r.code))?.date||PICKS.days.find(d=>d.games.some(x=>x.lg===r.code)).date)}`:" in the published week (international break?)"}.`:"Nothing matches that on this day."}</div>`)).join("")||`<div class="row" style="color:var(--mut)">That day isn't published yet. Picks cover ${dayName(PICKS.days[0].date)} to ${dayName(PICKS.days.at(-1).date)}.</div>`;
  const intro=r.btts?"Most likely both-teams-to-score games. BTTS is weaker than the winner board, so treat it as a lean.":r.over?"Most likely over 2.5 goals games.":r.strong?"Strong calls only (70% and up), strongest first.":r.code?`${LGN[r.code]} games, strongest first.`:r.words.length?`Everything I have for "${r.words.join(" ")}", strongest first.`:"The Daily List first, then the reserve, strongest first.";
@@ -568,6 +577,19 @@ async function loadSat(){try{const all=await J("saturday.json");const b=all.find
  let h="";if(b){h+=`<div class="qa" style="margin-top:0"><div class="a" style="border-left-color:var(--acc)"><div class="k" style="margin:0 0 6px">Saturday briefing · ${dayName(b.date)} · ${b.stage}${b.issue?` · <a href="${b.issue}" target="_blank" rel="noopener" style="color:var(--acc)">on GitHub</a>`:""}</div>${b.lines.map(l=>`<div style="margin:4px 0">${who(l)}</div>`).join("")}${(b.list||[]).length?`<div class="k" style="margin-top:10px">Daily List</div>`+b.list.map(x=>pickRow(x,"pick")).join(""):""}${(b.majors||[]).length?`<div class="k" style="margin-top:10px">Big leagues</div>`+b.majors.map(m=>`<div style="color:var(--mut);font-size:11px;margin-top:6px">${m.name} · ${m.n} games</div>`+m.games.map(x=>pickRow(x,"pick")).join("")).join(""):""}<div style="color:var(--mut);font-size:11px;margin-top:8px">Updated ${fmt(b.time)}. Preview Fri 18:00, final Sat 07:00, graded Sun 07:30.</div></div></div>`}
  if(rv&&(!b||rv.date<b.date||true)){h+=`<div class="qa"><div class="a" style="border-left-color:#ff7f9f"><div class="k" style="margin:0 0 6px">Last Saturday graded · ${dayName(rv.date)}</div>${rv.lines.map(l=>`<div style="margin:4px 0">${who(l)}</div>`).join("")}</div></div>`}
  $("#satCard").innerHTML=h}catch(e){}}
+/* ---------- home screen: every Daily List pick for the day ---------- */
+let BOARD_DAY=null,BOARD_RES=false;
+function renderBoard(){const el=$("#board");if(!PICKS)return;const today=ukToday();const days=PICKS.days.filter(d=>d.date>=today).slice(0,3);if(!days.length)return;
+ if(!BOARD_DAY||!days.some(d=>d.date===BOARD_DAY))BOARD_DAY=days[0].date;const day=days.find(d=>d.date===BOARD_DAY);
+ const lst=day.games.filter(x=>x.list),res=day.games.filter(x=>x.reserve);const min=el.classList.contains("min");
+ const lab=d=>d===today?"Today":d===addDays(today,1)?"Tomorrow":new Date(d+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"short",timeZone:"UTC"});
+ el.innerHTML=`<header><b>Daily List</b><span>${dayName(day.date)} · ${lst.length} picks${res.length?` + ${res.length} reserve`:""}</span><button type="button" id="bdMin" aria-expanded="${!min}">${min?"Show":"Hide"}</button></header>
+ <div class="dsw">${days.map(d=>`<button type="button" data-d="${d.date}" class="${d.date===BOARD_DAY?"on":""}">${lab(d.date)}</button>`).join("")}</div>
+ <div class="bl">${lst.length?lst.map(x=>pickRow(x,"board")).join(""):`<div class="row" style="color:var(--mut)">No Daily List picks published for this day yet.</div>`}
+ ${res.length?`<div class="sub">Reserve · ${res.length}</div>`+(BOARD_RES?res.map(x=>pickRow(x,"board")).join(""):res.slice(0,5).map(x=>pickRow(x,"board")).join("")+(res.length>5?`<button class="sbtn" type="button" id="bdRes" style="margin:8px 0 2px;width:100%">Show all ${res.length} reserve picks</button>`:"")):""}
+ <div style="color:var(--mut);font-size:10.5px;margin-top:8px">UK kick-offs · model probabilities from the ${fmt(PICKS.generated)} build · not betting advice</div></div>`;
+ $("#bdMin").onclick=()=>{el.classList.toggle("min");renderBoard()};el.querySelectorAll(".dsw button").forEach(b=>b.onclick=()=>{BOARD_DAY=b.dataset.d;BOARD_RES=false;renderBoard()});
+ const rb=$("#bdRes");if(rb)rb.onclick=()=>{BOARD_RES=true;renderBoard()}}
 let EVENTS=[];async function loadEvents(){try{EVENTS=await J("events.json");rhythmTick()}catch(e){}}
 
 /* ---------- panels ---------- */
@@ -703,5 +725,5 @@ $("#present").onclick=()=>present();
 document.fonts.ready.then(async()=>{rhythmTick();await poll(true);loadReports();loadChats();loadGH()});
 J("rhythm.json").then(d=>{if(d.rhythm)RHYTHM=d.rhythm;rhythmTick()}).catch(()=>{});
 setInterval(()=>poll(false),20000);setInterval(loadGH,180000);setInterval(loadReports,120000);setInterval(loadChats,60000);
-setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);loadPicks();setInterval(()=>J("picks.json").then(d=>PICKS=d).catch(()=>{}),600000);
+setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);loadPicks();setInterval(()=>J("picks.json").then(d=>{PICKS=d;renderBoard()}).catch(()=>{}),600000);if(matchMedia("(max-width:980px)").matches)$("#board").classList.add("min");
 </script></body></html>
