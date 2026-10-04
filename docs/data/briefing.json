@@ -1,18 +1,18 @@
 {
- "time": "2026-10-04T08:31:08.026873+01:00",
+ "time": "2026-10-04T12:05:11.679816+01:00",
  "date": "2026-10-04",
- "stage": "briefing",
+ "stage": "refresh",
  "pricing": {
   "footballData": 3,
   "oddsApi": 0,
   "oddsApiLeft": null,
   "priced": 3,
-  "total": 440
+  "total": 398
  },
  "counts": {
-  "today": 440,
-  "list": 15,
-  "tomorrow": 43
+  "today": 398,
+  "list": 11,
+  "tomorrow": 68
  },
  "impactful": [
   {
@@ -214,10 +214,33 @@
  "tomorrow": [
   {
    "sport": "tennis",
+   "event": "Jaume Munar v Carlos Alcaraz",
+   "comp": "Kinoshita Group Japan Open Tennis Championships Semifinal",
+   "tour": "ATP",
+   "when": "2026-10-05T07:00:00Z",
+   "date": "2026-10-05",
+   "selection": "Carlos Alcaraz",
+   "opp": "Jaume Munar",
+   "p": 0.8888,
+   "modelPick": "Carlos Alcaraz",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9194,
+   "hitN": 62,
+   "id": "183512",
+   "rank": [
+    3,
+    64
+   ],
+   "status": "pending",
+   "why": "89% Carlos Alcaraz, ranked 3 v 64, calls at this level won 92% (62)"
+  },
+  {
+   "sport": "tennis",
    "event": "Iga Swiatek v Donna Vekic",
    "comp": "China Open Round 3",
    "tour": "WTA",
-   "when": "2026-10-05T04:00:00Z",
+   "when": "2026-10-05T03:00:00Z",
    "date": "2026-10-05",
    "selection": "Iga Swiatek",
    "opp": "Donna Vekic",
@@ -240,11 +263,11 @@
    "event": "Elina Svitolina v Maria Sakkari",
    "comp": "China Open Round 3",
    "tour": "WTA",
-   "when": "2026-10-05T04:00:00Z",
+   "when": "2026-10-05T08:30:00Z",
    "date": "2026-10-05",
    "selection": "Elina Svitolina",
    "opp": "Maria Sakkari",
-   "p": 0.7422,
+   "p": 0.7403,
    "modelPick": "Elina Svitolina",
    "tierName": "Strong",
    "list": false,
@@ -257,6 +280,29 @@
    ],
    "status": "pending",
    "why": "74% Elina Svitolina, ranked 7 v 33, calls at this level won 80% (384)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Hubert Hurkacz v Alex De Minaur",
+   "comp": "China Open Semifinal",
+   "tour": "ATP",
+   "when": "2026-10-05T07:00:00Z",
+   "date": "2026-10-05",
+   "selection": "Alex De Minaur",
+   "opp": "Hubert Hurkacz",
+   "p": 0.6208,
+   "modelPick": "Alex De Minaur",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.7328,
+   "hitN": 670,
+   "id": "183466",
+   "rank": [
+    10,
+    39
+   ],
+   "status": "pending",
+   "why": "62% Alex De Minaur, ranked 10 v 39, calls at this level won 73% (670)"
   },
   {
    "sport": "football",
@@ -290,62 +336,6 @@
    "rankA": 88,
    "status": "pending",
    "why": "62% Costa Rica, likely 2-1, xG 2.3 v 1.1, world ranks 51 v 88, calls at this level won 75% (190)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Ann Li v Belinda Bencic",
-   "comp": "China Open Round 3",
-   "tour": "WTA",
-   "when": "2026-10-05T04:00:00Z",
-   "date": "2026-10-05",
-   "selection": "Belinda Bencic",
-   "opp": "Ann Li",
-   "p": 0.7425,
-   "modelPick": "Belinda Bencic",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.8021,
-   "hitN": 384,
-   "id": "184329",
-   "rank": [
-    12,
-    30
-   ],
-   "status": "pending",
-   "why": "74% Belinda Bencic, ranked 12 v 30, calls at this level won 80% (384)"
-  },
-  {
-   "sport": "football",
-   "event": "Montenegro v Armenia",
-   "comp": "UEFA Nations League",
-   "lg": "uefa.nations",
-   "country": "International",
-   "tier": 1,
-   "when": "2026-10-05T18:45:00Z",
-   "date": "2026-10-05",
-   "selection": "Montenegro",
-   "opp": "Armenia",
-   "side": "h",
-   "home": "Montenegro",
-   "away": "Armenia",
-   "p": 0.6104,
-   "modelPick": "Montenegro",
-   "list": false,
-   "reserve": false,
-   "hit": 0.7526,
-   "hitN": 190,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.08,
-    0.94
-   ],
-   "rankH": 80,
-   "rankA": 107,
-   "status": "pending",
-   "why": "61% Montenegro, likely 2-0, xG 2.1 v 0.9, world ranks 80 v 107, calls at this level won 75% (190)"
   }
  ],
  "groups": [
@@ -356,10 +346,46 @@
     4.0
    ],
    "odds": 2.51,
-   "p": 0.397,
+   "p": 0.3983,
    "marketP": 0.3991,
    "estimated": 5,
    "legs": [
+    {
+     "sport": "football",
+     "event": "Morocco v Ghana",
+     "comp": "International friendly",
+     "lg": "friendly",
+     "country": "International",
+     "tier": 1,
+     "when": "2026-10-04T18:00:00Z",
+     "date": "2026-10-04",
+     "selection": "Morocco",
+     "opp": "Ghana",
+     "side": "h",
+     "home": "Morocco",
+     "away": "Ghana",
+     "p": 0.8268,
+     "modelPick": "Morocco",
+     "list": false,
+     "reserve": true,
+     "hit": 0.8387,
+     "hitN": 62,
+     "score": [
+      2,
+      0
+     ],
+     "xg": [
+      2.47,
+      0.37
+     ],
+     "rankH": 6,
+     "rankA": 65,
+     "status": "pending",
+     "odds": 1.21,
+     "oddsSrc": "estimate: model fair price, no market price yet",
+     "est": true,
+     "implied": 0.8264
+    },
     {
      "sport": "rugby",
      "event": "Montpellier Herault v Toulon",
@@ -386,33 +412,6 @@
      "oddsSrc": "estimate: model fair price, no market price yet",
      "est": true,
      "implied": 0.8
-    },
-    {
-     "sport": "nfl",
-     "event": "Minnesota Vikings v Miami Dolphins",
-     "comp": "NFL",
-     "when": "2026-10-04T20:05Z",
-     "date": "2026-10-04",
-     "selection": "Minnesota Vikings",
-     "opp": "Miami Dolphins",
-     "p": 0.824,
-     "modelPick": "Minnesota Vikings",
-     "tierName": "Strong",
-     "list": true,
-     "hit": 0.8065,
-     "hitN": 31,
-     "id": "401872974",
-     "elo": [
-      1607,
-      1389
-     ],
-     "homeSide": true,
-     "form": "WWWWW",
-     "status": "pending",
-     "odds": 1.21,
-     "oddsSrc": "estimate: model fair price, no market price yet",
-     "est": true,
-     "implied": 0.8264
     },
     {
      "sport": "nfl",
@@ -522,36 +521,36 @@
     4.0,
     7.0
    ],
-   "odds": 4.0,
+   "odds": 4.01,
    "p": 0.2514,
-   "marketP": 0.2499,
+   "marketP": 0.2491,
    "estimated": 5,
    "legs": [
     {
      "sport": "tennis",
-     "event": "Naomi Osaka v Sara Bejlek",
+     "event": "Liudmila Samsonova v Karolina Muchova",
      "comp": "China Open Round 3",
      "tour": "WTA",
-     "when": "2026-10-04T11:00:00Z",
+     "when": "2026-10-04T12:30:00Z",
      "date": "2026-10-04",
-     "selection": "Naomi Osaka",
-     "opp": "Sara Bejlek",
-     "p": 0.7391,
-     "modelPick": "Naomi Osaka",
+     "selection": "Karolina Muchova",
+     "opp": "Liudmila Samsonova",
+     "p": 0.7652,
+     "modelPick": "Karolina Muchova",
      "tierName": "Strong",
      "list": false,
-     "hit": 0.8021,
-     "hitN": 384,
-     "id": "184339",
+     "hit": 0.8103,
+     "hitN": 253,
+     "id": "184340",
      "rank": [
-      17,
-      29
+      8,
+      39
      ],
      "status": "pending",
-     "odds": 1.35,
+     "odds": 1.31,
      "oddsSrc": "estimate: model fair price, no market price yet",
      "est": true,
-     "implied": 0.7407
+     "implied": 0.7634
     },
     {
      "sport": "rugby",
@@ -581,6 +580,32 @@
      "implied": 0.7812
     },
     {
+     "sport": "tennis",
+     "event": "Lois Boisson v Leolia Jeanjean",
+     "comp": "Adana Open Final",
+     "tour": "WTA",
+     "when": "2026-10-04T15:00:00Z",
+     "date": "2026-10-04",
+     "selection": "Lois Boisson",
+     "opp": "Leolia Jeanjean",
+     "p": 0.6939,
+     "modelPick": "Lois Boisson",
+     "tierName": "Firm",
+     "list": false,
+     "hit": 0.7681,
+     "hitN": 539,
+     "id": "184152",
+     "rank": [
+      null,
+      109
+     ],
+     "status": "pending",
+     "odds": 1.44,
+     "oddsSrc": "estimate: model fair price, no market price yet",
+     "est": true,
+     "implied": 0.6944
+    },
+    {
      "sport": "nfl",
      "event": "Chicago Bears v New York Jets",
      "comp": "NFL",
@@ -608,31 +633,143 @@
      "implied": 0.8
     },
     {
+     "sport": "football",
+     "event": "Guyana v Dominica",
+     "comp": "CONCACAF Nations League",
+     "lg": "concacaf.nations",
+     "country": "International",
+     "tier": 1,
+     "when": "2026-10-04T19:00:00Z",
+     "date": "2026-10-04",
+     "selection": "Guyana",
+     "opp": "Dominica",
+     "side": "h",
+     "home": "Guyana",
+     "away": "Dominica",
+     "p": 0.7533,
+     "modelPick": "Guyana",
+     "list": true,
+     "reserve": false,
+     "hit": 0.8427,
+     "hitN": 89,
+     "score": [
+      2,
+      0
+     ],
+     "xg": [
+      2.75,
+      0.86
+     ],
+     "rankH": 150,
+     "rankA": 182,
+     "status": "pending",
+     "odds": 1.33,
+     "oddsSrc": "estimate: model fair price, no market price yet",
+     "est": true,
+     "implied": 0.7519
+    }
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "Stretch",
+   "band": [
+    7.0,
+    14.0
+   ],
+   "odds": 7.01,
+   "p": 0.1429,
+   "marketP": 0.1426,
+   "estimated": 5,
+   "legs": [
+    {
+     "sport": "tennis",
+     "event": "Lucija Ciric Bagaric v Dalila Jakupovic",
+     "comp": "Samsun Open Qualifying 1st Round",
+     "tour": "WTA",
+     "when": "2026-10-04T12:30:00Z",
+     "date": "2026-10-04",
+     "selection": "Lucija Ciric Bagaric",
+     "opp": "Dalila Jakupovic",
+     "p": 0.6049,
+     "modelPick": "Lucija Ciric Bagaric",
+     "tierName": "Lean",
+     "list": false,
+     "hit": 0.7151,
+     "hitN": 737,
+     "id": "186287",
+     "rank": [
+      null,
+      null
+     ],
+     "status": "pending",
+     "odds": 1.65,
+     "oddsSrc": "estimate: model fair price, no market price yet",
+     "est": true,
+     "implied": 0.6061
+    },
+    {
+     "sport": "football",
+     "event": "Barcelona v Real Madrid",
+     "comp": "Liga F",
+     "lg": "es.w1",
+     "country": "Spain",
+     "tier": 1,
+     "when": "2026-10-04T17:00:00Z",
+     "date": "2026-10-04",
+     "selection": "Barcelona",
+     "opp": "Real Madrid",
+     "side": "h",
+     "home": "Barcelona",
+     "away": "Real Madrid",
+     "p": 0.5896,
+     "modelPick": "Barcelona",
+     "list": false,
+     "reserve": false,
+     "hit": 0.6714,
+     "hitN": 280,
+     "score": [
+      2,
+      1
+     ],
+     "xg": [
+      2.28,
+      1.2
+     ],
+     "rankH": null,
+     "rankA": null,
+     "status": "pending",
+     "odds": 1.7,
+     "oddsSrc": "estimate: model fair price, no market price yet",
+     "est": true,
+     "implied": 0.5882
+    },
+    {
      "sport": "nfl",
-     "event": "Houston Texans v Dallas Cowboys",
+     "event": "New York Giants v Arizona Cardinals",
      "comp": "NFL",
      "when": "2026-10-04T17:00Z",
      "date": "2026-10-04",
-     "selection": "Houston Texans",
-     "opp": "Dallas Cowboys",
-     "p": 0.6795,
-     "modelPick": "Houston Texans",
-     "tierName": "Firm",
+     "selection": "New York Giants",
+     "opp": "Arizona Cardinals",
+     "p": 0.6102,
+     "modelPick": "New York Giants",
+     "tierName": "Lean",
      "list": false,
-     "hit": 0.7095,
-     "hitN": 148,
-     "id": "401872967",
+     "hit": 0.695,
+     "hitN": 200,
+     "id": "401872966",
      "elo": [
-      1530,
-      1449
+      1438,
+      1410
      ],
      "homeSide": true,
-     "form": "LLLLW",
+     "form": "WLWWW",
      "status": "pending",
-     "odds": 1.47,
+     "odds": 1.64,
      "oddsSrc": "estimate: model fair price, no market price yet",
      "est": true,
-     "implied": 0.6803
+     "implied": 0.6098
     },
     {
      "sport": "football",
@@ -669,181 +806,33 @@
      "oddsSrc": "estimate: model fair price, no market price yet",
      "est": true,
      "implied": 0.7937
-    }
-   ],
-   "status": "pending"
-  },
-  {
-   "name": "Stretch",
-   "band": [
-    7.0,
-    14.0
-   ],
-   "odds": 7.02,
-   "p": 0.1432,
-   "marketP": 0.1425,
-   "estimated": 5,
-   "legs": [
-    {
-     "sport": "tennis",
-     "event": "Liudmila Samsonova v Karolina Muchova",
-     "comp": "China Open Round 3",
-     "tour": "WTA",
-     "when": "2026-10-04T12:30:00Z",
-     "date": "2026-10-04",
-     "selection": "Karolina Muchova",
-     "opp": "Liudmila Samsonova",
-     "p": 0.7653,
-     "modelPick": "Karolina Muchova",
-     "tierName": "Strong",
-     "list": false,
-     "hit": 0.8103,
-     "hitN": 253,
-     "id": "184340",
-     "rank": [
-      8,
-      39
-     ],
-     "status": "pending",
-     "odds": 1.31,
-     "oddsSrc": "estimate: model fair price, no market price yet",
-     "est": true,
-     "implied": 0.7634
-    },
-    {
-     "sport": "football",
-     "event": "Comoros v Senegal",
-     "comp": "International friendly",
-     "lg": "friendly",
-     "country": "International",
-     "tier": 1,
-     "when": "2026-10-04T13:00:00Z",
-     "date": "2026-10-04",
-     "selection": "Senegal",
-     "opp": "Comoros",
-     "side": "a",
-     "home": "Comoros",
-     "away": "Senegal",
-     "p": 0.7597,
-     "modelPick": "Senegal",
-     "list": false,
-     "reserve": false,
-     "hit": 0.8427,
-     "hitN": 89,
-     "score": [
-      0,
-      2
-     ],
-     "xg": [
-      0.58,
-      2.38
-     ],
-     "rankH": 108,
-     "rankA": 18,
-     "status": "pending",
-     "odds": 1.32,
-     "oddsSrc": "estimate: model fair price, no market price yet",
-     "est": true,
-     "implied": 0.7576
-    },
-    {
-     "sport": "football",
-     "event": "Barcelona v Real Madrid",
-     "comp": "Liga F",
-     "lg": "es.w1",
-     "country": "Spain",
-     "tier": 1,
-     "when": "2026-10-04T15:00:00Z",
-     "date": "2026-10-04",
-     "selection": "Barcelona",
-     "opp": "Real Madrid",
-     "side": "h",
-     "home": "Barcelona",
-     "away": "Real Madrid",
-     "p": 0.5891,
-     "modelPick": "Barcelona",
-     "list": false,
-     "reserve": false,
-     "hit": 0.6714,
-     "hitN": 280,
-     "score": [
-      2,
-      1
-     ],
-     "xg": [
-      2.3,
-      1.22
-     ],
-     "rankH": null,
-     "rankA": null,
-     "status": "pending",
-     "odds": 1.7,
-     "oddsSrc": "estimate: model fair price, no market price yet",
-     "est": true,
-     "implied": 0.5882
-    },
-    {
-     "sport": "football",
-     "event": "Morocco v Mali",
-     "comp": "International friendly",
-     "lg": "friendly",
-     "country": "International",
-     "tier": 1,
-     "when": "2026-10-04T18:00:00Z",
-     "date": "2026-10-04",
-     "selection": "Morocco",
-     "opp": "Mali",
-     "side": "h",
-     "home": "Morocco",
-     "away": "Mali",
-     "p": 0.7231,
-     "modelPick": "Morocco",
-     "list": false,
-     "reserve": false,
-     "hit": 0.8235,
-     "hitN": 119,
-     "score": [
-      1,
-      0
-     ],
-     "xg": [
-      1.89,
-      0.38
-     ],
-     "rankH": 6,
-     "rankA": 53,
-     "status": "pending",
-     "odds": 1.38,
-     "oddsSrc": "estimate: model fair price, no market price yet",
-     "est": true,
-     "implied": 0.7246
     },
     {
      "sport": "nfl",
-     "event": "Las Vegas Raiders v Kansas City Chiefs",
+     "event": "Minnesota Vikings v Miami Dolphins",
      "comp": "NFL",
-     "when": "2026-10-04T20:25Z",
+     "when": "2026-10-04T20:05Z",
      "date": "2026-10-04",
-     "selection": "Kansas City Chiefs",
-     "opp": "Las Vegas Raiders",
-     "p": 0.5783,
-     "modelPick": "Kansas City Chiefs",
-     "tierName": "Lean",
-     "list": false,
-     "hit": 0.673,
-     "hitN": 263,
-     "id": "401872976",
+     "selection": "Minnesota Vikings",
+     "opp": "Miami Dolphins",
+     "p": 0.824,
+     "modelPick": "Minnesota Vikings",
+     "tierName": "Strong",
+     "list": true,
+     "hit": 0.8065,
+     "hitN": 31,
+     "id": "401872974",
      "elo": [
-      1553,
-      1448
+      1607,
+      1389
      ],
-     "homeSide": false,
-     "form": "WWWLL",
+     "homeSide": true,
+     "form": "WWWWW",
      "status": "pending",
-     "odds": 1.73,
+     "odds": 1.21,
      "oddsSrc": "estimate: model fair price, no market price yet",
      "est": true,
-     "implied": 0.578
+     "implied": 0.8264
     }
    ],
    "status": "pending"
@@ -870,5 +859,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/4",
  "issue": 4,
- "text": "Good morning Douglas. Sunday 04 October, 08:31 UK.\n\n### Yesterday\n**Susie (Auditor):** football overall 43% of 21; tennis 9/14; groups landed 0/6, legs won 0/30.\n\n### Today: what matters and why\n- **Aruba v Anguilla** (CONCACAF Nations League, 00:00): 86% Aruba, likely 3-0, xG 3.4 v 0.8, world ranks 189 v 210, calls at this level won 94% (33)\n- **Puerto Rico v Cayman Islands** (CONCACAF Nations League, 23:00): 83% Puerto Rico, likely 3-0, xG 3.0 v 0.7, world ranks 154 v 197, calls at this level won 84% (62)\n- **Guyana v Dominica** (CONCACAF Nations League, 20:00): 75% Guyana, likely 2-0, xG 2.8 v 0.9, world ranks 150 v 182, calls at this level won 84% (89)\n- **Seattle Seahawks v Los Angeles Chargers** (NFL, 21:25): 84% Seattle Seahawks, rating 1675 v 1438, form LWWWW, at home, calls at this level won 81% (31)\n- **Baltimore Ravens v Tennessee Titans** (NFL, 18:00): 84% Baltimore Ravens, rating 1545 v 1311, form WLWLW, at home, calls at this level won 81% (31)\n- **Minnesota Vikings v Miami Dolphins** (NFL, 21:05): 82% Minnesota Vikings, rating 1607 v 1389, form WWWWW, at home, calls at this level won 81% (31)\n\n**Nina (Daily Board):** 440 games rated by the model today, 15 on the Daily List.\n\n### Tomorrow\n- **Iga Swiatek v Donna Vekic** (China Open Round 3, 05:00): 85% Iga Swiatek, ranked 9 v 40, calls at this level won 87% (138)\n- **Elina Svitolina v Maria Sakkari** (China Open Round 3, 05:00): 74% Elina Svitolina, ranked 7 v 33, calls at this level won 80% (384)\n- **Costa Rica v Haiti** (CONCACAF Nations League, 01:00): 62% Costa Rica, likely 2-1, xG 2.3 v 1.1, world ranks 51 v 88, calls at this level won 75% (190)\n- **Ann Li v Belinda Bencic** (China Open Round 3, 05:00): 74% Belinda Bencic, ranked 12 v 30, calls at this level won 80% (384)\n- **Montenegro v Armenia** (UEFA Nations League, 19:45): 61% Montenegro, likely 2-0, xG 2.1 v 0.9, world ranks 80 v 107, calls at this level won 75% (190)\n\n### Three groups of five\n**Oscar (Odds Analyst):** 0 of the 15 legs below have a live bookmaker price (3 of today's 440 picks priced in all); tennis, rugby and smaller leagues use the model's fair price until an odds API key is added.\n\n**Jade (Accumulator Strategist):** Five model picks per group, mixed prices, no leg used twice. The Steady group is the most likely to land; Stretch pays more and lands less often.\n\n**Steady** · combined odds 2.51 · model chance all five win 40% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 20:05 | Montpellier Herault | Montpellier Herault v Toulon (Top 14) | 1.25 est. | 80% |\n| 21:05 | Minnesota Vikings | Minnesota Vikings v Miami Dolphins (NFL) | 1.21 est. | 82% |\n| 21:25 | Seattle Seahawks | Seattle Seahawks v Los Angeles Chargers (NFL) | 1.19 est. | 84% |\n| 23:00 | Puerto Rico | Puerto Rico v Cayman Islands (CONCACAF Nations League) | 1.20 est. | 83% |\n| 00:00 | Aruba | Aruba v Anguilla (CONCACAF Nations League) | 1.16 est. | 86% |\n\n**Balanced** · combined odds 4.00 · model chance all five win 25% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 12:00 | Naomi Osaka | Naomi Osaka v Sara Bejlek (China Open Round 3) | 1.35 est. | 74% |\n| 15:00 | Saracens | Saracens v Sale Sharks (Premiership) | 1.28 est. | 78% |\n| 18:00 | Chicago Bears | Chicago Bears v New York Jets (NFL) | 1.25 est. | 80% |\n| 18:00 | Houston Texans | Houston Texans v Dallas Cowboys (NFL) | 1.47 est. | 68% |\n| 19:45 | Netherlands | Netherlands v Serbia (UEFA Nations League) | 1.26 est. | 80% |\n\n**Stretch** · combined odds 7.02 · model chance all five win 14% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 13:30 | Karolina Muchova | Liudmila Samsonova v Karolina Muchova (China Open Round 3) | 1.31 est. | 77% |\n| 14:00 | Senegal | Comoros v Senegal (International friendly) | 1.32 est. | 76% |\n| 16:00 | Barcelona | Barcelona v Real Madrid (Liga F) | 1.70 est. | 59% |\n| 19:00 | Morocco | Morocco v Mali (International friendly) | 1.38 est. | 72% |\n| 21:25 | Kansas City Chiefs | Las Vegas Raiders v Kansas City Chiefs (NFL) | 1.73 est. | 58% |\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Sunday 04 October, 12:05 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 15 legs below have a live bookmaker price (3 of today's 398 picks priced in all); tennis, rugby and smaller leagues use the model's fair price until an odds API key is added.\n\n**Jade (Accumulator Strategist):** Five model picks per group, mixed prices, no leg used twice. The Steady group is the most likely to land; Stretch pays more and lands less often.\n\n**Steady** · combined odds 2.51 · model chance all five win 40% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 19:00 | Morocco | Morocco v Ghana (International friendly) | 1.21 est. | 83% |\n| 20:05 | Montpellier Herault | Montpellier Herault v Toulon (Top 14) | 1.25 est. | 80% |\n| 21:25 | Seattle Seahawks | Seattle Seahawks v Los Angeles Chargers (NFL) | 1.19 est. | 84% |\n| 23:00 | Puerto Rico | Puerto Rico v Cayman Islands (CONCACAF Nations League) | 1.20 est. | 83% |\n| 00:00 | Aruba | Aruba v Anguilla (CONCACAF Nations League) | 1.16 est. | 86% |\n\n**Balanced** · combined odds 4.01 · model chance all five win 25% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 13:30 | Karolina Muchova | Liudmila Samsonova v Karolina Muchova (China Open Round 3) | 1.31 est. | 77% |\n| 15:00 | Saracens | Saracens v Sale Sharks (Premiership) | 1.28 est. | 78% |\n| 16:00 | Lois Boisson | Lois Boisson v Leolia Jeanjean (Adana Open Final) | 1.44 est. | 69% |\n| 18:00 | Chicago Bears | Chicago Bears v New York Jets (NFL) | 1.25 est. | 80% |\n| 20:00 | Guyana | Guyana v Dominica (CONCACAF Nations League) | 1.33 est. | 75% |\n\n**Stretch** · combined odds 7.01 · model chance all five win 14% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 13:30 | Lucija Ciric Bagaric | Lucija Ciric Bagaric v Dalila Jakupovic (Samsun Open Qualifying 1st Round) | 1.65 est. | 60% |\n| 18:00 | Barcelona | Barcelona v Real Madrid (Liga F) | 1.70 est. | 59% |\n| 18:00 | New York Giants | New York Giants v Arizona Cardinals (NFL) | 1.64 est. | 61% |\n| 19:45 | Netherlands | Netherlands v Serbia (UEFA Nations League) | 1.26 est. | 80% |\n| 21:05 | Minnesota Vikings | Minnesota Vikings v Miami Dolphins (NFL) | 1.21 est. | 82% |\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
