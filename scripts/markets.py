@@ -253,6 +253,11 @@ def yesterday(dt):
                                                   "misses": [f"{x['home']} v {x['away']} {x['result'][0]}-{x['result'][1]}" for x in g if x.get("ok") is False][:4]}
     if t: out["tennis"] = {"n": t["n"], "correct": t["correct"], "acc": t["accuracy"]}
     if s: out["sports"] = {"n": s["n"], "correct": s["correct"], "acc": s["accuracy"]}
+    try:
+        rec = json.loads(fetch("https://raw.githubusercontent.com/douglasbakeronline/footyalmanac/main/groupings-record.json")[0])
+        d = next((x for x in rec.get("days") or [] if x["date"] == y), None)
+        if d: out["oddsTab"] = {"groups": d["groups"], "overall": rec.get("overall")}
+    except Exception as e: print("groupings record:", e)
     gs = [x for x in load(GROUPS, []) if x.get("date") == y]
     if gs:
         allg = [g for x in gs for g in x["groups"]]
@@ -264,12 +269,18 @@ def fmt_when(l):
     t = S.uk(l["when"]) if l.get("when") else None
     return t.strftime("%H:%M") if t else "tbc"
 
+def google(l):
+    import urllib.parse
+    t = S.uk(l["when"]) if l.get("when") else None
+    q = f"{l['event'].replace(' v ', ' vs ', 1)} prediction" + (f" {t.day} {t.strftime('%B %Y')}" if t else "")
+    return "https://www.google.com/search?q=" + urllib.parse.quote_plus(q)
+
 def group_md(g):
     lines = [f"**{g['name']}** · combined odds {g['odds']:.2f} · all five land on tested rates {pct(g['p'])}"
              + (f" · bookmakers imply {pct(g['marketP'])}" if g["estimated"] == 0 else (f" · {g['estimated']} of 5 prices are estimates" if g['estimated'] != 1 else " · 1 of 5 prices is an estimate")),
-             "", "| UK | Selection | Event | Odds | Tested chance |", "|---|---|---|---|---|"]
+             "", "| UK | Selection | Event | Odds | Tested chance | Research |", "|---|---|---|---|---|---|"]
     for l in g["legs"]:
-        lines.append(f"| {fmt_when(l)} | {l['selection']} | {l['event']} ({l.get('comp') or l['sport']}) | {l['odds']:.2f}{' est.' if l.get('est') else ''} | {pct(l['p'])} |")
+        lines.append(f"| {fmt_when(l)} | {l['selection']} | {l['event']} ({l.get('comp') or l['sport']}) | {l['odds']:.2f}{' est.' if l.get('est') else ''} | {pct(l['p'])} | [Google]({google(l)}) |")
     return "\n".join(lines)
 
 def compose(stage, now, b):
@@ -281,8 +292,20 @@ def compose(stage, now, b):
         if y.get("football"): yl.append(f"football overall {pct(y['football']['acc'])} of {y['football']['n']}")
         if y.get("tennis"): yl.append(f"tennis {y['tennis']['correct']}/{y['tennis']['n']}")
         if y.get("sports"): yl.append(f"other sports {y['sports']['correct']}/{y['sports']['n']}")
-        if y.get("groups"): yl.append(f"groups landed {y['groups']['landed']}/{y['groups']['n']}, legs won {y['groups']['legsWon']}/{y['groups']['legs']}")
+        if y.get("groups") and not y.get("oddsTab"): yl.append(f"groups landed {y['groups']['landed']}/{y['groups']['n']}, legs won {y['groups']['legsWon']}/{y['groups']['legs']}")
         L += ["**Susie (Auditor):** " + ("; ".join(yl) + "." if yl else "No graded results for yesterday yet."), ""]
+        ot = y.get("oddsTab")
+        if ot:
+            lab = {"won": "Won", "lost": "Lost", "pending": "Pending", "void": "Void"}
+            L += ["**Jade (Accumulator Strategist): yesterday's groups**", "", "| Group | Odds | Result | Legs | Lost on |", "|---|---|---|---|---|"]
+            for g in ot["groups"]:
+                miss = ", ".join(f"{l['pick']} ({l.get('result') or '?'})" for l in g["legs"] if l["status"] == "lost") or "–"
+                pend = f", {g['legsPending']} to settle" if g['legsPending'] else ""
+                L.append(f"| {g['name']}{' alt' if g.get('rank') == 'alternative' else ''} | {g['odds']:.2f} | {lab[g['status']]} | {g['legsWon']} won, {g['legsLost']} lost{pend} | {miss} |")
+            o = ot.get("overall") or {}
+            if o.get("settled"):
+                L += ["", f"Running record: {o['won']} of {o['settled']} groups won (tested chances expected {o['expected']:.1f}), legs {o['legsWon']}/{o['legs']}, return on 1 unit a group {o['returned'] - o['staked']:+.2f}."]
+            L += [""]
         L += ["### Today: what matters and why"]
         L += [f"- **{l['event']}** ({l.get('comp') or l['sport']}, {fmt_when(l)}): {why(l)}" for l in b["impactful"]]
         L += ["", f"**Nina (Daily Board):** {b['counts']['today']} games rated by the model today, {b['counts']['list']} on the Daily List.", ""]
