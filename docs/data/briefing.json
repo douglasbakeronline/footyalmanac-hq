@@ -1,5 +1,5 @@
 {
- "time": "2026-10-04T12:05:11.679816+01:00",
+ "time": "2026-10-04T13:37:49.792675+01:00",
  "date": "2026-10-04",
  "stage": "refresh",
  "pricing": {
@@ -7,12 +7,12 @@
   "oddsApi": 0,
   "oddsApiLeft": null,
   "priced": 3,
-  "total": 398
+  "total": 396
  },
  "counts": {
-  "today": 398,
+  "today": 396,
   "list": 11,
-  "tomorrow": 68
+  "tomorrow": 69
  },
  "impactful": [
   {
@@ -521,36 +521,46 @@
     4.0,
     7.0
    ],
-   "odds": 4.01,
-   "p": 0.2514,
-   "marketP": 0.2491,
+   "odds": 4.04,
+   "p": 0.2496,
+   "marketP": 0.2472,
    "estimated": 5,
    "legs": [
     {
-     "sport": "tennis",
-     "event": "Liudmila Samsonova v Karolina Muchova",
-     "comp": "China Open Round 3",
-     "tour": "WTA",
-     "when": "2026-10-04T12:30:00Z",
+     "sport": "football",
+     "event": "Comoros v Senegal",
+     "comp": "International friendly",
+     "lg": "friendly",
+     "country": "International",
+     "tier": 1,
+     "when": "2026-10-04T13:00:00Z",
      "date": "2026-10-04",
-     "selection": "Karolina Muchova",
-     "opp": "Liudmila Samsonova",
-     "p": 0.7652,
-     "modelPick": "Karolina Muchova",
-     "tierName": "Strong",
+     "selection": "Senegal",
+     "opp": "Comoros",
+     "side": "a",
+     "home": "Comoros",
+     "away": "Senegal",
+     "p": 0.7597,
+     "modelPick": "Senegal",
      "list": false,
-     "hit": 0.8103,
-     "hitN": 253,
-     "id": "184340",
-     "rank": [
-      8,
-      39
+     "reserve": false,
+     "hit": 0.8427,
+     "hitN": 89,
+     "score": [
+      0,
+      2
      ],
+     "xg": [
+      0.58,
+      2.38
+     ],
+     "rankH": 108,
+     "rankA": 18,
      "status": "pending",
-     "odds": 1.31,
+     "odds": 1.32,
      "oddsSrc": "estimate: model fair price, no market price yet",
      "est": true,
-     "implied": 0.7634
+     "implied": 0.7576
     },
     {
      "sport": "rugby",
@@ -677,37 +687,11 @@
     7.0,
     14.0
    ],
-   "odds": 7.01,
-   "p": 0.1429,
-   "marketP": 0.1426,
+   "odds": 7.02,
+   "p": 0.1424,
+   "marketP": 0.1424,
    "estimated": 5,
    "legs": [
-    {
-     "sport": "tennis",
-     "event": "Lucija Ciric Bagaric v Dalila Jakupovic",
-     "comp": "Samsun Open Qualifying 1st Round",
-     "tour": "WTA",
-     "when": "2026-10-04T12:30:00Z",
-     "date": "2026-10-04",
-     "selection": "Lucija Ciric Bagaric",
-     "opp": "Dalila Jakupovic",
-     "p": 0.6049,
-     "modelPick": "Lucija Ciric Bagaric",
-     "tierName": "Lean",
-     "list": false,
-     "hit": 0.7151,
-     "hitN": 737,
-     "id": "186287",
-     "rank": [
-      null,
-      null
-     ],
-     "status": "pending",
-     "odds": 1.65,
-     "oddsSrc": "estimate: model fair price, no market price yet",
-     "est": true,
-     "implied": 0.6061
-    },
     {
      "sport": "football",
      "event": "Barcelona v Real Madrid",
@@ -746,6 +730,33 @@
     },
     {
      "sport": "nfl",
+     "event": "Baltimore Ravens v Tennessee Titans",
+     "comp": "NFL",
+     "when": "2026-10-04T17:00Z",
+     "date": "2026-10-04",
+     "selection": "Baltimore Ravens",
+     "opp": "Tennessee Titans",
+     "p": 0.8369,
+     "modelPick": "Baltimore Ravens",
+     "tierName": "Strong",
+     "list": true,
+     "hit": 0.8065,
+     "hitN": 31,
+     "id": "401872973",
+     "elo": [
+      1545,
+      1311
+     ],
+     "homeSide": true,
+     "form": "WLWLW",
+     "status": "pending",
+     "odds": 1.19,
+     "oddsSrc": "estimate: model fair price, no market price yet",
+     "est": true,
+     "implied": 0.8403
+    },
+    {
+     "sport": "nfl",
      "event": "New York Giants v Arizona Cardinals",
      "comp": "NFL",
      "when": "2026-10-04T17:00Z",
@@ -770,6 +781,42 @@
      "oddsSrc": "estimate: model fair price, no market price yet",
      "est": true,
      "implied": 0.6098
+    },
+    {
+     "sport": "football",
+     "event": "Huracán v Aldosivi",
+     "comp": "Liga Profesional",
+     "lg": "ar.1",
+     "country": "Argentina",
+     "tier": 1,
+     "when": "2026-10-04T17:45:00Z",
+     "date": "2026-10-04",
+     "selection": "Huracán",
+     "opp": "Aldosivi",
+     "side": "h",
+     "home": "Huracán",
+     "away": "Aldosivi",
+     "p": 0.5936,
+     "modelPick": "Huracán",
+     "list": false,
+     "reserve": false,
+     "hit": 0.6714,
+     "hitN": 280,
+     "score": [
+      1,
+      0
+     ],
+     "xg": [
+      1.55,
+      0.55
+     ],
+     "rankH": null,
+     "rankA": null,
+     "status": "pending",
+     "odds": 1.68,
+     "oddsSrc": "estimate: model fair price, no market price yet",
+     "est": true,
+     "implied": 0.5952
     },
     {
      "sport": "football",
@@ -806,33 +853,6 @@
      "oddsSrc": "estimate: model fair price, no market price yet",
      "est": true,
      "implied": 0.7937
-    },
-    {
-     "sport": "nfl",
-     "event": "Minnesota Vikings v Miami Dolphins",
-     "comp": "NFL",
-     "when": "2026-10-04T20:05Z",
-     "date": "2026-10-04",
-     "selection": "Minnesota Vikings",
-     "opp": "Miami Dolphins",
-     "p": 0.824,
-     "modelPick": "Minnesota Vikings",
-     "tierName": "Strong",
-     "list": true,
-     "hit": 0.8065,
-     "hitN": 31,
-     "id": "401872974",
-     "elo": [
-      1607,
-      1389
-     ],
-     "homeSide": true,
-     "form": "WWWWW",
-     "status": "pending",
-     "odds": 1.21,
-     "oddsSrc": "estimate: model fair price, no market price yet",
-     "est": true,
-     "implied": 0.8264
     }
    ],
    "status": "pending"
@@ -859,5 +879,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/4",
  "issue": 4,
- "text": "Good afternoon Douglas. Sunday 04 October, 12:05 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 15 legs below have a live bookmaker price (3 of today's 398 picks priced in all); tennis, rugby and smaller leagues use the model's fair price until an odds API key is added.\n\n**Jade (Accumulator Strategist):** Five model picks per group, mixed prices, no leg used twice. The Steady group is the most likely to land; Stretch pays more and lands less often.\n\n**Steady** · combined odds 2.51 · model chance all five win 40% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 19:00 | Morocco | Morocco v Ghana (International friendly) | 1.21 est. | 83% |\n| 20:05 | Montpellier Herault | Montpellier Herault v Toulon (Top 14) | 1.25 est. | 80% |\n| 21:25 | Seattle Seahawks | Seattle Seahawks v Los Angeles Chargers (NFL) | 1.19 est. | 84% |\n| 23:00 | Puerto Rico | Puerto Rico v Cayman Islands (CONCACAF Nations League) | 1.20 est. | 83% |\n| 00:00 | Aruba | Aruba v Anguilla (CONCACAF Nations League) | 1.16 est. | 86% |\n\n**Balanced** · combined odds 4.01 · model chance all five win 25% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 13:30 | Karolina Muchova | Liudmila Samsonova v Karolina Muchova (China Open Round 3) | 1.31 est. | 77% |\n| 15:00 | Saracens | Saracens v Sale Sharks (Premiership) | 1.28 est. | 78% |\n| 16:00 | Lois Boisson | Lois Boisson v Leolia Jeanjean (Adana Open Final) | 1.44 est. | 69% |\n| 18:00 | Chicago Bears | Chicago Bears v New York Jets (NFL) | 1.25 est. | 80% |\n| 20:00 | Guyana | Guyana v Dominica (CONCACAF Nations League) | 1.33 est. | 75% |\n\n**Stretch** · combined odds 7.01 · model chance all five win 14% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 13:30 | Lucija Ciric Bagaric | Lucija Ciric Bagaric v Dalila Jakupovic (Samsun Open Qualifying 1st Round) | 1.65 est. | 60% |\n| 18:00 | Barcelona | Barcelona v Real Madrid (Liga F) | 1.70 est. | 59% |\n| 18:00 | New York Giants | New York Giants v Arizona Cardinals (NFL) | 1.64 est. | 61% |\n| 19:45 | Netherlands | Netherlands v Serbia (UEFA Nations League) | 1.26 est. | 80% |\n| 21:05 | Minnesota Vikings | Minnesota Vikings v Miami Dolphins (NFL) | 1.21 est. | 82% |\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Sunday 04 October, 13:37 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 15 legs below have a live bookmaker price (3 of today's 396 picks priced in all); tennis, rugby and smaller leagues use the model's fair price until an odds API key is added.\n\n**Jade (Accumulator Strategist):** Five model picks per group, mixed prices, no leg used twice. The Steady group is the most likely to land; Stretch pays more and lands less often.\n\n**Steady** · combined odds 2.51 · model chance all five win 40% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 19:00 | Morocco | Morocco v Ghana (International friendly) | 1.21 est. | 83% |\n| 20:05 | Montpellier Herault | Montpellier Herault v Toulon (Top 14) | 1.25 est. | 80% |\n| 21:25 | Seattle Seahawks | Seattle Seahawks v Los Angeles Chargers (NFL) | 1.19 est. | 84% |\n| 23:00 | Puerto Rico | Puerto Rico v Cayman Islands (CONCACAF Nations League) | 1.20 est. | 83% |\n| 00:00 | Aruba | Aruba v Anguilla (CONCACAF Nations League) | 1.16 est. | 86% |\n\n**Balanced** · combined odds 4.04 · model chance all five win 25% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 14:00 | Senegal | Comoros v Senegal (International friendly) | 1.32 est. | 76% |\n| 15:00 | Saracens | Saracens v Sale Sharks (Premiership) | 1.28 est. | 78% |\n| 16:00 | Lois Boisson | Lois Boisson v Leolia Jeanjean (Adana Open Final) | 1.44 est. | 69% |\n| 18:00 | Chicago Bears | Chicago Bears v New York Jets (NFL) | 1.25 est. | 80% |\n| 20:00 | Guyana | Guyana v Dominica (CONCACAF Nations League) | 1.33 est. | 75% |\n\n**Stretch** · combined odds 7.02 · model chance all five win 14% · 5 of 5 prices are estimates\n\n| UK | Selection | Event | Odds | Our chance |\n|---|---|---|---|---|\n| 18:00 | Barcelona | Barcelona v Real Madrid (Liga F) | 1.70 est. | 59% |\n| 18:00 | Baltimore Ravens | Baltimore Ravens v Tennessee Titans (NFL) | 1.19 est. | 84% |\n| 18:00 | New York Giants | New York Giants v Arizona Cardinals (NFL) | 1.64 est. | 61% |\n| 18:45 | Huracán | Huracán v Aldosivi (Liga Profesional) | 1.68 est. | 59% |\n| 19:45 | Netherlands | Netherlands v Serbia (UEFA Nations League) | 1.26 est. | 80% |\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }

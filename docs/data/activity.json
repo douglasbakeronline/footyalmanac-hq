@@ -1,7 +1,13 @@
 {
  "prs": [],
- "fetched": "2026-10-04T12:05:19.469930+01:00",
+ "fetched": "2026-10-04T13:38:04.766637+01:00",
  "commits": [
+  {
+   "sha": "25b9339",
+   "msg": "Archive predictions and record for 2026-10-04",
+   "date": "2026-10-04T11:10:16Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/25b93397006942b2a7d506e542dc5c6cb14d6f1e"
+  },
   {
    "sha": "985c483",
    "msg": "Archive predictions and record for 2026-10-04",
@@ -115,15 +121,21 @@
    "msg": "Archive predictions and record for 2026-10-01",
    "date": "2026-10-01T00:15:11Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/4b9ee23537f1ccf457d1723695a13f370746aec7"
-  },
-  {
-   "sha": "90913dd",
-   "msg": "Daily List: order by kick-off time as well as strongest",
-   "date": "2026-10-01T00:07:27Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/90913ddb64ae4f1f70d7bd30884ce679a69c91aa"
   }
  ],
  "runs": [
+  {
+   "conclusion": "failure",
+   "createdAt": "2026-10-04T12:36:09Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37202674323"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-04T11:06:12Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37197580068"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-04T10:51:23Z",
@@ -171,18 +183,6 @@
    "createdAt": "2026-10-03T00:28:16Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082194883"
-  },
-  {
-   "conclusion": "failure",
-   "createdAt": "2026-10-03T00:28:16Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082194727"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-03T00:27:51Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082165740"
   }
  ]
 }
