@@ -1,7 +1,25 @@
 {
  "prs": [],
- "fetched": "2026-10-04T13:50:57.633537+01:00",
+ "fetched": "2026-10-04T14:15:38.637245+01:00",
  "commits": [
+  {
+   "sha": "f3c26ad",
+   "msg": "Archive predictions and record for 2026-10-04",
+   "date": "2026-10-04T13:10:14Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f3c26ada45729a67eed96e68bd602c367e45a0c5"
+  },
+  {
+   "sha": "c02b087",
+   "msg": "groupings.json carries the priced pool for the office's midday regroup",
+   "date": "2026-10-04T13:05:17Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/c02b08764d2807e9aa5532b56b2e1af20c2ec19e"
+  },
+  {
+   "sha": "3b1e267",
+   "msg": "Odds tab: groups of five with a spread of bookmaker prices (groupings.py)",
+   "date": "2026-10-04T13:04:33Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3b1e2677d2faf3c44d995eea1947a35a90d2b9a2"
+  },
   {
    "sha": "25b9339",
    "msg": "Archive predictions and record for 2026-10-04",
@@ -103,27 +121,33 @@
    "msg": "Evaluation infrastructure: shared replay, season checks, publish-time guard",
    "date": "2026-10-02T20:24:26Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/836fde53a9185e52bc7d812385b92e81230b1289"
-  },
-  {
-   "sha": "cb83e16",
-   "msg": "Archive predictions and record for 2026-10-02",
-   "date": "2026-10-02T11:11:15Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/cb83e16b2612214373b6026eb3ed8dd76953d1dd"
-  },
-  {
-   "sha": "4d1937f",
-   "msg": "Archive predictions and record for 2026-10-01",
-   "date": "2026-10-01T11:41:50Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/4d1937f06a8fbd5bedb50bef21dd93b4577829fb"
-  },
-  {
-   "sha": "4b9ee23",
-   "msg": "Archive predictions and record for 2026-10-01",
-   "date": "2026-10-01T00:15:11Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/4b9ee23537f1ccf457d1723695a13f370746aec7"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-04T13:05:20Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37204374259"
+  },
+  {
+   "conclusion": "cancelled",
+   "createdAt": "2026-10-04T13:04:36Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37204330322"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-04T12:59:47Z",
+   "name": "Groupings probe (temporary)",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37204036192"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-04T12:59:47Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37204036190"
+  },
   {
    "conclusion": "failure",
    "createdAt": "2026-10-04T12:36:09Z",
@@ -159,30 +183,6 @@
    "createdAt": "2026-10-03T10:24:19Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37116307797"
-  },
-  {
-   "conclusion": "failure",
-   "createdAt": "2026-10-03T00:28:38Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082221371"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-03T00:28:38Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082220837"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-03T00:28:34Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082216989"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-03T00:28:16Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37082194883"
   }
  ]
 }
