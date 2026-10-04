@@ -265,9 +265,9 @@ def fmt_when(l):
     return t.strftime("%H:%M") if t else "tbc"
 
 def group_md(g):
-    lines = [f"**{g['name']}** · combined odds {g['odds']:.2f} · model chance all five win {pct(g['p'])}"
-             + (f" · bookmakers imply {pct(g['marketP'])}" if g["estimated"] == 0 else f" · {g['estimated']} of 5 prices are estimates"),
-             "", "| UK | Selection | Event | Odds | Our chance |", "|---|---|---|---|---|"]
+    lines = [f"**{g['name']}** · combined odds {g['odds']:.2f} · all five land on tested rates {pct(g['p'])}"
+             + (f" · bookmakers imply {pct(g['marketP'])}" if g["estimated"] == 0 else (f" · {g['estimated']} of 5 prices are estimates" if g['estimated'] != 1 else " · 1 of 5 prices is an estimate")),
+             "", "| UK | Selection | Event | Odds | Tested chance |", "|---|---|---|---|---|"]
     for l in g["legs"]:
         lines.append(f"| {fmt_when(l)} | {l['selection']} | {l['event']} ({l.get('comp') or l['sport']}) | {l['odds']:.2f}{' est.' if l.get('est') else ''} | {pct(l['p'])} |")
     return "\n".join(lines)
@@ -292,21 +292,48 @@ def compose(stage, now, b):
     pr = b["pricing"]
     gl = [l for g in b["groups"] for l in g["legs"]]
     L += [f"**Oscar (Odds Analyst):** {sum(1 for l in gl if not l.get('est'))} of the {len(gl)} legs below have a live bookmaker price ({pr['priced']} of today's {pr['total']} picks priced in all)"
-          + ("" if os.environ.get("ODDS_API_KEY") else "; tennis, rugby and smaller leagues use the model's fair price until an odds API key is added") + ".", ""]
+          + ("; prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for NFL and baseball, tennis and rugby on the model's fair price" if pr.get("site") else ("" if os.environ.get("ODDS_API_KEY") else "; tennis, rugby and smaller leagues use the model's fair price until an odds API key is added")) + ".", ""]
     if b["groups"]:
-        L += ["**Jade (Accumulator Strategist):** Five model picks per group, mixed prices, no leg used twice. The Steady group is the most likely to land; Stretch pays more and lands less often.", ""]
-        for g in b["groups"]: L += [group_md(g), ""]
+        L += ["**Jade (Accumulator Strategist):** Five tested picks per group, each with a short, a middle and (Balanced and Stretch) a longer price, no leg used twice. Chances are the tested hit rates at each pick's level. Steady lands most often; Stretch pays more. All groups are also on the [Odds tab](https://douglasbakeronline.github.io/footyalmanac/).", ""]
+        for g in [g for g in b["groups"] if "alternative" not in g["name"]] or b["groups"]: L += [group_md(g), ""]
     else:
         L += ["**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.", ""]
     L += ["Model probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."]
     return "\n".join(L)
 
+FA_GROUPINGS = "https://douglasbakeronline.github.io/footyalmanac/groupings.json"
+FA_RULES = "https://raw.githubusercontent.com/douglasbakeronline/footyalmanac/main/groupings.py"
+
+def site_groups(today, now):
+    """Groups from the Sports Almanac's Odds tab rules and its priced pool (API-Football and ESPN prices),
+    regrouped from games still to start. None if the site's groupings are missing or stale."""
+    try:
+        data = json.loads(fetch(FA_GROUPINGS + f"?t={int(now.timestamp())}")[0])
+        pool = (data.get("pool") or {}).get(today)
+        if not pool: return None
+        import types
+        G = types.ModuleType("fa_groupings"); G.__file__ = "fa_groupings.py"; exec(fetch(FA_RULES)[0].decode(), G.__dict__)
+        groups = G.build_day(pool, now.astimezone(timezone.utc) + timedelta(minutes=20))
+    except Exception as e:
+        print("site groupings unavailable:", e); return None
+    out = []
+    for g in groups:
+        legs5 = [dict(l, selection=l["pick"], modelPick=l["pick"], status="pending") for l in g["legs"]]
+        out.append({"name": g["name"] + (" (alternative)" if g.get("rank") == "alternative" else ""), "band": g["band"], "odds": g["odds"],
+                    "p": g["p"], "marketP": g["implied"], "estimated": g["estimates"], "legs": legs5, "status": "pending"})
+    priced = sum(1 for l in pool if not l.get("est"))
+    return out, {"priced": priced, "total": len(pool), "site": True, "generated": data.get("generated")}
+
 def run(stage):
     now = datetime.now(UK); today = now.date().isoformat(); tom = (now.date() + timedelta(days=1)).isoformat()
     legs = legs_for({today, tom})
     t_legs = [l for l in legs if l["date"] == today]; m_legs = [l for l in legs if l["date"] == tom]
-    pricing = price(t_legs)
-    groups = build_groups(t_legs, now)
+    sg = site_groups(today, now)
+    if sg:
+        groups, pricing = sg
+    else:
+        pricing = price(t_legs)
+        groups = build_groups(t_legs, now)
     upcoming = [l for l in t_legs if (S.uk(l["when"]) if l.get("when") else now) > now]
     b = {"time": now.isoformat(), "date": today, "stage": stage, "pricing": pricing,
          "counts": {"today": len(t_legs), "list": sum(1 for l in t_legs if l.get("list")), "tomorrow": len(m_legs)},
