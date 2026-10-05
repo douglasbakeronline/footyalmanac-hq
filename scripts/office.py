@@ -321,8 +321,51 @@ def write_picks():
     for date in sorted(extra):
         days.append({"date": date, "count": len(extra[date]), "games": sorted(extra[date], key=lambda g: -(g.get("c") or 0))})
     days.sort(key=lambda d: d["date"])
+    pin_today(days)
     _save("picks.json", {"generated": d.get("generated"), "fetched": datetime.now(UK).isoformat(),
                          "bar": (d.get("list") or {}).get("min"), "days": days, "yesterday": list_yesterday()})
+
+
+def pin_today(days):
+    """Keep today's Daily List whole for the UK day (5 Oct 2026).
+
+    The site's live files drop a game at its start, so the office read
+    "0 picks" by evening on a day that began with six. The site publishes
+    daylist.json (footyalmanac daylist.py): every list and reserve pick for the
+    UK day as published before its start, with won / lost / void from the
+    record. Started picks come from there; upcoming ones stay as the live data
+    has them, so both screens show the same list."""
+    import urllib.request
+    try:
+        with urllib.request.urlopen(SITE_BASE + "daylist.json", timeout=60) as r: dl = json.load(r)
+    except Exception as e:
+        print("picks: no daylist.json yet:", e); return
+    if dl.get("date") != datetime.now(UK).date().isoformat(): return
+    day = next((d for d in days if d["date"] == dl["date"]), None)
+    if day is None:
+        day = {"date": dl["date"], "count": 0, "games": []}; days.append(day); days.sort(key=lambda d: d["date"])
+    now = datetime.now(UK)
+    nm = lambda s: str(s or "").lower()
+    pins = []
+    for p in (dl.get("list") or []) + (dl.get("reserve") or []):
+        try: started = datetime.fromisoformat(p["start"].replace("Z", "+00:00")) <= now
+        except Exception: started = True
+        if p.get("status") == "upcoming" and not started: continue
+        r = p.get("result") or {}
+        ko = datetime.fromisoformat(p["start"].replace("Z", "+00:00")).astimezone(UK)
+        pins.append({"t": ko.strftime("%H:%M") if p.get("timed", True) else "", "ko": p["start"] if p.get("timed", True) else None,
+                     "lg": p.get("league") or p.get("chip") or p.get("sport"), "lgName": p.get("comp"),
+                     "sport": p.get("sport"), "h": p.get("home"), "a": p.get("away"), "side": p.get("side"),
+                     "pick": p.get("pick"), "c": p.get("confidence"), "p": p.get("p"),
+                     "hit": (p.get("accuracy") or {}).get("hit"), "hitN": (p.get("accuracy") or {}).get("n"),
+                     "list": bool(p.get("list")), "reserve": bool(p.get("reserve")), "pinned": True,
+                     "status": p.get("status") if p.get("status") != "upcoming" else "started",
+                     "score": None, "res": r.get("score") or (f"{r['winner']} won" if r.get("winner") else None)})
+    ids = {(nm(g["h"]), nm(g["a"])) for g in pins}
+    day["games"] = sorted([g for g in day["games"] if (nm(g.get("h")), nm(g.get("a"))) not in ids] + pins,
+                          key=lambda g: -(g.get("c") or 0))
+    day["count"] = len(day["games"])
+    day["pinned"] = dl.get("summary")
 
 
 def _site_js(name):
