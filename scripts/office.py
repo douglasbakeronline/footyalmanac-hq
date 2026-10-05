@@ -68,20 +68,23 @@ def gather():
                 preds=preds or [], spreds=spreds or [], tpreds=tpreds or [], commits=commits, runs=runs)
 
 def agent_prs():
-    """Real development work: pull requests the office agents opened on footyalmanac."""
+    """Real development work: pull requests the office agents and the other AI platforms opened on footyalmanac.
+    REST, not `gh pr list`: the GraphQL call returned nothing from the HQ workflow's token on 5 Oct 2026."""
     out = []
-    for p in gh_json(["pr", "list", "-R", REPO, "--label", "office-agent", "--state", "all", "-L", "30",
-                      "--json", "number,title,state,url,createdAt,mergedAt,labels"]) or []:
+    for p in gh_json(["api", f"repos/{REPO}/pulls?state=all&per_page=50"]) or []:
+        if not isinstance(p, dict): continue
         lab = {l["name"] for l in p.get("labels", [])}
+        if "office-agent" not in lab: continue
         owner = next((l[6:] for l in lab if l.startswith("agent:")), None)
-        if p["state"] == "MERGED": status = "shipped"
-        elif p["state"] == "CLOSED": status = "closed"
+        platform = next((l[9:] for l in lab if l.startswith("platform:")), "office")
+        if p.get("merged_at"): status = "shipped"
+        elif p["state"] == "closed": status = "closed"
         elif "hold" in lab: status = "on hold"
         elif "needs-owner" in lab: status = "waiting for Douglas"
-        elif "auto-merge-ok" in lab: status = "ships at 22:00"
-        else: status = "open"
-        out.append({"n": p["number"], "title": p["title"], "url": p["url"], "owner": owner, "status": status,
-                    "opened": p["createdAt"], "merged": p.get("mergedAt")})
+        else: status = "checking"
+        out.append({"n": p["number"], "title": p["title"], "url": p["html_url"], "owner": owner, "platform": platform,
+                    "status": status, "opened": p["created_at"], "merged": p.get("merged_at"),
+                    "closed": p.get("closed_at")})
     return out
 
 def pr_line(p): return f"PR #{p['n']} {p['title'].split('] ',1)[-1]} ({p['status']})"
@@ -283,7 +286,8 @@ def make_chats(s, n=2):
     STATE["chats"] = out + STATE["chats"]; STATE["chats"] = STATE["chats"][:200]; _save("chats.json", STATE["chats"])
     return out
 
-SITE_DATA = "https://douglasbakeronline.github.io/footyalmanac/data.json"
+SITE_BASE = "https://douglasbakeronline.github.io/footyalmanac/"
+SITE_DATA = SITE_BASE + "data.json"
 
 def write_picks():
     """The next seven days of picks from footyalmanac's published site data, for the Picks desk. No AI tokens."""
@@ -306,8 +310,69 @@ def write_picks():
                           "hit": acc.get("hit"), "hitN": acc.get("n"), "celtic": bool(g.get("celtic")),
                           "list": bool(g.get("list")), "reserve": bool(g.get("reserve")), "unrated": bool(g.get("unrated"))})
         days.append({"date": day["date"], "count": len(games), "games": games})
+    # The site's Daily List spans every sport: add tennis and the other sports' list and reserve picks,
+    # so the office never shows "0 picks" on a day the site has some (5 Oct 2026).
+    extra = {}
+    for g in other_sport_picks():
+        extra.setdefault(g.pop("date"), []).append(g)
+    for day in days:
+        day["games"] = sorted(day["games"] + extra.pop(day["date"], []), key=lambda g: -(g.get("c") or 0))
+        day["count"] = len(day["games"])
+    for date in sorted(extra):
+        days.append({"date": date, "count": len(extra[date]), "games": sorted(extra[date], key=lambda g: -(g.get("c") or 0))})
+    days.sort(key=lambda d: d["date"])
     _save("picks.json", {"generated": d.get("generated"), "fetched": datetime.now(UK).isoformat(),
-                         "bar": (d.get("list") or {}).get("min"), "days": days})
+                         "bar": (d.get("list") or {}).get("min"), "days": days, "yesterday": list_yesterday()})
+
+
+def _site_js(name):
+    """window.__X__={...}; published by the site build -> dict."""
+    import urllib.request
+    try:
+        with urllib.request.urlopen(SITE_BASE + name, timeout=60) as r: txt = r.read().decode("utf-8")
+        return json.loads(txt[txt.index("=") + 1:].strip().rstrip(";"))
+    except Exception as e:
+        print(f"picks: could not read {name}:", e); return {}
+
+
+def other_sport_picks():
+    out = []
+    for m in (_site_js("tennis-data.js").get("matches") or []):
+        if not (m.get("list") or m.get("reserve")): continue
+        out.append({"date": m.get("date"), "t": m.get("time"), "lg": m.get("tour"), "lgName": f"{m.get('tour')} · {m.get('tournament')}",
+                    "sport": "tennis", "h": m.get("playerA"), "a": m.get("playerB"), "side": "h" if m.get("pick") == m.get("playerA") else "a",
+                    "pick": m.get("pick"), "c": m.get("confidence"), "hit": (m.get("accuracy") or {}).get("hit"),
+                    "hitN": (m.get("accuracy") or {}).get("n"), "list": bool(m.get("list")), "reserve": bool(m.get("reserve"))})
+    for code, sp in ((_site_js("sports-data.js").get("sports")) or {}).items():
+        for g in sp.get("games") or []:
+            if not (g.get("list") or g.get("reserve")) or not g.get("when"): continue
+            ko = datetime.fromisoformat(g["when"].replace("Z", "+00:00")).astimezone(UK)
+            out.append({"date": ko.date().isoformat(), "t": ko.strftime("%H:%M"), "ko": g["when"], "lg": code, "lgName": g.get("label") or sp.get("name"),
+                        "sport": code, "h": g.get("home"), "a": g.get("away"), "side": "h" if g.get("pick") == g.get("home") else "a",
+                        "pick": g.get("pick"), "c": g.get("confidence"), "hit": (g.get("accuracy") or {}).get("hit"),
+                        "hitN": (g.get("accuracy") or {}).get("n"), "list": bool(g.get("list")), "reserve": bool(g.get("reserve"))})
+    return out
+
+
+def list_yesterday():
+    """Yesterday's Daily List across every sport, graded, from the three record files."""
+    day = (datetime.now(UK).date() - timedelta(days=1)).isoformat()
+    rows = []
+    for f, sport in (("record.json", "football"), ("tennis-record.json", "tennis"), ("sports-record.json", None)):
+        for d in ((raw(f) or {}).get("days") or []):
+            if d.get("date") != day: continue
+            for g in d.get("games", []):
+                if not g.get("list"): continue
+                h = g.get("home") or g.get("playerA"); a = g.get("away") or g.get("playerB")
+                pick = g.get("pick")
+                if sport == "football": pick = {"h": h, "a": a, "d": "Draw"}.get(pick, pick)
+                sc = g.get("result") if sport == "football" else g.get("score")
+                rows.append({"sport": sport or (g.get("label") or "other"), "h": h, "a": a, "pick": pick, "c": g.get("confidence"),
+                             "ok": g.get("ok"), "score": sc if isinstance(sc, list) else None,
+                             "note": g.get("note") if sport == "tennis" else None})
+    graded = [r for r in rows if r["ok"] is not None]
+    return {"date": day, "n": len(rows), "graded": len(graded), "won": sum(1 for r in graded if r["ok"]),
+            "rows": sorted(rows, key=lambda r: (r["ok"] is not False, -(r["c"] or 0)))}
 
 def write_activity():
     cm = gh_json(["api", f"repos/{REPO}/commits?per_page=20"]) or []

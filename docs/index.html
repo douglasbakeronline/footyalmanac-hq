@@ -138,6 +138,69 @@ body.full #stage{height:100vh;height:100svh}
 body.hide-names .tag,body.hide-rooms .rtag,body.hide-bubbles .bubble,body.hide-board #board,body.hide-hud #hud,body.hide-banner #banner{display:none!important}
 @media(max-width:980px){.board{right:64px!important}}
 @media(max-width:700px){.vbtn{padding:8px 10px}.vbtn .lbl{display:none}.viewbar{right:8px;top:8px}body.full .board{right:64px!important}}
+
+/* ---------- 5 Oct 2026 refresh: today strip, roster faces, results, status ---------- */
+:root{--warn:#f0b35a;--ring:#2e251c}
+header{gap:18px;padding:10px 18px;background:linear-gradient(180deg,#1d1611 0%,#120e0b 100%);box-shadow:0 1px 0 #ffffff08}
+.logo b{letter-spacing:.24em}
+.roster{gap:0;align-items:center;padding:4px 2px 4px 10px}
+.roster .chip{background:none;border:0;padding:0;margin-left:-6px;position:relative;border-radius:50%;transition:transform .15s}
+.roster .chip:hover{transform:translateY(-2px);z-index:2}
+.roster .chip .nm{display:none}
+.roster .chip .av{width:30px;height:30px;font-size:12px;box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--ring)}
+.roster .chip[data-s=shipped] .av{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--good)}
+.roster .chip[data-s=working] .av{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--warn);animation:ringp 1.6s ease-in-out infinite}
+.roster .chip[data-s=held] .av{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--bad)}
+@keyframes ringp{50%{box-shadow:0 0 0 2px var(--bg),0 0 0 5px #f0b35a66}}
+.roster .st{position:absolute;right:-1px;bottom:-1px;width:9px;height:9px;border:2px solid var(--bg);background:#5a4d40}
+.roster .sum{margin-left:14px;font-size:11.5px;color:var(--mut);white-space:nowrap;line-height:1.3}
+.roster .sum b{color:var(--txt);font-weight:600}
+.st.s-shipped{background:var(--good)}.st.s-working{background:var(--warn);box-shadow:0 0 8px var(--warn)}.st.s-held{background:var(--bad)}.st.s-idle{background:#5a4d40}
+.tag i.s-idle{background:#7d6d5e}.tag i.s-shipped{background:var(--good)}.tag i.s-working{background:var(--warn);box-shadow:0 0 6px var(--warn)}.tag i.s-held{background:var(--bad)}
+.today{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:12px 14px 10px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#201914,#1b1612)}
+.today:empty{display:none}
+.tile{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-width:0;cursor:pointer;text-align:left;color:var(--txt);font:inherit;transition:border-color .2s,background .2s}
+.tile:hover{border-color:var(--acc);background:#2a2119}
+.tile .k{font-size:9.5px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .v{font:700 19px/1.15 "JetBrains Mono",monospace;margin-top:3px;font-variant-numeric:tabular-nums}
+.tile .v small{font:600 11px "General Sans";color:var(--mut);margin-left:4px}
+.tile .d{font-size:10.5px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .v.nx{font:600 12.5px/1.3 "General Sans";display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:33px}
+.tile .bar{height:4px;margin-top:6px;background:#3a2f25}
+.plats{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:11px;color:var(--mut)}
+.plat{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;padding:2px 8px;background:var(--panel)}
+.plat i{width:6px;height:6px;border-radius:50%}
+.tabs{padding:0 6px}.tabs div{padding:11px 8px;border-radius:0;transition:color .15s}.tabs div:hover{color:var(--txt)}
+.msg{border-radius:12px;padding:10px 12px;border:1px solid var(--line);border-left-width:3px}
+.msg .h{align-items:center;gap:8px}
+.msg .h .who{display:flex;align-items:center;gap:7px}
+.msg .h .av{width:22px;height:22px;font-size:10.5px}
+.spr{background:linear-gradient(135deg,#2a2018,#211a14);border:1px solid #4a3a28;border-radius:12px;padding:12px;margin-bottom:14px}
+.spr h4{margin:0 0 2px;font-size:13px;font-weight:600}
+.spr .meta{color:var(--mut);font-size:11px;margin-bottom:8px}
+.spr .r{display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:8px;align-items:center;padding:6px 0;border-top:1px solid #ffffff0d;font-size:12.5px}
+.spr .r a{color:var(--txt);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.spr .r a:hover{color:var(--acc)}
+.spr .av{width:22px;height:22px;font-size:10.5px}
+.sp{font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-radius:999px;padding:2px 7px;white-space:nowrap}
+.sp.shipped{background:#1f3a2a;color:var(--good)}.sp.checking{background:#3a2f1a;color:var(--warn)}.sp.held,.sp.closed{background:#3a1f1f;color:var(--bad)}.sp.owner{background:#2a2a3a;color:#b9b2ff}
+.ptag.sp-t{color:#9fd3ff;border-color:#9fd3ff44}
+.res{display:grid;grid-template-columns:18px minmax(0,1fr) auto;gap:2px 8px;padding:7px 0;border-bottom:1px solid var(--line);font-size:12.5px}
+.res:last-child{border-bottom:0}.res .ic{font-weight:700}.res .ic.w{color:var(--good)}.res .ic.l{color:var(--bad)}.res .ic.p{color:var(--mut)}
+.res .lg{grid-column:2/4;color:var(--mut);font-size:10.5px}
+.res .rs{font:600 12px "JetBrains Mono",monospace;color:var(--mut);align-self:start}
+.ysum{display:flex;align-items:baseline;gap:8px;margin:8px 0 4px}.ysum b{font:700 22px "JetBrains Mono",monospace}.ysum span{color:var(--mut);font-size:11.5px}
+@media(max-width:1180px){.roster .sum{display:none}}
+@media(max-width:980px){.today{grid-template-columns:repeat(3,minmax(0,1fr));padding:10px}}
+@media(max-width:700px){
+ header{gap:8px;padding:6px 10px}
+ #stage{height:clamp(430px,128vw,calc(100svh - 50px))}
+ aside{height:auto;min-height:100svh}
+ .today{gap:6px;padding:10px 10px 8px}.tile{padding:7px 8px}.tile .v{font-size:16px}.tile .d{display:none}
+ .tabs{position:sticky;top:0;z-index:5;background:var(--panel);flex-wrap:nowrap!important;overflow-x:auto!important;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent)}
+ .tabs div{flex:0 0 auto!important;min-width:0!important;padding:11px 10px!important;font-size:10.5px!important}
+ .pane{overflow:visible}
+}
+@media (prefers-reduced-motion:reduce){.roster .chip[data-s=working] .av{animation:none}}
 </style>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.183.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.183.0/examples/jsm/"}}</script>
 </head><body>
@@ -158,6 +221,7 @@ body.hide-names .tag,body.hide-rooms .rtag,body.hide-bubbles .bubble,body.hide-b
   <div class="vpop" id="vpop" role="group" aria-label="Office layers"></div>
  </div><div class="banner" id="banner"></div><div class="hud" id="hud"></div><section class="board" id="board" aria-label="Today's Daily List"></section></div>
  <aside>
+  <section class="today" id="today" aria-label="Today at a glance"></section>
   <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="team">Team</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="ceo">CEO</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
   <div class="pane on" id="log"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
   <div class="pane" id="team"></div><div class="pane" id="picks"></div><div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="ceo"><div class="k" style="margin-bottom:12px">Chat with Elena, CEO</div><div id="ceoHistory" style="max-height:calc(100vh - 280px);overflow-y:auto;margin-bottom:12px"></div><div class="ask"><input id="ceoInput" placeholder="Ask Elena about business performance..." style="flex:1"><button class="sbtn" id="ceoSend" style="padding:8px 14px">Send</button></div></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
@@ -560,7 +624,7 @@ async function goHome(p,pts){const back=pts.slice(0,-1).reverse();back.push([p.a
 
 /* ---------- labels & bubbles ---------- */
 const labels=$("#labels");
-people.forEach(p=>{const el=document.createElement("div");el.className="tag";el.innerHTML=`<i></i>${p.a.name}`;el.onclick=()=>showAgent(p.a.id);labels.appendChild(el);p.tag=el});
+people.forEach(p=>{const el=document.createElement("div");el.className="tag";el.innerHTML=`<i data-id="${p.a.id}"></i>${p.a.name}`;el.onclick=()=>showAgent(p.a.id);labels.appendChild(el);p.tag=el});
 const v3=new THREE.Vector3();
 /* room tags: HTML, always upright and readable, short on phones, tap to zoom */
 const RT={data:["Fixtures & Data","Data","Fixtures & Data","#4cc3e6"],model:["Modelling & Research","Models","Modelling","#a98bff"],valid:["Validation","Validation","Validation","#ff7f9f"],
@@ -629,7 +693,8 @@ document.addEventListener("click",e=>{if(!e.target.closest("#viewbar")){$("#vpop
 applyView();
 
 /* ---------- roster ---------- */
-AGENTS.forEach(a=>{const c=document.createElement("div");c.className="chip";c.title=`${a.role} · ${DEPT[a.d].name}`;c.innerHTML=`<span class="av" style="background:${DEPT[a.d].c}">${a.name[0]}</span>${a.name}<span class="st" id="st-${a.id}"></span>`;c.onclick=()=>showAgent(a.id);$("#roster").appendChild(c)});
+AGENTS.forEach(a=>{const c=document.createElement("div");c.className="chip";c.title=`${a.role} · ${DEPT[a.d].name}`;c.dataset.id=a.id;c.innerHTML=`<span class="av" style="background:${DEPT[a.d].c}">${a.name[0]}</span><span class="nm">${a.name}</span><span class="st" id="st-${a.id}"></span>`;c.onclick=()=>showAgent(a.id);$("#roster").appendChild(c)});
+{const sm=document.createElement("div");sm.className="sum";sm.id="rsum";$("#roster").appendChild(sm)}
 
 /* ---------- UK clock + rhythm-driven activity ---------- */
 const ukHM=()=>new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date());
@@ -676,7 +741,7 @@ function slipHead(sl){const m=sl.legs.filter(l=>l.p!=null),won=sl.legs.filter(l=
  return `${sl.legs.length} selections · ${m.filter(l=>l.modelPick===l.selection).length}/${m.length} agree with the model · all land ${pct(sl.combined)}${won||lost?` · ${won} won, ${lost} lost, ${pend} to play`:""}`}
 function renderSlipCard(){const el=$("#slipCard");if(!el)return;if(!SLIP){el.innerHTML="";return}
  el.innerHTML=`<div class="qa" style="margin-top:0"><div class="a" style="border-left-color:#c8102e"><div class="k" style="margin:0 0 6px">Your slip · ${fmt(SLIP.time)}${SLIP.url||SLIP.issue?` · <a href="${SLIP.url||("https://github.com/douglasbakeronline/footyalmanac-hq/issues/"+SLIP.issue)}" target="_blank" rel="noopener" style="color:var(--acc)">agents' read</a>`:""}</div><div style="font-size:12px;margin-bottom:6px">${slipHead(SLIP)}</div>${slipRows(SLIP)}</div></div>`}
-async function loadPicks(){try{PICKS=await J("picks.json");renderBoard();if(!$("#picks").dataset.ready)renderPicksDesk()}catch(e){$("#picks").innerHTML="<p class='k'>Picks are not published yet.</p>"}}
+async function loadPicks(){try{PICKS=await J("picks.json");renderBoard();renderToday();if(!$("#picks").dataset.ready)renderPicksDesk()}catch(e){$("#picks").innerHTML="<p class='k'>Picks are not published yet.</p>"}}
 function ukToday(){return new Date().toLocaleDateString("en-CA",{timeZone:"Europe/London"})}
 function addDays(iso,n){const d=new Date(iso+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)}
 function dayName(iso){return new Date(iso+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"short",timeZone:"UTC"})}
@@ -703,7 +768,7 @@ function answer(q){const t=q.toLowerCase(),days=PICKS.days.map(d=>d.date),today=
  return {out,words,code,strong,btts,over};}
 const LGN={"en.1":"Premier League","en.2":"Championship","en.3":"League One","en.4":"League Two","en.5":"National League","sco.1":"Scottish Premiership","sco.2":"Scottish Championship","es.1":"La Liga","de.1":"Bundesliga","de.2":"2. Bundesliga","it.1":"Serie A","it.2":"Serie B","fr.1":"Ligue 1","fr.2":"Ligue 2","nl.1":"Eredivisie","pt.1":"Primeira Liga","us.1":"MLS"};
 function pickRow(x,mode){const val=mode==="btts"?x.btts:mode==="over"?x.o25:x.c;const lab=mode==="btts"?"BTTS":mode==="over"?"O2.5":x.pick;
- return `<div class="pk"><span class="tm">${x.ko?new Date(x.ko).toLocaleTimeString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit"}):x.t||""}</span><span class="m"><b>${x.h}</b> v <b>${x.a}</b> · ${lab}${mode==="board"?"":x.list?'<span class="ptag l">List</span>':x.reserve?'<span class="ptag">Reserve</span>':""}${x.celtic?'<span class="ptag w">Celtic flag</span>':""}</span><span class="cf">${pct(val)}</span><span class="lg">${x.lgName}${x.score?` · likely ${x.score[0]}-${x.score[1]}`:""}${x.hit!=null&&mode!=="btts"&&mode!=="over"?` · calls at this level won ${pct(x.hit)} in testing (${x.hitN})`:""}</span></div>`}
+ return `<div class="pk"><span class="tm">${x.ko?new Date(x.ko).toLocaleTimeString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit"}):x.t||""}</span><span class="m"><b>${x.h}</b> v <b>${x.a}</b> · ${lab}${mode==="board"?"":x.list?'<span class="ptag l">List</span>':x.reserve?'<span class="ptag">Reserve</span>':""}${x.celtic?'<span class="ptag w">Celtic flag</span>':""}${x.sport&&x.sport!=="football"?`<span class="ptag sp-t">${x.sport==="tennis"?"Tennis":x.sport.toUpperCase()}</span>`:""}</span><span class="cf">${pct(val)}</span><span class="lg">${x.lgName}${x.score?` · likely ${x.score[0]}-${x.score[1]}`:""}${x.hit!=null&&mode!=="btts"&&mode!=="over"?` · calls at this level won ${pct(x.hit)} in testing (${x.hitN})`:""}</span></div>`}
 function ask(q){if(!PICKS||!q.trim())return;const r=answer(q),mode=r.btts?"btts":r.over?"over":"pick";
  const body=r.out.map(o=>`<div class="k" style="margin-top:6px">${dayName(o.d)} · ${o.total} ${r.words.length||r.code?"games":r.btts||r.over?"games":"picks"}${!r.words.length&&!r.code&&!r.btts&&!r.over?` (${o.listN} on the Daily List)`:""}</div>`+(o.games.length?o.games.map(x=>pickRow(x,mode)).join(""):`<div class="row" style="color:var(--mut)">${r.code?`No ${LGN[r.code]} games that day${PICKS.days.find(d=>d.games.some(x=>x.lg===r.code))?`. Next: ${dayName(PICKS.days.find(d=>d.date>o.d&&d.games.some(x=>x.lg===r.code))?.date||PICKS.days.find(d=>d.games.some(x=>x.lg===r.code)).date)}`:" in the published week (international break?)"}.`:"Nothing matches that on this day."}</div>`)).join("")||`<div class="row" style="color:var(--mut)">That day isn't published yet. Picks cover ${dayName(PICKS.days[0].date)} to ${dayName(PICKS.days.at(-1).date)}.</div>`;
  const intro=r.btts?"Most likely both-teams-to-score games. BTTS is weaker than the winner board, so treat it as a lean.":r.over?"Most likely over 2.5 goals games.":r.strong?"Strong calls only (70% and up), strongest first.":r.code?`${LGN[r.code]} games, strongest first.`:r.words.length?`Everything I have for "${r.words.join(" ")}", strongest first.`:"The Daily List first, then the reserve, strongest first.";
@@ -719,13 +784,16 @@ async function loadSat(){try{const all=await J("saturday.json");const b=all.find
 /* ---------- home screen: every Daily List pick for the day ---------- */
 let BOARD_DAY=null,BOARD_RES=false;
 function renderBoard(){const el=$("#board");if(!PICKS)return;const today=ukToday();const days=PICKS.days.filter(d=>d.date>=today).slice(0,3);if(!days.length)return;
+ const Y=PICKS.yesterday;if(BOARD_DAY===null&&Y&&Y.n&&!days[0].games.some(x=>x.list))BOARD_DAY="y";if(BOARD_DAY==="y"&&Y){const min=el.classList.contains("min");
+  el.innerHTML=`<header><b>Daily List</b><span>${dayName(Y.date)} · results</span><button type="button" id="bdMin" aria-expanded="${!min}">${min?"Show":"Hide"}</button></header><div class="dsw"><button type="button" data-d="y" class="on">Yesterday</button>${days.map(d=>`<button type="button" data-d="${d.date}">${d.date===today?"Today":d.date===addDays(today,1)?"Tomorrow":new Date(d.date+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"short",timeZone:"UTC"})}</button>`).join("")}</div><div class="bl">${yesterdayHTML(Y)}</div>`;
+  $("#bdMin").onclick=()=>{el.classList.toggle("min");renderBoard()};el.querySelectorAll(".dsw button").forEach(b=>b.onclick=()=>{BOARD_DAY=b.dataset.d;renderBoard()});return}
  if(!BOARD_DAY||!days.some(d=>d.date===BOARD_DAY))BOARD_DAY=days[0].date;const day=days.find(d=>d.date===BOARD_DAY);
  const lst=day.games.filter(x=>x.list),res=day.games.filter(x=>x.reserve);const min=el.classList.contains("min");
  const lab=d=>d===today?"Today":d===addDays(today,1)?"Tomorrow":new Date(d+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"short",timeZone:"UTC"});
  const gOn=BRIEF&&BRIEF.date===today&&day.date===today&&BRIEF.groups&&BRIEF.groups.length;
  el.innerHTML=`<header><b>Daily List</b><span>${dayName(day.date)} · ${lst.length} picks${res.length?` + ${res.length} reserve`:""}</span><button type="button" id="bdMin" aria-expanded="${!min}">${min?"Show":"Hide"}</button></header>
- <div class="dsw">${days.map(d=>`<button type="button" data-d="${d.date}" class="${d.date===BOARD_DAY?"on":""}">${lab(d.date)}</button>`).join("")}</div>
- <div class="bl">${SLIP&&day.date===slipDate(SLIP)?`<div class="sub" style="margin-top:0;color:#ff8a8a">Your slip · ${slipHead(SLIP)}</div>${slipRows(SLIP)}${gOn?"":`<div class="sub">Daily List</div>`}`:""}${gOn?`<details class="grp"><summary class="sub" style="cursor:pointer;color:#f0b35a;margin-top:0">Today's groups of five · ${BRIEF.groups.map(g=>g.name+" "+(+g.odds).toFixed(2)).join(" · ")}</summary>${groupsHTML(BRIEF)}</details><div class="sub">Daily List</div>`:""}${lst.length?lst.map(x=>pickRow(x,"board")).join(""):`<div class="row" style="color:var(--mut)">No Daily List picks published for this day yet.</div>`}
+ <div class="dsw">${Y?`<button type="button" data-d="y">Yesterday</button>`:""}${days.map(d=>`<button type="button" data-d="${d.date}" class="${d.date===BOARD_DAY?"on":""}">${lab(d.date)}</button>`).join("")}</div>
+ <div class="bl">${SLIP&&day.date===slipDate(SLIP)?`<div class="sub" style="margin-top:0;color:#ff8a8a">Your slip · ${slipHead(SLIP)}</div>${slipRows(SLIP)}${gOn?"":`<div class="sub">Daily List</div>`}`:""}${gOn?`<details class="grp"><summary class="sub" style="cursor:pointer;color:#f0b35a;margin-top:0">Today's groups of five · ${BRIEF.groups.map(g=>g.name+" "+(+g.odds).toFixed(2)).join(" · ")}</summary>${groupsHTML(BRIEF)}</details><div class="sub">Daily List</div>`:""}${lst.length?lst.map(x=>pickRow(x,"board")).join(""):`<div class="row" style="color:var(--mut)">${day.games.length?`Nothing cleared the bar for ${day.date===today?"today":"this day"}. ${(()=>{const n=days.find(d=>d.date>day.date&&d.games.some(x=>x.list));return n?`Next picks: ${lab(n.date)} (${n.games.filter(x=>x.list).length}).`:""})()}`:"No picks published for this day yet."}</div>`}
  ${res.length?`<div class="sub">Reserve · ${res.length}</div>`+(BOARD_RES?res.map(x=>pickRow(x,"board")).join(""):res.slice(0,5).map(x=>pickRow(x,"board")).join("")+(res.length>5?`<button class="sbtn" type="button" id="bdRes" style="margin:8px 0 2px;width:100%">Show all ${res.length} reserve picks</button>`:"")):""}
  <div style="color:var(--mut);font-size:10.5px;margin-top:8px">UK kick-offs · model probabilities from the ${fmt(PICKS.generated)} build · not betting advice</div></div>`;
  $("#bdMin").onclick=()=>{el.classList.toggle("min");renderBoard()};el.querySelectorAll(".dsw button").forEach(b=>b.onclick=()=>{BOARD_DAY=b.dataset.d;BOARD_RES=false;renderBoard()});
@@ -770,9 +838,9 @@ function profileHTML(id){const a=AG[id],c=DEPT[a.d].c,s=HISTORY[0];const mine=(s
   ${prs.length?`<div class="card"><div class="k">Development work</div>${prs.map(p=>`<div><a href="${p.url}" target="_blank" rel="noopener" style="color:var(--acc)">#${p.n}</a> ${p.title} <span class="k">(${p.status})</span></div>`).join("")}</div>`:""}
   <div class="card"><div class="k" style="margin-bottom:6px">Last 7 days</div>${hist||"<p class='k'>No history yet.</p>"}</div></div>`}
 
-function line(l,cur){const a=AG[l.agent];return `<div class="msg ${cur?"now":""}" id="m-${l.agent}" style="border-color:${DEPT[a.d].c}"><div class="h"><b style="color:${DEPT[a.d].c}">${a.name} · ${a.role}</b><span>${DEPT[a.d].name}</span></div><p><em>Done</em>${l.yesterday}</p><p><em>Next</em>${l.today}</p>${l.kudos?"":`<p><em>Blockers</em>${l.blockers}</p>`}</div>`}
+function line(l,cur){const a=AG[l.agent];return `<div class="msg ${cur?"now":""}" id="m-${l.agent}" style="border-left-color:${DEPT[a.d].c}"><div class="h"><span class="who"><span class="av" style="background:${DEPT[a.d].c}">${a.name[0]}</span><b style="color:${DEPT[a.d].c}">${a.name} · ${a.role}</b></span><span>${DEPT[a.d].name}</span></div><p><em>Done</em>${l.yesterday}</p><p><em>Next</em>${l.today}</p>${l.kudos?"":`<p><em>Blockers</em>${l.blockers}</p>`}</div>`}
 function renderLog(list){HISTORY=list;renderTeam();if(!list.length){$("#log").innerHTML="<p class='k'>No stand-ups yet.</p>";return}
- const s=list[0];$("#log").innerHTML=`<div class="k" style="margin-bottom:10px">${fmt(s.time)} · ${s.trigger}</div>`+s.lines.map(l=>line(l)).join("")}
+ const s=list[0];$("#log").innerHTML=sprintCard()+`<div class="k" style="margin-bottom:10px">Last stand-up · ${fmt(s.time)} · ${s.trigger}</div>`+s.lines.map(l=>line(l)).join("")}
 function objTable(ob){return `<table><tr><th>Objective</th><th>Owner</th><th class="n">Now</th><th class="n">Target</th><th></th></tr>${ob.map(o=>`<tr><td>${o.name}</td><td style="color:${DEPT[AG[o.owner].d].c}">${AG[o.owner].name}</td><td class="n">${objFmt(o)}</td><td class="n">${tgtFmt(o)}</td><td><span class="chipS ${o.status==="on track"?"s-on":o.status==="at risk"?"s-risk":o.status==="behind"?"s-behind":"s-nodata"}">${o.status}</span></td></tr>`).join("")}</table>`}
 function renderAcc(s){if(!s)return;const t=s.stats;STATS=t;LASTSU=s;
  const days=(t.days||[]).slice().reverse();const W=340,Hh=70;const pts=days.map((d,i)=>[i/(Math.max(1,days.length-1))*W,Hh-d.acc*Hh]);
@@ -823,7 +891,38 @@ async function loadChats(){try{const saved=await J("chats.json");CHATS=[...LOCAL
 function showAgent(id){const a=AG[id];PROFILE=id;renderTeam();openTab("team");$("#team").scrollTop=0;
  const fk=a.wing?(WING_OPEN?"Expansion Wing":"Launch Wing"):{data:"Fixtures & Data",model:"Modelling",valid:"Validation",lead:"Chief of Staff",board:"Daily Board",eng:"Engineering"}[a.d];if(fk&&!a.p.away)focus(fk)}
 async function loadGH(){try{const d=await J("activity.json");
- const PR=d.prs||[];ACT_PRS=PR;$("#gh").innerHTML=`<div class="k">Agent development work</div>`+(PR.length?PR.map(p=>`<div class="row"><b style="color:${AG[p.owner]?DEPT[AG[p.owner].d].c:"var(--acc)"}">${(AG[p.owner]||{}).name||p.owner}</b> · <a href="${p.url}" target="_blank" rel="noopener">#${p.n} ${p.title.replace(/^\[[^\]]*\]\s*/,"")}</a><br><small style="color:${p.status==="shipped"?"var(--good)":"var(--mut)"}">${p.status} · opened ${fmt(p.opened)}</small></div>`).join(""):`<div class="row" style="color:var(--mut)">No pull requests yet. Agents start work at 07:30 UK once the Claude key is added to footyalmanac.</div>`)+`<div class="k" style="margin-top:16px">Recent commits · footyalmanac</div>`+d.commits.map(c=>`<div class="row"><a href="${c.url}" target="_blank" rel="noopener">${c.msg}</a><br><small style="color:var(--mut)" class="mono">${c.sha} · ${fmt(c.date)}</small></div>`).join("")+`<div class="k" style="margin-top:16px">Workflow runs</div>`+d.runs.map(r=>`<div class="row"><span style="color:${r.conclusion==="success"?"var(--good)":r.conclusion==="failure"?"var(--bad)":"var(--mut)"}">●</span> ${r.name} · ${fmt(r.createdAt)}</div>`).join("")}catch(e){$("#gh").innerHTML="<p class='k'>Couldn't reach GitHub right now.</p>"}}
+ const PR=d.prs||[];ACT_PRS=PR;paintStatus();renderToday();if(HISTORY.length)renderLog(HISTORY);$("#gh").innerHTML=`<div class="k">Agent development work</div>`+(PR.length?PR.map(p=>`<div class="row"><b style="color:${AG[p.owner]?DEPT[AG[p.owner].d].c:"var(--acc)"}">${(AG[p.owner]||{}).name||p.owner}</b> · <a href="${p.url}" target="_blank" rel="noopener">#${p.n} ${p.title.replace(/^\[[^\]]*\]\s*/,"")}</a><br><small style="color:${p.status==="shipped"?"var(--good)":"var(--mut)"}">${p.status} · opened ${fmt(p.opened)}</small></div>`).join(""):`<div class="row" style="color:var(--mut)">No pull requests yet. The sprint starts at 07:30 UK.</div>`)+`<div class="k" style="margin-top:16px">Recent commits · footyalmanac</div>`+d.commits.map(c=>`<div class="row"><a href="${c.url}" target="_blank" rel="noopener">${c.msg}</a><br><small style="color:var(--mut)" class="mono">${c.sha} · ${fmt(c.date)}</small></div>`).join("")+`<div class="k" style="margin-top:16px">Workflow runs</div>`+d.runs.map(r=>`<div class="row"><span style="color:${r.conclusion==="success"?"var(--good)":r.conclusion==="failure"?"var(--bad)":"var(--mut)"}">●</span> ${r.name} · ${fmt(r.createdAt)}</div>`).join("")}catch(e){$("#gh").innerHTML="<p class='k'>Couldn't reach GitHub right now.</p>"}}
+
+/* ---------- today at a glance, agent status, sprint card (5 Oct 2026) ---------- */
+const OWN={champ:"h1",odds:"h2",accas:"h3"};const agOf=o=>AG[OWN[o]||o];
+const PLAT={office:{n:"Office agents",c:"#f0b35a"},myclaw:{n:"MyClaw",c:"#a98bff"},perplexity:{n:"Perplexity",c:"#4cc3e6"},kiro:{n:"Kiro",c:"#ff7f9f"}};
+const spOf=p=>p.status==="shipped"?"shipped":p.status==="checking"?"checking":p.status==="waiting for Douglas"?"owner":"held";
+const spLab={shipped:"Shipped",checking:"Checking",owner:"Needs you",held:"Held"};
+function todayPRs(){const t=ukToday();return (ACT_PRS||[]).filter(p=>ukDate(p.opened)===t||(p.merged&&ukDate(p.merged)===t)||(p.closed&&ukDate(p.closed)===t))}
+function agentStatus(){const st={};todayPRs().forEach(p=>{const a=agOf(p.owner);if(!a)return;const k=spOf(p),v=k==="checking"||k==="owner"?"working":k==="shipped"?"shipped":"held";
+  const rank={working:3,shipped:2,held:1};if(!st[a.id]||rank[v]>rank[st[a.id]])st[a.id]=v});return st}
+function paintStatus(){const st=agentStatus();let sh=0;
+ AGENTS.forEach(a=>{const v=st[a.id]||"idle";if(v==="shipped")sh++;const c=document.querySelector(`#roster .chip[data-id="${a.id}"]`);if(c){c.dataset.s=v;c.title=`${a.name} · ${a.role} · ${v==="idle"?"no pull request today":v}`}
+  const d=$("#st-"+a.id);if(d)d.className="st s-"+v;const ti=document.querySelector(`#labels i[data-id="${a.id}"]`);if(ti)ti.className="s-"+v});
+ const rs=$("#rsum");if(rs)rs.innerHTML=`<b>${sh} of ${AGENTS.length}</b> shipped today<br>${Object.values(st).filter(v=>v==="working").length} in checks`}
+function sprintCard(){const prs=todayPRs();if(!prs.length)return "";const c={};prs.forEach(p=>{const k=spOf(p);c[k]=(c[k]||0)+1});
+ return `<div class="spr"><h4>Today's sprint</h4><div class="meta">${prs.length} pull requests · ${c.shipped||0} shipped${c.checking?` · ${c.checking} in checks`:""}${c.held?` · ${c.held} held or closed`:""}${c.owner?` · ${c.owner} need you`:""}</div>`+
+ prs.map(p=>{const a=agOf(p.owner),k=spOf(p),pl=PLAT[p.platform]||PLAT.office;return `<div class="r"><span class="av" style="background:${a?DEPT[a.d].c:pl.c}">${a?a.name[0]:pl.n[0]}</span><a href="${p.url}" target="_blank" rel="noopener" title="${p.title.replace(/"/g,"&quot;")}"><b>${a?a.name:pl.n}</b> · ${p.title.replace(/^\[[^\]]*\]\s*/,"")}</a><span class="sp ${k}">${spLab[k]}</span></div>`}).join("")+`</div>`}
+function renderToday(){const el=$("#today");if(!el)return;const y=PICKS&&PICKS.yesterday,prs=todayPRs(),sh=prs.filter(p=>p.status==="shipped").length;
+ const nx=($("#nxt")?.textContent||"").replace(/^Next:\s*/,"");const nm=nx.replace(/\s*\(in.*$/,""),inn=(nx.match(/\(in ([^)]+)\)/)||[])[1]||"";
+ const yr=y&&y.graded?y.won/y.graded:null;const col=yr==null?"var(--mut)":yr>=.8?"var(--good)":yr>=.65?"var(--warn)":"var(--bad)";
+ const plats={};(ACT_PRS||[]).forEach(p=>{plats[p.platform||"office"]=(plats[p.platform||"office"]||0)+(p.status==="shipped"?1:0)});
+ el.innerHTML=`<button class="tile" type="button" id="tY"><span class="k">Yesterday</span><div class="v" style="color:${col}">${y&&y.graded?`${y.won}/${y.graded}`:"–"}<small>${yr==null?"":pct(yr)}</small></div><div class="d">${y?dayName(y.date):"not graded yet"}</div><div class="bar"><i style="width:${yr==null?0:yr*100}%;background:${col}"></i></div></button>`+
+ `<button class="tile" type="button" id="tS"><span class="k">Sprint today</span><div class="v">${sh}<small>shipped</small></div><div class="d">${prs.length?`${prs.length} pull requests`:"starts 07:30"}</div><div class="bar"><i style="width:${prs.length?sh/prs.length*100:0}%;background:var(--good)"></i></div></button>`+
+ `<button class="tile" type="button" id="tN"><span class="k">Next up</span><div class="v nx">${nm||"–"}</div><div class="d">${inn?"in "+inn:"UK time"}</div></button>`+
+ `<div class="plats"><span>Shipped by:</span>${Object.entries(PLAT).filter(([k])=>k!=="kiro").map(([k,v])=>`<span class="plat"><i style="background:${v.c}"></i>${v.n} ${plats[k]||0}</span>`).join("")}</div>`;
+ $("#tY").onclick=()=>{BOARD_DAY="y";const b=$("#board");b.classList.remove("min");renderBoard();if(matchMedia("(max-width:700px)").matches)window.scrollTo({top:0,behavior:"smooth"})};
+ $("#tS").onclick=()=>{openTab("log");$("#log").scrollTop=0};$("#tN").onclick=()=>openTab("rhy")}
+function yesterdayHTML(y){if(!y||!y.n)return `<div class="row" style="color:var(--mut)">Yesterday's list isn't graded yet.</div>`;
+ const ic=r=>r.ok===true?'<span class="ic w" aria-label="won">✓</span>':r.ok===false?'<span class="ic l" aria-label="lost">✗</span>':'<span class="ic p" aria-label="pending">·</span>';
+ const sp=r=>r.sport==="football"?"Football":r.sport==="tennis"?"Tennis":r.sport;
+ return `<div class="ysum"><b style="color:${y.won/Math.max(1,y.graded)>=.8?"var(--good)":"var(--warn)"}">${y.won}/${y.graded}</b><span>landed · ${dayName(y.date)}${y.n>y.graded?` · ${y.n-y.graded} pending`:""}</span></div>`+
+ y.rows.map(r=>`<div class="res">${ic(r)}<span><b>${r.pick}</b> <span style="color:var(--mut)">${r.pick===r.h?"v "+r.a:r.pick===r.a?"v "+r.h:r.h+" v "+r.a}</span></span><span class="rs">${r.score?r.score.join("-"):""}</span><span class="lg">${sp(r)} · ${pct(r.c)}${r.note?" · "+r.note:""}</span></div>`).join("")}
 
 /* ---------- chit-chat ---------- */
 function chatScripts(){const s=STATS||{},o=LASTSU?.objectives||[],top=(s.top||[])[0],wk=(s.weak||[])[0],t=(s.tiers||[]),strong=t.find(x=>x.name==="Strong"),lean=t.find(x=>x.name==="Lean");
@@ -895,7 +994,7 @@ async function poll(quiet){try{const l=await J("standups.json");if(!meetingOn)re
  if(!quiet&&lastId!==null&&l[0]&&l[0].id!==lastId)play(l[0]);lastId=l[0]?l[0].id:0;$("#foot").innerHTML=`Last stand-up ${l[0]?fmt(l[0].time):"–"} · runs on GitHub Actions · <a href="${RUN_URL}" target="_blank" rel="noopener" style="color:var(--acc)">run one now</a>`}catch(e){$("#foot").textContent="Could not load office data · showing last known state"}}
 $("#go").onclick=async e=>{const btn=e.target;if(!HISTORY[0])return;btn.disabled=true;btn.textContent="In session";try{await play(HISTORY[0],true)}finally{btn.disabled=false;btn.textContent="Call stand-up"}};
 $("#present").onclick=()=>present();
-document.fonts.ready.then(async()=>{rhythmTick();await poll(true);loadReports();loadChats();loadGH()});
+document.fonts.ready.then(async()=>{rhythmTick();await poll(true);loadReports();loadChats();loadGH()});setInterval(renderToday,60000);setInterval(loadGH,300000);
 J("rhythm.json").then(d=>{if(d.rhythm)RHYTHM=d.rhythm;rhythmTick()}).catch(()=>{});
 setInterval(()=>poll(false),20000);setInterval(loadGH,180000);setInterval(loadReports,120000);setInterval(loadChats,60000);
 setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);loadPicks().then(()=>{loadSlip();loadBrief()});setInterval(()=>{loadSlip();loadBrief()},120000);setInterval(()=>J("picks.json").then(d=>{PICKS=d;renderBoard()}).catch(()=>{}),600000);if(matchMedia("(max-width:980px)").matches)$("#board").classList.add("min");

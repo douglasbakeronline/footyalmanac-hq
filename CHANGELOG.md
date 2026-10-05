@@ -1,3 +1,12 @@
+# Office refresh - October 5, 2026 (Perplexity)
+
+- **Today at a glance**: three tiles above the panel tabs: yesterday's Daily List result, today's sprint (shipped of opened), and what's next. A row shows how many changes each AI platform has shipped (office agents, MyClaw, Perplexity).
+- **Live agent status**: header faces and map name tags are ringed by today's real status: shipped (green), in checks (amber, pulsing), held (red), no pull request today (grey). The summary says how many have shipped.
+- **Today's sprint card** at the top of the Stand-up tab, linking every pull request with its status, so the tab is current even when a stand-up is missed.
+- **Daily List board**: covers football, tennis and the other sports. A new Yesterday tab shows every list pick with won or lost and the score. It opens there when today has no picks. Empty days say what's next instead of "no picks".
+- **Mobile**: the office map no longer has empty bands above and below it, the panel tabs stay pinned while scrolling, and the header fits at 400px.
+- **Data**: `scripts/office.py` reads agent pull requests through REST (the GraphQL call was returning nothing), adds tennis and other-sport picks to `picks.json`, and grades yesterday's list from all three record files. Tests: `tests/test_picks_all_sports.py`.
+
 # Development Summary - October 5, 2026
 
 ## New Features Added
