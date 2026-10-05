@@ -4,6 +4,7 @@
 - New people: rounded bodies, arms and legs, real heads with hair, ears, eyes, brows and a smile; glasses and a tie for some.
 - Softer lighting from an indoor environment map, soft contact shadows (ambient occlusion) and a gentle glow on screens. These effects run on desktop only; add `?lite` to switch them off.
 - Leafier plants.
+- Speed watch: if the office runs below 40 frames a second with the effects on, it switches them off by itself. Add `?perf` to the address for a live frame-rate readout.
 
 # Office refresh - October 5, 2026 (Perplexity)
 
