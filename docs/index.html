@@ -158,9 +158,9 @@ body.hide-names .tag,body.hide-rooms .rtag,body.hide-bubbles .bubble,body.hide-b
   <div class="vpop" id="vpop" role="group" aria-label="Office layers"></div>
  </div><div class="banner" id="banner"></div><div class="hud" id="hud"></div><section class="board" id="board" aria-label="Today's Daily List"></section></div>
  <aside>
-  <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="team">Team</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
+  <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="team">Team</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="ceo">CEO</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
   <div class="pane on" id="log"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
-  <div class="pane" id="team"></div><div class="pane" id="picks"></div><div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
+  <div class="pane" id="team"></div><div class="pane" id="picks"></div><div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="ceo"><div class="k" style="margin-bottom:12px">Chat with Elena, CEO</div><div id="ceoHistory" style="max-height:calc(100vh - 280px);overflow-y:auto;margin-bottom:12px"></div><div class="ask"><input id="ceoInput" placeholder="Ask Elena about business performance..." style="flex:1"><button class="sbtn" id="ceoSend" style="padding:8px 14px">Send</button></div></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
   <div class="foot" id="foot">Loading office data…</div>
  </aside>
 </main>
@@ -899,4 +899,13 @@ document.fonts.ready.then(async()=>{rhythmTick();await poll(true);loadReports();
 J("rhythm.json").then(d=>{if(d.rhythm)RHYTHM=d.rhythm;rhythmTick()}).catch(()=>{});
 setInterval(()=>poll(false),20000);setInterval(loadGH,180000);setInterval(loadReports,120000);setInterval(loadChats,60000);
 setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);loadPicks().then(()=>{loadSlip();loadBrief()});setInterval(()=>{loadSlip();loadBrief()},120000);setInterval(()=>J("picks.json").then(d=>{PICKS=d;renderBoard()}).catch(()=>{}),600000);if(matchMedia("(max-width:980px)").matches)$("#board").classList.add("min");
+
+/* ---------- CEO chat ---------- */
+const CEO_API="https://footyalmanac-ceo.douglasbakeronline.workers.dev";
+let ceoHistory=[];
+const ceoHistoryEl=$("#ceoHistory"),ceoInput=$("#ceoInput"),ceoSend=$("#ceoSend");
+function renderCEOHistory(){ceoHistoryEl.innerHTML=ceoHistory.map(m=>`<div class="chatm"><div class="w">${m.role==="user"?"You":"Elena, CEO"}</div>${m.content}</div>`).join("")}
+async function sendCEO(){const msg=ceoInput.value.trim();if(!msg)return;ceoInput.value="";ceoSend.disabled=true;ceoSend.textContent="...";ceoHistory.push({role:"user",content:msg});renderCEOHistory();ceoHistoryEl.scrollTop=ceoHistoryEl.scrollHeight;try{const res=await fetch(CEO_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:msg,history:ceoHistory.slice(-10)})});if(!res.ok)throw new Error("Network error");const data=await res.json();if(data.error)throw new Error(data.error);ceoHistory.push({role:"ceo",content:data.reply});renderCEOHistory();ceoHistoryEl.scrollTop=ceoHistoryEl.scrollHeight}catch(e){ceoHistory.push({role:"ceo",content:`Error: ${e.message}`});renderCEOHistory()}finally{ceoSend.disabled=false;ceoSend.textContent="Send"}}
+ceoSend.onclick=sendCEO;ceoInput.onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendCEO()}};
+
 </script></body></html>
