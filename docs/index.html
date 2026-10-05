@@ -614,7 +614,7 @@ function person(a){const g=new THREE.Group();const col=DEPT[a.d].c;
  const armL=new THREE.Group(),armR=new THREE.Group();armL.position.set(-.36,1.4,0);armR.position.set(.36,1.4,0);body.add(armL,armR);
  for(const A of [armL,armR]){part(pg("arm",()=>new THREE.CapsuleGeometry(.08,.44,4,10)),shirt,0,-.28,0,A);
   part(pg("hand",()=>new THREE.SphereGeometry(.075,14,10)),skin,0,-.6,0,A,{s:[1,1.15,1]})}
- const cup=cyl(.065,.055,.16,"#fff",0,-.72,.11,armR);cup.visible=false;
+ const cup=cyl(.065,.055,.16,"#fff",0,-.72,.11,armR);cup.visible=false;cup.userData.keep=1;
  const head=new THREE.Group();head.position.set(0,1.52,0);body.add(head);
  part(pg("head",()=>new THREE.SphereGeometry(.24,20,14)),skin,0,.27,0,head,{s:[1,1.08,1]});
  part(pg("ear",()=>new THREE.SphereGeometry(.05,10,8)),skin,-.235,.25,0,head,{s:[.6,1,.8]});part(pg("ear"),skin,.235,.25,0,head,{s:[.6,1,.8]});
@@ -630,7 +630,10 @@ function person(a){const g=new THREE.Group();const col=DEPT[a.d].c;
  if(a.id==="chief"){part(pg("tie",()=>new RoundedBoxGeometry(.07,.36,.03,2,.012)),"#8a1c2c",0,1.24,.19,body,{cs:false})}
  if(a.id==="ratings"||a.id==="calib")part(pg("glasses",()=>new THREE.TorusGeometry(.045,.008,6,16)),"#222",-.085,.29,.24,head,{cs:false})&&part(pg("glasses"),"#222",.085,.29,.24,head,{cs:false});
  scene.add(g);
- const p={a,g,body,legL,legR,armL,armR,head,cup,path:[],state:"seated",pose:"sit",t:Math.random()*10,busy:false,speed:4.4,away:false};
+ [body,legL,legR,armL,armR,head].forEach(mergeGroupParts);
+ const blob=new THREE.Mesh(pg("blobG",()=>new THREE.PlaneGeometry(1.3,1.3)),pg("blobM",()=>new THREE.MeshBasicMaterial({map:canvasTex(64,64,(c,w,h)=>{const r=c.createRadialGradient(32,32,2,32,32,31);r.addColorStop(0,"rgba(0,0,0,.42)");r.addColorStop(1,"rgba(0,0,0,0)");c.fillStyle=r;c.fillRect(0,0,w,h)}).t,transparent:true,depthWrite:false})));
+ blob.rotation.x=-Math.PI/2;blob.position.y=.03;blob.visible=false;blob.userData.keep=1;g.add(blob);
+ const p={a,g,body,legL,legR,armL,armR,head,cup,blob,path:[],state:"seated",pose:"sit",t:Math.random()*10,busy:false,speed:4.4,away:false};
  a.p=p;people.push(p);p.g.position.copy(a.seat);p.g.rotation.y=a.seatRot;return p}
 AGENTS.forEach(person);window.__office={people,cam,controls,THREE,renderer,scene};
 
@@ -676,22 +679,37 @@ function say(p,html,ms,light){const old=BUBBLES.get(p);old&&old.remove();const e
  return new Promise(r=>setTimeout(()=>{if(BUBBLES.get(p)===el){el.remove();BUBBLES.delete(p)}r()},ms))}
 
 /* ---------- merge static furniture into a few draw calls ---------- */
-function mergeStatic(){const skip=new Set(people.map(p=>p.g));const groups=new Map(),done=[];scene.updateMatrixWorld(true);
+/* one material for many colours: bake each mesh's colour into its vertices */
+var VC;function vcMat(r,m){VC=VC||{};const k=r.toFixed(2)+"|"+m.toFixed(2);return VC[k]||(VC[k]=new THREE.MeshStandardMaterial({vertexColors:true,roughness:r,metalness:m}))}
+function plainMat(m){return m.isMeshStandardMaterial&&!m.map&&!m.transparent&&!m.vertexColors&&m.emissive.r+m.emissive.g+m.emissive.b===0}
+function bakeGeo(o,mat){let g=o.geometry.index?o.geometry.toNonIndexed():o.geometry.clone();for(const a of Object.keys(g.attributes))if(!["position","normal","uv"].includes(a))g.deleteAttribute(a);
+ const n=g.attributes.position.count;if(!g.attributes.uv)g.setAttribute("uv",new THREE.Float32BufferAttribute(new Float32Array(n*2),2));
+ const c=new Float32Array(n*3),col=o.material.color;for(let i=0;i<n;i++){c[i*3]=col.r;c[i*3+1]=col.g;c[i*3+2]=col.b}g.setAttribute("color",new THREE.Float32BufferAttribute(c,3));
+ g.applyMatrix4(mat);return g}
+function mergeGroupParts(G){const parts=G.children.filter(o=>o.isMesh&&!o.userData.keep&&plainMat(o.material));if(parts.length<2)return;
+ const byKey=new Map();for(const o of parts){o.updateMatrix();const k=(o.castShadow?"s":"");(byKey.get(k)||byKey.set(k,[]).get(k)).push(o)}
+ for(const [k,list] of byKey){const mg=mergeGeometries(list.map(o=>bakeGeo(o,o.matrix)),false);if(!mg)continue;const m0=list[0].material;
+  const mesh=new THREE.Mesh(mg,vcMat(.65,0));mesh.castShadow=k.endsWith("s");mesh.receiveShadow=true;G.add(mesh);list.forEach(o=>o.removeFromParent())}}
+function mergeLeds(){const lm=new THREE.MeshBasicMaterial({vertexColors:true,toneMapped:false});
+ for(const g of RACKS){const L=g.userData.leds;if(!L||L.length<2||L[0].isGroup)continue;const sets=[[],[]];L.forEach((l,j)=>sets[j%2].push(l));
+  g.userData.leds=sets.map(set=>{set.forEach(l=>{l.updateMatrix();l.material=Object.assign(l.material.clone(),{color:l.material.emissive.clone()})});const m=new THREE.Mesh(mergeGeometries(set.map(l=>bakeGeo(l,l.matrix)),false),lm);m.userData.keep=1;g.add(m);set.forEach(l=>l.removeFromParent());return m})}}
+function mergeStatic(){mergeLeds();const skip=new Set(people.map(p=>p.g));const groups=new Map(),done=[];scene.updateMatrixWorld(true);
  scene.traverse(o=>{if(!o.isMesh||o.userData.keep||!o.visible)return;for(let q=o;q;q=q.parent){if(skip.has(q)||q.userData.keep)return}
   const m=o.material;if(Array.isArray(m)||m.transparent||m.isMeshBasicMaterial||!m.isMeshStandardMaterial)return;
-  const k=m.uuid+(o.castShadow?"s":"");if(!groups.has(k))groups.set(k,{m,cs:o.castShadow,list:[]});groups.get(k).list.push(o)});
- let merged=0;for(const {m,cs,list} of groups.values()){if(list.length<2)continue;
-  try{const gs=list.map(o=>{let g=o.geometry.index?o.geometry.toNonIndexed():o.geometry.clone();for(const a of Object.keys(g.attributes))if(!["position","normal","uv"].includes(a))g.deleteAttribute(a);
+  const vc=plainMat(m);const k=(vc?"vc"+m.roughness.toFixed(2)+"|"+m.metalness.toFixed(2):m.uuid)+(o.castShadow?"s":"");if(!groups.has(k))groups.set(k,{m:vc?vcMat(m.roughness,m.metalness):m,vc,cs:o.castShadow,list:[]});groups.get(k).list.push(o)});
+ let merged=0;for(const {m,vc,cs,list} of groups.values()){if(list.length<2)continue;
+  try{const gs=list.map(o=>{if(vc)return bakeGeo(o,o.matrixWorld);let g=o.geometry.index?o.geometry.toNonIndexed():o.geometry.clone();for(const a of Object.keys(g.attributes))if(!["position","normal","uv"].includes(a))g.deleteAttribute(a);
     if(!g.attributes.uv)g.setAttribute("uv",new THREE.Float32BufferAttribute(new Float32Array(g.attributes.position.count*2),2));g.applyMatrix4(o.matrixWorld);return g});
    const mg=mergeGeometries(gs,false);if(!mg)continue;gs.forEach(g=>g.dispose());
    const mesh=new THREE.Mesh(mg,m);mesh.castShadow=cs;mesh.receiveShadow=true;mesh.matrixAutoUpdate=false;scene.add(mesh);
    list.forEach(o=>{o.removeFromParent()});merged+=list.length}catch(e){console.warn("merge skipped",e)}}
  return merged}
 /* ---------- quality tiers: 2 full, 1 no effects, 0 lightest ---------- */
-let TIER=2,FRAME=0;const SHADOW_EVERY=[4,2,1];
+let TIER=2,FRAME=0;const SHADOW_EVERY=[0,0,1];
 function setTier(t){TIER=Math.max(0,Math.min(2,t));if(TIER<2&&FX){FX=null;scene.traverse(o=>{if(o.material?.userData?.screen)o.material.color.setScalar(1)})}
  renderer.setPixelRatio(Math.min(devicePixelRatio,[1,1.25,1.75][TIER]));
  const ms=[1024,2048,4096][TIER];if(sun.shadow.mapSize.x!==ms){sun.shadow.mapSize.set(ms,ms);sun.shadow.map?.dispose();sun.shadow.map=null}
+ const live=TIER===2;people.forEach(p=>{p.blob.visible=!live;p.g.traverse(o=>{if(o.isMesh&&o!==p.blob)o.castShadow=live})});
  renderer.shadowMap.needsUpdate=true;resize()}
 function initialTier(){try{const gl=renderer.getContext();const x=gl.getExtension("WEBGL_debug_renderer_info");const g=x?gl.getParameter(x.UNMASKED_RENDERER_WEBGL):"";
   if(/Intel|SwiftShader|llvmpipe|Mali|Adreno|PowerVR/i.test(g))return 1}catch(e){}return 2}
@@ -719,7 +737,8 @@ function perfTick(dt){PERF.n++;PERF.ft.push(dt*1000);const now=performance.now()
  if(PERF.el)PERF.el.textContent=`${fps.toFixed(0)} fps · slowest frames ${p95.toFixed(0)} ms\nquality ${["light","standard","full"][TIER]}${PERF.dropped?" (lowered: too slow)":""} · pixel ratio ${renderer.getPixelRatio()}\n${PERF.gpu}`}
 /* ---------- animation loop ---------- */
 const clock=new THREE.Clock();
-function tick(){const dt=Math.min(clock.getDelta(),.2);const T=clock.elapsedTime;
+let SKIP=0,ONSCREEN=true;new IntersectionObserver(e=>{ONSCREEN=e[0].isIntersecting}).observe(stage);
+function tick(){if((TIER===0&&(++SKIP%2))||!ONSCREEN){requestAnimationFrame(tick);return}const dt=Math.min(clock.getDelta(),.2);const T=clock.elapsedTime;
  for(const p of people){p.t+=dt;
   if(p.state==="walk"&&p.path.length){const tgt=p.path[0];const dx=tgt.x-p.g.position.x,dz=tgt.z-p.g.position.z;const dist=Math.hypot(dx,dz);
    if(dist<.08){p.g.position.x=tgt.x;p.g.position.z=tgt.z;p.path.shift();if(!p.path.length){p.state="idle";p.pose=p.finalPose;p.g.rotation.y=p.finalRot;p.onDone&&p.onDone()}}
@@ -736,7 +755,7 @@ function tick(){const dt=Math.min(clock.getDelta(),.2);const T=clock.elapsedTime
  placeRoomTags();RACKS.forEach((g,i)=>g.userData.leds.forEach((l,j)=>l.visible=Math.sin(T*(3+j%4)+j*1.3+i)>-.3));
  ticker.t.offset.x=(T*.012)%1;
  FISH.forEach(o=>{const u=Math.sin(T*o.sp+o.ph);o.f.position.x=u*(o.w/2-.4);o.f.rotation.y=Math.cos(T*o.sp+o.ph)>0?0:Math.PI;o.f.position.y+=Math.sin(T*2+o.ph)*.002});
- FRAME++;if(FRAME%SHADOW_EVERY[TIER]===0)renderer.shadowMap.needsUpdate=true;perfTick(dt);controls.update();if(FX)FX.render(dt);else renderer.render(scene,cam);requestAnimationFrame(tick)}
+ FRAME++;if(SHADOW_EVERY[TIER]&&FRAME%SHADOW_EVERY[TIER]===0)renderer.shadowMap.needsUpdate=true;perfTick(dt);controls.update();if(FX)FX.render(dt);else renderer.render(scene,cam);requestAnimationFrame(tick)}
 renderer.shadowMap.autoUpdate=false;mergeStatic();
 {const t=/[?&]lite\b/.test(location.search)?0:initialTier();if(t===2)setupFX();setTier(t)}
 resize();tick();

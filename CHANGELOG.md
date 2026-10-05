@@ -5,6 +5,7 @@
 - Softer lighting from an indoor environment map, soft contact shadows (ambient occlusion) and a gentle glow on screens. These effects run on desktop only; add `?lite` to switch them off.
 - Leafier plants.
 - Faster office: static furniture is merged into a few draw calls (about 2,000 down to 600), triangle count is halved, shadows refresh every other frame on mid-range graphics, and quality steps down in three levels (full, standard, light) when frames are slow. Intel graphics start on standard.
+- Intel graphics: furniture and people share one colour-baked material per finish, so a frame needs about 250 draw calls (from 2,000). Below full quality, room shadows are drawn once and each person gets a soft contact shadow instead of a live one. The light level runs at 30 frames a second, and the office stops drawing when it is scrolled off screen.
 - Speed watch: if the office runs below 40 frames a second with the effects on, it switches them off by itself. Add `?perf` to the address for a live frame-rate readout.
 
 # Office refresh - October 5, 2026 (Perplexity)
