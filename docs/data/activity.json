@@ -188,8 +188,14 @@
    "closed": "2026-10-04T22:47:08Z"
   }
  ],
- "fetched": "2026-10-05T23:14:37.911971+01:00",
+ "fetched": "2026-10-05T23:45:58.035006+01:00",
  "commits": [
+  {
+   "sha": "7cc168a",
+   "msg": "Today's Daily List stays put: started picks show In play, Won or Lost (release-2026-10-05-22)",
+   "date": "2026-10-05T22:34:19Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/7cc168a5f233c01ae73781eac61b54ad423ddeb8"
+  },
   {
    "sha": "250acd6",
    "msg": "Office agent (auditor): Audit the grading of recent results (#18)",
@@ -303,15 +309,15 @@
    "msg": "Office agent (champ): Find why the Championship misses (#11)",
    "date": "2026-10-05T13:44:51Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/8e8f3dc45d0cc07639d9c124f36d922f0b7286c9"
-  },
-  {
-   "sha": "2cc53f0",
-   "msg": "Office agent (experiment): Lift accuracy in England Premier League (#10)",
-   "date": "2026-10-05T13:43:10Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/2cc53f0648d86b62908bcd8258497566104ed77e"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-05T22:34:22Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37383322636"
+  },
   {
    "conclusion": "skipped",
    "createdAt": "2026-10-05T17:00:25Z",
@@ -319,7 +325,7 @@
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37345157772"
   },
   {
-   "conclusion": "",
+   "conclusion": "cancelled",
    "createdAt": "2026-10-05T17:00:22Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37345151056"
@@ -365,12 +371,6 @@
    "createdAt": "2026-10-05T16:38:59Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37342447265"
-  },
-  {
-   "conclusion": "",
-   "createdAt": "2026-10-05T15:35:54Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37334115962"
   }
  ]
 }

@@ -50,6 +50,22 @@
    "hair": "#8a5a2e",
    "slot": 2,
    "by": "Douglas"
+  },
+  {
+   "id": "h4",
+   "key": "draws",
+   "name": "Tom",
+   "role": "Draw Risk Analyst",
+   "d": "valid",
+   "kpi": {
+    "type": "draws",
+    "target": 0.1
+   },
+   "reason": "8 of 48 Strong calls were drawn out (17%): draws are our biggest single cause of misses.",
+   "hired": "2026-10-05",
+   "skin": "#8d5a3b",
+   "hair": "#0f0b08",
+   "slot": 3
   }
  ],
  "departments": {
@@ -60,6 +76,11 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-05",
+   "type": "hire",
+   "text": "Hired Tom as Draw Risk Analyst. 8 of 48 Strong calls were drawn out (17%): draws are our biggest single cause of misses."
+  },
   {
    "date": "2026-10-03",
    "type": "hire",
