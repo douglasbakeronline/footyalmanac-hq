@@ -51,6 +51,17 @@ Tell the agents what you've backed and they'll give their read, show it on the h
 
 Each leg is matched to footyalmanac's published pick, with our probability, whether the model agrees and the combined chance. Susie settles legs from the graded records at each office run and closes the issue when everything is in.
 
+## CEO (Elena) - NEW! 🎯
+
+The CEO provides strategic leadership and you can message her directly for 1-2-1 conversations:
+- **GitHub workflow**: Actions → Office rhythm → Run workflow → pick `ceo` → enter your message
+- **Command line**: `python scripts/ceo.py --message "Your question here"`
+- **Interactive chat**: `python scripts/ceo.py --chat`
+
+Elena has full context of current business performance, team metrics, and recent activity. She responds with data-driven insights about strategy, performance, and priorities.
+
+Conversations are saved to `docs/data/ceo_conversations.json` for continuity.
+
 ## Markets & Groupings (Oscar and Jade)
 
 Every morning at 07:45 UK you get a daily briefing as a GitHub issue (so it lands in your email): yesterday's results, today's most important games and why, tomorrow's, and three groups of five. Groups are refreshed at 12:30 and 17:00 from games still to start, as comments on the same issue. The home screen and Picks tab show the latest.
@@ -59,3 +70,28 @@ Every morning at 07:45 UK you get a daily briefing as a GitHub issue (so it land
 - Each group is the five model picks with the best chance of all winning inside its odds band, no leg used twice, at most two very short legs, mixed sports where possible.
 - Prices: UK bookmaker averages from football-data.co.uk for the bigger football divisions. Add a free key from the-odds-api.com as the repo secret `ODDS_API_KEY` to price tennis, rugby, NFL and more football. Anything without a price uses the model's fair price, marked with a star.
 - Group legs are settled from footyalmanac's graded records; Oscar's KPI is the share of legs with a live price, Jade's is the share of group legs that win.
+
+## Development
+
+See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for:
+- Architecture overview
+- Development setup and testing
+- API reference
+- Performance optimization
+- Contributing guidelines
+
+### Quick Start for Developers
+
+```bash
+# Run tests
+python3 tests/test_office.py
+
+# Test CEO locally
+python3 scripts/ceo.py --chat
+
+# Generate a standup
+python3 scripts/office.py --slot standup
+
+# Preview the office
+python3 -m http.server -d docs 8080
+```

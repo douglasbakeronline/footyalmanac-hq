@@ -24,7 +24,7 @@ on:
       slot:
         description: "What to run now"
         type: choice
-        options: [standup, report, work, saturday, slip, briefing, refresh]
+        options: [standup, report, work, saturday, slip, briefing, refresh, ceo]
         default: standup
       stage:
         description: "Saturday picks stage (saturday only; blank = by weekday)"
@@ -33,6 +33,10 @@ on:
         default: ""
       selections:
         description: "Your selections (slip only), comma separated"
+        type: string
+        default: ""
+      ceo_message:
+        description: "Message to CEO (ceo slot only)"
         type: string
         default: ""
       period:
@@ -70,8 +74,13 @@ jobs:
           SLIP_TEXT: ${{ github.event.issue.body || inputs.selections }}
           SLIP_ISSUE: ${{ github.event.issue.number }}
         run: python scripts/slip.py add --text "$SLIP_TEXT" ${SLIP_ISSUE:+--issue "$SLIP_ISSUE"}
+      - name: Message CEO
+        if: inputs.slot == 'ceo' && inputs.ceo_message != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/ceo.py --message "${{ inputs.ceo_message }}"
       - name: Run the office
-        if: github.event_name != 'issues' && inputs.slot != 'slip'
+        if: github.event_name != 'issues' && inputs.slot != 'slip' && inputs.slot != 'ceo'
         env:
           GH_TOKEN: ${{ github.token }}
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}

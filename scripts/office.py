@@ -88,14 +88,25 @@ def pr_line(p): return f"PR #{p['n']} {p['title'].split('] ',1)[-1]} ({p['status
 
 LOCK = threading.Lock()
 CACHE = {"d": None, "at": 0}
+CACHE_TTL = 300  # 5 minutes
 
 def build_standup(trigger):
+    """Build standup with improved caching and error handling."""
     with LOCK:
-        d = gather()
-        if not d["preds"] and CACHE["d"]:
-            print("gather incomplete, using cached data", flush=True); d = CACHE["d"]
-        elif d["preds"]:
-            CACHE["d"] = d; CACHE["at"] = time.time()
+        now = time.time()
+        # Use cached data if fresh and complete
+        if CACHE["d"] and CACHE["d"].get("preds") and (now - CACHE["at"]) < CACHE_TTL:
+            print(f"Using cached data ({int(now - CACHE['at'])}s old)", flush=True)
+            d = CACHE["d"]
+        else:
+            d = gather()
+            if not d["preds"] and CACHE["d"]:
+                print("gather incomplete, using cached data", flush=True)
+                d = CACHE["d"]
+            elif d["preds"]:
+                CACHE["d"] = d
+                CACHE["at"] = now
+                print("Data gathered and cached", flush=True)
         return _build(d, trigger)
 
 def _build(d, trigger):
