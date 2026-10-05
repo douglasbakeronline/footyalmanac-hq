@@ -1,3 +1,10 @@
+# Office floor refresh - October 5, 2026 (Perplexity)
+
+- Rounded furniture, walls and screens instead of sharp boxes, with smoother cylinders.
+- New people: rounded bodies, arms and legs, real heads with hair, ears, eyes, brows and a smile; glasses and a tie for some.
+- Softer lighting from an indoor environment map, soft contact shadows (ambient occlusion) and a gentle glow on screens. These effects run on desktop only; add `?lite` to switch them off.
+- Leafier plants.
+
 # Office refresh - October 5, 2026 (Perplexity)
 
 - **Today at a glance**: three tiles above the panel tabs: yesterday's Daily List result, today's sprint (shipped of opened), and what's next. A row shows how many changes each AI platform has shipped (office agents, MyClaw, Perplexity).
