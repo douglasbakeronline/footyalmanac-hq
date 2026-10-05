@@ -4,6 +4,7 @@
 - New people: rounded bodies, arms and legs, real heads with hair, ears, eyes, brows and a smile; glasses and a tie for some.
 - Softer lighting from an indoor environment map, soft contact shadows (ambient occlusion) and a gentle glow on screens. These effects run on desktop only; add `?lite` to switch them off.
 - Leafier plants.
+- Faster office: static furniture is merged into a few draw calls (about 2,000 down to 600), triangle count is halved, shadows refresh every other frame on mid-range graphics, and quality steps down in three levels (full, standard, light) when frames are slow. Intel graphics start on standard.
 - Speed watch: if the office runs below 40 frames a second with the effects on, it switches them off by itself. Add `?perf` to the address for a live frame-rate readout.
 
 # Office refresh - October 5, 2026 (Perplexity)
