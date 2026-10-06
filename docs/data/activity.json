@@ -188,8 +188,20 @@
    "closed": "2026-10-04T22:47:08Z"
   }
  ],
- "fetched": "2026-10-06T08:23:40.527416+01:00",
+ "fetched": "2026-10-06T08:45:57.131260+01:00",
  "commits": [
+  {
+   "sha": "16aa3ae",
+   "msg": "Archive predictions and record for 2026-10-06 [skip ci]",
+   "date": "2026-10-06T07:40:39Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/16aa3ae2a11afd80acd2c16000207a62d66dc2c4"
+  },
+  {
+   "sha": "75761c1",
+   "msg": "Keep live-settled football results between builds so the record stops losing games (release-2026-10-06-3)",
+   "date": "2026-10-06T07:36:02Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/75761c1f11f4fb4964bd6596086a92e4781100c7"
+  },
   {
    "sha": "08c4aba",
    "msg": "Archive predictions and record for 2026-10-06 [skip ci]",
@@ -297,21 +309,15 @@
    "msg": "Revert \"Office agent (source): Make one data source fail more gracefully (#7)\"",
    "date": "2026-10-05T14:35:06Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5c1618060fe15b524985ff0cd603cc07a7bb3db4"
-  },
-  {
-   "sha": "29862e6",
-   "msg": "Office agent (accas): Backtest the Odds tab group rules (#17)",
-   "date": "2026-10-05T14:28:13Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/29862e6dd5000c18a71e2d00a5171cebae127379"
-  },
-  {
-   "sha": "d1d8e6f",
-   "msg": "Office agent (odds): Price more of the Odds tab legs (#16)",
-   "date": "2026-10-05T14:22:11Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/d1d8e6f54b4661329c3d7bb153f65a8dd198a94e"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-06T07:36:05Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37430680059"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-06T07:16:02Z",
@@ -365,12 +371,6 @@
    "createdAt": "2026-10-05T16:59:01Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37344981560"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-05T16:59:01Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37344981471"
   }
  ]
 }

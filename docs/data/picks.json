@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-06T07:22:00",
- "fetched": "2026-10-06T08:23:41.022658+01:00",
+ "generated": "2026-10-06T07:42:38",
+ "fetched": "2026-10-06T08:45:57.468237+01:00",
  "bar": 0.8,
  "days": [
   {
@@ -392,19 +392,25 @@
      "unrated": false
     },
     {
-     "t": "07:45",
+     "t": "08:45",
+     "ko": "2026-10-06T07:45:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 Suzhou Open",
+     "lgName": "WTA \u00b7 Suzhou Open \u00b7 Round 1",
      "sport": "tennis",
      "h": "Mai Hontama",
      "a": "Emerson Jones",
      "side": "a",
      "pick": "Emerson Jones",
      "c": 0.6809,
+     "p": null,
      "hit": 0.7681,
      "hitN": 539,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:00",
@@ -2621,7 +2627,7 @@
   },
   {
    "date": "2026-10-07",
-   "count": 52,
+   "count": 53,
    "games": [
     {
      "t": "14:00",
@@ -3600,6 +3606,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-10-07T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "Triangle United",
+     "a": "Dynamos",
+     "side": "a",
+     "pick": "Dynamos",
+     "c": 0.4376,
+     "p": {
+      "h": 0.2285,
+      "d": 0.3339,
+      "a": 0.4376
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4599,
+     "o25": 0.4201,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "00:30",
      "ko": "2026-10-07T00:30:00Z",
      "lg": "us.1",
@@ -4009,7 +4044,7 @@
   },
   {
    "date": "2026-10-08",
-   "count": 60,
+   "count": 61,
    "games": [
     {
      "t": "18:45",
@@ -5237,6 +5272,35 @@
      ],
      "btts": 0.4513,
      "o25": 0.4109,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-08T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "Ngezi Platinum",
+     "a": "Highlanders",
+     "side": "h",
+     "pick": "Ngezi Platinum",
+     "c": 0.4245,
+     "p": {
+      "h": 0.4245,
+      "d": 0.343,
+      "a": 0.2325
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4535,
+     "o25": 0.4118,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -11856,7 +11920,7 @@
   },
   {
    "date": "2026-10-10",
-   "count": 755,
+   "count": 759,
    "games": [
     {
      "t": "08:00",
@@ -13125,6 +13189,35 @@
      "celtic": false,
      "list": false,
      "reserve": true,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-10T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "Hardrock",
+     "a": "Bulawayo Chiefs",
+     "side": "h",
+     "pick": "Hardrock",
+     "c": 0.6952,
+     "p": {
+      "h": 0.6952,
+      "d": 0.211,
+      "a": 0.0938
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4701,
+     "o25": 0.4976,
+     "hit": 0.7483,
+     "hitN": 5916,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
      "unrated": false
     },
     {
@@ -15461,35 +15554,6 @@
      "o25": 0.5777,
      "hit": 0.7459,
      "hitN": 181,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:10",
-     "ko": "2026-10-10T13:10:00Z",
-     "lg": "af.303",
-     "lgName": "Division 1",
-     "country": "United Arab Emirates",
-     "h": "Emirates Club",
-     "a": "Dubai City",
-     "side": "h",
-     "pick": "Emirates Club",
-     "c": 0.6035,
-     "p": {
-      "h": 0.6035,
-      "d": 0.2247,
-      "a": 0.1718
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5425,
-     "o25": 0.547,
-     "hit": 0.7121,
-     "hitN": 9156,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -19029,6 +19093,35 @@
      "hit": 0.597,
      "hitN": 474,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-10T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "Kariba",
+     "a": "Scotland Mabvuku",
+     "side": "a",
+     "pick": "Scotland Mabvuku",
+     "c": 0.5176,
+     "p": {
+      "h": 0.1361,
+      "d": 0.3463,
+      "a": 0.5176
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4109,
+     "o25": 0.3875,
+     "hit": 0.6261,
+     "hitN": 20677,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -25996,6 +26089,35 @@
     {
      "t": "13:00",
      "ko": "2026-10-10T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "Chicken Inn",
+     "a": "Platinum",
+     "side": "d",
+     "pick": "Draw",
+     "c": 0.4258,
+     "p": {
+      "h": 0.3338,
+      "d": 0.4258,
+      "a": 0.2405
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4016,
+     "o25": 0.3566,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-10T13:00:00Z",
      "lg": "af.400",
      "lgName": "Super League",
      "country": "Zambia",
@@ -30808,35 +30930,6 @@
      "unrated": false
     },
     {
-     "t": "13:15",
-     "ko": "2026-10-10T13:15:00Z",
-     "lg": "af.303",
-     "lgName": "Division 1",
-     "country": "United Arab Emirates",
-     "h": "Al Hamriyah",
-     "a": "Al Urooba",
-     "side": "h",
-     "pick": "Al Hamriyah",
-     "c": 0.3778,
-     "p": {
-      "h": 0.3778,
-      "d": 0.3134,
-      "a": 0.3088
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4994,
-     "o25": 0.4576,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:30",
      "ko": "2026-10-10T14:30:00Z",
      "lg": "af.455",
@@ -32084,6 +32177,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-10-10T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "Herentals",
+     "a": "MWOS",
+     "side": "h",
+     "pick": "Herentals",
+     "c": 0.3665,
+     "p": {
+      "h": 0.3665,
+      "d": 0.3573,
+      "a": 0.2762
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4507,
+     "o25": 0.4032,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-10-10T12:00:00Z",
      "lg": "af.205",
@@ -32511,6 +32633,35 @@
      ],
      "btts": 0.4874,
      "o25": 0.4429,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-10T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "Agama",
+     "a": "Hunters",
+     "side": "d",
+     "pick": "Draw",
+     "c": 0.3612,
+     "p": {
+      "h": 0.3324,
+      "d": 0.3612,
+      "a": 0.3064
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4499,
+     "o25": 0.401,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -33099,6 +33250,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-10-10T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "Manica Diamonds",
+     "a": "TelOne",
+     "side": "d",
+     "pick": "Draw",
+     "c": 0.3525,
+     "p": {
+      "h": 0.3054,
+      "d": 0.3525,
+      "a": 0.3422
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4578,
+     "o25": 0.4094,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:15",
      "ko": "2026-10-10T12:15:00Z",
      "lg": "ru.1",
@@ -33653,7 +33833,7 @@
   },
   {
    "date": "2026-10-11",
-   "count": 643,
+   "count": 646,
    "games": [
     {
      "t": "16:00",
@@ -36228,6 +36408,35 @@
      ],
      "btts": 0.5298,
      "o25": 0.5326,
+     "hit": 0.7121,
+     "hitN": 9156,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:10",
+     "ko": "2026-10-11T13:10:00Z",
+     "lg": "af.303",
+     "lgName": "Division 1",
+     "country": "United Arab Emirates",
+     "h": "Emirates Club",
+     "a": "Dubai City",
+     "side": "h",
+     "pick": "Emirates Club",
+     "c": 0.6035,
+     "p": {
+      "h": 0.6035,
+      "d": 0.2247,
+      "a": 0.1718
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5425,
+     "o25": 0.547,
      "hit": 0.7121,
      "hitN": 9156,
      "celtic": false,
@@ -42608,6 +42817,35 @@
      ],
      "btts": 0.605,
      "o25": 0.5954,
+     "hit": 0.5838,
+     "hitN": 29687,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-11T13:00:00Z",
+     "lg": "af.401",
+     "lgName": "Premier Soccer League",
+     "country": "Zimbabwe",
+     "h": "CAPS United",
+     "a": "Simba Bhora",
+     "side": "h",
+     "pick": "CAPS United",
+     "c": 0.4525,
+     "p": {
+      "h": 0.4525,
+      "d": 0.3202,
+      "a": 0.2273
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4717,
+     "o25": 0.4347,
      "hit": 0.5838,
      "hitN": 29687,
      "celtic": false,
@@ -49858,6 +50096,35 @@
      ],
      "btts": 0.5987,
      "o25": 0.5836,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:15",
+     "ko": "2026-10-11T13:15:00Z",
+     "lg": "af.303",
+     "lgName": "Division 1",
+     "country": "United Arab Emirates",
+     "h": "Al Hamriyah",
+     "a": "Al Urooba",
+     "side": "h",
+     "pick": "Al Hamriyah",
+     "c": 0.3778,
+     "p": {
+      "h": 0.3778,
+      "d": 0.3134,
+      "a": 0.3088
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4994,
+     "o25": 0.4576,
      "hit": null,
      "hitN": null,
      "celtic": false,
