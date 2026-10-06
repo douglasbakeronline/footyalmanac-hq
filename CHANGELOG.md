@@ -1,3 +1,7 @@
+# Copyright notice - October 6, 2026 (Perplexity)
+
+- Added `LICENSE`: a proprietary, all-rights-reserved notice in Douglas Baker's name. No licence is granted to copy, modify, distribute or use the code without written permission. `README.md` ends with a short Copyright section pointing to it.
+
 # Office floor refresh - October 5, 2026 (Perplexity)
 
 - Rounded furniture, walls and screens instead of sharp boxes, with smoother cylinders.

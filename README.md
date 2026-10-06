@@ -95,3 +95,9 @@ python3 scripts/office.py --slot standup
 # Preview the office
 python3 -m http.server -d docs 8080
 ```
+
+## Copyright
+
+Copyright (c) 2026 Douglas Baker. All rights reserved. This repository is
+proprietary: no licence is granted to copy, modify, distribute or use any part
+of it without written permission. See [LICENSE](LICENSE).
