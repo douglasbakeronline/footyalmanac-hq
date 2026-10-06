@@ -1,7 +1,7 @@
 {
- "id": 1791256402098,
- "time": "2026-10-06T04:13:22.098328+01:00",
- "trigger": "scheduled 04:00",
+ "id": 1791270630029,
+ "time": "2026-10-06T08:10:30.029104+01:00",
+ "trigger": "on demand",
  "lines": [
   {
    "agent": "chief",
@@ -23,7 +23,7 @@
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 4/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 6/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps. Dev work: PR #7 Make one data source fail more gracefully (shipped).",
    "blockers": "None."
   },
@@ -65,7 +65,7 @@
   },
   {
    "agent": "engineer",
-   "yesterday": "4/10 recent 'Rebuild and publish' runs green.",
+   "yesterday": "6/10 recent 'Rebuild and publish' runs green.",
    "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #5 Add tests for the least-tested module (shipped).",
    "blockers": "None."
   },
@@ -95,16 +95,9 @@
   },
   {
    "agent": "h5",
-   "yesterday": "4/10 recent builds green (target 100%).",
+   "yesterday": "6/10 recent builds green (target 100%).",
    "today": "Trace each failed build to its cause and add a guard.",
    "blockers": "None."
-  },
-  {
-   "agent": "chief",
-   "yesterday": "New hire: Leah joins as Reliability Engineer. Only 4/10 recent builds were green: Allan needs a second pair of hands on the pipeline.",
-   "today": "Leah owns one KPI from today: Builds green (last 10).",
-   "blockers": "None.",
-   "hire": "h5"
   },
   {
    "agent": "chief",
@@ -172,7 +165,7 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 0.4,
+   "actual": 0.6,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
@@ -181,7 +174,7 @@
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 0.4,
+   "actual": 0.6,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
@@ -253,7 +246,7 @@
   {
    "owner": "h5",
    "name": "Builds green (last 10)",
-   "actual": 0.4,
+   "actual": 0.6,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
@@ -425,7 +418,7 @@
   "dayAcc": 0.5965,
   "dayDate": "2026-10-04",
   "tennisAcc": 0.5836,
-  "runsOk": 4,
+  "runsOk": 6,
   "runsTotal": 10,
   "tiers": [
    {

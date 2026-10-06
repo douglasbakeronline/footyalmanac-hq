@@ -188,8 +188,14 @@
    "closed": "2026-10-04T22:47:08Z"
   }
  ],
- "fetched": "2026-10-06T04:13:24.421046+01:00",
+ "fetched": "2026-10-06T08:10:31.328225+01:00",
  "commits": [
+  {
+   "sha": "85a5b98",
+   "msg": "Draw readings count as right; started and played rows open their detail; link to HQ (release-2026-10-06)",
+   "date": "2026-10-06T07:01:26Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/85a5b98703b142ab78e9201423abe2b0f26c5d81"
+  },
   {
    "sha": "7cc168a",
    "msg": "Today's Daily List stays put: started picks show In play, Won or Lost (release-2026-10-05-22)",
@@ -303,15 +309,21 @@
    "msg": "Office agent (calib): Check calibration by sport and confidence band (#13)",
    "date": "2026-10-05T13:58:32Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/783d47226206446c6740f4b77d98b8202d99ae2f"
-  },
-  {
-   "sha": "8e8f3dc",
-   "msg": "Office agent (champ): Find why the Championship misses (#11)",
-   "date": "2026-10-05T13:44:51Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/8e8f3dc45d0cc07639d9c124f36d922f0b7286c9"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-06T07:01:30Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37427122053"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-06T06:11:44Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37422403930"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-06T01:36:50Z",
@@ -359,18 +371,6 @@
    "createdAt": "2026-10-05T16:58:58Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37344975415"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-10-05T16:39:56Z",
-   "name": "Claude",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37342564145"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-10-05T16:39:54Z",
-   "name": "Claude",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37342560212"
   }
  ]
 }
