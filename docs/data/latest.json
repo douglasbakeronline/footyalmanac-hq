@@ -1,7 +1,7 @@
 {
- "id": 1791253312340,
- "time": "2026-10-06T03:21:52.340571+01:00",
- "trigger": "work",
+ "id": 1791256402098,
+ "time": "2026-10-06T04:13:22.098328+01:00",
+ "trigger": "scheduled 04:00",
  "lines": [
   {
    "agent": "chief",
@@ -92,6 +92,19 @@
    "yesterday": "Strong tier: 8 of 48 calls drawn out (17%, target 10% or less).",
    "today": "Tag drawn-out Strong calls by league and draw probability for the next experiment.",
    "blockers": "None."
+  },
+  {
+   "agent": "h5",
+   "yesterday": "4/10 recent builds green (target 100%).",
+   "today": "Trace each failed build to its cause and add a guard.",
+   "blockers": "None."
+  },
+  {
+   "agent": "chief",
+   "yesterday": "New hire: Leah joins as Reliability Engineer. Only 4/10 recent builds were green: Allan needs a second pair of hands on the pipeline.",
+   "today": "Leah owns one KPI from today: Builds green (last 10).",
+   "blockers": "None.",
+   "hire": "h5"
   },
   {
    "agent": "chief",
@@ -235,6 +248,15 @@
    "target": 0.1,
    "fmt": "pct",
    "higher": false,
+   "status": "behind"
+  },
+  {
+   "owner": "h5",
+   "name": "Builds green (last 10)",
+   "actual": 0.4,
+   "target": 1.0,
+   "fmt": "pct",
+   "higher": true,
    "status": "behind"
   }
  ],

@@ -66,6 +66,22 @@
    "skin": "#8d5a3b",
    "hair": "#0f0b08",
    "slot": 3
+  },
+  {
+   "id": "h5",
+   "key": "builds",
+   "name": "Leah",
+   "role": "Reliability Engineer",
+   "d": "eng",
+   "kpi": {
+    "type": "builds",
+    "target": 1.0
+   },
+   "reason": "Only 4/10 recent builds were green: Allan needs a second pair of hands on the pipeline.",
+   "hired": "2026-10-06",
+   "skin": "#f0c8a8",
+   "hair": "#c9a15a",
+   "slot": 4
   }
  ],
  "departments": {
@@ -76,6 +92,11 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-06",
+   "type": "hire",
+   "text": "Hired Leah as Reliability Engineer. Only 4/10 recent builds were green: Allan needs a second pair of hands on the pipeline."
+  },
   {
    "date": "2026-10-05",
    "type": "hire",
