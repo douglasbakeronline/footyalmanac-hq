@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-06T07:08:20",
- "fetched": "2026-10-06T08:10:31.608770+01:00",
+ "generated": "2026-10-06T07:22:00",
+ "fetched": "2026-10-06T08:23:41.022658+01:00",
  "bar": 0.8,
  "days": [
   {
@@ -248,7 +248,7 @@
      "a": "Carlos Alcaraz",
      "side": "a",
      "pick": "Carlos Alcaraz",
-     "c": 0.8064,
+     "c": 0.8057,
      "hit": 0.8559,
      "hitN": 118,
      "list": true,
@@ -271,9 +271,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Mirra Andreeva won"
     },
     {
      "t": "18:45",
@@ -392,25 +392,19 @@
      "unrated": false
     },
     {
-     "t": "06:00",
-     "ko": "2026-10-06T05:00:00Z",
+     "t": "07:45",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 Suzhou Open \u00b7 Round 1",
+     "lgName": "WTA \u00b7 Suzhou Open",
      "sport": "tennis",
      "h": "Mai Hontama",
      "a": "Emerson Jones",
      "side": "a",
      "pick": "Emerson Jones",
      "c": 0.6809,
-     "p": null,
      "hit": 0.7681,
      "hitN": 539,
      "list": false,
-     "reserve": true,
-     "pinned": true,
-     "status": "started",
-     "score": null,
-     "res": null
+     "reserve": true
     },
     {
      "t": "01:00",
@@ -454,9 +448,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "Linda Fruhvirtova won"
     },
     {
      "t": "11:00",
@@ -467,7 +461,7 @@
      "a": "Novak Djokovic",
      "side": "a",
      "pick": "Novak Djokovic",
-     "c": 0.6358,
+     "c": 0.6357,
      "hit": 0.7328,
      "hitN": 670,
      "list": false,
@@ -503,7 +497,7 @@
      "unrated": false
     },
     {
-     "t": "08:30",
+     "t": "08:40",
      "lg": "WTA",
      "lgName": "WTA \u00b7 China Open",
      "sport": "tennis",
@@ -2617,17 +2611,17 @@
     },
     "reserve": {
      "n": 7,
-     "won": 0,
-     "lost": 0,
+     "won": 1,
+     "lost": 1,
      "void": 0,
-     "started": 4,
-     "upcoming": 3
+     "started": 1,
+     "upcoming": 4
     }
    }
   },
   {
    "date": "2026-10-07",
-   "count": 50,
+   "count": 52,
    "games": [
     {
      "t": "14:00",
@@ -2726,9 +2720,9 @@
      "a": "Hubert Hurkacz",
      "side": "a",
      "pick": "Hubert Hurkacz",
-     "c": 0.7562,
-     "hit": 0.8316,
-     "hitN": 196,
+     "c": 0.7432,
+     "hit": 0.7867,
+     "hitN": 347,
      "list": false,
      "reserve": true
     },
@@ -2760,6 +2754,36 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "04:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 China Open",
+     "sport": "tennis",
+     "h": "Elise Mertens",
+     "a": "Coco Gauff",
+     "side": "a",
+     "pick": "Coco Gauff",
+     "c": 0.7169,
+     "hit": 0.8021,
+     "hitN": 384,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Valentin Royer",
+     "a": "Adolfo Daniel Vallejo",
+     "side": "a",
+     "pick": "Adolfo Daniel Vallejo",
+     "c": 0.7088,
+     "hit": 0.7867,
+     "hitN": 347,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "02:00",
@@ -2799,22 +2823,7 @@
      "a": "Aleksandar Kovacevic",
      "side": "h",
      "pick": "Matteo Berrettini",
-     "c": 0.6966,
-     "hit": 0.7688,
-     "hitN": 519,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "04:00",
-     "lg": "ATP",
-     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
-     "sport": "tennis",
-     "h": "Valentin Royer",
-     "a": "Adolfo Daniel Vallejo",
-     "side": "a",
-     "pick": "Adolfo Daniel Vallejo",
-     "c": 0.6757,
+     "c": 0.688,
      "hit": 0.7688,
      "hitN": 519,
      "list": false,
@@ -2858,7 +2867,7 @@
      "a": "Holger Rune",
      "side": "a",
      "pick": "Holger Rune",
-     "c": 0.6534,
+     "c": 0.6522,
      "hit": 0.7688,
      "hitN": 519,
      "list": false,
@@ -2873,9 +2882,24 @@
      "a": "Sho Shimabukuro",
      "side": "h",
      "pick": "Miomir Kecmanovic",
-     "c": 0.6501,
-     "hit": 0.7688,
-     "hitN": 519,
+     "c": 0.6399,
+     "hit": 0.7328,
+     "hitN": 670,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "03:30",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Suzhou Open",
+     "sport": "tennis",
+     "h": "Aliaksandra Sasnovich",
+     "a": "Linda Fruhvirtova",
+     "side": "h",
+     "pick": "Aliaksandra Sasnovich",
+     "c": 0.6204,
+     "hit": 0.7151,
+     "hitN": 737,
      "list": false,
      "reserve": true
     },
@@ -3985,7 +4009,7 @@
   },
   {
    "date": "2026-10-08",
-   "count": 59,
+   "count": 60,
    "games": [
     {
      "t": "18:45",
@@ -4044,6 +4068,21 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "04:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 China Open",
+     "sport": "tennis",
+     "h": "Mirra Andreeva",
+     "a": "Ekaterina Alexandrova",
+     "side": "h",
+     "pick": "Mirra Andreeva",
+     "c": 0.7154,
+     "hit": 0.8021,
+     "hitN": 384,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "13:00",
@@ -34477,6 +34516,22 @@
      "unrated": false
     },
     {
+     "t": "18:00",
+     "ko": "2026-10-11T17:00Z",
+     "lg": "nfl",
+     "lgName": "NFL",
+     "sport": "nfl",
+     "h": "New Orleans Saints",
+     "a": "Minnesota Vikings",
+     "side": "a",
+     "pick": "Minnesota Vikings",
+     "c": 0.7137,
+     "hit": 0.7217,
+     "hitN": 115,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:30",
      "ko": "2026-10-11T00:30:00Z",
      "lg": "ar.1",
@@ -35058,22 +35113,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "18:00",
-     "ko": "2026-10-11T17:00Z",
-     "lg": "nfl",
-     "lgName": "NFL",
-     "sport": "nfl",
-     "h": "New Orleans Saints",
-     "a": "Minnesota Vikings",
-     "side": "a",
-     "pick": "Minnesota Vikings",
-     "c": 0.6727,
-     "hit": 0.7095,
-     "hitN": 148,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "12:00",
