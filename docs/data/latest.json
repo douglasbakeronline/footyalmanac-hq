@@ -1,13 +1,13 @@
 {
- "id": 1791340657132,
- "time": "2026-10-07T03:37:37.132883+01:00",
- "trigger": "work",
+ "id": 1791381364867,
+ "time": "2026-10-07T14:56:04.867646+01:00",
+ "trigger": "scheduled 13:30",
  "lines": [
   {
    "agent": "chief",
    "yesterday": "Model record: 71% over 933 graded games; Daily List 76% (22/29).",
    "today": "Focus: Lift accuracy in England National League (64% over 39 games). Dev work: PR #19 Write the office review and next week's priorities (shipped).",
-   "blockers": "None."
+   "blockers": "2 failed pipeline run(s)."
   },
   {
    "agent": "scout",
@@ -23,14 +23,14 @@
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 10/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 7/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps. Dev work: PR #7 Make one data source fail more gracefully (shipped).",
    "blockers": "None."
   },
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1889 fixtures; overall log loss is 0.9965. Dev work: PR #9 Test one ratings improvement (shipped).",
+   "today": "Rate today's 1889 fixtures; overall log loss is 0.9965. Dev work: PR #25 Strong tier is below its expected hit rate (shipped).",
    "blockers": "None."
   },
   {
@@ -54,7 +54,7 @@
   {
    "agent": "calib",
    "yesterday": "Biggest calibration gap: picks at 60%-70% won 71% vs 66% expected (96 games).",
-   "today": "Track tiers: Strong 78% vs 79%, Firm 73% vs 70%, Lean 73% vs 66%. Dev work: PR #13 Check calibration by sport and confidence band (shipped).",
+   "today": "Track tiers: Strong 78% vs 79%, Firm 73% vs 70%, Lean 73% vs 66%. Dev work: PR #26 Close the 60%-70% calibration gap (shipped).",
    "blockers": "None."
   },
   {
@@ -65,9 +65,9 @@
   },
   {
    "agent": "engineer",
-   "yesterday": "10/10 recent 'Rebuild and publish' runs green.",
-   "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #5 Add tests for the least-tested module (shipped).",
-   "blockers": "None."
+   "yesterday": "7/10 recent 'Rebuild and publish' runs green.",
+   "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #24 Fix the failing daily build (shipped).",
+   "blockers": "Failed: Rebuild and publish 2026-10-07T11:46"
   },
   {
    "agent": "h1",
@@ -77,7 +77,7 @@
   },
   {
    "agent": "h2",
-   "yesterday": "76% of today's picks carry a live bookmaker price (target 60%).",
+   "yesterday": "42% of today's picks carry a live bookmaker price (target 60%).",
    "today": "Price every candidate leg before the 07:45 briefing and flag anything still on an estimate.",
    "blockers": "None."
   },
@@ -95,7 +95,7 @@
   },
   {
    "agent": "h5",
-   "yesterday": "10/10 recent builds green (target 100%).",
+   "yesterday": "7/10 recent builds green (target 100%).",
    "today": "Trace each failed build to its cause and add a guard.",
    "blockers": "None."
   },
@@ -165,20 +165,20 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 1.0,
+   "actual": 0.7,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "behind"
   },
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 1.0,
+   "actual": 0.7,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "behind"
   },
   {
    "owner": "sports",
@@ -219,11 +219,11 @@
   {
    "owner": "h2",
    "name": "Legs with a live price",
-   "actual": 0.7647058823529411,
+   "actual": 0.4166666666666667,
    "target": 0.6,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "behind"
   },
   {
    "owner": "h3",
@@ -246,11 +246,11 @@
   {
    "owner": "h5",
    "name": "Builds green (last 10)",
-   "actual": 1.0,
+   "actual": 0.7,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "behind"
   }
  ],
  "star": "scout",
@@ -261,6 +261,39 @@
   "Guyana v Dominica (75%) finished 8-1"
  ],
  "dev": [
+  {
+   "n": 26,
+   "title": "[calib] Close the 60%-70% calibration gap",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/26",
+   "owner": "calib",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-07T13:53:16Z",
+   "merged": "2026-10-07T13:54:51Z",
+   "closed": "2026-10-07T13:54:51Z"
+  },
+  {
+   "n": 25,
+   "title": "[ratings] Strong tier is below its expected hit rate",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/25",
+   "owner": "ratings",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-07T13:45:53Z",
+   "merged": "2026-10-07T13:47:00Z",
+   "closed": "2026-10-07T13:47:00Z"
+  },
+  {
+   "n": 24,
+   "title": "[engineer] Fix the failing daily build",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/24",
+   "owner": "engineer",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-07T13:42:11Z",
+   "merged": "2026-10-07T13:43:46Z",
+   "closed": "2026-10-07T13:43:46Z"
+  },
   {
    "n": 21,
    "title": "[sports] Lift the weakest of the other sports",
@@ -359,48 +392,15 @@
    "opened": "2026-10-05T13:30:44Z",
    "merged": "2026-10-05T13:58:33Z",
    "closed": "2026-10-05T13:58:33Z"
-  },
-  {
-   "n": 11,
-   "title": "[champ] Find why the Championship misses",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/11",
-   "owner": "champ",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-05T13:11:58Z",
-   "merged": "2026-10-05T13:44:51Z",
-   "closed": "2026-10-05T13:44:52Z"
-  },
-  {
-   "n": 10,
-   "title": "[experiment] Lift accuracy in England Premier League",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/10",
-   "owner": "experiment",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-05T12:48:41Z",
-   "merged": "2026-10-05T13:43:11Z",
-   "closed": "2026-10-05T13:43:11Z"
-  },
-  {
-   "n": 9,
-   "title": "[ratings] Test one ratings improvement",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/9",
-   "owner": "ratings",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-05T01:41:59Z",
-   "merged": "2026-10-05T13:41:29Z",
-   "closed": "2026-10-05T13:41:29Z"
   }
  ],
  "shipped": [
+  "PR #26 Close the 60%-70% calibration gap (shipped) by Andrew",
+  "PR #25 Strong tier is below its expected hit rate (shipped) by Ben",
+  "PR #24 Fix the failing daily build (shipped) by Allan",
   "PR #21 Lift the weakest of the other sports (shipped) by Theo",
   "PR #20 Lift accuracy in Netherlands Eredivisie (shipped) by Mia",
-  "PR #19 Write the office review and next week's priorities (shipped) by Luke",
-  "PR #18 Audit the grading of recent results (shipped) by Susie",
-  "PR #17 Backtest the Odds tab group rules (shipped) by accas",
-  "PR #16 Price more of the Odds tab legs (shipped) by odds"
+  "PR #19 Write the office review and next week's priorities (shipped) by Luke"
  ],
  "lessons": [
   "Calibration: 60%-70% band won 71% vs 66% expected",
@@ -418,7 +418,7 @@
   "dayAcc": 0.5909,
   "dayDate": "2026-10-05",
   "tennisAcc": 0.5791,
-  "runsOk": 10,
+  "runsOk": 7,
   "runsTotal": 10,
   "tiers": [
    {
