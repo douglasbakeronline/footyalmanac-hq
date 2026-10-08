@@ -221,8 +221,26 @@
    "closed": "2026-10-04T22:47:08Z"
   }
  ],
- "fetched": "2026-10-08T11:12:48.752820+01:00",
+ "fetched": "2026-10-08T12:09:44.250773+01:00",
  "commits": [
+  {
+   "sha": "9a7b93d",
+   "msg": "How it went: reserve fold under each Daily List day; boards 6x2 on desktop",
+   "date": "2026-10-08T11:07:49Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/9a7b93d7b8c2b68a92ab9ef24271fe6fd942fa4a"
+  },
+  {
+   "sha": "3b12339",
+   "msg": "Archive predictions and record for 2026-10-08 [skip ci]",
+   "date": "2026-10-08T10:49:28Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3b12339ce4c6e58df2d5b06e126b75a5ee35f44f"
+  },
+  {
+   "sha": "c282bdb",
+   "msg": "Tennis ratings carry every result since the archive, not the last six days",
+   "date": "2026-10-08T10:45:53Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/c282bdbc709e611dc8f992e5a262807c2a1224cf"
+  },
   {
    "sha": "7602baa",
    "msg": "RELEASES: cup replay evidence (release-2026-10-08-2)",
@@ -324,27 +342,33 @@
    "msg": "API-Football: one call per question, and the cache kept when a build fails (release-2026-10-07-1)",
    "date": "2026-10-07T22:04:41Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/afacc8effb34325e3b6ff87d55b58406facb0236"
-  },
-  {
-   "sha": "620c411",
-   "msg": "Archive predictions and record for 2026-10-07 [skip ci]",
-   "date": "2026-10-07T17:12:57Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/620c411ad3b8b6f405bf2a9ecfac61421ad74774"
-  },
-  {
-   "sha": "abde4f9",
-   "msg": "Rebuild six times a day, timed to when results land (#27)",
-   "date": "2026-10-07T17:10:21Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/abde4f9b9d5f98521cdd014504d48ad357a5e782"
-  },
-  {
-   "sha": "437724f",
-   "msg": "Archive predictions and record for 2026-10-07 [skip ci]",
-   "date": "2026-10-07T14:13:35Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/437724fc29a7e0b56239f73201dea6de14cd3699"
   }
  ],
  "runs": [
+  {
+   "conclusion": "",
+   "createdAt": "2026-10-08T11:09:20Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37768194455"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-08T11:07:53Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37768038211"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-08T10:47:13Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37765766515"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-08T10:45:58Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37765626086"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-08T09:05:13Z",
@@ -380,30 +404,6 @@
    "createdAt": "2026-10-08T01:54:20Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37715224107"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-08T00:37:57Z",
-   "name": "Office merge window",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37708778637"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-07T23:39:56Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37703541166"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-07T22:36:25Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37697251228"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-07T22:04:58Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/37693824700"
   }
  ]
 }
