@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-08T07:55:57",
- "fetched": "2026-10-08T09:06:41.237770+01:00",
+ "generated": "2026-10-08T09:08:49",
+ "fetched": "2026-10-08T11:12:49.748825+01:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-08",
-   "count": 86,
+   "count": 85,
    "games": [
     {
      "t": "13:10",
@@ -164,16 +164,16 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "Nikola Bartunkova won"
     },
     {
-     "t": "10:00",
+     "t": "11:00",
      "ko": "2026-10-08T10:00:00Z",
      "lg": "af.388",
-     "lgName": "1. Division",
-     "country": "Kazakhstan",
+     "lgName": "Kazakhstan 1. Division",
+     "sport": "football",
      "h": "Shakhter Karagandy",
      "a": "Akademiya Ontustik",
      "side": "h",
@@ -184,18 +184,14 @@
       "d": 0.1644,
       "a": 0.1001
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5389,
-     "o25": 0.5837,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:30",
@@ -235,9 +231,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Adolfo Daniel Vallejo won"
     },
     {
      "t": "01:04",
@@ -282,25 +278,19 @@
      "res": "Matteo Arnaldi won"
     },
     {
-     "t": "09:00",
-     "ko": "2026-10-08T08:00:00Z",
+     "t": "08:00",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 Samsun Open \u00b7 Round 2",
+     "lgName": "WTA \u00b7 Samsun Open",
      "sport": "tennis",
      "h": "Ayla Aksu",
      "a": "Alicia Dudeney",
      "side": "a",
      "pick": "Alicia Dudeney",
      "c": 0.6847,
-     "p": null,
      "hit": 0.7603,
      "hitN": 171,
      "list": false,
-     "reserve": true,
-     "pinned": true,
-     "status": "started",
-     "score": null,
-     "res": null
+     "reserve": true
     },
     {
      "t": "02:30",
@@ -403,7 +393,7 @@
      "res": "Elvina Kalieva won"
     },
     {
-     "t": "07:00",
+     "t": "08:00",
      "lg": "ATP",
      "lgName": "ATP \u00b7 Rolex Shanghai Masters",
      "sport": "tennis",
@@ -494,21 +484,6 @@
      "c": 0.6344,
      "hit": 0.608,
      "hitN": 194,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "05:50",
-     "lg": "ATP",
-     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
-     "sport": "tennis",
-     "h": "Hamad Medjedovic",
-     "a": "Thiago Agustin Tirante",
-     "side": "h",
-     "pick": "Hamad Medjedovic",
-     "c": 0.628,
-     "hit": 0.5932,
-     "hitN": 236,
      "list": false,
      "reserve": true
     },
@@ -1029,7 +1004,7 @@
      "o25": 0.5,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -1319,7 +1294,7 @@
      "o25": 0.5208,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -1464,7 +1439,7 @@
      "o25": 0.5003,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -2350,18 +2325,18 @@
      "upcoming": 2
     },
     "reserve": {
-     "n": 15,
-     "won": 5,
-     "lost": 2,
+     "n": 14,
+     "won": 6,
+     "lost": 3,
      "void": 0,
-     "started": 2,
-     "upcoming": 6
+     "started": 0,
+     "upcoming": 5
     }
    }
   },
   {
    "date": "2026-10-09",
-   "count": 246,
+   "count": 249,
    "games": [
     {
      "t": "09:00",
@@ -2461,7 +2436,7 @@
      "a": "Arthur Fils",
      "side": "a",
      "pick": "Arthur Fils",
-     "c": 0.8342,
+     "c": 0.8249,
      "hit": 0.8356,
      "hitN": 73,
      "list": true,
@@ -2526,21 +2501,6 @@
      "unrated": false
     },
     {
-     "t": "04:00",
-     "lg": "ATP",
-     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
-     "sport": "tennis",
-     "h": "Hubert Hurkacz",
-     "a": "Novak Djokovic",
-     "side": "a",
-     "pick": "Novak Djokovic",
-     "c": 0.798,
-     "hit": 0.7768,
-     "hitN": 112,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "17:00",
      "ko": "2026-10-09T17:00:00Z",
      "lg": "af.1104",
@@ -2574,11 +2534,11 @@
      "lg": "ATP",
      "lgName": "ATP \u00b7 Rolex Shanghai Masters",
      "sport": "tennis",
-     "h": "Yibing Wu",
-     "a": "Alexander Zverev",
+     "h": "Hubert Hurkacz",
+     "a": "Novak Djokovic",
      "side": "a",
-     "pick": "Alexander Zverev",
-     "c": 0.7925,
+     "pick": "Novak Djokovic",
+     "c": 0.7941,
      "hit": 0.7768,
      "hitN": 112,
      "list": true,
@@ -2589,11 +2549,11 @@
      "lg": "ATP",
      "lgName": "ATP \u00b7 Rolex Shanghai Masters",
      "sport": "tennis",
-     "h": "Felix Auger Aliassime",
-     "a": "Camilo Ugo Carabelli",
-     "side": "h",
-     "pick": "Felix Auger Aliassime",
-     "c": 0.7854,
+     "h": "Yibing Wu",
+     "a": "Alexander Zverev",
+     "side": "a",
+     "pick": "Alexander Zverev",
+     "c": 0.7925,
      "hit": 0.7768,
      "hitN": 112,
      "list": true,
@@ -2612,6 +2572,21 @@
      "c": 0.7785,
      "hit": 0.7472,
      "hitN": 91,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Felix Auger Aliassime",
+     "a": "Camilo Ugo Carabelli",
+     "side": "h",
+     "pick": "Felix Auger Aliassime",
+     "c": 0.7778,
+     "hit": 0.7768,
+     "hitN": 112,
      "list": true,
      "reserve": false
     },
@@ -2699,7 +2674,22 @@
      "a": "Thiago Agustin Tirante",
      "side": "h",
      "pick": "Rafael Jodar",
-     "c": 0.7485,
+     "c": 0.7349,
+     "hit": 0.7778,
+     "hitN": 171,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Adolfo Daniel Vallejo",
+     "a": "Tommy Paul",
+     "side": "a",
+     "pick": "Tommy Paul",
+     "c": 0.7319,
      "hit": 0.7778,
      "hitN": 171,
      "list": false,
@@ -2714,7 +2704,7 @@
      "a": "Jiri Lehecka",
      "side": "a",
      "pick": "Jiri Lehecka",
-     "c": 0.7381,
+     "c": 0.7306,
      "hit": 0.7778,
      "hitN": 171,
      "list": false,
@@ -2865,6 +2855,21 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Zachary Svajda",
+     "a": "Learner Tien",
+     "side": "a",
+     "pick": "Learner Tien",
+     "c": 0.7138,
+     "hit": 0.7778,
+     "hitN": 171,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "18:00",
@@ -3027,7 +3032,7 @@
      "unrated": false
     },
     {
-     "t": "04:00",
+     "t": "03:30",
      "lg": "WTA",
      "lgName": "WTA \u00b7 Suzhou Open",
      "sport": "tennis",
@@ -3113,21 +3118,6 @@
      "list": false,
      "reserve": true,
      "unrated": false
-    },
-    {
-     "t": "04:00",
-     "lg": "ATP",
-     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
-     "sport": "tennis",
-     "h": "Jenson Brooksby",
-     "a": "Alejandro Davidovich Fokina",
-     "side": "a",
-     "pick": "Alejandro Davidovich Fokina",
-     "c": 0.6747,
-     "hit": 0.6985,
-     "hitN": 199,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "18:30",
@@ -3335,6 +3325,21 @@
      "reserve": true
     },
     {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Jenson Brooksby",
+     "a": "Alejandro Davidovich Fokina",
+     "side": "a",
+     "pick": "Alejandro Davidovich Fokina",
+     "c": 0.6521,
+     "hit": 0.6985,
+     "hitN": 199,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "03:00",
      "lg": "WTA",
      "lgName": "WTA \u00b7 Suzhou Open",
@@ -3526,21 +3531,6 @@
     },
     {
      "t": "04:00",
-     "lg": "ATP",
-     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
-     "sport": "tennis",
-     "h": "Taylor Fritz",
-     "a": "Matteo Arnaldi",
-     "side": "h",
-     "pick": "Taylor Fritz",
-     "c": 0.6315,
-     "hit": 0.5932,
-     "hitN": 236,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "04:00",
      "lg": "WTA",
      "lgName": "WTA \u00b7 China Open",
      "sport": "tennis",
@@ -3615,6 +3605,21 @@
     },
     {
      "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Taylor Fritz",
+     "a": "Matteo Arnaldi",
+     "side": "h",
+     "pick": "Taylor Fritz",
+     "c": 0.6256,
+     "hit": 0.5932,
+     "hitN": 236,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "02:00",
      "lg": "WTA",
      "lgName": "WTA \u00b7 Suzhou Open",
      "sport": "tennis",
@@ -4624,6 +4629,35 @@
      "o25": 0.5245,
      "hit": null,
      "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:30",
+     "ko": "2026-10-09T13:30:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Tabankulu",
+     "a": "Amawele",
+     "side": "h",
+     "pick": "Tabankulu",
+     "c": 0.5239,
+     "p": {
+      "h": 0.5239,
+      "d": 0.2861,
+      "a": 0.19
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4863,
+     "o25": 0.464,
+     "hit": 0.5376,
+     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -9099,7 +9133,7 @@
   },
   {
    "date": "2026-10-10",
-   "count": 758,
+   "count": 779,
    "games": [
     {
      "t": "21:15",
@@ -9420,6 +9454,21 @@
      "reserve": false
     },
     {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Pavel Kotov",
+     "a": "Arthur Fils",
+     "side": "a",
+     "pick": "Arthur Fils",
+     "c": 0.8249,
+     "hit": 0.8356,
+     "hitN": 73,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "14:00",
      "ko": "2026-10-10T14:00:00Z",
      "lg": "nor.1",
@@ -9685,6 +9734,21 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Felix Auger Aliassime",
+     "a": "Camilo Ugo Carabelli",
+     "side": "h",
+     "pick": "Felix Auger Aliassime",
+     "c": 0.7778,
+     "hit": 0.7768,
+     "hitN": 112,
+     "list": true,
+     "reserve": false
     },
     {
      "t": "17:00",
@@ -10189,6 +10253,21 @@
      "reserve": false
     },
     {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Rafael Jodar",
+     "a": "Thiago Agustin Tirante",
+     "side": "h",
+     "pick": "Rafael Jodar",
+     "c": 0.7349,
+     "hit": 0.7778,
+     "hitN": 171,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "12:30",
      "ko": "2026-10-10T11:30Z",
      "lg": "rugby",
@@ -10203,6 +10282,21 @@
      "hitN": 106,
      "list": true,
      "reserve": false
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Adolfo Daniel Vallejo",
+     "a": "Tommy Paul",
+     "side": "a",
+     "pick": "Tommy Paul",
+     "c": 0.7319,
+     "hit": 0.7778,
+     "hitN": 171,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "15:30",
@@ -10261,6 +10355,21 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Nuno Borges",
+     "a": "Jiri Lehecka",
+     "side": "a",
+     "pick": "Jiri Lehecka",
+     "c": 0.7306,
+     "hit": 0.7778,
+     "hitN": 171,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "17:00",
@@ -10393,6 +10502,21 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Zachary Svajda",
+     "a": "Learner Tien",
+     "side": "a",
+     "pick": "Learner Tien",
+     "c": 0.7138,
+     "hit": 0.7778,
+     "hitN": 171,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "11:00",
@@ -12437,6 +12561,36 @@
      "unrated": false
     },
     {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Stefanos Tsitsipas",
+     "a": "Luciano Darderi",
+     "side": "h",
+     "pick": "Stefanos Tsitsipas",
+     "c": 0.6257,
+     "hit": 0.5932,
+     "hitN": 236,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "sport": "tennis",
+     "h": "Taylor Fritz",
+     "a": "Matteo Arnaldi",
+     "side": "h",
+     "pick": "Taylor Fritz",
+     "c": 0.6256,
+     "hit": 0.5932,
+     "hitN": 236,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "23:00",
      "ko": "2026-10-10T22:00Z",
      "lg": "cfb",
@@ -13576,6 +13730,35 @@
      ],
      "btts": 0.5475,
      "o25": 0.5491,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:30",
+     "ko": "2026-10-10T13:30:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Bantu",
+     "a": "Lifofane",
+     "side": "h",
+     "pick": "Bantu",
+     "c": 0.5866,
+     "p": {
+      "h": 0.5866,
+      "d": 0.2385,
+      "a": 0.175
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.528,
+     "o25": 0.526,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -15817,6 +16000,35 @@
      "unrated": false
     },
     {
+     "t": "11:30",
+     "ko": "2026-10-10T11:30:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Limkokwing University",
+     "a": "Matlama",
+     "side": "a",
+     "pick": "Matlama",
+     "c": 0.5276,
+     "p": {
+      "h": 0.1905,
+      "d": 0.2819,
+      "a": 0.5276
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4907,
+     "o25": 0.4697,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "14:00",
      "ko": "2026-10-10T14:00:00Z",
      "lg": "en.3",
@@ -16919,6 +17131,35 @@
      "unrated": false
     },
     {
+     "t": "13:15",
+     "ko": "2026-10-10T13:15:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "PPK Professionals",
+     "a": "Green Mamba",
+     "side": "h",
+     "pick": "PPK Professionals",
+     "c": 0.5077,
+     "p": {
+      "h": 0.5077,
+      "d": 0.3158,
+      "a": 0.1765
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4523,
+     "o25": 0.4246,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "14:00",
      "ko": "2026-10-10T14:00:00Z",
      "lg": "af.223",
@@ -17673,6 +17914,35 @@
      "unrated": false
     },
     {
+     "t": "18:00",
+     "ko": "2026-10-10T18:00:00Z",
+     "lg": "af.439",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 1",
+     "country": "Spain",
+     "h": "Pontevedra II",
+     "a": "Portonovo",
+     "side": "a",
+     "pick": "Portonovo",
+     "c": 0.496,
+     "p": {
+      "h": 0.2408,
+      "d": 0.2633,
+      "a": 0.496
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5397,
+     "o25": 0.5201,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "14:00",
      "ko": "2026-10-10T14:00:00Z",
      "lg": "en.7n",
@@ -17957,35 +18227,6 @@
      "o25": 0.5522,
      "hit": 0.4634,
      "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-10T15:00:00Z",
-     "lg": "af.236",
-     "lgName": "First League",
-     "country": "Russia",
-     "h": "FC Sochi",
-     "a": "FC UFA",
-     "side": "h",
-     "pick": "FC Sochi",
-     "c": 0.4931,
-     "p": {
-      "h": 0.4931,
-      "d": 0.2801,
-      "a": 0.2268
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5128,
-     "o25": 0.4877,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -18390,6 +18631,35 @@
      ],
      "btts": 0.5274,
      "o25": 0.5042,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "14:15",
+     "ko": "2026-10-10T14:15:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Moneni Pirates",
+     "a": "Ubombo Sugar",
+     "side": "h",
+     "pick": "Moneni Pirates",
+     "c": 0.4888,
+     "p": {
+      "h": 0.4888,
+      "d": 0.3173,
+      "a": 0.1939
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4599,
+     "o25": 0.4286,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -19355,6 +19625,35 @@
      "unrated": false
     },
     {
+     "t": "13:30",
+     "ko": "2026-10-10T13:30:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Highlanders",
+     "a": "Royal Leopards",
+     "side": "h",
+     "pick": "Highlanders",
+     "c": 0.4748,
+     "p": {
+      "h": 0.4748,
+      "d": 0.2543,
+      "a": 0.271
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5646,
+     "o25": 0.5472,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "18:00",
      "ko": "2026-10-10T18:00:00Z",
      "lg": "af.440",
@@ -20043,6 +20342,35 @@
      ],
      "btts": 0.5001,
      "o25": 0.4686,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "09:30",
+     "ko": "2026-10-10T09:30:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Lioli",
+     "a": "Majantja",
+     "side": "h",
+     "pick": "Lioli",
+     "c": 0.4674,
+     "p": {
+      "h": 0.4674,
+      "d": 0.2999,
+      "a": 0.2327
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4938,
+     "o25": 0.4614,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -23212,6 +23540,35 @@
      "unrated": false
     },
     {
+     "t": "01:00",
+     "ko": "2026-10-10T01:00:00Z",
+     "lg": "af.134",
+     "lgName": "Torneo Federal A",
+     "country": "Argentina",
+     "h": "Juventud Antoniana",
+     "a": "Huracan Las Heras",
+     "side": "h",
+     "pick": "Juventud Antoniana",
+     "c": 0.4292,
+     "p": {
+      "h": 0.4292,
+      "d": 0.3444,
+      "a": 0.2264
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4505,
+     "o25": 0.4095,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "16:30",
      "ko": "2026-10-10T16:30:00Z",
      "lg": "es.2",
@@ -23531,6 +23888,35 @@
      "unrated": false
     },
     {
+     "t": "12:00",
+     "ko": "2026-10-10T12:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Ezulwini United",
+     "a": "Nsingizini Hotspurs",
+     "side": "a",
+     "pick": "Nsingizini Hotspurs",
+     "c": 0.4253,
+     "p": {
+      "h": 0.2482,
+      "d": 0.3265,
+      "a": 0.4253
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4727,
+     "o25": 0.432,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-10-10T13:00:00Z",
      "lg": "af.400",
@@ -23697,6 +24083,35 @@
      ],
      "btts": 0.5866,
      "o25": 0.5697,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-10T13:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Rangers",
+     "a": "Red Rhinos",
+     "side": "h",
+     "pick": "Rangers",
+     "c": 0.424,
+     "p": {
+      "h": 0.424,
+      "d": 0.3224,
+      "a": 0.2536
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4782,
+     "o25": 0.4378,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -25416,6 +25831,35 @@
      "unrated": false
     },
     {
+     "t": "11:00",
+     "ko": "2026-10-10T11:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Mbabane Swallows",
+     "a": "Madlenya",
+     "side": "h",
+     "pick": "Mbabane Swallows",
+     "c": 0.4044,
+     "p": {
+      "h": 0.4044,
+      "d": 0.3349,
+      "a": 0.2607
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.468,
+     "o25": 0.4246,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-10-10T13:00:00Z",
      "lg": "af.644",
@@ -26017,6 +26461,35 @@
      ],
      "btts": 0.5183,
      "o25": 0.4817,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-10T13:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Manzini Sea Birds",
+     "a": "Young Buffaloes",
+     "side": "h",
+     "pick": "Manzini Sea Birds",
+     "c": 0.3988,
+     "p": {
+      "h": 0.3988,
+      "d": 0.2961,
+      "a": 0.3051
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5198,
+     "o25": 0.4834,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -28461,6 +28934,35 @@
      "unrated": false
     },
     {
+     "t": "07:30",
+     "ko": "2026-10-10T07:30:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Machokha",
+     "a": "Mzamane",
+     "side": "h",
+     "pick": "Machokha",
+     "c": 0.3745,
+     "p": {
+      "h": 0.3745,
+      "d": 0.3152,
+      "a": 0.3103
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4974,
+     "o25": 0.4551,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:30",
      "ko": "2026-10-10T16:30:00Z",
      "lg": "gr.1",
@@ -29969,6 +30471,35 @@
      "unrated": false
     },
     {
+     "t": "00:30",
+     "ko": "2026-10-10T00:30:00Z",
+     "lg": "af.134",
+     "lgName": "Torneo Federal A",
+     "country": "Argentina",
+     "h": "San Mart\u00edn Mendoza",
+     "a": "Argentino Monte Ma\u00edz",
+     "side": "h",
+     "pick": "San Mart\u00edn Mendoza",
+     "c": 0.3573,
+     "p": {
+      "h": 0.3573,
+      "d": 0.3416,
+      "a": 0.3011
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.468,
+     "o25": 0.4209,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:30",
      "ko": "2026-10-10T13:30:00Z",
      "lg": "af.946",
@@ -30697,7 +31228,7 @@
   },
   {
    "date": "2026-10-11",
-   "count": 668,
+   "count": 670,
    "games": [
     {
      "t": "16:00",
@@ -30804,6 +31335,35 @@
      "hitN": 76,
      "list": true,
      "reserve": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-11T13:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Lijabatho",
+     "a": "Members",
+     "side": "h",
+     "pick": "Lijabatho",
+     "c": 0.8609,
+     "p": {
+      "h": 0.8609,
+      "d": 0.111,
+      "a": 0.0281
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4338,
+     "o25": 0.5468,
+     "hit": 0.8997,
+     "hitN": 628,
+     "celtic": false,
+     "list": true,
+     "reserve": false,
+     "unrated": false
     },
     {
      "t": "13:00",
@@ -32413,7 +32973,7 @@
      "o25": 0.5403,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -33474,6 +34034,35 @@
      ],
      "btts": 0.5459,
      "o25": 0.551,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-11T13:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Linare",
+     "a": "Manonyane",
+     "side": "h",
+     "pick": "Linare",
+     "c": 0.6035,
+     "p": {
+      "h": 0.6035,
+      "d": 0.2185,
+      "a": 0.178
+     },
+     "score": [
+      2,
+      1
+     ],
+     "btts": 0.5561,
+     "o25": 0.5623,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -35362,6 +35951,35 @@
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-11T13:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "SC Villa",
+     "a": "LMPS",
+     "side": "h",
+     "pick": "SC Villa",
+     "c": 0.5381,
+     "p": {
+      "h": 0.5381,
+      "d": 0.3005,
+      "a": 0.1614
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4555,
+     "o25": 0.4345,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -37310,35 +37928,6 @@
      "unrated": false
     },
     {
-     "t": "10:00",
-     "ko": "2026-10-11T10:00:00Z",
-     "lg": "af.439",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 1",
-     "country": "Spain",
-     "h": "Pontevedra II",
-     "a": "Portonovo",
-     "side": "a",
-     "pick": "Portonovo",
-     "c": 0.496,
-     "p": {
-      "h": 0.2408,
-      "d": 0.2633,
-      "a": 0.496
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5397,
-     "o25": 0.5201,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:30",
      "ko": "2026-10-11T14:30:00Z",
      "lg": "af.392",
@@ -37595,6 +38184,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "14:00",
+     "ko": "2026-10-11T14:00:00Z",
+     "lg": "af.236",
+     "lgName": "First League",
+     "country": "Russia",
+     "h": "FC Sochi",
+     "a": "FC UFA",
+     "side": "h",
+     "pick": "FC Sochi",
+     "c": 0.4931,
+     "p": {
+      "h": 0.4931,
+      "d": 0.2801,
+      "a": 0.2268
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5128,
+     "o25": 0.4877,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -41921,35 +42539,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-10-11T17:00:00Z",
-     "lg": "af.134",
-     "lgName": "Torneo Federal A",
-     "country": "Argentina",
-     "h": "Juventud Antoniana",
-     "a": "Huracan Las Heras",
-     "side": "h",
-     "pick": "Juventud Antoniana",
-     "c": 0.4292,
-     "p": {
-      "h": 0.4292,
-      "d": 0.3444,
-      "a": 0.2264
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4505,
-     "o25": 0.4095,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "11:00",
      "ko": "2026-10-11T11:00:00Z",
      "lg": "af.276",
@@ -44386,6 +44975,35 @@
      "unrated": false
     },
     {
+     "t": "21:15",
+     "ko": "2026-10-11T21:15:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Aurora",
+     "a": "Nacional Potos\u00ed",
+     "side": "h",
+     "pick": "Aurora",
+     "c": 0.4041,
+     "p": {
+      "h": 0.4041,
+      "d": 0.2907,
+      "a": 0.3051
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5265,
+     "o25": 0.4921,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-10-11T15:00:00Z",
      "lg": "af.454",
@@ -45749,6 +46367,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-10-11T13:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "LCS",
+     "a": "LDF",
+     "side": "h",
+     "pick": "LCS",
+     "c": 0.3909,
+     "p": {
+      "h": 0.3909,
+      "d": 0.3336,
+      "a": 0.2755
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4724,
+     "o25": 0.428,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "14:00",
      "ko": "2026-10-11T14:00:00Z",
      "lg": "af.367",
@@ -47078,35 +47725,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "21:15",
-     "ko": "2026-10-11T21:15:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Aurora",
-     "a": "Nacional Potos\u00ed",
-     "side": "h",
-     "pick": "Aurora",
-     "c": 0.3782,
-     "p": {
-      "h": 0.3782,
-      "d": 0.2849,
-      "a": 0.3369
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5388,
-     "o25": 0.5059,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -49055,35 +49673,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-10-11T17:00:00Z",
-     "lg": "af.134",
-     "lgName": "Torneo Federal A",
-     "country": "Argentina",
-     "h": "San Mart\u00edn Mendoza",
-     "a": "Argentino Monte Ma\u00edz",
-     "side": "h",
-     "pick": "San Mart\u00edn Mendoza",
-     "c": 0.3573,
-     "p": {
-      "h": 0.3573,
-      "d": 0.3416,
-      "a": 0.3011
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.468,
-     "o25": 0.4209,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "04:05",
      "ko": "2026-10-11T04:05:00Z",
      "lg": "af.99",
@@ -50018,35 +50607,6 @@
      "unrated": false
     },
     {
-     "t": "22:20",
-     "ko": "2026-10-12T22:20:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Deportivo Recoleta",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.6853,
-     "p": {
-      "h": 0.6853,
-      "d": 0.1871,
-      "a": 0.1276
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5461,
-     "o25": 0.5743,
-     "hit": 0.8148,
-     "hitN": 54,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:00",
      "ko": "2026-10-12T17:00:00Z",
      "lg": "swe.1",
@@ -50073,6 +50633,35 @@
      "celtic": false,
      "list": false,
      "reserve": true,
+     "unrated": false
+    },
+    {
+     "t": "22:20",
+     "ko": "2026-10-12T22:20:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Deportivo Recoleta",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.6592,
+     "p": {
+      "h": 0.6592,
+      "d": 0.2004,
+      "a": 0.1404
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5431,
+     "o25": 0.5632,
+     "hit": 0.8148,
+     "hitN": 54,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
      "unrated": false
     },
     {
@@ -52396,9 +52985,9 @@
      "o25": 0.5952,
      "hit": 0.7298,
      "hitN": 111,
-     "celtic": false,
+     "celtic": true,
      "list": false,
-     "reserve": true,
+     "reserve": false,
      "unrated": false
     },
     {
@@ -55557,7 +56146,7 @@
      "o25": 0.4464,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -56336,7 +56925,7 @@
      "o25": 0.4985,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -56771,7 +57360,7 @@
      "o25": 0.4604,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -57351,7 +57940,7 @@
      "o25": 0.481,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -57989,7 +58578,7 @@
      "o25": 0.4461,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
