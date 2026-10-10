@@ -1,17 +1,17 @@
 {
- "id": 1791599733833,
- "time": "2026-10-10T03:35:33.833614+01:00",
- "trigger": "work",
+ "id": 1791637389927,
+ "time": "2026-10-10T14:03:09.927249+01:00",
+ "trigger": "scheduled 13:30",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Model record: 68% over 2242 graded games; Daily List 81% (39/48).",
+   "yesterday": "Model record: 68% over 2279 graded games; Daily List 82% (40/49).",
    "today": "Focus: Lift accuracy in England Championship (65% over 77 games). Dev work: PR #19 Write the office review and next week's priorities (shipped).",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1940 football fixtures across 248 competitions for 2026-10-10, plus 99 other-sport and 46 tennis matches.",
+   "yesterday": "Swept 1943 football fixtures across 248 competitions for 2026-10-10, plus 99 other-sport and 75 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #8 Add a free data source for an uncovered league (shipped).",
    "blockers": "None."
   },
@@ -30,7 +30,7 @@
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1940 fixtures; overall log loss is 1.0113. Dev work: PR #25 Strong tier is below its expected hit rate (shipped).",
+   "today": "Rate today's 1943 fixtures; overall log loss is 1.0107. Dev work: PR #25 Strong tier is below its expected hit rate (shipped).",
    "blockers": "None."
   },
   {
@@ -41,20 +41,20 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 11/19, MLB 14/24, RUGBY 16/22, CFB 6/7, WNBA 2/2. Tennis 58% over 425 matches (expected 61%).",
+   "yesterday": "Other sports: NFL 11/19, MLB 14/24, RUGBY 16/22, CFB 10/12, WNBA 4/4. Tennis 59% over 452 matches (expected 61%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #21 Lift the weakest of the other sports (shipped).",
    "blockers": "NBA and rugby have no graded games yet."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-10-09: 155/213 correct (73%).",
+   "yesterday": "Graded 2026-10-10: 27/37 correct (73%).",
    "today": "Grade early kick-offs at 13:00 and the full day at 23:30. Dev work: PR #18 Audit the grading of recent results (shipped).",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 60%-70% won 68% vs 65% expected (219 games).",
-   "today": "Track tiers: Strong 79% vs 79%, Firm 71% vs 69%, Lean 69% vs 65%. Dev work: PR #26 Close the 60%-70% calibration gap (shipped).",
+   "yesterday": "Biggest calibration gap: picks at 60%-70% won 68% vs 65% expected (222 games).",
+   "today": "Track tiers: Strong 80% vs 79%, Firm 71% vs 69%, Lean 69% vs 65%. Dev work: PR #26 Close the 60%-70% calibration gap (shipped).",
    "blockers": "None."
   },
   {
@@ -77,19 +77,19 @@
   },
   {
    "agent": "h2",
-   "yesterday": "30% of today's picks carry a live bookmaker price (target 60%).",
+   "yesterday": "67% of today's picks carry a live bookmaker price (target 60%).",
    "today": "Price every candidate leg before the 07:45 briefing and flag anything still on an estimate.",
    "blockers": "None."
   },
   {
    "agent": "h3",
-   "yesterday": "Group legs won: 69% of 85 settled over 30 days (target 78%).",
+   "yesterday": "Group legs won: 70% of 86 settled over 30 days (target 78%).",
    "today": "Build today's three groups of five and review every losing leg in the playback.",
    "blockers": "None."
   },
   {
    "agent": "h4",
-   "yesterday": "Strong tier: 14 of 107 calls drawn out (13%, target 10% or less).",
+   "yesterday": "Strong tier: 14 of 109 calls drawn out (13%, target 10% or less).",
    "today": "Tag drawn-out Strong calls by league and draw probability for the next experiment.",
    "blockers": "None."
   },
@@ -111,7 +111,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.8125,
+   "actual": 0.8163,
    "target": 0.7,
    "fmt": "pct",
    "higher": true,
@@ -120,7 +120,7 @@
   {
    "owner": "chief",
    "name": "Overall hit rate",
-   "actual": 0.6798,
+   "actual": 0.6806,
    "target": 0.55,
    "fmt": "pct",
    "higher": true,
@@ -129,7 +129,7 @@
   {
    "owner": "ratings",
    "name": "Strong tier hit rate",
-   "actual": 0.7944,
+   "actual": 0.7982,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -138,7 +138,7 @@
   {
    "owner": "calib",
    "name": "Largest calibration gap",
-   "actual": 0.028899999999999926,
+   "actual": 0.028799999999999937,
    "target": 0.05,
    "fmt": "pct",
    "higher": false,
@@ -183,7 +183,7 @@
   {
    "owner": "sports",
    "name": "Tennis hit vs expected",
-   "actual": -0.027799999999999936,
+   "actual": -0.02400000000000002,
    "target": 0.0,
    "fmt": "pt",
    "higher": true,
@@ -219,16 +219,16 @@
   {
    "owner": "h2",
    "name": "Legs with a live price",
-   "actual": 0.2972972972972973,
+   "actual": 0.6666666666666666,
    "target": 0.6,
    "fmt": "pct",
    "higher": true,
-   "status": "behind"
+   "status": "on track"
   },
   {
    "owner": "h3",
    "name": "Group legs won (30 days)",
-   "actual": 0.6941176470588235,
+   "actual": 0.6976744186046512,
    "target": 0.78,
    "fmt": "pct",
    "higher": true,
@@ -237,7 +237,7 @@
   {
    "owner": "h4",
    "name": "Strong calls drawn out",
-   "actual": 0.1308411214953271,
+   "actual": 0.12844036697247707,
    "target": 0.1,
    "fmt": "pct",
    "higher": false,
@@ -255,8 +255,7 @@
  ],
  "star": "scout",
  "wins": [
-  "La Fiorita v Murata (87%) finished 3-0",
-  "Jwaaya v Al Mabarrah (75%) finished 3-0"
+  "Kitchee v Hong Kong (88%) finished 4-0"
  ],
  "dev": [
   {
@@ -405,17 +404,17 @@
   "Weakest league: England Championship at 65% over 77 games"
  ],
  "stats": {
-  "fixtures": 1940,
+  "fixtures": 1943,
   "competitions": 248,
   "listPicks": 31,
-  "overallAcc": 0.6798,
-  "listAcc": 0.8125,
-  "listN": 48,
-  "graded": 2242,
-  "logLoss": 1.0113,
-  "dayAcc": 0.7277,
-  "dayDate": "2026-10-09",
-  "tennisAcc": 0.5835,
+  "overallAcc": 0.6806,
+  "listAcc": 0.8163,
+  "listN": 49,
+  "graded": 2279,
+  "logLoss": 1.0107,
+  "dayAcc": 0.7297,
+  "dayDate": "2026-10-10",
+  "tennisAcc": 0.5885,
   "runsOk": 10,
   "runsTotal": 10,
   "tiers": [
@@ -423,9 +422,9 @@
     "name": "Strong",
     "k": 3,
     "min": 0.7,
-    "n": 107,
-    "correct": 85,
-    "hit": 0.7944,
+    "n": 109,
+    "correct": 87,
+    "hit": 0.7982,
     "expected": 0.7878,
     "drawnOut": 14
    },
@@ -433,29 +432,29 @@
     "name": "Firm",
     "k": 2,
     "min": 0.62,
-    "n": 136,
-    "correct": 97,
-    "hit": 0.7132,
-    "expected": 0.6875,
-    "drawnOut": 14
+    "n": 139,
+    "correct": 99,
+    "hit": 0.7122,
+    "expected": 0.6879,
+    "drawnOut": 15
    },
    {
     "name": "Lean",
     "k": 1,
     "min": 0.55,
-    "n": 241,
-    "correct": 166,
-    "hit": 0.6888,
-    "expected": 0.6485,
+    "n": 242,
+    "correct": 167,
+    "hit": 0.6901,
+    "expected": 0.6491,
     "drawnOut": 36
    },
    {
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 1758,
-    "correct": 1176,
-    "hit": 0.6689,
+    "n": 1789,
+    "correct": 1198,
+    "hit": 0.6696,
     "expected": 0.6683,
     "drawnOut": 75
    }
@@ -464,40 +463,45 @@
    {
     "from": 0.0,
     "to": 0.4,
-    "n": 509,
-    "hit": 0.6798,
-    "expected": 0.6569
+    "n": 520,
+    "hit": 0.6808,
+    "expected": 0.6572
    },
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 901,
-    "hit": 0.6848,
-    "expected": 0.6744
+    "n": 913,
+    "hit": 0.6857,
+    "expected": 0.6746
    },
    {
     "from": 0.5,
     "to": 0.6,
-    "n": 480,
-    "hit": 0.6396,
-    "expected": 0.6668
+    "n": 488,
+    "hit": 0.6393,
+    "expected": 0.6667
    },
    {
     "from": 0.6,
     "to": 0.7,
-    "n": 219,
-    "hit": 0.6758,
+    "n": 222,
+    "hit": 0.6757,
     "expected": 0.6469
    },
    {
     "from": 0.7,
     "to": 1.0,
-    "n": 133,
-    "hit": 0.797,
+    "n": 136,
+    "hit": 0.8015,
     "expected": 0.7907
    }
   ],
   "days": [
+   {
+    "date": "2026-10-10",
+    "acc": 0.7297,
+    "n": 37
+   },
    {
     "date": "2026-10-09",
     "acc": 0.7277,
@@ -562,11 +566,6 @@
     "date": "2026-09-27",
     "acc": 0.7385,
     "n": 65
-   },
-   {
-    "date": "2026-09-26",
-    "acc": 0.6429,
-    "n": 84
    }
   ],
   "weak": [
