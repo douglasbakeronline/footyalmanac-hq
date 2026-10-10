@@ -1,11 +1,11 @@
 {
  "generated": "2026-10-10T05:47:33",
- "fetched": "2026-10-10T10:34:58.951212+01:00",
+ "fetched": "2026-10-10T11:26:16.375801+01:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-10",
-   "count": 777,
+   "count": 778,
    "games": [
     {
      "t": "21:15",
@@ -72,19 +72,25 @@
      "reserve": false
     },
     {
-     "t": "10:00",
+     "t": "11:00",
+     "ko": "2026-10-10T10:00:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Rolex Shanghai Masters",
+     "lgName": "ATP \u00b7 Rolex Shanghai Masters \u00b7 Round 2",
      "sport": "tennis",
      "h": "Carlos Alcaraz",
      "a": "Juan Manuel Cerundolo",
      "side": "h",
      "pick": "Carlos Alcaraz",
      "c": 0.8954,
+     "p": null,
      "hit": 0.9483,
      "hitN": 58,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "09:00",
@@ -3549,19 +3555,25 @@
      "unrated": false
     },
     {
-     "t": "10:00",
+     "t": "11:00",
+     "ko": "2026-10-10T10:00:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 Samsun Open",
+     "lgName": "WTA \u00b7 Samsun Open \u00b7 Semifinal",
      "sport": "tennis",
      "h": "Himeno Sakatsume",
      "a": "Ayla Aksu",
      "side": "h",
      "pick": "Himeno Sakatsume",
      "c": 0.6254,
+     "p": null,
      "hit": 0.608,
      "hitN": 194,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "23:00",
@@ -3607,6 +3619,31 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "11:00",
+     "ko": "2026-10-10T10:00:00Z",
+     "lg": "af.946",
+     "lgName": "Croatia Second NL",
+     "sport": "football",
+     "h": "Solin",
+     "a": "Grobni\u010dan \u010cavle",
+     "side": "h",
+     "pick": "Solin",
+     "c": 0.621,
+     "p": {
+      "h": 0.621,
+      "d": 0.209,
+      "a": 0.17
+     },
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:00",
