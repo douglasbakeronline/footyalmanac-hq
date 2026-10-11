@@ -221,8 +221,14 @@
    "closed": "2026-10-04T22:47:08Z"
   }
  ],
- "fetched": "2026-10-11T03:04:52.835924+01:00",
+ "fetched": "2026-10-11T08:57:52.225969+01:00",
  "commits": [
+  {
+   "sha": "5775c65",
+   "msg": "Archive predictions and record for 2026-10-11 [skip ci]",
+   "date": "2026-10-11T05:40:49Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5775c65ea84005577551fad84990bce36171d8cb"
+  },
   {
    "sha": "5453513",
    "msg": "Archive predictions and record for 2026-10-11 [skip ci]",
@@ -336,15 +342,15 @@
    "msg": "Archive predictions and record for 2026-10-08 [skip ci]",
    "date": "2026-10-08T14:01:50Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/866aaf8d25ba8d7ae59179b3958fb962c7a75bbd"
-  },
-  {
-   "sha": "f9b9fb3",
-   "msg": "Fix a racy assertion in test_af_single_flight (failed 15/40, now 0/60)",
-   "date": "2026-10-08T13:57:10Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f9b9fb30cb32f87b6deb0342f80740643f28c373"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-11T05:37:52Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/38115405664"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-11T00:59:18Z",
@@ -398,12 +404,6 @@
    "createdAt": "2026-10-10T12:46:14Z",
    "name": "Office agents",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/38053182960"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-10T11:10:24Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/38047467749"
   }
  ]
 }
