@@ -82,6 +82,23 @@
    "skin": "#f0c8a8",
    "hair": "#c9a15a",
    "slot": 4
+  },
+  {
+   "id": "h6",
+   "key": "sport-cfb",
+   "name": "Omar",
+   "role": "CFB Analyst",
+   "d": "multi",
+   "kpi": {
+    "type": "sport",
+    "code": "cfb",
+    "target": 0.55
+   },
+   "reason": "CFB has 58 graded games: enough history for a dedicated analyst and a Multi-sport department.",
+   "hired": "2026-10-11",
+   "skin": "#d6a27e",
+   "hair": "#3d2a1c",
+   "slot": 5
   }
  ],
  "departments": {
@@ -89,9 +106,24 @@
    "name": "Markets & Groupings",
    "c": "#f0b35a",
    "opened": "2026-10-03"
+  },
+  "multi": {
+   "name": "Multi-sport",
+   "c": "#ffb86b",
+   "opened": "2026-10-11"
   }
  },
  "log": [
+  {
+   "date": "2026-10-11",
+   "type": "hire",
+   "text": "Hired Omar as CFB Analyst. CFB has 58 graded games: enough history for a dedicated analyst and a Multi-sport department."
+  },
+  {
+   "date": "2026-10-11",
+   "type": "department",
+   "text": "Opened a new department: Multi-sport."
+  },
   {
    "date": "2026-10-06",
    "type": "hire",
