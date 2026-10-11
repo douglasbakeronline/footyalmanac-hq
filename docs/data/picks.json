@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-11T11:27:17",
- "fetched": "2026-10-11T14:31:21.019452+01:00",
+ "fetched": "2026-10-11T17:41:25.533802+01:00",
  "bar": 0.8,
  "days": [
   {
@@ -9,8 +9,8 @@
    "games": [
     {
      "t": "15:00",
-     "ko": "2026-10-11T14:00Z",
-     "lg": "rugby",
+     "ko": "2026-10-11T14:00:00Z",
+     "lg": "Premiership",
      "lgName": "Premiership",
      "sport": "rugby",
      "h": "Exeter Chiefs",
@@ -18,17 +18,22 @@
      "side": "h",
      "pick": "Exeter Chiefs",
      "c": 0.9207,
+     "p": null,
      "hit": 0.9079,
      "hitN": 76,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "14:00",
+     "t": "15:00",
      "ko": "2026-10-11T14:00:00Z",
      "lg": "af.593",
-     "lgName": "Division 2 - Norra Svealand",
-     "country": "Sweden",
+     "lgName": "Sweden Division 2 - Norra Svealand",
+     "sport": "football",
      "h": "Sunnersta",
      "a": "Korsn\u00e4s",
      "side": "h",
@@ -39,18 +44,14 @@
       "d": 0.0619,
       "a": 0.0265
      },
-     "score": [
-      4,
-      0
-     ],
-     "btts": 0.53,
-     "o25": 0.6549,
-     "hit": 0.8997,
-     "hitN": 628,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:00",
@@ -169,11 +170,11 @@
      "unrated": false
     },
     {
-     "t": "14:00",
+     "t": "15:00",
      "ko": "2026-10-11T14:00:00Z",
      "lg": "af.144",
-     "lgName": "Jupiler Pro League",
-     "country": "Belgium",
+     "lgName": "Belgium Jupiler Pro League",
+     "sport": "football",
      "h": "Union St. Gilloise",
      "a": "OH Leuven",
      "side": "h",
@@ -184,18 +185,14 @@
       "d": 0.1222,
       "a": 0.0395
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.46,
-     "o25": 0.5562,
-     "hit": 0.8075,
-     "hitN": 644,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:00",
@@ -369,11 +366,11 @@
      "unrated": false
     },
     {
-     "t": "16:00",
+     "t": "17:00",
      "ko": "2026-10-11T16:00:00Z",
      "lg": "af.456",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 18",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 18",
+     "sport": "football",
      "h": "Toledo",
      "a": "Hurac\u00e1n Balazote",
      "side": "h",
@@ -384,18 +381,14 @@
       "d": 0.1474,
       "a": 0.0587
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4794,
-     "o25": 0.5501,
-     "hit": 0.7832,
-     "hitN": 964,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "19:15",
@@ -1042,11 +1035,11 @@
      "reserve": true
     },
     {
-     "t": "15:00",
+     "t": "16:00",
      "ko": "2026-10-11T15:00:00Z",
      "lg": "af.104",
-     "lgName": "1. Division",
-     "country": "Norway",
+     "lgName": "Norway 1. Division",
+     "sport": "football",
      "h": "Kongsvinger",
      "a": "Ranheim",
      "side": "h",
@@ -1057,18 +1050,14 @@
       "d": 0.1513,
       "a": 0.1381
      },
-     "score": [
-      3,
-      1
-     ],
-     "btts": 0.6149,
-     "o25": 0.6487,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:00",
@@ -1400,8 +1389,8 @@
     },
     {
      "t": "15:00",
-     "ko": "2026-10-11T14:00Z",
-     "lg": "rugby",
+     "ko": "2026-10-11T14:00:00Z",
+     "lg": "Premiership",
      "lgName": "Premiership",
      "sport": "rugby",
      "h": "Sale Sharks",
@@ -1409,10 +1398,15 @@
      "side": "h",
      "pick": "Sale Sharks",
      "c": 0.6873,
+     "p": null,
      "hit": 0.6851,
      "hitN": 89,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:00",
@@ -1440,11 +1434,11 @@
      "res": "3-0"
     },
     {
-     "t": "14:00",
+     "t": "15:00",
      "ko": "2026-10-11T14:00:00Z",
      "lg": "af.563",
-     "lgName": "Ettan - Norra",
-     "country": "Sweden",
+     "lgName": "Sweden Ettan - Norra",
+     "sport": "football",
      "h": "Hammarby Talang",
      "a": "Enk\u00f6ping",
      "side": "h",
@@ -1455,25 +1449,21 @@
       "d": 0.1844,
       "a": 0.13
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5531,
-     "o25": 0.5818,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "15:00",
+     "t": "16:00",
      "ko": "2026-10-11T15:00:00Z",
      "lg": "af.364",
-     "lgName": "1. Liga",
-     "country": "Latvia",
+     "lgName": "Latvia 1. Liga",
+     "sport": "football",
      "h": "Riga FC II",
      "a": "R\u0113zekne FA",
      "side": "h",
@@ -1484,18 +1474,14 @@
       "d": 0.1954,
       "a": 0.1192
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5236,
-     "o25": 0.5505,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "12:00",
@@ -1523,11 +1509,11 @@
      "res": null
     },
     {
-     "t": "18:00",
+     "t": "17:00",
      "ko": "2026-10-11T16:00:00Z",
      "lg": "cze.1",
-     "lgName": "First League",
-     "country": "Czechia",
+     "lgName": "Czechia First League",
+     "sport": "football",
      "h": "Sparta Praha",
      "a": "FK Pardubice",
      "side": "h",
@@ -1538,25 +1524,21 @@
       "d": 0.201,
       "a": 0.1221
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5201,
-     "o25": 0.544,
-     "hit": 0.8148,
-     "hitN": 54,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "16:00",
+     "t": "17:00",
      "ko": "2026-10-11T16:00:00Z",
      "lg": "af.447",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 9",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 9",
+     "sport": "football",
      "h": "Motril",
      "a": "Atl\u00e9tico Porcuna",
      "side": "h",
@@ -1567,18 +1549,14 @@
       "d": 0.2028,
       "a": 0.1219
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5176,
-     "o25": 0.5407,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "13:30",
@@ -2203,11 +2181,11 @@
      "res": null
     },
     {
-     "t": "14:00",
+     "t": "15:00",
      "ko": "2026-10-11T14:00:00Z",
      "lg": "af.453",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 15",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 15",
+     "sport": "football",
      "h": "Subiza",
      "a": "Bidezarra",
      "side": "h",
@@ -2218,18 +2196,14 @@
       "d": 0.2253,
       "a": 0.1459
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5173,
-     "o25": 0.5257,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "16:00",
@@ -2319,11 +2293,11 @@
      "unrated": false
     },
     {
-     "t": "15:00",
+     "t": "16:00",
      "ko": "2026-10-11T15:00:00Z",
      "lg": "af.454",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 16",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 16",
+     "sport": "football",
      "h": "Calahorra",
      "a": "Haro Deportivo",
      "side": "h",
@@ -2334,18 +2308,14 @@
       "d": 0.1992,
       "a": 0.1774
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5824,
-     "o25": 0.5966,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "21:00",
