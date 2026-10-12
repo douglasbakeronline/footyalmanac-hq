@@ -1,23 +1,23 @@
 {
- "id": 1791724251639,
- "time": "2026-10-11T14:10:51.639497+01:00",
- "trigger": "scheduled 13:30",
+ "id": 1791772532908,
+ "time": "2026-10-12T03:35:32.908425+01:00",
+ "trigger": "work",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Model record: 68% over 3024 graded games; Daily List 84% (52/62).",
-   "today": "Focus: Lift accuracy in Germany Bundesliga (64% over 39 games). Dev work: PR #19 Write the office review and next week's priorities (shipped).",
+   "yesterday": "Model record: 68% over 3617 graded games; Daily List 83% (60/72).",
+   "today": "Focus: Lift accuracy in Argentina Primera Nacional (65% over 34 games). Dev work: PR #19 Write the office review and next week's priorities (shipped).",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1948 football fixtures across 253 competitions for 2026-10-11, plus 89 other-sport and 96 tennis matches.",
+   "yesterday": "Swept 1984 football fixtures across 243 competitions for 2026-10-12, plus 85 other-sport and 78 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #8 Add a free data source for an uncovered league (shipped).",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 253 competitions matched to a rated team pool.",
+   "yesterday": "0 unrated fixtures in today's slate; 243 competitions matched to a rated team pool.",
    "today": "Recheck club-name matching for new API-Football leagues. Dev work: PR #6 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped).",
    "blockers": "None."
   },
@@ -30,7 +30,7 @@
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1948 fixtures; overall log loss is 1.0104. Dev work: PR #25 Strong tier is below its expected hit rate (shipped).",
+   "today": "Rate today's 1984 fixtures; overall log loss is 1.0134. Dev work: PR #25 Strong tier is below its expected hit rate (shipped).",
    "blockers": "None."
   },
   {
@@ -41,25 +41,25 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 11/19, MLB 15/25, RUGBY 29/36, CFB 39/58, WNBA 4/4. Tennis 60% over 482 matches (expected 61%).",
+   "yesterday": "Other sports: NFL 19/30, MLB 15/25, RUGBY 32/39, CFB 39/58, WNBA 4/4. Tennis 60% over 502 matches (expected 62%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #21 Lift the weakest of the other sports (shipped).",
    "blockers": "NBA and rugby have no graded games yet."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-10-11: 37/47 correct (79%). Daily List misses: Diriang\u00e9n v Walter Ferretti (79%, finished 2-4).",
+   "yesterday": "Graded 2026-10-11: 429/640 correct (67%). Daily List misses: Union St. Gilloise v OH Leuven (84%, finished 1-1); Vikingur Reykjavik v IA Akranes (79%, finished 2-2); Diriang\u00e9n v Walter Ferretti (79%, finished 2-4).",
    "today": "Grade early kick-offs at 13:00 and the full day at 23:30. Dev work: PR #18 Audit the grading of recent results (shipped).",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 50%-60% won 64% vs 67% expected (641 games).",
-   "today": "Track tiers: Strong 80% vs 78%, Firm 70% vs 68%, Lean 66% vs 64%. Dev work: PR #26 Close the 60%-70% calibration gap (shipped).",
+   "yesterday": "Biggest calibration gap: picks at 0%-40% won 68% vs 66% expected (848 games).",
+   "today": "Track tiers: Strong 80% vs 78%, Firm 69% vs 68%, Lean 65% vs 64%. Dev work: PR #26 Close the 60%-70% calibration gap (shipped).",
    "blockers": "None."
   },
   {
    "agent": "curator",
-   "yesterday": "Daily List for 2026-10-11: 32 picks. Top: Brighton & Hove Albion v Kauno Zalgiris 97%; P\u00e9csi MFC v Szeksz\u00e1rd 97%; Sport Academy Kairat v Ekibastuz 92%.",
+   "yesterday": "Daily List for 2026-10-12: 25 picks. Top: Brighton & Hove Albion v Kauno Zalgiris 97%; P\u00e9csi MFC v Szeksz\u00e1rd 97%; Sport Academy Kairat v Ekibastuz 92%.",
    "today": "Re-rank at 13:00 if any team news shifts confidence. Dev work: PR #15 Test the Daily List bar (shipped).",
    "blockers": "None."
   },
@@ -71,25 +71,25 @@
   },
   {
    "agent": "h1",
-   "yesterday": "England Championship: 66% over 87 graded games (target 50%), 2 drawn out.",
+   "yesterday": "England Championship: 66% over 88 graded games (target 50%), 2 drawn out.",
    "today": "Review every miss in the league with Mia and queue one tested change.",
    "blockers": "None."
   },
   {
    "agent": "h2",
-   "yesterday": "55% of today's picks carry a live bookmaker price (target 60%).",
+   "yesterday": "58% of today's picks carry a live bookmaker price (target 60%).",
    "today": "Price every candidate leg before the 07:45 briefing and flag anything still on an estimate.",
    "blockers": "None."
   },
   {
    "agent": "h3",
-   "yesterday": "Group legs won: 71% of 129 settled over 30 days (target 78%).",
+   "yesterday": "Group legs won: 71% of 153 settled over 30 days (target 78%).",
    "today": "Build today's three groups of five and review every losing leg in the playback.",
    "blockers": "None."
   },
   {
    "agent": "h4",
-   "yesterday": "Strong tier: 16 of 145 calls drawn out (11%, target 10% or less).",
+   "yesterday": "Strong tier: 18 of 164 calls drawn out (11%, target 10% or less).",
    "today": "Tag drawn-out Strong calls by league and draw probability for the next experiment.",
    "blockers": "None."
   },
@@ -107,13 +107,6 @@
   },
   {
    "agent": "chief",
-   "yesterday": "New hire: Omar joins as CFB Analyst. CFB has 58 graded games: enough history for a dedicated analyst and a Multi-sport department.",
-   "today": "Omar owns one KPI from today: CFB hit rate. New department: Multi-sport.",
-   "blockers": "None.",
-   "hire": "h6"
-  },
-  {
-   "agent": "chief",
    "yesterday": "Shout-out: Ava for 'Competitions covered today' \u2014 ahead of target.",
    "today": "Keep encouraging each other: every objective owner posts one learning in the playback.",
    "blockers": "None.",
@@ -124,7 +117,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.8387,
+   "actual": 0.8333,
    "target": 0.7,
    "fmt": "pct",
    "higher": true,
@@ -133,7 +126,7 @@
   {
    "owner": "chief",
    "name": "Overall hit rate",
-   "actual": 0.6829,
+   "actual": 0.6793,
    "target": 0.55,
    "fmt": "pct",
    "higher": true,
@@ -142,16 +135,16 @@
   {
    "owner": "ratings",
    "name": "Strong tier hit rate",
-   "actual": 0.8,
+   "actual": 0.7988,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "at risk"
   },
   {
    "owner": "calib",
    "name": "Largest calibration gap",
-   "actual": 0.026000000000000023,
+   "actual": 0.024499999999999966,
    "target": 0.05,
    "fmt": "pct",
    "higher": false,
@@ -160,7 +153,7 @@
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 253,
+   "actual": 243,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -196,7 +189,7 @@
   {
    "owner": "sports",
    "name": "Tennis hit vs expected",
-   "actual": -0.01529999999999998,
+   "actual": -0.02090000000000003,
    "target": 0.0,
    "fmt": "pt",
    "higher": true,
@@ -223,7 +216,7 @@
   {
    "owner": "h1",
    "name": "England Championship hit rate",
-   "actual": 0.6552,
+   "actual": 0.6591,
    "target": 0.5,
    "fmt": "pct",
    "higher": true,
@@ -232,16 +225,16 @@
   {
    "owner": "h2",
    "name": "Legs with a live price",
-   "actual": 0.5538461538461539,
+   "actual": 0.5789473684210527,
    "target": 0.6,
    "fmt": "pct",
    "higher": true,
-   "status": "behind"
+   "status": "at risk"
   },
   {
    "owner": "h3",
    "name": "Group legs won (30 days)",
-   "actual": 0.7131782945736435,
+   "actual": 0.7124183006535948,
    "target": 0.78,
    "fmt": "pct",
    "higher": true,
@@ -250,7 +243,7 @@
   {
    "owner": "h4",
    "name": "Strong calls drawn out",
-   "actual": 0.1103448275862069,
+   "actual": 0.10975609756097561,
    "target": 0.1,
    "fmt": "pct",
    "higher": false,
@@ -277,8 +270,11 @@
  ],
  "star": "scout",
  "wins": [
+  "Sunnersta v Korsn\u00e4s (91%) finished 7-1",
+  "Lijabatho v Members (86%) finished 2-0",
+  "Virtus v San Marino Academy (86%) finished 5-0",
   "Ranger's v Carroi (81%) finished 3-0",
-  "Suwon Bluewings v Ansan Greeners (77%) finished 4-1"
+  "Sl\u00e1via TU Ko\u0161ice v Ke\u017emarok (81%) finished 3-1"
  ],
  "dev": [
   {
@@ -423,22 +419,24 @@
   "PR #19 Write the office review and next week's priorities (shipped) by Luke"
  ],
  "lessons": [
+  "Daily List miss: Union St. Gilloise v OH Leuven (84%, finished 1-1)",
+  "Daily List miss: Vikingur Reykjavik v IA Akranes (79%, finished 2-2)",
   "Daily List miss: Diriang\u00e9n v Walter Ferretti (79%, finished 2-4)",
-  "Calibration: 50%-60% band won 64% vs 67% expected",
-  "Weakest league: Germany Bundesliga at 64% over 39 games"
+  "Calibration: 0%-40% band won 68% vs 66% expected",
+  "Weakest league: Argentina Primera Nacional at 65% over 34 games"
  ],
  "stats": {
-  "fixtures": 1948,
-  "competitions": 253,
-  "listPicks": 32,
-  "overallAcc": 0.6829,
-  "listAcc": 0.8387,
-  "listN": 62,
-  "graded": 3024,
-  "logLoss": 1.0104,
-  "dayAcc": 0.7872,
+  "fixtures": 1984,
+  "competitions": 243,
+  "listPicks": 25,
+  "overallAcc": 0.6793,
+  "listAcc": 0.8333,
+  "listN": 72,
+  "graded": 3617,
+  "logLoss": 1.0134,
+  "dayAcc": 0.6703,
   "dayDate": "2026-10-11",
-  "tennisAcc": 0.5996,
+  "tennisAcc": 0.5956,
   "runsOk": 10,
   "runsTotal": 10,
   "tiers": [
@@ -446,85 +444,85 @@
     "name": "Strong",
     "k": 3,
     "min": 0.7,
-    "n": 145,
-    "correct": 116,
-    "hit": 0.8,
-    "expected": 0.7827,
-    "drawnOut": 16
+    "n": 164,
+    "correct": 131,
+    "hit": 0.7988,
+    "expected": 0.7828,
+    "drawnOut": 18
    },
    {
     "name": "Firm",
     "k": 2,
     "min": 0.62,
-    "n": 188,
-    "correct": 132,
-    "hit": 0.7021,
-    "expected": 0.6841,
-    "drawnOut": 26
+    "n": 222,
+    "correct": 154,
+    "hit": 0.6937,
+    "expected": 0.6819,
+    "drawnOut": 34
    },
    {
     "name": "Lean",
     "k": 1,
     "min": 0.55,
-    "n": 326,
-    "correct": 214,
-    "hit": 0.6564,
-    "expected": 0.6434,
-    "drawnOut": 54
+    "n": 379,
+    "correct": 245,
+    "hit": 0.6464,
+    "expected": 0.6438,
+    "drawnOut": 66
    },
    {
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 2365,
-    "correct": 1603,
-    "hit": 0.6778,
-    "expected": 0.6676,
-    "drawnOut": 101
+    "n": 2852,
+    "correct": 1927,
+    "hit": 0.6757,
+    "expected": 0.6654,
+    "drawnOut": 136
    }
   ],
   "bands": [
    {
     "from": 0.0,
     "to": 0.4,
-    "n": 690,
-    "hit": 0.6797,
-    "expected": 0.6562
+    "n": 848,
+    "hit": 0.6804,
+    "expected": 0.6559
    },
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 1210,
-    "hit": 0.6959,
-    "expected": 0.6731
+    "n": 1457,
+    "hit": 0.6877,
+    "expected": 0.6697
    },
    {
     "from": 0.5,
     "to": 0.6,
-    "n": 641,
-    "hit": 0.6396,
-    "expected": 0.6656
+    "n": 752,
+    "hit": 0.6436,
+    "expected": 0.6649
    },
    {
     "from": 0.6,
     "to": 0.7,
-    "n": 304,
-    "hit": 0.6645,
-    "expected": 0.6463
+    "n": 355,
+    "hit": 0.6535,
+    "expected": 0.6451
    },
    {
     "from": 0.7,
     "to": 1.0,
-    "n": 179,
-    "hit": 0.7933,
-    "expected": 0.7844
+    "n": 205,
+    "hit": 0.7902,
+    "expected": 0.7828
    }
   ],
   "days": [
    {
     "date": "2026-10-11",
-    "acc": 0.7872,
-    "n": 47
+    "acc": 0.6703,
+    "n": 640
    },
    {
     "date": "2026-10-10",
@@ -594,29 +592,29 @@
   ],
   "weak": [
    {
-    "name": "Germany Bundesliga",
-    "acc": 0.641,
-    "n": 39
-   },
-   {
-    "name": "England Championship",
-    "acc": 0.6552,
-    "n": 87
+    "name": "Argentina Primera Nacional",
+    "acc": 0.6471,
+    "n": 34
    },
    {
     "name": "Netherlands Eredivisie",
-    "acc": 0.6596,
-    "n": 47
+    "acc": 0.6471,
+    "n": 51
    },
    {
-    "name": "International UEFA Nations League",
-    "acc": 0.6795,
-    "n": 78
+    "name": "Germany Bundesliga",
+    "acc": 0.65,
+    "n": 40
    },
    {
-    "name": "International International friendly",
-    "acc": 0.6852,
-    "n": 54
+    "name": "England Championship",
+    "acc": 0.6591,
+    "n": 88
+   },
+   {
+    "name": "Brazil Serie B",
+    "acc": 0.6667,
+    "n": 33
    }
   ],
   "top": [
@@ -627,7 +625,7 @@
    },
    {
     "m": "P\u00e9csi MFC v Szeksz\u00e1rd",
-    "c": 0.9686,
+    "c": 0.9666,
     "lg": "af.634"
    },
    {
@@ -636,29 +634,29 @@
     "lg": "af.388"
    },
    {
-    "m": "Sunnersta v Korsn\u00e4s",
-    "c": 0.9116,
-    "lg": "af.593"
+    "m": "KI Klaksvik v B68",
+    "c": 0.9102,
+    "lg": "af.367"
    },
    {
-    "m": "Lijabatho v Members",
-    "c": 0.8609,
-    "lg": "af.962"
+    "m": "Karlskrona v R\u00e4ppe",
+    "c": 0.8723,
+    "lg": "af.597"
    },
    {
-    "m": "Virtus v San Marino Academy",
-    "c": 0.8551,
-    "lg": "af.404"
+    "m": "Izarra v Txantrea",
+    "c": 0.8692,
+    "lg": "af.453"
    },
    {
-    "m": "Union St. Gilloise v OH Leuven",
-    "c": 0.8383,
-    "lg": "af.144"
+    "m": "Angkor Tiger v National Defense",
+    "c": 0.8608,
+    "lg": "af.410"
    },
    {
-    "m": "Nashville v Sporting Kansas City",
-    "c": 0.8383,
-    "lg": "us.1"
+    "m": "NSI Runavik v 07 Vestur",
+    "c": 0.8431,
+    "lg": "af.367"
    }
   ]
  }
