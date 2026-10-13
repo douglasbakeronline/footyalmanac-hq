@@ -386,8 +386,14 @@
    "closed": "2026-10-04T22:47:08Z"
   }
  ],
- "fetched": "2026-10-13T19:24:07.576526+01:00",
+ "fetched": "2026-10-13T19:50:05.725358+01:00",
  "commits": [
+  {
+   "sha": "35f7112",
+   "msg": "Archive predictions and record for 2026-10-13 [skip ci]",
+   "date": "2026-10-13T18:37:14Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/35f7112856ad985aa02c5258d85ffd8e4a705214"
+  },
   {
    "sha": "606383c",
    "msg": "Archive predictions and record for 2026-10-13 [skip ci]",
@@ -501,15 +507,15 @@
    "msg": "Office agent (scout): Add a free data source for an uncovered league (#31)",
    "date": "2026-10-12T16:03:27Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ac13e1705b760caf26c057ffe1e05d78d4c56037"
-  },
-  {
-   "sha": "db1dd03",
-   "msg": "Office agent (source): Make one data source fail more gracefully (#30)",
-   "date": "2026-10-12T15:59:08Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/db1dd037deee1813037926c67595b81c8abf38b0"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-13T18:33:09Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/38447670290"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-13T17:39:07Z",
@@ -563,12 +569,6 @@
    "createdAt": "2026-10-13T14:29:17Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/38413774575"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-13T14:25:59Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/38413297049"
   }
  ]
 }
