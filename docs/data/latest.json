@@ -1,36 +1,36 @@
 {
- "id": 1791844747527,
- "time": "2026-10-12T23:39:07.527321+01:00",
- "trigger": "work",
+ "id": 1791860730195,
+ "time": "2026-10-13T04:05:30.195324+01:00",
+ "trigger": "scheduled 04:00",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Model record: 68% over 3669 graded games; Daily List 82% (61/74).",
-   "today": "Focus: Lift accuracy in Argentina Primera Nacional (65% over 34 games). Dev work: PR #40 Write the office review and next week's priorities (shipped).",
+   "yesterday": "Model record: 68% over 3706 graded games; Daily List 82% (61/74).",
+   "today": "Focus: Lift accuracy in Spain LaLiga 2 (62% over 32 games). Dev work: PR #40 Write the office review and next week's priorities (shipped).",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 2016 football fixtures across 245 competitions for 2026-10-12, plus 85 other-sport and 99 tennis matches.",
+   "yesterday": "Swept 1998 football fixtures across 240 competitions for 2026-10-13, plus 86 other-sport and 59 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #31 Add a free data source for an uncovered league (shipped).",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 245 competitions matched to a rated team pool.",
+   "yesterday": "0 unrated fixtures in today's slate; 240 competitions matched to a rated team pool.",
    "today": "Recheck club-name matching for new API-Football leagues. Dev work: PR #29 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped).",
    "blockers": "None."
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 10/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 9/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps. Dev work: PR #30 Make one data source fail more gracefully (shipped).",
    "blockers": "None."
   },
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 2016 fixtures; overall log loss is 1.0138. Dev work: PR #32 Test one ratings improvement (shipped).",
+   "today": "Rate today's 1998 fixtures; overall log loss is 1.0137. Dev work: PR #32 Test one ratings improvement (shipped).",
    "blockers": "None."
   },
   {
@@ -41,31 +41,31 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 20/31, MLB 16/26, RUGBY 32/39, CFB 39/58, WNBA 4/4. Tennis 60% over 543 matches (expected 62%).",
+   "yesterday": "Other sports: NFL 20/31, MLB 17/27, RUGBY 32/39, CFB 39/58, WNBA 4/4. Tennis 60% over 543 matches (expected 62%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #35 Tennis is below its expected hit rate (shipped).",
    "blockers": "NBA and rugby have no graded games yet."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-10-12: 28/47 correct (60%). Daily List misses: Bashkimi Kumanovo v Struga (76%, finished 2-1).",
+   "yesterday": "Graded 2026-10-13: 0/1 correct (0%). Daily List misses: Bashkimi Kumanovo v Struga (76%, finished 2-1).",
    "today": "Grade early kick-offs at 13:00 and the full day at 23:30. Dev work: PR #39 Audit the grading of recent results (shipped).",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 0%-40% won 68% vs 66% expected (862 games).",
+   "yesterday": "Biggest calibration gap: picks at 0%-40% won 68% vs 66% expected (875 games).",
    "today": "Track tiers: Strong 79% vs 78%, Firm 69% vs 68%, Lean 65% vs 64%. Dev work: PR #34 Check calibration by sport and confidence band (shipped).",
    "blockers": "None."
   },
   {
    "agent": "curator",
-   "yesterday": "Daily List for 2026-10-12: 25 picks. Top: Brighton & Hove Albion v Kauno Zalgiris 97%; P\u00e9csi MFC v Szeksz\u00e1rd 97%; Sport Academy Kairat v Ekibastuz 92%.",
+   "yesterday": "Daily List for 2026-10-13: 24 picks. Top: Brighton & Hove Albion v Kauno Zalgiris 97%; P\u00e9csi MFC v Szeksz\u00e1rd 97%; Sport Academy Kairat v Ekibastuz 92%.",
    "today": "Re-rank at 13:00 if any team news shifts confidence. Dev work: PR #36 Test the Daily List bar (shipped).",
    "blockers": "None."
   },
   {
    "agent": "engineer",
-   "yesterday": "10/10 recent 'Rebuild and publish' runs green.",
+   "yesterday": "9/10 recent 'Rebuild and publish' runs green.",
    "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #28 Add tests for the least-tested module (shipped).",
    "blockers": "None."
   },
@@ -95,7 +95,7 @@
   },
   {
    "agent": "h5",
-   "yesterday": "10/10 recent builds green (target 100%).",
+   "yesterday": "9/10 recent builds green (target 100%).",
    "today": "Trace each failed build to its cause and add a guard.",
    "blockers": "None."
   },
@@ -126,7 +126,7 @@
   {
    "owner": "chief",
    "name": "Overall hit rate",
-   "actual": 0.6787,
+   "actual": 0.6786,
    "target": 0.55,
    "fmt": "pct",
    "higher": true,
@@ -144,7 +144,7 @@
   {
    "owner": "calib",
    "name": "Largest calibration gap",
-   "actual": 0.02300000000000002,
+   "actual": 0.02100000000000002,
    "target": 0.05,
    "fmt": "pct",
    "higher": false,
@@ -153,7 +153,7 @@
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 245,
+   "actual": 240,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -171,20 +171,20 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 1.0,
+   "actual": 0.9,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "at risk"
   },
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 1.0,
+   "actual": 0.9,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "behind"
   },
   {
    "owner": "sports",
@@ -252,11 +252,11 @@
   {
    "owner": "h5",
    "name": "Builds green (last 10)",
-   "actual": 1.0,
+   "actual": 0.9,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "behind"
   },
   {
    "owner": "h6",
@@ -417,21 +417,21 @@
  "lessons": [
   "Daily List miss: Bashkimi Kumanovo v Struga (76%, finished 2-1)",
   "Calibration: 0%-40% band won 68% vs 66% expected",
-  "Weakest league: Argentina Primera Nacional at 65% over 34 games"
+  "Weakest league: Spain LaLiga 2 at 62% over 32 games"
  ],
  "stats": {
-  "fixtures": 2016,
-  "competitions": 245,
-  "listPicks": 25,
-  "overallAcc": 0.6787,
+  "fixtures": 1998,
+  "competitions": 240,
+  "listPicks": 24,
+  "overallAcc": 0.6786,
   "listAcc": 0.8243,
   "listN": 74,
-  "graded": 3669,
-  "logLoss": 1.0138,
-  "dayAcc": 0.5957,
-  "dayDate": "2026-10-12",
+  "graded": 3706,
+  "logLoss": 1.0137,
+  "dayAcc": 0.0,
+  "dayDate": "2026-10-13",
   "tennisAcc": 0.6004,
-  "runsOk": 10,
+  "runsOk": 9,
   "runsTotal": 10,
   "tiers": [
    {
@@ -448,75 +448,80 @@
     "name": "Firm",
     "k": 2,
     "min": 0.62,
-    "n": 224,
-    "correct": 155,
-    "hit": 0.692,
-    "expected": 0.6815,
+    "n": 228,
+    "correct": 158,
+    "hit": 0.693,
+    "expected": 0.6827,
     "drawnOut": 34
    },
    {
     "name": "Lean",
     "k": 1,
     "min": 0.55,
-    "n": 383,
-    "correct": 249,
-    "hit": 0.6501,
-    "expected": 0.6433,
-    "drawnOut": 66
+    "n": 388,
+    "correct": 253,
+    "hit": 0.6521,
+    "expected": 0.643,
+    "drawnOut": 67
    },
    {
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 2894,
-    "correct": 1953,
-    "hit": 0.6748,
-    "expected": 0.6651,
-    "drawnOut": 137
+    "n": 2922,
+    "correct": 1971,
+    "hit": 0.6745,
+    "expected": 0.6649,
+    "drawnOut": 138
    }
   ],
   "bands": [
    {
     "from": 0.0,
     "to": 0.4,
-    "n": 862,
-    "hit": 0.6787,
-    "expected": 0.6557
+    "n": 875,
+    "hit": 0.6766,
+    "expected": 0.6556
    },
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 1477,
-    "hit": 0.6872,
-    "expected": 0.6694
+    "n": 1486,
+    "hit": 0.6884,
+    "expected": 0.6693
    },
    {
     "from": 0.5,
     "to": 0.6,
-    "n": 763,
-    "hit": 0.6448,
-    "expected": 0.6642
+    "n": 771,
+    "hit": 0.6446,
+    "expected": 0.6636
    },
    {
     "from": 0.6,
     "to": 0.7,
-    "n": 358,
-    "hit": 0.6536,
+    "n": 363,
+    "hit": 0.6556,
     "expected": 0.645
    },
    {
     "from": 0.7,
     "to": 1.0,
-    "n": 209,
-    "hit": 0.7847,
-    "expected": 0.7821
+    "n": 211,
+    "hit": 0.782,
+    "expected": 0.7826
    }
   ],
   "days": [
    {
+    "date": "2026-10-13",
+    "acc": 0.0,
+    "n": 1
+   },
+   {
     "date": "2026-10-12",
-    "acc": 0.5957,
-    "n": 47
+    "acc": 0.6386,
+    "n": 83
    },
    {
     "date": "2026-10-11",
@@ -577,18 +582,18 @@
     "date": "2026-09-30",
     "acc": 0.7073,
     "n": 41
-   },
-   {
-    "date": "2026-09-29",
-    "acc": 0.6957,
-    "n": 46
    }
   ],
   "weak": [
    {
+    "name": "Spain LaLiga 2",
+    "acc": 0.625,
+    "n": 32
+   },
+   {
     "name": "Argentina Primera Nacional",
-    "acc": 0.6471,
-    "n": 34
+    "acc": 0.6286,
+    "n": 35
    },
    {
     "name": "Netherlands Eredivisie",
@@ -604,11 +609,6 @@
     "name": "England Championship",
     "acc": 0.6591,
     "n": 88
-   },
-   {
-    "name": "Brazil Serie B",
-    "acc": 0.6667,
-    "n": 33
    }
   ],
   "top": [
