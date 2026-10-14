@@ -1,5 +1,160 @@
 [
  {
+  "id": 1791995286492,
+  "date": "2026-10-14",
+  "time": "2026-10-14T17:28:06.492460+01:00",
+  "stage": "refresh",
+  "groups": [
+   {
+    "name": "Balanced",
+    "band": [
+     4.0,
+     7.0
+    ],
+    "odds": 4.58,
+    "p": 0.1764,
+    "marketP": 0.2181,
+    "estimated": 0,
+    "legs": [
+     {
+      "sport": "football",
+      "event": "Haugesund v Lyn",
+      "home": "Haugesund",
+      "away": "Lyn",
+      "side": "h",
+      "pick": "Haugesund",
+      "code": "af.104",
+      "comp": "1. Division",
+      "country": "Norway",
+      "when": "2026-10-14T17:00:00Z",
+      "date": "2026-10-14",
+      "pModel": 0.7265,
+      "p": 0.7402,
+      "hit": 0.7908,
+      "n": 3662,
+      "list": false,
+      "odds": 1.23,
+      "best": 1.27,
+      "books": 10,
+      "src": "API-Football, average of 10 bookmakers",
+      "implied": 0.813,
+      "edge": -0.0896,
+      "selection": "Haugesund",
+      "modelPick": "Haugesund",
+      "status": "pending"
+     },
+     {
+      "sport": "football",
+      "event": "Bryne v Raufoss",
+      "home": "Bryne",
+      "away": "Raufoss",
+      "side": "h",
+      "pick": "Bryne",
+      "code": "af.104",
+      "comp": "1. Division",
+      "country": "Norway",
+      "when": "2026-10-14T17:00:00Z",
+      "date": "2026-10-14",
+      "pModel": 0.6641,
+      "p": 0.6791,
+      "hit": 0.7483,
+      "n": 5916,
+      "list": false,
+      "odds": 1.24,
+      "best": 1.27,
+      "books": 10,
+      "src": "API-Football, average of 10 bookmakers",
+      "implied": 0.8065,
+      "edge": -0.1579,
+      "selection": "Bryne",
+      "modelPick": "Bryne",
+      "status": "pending"
+     },
+     {
+      "sport": "football",
+      "event": "Aston Villa v Fenerbahce",
+      "home": "Aston Villa",
+      "away": "Fenerbahce",
+      "side": "h",
+      "pick": "Aston Villa",
+      "code": "eu.cl",
+      "comp": "Champions League",
+      "country": "Europe",
+      "when": "2026-10-14T19:00:00Z",
+      "date": "2026-10-14",
+      "pModel": 0.6614,
+      "p": 0.76,
+      "hit": 0.7767,
+      "n": 103,
+      "list": false,
+      "odds": 1.7,
+      "best": 1.75,
+      "books": 10,
+      "src": "API-Football, average of 10 bookmakers",
+      "implied": 0.5882,
+      "edge": 0.292,
+      "selection": "Aston Villa",
+      "modelPick": "Aston Villa",
+      "status": "pending"
+     },
+     {
+      "sport": "football",
+      "event": "Atlético Junior v Deportivo Pereira",
+      "home": "Atlético Junior",
+      "away": "Deportivo Pereira",
+      "side": "h",
+      "pick": "Atlético Junior",
+      "code": "co.1",
+      "comp": "Primera A",
+      "country": "Colombia",
+      "when": "2026-10-14T21:30:00Z",
+      "date": "2026-10-14",
+      "pModel": 0.6042,
+      "p": 0.6771,
+      "hit": 0.7459,
+      "n": 181,
+      "list": false,
+      "odds": 1.3,
+      "best": 1.34,
+      "books": 10,
+      "src": "API-Football, average of 10 bookmakers",
+      "implied": 0.7692,
+      "edge": -0.1198,
+      "selection": "Atlético Junior",
+      "modelPick": "Atlético Junior",
+      "status": "pending"
+     },
+     {
+      "sport": "football",
+      "event": "Independiente Santa Fe v Jaguares de Córdoba",
+      "home": "Independiente Santa Fe",
+      "away": "Jaguares de Córdoba",
+      "side": "h",
+      "pick": "Independiente Santa Fe",
+      "code": "co.1",
+      "comp": "Primera A",
+      "country": "Colombia",
+      "when": "2026-10-14T23:30:00Z",
+      "date": "2026-10-14",
+      "pModel": 0.6221,
+      "p": 0.6821,
+      "hit": 0.7459,
+      "n": 181,
+      "list": false,
+      "odds": 1.36,
+      "src": "ESPN, DraftKings moneyline",
+      "implied": 0.7353,
+      "edge": -0.0723,
+      "selection": "Independiente Santa Fe",
+      "modelPick": "Independiente Santa Fe",
+      "status": "pending"
+     }
+    ],
+    "status": "pending"
+   }
+  ]
+ },
+ {
   "id": 1791980538438,
   "date": "2026-10-14",
   "time": "2026-10-14T13:22:18.438823+01:00",
@@ -336,7 +491,8 @@
       "edge": 0.0662,
       "selection": "Fiona Ferro",
       "modelPick": "Fiona Ferro",
-      "status": "pending"
+      "status": "won",
+      "result": "(3) Fiona Ferro (FRA) bt Selena Janicijevic (FRA) 7-5 6-1"
      },
      {
       "sport": "tennis",
@@ -358,7 +514,8 @@
       "edge": 0.0361,
       "selection": "Aryna Sabalenka",
       "modelPick": "Aryna Sabalenka",
-      "status": "pending"
+      "status": "lost",
+      "result": "Ann Li (USA) bt (1) Aryna Sabalenka (BLR) 3-6 6-4 7-6 (7-5)"
      },
      {
       "sport": "football",
@@ -442,7 +599,7 @@
       "status": "pending"
      }
     ],
-    "status": "pending"
+    "status": "lost"
    },
    {
     "name": "Balanced",
@@ -480,7 +637,8 @@
       "edge": 0.2069,
       "selection": "Batman Petrolspor",
       "modelPick": "Batman Petrolspor",
-      "status": "pending"
+      "status": "won",
+      "result": "4-2"
      },
      {
       "sport": "tennis",
@@ -502,7 +660,8 @@
       "edge": 0.1075,
       "selection": "Leylah Fernandez",
       "modelPick": "Leylah Fernandez",
-      "status": "pending"
+      "status": "won",
+      "result": "Leylah Fernandez (CAN) bt Han Shi (CHN) 6-3 6-4"
      },
      {
       "sport": "tennis",
@@ -614,7 +773,8 @@
       "edge": 0.0931,
       "selection": "Elizara Yaneva",
       "modelPick": "Elizara Yaneva",
-      "status": "pending"
+      "status": "won",
+      "result": "(7) Elizara Yaneva (BUL) bt Carole Monnet (FRA) 6-2 6-2"
      },
      {
       "sport": "tennis",
@@ -636,7 +796,8 @@
       "edge": 0.0812,
       "selection": "Ariana Geerlings",
       "modelPick": "Ariana Geerlings",
-      "status": "pending"
+      "status": "won",
+      "result": "Ariana Geerlings (ESP) bt Lucia Cortez Llorca (ESP) 6-4 6-2"
      },
      {
       "sport": "football",
