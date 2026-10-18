@@ -1,11 +1,11 @@
 {
  "generated": "2026-10-18T00:06:49",
- "fetched": "2026-10-18T01:07:19.779016+01:00",
+ "fetched": "2026-10-18T02:24:58.220114+01:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-18",
-   "count": 692,
+   "count": 694,
    "games": [
     {
      "t": "00:00",
@@ -108,11 +108,11 @@
      "unrated": false
     },
     {
-     "t": "01:00",
+     "t": "02:00",
      "ko": "2026-10-18T01:00:00Z",
      "lg": "af.396",
-     "lgName": "Primera Division",
-     "country": "Nicaragua",
+     "lgName": "Nicaragua Primera Division",
+     "sport": "football",
      "h": "Managua",
      "a": "Matagalpa",
      "side": "h",
@@ -123,18 +123,14 @@
       "d": 0.0798,
       "a": 0.0333
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.5157,
-     "o25": 0.6317,
-     "hit": 0.8997,
-     "hitN": 628,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "12:00",
@@ -1211,6 +1207,31 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "02:00",
+     "ko": "2026-10-18T01:00:00Z",
+     "lg": "mx.1",
+     "lgName": "Mexico Liga MX",
+     "sport": "football",
+     "h": "Toluca",
+     "a": "Atl\u00e9tico de San Luis",
+     "side": "h",
+     "pick": "Toluca",
+     "c": 0.6863,
+     "p": {
+      "h": 0.6863,
+      "d": 0.1788,
+      "a": 0.1348
+     },
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "18:00",
@@ -2595,6 +2616,27 @@
      "hitN": 194,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "02:00",
+     "ko": "2026-10-18T01:00:00Z",
+     "lg": "NCAA FBS",
+     "lgName": "NCAA FBS",
+     "sport": "cfb",
+     "h": "UTEP Miners",
+     "a": "San Jos\u00e9 State Spartans",
+     "side": "a",
+     "pick": "San Jos\u00e9 State Spartans",
+     "c": 0.6251,
+     "p": null,
+     "hit": 0.5897,
+     "hitN": 139,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "12:00",
