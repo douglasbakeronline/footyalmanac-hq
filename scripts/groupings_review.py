@@ -35,7 +35,7 @@ import sys
 from collections import defaultdict
 
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs", "data")
-OUT = os.path.join(DATA, "groupings-review.json")
+OUT_NAME = "groupings-review.json"
 
 # A gap is only called real if the day-clustered CI excludes zero AND the
 # effect is bigger than this. Below 2 points is noise, not a finding.
@@ -183,29 +183,38 @@ def review():
             f"Leave the calibration alone; changing it now would be fitting variance."
         )
 
-    # ---- per-band, so a broken band can be found without waiting for the total
-    bands = {}
-    for g in groups:
-        bands.setdefault(g.get("name"), []).append(g)
-    result["byBand"] = {}
-    for name, gs in bands.items():
-        w = sum(1 for g in gs if g["status"] == "won")
-        q = sum(g.get("p") or 0 for g in gs) / len(gs)
-        result["byBand"][name] = {
-            "n": len(gs), "won": w, "hit": round(w / len(gs), 4),
-            "quoted": round(q, 4), "gap": round(w / len(gs) - q, 4),
-        }
+    # ---- per-band, so a broken band is found without waiting for the total.
+    # Only when the sample clears the bar; below it, no per-band claim either.
+    if result["verdict"] != "insufficient data":
+        bands = {}
+        for g in groups:
+            bands.setdefault(g.get("name"), []).append(g)
+        result["byBand"] = {}
+        for name, gs in bands.items():
+            w = sum(1 for g in gs if g["status"] == "won")
+            q = sum(g.get("p") or 0 for g in gs) / len(gs)
+            result["byBand"][name] = {
+                "n": len(gs), "won": w, "hit": round(w / len(gs), 4),
+                "quoted": round(q, 4), "gap": round(w / len(gs) - q, 4),
+            }
 
     _save(result)
     return result
 
 
+def _out():
+    """Resolved at call time, not import time, so tests that point DATA at a
+    temp directory cannot write the real review file."""
+    return os.path.join(DATA, OUT_NAME)
+
+
 def _save(result):
     os.makedirs(DATA, exist_ok=True)
-    tmp = OUT + ".tmp"
+    path = _out()
+    tmp = path + ".tmp"
     with open(tmp, "w") as f:
         json.dump(result, f, indent=1)
-    os.replace(tmp, OUT)
+    os.replace(tmp, path)
 
 
 def main():
@@ -229,7 +238,7 @@ def main():
     print()
     print(f"  {r.get('advice', '')}")
     print()
-    print(f"  written to {OUT}")
+    print(f"  written to {_out()}")
 
 
 if __name__ == "__main__":

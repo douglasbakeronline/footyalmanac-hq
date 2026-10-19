@@ -74,6 +74,43 @@ class TestVerdicts(unittest.TestCase):
                              "no tuning value may leak out below the sample bar")
 
 
+class TestIsolation(unittest.TestCase):
+    """The review must never write outside the DATA directory it was given.
+
+    Regression: OUT was resolved at import time while DATA was overridable, so
+    a test pointing DATA at a temp dir still wrote the real review file - which
+    then made apply_review() see an 'insufficient data' verdict in production.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self._orig = GR.DATA
+        GR.DATA = self.tmp
+
+    def tearDown(self):
+        GR.DATA = self._orig
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def test_writes_inside_the_given_directory(self):
+        with open(os.path.join(self.tmp, "groupings.json"), "w") as f:
+            json.dump({"days": [{"date": "2026-10-05", "groups": [
+                _group("Steady", [_leg(0.8, 1.4)] * 5, 4.0, 0.33)]}]}, f)
+        GR.review()
+        self.assertTrue(os.path.exists(os.path.join(self.tmp, GR.OUT_NAME)),
+                        "review must write to the DATA directory in use")
+
+    def test_does_not_touch_the_real_file(self):
+        real = os.path.join(self._orig, GR.OUT_NAME)
+        before = open(real).read() if os.path.exists(real) else None
+        with open(os.path.join(self.tmp, "groupings.json"), "w") as f:
+            json.dump({"days": [{"date": "2026-10-05", "groups": [
+                _group("Steady", [_leg(0.8, 1.4)] * 5, 4.0, 0.33)]}]}, f)
+        GR.review()
+        after = open(real).read() if os.path.exists(real) else None
+        self.assertEqual(before, after,
+                         "a temp-dir review must not rewrite the live review file")
+
+
 class TestGuards(unittest.TestCase):
     def test_apply_review_is_a_noop_without_a_verdict(self):
         import markets as MK
