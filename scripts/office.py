@@ -27,6 +27,7 @@ RHYTHM = [
     {"t": "13:00", "kind": "work", "name": "Midday refresh", "who": ["scout", "quality", "auditor"], "desc": "Late fixtures, team news, early results graded."},
     {"t": "13:30", "kind": "standup", "name": "Afternoon stand-up", "who": "all", "desc": "Accuracy check-in and any changes to the board."},
     {"t": "23:30", "kind": "work", "name": "Results & experiments", "who": ["auditor", "calib", "experiment"], "desc": "Grade the day and run overnight accuracy tests."},
+    {"t": "23:40", "kind": "review", "name": "Groupings review", "who": ["h3", "h2", "calib", "auditor"], "desc": "Quote vs landed, every band. Sets the haircut for tomorrow's groups."},
     {"t": "18:00", "dow": 4, "kind": "saturday", "name": "Fri: Saturday picks preview", "who": ["curator", "scout", "ratings", "calib", "quality", "auditor", "chief"], "desc": "First look at Saturday's board, posted to GitHub."},
     {"t": "07:00", "dow": 5, "kind": "saturday", "name": "Sat: Saturday picks final", "who": ["curator", "scout", "ratings", "calib", "quality", "auditor", "chief"], "desc": "Final Saturday board after the morning build."},
     {"t": "07:30", "dow": 6, "kind": "saturday", "name": "Sun: Saturday picks graded", "who": ["auditor", "calib", "chief"], "desc": "How Saturday's picks did, with the misses reviewed."},
@@ -458,6 +459,11 @@ def run(slot=None, force=False):
             import markets as MK
             b = MK.run(kind)
             summary = f"{len(b['groups'])} groups of five posted" + (f", Steady at {b['groups'][0]['odds']:.2f}" if b["groups"] else "") + "."
+        elif kind == "review":
+            import groupings_review as GR
+            r = GR.review()
+            summary = f"Groupings review: {r['verdict']}" + (
+                f", legs {r['legs']['hit']:.0%} vs {r['legs']['quoted']:.0%} quoted" if r.get("legs") else "") + "."
         elif kind == "saturday":
             import saturday as SAT
             write_picks()

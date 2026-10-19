@@ -12,8 +12,8 @@ on:
     - cron: "0 16,17 * * *"   # 17:00 UK evening groups
     - cron: "0,30 12 * * *"   # 13:00 / 13:30 BST
     - cron: "0,30 13 * * *"   # 13:00 / 13:30 GMT
-    - cron: "30,45 22 * * *"  # 23:30 / 23:45 BST
-    - cron: "30,45 23 * * *"  # 23:30 / 23:45 GMT
+    - cron: "30,40,45 22 * * *"  # 23:30 work, 23:40 groupings review, 23:45 BST
+    - cron: "30,40,45 23 * * *"  # 23:30 work, 23:40 groupings review, 23:45 GMT
     - cron: "0 17,18 * * 5"   # Fri 18:00 UK: Saturday picks preview
     - cron: "0 6,7 * * 6"     # Sat 07:00 UK: Saturday picks final
     - cron: "30 6,7 * * 0"    # Sun 07:30 UK: Saturday picks graded
@@ -24,7 +24,7 @@ on:
       slot:
         description: "What to run now"
         type: choice
-        options: [standup, report, work, saturday, slip, briefing, refresh, ceo]
+        options: [standup, report, work, saturday, slip, briefing, refresh, review, ceo]
         default: standup
       stage:
         description: "Saturday picks stage (saturday only; blank = by weekday)"

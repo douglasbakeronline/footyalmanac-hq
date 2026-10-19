@@ -1,0 +1,53 @@
+{
+ "settledGroups": 55,
+ "settledLegs": 266,
+ "verdict": "overconfident",
+ "legs": {
+  "n": 266,
+  "hit": 0.7218,
+  "quoted": 0.7937,
+  "gap": -0.0719
+ },
+ "groups": {
+  "n": 55,
+  "won": 9,
+  "hit": 0.1636,
+  "quoted": 0.3238,
+  "gap": -0.1602
+ },
+ "haircut": 0.0719,
+ "confidence": {
+  "lo": -0.1548,
+  "hi": -0.0372,
+  "pNotReal": 0.0004
+ },
+ "ev": {
+  "meanPerLeg": -0.0263,
+  "sharePositive": 0.3008
+ },
+ "estimatedLegs": 91,
+ "advice": "Legs hit 72.2% against 79.4% quoted: overconfident by 7.2% (95% CI -15.5% to -3.7%, p=0.000). Subtract 7.2% from every published probability before banding. Mean EV per leg is -0.026: the desk has no edge and should not publish.",
+ "byBand": {
+  "Steady": {
+   "n": 24,
+   "won": 3,
+   "hit": 0.125,
+   "quoted": 0.387,
+   "gap": -0.262
+  },
+  "Balanced": {
+   "n": 16,
+   "won": 5,
+   "hit": 0.3125,
+   "quoted": 0.3102,
+   "gap": 0.0023
+  },
+  "Stretch": {
+   "n": 15,
+   "won": 1,
+   "hit": 0.0667,
+   "quoted": 0.2371,
+   "gap": -0.1704
+  }
+ }
+}

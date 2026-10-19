@@ -321,6 +321,10 @@ def compose(stage, now, b):
         for g in [g for g in b["groups"] if "alternative" not in g["name"]] or b["groups"]: L += [group_md(g), ""]
     else:
         L += ["**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.", ""]
+    rv = b.get("review")
+    if rv:
+        L += [f"**Ravi (Calibration):** Groupings review asks for a {rv['haircut']:.1%} haircut on every quoted chance, and the chances above already carry it."
+              + (f" Held back today as not value at the real price: {', '.join(rv['dropped'])}." if rv.get("dropped") else " Every group still clears its price after the haircut."), ""]
     L += ["Model probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."]
     return "\n".join(L)
 
@@ -347,6 +351,41 @@ def site_groups(today, now):
     priced = sum(1 for l in pool if not l.get("est"))
     return out, {"priced": priced, "total": len(pool), "site": True, "generated": data.get("generated")}
 
+def apply_review(groups):
+    """Apply the groupings review's calibration to what we publish.
+
+    HQ does not build the groups - it re-executes the upstream groupings.py -
+    so the only honest lever here is the number we print. The review measures
+    how far the quoted probability has drifted from what actually lands; this
+    subtracts that drift and refuses to publish a group that is not positive
+    expected value at its real price.
+
+    Below MIN_GROUPS settled groups there is nothing to learn from yet, so
+    nothing is adjusted and nothing is withheld.
+    """
+    try:
+        review = load(os.path.join(DATA, "groupings-review.json"), {})
+    except Exception:
+        review = {}
+    if not review or review.get("verdict") in (None, "insufficient data"):
+        return groups, None
+
+    haircut = review.get("haircut") or 0.0
+    if haircut <= 0:          # model underconfident or calibrated: leave alone
+        return groups, None
+
+    kept, dropped = [], []
+    for g in groups:
+        p_true = math.prod(max(l.get("p", 0) - haircut, 0.01) for l in g["legs"])
+        ev = p_true * g["odds"] - 1
+        g["pQuoted"] = g["p"]
+        g["p"] = round(p_true, 4)
+        g["ev"] = round(ev, 3)
+        g["haircut"] = haircut
+        (kept if ev >= 0.05 else dropped).append(g)
+    return kept, {"dropped": [g["name"] for g in dropped], "haircut": haircut}
+
+
 def run(stage):
     now = datetime.now(UK); today = now.date().isoformat(); tom = (now.date() + timedelta(days=1)).isoformat()
     legs = legs_for({today, tom})
@@ -358,8 +397,10 @@ def run(stage):
         pricing = price(t_legs)
         groups = build_groups(t_legs, now)
     upcoming = [l for l in t_legs if (S.uk(l["when"]) if l.get("when") else now) > now]
+    groups, reviewPin = apply_review(groups)
     b = {"time": now.isoformat(), "date": today, "stage": stage, "pricing": pricing,
-         "counts": {"today": len(t_legs), "list": sum(1 for l in t_legs if l.get("list")), "tomorrow": len(m_legs)},
+         "review": reviewPin,
+         "counts": {"today": len(t_legs), "list": sum(1 for l in t_legs if l["list"]), "tomorrow": len(m_legs)},
          "impactful": sorted([l for l in upcoming if l["p"] >= 0.6],  key=lambda l: -impact(l))[:6], "tomorrow": sorted([l for l in m_legs if l["p"] >= 0.6], key=lambda l: -impact(l))[:5],
          "groups": groups, "yesterday": yesterday(now.date()) if stage == "briefing" else (load(BRIEF, {}).get("yesterday") or {})}
     for l in b["impactful"] + b["tomorrow"]: l["why"] = why(l)

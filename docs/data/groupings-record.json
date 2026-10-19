@@ -1,0 +1,4257 @@
+{
+ "graded": "2026-10-19T16:19:08Z",
+ "overall": {
+  "groups": 56,
+  "settled": 55,
+  "won": 9,
+  "lost": 46,
+  "pending": 1,
+  "legs": 268,
+  "legsWon": 194,
+  "returned": 36.15,
+  "staked": 55,
+  "expected": 17.81
+ },
+ "byBand": {
+  "Banker": {
+   "groups": 0,
+   "settled": 0,
+   "won": 0,
+   "lost": 0,
+   "pending": 0,
+   "legs": 0,
+   "legsWon": 0,
+   "returned": 0,
+   "staked": 0,
+   "expected": 0
+  },
+  "Steady": {
+   "groups": 25,
+   "settled": 24,
+   "won": 3,
+   "lost": 21,
+   "pending": 1,
+   "legs": 117,
+   "legsWon": 85,
+   "returned": 8.17,
+   "staked": 24,
+   "expected": 9.29
+  },
+  "Balanced": {
+   "groups": 16,
+   "settled": 16,
+   "won": 5,
+   "lost": 11,
+   "pending": 0,
+   "legs": 79,
+   "legsWon": 61,
+   "returned": 20.87,
+   "staked": 16,
+   "expected": 4.96
+  },
+  "Stretch": {
+   "groups": 15,
+   "settled": 15,
+   "won": 1,
+   "lost": 14,
+   "pending": 0,
+   "legs": 72,
+   "legsWon": 48,
+   "returned": 7.11,
+   "staked": 15,
+   "expected": 3.56
+  }
+ },
+ "firstChoice": {
+  "groups": 35,
+  "settled": 34,
+  "won": 6,
+  "lost": 28,
+  "pending": 1,
+  "legs": 169,
+  "legsWon": 128,
+  "returned": 24.83,
+  "staked": 34,
+  "expected": 11.9
+ },
+ "days": [
+  {
+   "date": "2026-10-19",
+   "published": "2026-10-19T00:15:51Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 2.54,
+     "p": 0.3573,
+     "status": "pending",
+     "paid": 0,
+     "legsWon": 2,
+     "legsLost": 0,
+     "legsPending": 3,
+     "legs": [
+      {
+       "pick": "Diriangén",
+       "event": "Rancho Santana v Diriangén",
+       "sport": "football",
+       "comp": "Primera Division",
+       "when": "2026-10-19T01:00:00Z",
+       "odds": 1.25,
+       "est": false,
+       "p": 0.7399,
+       "status": "won",
+       "result": "0-1"
+      },
+      {
+       "pick": "Sorana Cirstea",
+       "event": "Han Shi v Sorana Cirstea",
+       "sport": "tennis",
+       "comp": "BNB Ningbo Open Round 1",
+       "when": "2026-10-19T05:30:00Z",
+       "odds": 1.23,
+       "est": true,
+       "p": 0.8624,
+       "status": "won",
+       "result": "(8) Sorana Cirstea (ROM) bt Han Shi (CHN) 6-3 6-2"
+      },
+      {
+       "pick": "Luunja",
+       "event": "Luunja v Legion",
+       "sport": "football",
+       "comp": "Esiliiga B",
+       "when": "2026-10-19T16:00:00Z",
+       "odds": 1.14,
+       "est": true,
+       "p": 0.8985,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "Bursaspor",
+       "event": "Bursaspor v Pendikspor",
+       "sport": "football",
+       "comp": "1. Lig",
+       "when": "2026-10-19T17:00:00Z",
+       "odds": 1.38,
+       "est": false,
+       "p": 0.7405,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "Al Hilal",
+       "event": "Al Hilal v Al Hazem",
+       "sport": "football",
+       "comp": "Pro League",
+       "when": "2026-10-19T18:00:00Z",
+       "odds": 1.05,
+       "est": false,
+       "p": 0.8416,
+       "status": "pending",
+       "result": null
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 3.93,
+     "p": 0.2758,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 1,
+     "legsLost": 2,
+     "legsPending": 2,
+     "legs": [
+      {
+       "pick": "Thiago Agustin Tirante",
+       "event": "Facundo Diaz Acosta v Thiago Agustin Tirante",
+       "sport": "tennis",
+       "comp": "Almaty Open Round 1",
+       "when": "2026-10-19T06:30:00Z",
+       "odds": 1.37,
+       "est": true,
+       "p": 0.7707,
+       "status": "lost",
+       "result": "Facundo Diaz Acosta (ARG) bt (8) Thiago Agustin Tirante (ARG) 6-7 (3-7) 6-1 6-4"
+      },
+      {
+       "pick": "Jaime Faria",
+       "event": "Felix Balshaw v Jaime Faria",
+       "sport": "tennis",
+       "comp": "Grand Prix Auvergne-Rhône-Alpes Round 1",
+       "when": "2026-10-19T13:00:00Z",
+       "odds": 1.3,
+       "est": true,
+       "p": 0.7758,
+       "status": "lost",
+       "result": "Felix Balshaw (FRA) bt Jaime Faria (POR) 6-2 4-6 6-3"
+      },
+      {
+       "pick": "Alex Michelsen",
+       "event": "Alex Michelsen v Andrea Guerrieri",
+       "sport": "tennis",
+       "comp": "BNP Paribas Fortis European Open Round 1",
+       "when": "2026-10-19T13:30:00Z",
+       "odds": 1.4,
+       "est": true,
+       "p": 0.7687,
+       "status": "won",
+       "result": "(5) Alex Michelsen (USA) bt Andrea Guerrieri (ITA) 6-1 6-2"
+      },
+      {
+       "pick": "Al Kuwait",
+       "event": "Al Kuwait v Al Sulaibikhat",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-19T14:40:00Z",
+       "odds": 1.11,
+       "est": false,
+       "p": 0.7824,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "Lorenzo Sonego",
+       "event": "Moise Kouame v Lorenzo Sonego",
+       "sport": "tennis",
+       "comp": "Grand Prix Auvergne-Rhône-Alpes Round 1",
+       "when": "2026-10-19T16:00:00Z",
+       "odds": 1.42,
+       "est": true,
+       "p": 0.7671,
+       "status": "pending",
+       "result": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "published": "2026-10-18T00:04:27Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 2.68,
+     "p": 0.5272,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Managua",
+       "event": "Managua v Matagalpa",
+       "sport": "football",
+       "comp": "Primera Division",
+       "when": "2026-10-18T01:00:00Z",
+       "odds": 1.14,
+       "est": false,
+       "p": 0.8991,
+       "status": "won",
+       "result": "4-1"
+      },
+      {
+       "pick": "Tartu Welco",
+       "event": "Tartu Welco v Nõmme United II",
+       "sport": "football",
+       "comp": "Esiliiga A",
+       "when": "2026-10-18T09:30:00Z",
+       "odds": 1.59,
+       "est": false,
+       "p": 0.8072,
+       "status": "won",
+       "result": "4-3"
+      },
+      {
+       "pick": "Karlskrona",
+       "event": "Karlskrona v Räppe",
+       "sport": "football",
+       "comp": "Division 2 - Södra Götaland",
+       "when": "2026-10-18T12:00:00Z",
+       "odds": 1.19,
+       "est": false,
+       "p": 0.8984,
+       "status": "won",
+       "result": "4-0"
+      },
+      {
+       "pick": "KI Klaksvik",
+       "event": "KI Klaksvik v B68",
+       "sport": "football",
+       "comp": "Meistaradeildin",
+       "when": "2026-10-18T14:00:00Z",
+       "odds": 1.08,
+       "est": false,
+       "p": 0.9002,
+       "status": "lost",
+       "result": "0-1"
+      },
+      {
+       "pick": "Izarra",
+       "event": "Izarra v Txantrea",
+       "sport": "football",
+       "comp": "Tercera División RFEF - Group 15",
+       "when": "2026-10-18T15:00:00Z",
+       "odds": 1.15,
+       "est": true,
+       "p": 0.8982,
+       "status": "lost",
+       "result": "0-0"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.03,
+     "p": 0.3939,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Valmiera / BSS",
+       "event": "Valmiera / BSS v Tukums II",
+       "sport": "football",
+       "comp": "1. Liga",
+       "when": "2026-10-18T11:00:00Z",
+       "odds": 1.12,
+       "est": true,
+       "p": 0.8995,
+       "status": "lost",
+       "result": "2-2"
+      },
+      {
+       "pick": "Angkor Tiger",
+       "event": "Angkor Tiger v National Defense",
+       "sport": "football",
+       "comp": "C-League",
+       "when": "2026-10-18T11:00:00Z",
+       "odds": 1.16,
+       "est": true,
+       "p": 0.898,
+       "status": "won",
+       "result": "6-0"
+      },
+      {
+       "pick": "Farsta",
+       "event": "Farsta v Lindo FF",
+       "sport": "football",
+       "comp": "Division 2 - Södra Svealand",
+       "when": "2026-10-18T12:00:00Z",
+       "odds": 1.33,
+       "est": false,
+       "p": 0.7826,
+       "status": "won",
+       "result": "3-2"
+      },
+      {
+       "pick": "Sturm Graz",
+       "event": "Sturm Graz v Grazer AK",
+       "sport": "football",
+       "comp": "Bundesliga",
+       "when": "2026-10-18T15:00:00Z",
+       "odds": 1.81,
+       "est": false,
+       "p": 0.7624,
+       "status": "won",
+       "result": "6-1"
+      },
+      {
+       "pick": "New England Patriots",
+       "event": "New England Patriots v New York Jets",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-18T17:00Z",
+       "odds": 1.29,
+       "est": false,
+       "p": 0.8173,
+       "status": "won",
+       "result": "26-19"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 7.12,
+     "p": 0.2868,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 1,
+     "legsPending": 1,
+     "legs": [
+      {
+       "pick": "Brighton & Hove Albion",
+       "event": "Brighton & Hove Albion v Crystal Palace",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-18T13:00:00Z",
+       "odds": 1.5,
+       "est": false,
+       "p": 0.7706,
+       "status": "won",
+       "result": "5-0"
+      },
+      {
+       "pick": "NSI Runavik",
+       "event": "NSI Runavik v 07 Vestur",
+       "sport": "football",
+       "comp": "Meistaradeildin",
+       "when": "2026-10-18T14:00:00Z",
+       "odds": 1.24,
+       "est": false,
+       "p": 0.8091,
+       "status": "won",
+       "result": "1-0"
+      },
+      {
+       "pick": "Cieza",
+       "event": "Cieza v Valencia II",
+       "sport": "football",
+       "comp": "Segunda División RFEF - Group 3",
+       "when": "2026-10-18T15:00:00Z",
+       "odds": 1.92,
+       "est": false,
+       "p": 0.7398,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "Olympique Lyonnais",
+       "event": "Olympique Lyonnais v OGC Nice",
+       "sport": "football",
+       "comp": "Ligue 1",
+       "when": "2026-10-18T18:45:00Z",
+       "odds": 1.78,
+       "est": false,
+       "p": 0.7674,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Los Angeles Rams",
+       "event": "Los Angeles Rams v Arizona Cardinals",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-18T20:05Z",
+       "odds": 1.12,
+       "est": false,
+       "p": 0.8103,
+       "status": "lost",
+       "result": "16-18"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 3.87,
+     "p": 0.265,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Tottenham Hotspur U21",
+       "event": "Tottenham Hotspur U21 v Leicester City U21",
+       "sport": "football",
+       "comp": "Premier League 2 Division One",
+       "when": "2026-10-18T12:00:00Z",
+       "odds": 1.53,
+       "est": false,
+       "p": 0.7656,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Tarxien Rainbows",
+       "event": "Tarxien Rainbows v Zebbug Rangers",
+       "sport": "football",
+       "comp": "Challenge League",
+       "when": "2026-10-18T15:00:00Z",
+       "odds": 1.26,
+       "est": false,
+       "p": 0.7825,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Panathinaikos",
+       "event": "Panathinaikos v Asteras Tripolis",
+       "sport": "football",
+       "comp": "Super League",
+       "when": "2026-10-18T16:00:00Z",
+       "odds": 1.2,
+       "est": false,
+       "p": 0.7715,
+       "status": "won",
+       "result": "5-1"
+      },
+      {
+       "pick": "FC Twente '65",
+       "event": "FC Twente '65 v FC Utrecht",
+       "sport": "football",
+       "comp": "Eredivisie",
+       "when": "2026-10-18T18:00:00Z",
+       "odds": 1.35,
+       "est": false,
+       "p": 0.7659,
+       "status": "lost",
+       "result": "1-2"
+      },
+      {
+       "pick": "Kansas City Chiefs",
+       "event": "Kansas City Chiefs v Los Angeles Chargers",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-18T20:25Z",
+       "odds": 1.24,
+       "est": false,
+       "p": 0.7485,
+       "status": "won",
+       "result": "22-6"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "alternative",
+     "odds": 4.78,
+     "p": 0.2332,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Hammarby IF",
+       "event": "Halmstads BK v Hammarby IF",
+       "sport": "football",
+       "comp": "Allsvenskan",
+       "when": "2026-10-18T14:30:00Z",
+       "odds": 1.23,
+       "est": false,
+       "p": 0.7697,
+       "status": "won",
+       "result": "0-1"
+      },
+      {
+       "pick": "F.C. København",
+       "event": "F.C. København v AGF",
+       "sport": "football",
+       "comp": "Superliga",
+       "when": "2026-10-18T16:00:00Z",
+       "odds": 1.61,
+       "est": false,
+       "p": 0.6853,
+       "status": "lost",
+       "result": "1-1"
+      },
+      {
+       "pick": "Indianapolis Colts",
+       "event": "Indianapolis Colts v Tennessee Titans",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-18T17:00Z",
+       "odds": 1.29,
+       "est": false,
+       "p": 0.7585,
+       "status": "lost",
+       "result": "20-26"
+      },
+      {
+       "pick": "Real Madrid",
+       "event": "Real Madrid v Sevilla",
+       "sport": "football",
+       "comp": "La Liga",
+       "when": "2026-10-18T19:00:00Z",
+       "odds": 1.24,
+       "est": false,
+       "p": 0.766,
+       "status": "won",
+       "result": "4-1"
+      },
+      {
+       "pick": "Cienciano del Cusco",
+       "event": "Cienciano del Cusco v UTC",
+       "sport": "football",
+       "comp": "Liga 1",
+       "when": "2026-10-18T23:30:00Z",
+       "odds": 1.51,
+       "est": true,
+       "p": 0.761,
+       "status": "won",
+       "result": "1-0"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "alternative",
+     "odds": 7.42,
+     "p": 0.198,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 1,
+     "legsPending": 1,
+     "legs": [
+      {
+       "pick": "Seoul E-Land",
+       "event": "Seoul E-Land v Gimhae City",
+       "sport": "football",
+       "comp": "K League 2",
+       "when": "2026-10-18T05:00:00Z",
+       "odds": 1.37,
+       "est": false,
+       "p": 0.7401,
+       "status": "won",
+       "result": "6-2"
+      },
+      {
+       "pick": "FC Salzburg",
+       "event": "FC Salzburg v SCR Altach",
+       "sport": "football",
+       "comp": "Bundesliga",
+       "when": "2026-10-18T12:30:00Z",
+       "odds": 1.38,
+       "est": false,
+       "p": 0.7318,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "Pistoiese",
+       "event": "Pistoiese v Pavia",
+       "sport": "football",
+       "comp": "Serie D - Girone D",
+       "when": "2026-10-18T13:00:00Z",
+       "odds": 1.33,
+       "est": true,
+       "p": 0.7407,
+       "status": "won",
+       "result": "1-0"
+      },
+      {
+       "pick": "Philadelphia Eagles",
+       "event": "Philadelphia Eagles v Carolina Panthers",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-18T17:00Z",
+       "odds": 2.4,
+       "est": false,
+       "p": 0.6501,
+       "status": "lost",
+       "result": "14-25"
+      },
+      {
+       "pick": "PAOK",
+       "event": "PAOK v Iraklis 1908",
+       "sport": "football",
+       "comp": "Super League",
+       "when": "2026-10-18T18:00:00Z",
+       "odds": 1.23,
+       "est": false,
+       "p": 0.7591,
+       "status": "won",
+       "result": "2-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "published": "2026-10-17T00:29:51Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 3.21,
+     "p": 0.464,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Iga Swiatek",
+       "event": "Maja Chwalinska v Iga Swiatek",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Semifinal",
+       "when": "2026-10-17T10:30:00Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.86,
+       "status": "lost",
+       "result": "(16) Maja Chwalinska (POL) bt (7) Iga Swiatek (POL) 7-5 6-1"
+      },
+      {
+       "pick": "Stockholm Internazionale",
+       "event": "Stockholm Internazionale v Gefle IF",
+       "sport": "football",
+       "comp": "Ettan - Norra",
+       "when": "2026-10-17T14:00:00Z",
+       "odds": 1.24,
+       "est": false,
+       "p": 0.809,
+       "status": "lost",
+       "result": "1-1"
+      },
+      {
+       "pick": "Boreham Wood",
+       "event": "Boreham Wood v Woking",
+       "sport": "football",
+       "comp": "FA Cup qualifying",
+       "when": "2026-10-17T14:00:00Z",
+       "odds": 1.43,
+       "est": false,
+       "p": 0.7713,
+       "status": "won",
+       "result": "3-2"
+      },
+      {
+       "pick": "James Madison Dukes",
+       "event": "James Madison Dukes v Georgia State Panthers",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T16:00Z",
+       "odds": 1.28,
+       "est": false,
+       "p": 0.9285,
+       "status": "won",
+       "result": "49-22"
+      },
+      {
+       "pick": "North Dakota State Bison",
+       "event": "North Dakota State Bison v Nevada Wolf Pack",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T23:00Z",
+       "odds": 1.14,
+       "est": false,
+       "p": 0.9312,
+       "status": "won",
+       "result": "31-17"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.14,
+     "p": 0.3945,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Gyulai Termál",
+       "event": "Gyulai Termál v Monori Se",
+       "sport": "football",
+       "comp": "NB III - Southeast",
+       "when": "2026-10-17T11:00:00Z",
+       "odds": 1.3,
+       "est": true,
+       "p": 0.7827,
+       "status": "won",
+       "result": "4-1"
+      },
+      {
+       "pick": "Folkestone Invicta",
+       "event": "Folkestone Invicta v AFC Totton",
+       "sport": "football",
+       "comp": "National League South",
+       "when": "2026-10-17T14:00:00Z",
+       "odds": 1.61,
+       "est": false,
+       "p": 0.7693,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Texas Longhorns",
+       "event": "Texas Longhorns v Florida Gators",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T16:00Z",
+       "odds": 1.23,
+       "est": false,
+       "p": 0.9215,
+       "status": "lost",
+       "result": "24-27"
+      },
+      {
+       "pick": "Texas Tech Red Raiders",
+       "event": "Texas Tech Red Raiders v Arizona State Sun Devils",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T19:30Z",
+       "odds": 1.14,
+       "est": false,
+       "p": 0.9224,
+       "status": "won",
+       "result": "53-25"
+      },
+      {
+       "pick": "Club Olimpia",
+       "event": "Club Olimpia v 2 de Mayo",
+       "sport": "football",
+       "comp": "División Profesional",
+       "when": "2026-10-17T22:20:00Z",
+       "odds": 1.41,
+       "est": false,
+       "p": 0.7708,
+       "status": "won",
+       "result": "3-0"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 7.33,
+     "p": 0.3202,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Alexander Zverev",
+       "event": "Alejandro Davidovich Fokina v Alexander Zverev",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Semifinal",
+       "when": "2026-10-17T08:30:00Z",
+       "odds": 1.42,
+       "est": true,
+       "p": 0.767,
+       "status": "lost",
+       "result": "(25) Alejandro Davidovich Fokina (ESP) bt (1) Alexander Zverev (GER) 5-7 6-4 6-3"
+      },
+      {
+       "pick": "Harborough Town",
+       "event": "Harborough Town v Spennymoor Town",
+       "sport": "football",
+       "comp": "FA Cup qualifying",
+       "when": "2026-10-17T14:00:00Z",
+       "odds": 1.66,
+       "est": false,
+       "p": 0.7633,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "Sporting Gijón",
+       "event": "Sporting Gijón v Albacete",
+       "sport": "football",
+       "comp": "LaLiga 2",
+       "when": "2026-10-17T16:30:00Z",
+       "odds": 1.93,
+       "est": false,
+       "p": 0.6812,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Miami Hurricanes",
+       "event": "Miami Hurricanes v Florida State Seminoles",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T23:00Z",
+       "odds": 1.06,
+       "est": false,
+       "p": 0.9316,
+       "status": "won",
+       "result": "43-35"
+      },
+      {
+       "pick": "Houston Cougars",
+       "event": "Houston Cougars v Oklahoma State Cowboys",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T23:30Z",
+       "odds": 1.52,
+       "est": false,
+       "p": 0.8618,
+       "status": "won",
+       "result": "35-32"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 2.5,
+     "p": 0.3997,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 2,
+     "legsLost": 2,
+     "legsPending": 1,
+     "legs": [
+      {
+       "pick": "Cigand SE",
+       "event": "Cigand SE v Hajdúnánás",
+       "sport": "football",
+       "comp": "NB III - Northeast",
+       "when": "2026-10-17T11:00:00Z",
+       "odds": 1.19,
+       "est": true,
+       "p": 0.8089,
+       "status": "won",
+       "result": "6-0"
+      },
+      {
+       "pick": "Altyn Asyr",
+       "event": "Altyn Asyr v Köpetdag Aşgabat",
+       "sport": "football",
+       "comp": "Ýokary Liga",
+       "when": "2026-10-17T13:00:00Z",
+       "odds": 1.2,
+       "est": true,
+       "p": 0.8088,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "Georgia Bulldogs",
+       "event": "Georgia Bulldogs v Auburn Tigers",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T19:30Z",
+       "odds": 1.07,
+       "est": false,
+       "p": 0.9313,
+       "status": "lost",
+       "result": "24-27"
+      },
+      {
+       "pick": "Deportivo La Guaira",
+       "event": "Deportivo La Guaira v Trujillanos",
+       "sport": "football",
+       "comp": "Primera División",
+       "when": "2026-10-17T20:00:00Z",
+       "odds": 1.53,
+       "est": false,
+       "p": 0.7564,
+       "status": "lost",
+       "result": "1-2"
+      },
+      {
+       "pick": "South Florida Bulls",
+       "event": "South Florida Bulls v Kent State Golden Flashes",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T23:00Z",
+       "odds": 1.07,
+       "est": false,
+       "p": 0.8672,
+       "status": "won",
+       "result": "29-2"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "alternative",
+     "odds": 4.11,
+     "p": 0.3213,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 2,
+     "legsLost": 3,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Grorud",
+       "event": "Grorud v Follo",
+       "sport": "football",
+       "comp": "2. Division - Group 2",
+       "when": "2026-10-17T12:00:00Z",
+       "odds": 1.19,
+       "est": false,
+       "p": 0.8075,
+       "status": "lost",
+       "result": "1-3"
+      },
+      {
+       "pick": "B71",
+       "event": "B71 v ÍF II",
+       "sport": "football",
+       "comp": "1. Deild",
+       "when": "2026-10-17T14:00:00Z",
+       "odds": 1.32,
+       "est": true,
+       "p": 0.7824,
+       "status": "won",
+       "result": "6-0"
+      },
+      {
+       "pick": "Barrow",
+       "event": "Barrow v Gloucester City",
+       "sport": "football",
+       "comp": "FA Cup qualifying",
+       "when": "2026-10-17T14:00:00Z",
+       "odds": 1.37,
+       "est": false,
+       "p": 0.7652,
+       "status": "lost",
+       "result": "0-0"
+      },
+      {
+       "pick": "Army Black Knights",
+       "event": "Army Black Knights v Florida Atlantic Owls",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T16:00Z",
+       "odds": 1.8,
+       "est": false,
+       "p": 0.7688,
+       "status": "won",
+       "result": "56-24"
+      },
+      {
+       "pick": "Temple Owls",
+       "event": "Temple Owls v Charlotte 49ers",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T17:00Z",
+       "odds": 1.06,
+       "est": false,
+       "p": 0.8644,
+       "status": "lost",
+       "result": "31-38"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "alternative",
+     "odds": 7.02,
+     "p": 0.2771,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 2,
+     "legsLost": 3,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Selangor",
+       "event": "Selangor v Penang",
+       "sport": "football",
+       "comp": "Super League",
+       "when": "2026-10-17T12:15:00Z",
+       "odds": 1.18,
+       "est": false,
+       "p": 0.8072,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "Altrincham",
+       "event": "Altrincham v FC United of Manchester",
+       "sport": "football",
+       "comp": "FA Cup qualifying",
+       "when": "2026-10-17T14:00:00Z",
+       "odds": 1.34,
+       "est": false,
+       "p": 0.7624,
+       "status": "lost",
+       "result": "0-0"
+      },
+      {
+       "pick": "Indiana Hoosiers",
+       "event": "Indiana Hoosiers v Ohio State Buckeyes",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T16:00Z",
+       "odds": 2.36,
+       "est": false,
+       "p": 0.719,
+       "status": "lost",
+       "result": "15-19"
+      },
+      {
+       "pick": "Duke Blue Devils",
+       "event": "Duke Blue Devils v North Carolina Tar Heels",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-17T19:30Z",
+       "odds": 1.65,
+       "est": false,
+       "p": 0.7747,
+       "status": "lost",
+       "result": "20-24"
+      },
+      {
+       "pick": "Cavalry",
+       "event": "Cavalry v Pacific",
+       "sport": "football",
+       "comp": "Canadian Premier League",
+       "when": "2026-10-17T20:00:00Z",
+       "odds": 1.14,
+       "est": false,
+       "p": 0.8083,
+       "status": "won",
+       "result": "4-2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "published": "2026-10-16T00:24:56Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 3.0,
+     "p": 0.3338,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Sport Academy Kairat",
+       "event": "Sport Academy Kairat v Ekibastuz",
+       "sport": "football",
+       "comp": "1. Division",
+       "when": "2026-10-16T10:00:00Z",
+       "odds": 1.08,
+       "est": true,
+       "p": 0.9007,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Iga Swiatek",
+       "event": "Iga Swiatek v Ann Li",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Quarterfinal",
+       "when": "2026-10-16T11:00:00Z",
+       "odds": 1.28,
+       "est": true,
+       "p": 0.859,
+       "status": "won",
+       "result": "(7) Iga Swiatek (POL) bt Ann Li (USA) 6-4 6-1"
+      },
+      {
+       "pick": "Al Qadsiah",
+       "event": "Al Qadsiah v Abha",
+       "sport": "football",
+       "comp": "Pro League",
+       "when": "2026-10-16T13:15:00Z",
+       "odds": 1.11,
+       "est": false,
+       "p": 0.8383,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "FC Rot-Weiß Erfurt",
+       "event": "FC Rot-Weiß Erfurt v FSV Zwickau",
+       "sport": "football",
+       "comp": "Regionalliga - Nordost",
+       "when": "2026-10-16T17:00:00Z",
+       "odds": 1.55,
+       "est": false,
+       "p": 0.6795,
+       "status": "lost",
+       "result": "2-2"
+      },
+      {
+       "pick": "Rapid Wien",
+       "event": "Rapid Wien v TSV Hartberg",
+       "sport": "football",
+       "comp": "Bundesliga",
+       "when": "2026-10-16T17:30:00Z",
+       "odds": 1.26,
+       "est": false,
+       "p": 0.7573,
+       "status": "won",
+       "result": "3-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "published": "2026-10-15T00:34:35Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 3.18,
+     "p": 0.3203,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Elina Svitolina",
+       "event": "Hanyu Guo v Elina Svitolina",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 3",
+       "when": "2026-10-15T04:30:00Z",
+       "odds": 1.14,
+       "est": true,
+       "p": 0.9218,
+       "status": "won",
+       "result": "(5) Elina Svitolina (UKR) bt Hanyu Guo (CHN) 6-1 6-4"
+      },
+      {
+       "pick": "Clara Burel",
+       "event": "Clara Burel v Mathilde Lollia",
+       "sport": "tennis",
+       "comp": "Lisboa Belem Open Round 2",
+       "when": "2026-10-15T13:00:00Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.8608,
+       "status": "won",
+       "result": "Clara Burel (FRA) bt Mathilde Lollia (FRA) 6-0 6-1"
+      },
+      {
+       "pick": "Sint-Truidense",
+       "event": "Sint-Truidense v Iberia 1999",
+       "sport": "football",
+       "comp": "Conference League",
+       "when": "2026-10-15T19:00:00Z",
+       "odds": 1.27,
+       "est": false,
+       "p": 0.7585,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "AFC Bournemouth",
+       "event": "AFC Bournemouth v SK Sturm Graz",
+       "sport": "football",
+       "comp": "Europa League",
+       "when": "2026-10-15T19:00:00Z",
+       "odds": 1.19,
+       "est": false,
+       "p": 0.7422,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "East Carolina Pirates",
+       "event": "UAB Blazers v East Carolina Pirates",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-15T23:30Z",
+       "odds": 1.49,
+       "est": false,
+       "p": 0.717,
+       "status": "lost",
+       "result": "30-17"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 6.35,
+     "p": 0.3082,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Laura Samson",
+       "event": "Laura Samson v Lucie Nguyen Tan",
+       "sport": "tennis",
+       "comp": "Vanda Pharmaceuticals Mallorca Women's Championships Round 2",
+       "when": "2026-10-15T09:30:00Z",
+       "odds": 1.32,
+       "est": true,
+       "p": 0.8533,
+       "status": "won",
+       "result": "(2) Laura Samson (CZE) bt Lucie Nguyen Tan (FRA) 6-0 6-3"
+      },
+      {
+       "pick": "Iga Swiatek",
+       "event": "Iga Swiatek v Ashlyn Krueger",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 3",
+       "when": "2026-10-15T11:00:00Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.8599,
+       "status": "won",
+       "result": "(7) Iga Swiatek (POL) bt Ashlyn Krueger (USA) 6-1 6-4"
+      },
+      {
+       "pick": "FC Twente",
+       "event": "FC Twente v FC Thun",
+       "sport": "football",
+       "comp": "Conference League",
+       "when": "2026-10-15T19:00:00Z",
+       "odds": 1.21,
+       "est": false,
+       "p": 0.7413,
+       "status": "won",
+       "result": "1-0"
+      },
+      {
+       "pick": "Envigado",
+       "event": "Envigado v Real Santander",
+       "sport": "football",
+       "comp": "Primera B",
+       "when": "2026-10-15T19:00:00Z",
+       "odds": 1.58,
+       "est": false,
+       "p": 0.6793,
+       "status": "lost",
+       "result": "1-1"
+      },
+      {
+       "pick": "Dinamo Zagreb",
+       "event": "Dinamo Zagreb v Anderlecht",
+       "sport": "football",
+       "comp": "Europa League",
+       "when": "2026-10-15T19:00:00Z",
+       "odds": 2.03,
+       "est": false,
+       "p": 0.8341,
+       "status": "won",
+       "result": "1-0"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 10.14,
+     "p": 0.1923,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Karolina Muchova",
+       "event": "Diana Shnaider v Karolina Muchova",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 3",
+       "when": "2026-10-15T03:00:00Z",
+       "odds": 1.45,
+       "est": true,
+       "p": 0.7498,
+       "status": "lost",
+       "result": "(11) Diana Shnaider (RUS) bt (6) Karolina Muchova (CZE) 7-5 6-3"
+      },
+      {
+       "pick": "Mingəçevir",
+       "event": "Mingəçevir v Şimal",
+       "sport": "football",
+       "comp": "Birinci Dasta",
+       "when": "2026-10-15T11:00:00Z",
+       "odds": 2.68,
+       "est": false,
+       "p": 0.7398,
+       "status": "lost",
+       "result": "1-4"
+      },
+      {
+       "pick": "Tamara Zidansek",
+       "event": "Joelle Lilly Sophie Steur v Tamara Zidansek",
+       "sport": "tennis",
+       "comp": "Vanda Pharmaceuticals Mallorca Women's Championships Round 2",
+       "when": "2026-10-15T11:30:00Z",
+       "odds": 1.46,
+       "est": true,
+       "p": 0.7491,
+       "status": "won",
+       "result": "(6) Tamara Zidansek (SLO) bt Joelle Lilly Sophie Steur (GER) 6-2 6-1"
+      },
+      {
+       "pick": "Tartu Welco",
+       "event": "FC Tallinn v Tartu Welco",
+       "sport": "football",
+       "comp": "Esiliiga A",
+       "when": "2026-10-15T16:00:00Z",
+       "odds": 1.43,
+       "est": false,
+       "p": 0.679,
+       "status": "won",
+       "result": "0-7"
+      },
+      {
+       "pick": "SC Freiburg",
+       "event": "SC Freiburg v Jablonec",
+       "sport": "football",
+       "comp": "Conference League",
+       "when": "2026-10-15T19:00:00Z",
+       "odds": 1.25,
+       "est": false,
+       "p": 0.6816,
+       "status": "won",
+       "result": "3-2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "published": "2026-10-13T23:24:20Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 3.25,
+     "p": 0.3719,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Iga Swiatek",
+       "event": "Iga Swiatek v Magdalena Frech",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 2",
+       "when": "2026-10-14T03:00:00Z",
+       "odds": 1.17,
+       "est": true,
+       "p": 0.9133,
+       "status": "won",
+       "result": "(7) Iga Swiatek (POL) bt Magdalena Frech (POL) 6-2 6-1"
+      },
+      {
+       "pick": "Aryna Sabalenka",
+       "event": "Ann Li v Aryna Sabalenka",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 2",
+       "when": "2026-10-14T11:00:00Z",
+       "odds": 1.19,
+       "est": true,
+       "p": 0.8707,
+       "status": "lost",
+       "result": "Ann Li (USA) bt (1) Aryna Sabalenka (BLR) 3-6 6-4 7-6 (7-5)"
+      },
+      {
+       "pick": "Parnu JK Vaprus U21",
+       "event": "Parnu JK Vaprus U21 v JK Tabasalu",
+       "sport": "football",
+       "comp": "Esiliiga B",
+       "when": "2026-10-14T15:00:00Z",
+       "odds": 1.43,
+       "est": false,
+       "p": 0.8074,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "FCI Levadia II",
+       "event": "FCI Levadia II v Nõmme Kalju II",
+       "sport": "football",
+       "comp": "Esiliiga A",
+       "when": "2026-10-14T16:00:00Z",
+       "odds": 1.34,
+       "est": false,
+       "p": 0.7825,
+       "status": "won",
+       "result": "1-0"
+      },
+      {
+       "pick": "Haugesund",
+       "event": "Haugesund v Lyn",
+       "sport": "football",
+       "comp": "1. Division",
+       "when": "2026-10-14T17:00:00Z",
+       "odds": 1.22,
+       "est": false,
+       "p": 0.7402,
+       "status": "won",
+       "result": "3-0"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 5.3,
+     "p": 0.288,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Jessica Pegula",
+       "event": "Jessica Pegula v Jelena Ostapenko",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 2",
+       "when": "2026-10-14T06:00:00Z",
+       "odds": 1.22,
+       "est": true,
+       "p": 0.8644,
+       "status": "lost",
+       "result": "Jelena Ostapenko (LAT) bt (2) Jessica Pegula (USA) 2-6 7-6 (9-7) 6-3"
+      },
+      {
+       "pick": "Fiona Ferro",
+       "event": "Fiona Ferro v Selena Janicijevic",
+       "sport": "tennis",
+       "comp": "Lisboa Belem Open Round 2",
+       "when": "2026-10-14T10:00:00Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.8598,
+       "status": "won",
+       "result": "(3) Fiona Ferro (FRA) bt Selena Janicijevic (FRA) 7-5 6-1"
+      },
+      {
+       "pick": "Batman Petrolspor",
+       "event": "Batman Petrolspor v İstanbulspor",
+       "sport": "football",
+       "comp": "1. Lig",
+       "when": "2026-10-14T11:30:00Z",
+       "odds": 1.63,
+       "est": false,
+       "p": 0.7404,
+       "status": "won",
+       "result": "4-2"
+      },
+      {
+       "pick": "Liverpool",
+       "event": "LASK Linz v Liverpool",
+       "sport": "football",
+       "comp": "Champions League",
+       "when": "2026-10-14T16:45:00Z",
+       "odds": 1.31,
+       "est": false,
+       "p": 0.6887,
+       "status": "won",
+       "result": "3-6"
+      },
+      {
+       "pick": "Aston Villa",
+       "event": "Aston Villa v Fenerbahce",
+       "sport": "football",
+       "comp": "Champions League",
+       "when": "2026-10-14T19:00:00Z",
+       "odds": 1.64,
+       "est": false,
+       "p": 0.76,
+       "status": "won",
+       "result": "6-0"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 7.05,
+     "p": 0.2447,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 2,
+     "legsLost": 3,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Katie Volynets",
+       "event": "Hanyu Guo v Katie Volynets",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 2",
+       "when": "2026-10-14T06:00:00Z",
+       "odds": 1.31,
+       "est": true,
+       "p": 0.8553,
+       "status": "lost",
+       "result": "Hanyu Guo (CHN) bt Katie Volynets (USA) 6-4 4-6 7-6 (7-3)"
+      },
+      {
+       "pick": "Punjab",
+       "event": "Punjab v Odisha",
+       "sport": "football",
+       "comp": "Super League",
+       "when": "2026-10-14T14:00:00Z",
+       "odds": 1.57,
+       "est": false,
+       "p": 0.6858,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Guiomar Maristany Zuleta De Reales",
+       "event": "Guiomar Maristany Zuleta De Reales v Martha Matoula",
+       "sport": "tennis",
+       "comp": "Lisboa Belem Open Round 2",
+       "when": "2026-10-14T14:30:00Z",
+       "odds": 1.28,
+       "est": true,
+       "p": 0.8597,
+       "status": "won",
+       "result": "(5) Guiomar Maristany Zuleta De Reales (ESP) bt Martha Matoula (GRE) 6-0 7-6 (7-4)"
+      },
+      {
+       "pick": "Bryne",
+       "event": "Bryne v Raufoss",
+       "sport": "football",
+       "comp": "1. Division",
+       "when": "2026-10-14T17:00:00Z",
+       "odds": 1.24,
+       "est": false,
+       "p": 0.6791,
+       "status": "lost",
+       "result": "1-1"
+      },
+      {
+       "pick": "Manchester City",
+       "event": "Manchester City v Paris Saint-Germain",
+       "sport": "football",
+       "comp": "Champions League",
+       "when": "2026-10-14T19:00:00Z",
+       "odds": 2.16,
+       "est": false,
+       "p": 0.7145,
+       "status": "lost",
+       "result": "2-4"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 3.88,
+     "p": 0.2676,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Karolina Muchova",
+       "event": "Caty Mcnally v Karolina Muchova",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 2",
+       "when": "2026-10-14T04:30:00Z",
+       "odds": 1.31,
+       "est": true,
+       "p": 0.8548,
+       "status": "won",
+       "result": "(6) Karolina Muchova (CZE) bt Catherine McNally (USA) 3-6 7-6 (7-1) 7-6 (7-4)"
+      },
+      {
+       "pick": "Julia Grabher",
+       "event": "Lidia Encheva v Julia Grabher",
+       "sport": "tennis",
+       "comp": "Vanda Pharmaceuticals Mallorca Women's Championships Round 2",
+       "when": "2026-10-14T09:30:00Z",
+       "odds": 1.35,
+       "est": true,
+       "p": 0.7277,
+       "status": "won",
+       "result": "(1) Julia Grabher (AUT) bt Lidia Encheva (BUL) 4-6 7-5 6-4"
+      },
+      {
+       "pick": "Leylah Fernandez",
+       "event": "Leylah Fernandez v Han Shi",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 2",
+       "when": "2026-10-14T12:30:00Z",
+       "odds": 1.29,
+       "est": true,
+       "p": 0.8585,
+       "status": "won",
+       "result": "Leylah Fernandez (CAN) bt Han Shi (CHN) 6-3 6-4"
+      },
+      {
+       "pick": "Royal Vision",
+       "event": "Royal Vision v Kayanza United",
+       "sport": "football",
+       "comp": "Ligue A",
+       "when": "2026-10-14T13:45:00Z",
+       "odds": 1.37,
+       "est": true,
+       "p": 0.7402,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "Atlético Junior",
+       "event": "Atlético Junior v Deportivo Pereira",
+       "sport": "football",
+       "comp": "Primera A",
+       "when": "2026-10-14T21:30:00Z",
+       "odds": 1.24,
+       "est": false,
+       "p": 0.6771,
+       "status": "lost",
+       "result": "1-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "published": "2026-10-12T23:33:30Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 3.74,
+     "p": 0.5149,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Raluka Serban",
+       "event": "Raluka Serban v Analu Freitas",
+       "sport": "tennis",
+       "comp": "Lisboa Belem Open Round 1",
+       "when": "2026-10-13T11:30:00Z",
+       "odds": 1.06,
+       "est": true,
+       "p": 0.9451,
+       "status": "won",
+       "result": "Raluka Serban (CYP) bt Analu Freitas (POR) 6-1 6-1"
+      },
+      {
+       "pick": "Jessica Bouzas Maneiro",
+       "event": "Milana Ivantsiv v Jessica Bouzas Maneiro",
+       "sport": "tennis",
+       "comp": "Lisboa Belem Open Round 1",
+       "when": "2026-10-13T14:30:00Z",
+       "odds": 1.06,
+       "est": true,
+       "p": 0.9449,
+       "status": "won",
+       "result": "(1) Jessica Bouzas Maneiro (ESP) bt Milana Ivantsiv (POR) 6-2 6-1"
+      },
+      {
+       "pick": "Slavia Prague",
+       "event": "Sabah FK v Slavia Prague",
+       "sport": "football",
+       "comp": "Champions League",
+       "when": "2026-10-13T16:45:00Z",
+       "odds": 2.04,
+       "est": false,
+       "p": 0.8383,
+       "status": "lost",
+       "result": "2-0"
+      },
+      {
+       "pick": "IFK Norrkoping",
+       "event": "IFK Norrkoping v GIF Sundsvall",
+       "sport": "football",
+       "comp": "Superettan",
+       "when": "2026-10-13T17:00:00Z",
+       "odds": 1.19,
+       "est": false,
+       "p": 0.8979,
+       "status": "won",
+       "result": "4-0"
+      },
+      {
+       "pick": "Ebbsfleet United",
+       "event": "Ebbsfleet United v AFC Totton",
+       "sport": "football",
+       "comp": "National League South",
+       "when": "2026-10-13T18:45:00Z",
+       "odds": 1.37,
+       "est": false,
+       "p": 0.766,
+       "status": "won",
+       "result": "5-0"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.38,
+     "p": 0.2042,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Tamara Zidansek",
+       "event": "Despina Papamichail v Tamara Zidansek",
+       "sport": "tennis",
+       "comp": "Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group Round 1",
+       "when": "2026-10-13T09:30:00Z",
+       "odds": 1.47,
+       "est": true,
+       "p": 0.7487,
+       "status": "won",
+       "result": "(6) Tamara Zidansek (SLO) bt Despina Papamichail (GRE) 6-4 6-2"
+      },
+      {
+       "pick": "Orlando Pirates",
+       "event": "Orlando Pirates v TS Galaxy",
+       "sport": "football",
+       "comp": "Premiership",
+       "when": "2026-10-13T17:30:00Z",
+       "odds": 1.16,
+       "est": false,
+       "p": 0.7683,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "Al Ittihad",
+       "event": "Al Ittihad v Shabab Al-Ahli",
+       "sport": "football",
+       "comp": "AFC Champions League Elite",
+       "when": "2026-10-13T18:15:00Z",
+       "odds": 1.6,
+       "est": true,
+       "p": 0.683,
+       "status": "lost",
+       "result": "1-2"
+      },
+      {
+       "pick": "Gainsborough Trinity",
+       "event": "Gainsborough Trinity v Ilkeston Town",
+       "sport": "football",
+       "comp": "Northern Premier League",
+       "when": "2026-10-13T18:45:00Z",
+       "odds": 1.46,
+       "est": false,
+       "p": 0.7627,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "Bayern Munich",
+       "event": "Viking FK v Bayern Munich",
+       "sport": "football",
+       "comp": "Champions League",
+       "when": "2026-10-13T19:00:00Z",
+       "odds": 1.1,
+       "est": false,
+       "p": 0.6815,
+       "status": "lost",
+       "result": "3-3"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 2.52,
+     "p": 0.5775,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Sorana Cirstea",
+       "event": "Sorana Cirstea v Hanyu Guo",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 1",
+       "when": "2026-10-13T04:30:00Z",
+       "odds": 1.16,
+       "est": true,
+       "p": 0.9177,
+       "status": "lost",
+       "result": "Hanyu Guo (CHN) bt (12) Sorana Cirstea (ROM) 1-6 7-6 (8-6) 7-5"
+      },
+      {
+       "pick": "Francesca Jones",
+       "event": "Francesca Jones v Martina Colmegna",
+       "sport": "tennis",
+       "comp": "Lisboa Belem Open Round 1",
+       "when": "2026-10-13T10:00:00Z",
+       "odds": 1.16,
+       "est": true,
+       "p": 0.9183,
+       "status": "won",
+       "result": "(2) Francesca Jones (GBR) bt Martina Colmegna (ITA) 7-5 6-1"
+      },
+      {
+       "pick": "Fiona Ferro",
+       "event": "Fiona Ferro v Aurora Zantedeschi",
+       "sport": "tennis",
+       "comp": "Lisboa Belem Open Round 1",
+       "when": "2026-10-13T11:30:00Z",
+       "odds": 1.32,
+       "est": true,
+       "p": 0.8545,
+       "status": "won",
+       "result": "(3) Fiona Ferro (FRA) bt Aurora Zantedeschi (ITA) 6-3 6-4"
+      },
+      {
+       "pick": "Ekaterine Gorgodze",
+       "event": "Ekaterine Gorgodze v Lucia Cortez Llorca",
+       "sport": "tennis",
+       "comp": "Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group Round 1",
+       "when": "2026-10-13T12:00:00Z",
+       "odds": 1.3,
+       "est": true,
+       "p": 0.8561,
+       "status": "lost",
+       "result": "Lucia Cortez Llorca (ESP) bt (8) Ekaterine Gorgodze (GEO) 6-4 7-6 (7-3)"
+      },
+      {
+       "pick": "Dominika Salkova",
+       "event": "Elisa Visentin v Dominika Salkova",
+       "sport": "tennis",
+       "comp": "RoveretOpen Città della Pace Round 1",
+       "when": "2026-10-13T16:00:00Z",
+       "odds": 1.09,
+       "est": true,
+       "p": 0.9367,
+       "status": "won",
+       "result": "(6) Dominika Salkova (CZE) bt Elisa Visentin (ITA) 6-0 6-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "published": "2026-10-11T23:04:16Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 3.31,
+     "p": 0.427,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Carlos Alcaraz",
+       "event": "Carlos Alcaraz v Zizou Bergs",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 3",
+       "when": "2026-10-12T10:00:00Z",
+       "odds": 1.15,
+       "est": true,
+       "p": 0.9225,
+       "status": "lost",
+       "result": "Zizou Bergs (BEL) bt (2) Carlos Alcaraz (ESP) 7-5 7-6 (7-4)"
+      },
+      {
+       "pick": "Julia Grabher",
+       "event": "Deborah Chiesa v Julia Grabher",
+       "sport": "tennis",
+       "comp": "Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group Round 1",
+       "when": "2026-10-12T11:00:00Z",
+       "odds": 1.3,
+       "est": true,
+       "p": 0.8564,
+       "status": "won",
+       "result": "(1) Julia Grabher (AUT) bt Deborah Chiesa (ITA) 3-6 6-4 6-4"
+      },
+      {
+       "pick": "PAOK",
+       "event": "PAOK v Kalamata",
+       "sport": "football",
+       "comp": "Super League",
+       "when": "2026-10-12T15:00:00Z",
+       "odds": 1.19,
+       "est": false,
+       "p": 0.8399,
+       "status": "lost",
+       "result": "1-3"
+      },
+      {
+       "pick": "Novorizontino",
+       "event": "Novorizontino v Ponte Preta",
+       "sport": "football",
+       "comp": "Serie B",
+       "when": "2026-10-12T22:00:00Z",
+       "odds": 1.07,
+       "est": false,
+       "p": 0.8367,
+       "status": "won",
+       "result": "5-1"
+      },
+      {
+       "pick": "Nacional Asunción",
+       "event": "Nacional Asunción v Deportivo Recoleta",
+       "sport": "football",
+       "comp": "División Profesional",
+       "when": "2026-10-12T22:20:00Z",
+       "odds": 1.74,
+       "est": false,
+       "p": 0.7691,
+       "status": "won",
+       "result": "1-0"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.05,
+     "p": 0.3202,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Andranik",
+       "event": "Andranik v Mika",
+       "sport": "football",
+       "comp": "First League",
+       "when": "2026-10-12T11:00:00Z",
+       "odds": 1.17,
+       "est": false,
+       "p": 0.8075,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Alexandra Eala",
+       "event": "Han Shi v Alexandra Eala",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 1",
+       "when": "2026-10-12T13:00:00Z",
+       "odds": 1.18,
+       "est": true,
+       "p": 0.8723,
+       "status": "lost",
+       "result": "Han Shi (CHN) bt (13) Alexandra Eala (PHI) 4-6 6-3 6-3"
+      },
+      {
+       "pick": "Susan Bandecchi",
+       "event": "Gaia Maduzzi v Susan Bandecchi",
+       "sport": "tennis",
+       "comp": "RoveretOpen Città della Pace Round 1",
+       "when": "2026-10-12T13:30:00Z",
+       "odds": 1.27,
+       "est": true,
+       "p": 0.8616,
+       "status": "won",
+       "result": "Susan Bandecchi (SUI) bt Gaia Maduzzi (ITA) 6-3 6-2"
+      },
+      {
+       "pick": "IF Elfsborg",
+       "event": "IF Elfsborg v Halmstads BK",
+       "sport": "football",
+       "comp": "Allsvenskan",
+       "when": "2026-10-12T17:00:00Z",
+       "odds": 1.32,
+       "est": false,
+       "p": 0.7663,
+       "status": "won",
+       "result": "4-0"
+      },
+      {
+       "pick": "Malmö FF",
+       "event": "Malmö FF v Kalmar FF",
+       "sport": "football",
+       "comp": "Allsvenskan",
+       "when": "2026-10-12T17:00:00Z",
+       "odds": 1.75,
+       "est": false,
+       "p": 0.6885,
+       "status": "won",
+       "result": "1-0"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 2.87,
+     "p": 0.2925,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 2,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Iva Jovic",
+       "event": "Mia Pohankova v Iva Jovic",
+       "sport": "tennis",
+       "comp": "Dongfeng Voyah Wuhan Open Round 1",
+       "when": "2026-10-12T04:30:00Z",
+       "odds": 1.28,
+       "est": true,
+       "p": 0.8602,
+       "status": "void",
+       "result": "void"
+      },
+      {
+       "pick": "Arthur Fils",
+       "event": "Botic Van De Zandschulp v Arthur Fils",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 3",
+       "when": "2026-10-12T08:30:00Z",
+       "odds": 1.34,
+       "est": true,
+       "p": 0.773,
+       "status": "lost",
+       "result": "Botic Van De Zandschulp (NED) bt (8) Arthur Fils (FRA) 7-5 6-4"
+      },
+      {
+       "pick": "Struga",
+       "event": "Bashkimi Kumanovo v Struga",
+       "sport": "football",
+       "comp": "First League",
+       "when": "2026-10-12T13:00:00Z",
+       "odds": 1.15,
+       "est": false,
+       "p": 0.7824,
+       "status": "lost",
+       "result": "2-1"
+      },
+      {
+       "pick": "Forge",
+       "event": "Forge v York United",
+       "sport": "football",
+       "comp": "Canadian Premier League",
+       "when": "2026-10-12T17:00:00Z",
+       "odds": 1.36,
+       "est": false,
+       "p": 0.7402,
+       "status": "won",
+       "result": "5-0"
+      },
+      {
+       "pick": "Always Ready",
+       "event": "Always Ready v Independiente Petrolero",
+       "sport": "football",
+       "comp": "División Profesional",
+       "when": "2026-10-12T21:15:00Z",
+       "odds": 1.07,
+       "est": false,
+       "p": 0.7596,
+       "status": "won",
+       "result": "2-0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "published": "2026-10-11T01:01:56Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 2.56,
+     "p": 0.4669,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Angby",
+       "event": "Angby v Viggbyholms IK",
+       "sport": "football",
+       "comp": "Division 2 - Norra Svealand",
+       "when": "2026-10-11T11:00:00Z",
+       "odds": 1.24,
+       "est": false,
+       "p": 0.8088,
+       "status": "lost",
+       "result": "0-2"
+      },
+      {
+       "pick": "Lijabatho",
+       "event": "Lijabatho v Members",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-11T13:00:00Z",
+       "odds": 1.16,
+       "est": true,
+       "p": 0.8979,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Sunnersta",
+       "event": "Sunnersta v Korsnäs",
+       "sport": "football",
+       "comp": "Division 2 - Norra Svealand",
+       "when": "2026-10-11T14:00:00Z",
+       "odds": 1.14,
+       "est": false,
+       "p": 0.9002,
+       "status": "won",
+       "result": "7-1"
+      },
+      {
+       "pick": "Exeter Chiefs",
+       "event": "Exeter Chiefs v Newcastle Falcons",
+       "sport": "rugby",
+       "comp": "Premiership",
+       "when": "2026-10-11T14:00Z",
+       "odds": 1.09,
+       "est": true,
+       "p": 0.9115,
+       "status": "won",
+       "result": "34-28"
+      },
+      {
+       "pick": "Vikingur Reykjavik",
+       "event": "Vikingur Reykjavik v IA Akranes",
+       "sport": "football",
+       "comp": "Úrvalsdeild",
+       "when": "2026-10-11T19:15:00Z",
+       "odds": 1.43,
+       "est": false,
+       "p": 0.7835,
+       "status": "lost",
+       "result": "2-2"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.01,
+     "p": 0.3441,
+     "status": "won",
+     "paid": 4.01,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Hubert Hurkacz",
+       "event": "Yi Zhou v Hubert Hurkacz",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 3",
+       "when": "2026-10-11T05:30:00Z",
+       "odds": 1.2,
+       "est": true,
+       "p": 0.8346,
+       "status": "won",
+       "result": "Hubert Hurkacz (POL) bt Yi Zhou (CHN) 6-2 3-6 6-3"
+      },
+      {
+       "pick": "Virtus",
+       "event": "Virtus v San Marino Academy",
+       "sport": "football",
+       "comp": "Campionato",
+       "when": "2026-10-11T13:00:00Z",
+       "odds": 1.1,
+       "est": false,
+       "p": 0.8977,
+       "status": "won",
+       "result": "5-0"
+      },
+      {
+       "pick": "New England Patriots",
+       "event": "New England Patriots v Las Vegas Raiders",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-11T17:00Z",
+       "odds": 1.52,
+       "est": false,
+       "p": 0.7527,
+       "status": "won",
+       "result": "45-17"
+      },
+      {
+       "pick": "Minnesota Vikings",
+       "event": "New Orleans Saints v Minnesota Vikings",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-11T17:00Z",
+       "odds": 1.77,
+       "est": false,
+       "p": 0.6761,
+       "status": "won",
+       "result": "13-23"
+      },
+      {
+       "pick": "Stade Toulousain",
+       "event": "Stade Toulousain v Bayonne",
+       "sport": "rugby",
+       "comp": "Top 14",
+       "when": "2026-10-11T19:05Z",
+       "odds": 1.13,
+       "est": true,
+       "p": 0.9024,
+       "status": "won",
+       "result": "45-34"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 7.13,
+     "p": 0.2181,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 2,
+     "legsLost": 3,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Ben Shelton",
+       "event": "Arthur Gea v Ben Shelton",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 3",
+       "when": "2026-10-11T04:00:00Z",
+       "odds": 1.38,
+       "est": true,
+       "p": 0.7701,
+       "status": "lost",
+       "result": "Arthur Gea (FRA) bt (3) Ben Shelton (USA) 7-6 (7-5) 7-6 (7-3)"
+      },
+      {
+       "pick": "Alexander Zverev",
+       "event": "Quentin Halys v Alexander Zverev",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 3",
+       "when": "2026-10-11T10:00:00Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.8268,
+       "status": "won",
+       "result": "(1) Alexander Zverev (GER) bt Quentin Halys (FRA) 6-4 6-7 (8-10) 6-3"
+      },
+      {
+       "pick": "Österlen",
+       "event": "Österlen v Torns",
+       "sport": "football",
+       "comp": "Division 2 - Södra Götaland",
+       "when": "2026-10-11T11:00:00Z",
+       "odds": 1.71,
+       "est": false,
+       "p": 0.6791,
+       "status": "won",
+       "result": "5-0"
+      },
+      {
+       "pick": "Union Magdalena",
+       "event": "Union Magdalena v Leones",
+       "sport": "football",
+       "comp": "Primera B",
+       "when": "2026-10-11T22:00:00Z",
+       "odds": 1.45,
+       "est": false,
+       "p": 0.7406,
+       "status": "lost",
+       "result": "2-2"
+      },
+      {
+       "pick": "Pachuca",
+       "event": "Pachuca v Necaxa",
+       "sport": "football",
+       "comp": "Liga MX",
+       "when": "2026-10-11T23:10:00Z",
+       "odds": 1.68,
+       "est": false,
+       "p": 0.681,
+       "status": "lost",
+       "result": "3-3"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 2.76,
+     "p": 0.3287,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Yangon United",
+       "event": "Yangon United v Yangon Royals",
+       "sport": "football",
+       "comp": "National League",
+       "when": "2026-10-11T09:00:00Z",
+       "odds": 1.19,
+       "est": true,
+       "p": 0.8088,
+       "status": "lost",
+       "result": "1-2"
+      },
+      {
+       "pick": "Ranger's",
+       "event": "Ranger's v Carroi",
+       "sport": "football",
+       "comp": "1a Divisió",
+       "when": "2026-10-11T09:00:00Z",
+       "odds": 1.16,
+       "est": false,
+       "p": 0.8078,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "Slávia TU Košice",
+       "event": "Slávia TU Košice v Kežmarok",
+       "sport": "football",
+       "comp": "3. liga - East",
+       "when": "2026-10-11T09:00:00Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.8075,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "Union St. Gilloise",
+       "event": "Union St. Gilloise v OH Leuven",
+       "sport": "football",
+       "comp": "Jupiler Pro League",
+       "when": "2026-10-11T14:00:00Z",
+       "odds": 1.23,
+       "est": false,
+       "p": 0.8089,
+       "status": "lost",
+       "result": "1-1"
+      },
+      {
+       "pick": "BK Häcken",
+       "event": "BK Häcken v Örgryte IS",
+       "sport": "football",
+       "comp": "Allsvenskan",
+       "when": "2026-10-11T14:30:00Z",
+       "odds": 1.31,
+       "est": false,
+       "p": 0.7702,
+       "status": "won",
+       "result": "3-0"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "alternative",
+     "odds": 4.24,
+     "p": 0.2509,
+     "status": "won",
+     "paid": 4.24,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Alex De Minaur",
+       "event": "Rei Sakamoto v Alex De Minaur",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 3",
+       "when": "2026-10-11T05:30:00Z",
+       "odds": 1.42,
+       "est": true,
+       "p": 0.7668,
+       "status": "won",
+       "result": "(9) Alex de Minaur (AUS) bt Rei Sakamoto (JPN) 7-6 (8-6) 6-4"
+      },
+      {
+       "pick": "Guangzhou E-Power",
+       "event": "Guangzhou E-Power v Heilongjiang Lava Spring",
+       "sport": "football",
+       "comp": "League One",
+       "when": "2026-10-11T11:30:00Z",
+       "odds": 1.21,
+       "est": false,
+       "p": 0.783,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "Talasgücü Belediyespor",
+       "event": "Talasgücü Belediyespor v Adanaspor",
+       "sport": "football",
+       "comp": "3. Lig - Group 3",
+       "when": "2026-10-11T12:00:00Z",
+       "odds": 1.25,
+       "est": true,
+       "p": 0.7836,
+       "status": "won",
+       "result": "6-1"
+      },
+      {
+       "pick": "Toledo",
+       "event": "Toledo v Huracán Balazote",
+       "sport": "football",
+       "comp": "Tercera División RFEF - Group 18",
+       "when": "2026-10-11T16:00:00Z",
+       "odds": 1.21,
+       "est": false,
+       "p": 0.7835,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "SE Palmeiras",
+       "event": "SE Palmeiras v SC Corinthians Paulista",
+       "sport": "football",
+       "comp": "Serie A",
+       "when": "2026-10-11T20:30:00Z",
+       "odds": 1.63,
+       "est": false,
+       "p": 0.6806,
+       "status": "won",
+       "result": "4-1"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "alternative",
+     "odds": 7.3,
+     "p": 0.1833,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Suwon Bluewings",
+       "event": "Suwon Bluewings v Ansan Greeners",
+       "sport": "football",
+       "comp": "K League 2",
+       "when": "2026-10-11T05:00:00Z",
+       "odds": 1.2,
+       "est": false,
+       "p": 0.7829,
+       "status": "won",
+       "result": "4-1"
+      },
+      {
+       "pick": "CSKA Moscow",
+       "event": "CSKA Moscow v Rodina Moscow",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-11T13:30:00Z",
+       "odds": 1.48,
+       "est": true,
+       "p": 0.7647,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "Kongsvinger",
+       "event": "Kongsvinger v Ranheim",
+       "sport": "football",
+       "comp": "1. Division",
+       "when": "2026-10-11T15:00:00Z",
+       "odds": 1.51,
+       "est": false,
+       "p": 0.7399,
+       "status": "won",
+       "result": "6-2"
+      },
+      {
+       "pick": "Pittsburgh Steelers",
+       "event": "Pittsburgh Steelers v Indianapolis Colts",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-11T17:00Z",
+       "odds": 1.68,
+       "est": false,
+       "p": 0.6375,
+       "status": "won",
+       "result": "34-22"
+      },
+      {
+       "pick": "Seattle Seahawks",
+       "event": "Seattle Seahawks v San Francisco 49ers",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-11T20:25Z",
+       "odds": 1.62,
+       "est": false,
+       "p": 0.6492,
+       "status": "lost",
+       "result": "29-32"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "published": "2026-10-09T23:26:36Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 2.66,
+     "p": 0.5793,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "New Zealand",
+       "event": "New Zealand v Australia",
+       "sport": "rugby",
+       "comp": "Test match",
+       "when": "2026-10-10T06:10Z",
+       "odds": 1.15,
+       "est": true,
+       "p": 0.8966,
+       "status": "won",
+       "result": "50-19"
+      },
+      {
+       "pick": "Kitchee",
+       "event": "Kitchee v Hong Kong",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-10T08:00:00Z",
+       "odds": 1.11,
+       "est": false,
+       "p": 0.899,
+       "status": "won",
+       "result": "4-0"
+      },
+      {
+       "pick": "Carlos Alcaraz",
+       "event": "Carlos Alcaraz v Juan Manuel Cerundolo",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-10T10:00:00Z",
+       "odds": 1.12,
+       "est": true,
+       "p": 0.9303,
+       "status": "won",
+       "result": "(2) Carlos Alcaraz (ESP) bt Juan Manuel Cerundolo (ARG) 6-3 6-3"
+      },
+      {
+       "pick": "Kairat Almaty",
+       "event": "Kairat Almaty v Zhetysu",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-10T12:00:00Z",
+       "odds": 1.21,
+       "est": false,
+       "p": 0.8974,
+       "status": "won",
+       "result": "1-0"
+      },
+      {
+       "pick": "Pittsburgh Panthers",
+       "event": "Pittsburgh Panthers v North Carolina Tar Heels",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T16:00Z",
+       "odds": 1.54,
+       "est": false,
+       "p": 0.8608,
+       "status": "lost",
+       "result": "17-21"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.3,
+     "p": 0.4536,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Laktaši",
+       "event": "Laktaši v Omarska",
+       "sport": "football",
+       "comp": "1st League - RS",
+       "when": "2026-10-10T13:00:00Z",
+       "odds": 1.1,
+       "est": false,
+       "p": 0.8975,
+       "status": "won",
+       "result": "4-0"
+      },
+      {
+       "pick": "Hereford",
+       "event": "Hereford v Hednesford Town",
+       "sport": "football",
+       "comp": "National League North",
+       "when": "2026-10-10T14:00:00Z",
+       "odds": 2.06,
+       "est": false,
+       "p": 0.7568,
+       "status": "lost",
+       "result": "0-1"
+      },
+      {
+       "pick": "East Carolina Pirates",
+       "event": "East Carolina Pirates v Rice Owls",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T17:00Z",
+       "odds": 1.26,
+       "est": false,
+       "p": 0.863,
+       "status": "won",
+       "result": "28-12"
+      },
+      {
+       "pick": "Leinster",
+       "event": "Leinster v Cardiff Blues",
+       "sport": "rugby",
+       "comp": "URC",
+       "when": "2026-10-10T18:45Z",
+       "odds": 1.14,
+       "est": true,
+       "p": 0.8991,
+       "status": "won",
+       "result": "29-5"
+      },
+      {
+       "pick": "James Madison Dukes",
+       "event": "Georgia Southern Eagles v James Madison Dukes",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T23:30Z",
+       "odds": 1.32,
+       "est": false,
+       "p": 0.8607,
+       "status": "won",
+       "result": "24-27"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 7.24,
+     "p": 0.3816,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Täby",
+       "event": "Täby v Lidingö",
+       "sport": "football",
+       "comp": "Division 2 - Norra Svealand",
+       "when": "2026-10-10T14:00:00Z",
+       "odds": 1.5,
+       "est": false,
+       "p": 0.7826,
+       "status": "lost",
+       "result": "2-3"
+      },
+      {
+       "pick": "Billericay Town",
+       "event": "Billericay Town v Farnborough",
+       "sport": "football",
+       "comp": "National League South",
+       "when": "2026-10-10T14:00:00Z",
+       "odds": 1.7,
+       "est": false,
+       "p": 0.7627,
+       "status": "won",
+       "result": "4-0"
+      },
+      {
+       "pick": "Racing Club Warwick",
+       "event": "Racing Club Warwick v Leiston",
+       "sport": "football",
+       "comp": "Southern League Premier Central",
+       "when": "2026-10-10T14:00:00Z",
+       "odds": 2.55,
+       "est": false,
+       "p": 0.7298,
+       "status": "lost",
+       "result": "0-0"
+      },
+      {
+       "pick": "Notre Dame Fighting Irish",
+       "event": "Notre Dame Fighting Irish v Stanford Cardinal",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T19:30Z",
+       "odds": 1.06,
+       "est": true,
+       "p": 0.935,
+       "status": "won",
+       "result": "58-7"
+      },
+      {
+       "pick": "Ohio State Buckeyes",
+       "event": "Ohio State Buckeyes v Maryland Terrapins",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T20:15Z",
+       "odds": 1.05,
+       "est": true,
+       "p": 0.937,
+       "status": "won",
+       "result": "45-16"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 2.78,
+     "p": 0.414,
+     "status": "won",
+     "paid": 2.78,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Arthur Fils",
+       "event": "Pavel Kotov v Arthur Fils",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-10T07:00:00Z",
+       "odds": 1.19,
+       "est": true,
+       "p": 0.8369,
+       "status": "won",
+       "result": "(8) Arthur Fils (FRA) bt Pavel Kotov (RUS) 6-3 6-4"
+      },
+      {
+       "pick": "Gyulai Termál",
+       "event": "Gyulai Termál v Újpest II",
+       "sport": "football",
+       "comp": "NB III - Southeast",
+       "when": "2026-10-10T09:00:00Z",
+       "odds": 1.38,
+       "est": false,
+       "p": 0.7832,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Franke",
+       "event": "Franke v Helges",
+       "sport": "football",
+       "comp": "Division 2 - Norra Svealand",
+       "when": "2026-10-10T14:00:00Z",
+       "odds": 1.34,
+       "est": false,
+       "p": 0.7836,
+       "status": "won",
+       "result": "5-2"
+      },
+      {
+       "pick": "Northwestern Wildcats",
+       "event": "Northwestern Wildcats v Ball State Cardinals",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T16:30Z",
+       "odds": 1.08,
+       "est": true,
+       "p": 0.9332,
+       "status": "won",
+       "result": "45-14"
+      },
+      {
+       "pick": "Western Michigan Broncos",
+       "event": "Western Michigan Broncos v Kent State Golden Flashes",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T19:30Z",
+       "odds": 1.17,
+       "est": false,
+       "p": 0.8637,
+       "status": "won",
+       "result": "38-7"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "alternative",
+     "odds": 4.3,
+     "p": 0.3499,
+     "status": "won",
+     "paid": 4.3,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "BYU Cougars",
+       "event": "BYU Cougars v Iowa State Cyclones",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T02:15Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.8571,
+       "status": "won",
+       "result": "24-10"
+      },
+      {
+       "pick": "Felix Auger Aliassime",
+       "event": "Felix Auger Aliassime v Camilo Ugo Carabelli",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-10T04:00:00Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.8266,
+       "status": "won",
+       "result": "(4) Felix Auger-Aliassime (CAN) bt Camilo Ugo Carabelli (ARG) 4-6 7-6 (7-1) 7-5"
+      },
+      {
+       "pick": "Bodo/Glimt",
+       "event": "Bodo/Glimt v Kristiansund BK",
+       "sport": "football",
+       "comp": "Eliteserien",
+       "when": "2026-10-10T14:00:00Z",
+       "odds": 1.06,
+       "est": false,
+       "p": 0.8363,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "Independiente del Valle",
+       "event": "Independiente del Valle v Aucas",
+       "sport": "football",
+       "comp": "Liga Pro",
+       "when": "2026-10-10T16:30:00Z",
+       "odds": 1.49,
+       "est": false,
+       "p": 0.7675,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Ohio Bobcats",
+       "event": "Ohio Bobcats v Central Michigan Chippewas",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T19:30Z",
+       "odds": 1.77,
+       "est": false,
+       "p": 0.7694,
+       "status": "won",
+       "result": "31-14"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "alternative",
+     "odds": 7.29,
+     "p": 0.2815,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Taylor Fritz",
+       "event": "Taylor Fritz v Matteo Arnaldi",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-10T05:30:00Z",
+       "odds": 1.35,
+       "est": true,
+       "p": 0.7724,
+       "status": "won",
+       "result": "(11) Taylor Fritz (USA) bt Matteo Arnaldi (ITA) 7-5 6-4"
+      },
+      {
+       "pick": "Rot-weiss Oberhausen",
+       "event": "Rot-weiss Oberhausen v FC Bocholt",
+       "sport": "football",
+       "comp": "Regionalliga - West",
+       "when": "2026-10-10T12:00:00Z",
+       "odds": 1.68,
+       "est": false,
+       "p": 0.7406,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "Bicskei",
+       "event": "Bicskei v Pápai Perutz",
+       "sport": "football",
+       "comp": "NB III - Northwest",
+       "when": "2026-10-10T12:00:00Z",
+       "odds": 1.62,
+       "est": false,
+       "p": 0.7398,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Toledo Rockets",
+       "event": "Toledo Rockets v Buffalo Bulls",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T19:30Z",
+       "odds": 1.09,
+       "est": false,
+       "p": 0.8659,
+       "status": "lost",
+       "result": "8-23"
+      },
+      {
+       "pick": "Navy Midshipmen",
+       "event": "Navy Midshipmen v Tulsa Golden Hurricane",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-10T19:30Z",
+       "odds": 1.82,
+       "est": false,
+       "p": 0.7682,
+       "status": "won",
+       "result": "34-26"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "published": "2026-10-08T23:53:08Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 2.97,
+     "p": 0.4134,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 1,
+     "legsPending": 1,
+     "legs": [
+      {
+       "pick": "Alexander Zverev",
+       "event": "Yibing Wu v Alexander Zverev",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-09T05:30:00Z",
+       "odds": 1.2,
+       "est": true,
+       "p": 0.8354,
+       "status": "won",
+       "result": "(1) Alexander Zverev (GER) bt Wu Yibing (CHN) 6-4 7-6 (7-4)"
+      },
+      {
+       "pick": "Lorenzo Musetti",
+       "event": "Lorenzo Musetti v Yi Zhou",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-09T11:30:00Z",
+       "odds": 1.16,
+       "est": true,
+       "p": 0.9177,
+       "status": "lost",
+       "result": "Yi Zhou (CHN) bt (24) Lorenzo Musetti (ITA) 7-6 (9-7) 3-6 7-6 (7-1)"
+      },
+      {
+       "pick": "Varketili",
+       "event": "Varketili v Dinamo Tbilisi II",
+       "sport": "football",
+       "comp": "Liga 3",
+       "when": "2026-10-09T17:00:00Z",
+       "odds": 1.44,
+       "est": false,
+       "p": 0.7835,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "Almere City",
+       "event": "Almere City v FC Eindhoven",
+       "sport": "football",
+       "comp": "Eerste Divisie",
+       "when": "2026-10-09T18:00:00Z",
+       "odds": 1.36,
+       "est": false,
+       "p": 0.766,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "La Fiorita",
+       "event": "La Fiorita v Murata",
+       "sport": "football",
+       "comp": "Campionato",
+       "when": "2026-10-09T19:15:00Z",
+       "odds": 1.09,
+       "est": false,
+       "p": 0.8984,
+       "status": "won",
+       "result": "3-0"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.06,
+     "p": 0.274,
+     "status": "won",
+     "paid": 4.06,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Ben Shelton",
+       "event": "Daniel Altmaier v Ben Shelton",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-09T04:00:00Z",
+       "odds": 1.21,
+       "est": true,
+       "p": 0.8327,
+       "status": "won",
+       "result": "(3) Ben Shelton (USA) bt Daniel Altmaier (GER) 6-3 7-6 (8-6)"
+      },
+      {
+       "pick": "Jwaaya",
+       "event": "Jwaaya v Al Mabarrah",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-09T13:30:00Z",
+       "odds": 1.33,
+       "est": true,
+       "p": 0.7823,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "PSV",
+       "event": "PSV v SC Heerenveen",
+       "sport": "football",
+       "comp": "Eredivisie",
+       "when": "2026-10-09T18:00:00Z",
+       "odds": 1.23,
+       "est": false,
+       "p": 0.7687,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Cork City",
+       "event": "Cork City v Finn Harps",
+       "sport": "football",
+       "comp": "First Division",
+       "when": "2026-10-09T18:45:00Z",
+       "odds": 1.12,
+       "est": false,
+       "p": 0.8079,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Montevideo City Torque",
+       "event": "Montevideo City Torque v Danubio",
+       "sport": "football",
+       "comp": "Primera División",
+       "when": "2026-10-09T20:00:00Z",
+       "odds": 1.83,
+       "est": false,
+       "p": 0.6772,
+       "status": "won",
+       "result": "1-0"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 7.11,
+     "p": 0.2065,
+     "status": "won",
+     "paid": 7.11,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Jakub Mensik",
+       "event": "Jakub Mensik v Miomir Kecmanovic",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-09T08:30:00Z",
+       "odds": 1.39,
+       "est": true,
+       "p": 0.7693,
+       "status": "won",
+       "result": "(13) Jakub Mensik (CZE) bt Miomir Kecmanovic (SER) 6-3 6-3"
+      },
+      {
+       "pick": "Al Arabi",
+       "event": "Al Arabi v Gulf United",
+       "sport": "football",
+       "comp": "Division 1",
+       "when": "2026-10-09T13:15:00Z",
+       "odds": 1.67,
+       "est": false,
+       "p": 0.679,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Tartu Welco",
+       "event": "Tartu Welco v Elva",
+       "sport": "football",
+       "comp": "Esiliiga A",
+       "when": "2026-10-09T16:30:00Z",
+       "odds": 1.61,
+       "est": false,
+       "p": 0.679,
+       "status": "won",
+       "result": "4-0"
+      },
+      {
+       "pick": "Cham",
+       "event": "Cham v DJK Bamberg",
+       "sport": "football",
+       "comp": "Oberliga - Bayern Nord",
+       "when": "2026-10-09T17:00:00Z",
+       "odds": 1.22,
+       "est": true,
+       "p": 0.8081,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Louisville Cardinals",
+       "event": "Louisville Cardinals v Florida State Seminoles",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-09T23:00Z",
+       "odds": 1.56,
+       "est": false,
+       "p": 0.7205,
+       "status": "won",
+       "result": "44-20"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 3.39,
+     "p": 0.2301,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Novak Djokovic",
+       "event": "Hubert Hurkacz v Novak Djokovic",
+       "sport": "tennis",
+       "comp": "Rolex Shanghai Masters Round 2",
+       "when": "2026-10-09T10:00:00Z",
+       "odds": 1.32,
+       "est": true,
+       "p": 0.7724,
+       "status": "lost",
+       "result": "Hubert Hurkacz (POL) bt (10) Novak Djokovic (SER) 6-4 6-3"
+      },
+      {
+       "pick": "Pakhtakor",
+       "event": "Pakhtakor v Bunyodkor",
+       "sport": "football",
+       "comp": "Super League",
+       "when": "2026-10-09T14:00:00Z",
+       "odds": 1.17,
+       "est": false,
+       "p": 0.7398,
+       "status": "won",
+       "result": "3-1"
+      },
+      {
+       "pick": "Borussia Dortmund",
+       "event": "Borussia Dortmund v SV Werder Bremen",
+       "sport": "football",
+       "comp": "Bundesliga",
+       "when": "2026-10-09T18:30:00Z",
+       "odds": 1.32,
+       "est": false,
+       "p": 0.7209,
+       "status": "lost",
+       "result": "2-2"
+      },
+      {
+       "pick": "Glasgow Warriors",
+       "event": "Glasgow Warriors v Connacht",
+       "sport": "rugby",
+       "comp": "URC",
+       "when": "2026-10-09T18:45Z",
+       "odds": 1.28,
+       "est": true,
+       "p": 0.755,
+       "status": "won",
+       "result": "36-19"
+      },
+      {
+       "pick": "Folgore",
+       "event": "Pennarossa v Folgore",
+       "sport": "football",
+       "comp": "Campionato",
+       "when": "2026-10-09T19:15:00Z",
+       "odds": 1.3,
+       "est": false,
+       "p": 0.7399,
+       "status": "won",
+       "result": "1-5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "published": "2026-10-07T23:42:37Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 3.99,
+     "p": 0.3343,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Florida International Panthers",
+       "event": "Florida International Panthers v New Mexico State Aggies",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-08T00:04Z",
+       "odds": 1.42,
+       "est": true,
+       "p": 0.7686,
+       "status": "won",
+       "result": "22-3"
+      },
+      {
+       "pick": "Karolina Muchova",
+       "event": "Nikola Bartunkova v Karolina Muchova",
+       "sport": "tennis",
+       "comp": "China Open Quarterfinal",
+       "when": "2026-10-08T07:00:00Z",
+       "odds": 1.34,
+       "est": true,
+       "p": 0.7791,
+       "status": "lost",
+       "result": "(26) Nikola Bartunkova (CZE) bt (7) Karolina Muchova (CZE) 6-3 6-0"
+      },
+      {
+       "pick": "Mirra Andreeva",
+       "event": "Mirra Andreeva v Ekaterina Alexandrova",
+       "sport": "tennis",
+       "comp": "China Open Quarterfinal",
+       "when": "2026-10-08T11:00:00Z",
+       "odds": 1.4,
+       "est": true,
+       "p": 0.7731,
+       "status": "won",
+       "result": "(4) Mirra Andreeva (RUS) bt (19) Ekaterina Alexandrova (RUS) 7-6 (7-4) 7-6 (7-3)"
+      },
+      {
+       "pick": "Al Ansar",
+       "event": "Al Ansar v Al Hikma",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-08T18:45:00Z",
+       "odds": 1.27,
+       "est": true,
+       "p": 0.7834,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Liberty Flames",
+       "event": "Liberty Flames v Sam Houston Bearkats",
+       "sport": "cfb",
+       "comp": "NCAA FBS",
+       "when": "2026-10-08T23:00Z",
+       "odds": 1.18,
+       "est": false,
+       "p": 0.9217,
+       "status": "won",
+       "result": "35-3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "published": "2026-10-06T07:20:09Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 2.62,
+     "p": 0.4821,
+     "status": "won",
+     "paid": 2.62,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Carlos Alcaraz",
+       "event": "Jiri Lehecka v Carlos Alcaraz",
+       "sport": "tennis",
+       "comp": "Kinoshita Group Japan Open Tennis Championships Final",
+       "when": "2026-10-06T09:00:00Z",
+       "odds": 1.24,
+       "est": true,
+       "p": 0.8457,
+       "status": "won",
+       "result": "(1) Carlos Alcaraz (ESP) bt Jiri Lehecka (CZE) 7-6 (7-4) 6-4"
+      },
+      {
+       "pick": "Algeria",
+       "event": "Algeria v Niger",
+       "sport": "football",
+       "comp": "International friendly",
+       "when": "2026-10-06T17:00:00Z",
+       "odds": 1.22,
+       "est": false,
+       "p": 0.9177,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Switzerland",
+       "event": "Switzerland v North Macedonia",
+       "sport": "football",
+       "comp": "UEFA Nations League",
+       "when": "2026-10-06T18:45:00Z",
+       "odds": 1.08,
+       "est": false,
+       "p": 0.8989,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "Slovakia",
+       "event": "Moldova v Slovakia",
+       "sport": "football",
+       "comp": "UEFA Nations League",
+       "when": "2026-10-06T18:45:00Z",
+       "odds": 1.37,
+       "est": false,
+       "p": 0.824,
+       "status": "won",
+       "result": "0-4"
+      },
+      {
+       "pick": "Montserrat",
+       "event": "Montserrat v Turks and Caicos Islands",
+       "sport": "football",
+       "comp": "CONCACAF Nations League",
+       "when": "2026-10-06T20:00:00Z",
+       "odds": 1.17,
+       "est": false,
+       "p": 0.8386,
+       "status": "won",
+       "result": "4-1"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.26,
+     "p": 0.303,
+     "status": "won",
+     "paid": 4.26,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Emerson Jones",
+       "event": "Mai Hontama v Emerson Jones",
+       "sport": "tennis",
+       "comp": "Suzhou Open Round 1",
+       "when": "2026-10-06T07:45:00Z",
+       "odds": 1.47,
+       "est": true,
+       "p": 0.7635,
+       "status": "won",
+       "result": "Emerson Jones (AUS) bt Mai Hontama (JPN) 6-4 6-0"
+      },
+      {
+       "pick": "South Korea",
+       "event": "South Korea v Uzbekistan",
+       "sport": "football",
+       "comp": "International friendly",
+       "when": "2026-10-06T11:00:00Z",
+       "odds": 1.65,
+       "est": false,
+       "p": 0.7353,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Spain U21",
+       "event": "Spain U21 v Romania U21",
+       "sport": "football",
+       "comp": "UEFA U21 Championship qualifying",
+       "when": "2026-10-06T17:00:00Z",
+       "odds": 1.06,
+       "est": false,
+       "p": 0.8651,
+       "status": "won",
+       "result": "7-1"
+      },
+      {
+       "pick": "Croatia U21",
+       "event": "Lithuania U21 v Croatia U21",
+       "sport": "football",
+       "comp": "UEFA U21 Championship qualifying",
+       "when": "2026-10-06T17:00:00Z",
+       "odds": 1.21,
+       "est": false,
+       "p": 0.7601,
+       "status": "won",
+       "result": "0-1"
+      },
+      {
+       "pick": "Colombia",
+       "event": "Colombia v Peru",
+       "sport": "football",
+       "comp": "International friendly",
+       "when": "2026-10-06T23:45:00Z",
+       "odds": 1.37,
+       "est": false,
+       "p": 0.8209,
+       "status": "won",
+       "result": "2-0"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 7.48,
+     "p": 0.1884,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Novak Djokovic",
+       "event": "Alex De Minaur v Novak Djokovic",
+       "sport": "tennis",
+       "comp": "China Open Final",
+       "when": "2026-10-06T11:00:00Z",
+       "odds": 1.57,
+       "est": true,
+       "p": 0.7286,
+       "status": "won",
+       "result": "(6) Novak Djokovic (SER) bt (5) Alex de Minaur (AUS) 7-6 (7-3) 0-1 ret"
+      },
+      {
+       "pick": "Heilongjiang Lava Spring",
+       "event": "Heilongjiang Lava Spring v Meizhou Kejia",
+       "sport": "football",
+       "comp": "League One",
+       "when": "2026-10-06T11:30:00Z",
+       "odds": 1.9,
+       "est": false,
+       "p": 0.6693,
+       "status": "lost",
+       "result": "0-0"
+      },
+      {
+       "pick": "Slovakia U21",
+       "event": "Andorra U21 v Slovakia U21",
+       "sport": "football",
+       "comp": "UEFA U21 Championship qualifying",
+       "when": "2026-10-06T17:00:00Z",
+       "odds": 1.23,
+       "est": false,
+       "p": 0.7276,
+       "status": "won",
+       "result": "1-2"
+      },
+      {
+       "pick": "Cleethorpes Town",
+       "event": "Cleethorpes Town v Hyde United",
+       "sport": "football",
+       "comp": "Northern Premier League",
+       "when": "2026-10-06T18:45:00Z",
+       "odds": 1.5,
+       "est": false,
+       "p": 0.7252,
+       "status": "won",
+       "result": "1-0"
+      },
+      {
+       "pick": "Angola",
+       "event": "Angola v Malawi",
+       "sport": "football",
+       "comp": "Africa Cup of Nations qualifying",
+       "when": "2026-10-06T19:00:00Z",
+       "odds": 1.36,
+       "est": false,
+       "p": 0.7321,
+       "status": "won",
+       "result": "3-1"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "alternative",
+     "odds": 8.73,
+     "p": 0.1679,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Nikola Bartunkova",
+       "event": "Nikola Bartunkova v Sinja Kraus",
+       "sport": "tennis",
+       "comp": "China Open Round 4",
+       "when": "2026-10-06T08:40:00Z",
+       "odds": 1.6,
+       "est": true,
+       "p": 0.7116,
+       "status": "won",
+       "result": "(26) Nikola Bartunkova (CZE) bt Sinja Kraus (AUT) 6-0 4-6 6-3"
+      },
+      {
+       "pick": "Lucrezia Stefanini",
+       "event": "Carole Monnet v Lucrezia Stefanini",
+       "sport": "tennis",
+       "comp": "Samsun Open Round 1",
+       "when": "2026-10-06T09:30:00Z",
+       "odds": 1.6,
+       "est": true,
+       "p": 0.7116,
+       "status": "won",
+       "result": "(8) Lucrezia Stefanini (ITA) bt Carole Monnet (FRA) 7-5 6-4"
+      },
+      {
+       "pick": "England U21",
+       "event": "Republic of Ireland U21 v England U21",
+       "sport": "football",
+       "comp": "UEFA U21 Championship qualifying",
+       "when": "2026-10-06T17:00:00Z",
+       "odds": 1.57,
+       "est": false,
+       "p": 0.688,
+       "status": "lost",
+       "result": "3-1"
+      },
+      {
+       "pick": "Spain",
+       "event": "Croatia v Spain",
+       "sport": "football",
+       "comp": "UEFA Nations League",
+       "when": "2026-10-06T18:45:00Z",
+       "odds": 1.27,
+       "est": false,
+       "p": 0.7255,
+       "status": "won",
+       "result": "1-2"
+      },
+      {
+       "pick": "Braintree",
+       "event": "Braintree v Walton & Hersham",
+       "sport": "football",
+       "comp": "National League South",
+       "when": "2026-10-06T18:45:00Z",
+       "odds": 1.71,
+       "est": false,
+       "p": 0.6643,
+       "status": "lost",
+       "result": "1-3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "published": "2026-10-05T00:12:09Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 3.83,
+     "p": 0.2985,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Iga Swiatek",
+       "event": "Iga Swiatek v Donna Vekic",
+       "sport": "tennis",
+       "comp": "China Open Round 3",
+       "when": "2026-10-05T03:00:00Z",
+       "odds": 1.18,
+       "est": true,
+       "p": 0.8652,
+       "status": "won",
+       "result": "(8) Iga Swiatek (POL) bt (30) Donna Vekic (CRO) 4-6 7-6 (7-0) 6-2"
+      },
+      {
+       "pick": "Carlos Alcaraz",
+       "event": "Jaume Munar v Carlos Alcaraz",
+       "sport": "tennis",
+       "comp": "Kinoshita Group Japan Open Tennis Championships Semifinal",
+       "when": "2026-10-05T07:00:00Z",
+       "odds": 1.13,
+       "est": true,
+       "p": 0.9094,
+       "status": "won",
+       "result": "(1) Carlos Alcaraz (ESP) bt Jaume Munar (ESP) 5-7 6-3 6-1"
+      },
+      {
+       "pick": "TSC Backa Topola",
+       "event": "TSC Backa Topola v Grafičar",
+       "sport": "football",
+       "comp": "Prva Liga",
+       "when": "2026-10-05T16:00:00Z",
+       "odds": 1.26,
+       "est": false,
+       "p": 0.7118,
+       "status": "won",
+       "result": "4-1"
+      },
+      {
+       "pick": "Montenegro",
+       "event": "Montenegro v Armenia",
+       "sport": "football",
+       "comp": "UEFA Nations League",
+       "when": "2026-10-05T18:45:00Z",
+       "odds": 1.52,
+       "est": false,
+       "p": 0.7332,
+       "status": "lost",
+       "result": "0-0"
+      },
+      {
+       "pick": "France",
+       "event": "France v Belgium",
+       "sport": "football",
+       "comp": "UEFA Nations League",
+       "when": "2026-10-05T18:45:00Z",
+       "odds": 1.5,
+       "est": false,
+       "p": 0.727,
+       "status": "won",
+       "result": "4-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "published": "2026-10-04T13:12:14Z",
+   "groups": [
+    {
+     "name": "Steady",
+     "rank": "main",
+     "odds": 2.77,
+     "p": 0.4407,
+     "status": "won",
+     "paid": 2.77,
+     "legsWon": 5,
+     "legsLost": 0,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Chicago Bears",
+       "event": "Chicago Bears v New York Jets",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-04T17:00Z",
+       "odds": 1.54,
+       "est": false,
+       "p": 0.8042,
+       "status": "won",
+       "result": "23-12"
+      },
+      {
+       "pick": "Montpellier Herault",
+       "event": "Montpellier Herault v Toulon",
+       "sport": "rugby",
+       "comp": "Top 14",
+       "when": "2026-10-04T19:05Z",
+       "odds": 1.25,
+       "est": true,
+       "p": 0.8833,
+       "status": "won",
+       "result": "28-0"
+      },
+      {
+       "pick": "Seattle Seahawks",
+       "event": "Seattle Seahawks v Los Angeles Chargers",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-04T20:25Z",
+       "odds": 1.28,
+       "est": false,
+       "p": 0.8226,
+       "status": "won",
+       "result": "30-23"
+      },
+      {
+       "pick": "Puerto Rico",
+       "event": "Puerto Rico v Cayman Islands",
+       "sport": "football",
+       "comp": "CONCACAF Nations League",
+       "when": "2026-10-04T22:00:00Z",
+       "odds": 1.06,
+       "est": false,
+       "p": 0.8371,
+       "status": "won",
+       "result": "1-0"
+      },
+      {
+       "pick": "Aruba",
+       "event": "Aruba v Anguilla",
+       "sport": "football",
+       "comp": "CONCACAF Nations League",
+       "when": "2026-10-04T23:00:00Z",
+       "odds": 1.06,
+       "est": false,
+       "p": 0.901,
+       "status": "won",
+       "result": "3-2"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "main",
+     "odds": 4.1,
+     "p": 0.3451,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Saracens",
+       "event": "Saracens v Sale Sharks",
+       "sport": "rugby",
+       "comp": "Premiership",
+       "when": "2026-10-04T14:00Z",
+       "odds": 1.28,
+       "est": true,
+       "p": 0.834,
+       "status": "lost",
+       "result": "17-21"
+      },
+      {
+       "pick": "Lois Boisson",
+       "event": "Lois Boisson v Leolia Jeanjean",
+       "sport": "tennis",
+       "comp": "Adana Open Final",
+       "when": "2026-10-04T15:00:00Z",
+       "odds": 1.44,
+       "est": true,
+       "p": 0.7642,
+       "status": "lost",
+       "result": "(4) Leolia Jeanjean (FRA) bt Lois Boisson (FRA) 7-6 (7-3) 4-6 6-4"
+      },
+      {
+       "pick": "Netherlands",
+       "event": "Netherlands v Serbia",
+       "sport": "football",
+       "comp": "UEFA Nations League",
+       "when": "2026-10-04T18:45:00Z",
+       "odds": 1.14,
+       "est": false,
+       "p": 0.8311,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Portugal",
+       "event": "Portugal v Norway",
+       "sport": "football",
+       "comp": "UEFA Nations League",
+       "when": "2026-10-04T18:45:00Z",
+       "odds": 1.64,
+       "est": false,
+       "p": 0.7993,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Minnesota Vikings",
+       "event": "Minnesota Vikings v Miami Dolphins",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-04T20:05Z",
+       "odds": 1.19,
+       "est": false,
+       "p": 0.8151,
+       "status": "won",
+       "result": "15-10"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "main",
+     "odds": 7.62,
+     "p": 0.261,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 2,
+     "legsLost": 2,
+     "legsPending": 1,
+     "legs": [
+      {
+       "pick": "Portonovo",
+       "event": "Portonovo v Lalin",
+       "sport": "football",
+       "comp": "Tercera División RFEF - Group 1",
+       "when": "2026-10-04T15:00:00Z",
+       "odds": 1.38,
+       "est": true,
+       "p": 0.7903,
+       "status": "lost",
+       "result": "0-1"
+      },
+      {
+       "pick": "New York Giants",
+       "event": "New York Giants v Arizona Cardinals",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-04T17:00Z",
+       "odds": 2.14,
+       "est": false,
+       "p": 0.6839,
+       "status": "won",
+       "result": "36-24"
+      },
+      {
+       "pick": "Morocco",
+       "event": "Morocco v Ghana",
+       "sport": "football",
+       "comp": "International friendly",
+       "when": "2026-10-04T18:00:00Z",
+       "odds": 1.21,
+       "est": true,
+       "p": 0.8348,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "Egypt",
+       "event": "Egypt v South Africa",
+       "sport": "football",
+       "comp": "International friendly",
+       "when": "2026-10-04T18:00:00Z",
+       "odds": 1.68,
+       "est": false,
+       "p": 0.7321,
+       "status": "lost",
+       "result": "0-1"
+      },
+      {
+       "pick": "Montego Bay United",
+       "event": "Montego Bay United v Dunbeholden",
+       "sport": "football",
+       "comp": "Premier League",
+       "when": "2026-10-04T20:30:00Z",
+       "odds": 1.27,
+       "est": false,
+       "p": 0.7901,
+       "status": "won",
+       "result": "1-0"
+      }
+     ]
+    },
+    {
+     "name": "Steady",
+     "rank": "alternative",
+     "odds": 2.99,
+     "p": 0.2639,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 3,
+     "legsLost": 2,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Stade Gabesien",
+       "event": "Stade Gabesien v Moknine",
+       "sport": "football",
+       "comp": "Ligue 2",
+       "when": "2026-10-04T14:00:00Z",
+       "odds": 1.47,
+       "est": false,
+       "p": 0.7119,
+       "status": "lost",
+       "result": "0-0"
+      },
+      {
+       "pick": "Osasuna II",
+       "event": "Osasuna II v Calamocha",
+       "sport": "football",
+       "comp": "Segunda División RFEF - Group 2",
+       "when": "2026-10-04T15:00:00Z",
+       "odds": 1.33,
+       "est": false,
+       "p": 0.748,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Castellón",
+       "event": "Castellón v Ceuta",
+       "sport": "football",
+       "comp": "LaLiga 2",
+       "when": "2026-10-04T16:30:00Z",
+       "odds": 1.23,
+       "est": false,
+       "p": 0.7356,
+       "status": "lost",
+       "result": "1-1"
+      },
+      {
+       "pick": "Baltimore Ravens",
+       "event": "Baltimore Ravens v Tennessee Titans",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-04T17:00Z",
+       "odds": 1.14,
+       "est": false,
+       "p": 0.8215,
+       "status": "won",
+       "result": "24-18"
+      },
+      {
+       "pick": "Guyana",
+       "event": "Guyana v Dominica",
+       "sport": "football",
+       "comp": "CONCACAF Nations League",
+       "when": "2026-10-04T19:00:00Z",
+       "odds": 1.09,
+       "est": false,
+       "p": 0.8202,
+       "status": "won",
+       "result": "8-1"
+      }
+     ]
+    },
+    {
+     "name": "Balanced",
+     "rank": "alternative",
+     "odds": 5.87,
+     "p": 0.1785,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 1,
+     "legsLost": 3,
+     "legsPending": 1,
+     "legs": [
+      {
+       "pick": "Rodina Moskva II",
+       "event": "Rodina Moskva II v Kaluga",
+       "sport": "football",
+       "comp": "Second League A - Division A Gold",
+       "when": "2026-10-04T14:00:00Z",
+       "odds": 1.39,
+       "est": false,
+       "p": 0.7119,
+       "status": "won",
+       "result": "3-0"
+      },
+      {
+       "pick": "Levante II",
+       "event": "Levante II v Crevillente",
+       "sport": "football",
+       "comp": "Tercera División RFEF - Group 6",
+       "when": "2026-10-04T14:00:00Z",
+       "odds": 1.59,
+       "est": false,
+       "p": 0.7117,
+       "status": "pending",
+       "result": null
+      },
+      {
+       "pick": "jerv",
+       "event": "Lysekloster v jerv",
+       "sport": "football",
+       "comp": "2. Division - Group 1",
+       "when": "2026-10-04T15:00:00Z",
+       "odds": 1.18,
+       "est": false,
+       "p": 0.7118,
+       "status": "lost",
+       "result": "3-3"
+      },
+      {
+       "pick": "Buffalo Bills",
+       "event": "Buffalo Bills v New England Patriots",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-04T17:00Z",
+       "odds": 1.34,
+       "est": false,
+       "p": 0.7027,
+       "status": "lost",
+       "result": "26-29"
+      },
+      {
+       "pick": "Houston Texans",
+       "event": "Houston Texans v Dallas Cowboys",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-04T17:00Z",
+       "odds": 1.68,
+       "est": false,
+       "p": 0.7044,
+       "status": "lost",
+       "result": "30-34"
+      }
+     ]
+    },
+    {
+     "name": "Stretch",
+     "rank": "alternative",
+     "odds": 7.51,
+     "p": 0.1492,
+     "status": "lost",
+     "paid": 0,
+     "legsWon": 4,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Calahorra",
+       "event": "Alfaro v Calahorra",
+       "sport": "football",
+       "comp": "Tercera División RFEF - Group 16",
+       "when": "2026-10-04T15:00:00Z",
+       "odds": 1.62,
+       "est": true,
+       "p": 0.7118,
+       "status": "lost",
+       "result": "2-1"
+      },
+      {
+       "pick": "Agoncillo",
+       "event": "Agoncillo v Vianés",
+       "sport": "football",
+       "comp": "Tercera División RFEF - Group 16",
+       "when": "2026-10-04T15:00:00Z",
+       "odds": 1.63,
+       "est": true,
+       "p": 0.7118,
+       "status": "won",
+       "result": "2-0"
+      },
+      {
+       "pick": "Barcelona",
+       "event": "Barcelona v Real Madrid",
+       "sport": "football",
+       "comp": "Liga F",
+       "when": "2026-10-04T17:00:00Z",
+       "odds": 1.11,
+       "est": false,
+       "p": 0.6634,
+       "status": "won",
+       "result": "7-0"
+      },
+      {
+       "pick": "Central Cordoba",
+       "event": "Central Cordoba v Yupanqui",
+       "sport": "football",
+       "comp": "Primera C",
+       "when": "2026-10-04T18:00:00Z",
+       "odds": 1.78,
+       "est": false,
+       "p": 0.6693,
+       "status": "won",
+       "result": "1-0"
+      },
+      {
+       "pick": "Kansas City Chiefs",
+       "event": "Las Vegas Raiders v Kansas City Chiefs",
+       "sport": "nfl",
+       "comp": "NFL",
+       "when": "2026-10-04T20:25Z",
+       "odds": 1.44,
+       "est": false,
+       "p": 0.6633,
+       "status": "won",
+       "result": "27-30"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
