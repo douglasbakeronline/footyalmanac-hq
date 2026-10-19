@@ -1,100 +1,156 @@
 # Footyalmanac HQ
 
-The AI agent office for [footyalmanac](https://github.com/douglasbakeronline/footyalmanac): eleven agents who run the prediction business's daily rhythm, hold stand-ups, chat at the water cooler and present a business playback.
+The AI agent office for [footyalmanac](https://github.com/douglasbakeronline/footyalmanac)
+(the Sports Almanac prediction site). A team of named agents runs the business's
+daily rhythm: stand-ups, KPIs, a daily briefing with five-leg groups, Saturday
+picks, slip tracking and a business playback, all shown in a 3D office.
 
-## How it works
-- `scripts/office.py` reads footyalmanac's public data (record, calibration, predictions, builds) and writes stand-ups, objectives, playbacks and chats to `docs/data/`.
-- `.github/workflows/office.yml` runs it on the UK rhythm and commits the results:
+- **Live office:** https://douglasbakeronline.github.io/footyalmanac-hq/
+- **Prediction site and models:** [footyalmanac](https://github.com/douglasbakeronline/footyalmanac). Read its README first: it holds the project's objective, the current numbers and the improvement priorities.
+- **Owner:** Douglas Baker. UK English, no em dashes, direct.
+
+> **Picking this up as an AI?** HQ **reports on** the prediction site. It
+> **never** makes predictions, changes probabilities or grades results. Every
+> number comes from footyalmanac's published files. To make the predictions
+> better, work in footyalmanac. Work here to make the reporting clearer,
+> cheaper or more useful. The code on `main` is the source of truth; where
+> this file disagrees with it, trust the code.
+
+---
+
+## How it fits together
+
+```
+footyalmanac (site, every rebuild)
+  data.json, record*.json, calibration, predictions, groupings.json, groupings.py
+        |  read over HTTPS (public GitHub Pages and raw.githubusercontent.com)
+        v
+footyalmanac-hq  scripts/*.py  ->  docs/data/*.json  ->  docs/index.html (3D office)
+        |                               \
+        |                                -> GitHub issues: daily briefing, Saturday picks, slips
+        v
+.github/workflows/office.yml commits docs/data/ as footyalmanac-hq[bot]
+```
+
+- No secrets are needed for the normal path. `ODDS_API_KEY` is passed to the
+  run but is only used in the fallback below.
+- `main` isn't branch-protected here, and the bot commits to it many times a day.
+  Pull before you push, and prefer a PR for anything beyond docs.
+
+## The daily rhythm (`.github/workflows/office.yml`)
+
+GitHub cron is UTC, so each UK slot is listed twice (BST and GMT).
 
 | UK time | Run |
 |---|---|
 | 03:00 | Fixture sweep |
 | 03:30 | Predictions ranked |
 | 04:00 | Morning stand-up |
-| 13:00 | Midday refresh |
-| 13:30 | Afternoon stand-up |
-| 23:30 | Results & experiments |
+| 07:45 | Daily briefing issue (results, key games, groups) |
+| 12:30 | Groups refresh (comment on the briefing) |
+| 13:00 / 13:30 | Midday refresh, afternoon stand-up |
+| 17:00 | Evening groups |
+| 23:30 | Results and experiments |
 | 23:45 | Daily playback (weekly on Sundays) |
-| Fri 18:00 | Saturday picks preview (GitHub issue) |
-| Sat 07:00 | Saturday picks final, after the morning build |
+| Fri 18:00 | Saturday picks preview (issue) |
+| Sat 07:00 | Saturday picks final |
 | Sun 07:30 | Saturday picks graded, issue closed |
 
-- `docs/index.html` is the 3D office. The Picks tab answers questions like "Saturday picks" or "Sunday Premier League" straight from footyalmanac's published predictions, so it uses no AI tokens. It only reads `docs/data/*.json`, so it can be hosted anywhere static.
+Run any slot by hand: Actions, then Office rhythm, then Run workflow. The slots
+are `standup`, `report`, `work`, `saturday`, `slip`, `briefing`, `refresh` and
+`ceo`.
 
-## Run something now
-Actions → Office rhythm → Run workflow → pick `standup`, `report` or `work`.
+## Scripts
 
-## Local preview
-```
-python -m http.server -d docs 8080
-```
+| File | What it does |
+|---|---|
+| `scripts/office.py` | Main entry (`--slot`). Reads the site's data and writes stand-ups, objectives, KPIs, playbacks and water-cooler chats to `docs/data/`. Agent names are in `NAMES`. |
+| `scripts/markets.py` | Oscar and Jade: daily briefing and five-leg groups. |
+| `scripts/slip.py` | Matches the owner's slips to published picks and settles them from graded records. |
+| `scripts/saturday.py` | Saturday picks preview, final and review. |
+| `scripts/org.py` | Luke's hiring desk: adds a specialist when a KPI gap has no owner (at most one a day, six in total). State is in `docs/data/org.json`. |
+| `scripts/performance_monitor.py` | Build-health and run-time KPIs. |
+| `scripts/ceo.py` | Elena, the CEO, from the command line and the `ceo` slot. **Placeholder:** `get_llm_response` returns a canned reply and no model is called. The live site's CEO tab is different: it goes through `cloudflare-worker/`, which calls OpenAI. |
+| `docs/index.html` | The 3D office. The Picks tab answers questions like "Saturday picks" from published predictions, using no AI tokens. It only reads `docs/data/*.json`. |
+| `cloudflare-worker/` | The CEO tab's chat backend (Cloudflare Worker calling OpenAI, with live context from `docs/data/`). See its README. |
+| `tests/` | `test_office.py`, `test_picks_all_sports.py` |
+
+## Groups (Oscar and Jade)
+
+- **Main path:** HQ downloads the site's `groupings.json` (the priced pool) and
+  the site's own `groupings.py` from footyalmanac `main`. It then regroups
+  only games still to start, using the site's rules. So any rule change on the
+  site reaches HQ with no change here.
+- **Current rules (since 19 Oct 2026):** a leg's chance is the lower of its
+  tested rate and the bookmaker's fair chance. Only bookmaker-priced legs are
+  used. Football prices come from API-Football, US sports from ESPN, and tennis
+  and rugby from The Odds API. From 4 to 18 Oct, 8 of 48 groups won against
+  15.9 expected; the fix is described in footyalmanac's `RELEASES.md`.
+- **Fallback only:** if the site's groupings are missing or stale,
+  `markets.py` prices the picks itself: football-data.co.uk for the bigger
+  divisions, and The Odds API if `ODDS_API_KEY` is set here (capped at 8 calls
+  a run). HQ has no `ODDS_API_KEY` secret today; it lives in footyalmanac,
+  where it does the real work. Adding it here would share the same 500 free
+  credits a month.
+- **KPIs:** Oscar's is the share of legs with a live price, and Jade's is the
+  share of group legs that win.
+- Groups lose to the bookmakers' margin on average, and the briefing should
+  never suggest otherwise.
 
 ## Team, KPIs and hiring
 
-- **Team tab:** every agent's KPI today (now vs target, status, 14-day trend, days on track). Tap an agent, in the tab or in the office, for their profile: today's done/next/blockers, the last 7 days of work, development PRs and Agent of the Week days.
-- **Luke's hiring desk** (`scripts/org.py`, no AI tokens): at each stand-up the Chief of Staff checks for a gap nobody owns full-time and hires one specialist, at most one a day and six in total, each with one KPI and a stated reason:
-  - weakest league under 45% over at least 60 games: league specialist
-  - Strong calls drawn out 15% or more: draw risk analyst
+- **Core agents:** Luke (chief of staff), Ava (scout), Cory (quality), Raj
+  (source), Ben (ratings), Mia (experiment), Theo (sports), Susie (auditor),
+  Andrew (calibration), Nina (curator) and Allan (engineer). Oscar (odds) and
+  Jade (groups) run markets, Elena is the CEO, and up to six hires sit in the
+  Expansion Wing.
+- **Team tab:** each agent's KPI today, its target, status, 14-day trend and
+  days on track. Tap an agent for today's done, next and blockers, the last 7
+  days, PRs and Agent of the Week days.
+- **Hiring triggers (`org.py`):**
+  - weakest league under 45% over 60+ games: league specialist
+  - Strong calls drawn 15%+ of the time: draw-risk analyst
   - 80% or fewer recent builds green: reliability engineer
-  - another sport with 50 or more graded games: analyst, and a new Multi-sport department
-  - Daily List at 70% or better over 100 or more picks: Growth Lead, and a new Growth & Support department
-
-  Hires sit in the Expansion Wing, join stand-ups, playback and chats, and appear on the objectives wall. State is in `docs/data/org.json`. Delete an entry to let someone go.
-- **Mobile:** the office fills the screen and turns side-on to fit a phone. Room tags and room buttons are compact, and "Team & reports" jumps to the panel.
+  - another sport with 50+ graded games: analyst
+  - Daily List at 70%+ over 100+ picks: Growth Lead
+- The office agents that **open PRs on footyalmanac** are defined in that
+  repo's `agents/` (sprint tasks, merge gate). HQ's agents here only report.
 
 ## Your slip
 
-Tell the agents what you've backed and they'll give their read, show it on the home screen and settle it as results come in. Three ways:
-- Ask in chat.
-- Open an issue labelled `my-slip` with one selection per line.
-- Run the Office rhythm workflow with slot `slip` and your selections.
+Tell the agents what you've backed and they'll give their read and settle it as
+results come in. You can ask in chat, open an issue labelled `my-slip` (one
+selection per line), or run the `slip` slot. Each leg is matched to the
+published pick and shown with its probability and the combined chance. Susie
+settles legs from the graded records at each run and closes the issue when
+everything is in.
 
-Each leg is matched to footyalmanac's published pick, with our probability, whether the model agrees and the combined chance. Susie settles legs from the graded records at each office run and closes the issue when everything is in.
-
-## CEO (Elena) - NEW! 🎯
-
-The CEO provides strategic leadership and you can message her directly for 1-2-1 conversations:
-- **GitHub workflow**: Actions → Office rhythm → Run workflow → pick `ceo` → enter your message
-- **Command line**: `python scripts/ceo.py --message "Your question here"`
-- **Interactive chat**: `python scripts/ceo.py --chat`
-
-Elena has full context of current business performance, team metrics, and recent activity. She responds with data-driven insights about strategy, performance, and priorities.
-
-Conversations are saved to `docs/data/ceo_conversations.json` for continuity.
-
-## Markets & Groupings (Oscar and Jade)
-
-Every morning at 07:45 UK you get a daily briefing as a GitHub issue (so it lands in your email): yesterday's results, today's most important games and why, tomorrow's, and three groups of five. Groups are refreshed at 12:30 and 17:00 from games still to start, as comments on the same issue. The home screen and Picks tab show the latest.
-
-- Steady: combined odds 2.5 to 4. Balanced: 4 to 7. Stretch: 7 to 14.
-- Each group is the five model picks with the best chance of all winning inside its odds band, no leg used twice, at most two very short legs, mixed sports where possible.
-- Prices: UK bookmaker averages from football-data.co.uk for the bigger football divisions. Add a free key from the-odds-api.com as the repo secret `ODDS_API_KEY` to price tennis, rugby, NFL and more football. Anything without a price uses the model's fair price, marked with a star.
-- Group legs are settled from footyalmanac's graded records; Oscar's KPI is the share of legs with a live price, Jade's is the share of group legs that win.
-
-## Development
-
-See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for:
-- Architecture overview
-- Development setup and testing
-- API reference
-- Performance optimization
-- Contributing guidelines
-
-### Quick Start for Developers
+## Run and test locally
 
 ```bash
-# Run tests
-python3 tests/test_office.py
-
-# Test CEO locally
-python3 scripts/ceo.py --chat
-
-# Generate a standup
-python3 scripts/office.py --slot standup
-
-# Preview the office
-python3 -m http.server -d docs 8080
+python3 tests/test_office.py                     # tests
+python3 scripts/office.py --slot standup         # a stand-up
+python3 scripts/ceo.py --chat                    # CEO chat (placeholder replies)
+python3 -m http.server -d docs 8080              # preview the office
 ```
+
+More detail is in [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
+
+## Where HQ can improve
+
+1. **Report against the project's objective.** The site's README defines it:
+   coverage of every daily fixture, a Daily List that lands at least 80%, and
+   quotes that match what lands. Stand-ups and playbacks should lead with those
+   three numbers and the quoted-versus-landed gap, not raw win counts.
+2. **One Elena.** The site tab uses the Cloudflare Worker (OpenAI), but the
+   command line and `ceo` slot return a canned reply. Either route both
+   through the worker or label the script as offline.
+3. **Briefing honesty.** Show each group's honest chance next to its odds,
+   and say plainly that groups lose on average.
+4. **KPIs that can't be gamed.** Jade's "legs that win" rewards very short
+   legs. A calibration-style KPI (legs landed versus quoted) would be truer.
+5. **Stale numbers.** Every figure is copied from the site at run time. Never
+   hard-code a rate or a bar here.
 
 ## Copyright
 

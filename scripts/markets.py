@@ -315,7 +315,7 @@ def compose(stage, now, b):
     pr = b["pricing"]
     gl = [l for g in b["groups"] for l in g["legs"]]
     L += [f"**Oscar (Odds Analyst):** {sum(1 for l in gl if not l.get('est'))} of the {len(gl)} legs below have a live bookmaker price ({pr['priced']} of today's {pr['total']} picks priced in all)"
-          + ("; prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for NFL and baseball, tennis and rugby on the model's fair price" if pr.get("site") else ("" if os.environ.get("ODDS_API_KEY") else "; tennis, rugby and smaller leagues use the model's fair price until an odds API key is added")) + ".", ""]
+          + ("; prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped" if pr.get("site") else ("" if os.environ.get("ODDS_API_KEY") else "; tennis, rugby and smaller leagues use the model's fair price until an odds API key is added")) + ".", ""]
     if b["groups"]:
         L += ["**Jade (Accumulator Strategist):** Five tested picks per group, each with a short, a middle and (Balanced and Stretch) a longer price, no leg used twice. Chances are the tested hit rates at each pick's level. Steady lands most often; Stretch pays more. All groups are also on the [Odds tab](https://douglasbakeronline.github.io/footyalmanac/).", ""]
         for g in [g for g in b["groups"] if "alternative" not in g["name"]] or b["groups"]: L += [group_md(g), ""]
