@@ -1,47 +1,18 @@
 {
- "generated": "2026-10-19T17:27:17",
- "fetched": "2026-10-19T18:36:42.050089+01:00",
+ "generated": "2026-10-19T18:11:48",
+ "fetched": "2026-10-19T19:17:45.101030+01:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-19",
-   "count": 78,
+   "count": 72,
    "games": [
     {
-     "t": "16:00",
-     "ko": "2026-10-19T16:00:00Z",
-     "lg": "af.1126",
-     "lgName": "Esiliiga B",
-     "country": "Estonia",
-     "h": "Luunja",
-     "a": "Legion",
-     "side": "h",
-     "pick": "Luunja",
-     "c": 0.8738,
-     "p": {
-      "h": 0.8738,
-      "d": 0.0804,
-      "a": 0.0459
-     },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.5706,
-     "o25": 0.6615,
-     "hit": 0.8997,
-     "hitN": 628,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "18:00",
+     "t": "19:00",
      "ko": "2026-10-19T18:00:00Z",
      "lg": "sa.1",
-     "lgName": "Pro League",
-     "country": "Saudi Arabia",
+     "lgName": "Saudi Arabia Pro League",
+     "sport": "football",
      "h": "Al Hilal",
      "a": "Al Hazem",
      "side": "h",
@@ -52,18 +23,14 @@
       "d": 0.1046,
       "a": 0.0477
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.5186,
-     "o25": 0.6129,
-     "hit": 0.8397,
-     "hitN": 131,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "06:30",
@@ -660,9 +627,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "0-0"
     },
     {
      "t": "10:30",
@@ -769,35 +736,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-10-19T16:00:00Z",
-     "lg": "af.328",
-     "lgName": "Esiliiga A",
-     "country": "Estonia",
-     "h": "FC Tallinn",
-     "a": "Viimsi",
-     "side": "a",
-     "pick": "Viimsi",
-     "c": 0.5993,
-     "p": {
-      "h": 0.1738,
-      "d": 0.2269,
-      "a": 0.5993
-     },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5414,
-     "o25": 0.5446,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:00",
      "ko": "2026-10-19T18:00:00Z",
      "lg": "nl.2",
@@ -851,35 +789,6 @@
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:20",
-     "ko": "2026-10-19T15:20:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Damac",
-     "a": "Al Taee",
-     "side": "h",
-     "pick": "Damac",
-     "c": 0.5623,
-     "p": {
-      "h": 0.5623,
-      "d": 0.2211,
-      "a": 0.2167
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5817,
-     "o25": 0.5827,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -1001,35 +910,6 @@
      "unrated": false
     },
     {
-     "t": "16:50",
-     "ko": "2026-10-19T16:50:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al-Raed",
-     "a": "Al Saqer",
-     "side": "h",
-     "pick": "Al-Raed",
-     "c": 0.4908,
-     "p": {
-      "h": 0.4908,
-      "d": 0.2567,
-      "a": 0.2525
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5536,
-     "o25": 0.5361,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:30",
      "ko": "2026-10-19T18:30:00Z",
      "lg": "es.2",
@@ -1053,6 +933,35 @@
      "o25": 0.5071,
      "hit": 0.4634,
      "hitN": 259,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:50",
+     "ko": "2026-10-19T16:50:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al-Raed",
+     "a": "Al Saqer",
+     "side": "h",
+     "pick": "Al-Raed",
+     "c": 0.4895,
+     "p": {
+      "h": 0.4895,
+      "d": 0.2584,
+      "a": 0.2521
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5513,
+     "o25": 0.533,
+     "hit": 0.4867,
+     "hitN": 9010,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1227,35 +1136,6 @@
      "o25": 0.4718,
      "hit": 0.4634,
      "hitN": 259,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-19T15:00:00Z",
-     "lg": "af.291",
-     "lgName": "Azadegan League",
-     "country": "Iran",
-     "h": "Shahin Bandar Ameri",
-     "a": "Mes Soongoun",
-     "side": "h",
-     "pick": "Shahin Bandar Ameri",
-     "c": 0.4566,
-     "p": {
-      "h": 0.4566,
-      "d": 0.3533,
-      "a": 0.1901
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4316,
-     "o25": 0.3951,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1544,35 +1424,6 @@
      ],
      "btts": 0.4917,
      "o25": 0.4496,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:30",
-     "ko": "2026-10-19T15:30:00Z",
-     "lg": "af.406",
-     "lgName": "Professional League",
-     "country": "Oman",
-     "h": "Sohar",
-     "a": "Al-Shabab",
-     "side": "a",
-     "pick": "Al-Shabab",
-     "c": 0.3906,
-     "p": {
-      "h": 0.3314,
-      "d": 0.278,
-      "a": 0.3906
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5478,
-     "o25": 0.5178,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1871,35 +1722,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-10-19T16:00:00Z",
-     "lg": "afc.174",
-     "lgName": "Cup",
-     "country": "Bulgaria",
-     "h": "Etar Veliko Tarnovo",
-     "a": "Spartak Varna",
-     "side": "a",
-     "pick": "Spartak Varna",
-     "c": 0.3742,
-     "p": {
-      "h": 0.3544,
-      "d": 0.2714,
-      "a": 0.3742
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5593,
-     "o25": 0.5321,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:00",
      "ko": "2026-10-19T17:00:00Z",
      "lg": "af.204",
@@ -2080,15 +1902,15 @@
      "won": 0,
      "lost": 0,
      "void": 0,
-     "started": 0,
-     "upcoming": 1
+     "started": 1,
+     "upcoming": 0
     },
     "reserve": {
      "n": 27,
      "won": 11,
-     "lost": 3,
+     "lost": 4,
      "void": 0,
-     "started": 13,
+     "started": 12,
      "upcoming": 0
     }
    }
@@ -2760,35 +2582,6 @@
      "reserve": true
     },
     {
-     "t": "15:20",
-     "ko": "2026-10-20T15:20:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al Orubah",
-     "a": "Al Bukayriyah",
-     "side": "h",
-     "pick": "Al Orubah",
-     "c": 0.6448,
-     "p": {
-      "h": 0.6448,
-      "d": 0.2292,
-      "a": 0.1261
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4916,
-     "o25": 0.5026,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "02:30",
      "lg": "WTA",
      "lgName": "WTA \u00b7 Kinoshita Group Japan Open",
@@ -2802,6 +2595,35 @@
      "hitN": 194,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "15:20",
+     "ko": "2026-10-20T15:20:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al Orubah",
+     "a": "Al Bukayriyah",
+     "side": "h",
+     "pick": "Al Orubah",
+     "c": 0.6412,
+     "p": {
+      "h": 0.6412,
+      "d": 0.2318,
+      "a": 0.127
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4899,
+     "o25": 0.4996,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
     },
     {
      "t": "18:45",
@@ -3771,18 +3593,18 @@
      "a": "Al-Adalah",
      "side": "h",
      "pick": "Al Okhdood",
-     "c": 0.4876,
+     "c": 0.4869,
      "p": {
-      "h": 0.4876,
-      "d": 0.2297,
-      "a": 0.2826
+      "h": 0.4869,
+      "d": 0.2316,
+      "a": 0.2815
      },
      "score": [
-      2,
+      1,
       1
      ],
-     "btts": 0.6029,
-     "o25": 0.5964,
+     "btts": 0.5999,
+     "o25": 0.5926,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
@@ -4005,9 +3827,9 @@
      "pick": "Sogdiana",
      "c": 0.4655,
      "p": {
-      "h": 0.4655,
-      "d": 0.2525,
-      "a": 0.282
+      "h": 0.4739,
+      "d": 0.2477,
+      "a": 0.2784
      },
      "score": [
       1,
@@ -4208,9 +4030,9 @@
      "pick": "Millwall U21",
      "c": 0.4441,
      "p": {
-      "h": 0.4441,
-      "d": 0.2768,
-      "a": 0.2791
+      "h": 0.4594,
+      "d": 0.269,
+      "a": 0.2716
      },
      "score": [
       1,
@@ -4382,9 +4204,9 @@
      "pick": "Independiente Petrolero",
      "c": 0.4307,
      "p": {
-      "h": 0.4307,
-      "d": 0.2778,
-      "a": 0.2915
+      "h": 0.4491,
+      "d": 0.2676,
+      "a": 0.2833
      },
      "score": [
       1,
@@ -4516,6 +4338,35 @@
      "unrated": false
     },
     {
+     "t": "14:00",
+     "ko": "2026-10-20T14:00:00Z",
+     "lg": "af.291",
+     "lgName": "Azadegan League",
+     "country": "Iran",
+     "h": "Shenavarsazi Qeshm",
+     "a": "Mes Kerman",
+     "side": "d",
+     "pick": "Draw",
+     "c": 0.4196,
+     "p": {
+      "h": 0.3324,
+      "d": 0.4196,
+      "a": 0.248
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4056,
+     "o25": 0.3597,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "18:45",
      "ko": "2026-10-20T18:45:00Z",
      "lg": "en.3",
@@ -4540,35 +4391,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "14:00",
-     "ko": "2026-10-20T14:00:00Z",
-     "lg": "af.291",
-     "lgName": "Azadegan League",
-     "country": "Iran",
-     "h": "Shenavarsazi Qeshm",
-     "a": "Mes Kerman",
-     "side": "d",
-     "pick": "Draw",
-     "c": 0.4154,
-     "p": {
-      "h": 0.337,
-      "d": 0.4154,
-      "a": 0.2475
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4077,
-     "o25": 0.3617,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -4653,6 +4475,35 @@
      ],
      "btts": 0.5789,
      "o25": 0.5591,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:15",
+     "ko": "2026-10-20T13:15:00Z",
+     "lg": "af.291",
+     "lgName": "Azadegan League",
+     "country": "Iran",
+     "h": "Ario Eslamshahr",
+     "a": "Naft Bandar Abbas",
+     "side": "d",
+     "pick": "Draw",
+     "c": 0.409,
+     "p": {
+      "h": 0.3406,
+      "d": 0.409,
+      "a": 0.2504
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4115,
+     "o25": 0.365,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -4748,35 +4599,6 @@
      "unrated": false
     },
     {
-     "t": "13:15",
-     "ko": "2026-10-20T13:15:00Z",
-     "lg": "af.291",
-     "lgName": "Azadegan League",
-     "country": "Iran",
-     "h": "Ario Eslamshahr",
-     "a": "Naft Bandar Abbas",
-     "side": "d",
-     "pick": "Draw",
-     "c": 0.4036,
-     "p": {
-      "h": 0.3441,
-      "d": 0.4036,
-      "a": 0.2523
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4149,
-     "o25": 0.3681,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:15",
      "ko": "2026-10-20T19:15:00Z",
      "lg": "af.240",
@@ -4835,6 +4657,35 @@
      "unrated": false
     },
     {
+     "t": "13:15",
+     "ko": "2026-10-20T13:15:00Z",
+     "lg": "af.291",
+     "lgName": "Azadegan League",
+     "country": "Iran",
+     "h": "Mes Rafsanjan",
+     "a": "Niroye Zamini",
+     "side": "d",
+     "pick": "Draw",
+     "c": 0.3913,
+     "p": {
+      "h": 0.3834,
+      "d": 0.3913,
+      "a": 0.2252
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4175,
+     "o25": 0.3733,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "18:45",
      "ko": "2026-10-20T18:45:00Z",
      "lg": "en.7i",
@@ -4859,64 +4710,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "11:30",
-     "ko": "2026-10-20T11:30:00Z",
-     "lg": "af.291",
-     "lgName": "Azadegan League",
-     "country": "Iran",
-     "h": "Be'sat Kermanshah",
-     "a": "Pars Jonoubi JAM",
-     "side": "a",
-     "pick": "Pars Jonoubi JAM",
-     "c": 0.3885,
-     "p": {
-      "h": 0.2676,
-      "d": 0.3439,
-      "a": 0.3885
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4612,
-     "o25": 0.4158,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:15",
-     "ko": "2026-10-20T13:15:00Z",
-     "lg": "af.291",
-     "lgName": "Azadegan League",
-     "country": "Iran",
-     "h": "Mes Rafsanjan",
-     "a": "Niroye Zamini",
-     "side": "d",
-     "pick": "Draw",
-     "c": 0.3881,
-     "p": {
-      "h": 0.3879,
-      "d": 0.3881,
-      "a": 0.224
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4191,
-     "o25": 0.3751,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -5001,6 +4794,35 @@
      ],
      "btts": 0.5708,
      "o25": 0.5473,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "11:30",
+     "ko": "2026-10-20T11:30:00Z",
+     "lg": "af.291",
+     "lgName": "Azadegan League",
+     "country": "Iran",
+     "h": "Be'sat Kermanshah",
+     "a": "Pars Jonoubi JAM",
+     "side": "a",
+     "pick": "Pars Jonoubi JAM",
+     "c": 0.3865,
+     "p": {
+      "h": 0.2661,
+      "d": 0.3474,
+      "a": 0.3865
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4577,
+     "o25": 0.412,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -5337,18 +5159,18 @@
      "a": "Al Najma",
      "side": "a",
      "pick": "Al Najma",
-     "c": 0.3656,
+     "c": 0.3639,
      "p": {
-      "h": 0.3597,
-      "d": 0.2747,
-      "a": 0.3656
+      "h": 0.3598,
+      "d": 0.2763,
+      "a": 0.3639
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5547,
-     "o25": 0.526,
+     "btts": 0.5523,
+     "o25": 0.523,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -5397,9 +5219,9 @@
      "pick": "Cliftonville",
      "c": 0.3614,
      "p": {
-      "h": 0.3442,
-      "d": 0.2944,
-      "a": 0.3614
+      "h": 0.349,
+      "d": 0.2751,
+      "a": 0.3759
      },
      "score": [
       1,
@@ -6352,9 +6174,9 @@
      "pick": "Cherno More Varna",
      "c": 0.5586,
      "p": {
-      "h": 0.5586,
-      "d": 0.2807,
-      "a": 0.1608
+      "h": 0.5217,
+      "d": 0.2938,
+      "a": 0.1845
      },
      "score": [
       1,
@@ -6439,9 +6261,9 @@
      "pick": "Liverpool Montevideo",
      "c": 0.5524,
      "p": {
-      "h": 0.5524,
-      "d": 0.2784,
-      "a": 0.1692
+      "h": 0.5188,
+      "d": 0.2905,
+      "a": 0.1906
      },
      "score": [
       1,
@@ -6642,9 +6464,9 @@
      "pick": "Nykobing",
      "c": 0.5182,
      "p": {
-      "h": 0.2034,
-      "d": 0.2784,
-      "a": 0.5182
+      "h": 0.2129,
+      "d": 0.2841,
+      "a": 0.503
      },
      "score": [
       0,
@@ -7309,9 +7131,9 @@
      "pick": "Santa Fe",
      "c": 0.4582,
      "p": {
-      "h": 0.4582,
-      "d": 0.301,
-      "a": 0.2408
+      "h": 0.469,
+      "d": 0.2975,
+      "a": 0.2335
      },
      "score": [
       1,
@@ -7338,9 +7160,9 @@
      "pick": "Norwich City U21",
      "c": 0.4549,
      "p": {
-      "h": 0.4549,
-      "d": 0.2675,
-      "a": 0.2776
+      "h": 0.467,
+      "d": 0.2611,
+      "a": 0.272
      },
      "score": [
       1,
@@ -7483,9 +7305,9 @@
      "pick": "Always Ready",
      "c": 0.4443,
      "p": {
-      "h": 0.4443,
-      "d": 0.2683,
-      "a": 0.2874
+      "h": 0.4595,
+      "d": 0.2598,
+      "a": 0.2808
      },
      "score": [
       1,
@@ -7617,35 +7439,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-10-21T15:00:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al Anwar",
-     "a": "Al Wehda Club",
-     "side": "h",
-     "pick": "Al Anwar",
-     "c": 0.4338,
-     "p": {
-      "h": 0.4338,
-      "d": 0.2526,
-      "a": 0.3136
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5802,
-     "o25": 0.5622,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "04:00",
      "ko": "2026-10-21T04:00:00Z",
      "lg": "af.100",
@@ -7667,6 +7460,35 @@
      ],
      "btts": 0.5919,
      "o25": 0.5771,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-10-21T15:00:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al Anwar",
+     "a": "Al Wehda Club",
+     "side": "h",
+     "pick": "Al Anwar",
+     "c": 0.4332,
+     "p": {
+      "h": 0.4332,
+      "d": 0.2542,
+      "a": 0.3126
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5777,
+     "o25": 0.559,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -7916,18 +7738,18 @@
      "a": "Al Jabalain",
      "side": "a",
      "pick": "Al Jabalain",
-     "c": 0.4131,
+     "c": 0.4116,
      "p": {
-      "h": 0.29,
-      "d": 0.2969,
-      "a": 0.4131
+      "h": 0.2896,
+      "d": 0.2988,
+      "a": 0.4116
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5156,
-     "o25": 0.4796,
+     "btts": 0.5133,
+     "o25": 0.4767,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -8061,18 +7883,18 @@
      "a": "Al Jandal",
      "side": "h",
      "pick": "Al Jeel",
-     "c": 0.401,
+     "c": 0.402,
      "p": {
-      "h": 0.401,
-      "d": 0.2823,
-      "a": 0.3167
+      "h": 0.402,
+      "d": 0.2836,
+      "a": 0.3143
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5397,
-     "o25": 0.5082,
+     "btts": 0.5375,
+     "o25": 0.5055,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -8620,9 +8442,9 @@
      "pick": "Flora Tallinn",
      "c": 0.7968,
      "p": {
-      "h": 0.7968,
-      "d": 0.1248,
-      "a": 0.0784
+      "h": 0.6046,
+      "d": 0.2224,
+      "a": 0.1731
      },
      "score": [
       3,
@@ -8707,9 +8529,9 @@
      "pick": "Al-Wasl",
      "c": 0.7305,
      "p": {
-      "h": 0.7305,
-      "d": 0.1703,
-      "a": 0.0992
+      "h": 0.581,
+      "d": 0.2431,
+      "a": 0.1759
      },
      "score": [
       2,
@@ -8903,9 +8725,9 @@
      "pick": "Al-Jazira",
      "c": 0.6605,
      "p": {
-      "h": 0.6605,
-      "d": 0.2052,
-      "a": 0.1343
+      "h": 0.5573,
+      "d": 0.2529,
+      "a": 0.1898
      },
      "score": [
       2,
@@ -9017,18 +8839,18 @@
      "a": "N\u00f5mme United II",
      "side": "h",
      "pick": "Flora II",
-     "c": 0.6238,
+     "c": 0.6242,
      "p": {
-      "h": 0.6238,
-      "d": 0.1831,
-      "a": 0.1931
+      "h": 0.6242,
+      "d": 0.1829,
+      "a": 0.193
      },
      "score": [
       2,
       1
      ],
-     "btts": 0.6187,
-     "o25": 0.6355,
+     "btts": 0.619,
+     "o25": 0.6358,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": true,
@@ -9135,9 +8957,9 @@
      "pick": "America de Cali",
      "c": 0.5785,
      "p": {
-      "h": 0.1673,
-      "d": 0.2541,
-      "a": 0.5785
+      "h": 0.1966,
+      "d": 0.2744,
+      "a": 0.529
      },
      "score": [
       0,
@@ -9947,9 +9769,9 @@
      "pick": "Shabab Al Ahli Dubai",
      "c": 0.4537,
      "p": {
-      "h": 0.4537,
-      "d": 0.2792,
-      "a": 0.267
+      "h": 0.4662,
+      "d": 0.2735,
+      "a": 0.2604
      },
      "score": [
       1,
@@ -9976,9 +9798,9 @@
      "pick": "Oriente Petrolero",
      "c": 0.45,
      "p": {
-      "h": 0.45,
-      "d": 0.2689,
-      "a": 0.2812
+      "h": 0.4635,
+      "d": 0.2616,
+      "a": 0.2749
      },
      "score": [
       1,
@@ -10150,9 +9972,9 @@
      "pick": "Lions",
      "c": 0.4316,
      "p": {
-      "h": 0.4316,
-      "d": 0.285,
-      "a": 0.2834
+      "h": 0.4498,
+      "d": 0.276,
+      "a": 0.2742
      },
      "score": [
       1,
@@ -10440,9 +10262,9 @@
      "pick": "Columbus Crew",
      "c": 0.3979,
      "p": {
-      "h": 0.3979,
-      "d": 0.266,
-      "a": 0.3361
+      "h": 0.4189,
+      "d": 0.2461,
+      "a": 0.3351
      },
      "score": [
       1,
@@ -10884,9 +10706,9 @@
      "pick": "Johor Darul Takzim",
      "c": 0.8501,
      "p": {
-      "h": 0.0491,
-      "d": 0.1008,
-      "a": 0.8501
+      "h": 0.1517,
+      "d": 0.2173,
+      "a": 0.631
      },
      "score": [
       0,
@@ -10940,18 +10762,18 @@
      "a": "Tallinna Kalev",
      "side": "h",
      "pick": "Tartu Welco",
-     "c": 0.8246,
+     "c": 0.825,
      "p": {
-      "h": 0.8246,
-      "d": 0.1054,
-      "a": 0.07
+      "h": 0.825,
+      "d": 0.1051,
+      "a": 0.0699
      },
      "score": [
       3,
       1
      ],
-     "btts": 0.5846,
-     "o25": 0.6538,
+     "btts": 0.5848,
+     "o25": 0.6542,
      "hit": 0.8075,
      "hitN": 644,
      "celtic": true,
@@ -11163,6 +10985,35 @@
      "unrated": false
     },
     {
+     "t": "12:50",
+     "ko": "2026-10-23T12:50:00Z",
+     "lg": "af.406",
+     "lgName": "Professional League",
+     "country": "Oman",
+     "h": "Al-Shabab",
+     "a": "Smail",
+     "side": "h",
+     "pick": "Al-Shabab",
+     "c": 0.7578,
+     "p": {
+      "h": 0.7578,
+      "d": 0.1556,
+      "a": 0.0865
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5279,
+     "o25": 0.5813,
+     "hit": 0.7832,
+     "hitN": 964,
+     "celtic": false,
+     "list": true,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:45",
      "ko": "2026-10-23T18:45Z",
      "lg": "rugby",
@@ -11234,6 +11085,35 @@
      "celtic": false,
      "list": false,
      "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:20",
+     "ko": "2026-10-23T15:20:00Z",
+     "lg": "af.406",
+     "lgName": "Professional League",
+     "country": "Oman",
+     "h": "Al Seeb",
+     "a": "Sohar",
+     "side": "h",
+     "pick": "Al Seeb",
+     "c": 0.7424,
+     "p": {
+      "h": 0.7424,
+      "d": 0.1784,
+      "a": 0.0792
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4827,
+     "o25": 0.5297,
+     "hit": 0.7405,
+     "hitN": 1426,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
      "unrated": false
     },
     {
@@ -11374,35 +11254,6 @@
      ],
      "btts": 0.5035,
      "o25": 0.5404,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
-     "t": "12:50",
-     "ko": "2026-10-23T12:50:00Z",
-     "lg": "af.406",
-     "lgName": "Professional League",
-     "country": "Oman",
-     "h": "Al-Shabab",
-     "a": "Smail",
-     "side": "h",
-     "pick": "Al-Shabab",
-     "c": 0.7151,
-     "p": {
-      "h": 0.7151,
-      "d": 0.1772,
-      "a": 0.1077
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5321,
-     "o25": 0.5697,
      "hit": 0.7405,
      "hitN": 1426,
      "celtic": false,
@@ -11553,35 +11404,6 @@
      "celtic": true,
      "list": false,
      "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:20",
-     "ko": "2026-10-23T15:20:00Z",
-     "lg": "af.406",
-     "lgName": "Professional League",
-     "country": "Oman",
-     "h": "Al Seeb",
-     "a": "Sohar",
-     "side": "h",
-     "pick": "Al Seeb",
-     "c": 0.6656,
-     "p": {
-      "h": 0.6656,
-      "d": 0.2212,
-      "a": 0.1133
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4852,
-     "o25": 0.5027,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
      "unrated": false
     },
     {
@@ -12704,9 +12526,9 @@
      "pick": "Al Nasr",
      "c": 0.5666,
      "p": {
-      "h": 0.5666,
-      "d": 0.2587,
-      "a": 0.1747
+      "h": 0.5243,
+      "d": 0.2758,
+      "a": 0.1999
      },
      "score": [
       1,
@@ -13485,18 +13307,18 @@
      "a": "Ibri",
      "side": "h",
      "pick": "Al Musannah",
-     "c": 0.5074,
+     "c": 0.5067,
      "p": {
-      "h": 0.5074,
-      "d": 0.2616,
-      "a": 0.231
+      "h": 0.5067,
+      "d": 0.2637,
+      "a": 0.2296
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5368,
-     "o25": 0.5187,
+     "btts": 0.5336,
+     "o25": 0.5147,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -13516,9 +13338,9 @@
      "pick": "Selangor",
      "c": 0.5057,
      "p": {
-      "h": 0.5057,
-      "d": 0.2537,
-      "a": 0.2405
+      "h": 0.4967,
+      "d": 0.2581,
+      "a": 0.2453
      },
      "score": [
       1,
@@ -14036,18 +13858,18 @@
      "a": "Al-Nahda",
      "side": "a",
      "pick": "Al-Nahda",
-     "c": 0.4693,
+     "c": 0.4662,
      "p": {
-      "h": 0.2484,
-      "d": 0.2823,
-      "a": 0.4693
+      "h": 0.2487,
+      "d": 0.2851,
+      "a": 0.4662
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5199,
-     "o25": 0.492,
+     "btts": 0.5167,
+     "o25": 0.4877,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -14125,9 +13947,9 @@
      "pick": "Sydney United",
      "c": 0.4627,
      "p": {
-      "h": 0.2578,
-      "d": 0.2795,
-      "a": 0.4627
+      "h": 0.2525,
+      "d": 0.2754,
+      "a": 0.4721
      },
      "score": [
       1,
@@ -14531,9 +14353,9 @@
      "pick": "Adelaide City",
      "c": 0.4387,
      "p": {
-      "h": 0.4387,
-      "d": 0.2751,
-      "a": 0.2862
+      "h": 0.4554,
+      "d": 0.2661,
+      "a": 0.2785
      },
      "score": [
       1,
@@ -15053,9 +14875,9 @@
      "pick": "Barra",
      "c": 0.4155,
      "p": {
-      "h": 0.4155,
-      "d": 0.3079,
-      "a": 0.2766
+      "h": 0.4363,
+      "d": 0.3006,
+      "a": 0.2632
      },
      "score": [
       1,
@@ -16155,9 +15977,9 @@
      "pick": "Al Fujairah",
      "c": 0.3662,
      "p": {
-      "h": 0.3662,
-      "d": 0.2729,
-      "a": 0.3609
+      "h": 0.3812,
+      "d": 0.2457,
+      "a": 0.3731
      },
      "score": [
       1,
@@ -16775,9 +16597,9 @@
      "pick": "Berkhamsted",
      "c": 0.8027,
      "p": {
-      "h": 0.8027,
-      "d": 0.1216,
-      "a": 0.0758
+      "h": 0.607,
+      "d": 0.2212,
+      "a": 0.1718
      },
      "score": [
       3,
@@ -17575,6 +17397,35 @@
      "unrated": false
     },
     {
+     "t": "09:30",
+     "ko": "2026-10-24T09:30:00Z",
+     "lg": "af.1126",
+     "lgName": "Esiliiga B",
+     "country": "Estonia",
+     "h": "Legion",
+     "a": "Johvi Phoenix",
+     "side": "a",
+     "pick": "Johvi Phoenix",
+     "c": 0.709,
+     "p": {
+      "h": 0.1324,
+      "d": 0.1587,
+      "a": 0.709
+     },
+     "score": [
+      1,
+      3
+     ],
+     "btts": 0.5958,
+     "o25": 0.6309,
+     "hit": 0.7405,
+     "hitN": 1426,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
      "t": "18:00",
      "ko": "2026-10-24T16:00:00Z",
      "lg": "cze.1",
@@ -17977,35 +17828,6 @@
      "unrated": false
     },
     {
-     "t": "09:30",
-     "ko": "2026-10-24T09:30:00Z",
-     "lg": "af.1126",
-     "lgName": "Esiliiga B",
-     "country": "Estonia",
-     "h": "Legion",
-     "a": "Johvi Phoenix",
-     "side": "a",
-     "pick": "Johvi Phoenix",
-     "c": 0.6778,
-     "p": {
-      "h": 0.1512,
-      "d": 0.1709,
-      "a": 0.6778
-     },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5985,
-     "o25": 0.6261,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "11:30",
      "ko": "2026-10-24T11:30:00Z",
      "lg": "af.644",
@@ -18046,9 +17868,9 @@
      "pick": "Cleethorpes Town",
      "c": 0.6752,
      "p": {
-      "h": 0.1261,
-      "d": 0.1987,
-      "a": 0.6752
+      "h": 0.1863,
+      "d": 0.2514,
+      "a": 0.5623
      },
      "score": [
       0,
@@ -18236,9 +18058,9 @@
      "pick": "Bridlington Town",
      "c": 0.6682,
      "p": {
-      "h": 0.6682,
-      "d": 0.183,
-      "a": 0.1489
+      "h": 0.5589,
+      "d": 0.2357,
+      "a": 0.2054
      },
      "score": [
       2,
@@ -18661,9 +18483,9 @@
      "pick": "Figueirense",
      "c": 0.6459,
      "p": {
-      "h": 0.6459,
-      "d": 0.2313,
-      "a": 0.1228
+      "h": 0.554,
+      "d": 0.2713,
+      "a": 0.1747
      },
      "score": [
       1,
@@ -20146,9 +19968,9 @@
      "pick": "Edinburgh City",
      "c": 0.5991,
      "p": {
-      "h": 0.5991,
-      "d": 0.228,
-      "a": 0.1729
+      "h": 0.536,
+      "d": 0.2564,
+      "a": 0.2076
      },
      "score": [
       2,
@@ -20233,9 +20055,9 @@
      "pick": "Needham Market",
      "c": 0.5953,
      "p": {
-      "h": 0.5953,
-      "d": 0.2065,
-      "a": 0.1982
+      "h": 0.5343,
+      "d": 0.2365,
+      "a": 0.2292
      },
      "score": [
       2,
@@ -21306,9 +21128,9 @@
      "pick": "Kettering Town",
      "c": 0.5668,
      "p": {
-      "h": 0.5668,
-      "d": 0.225,
-      "a": 0.2082
+      "h": 0.5236,
+      "d": 0.2458,
+      "a": 0.2306
      },
      "score": [
       2,
@@ -21596,9 +21418,9 @@
      "pick": "Canberra",
      "c": 0.5633,
      "p": {
-      "h": 0.5633,
-      "d": 0.2413,
-      "a": 0.1955
+      "h": 0.5224,
+      "d": 0.2595,
+      "a": 0.2181
      },
      "score": [
       1,
@@ -22234,9 +22056,9 @@
      "pick": "Aveley",
      "c": 0.5477,
      "p": {
-      "h": 0.5477,
-      "d": 0.2356,
-      "a": 0.2167
+      "h": 0.516,
+      "d": 0.2507,
+      "a": 0.2334
      },
      "score": [
       1,
@@ -22669,9 +22491,9 @@
      "pick": "St Albans City",
      "c": 0.5382,
      "p": {
-      "h": 0.2237,
-      "d": 0.2381,
-      "a": 0.5382
+      "h": 0.2374,
+      "d": 0.2507,
+      "a": 0.5119
      },
      "score": [
       1,
@@ -23742,9 +23564,9 @@
      "pick": "Hatta",
      "c": 0.5193,
      "p": {
-      "h": 0.5193,
-      "d": 0.2672,
-      "a": 0.2134
+      "h": 0.5035,
+      "d": 0.2738,
+      "a": 0.2228
      },
      "score": [
       1,
@@ -23784,6 +23606,35 @@
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-10-24T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Sportivo Trinidense",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.519,
+     "p": {
+      "h": 0.519,
+      "d": 0.2602,
+      "a": 0.2208
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5331,
+     "o25": 0.5166,
+     "hit": 0.4896,
+     "hitN": 194,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -23858,9 +23709,9 @@
      "pick": "Gosport Borough",
      "c": 0.5158,
      "p": {
-      "h": 0.5158,
-      "d": 0.2537,
-      "a": 0.2306
+      "h": 0.5017,
+      "d": 0.2602,
+      "a": 0.2382
      },
      "score": [
       1,
@@ -24044,35 +23895,6 @@
      "o25": 0.5023,
      "hit": 0.4896,
      "hitN": 194,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "09:30",
-     "ko": "2026-10-24T09:30:00Z",
-     "lg": "af.1126",
-     "lgName": "Esiliiga B",
-     "country": "Estonia",
-     "h": "JK Tabasalu",
-     "a": "Tartu Kalev",
-     "side": "a",
-     "pick": "Tartu Kalev",
-     "c": 0.514,
-     "p": {
-      "h": 0.2578,
-      "d": 0.2282,
-      "a": 0.514
-     },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5947,
-     "o25": 0.5899,
-     "hit": 0.5376,
-     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -24480,6 +24302,35 @@
      "hit": 0.4896,
      "hitN": 194,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "09:30",
+     "ko": "2026-10-24T09:30:00Z",
+     "lg": "af.1126",
+     "lgName": "Esiliiga B",
+     "country": "Estonia",
+     "h": "JK Tabasalu",
+     "a": "Tartu Kalev",
+     "side": "a",
+     "pick": "Tartu Kalev",
+     "c": 0.5083,
+     "p": {
+      "h": 0.2596,
+      "d": 0.2322,
+      "a": 0.5083
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.59,
+     "o25": 0.5833,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -25007,35 +24858,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-10-24T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Sportivo Trinidense",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.4974,
-     "p": {
-      "h": 0.4974,
-      "d": 0.2692,
-      "a": 0.2335
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5289,
-     "o25": 0.5074,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-10-24T13:30:00Z",
      "lg": "af.938",
@@ -25511,9 +25333,9 @@
      "pick": "Metropolitano",
      "c": 0.4926,
      "p": {
-      "h": 0.4926,
-      "d": 0.2641,
-      "a": 0.2433
+      "h": 0.4898,
+      "d": 0.2654,
+      "a": 0.2448
      },
      "score": [
       1,
@@ -28150,9 +27972,9 @@
      "pick": "Redditch United",
      "c": 0.4605,
      "p": {
-      "h": 0.4605,
-      "d": 0.2467,
-      "a": 0.2928
+      "h": 0.4706,
+      "d": 0.2404,
+      "a": 0.289
      },
      "score": [
       1,
@@ -29165,9 +28987,9 @@
      "pick": "Khorfakkan",
      "c": 0.4473,
      "p": {
-      "h": 0.4473,
-      "d": 0.2629,
-      "a": 0.2897
+      "h": 0.4616,
+      "d": 0.2546,
+      "a": 0.2838
      },
      "score": [
       1,
@@ -29465,6 +29287,35 @@
      ],
      "btts": 0.5094,
      "o25": 0.4759,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "09:30",
+     "ko": "2026-10-24T09:30:00Z",
+     "lg": "af.328",
+     "lgName": "Esiliiga A",
+     "country": "Estonia",
+     "h": "N\u00f5mme Kalju II",
+     "a": "FC Tallinn",
+     "side": "h",
+     "pick": "N\u00f5mme Kalju II",
+     "c": 0.444,
+     "p": {
+      "h": 0.444,
+      "d": 0.247,
+      "a": 0.309
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5869,
+     "o25": 0.5717,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -29948,9 +29799,9 @@
      "pick": "Herc\u00edlio Luz",
      "c": 0.4389,
      "p": {
-      "h": 0.4389,
-      "d": 0.2799,
-      "a": 0.2811
+      "h": 0.4555,
+      "d": 0.2716,
+      "a": 0.2729
      },
      "score": [
       1,
@@ -31155,35 +31006,6 @@
      "unrated": false
     },
     {
-     "t": "09:30",
-     "ko": "2026-10-24T09:30:00Z",
-     "lg": "af.328",
-     "lgName": "Esiliiga A",
-     "country": "Estonia",
-     "h": "N\u00f5mme Kalju II",
-     "a": "FC Tallinn",
-     "side": "h",
-     "pick": "N\u00f5mme Kalju II",
-     "c": 0.4288,
-     "p": {
-      "h": 0.4288,
-      "d": 0.247,
-      "a": 0.3241
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5905,
-     "o25": 0.575,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:00",
      "ko": "2026-10-24T14:00:00Z",
      "lg": "en.3",
@@ -31224,9 +31046,9 @@
      "pick": "Halesowen Town",
      "c": 0.4281,
      "p": {
-      "h": 0.3008,
-      "d": 0.2711,
-      "a": 0.4281
+      "h": 0.2936,
+      "d": 0.2594,
+      "a": 0.447
      },
      "score": [
       1,
@@ -32094,9 +31916,9 @@
      "pick": "Avondale",
      "c": 0.4208,
      "p": {
-      "h": 0.4208,
-      "d": 0.248,
-      "a": 0.3311
+      "h": 0.4403,
+      "d": 0.231,
+      "a": 0.3287
      },
      "score": [
       1,
@@ -33968,35 +33790,6 @@
      "unrated": false
     },
     {
-     "t": "15:05",
-     "ko": "2026-10-24T15:05:00Z",
-     "lg": "af.406",
-     "lgName": "Professional League",
-     "country": "Oman",
-     "h": "Bahla",
-     "a": "Al Nasr",
-     "side": "a",
-     "pick": "Al Nasr",
-     "c": 0.3999,
-     "p": {
-      "h": 0.3005,
-      "d": 0.2996,
-      "a": 0.3999
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5146,
-     "o25": 0.4772,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:00",
      "ko": "2026-10-24T12:00:00Z",
      "lg": "af.1025",
@@ -34066,9 +33859,9 @@
      "pick": "Marconi Stallions",
      "c": 0.3996,
      "p": {
-      "h": 0.3996,
-      "d": 0.2867,
-      "a": 0.3136
+      "h": 0.4212,
+      "d": 0.2724,
+      "a": 0.3064
      },
      "score": [
       1,
@@ -34456,6 +34249,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:05",
+     "ko": "2026-10-24T15:05:00Z",
+     "lg": "af.406",
+     "lgName": "Professional League",
+     "country": "Oman",
+     "h": "Bahla",
+     "a": "Al Nasr",
+     "side": "a",
+     "pick": "Al Nasr",
+     "c": 0.3967,
+     "p": {
+      "h": 0.3016,
+      "d": 0.3017,
+      "a": 0.3967
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5122,
+     "o25": 0.4742,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -34878,9 +34700,9 @@
      "pick": "Rylands",
      "c": 0.3919,
      "p": {
-      "h": 0.3919,
-      "d": 0.2891,
-      "a": 0.319
+      "h": 0.4131,
+      "d": 0.274,
+      "a": 0.3129
      },
      "score": [
       1,
@@ -35255,9 +35077,9 @@
      "pick": "Taunton Town",
      "c": 0.3888,
      "p": {
-      "h": 0.3888,
-      "d": 0.2442,
-      "a": 0.3669
+      "h": 0.4076,
+      "d": 0.2159,
+      "a": 0.3766
      },
      "score": [
       1,
@@ -36172,35 +35994,6 @@
      "unrated": false
     },
     {
-     "t": "15:30",
-     "ko": "2026-10-24T15:30:00Z",
-     "lg": "af.406",
-     "lgName": "Professional League",
-     "country": "Oman",
-     "h": "Sur",
-     "a": "Oman Club",
-     "side": "a",
-     "pick": "Oman Club",
-     "c": 0.383,
-     "p": {
-      "h": 0.3202,
-      "d": 0.2969,
-      "a": 0.383
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.521,
-     "o25": 0.4839,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:00",
      "ko": "2026-10-24T12:00:00Z",
      "lg": "af.577",
@@ -36520,6 +36313,35 @@
      "unrated": false
     },
     {
+     "t": "15:30",
+     "ko": "2026-10-24T15:30:00Z",
+     "lg": "af.406",
+     "lgName": "Professional League",
+     "country": "Oman",
+     "h": "Sur",
+     "a": "Oman Club",
+     "side": "a",
+     "pick": "Oman Club",
+     "c": 0.3794,
+     "p": {
+      "h": 0.3212,
+      "d": 0.2993,
+      "a": 0.3794
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5181,
+     "o25": 0.4801,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "16:00",
      "ko": "2026-10-24T16:00:00Z",
      "lg": "af.287",
@@ -36541,35 +36363,6 @@
      ],
      "btts": 0.473,
      "o25": 0.4277,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:10",
-     "ko": "2026-10-24T13:10:00Z",
-     "lg": "af.406",
-     "lgName": "Professional League",
-     "country": "Oman",
-     "h": "Dhofar",
-     "a": "Fanja",
-     "side": "h",
-     "pick": "Dhofar",
-     "c": 0.3791,
-     "p": {
-      "h": 0.3791,
-      "d": 0.3152,
-      "a": 0.3057
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4968,
-     "o25": 0.4547,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -36686,6 +36479,35 @@
      ],
      "btts": 0.5257,
      "o25": 0.4894,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:10",
+     "ko": "2026-10-24T13:10:00Z",
+     "lg": "af.406",
+     "lgName": "Professional League",
+     "country": "Oman",
+     "h": "Dhofar",
+     "a": "Fanja",
+     "side": "h",
+     "pick": "Dhofar",
+     "c": 0.3774,
+     "p": {
+      "h": 0.3774,
+      "d": 0.3177,
+      "a": 0.3048
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4938,
+     "o25": 0.4511,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -37430,9 +37252,9 @@
      "pick": "Al Urooba",
      "c": 0.371,
      "p": {
-      "h": 0.3283,
-      "d": 0.3007,
-      "a": 0.371
+      "h": 0.3252,
+      "d": 0.2859,
+      "a": 0.3889
      },
      "score": [
       1,
@@ -37865,9 +37687,9 @@
      "pick": "Weymouth",
      "c": 0.3668,
      "p": {
-      "h": 0.3668,
-      "d": 0.278,
-      "a": 0.3553
+      "h": 0.3824,
+      "d": 0.253,
+      "a": 0.3647
      },
      "score": [
       1,
@@ -39887,9 +39709,9 @@
      "pick": "Bayswater City",
      "c": 0.713,
      "p": {
-      "h": 0.1208,
-      "d": 0.1662,
-      "a": 0.713
+      "h": 0.1922,
+      "d": 0.234,
+      "a": 0.5738
      },
      "score": [
       1,
@@ -41128,35 +40950,6 @@
      "unrated": false
     },
     {
-     "t": "10:30",
-     "ko": "2026-10-25T10:30:00Z",
-     "lg": "af.1126",
-     "lgName": "Esiliiga B",
-     "country": "Estonia",
-     "h": "Narva U21",
-     "a": "Tulevik",
-     "side": "h",
-     "pick": "Narva U21",
-     "c": 0.6234,
-     "p": {
-      "h": 0.6234,
-      "d": 0.1943,
-      "a": 0.1823
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5937,
-     "o25": 0.6089,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "16:00",
      "ko": "2026-10-25T16:00:00Z",
      "lg": "af.312",
@@ -41368,6 +41161,35 @@
      ],
      "btts": 0.4623,
      "o25": 0.4613,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "10:30",
+     "ko": "2026-10-25T10:30:00Z",
+     "lg": "af.1126",
+     "lgName": "Esiliiga B",
+     "country": "Estonia",
+     "h": "Narva U21",
+     "a": "Tulevik",
+     "side": "h",
+     "pick": "Narva U21",
+     "c": 0.6125,
+     "p": {
+      "h": 0.6125,
+      "d": 0.2009,
+      "a": 0.1866
+     },
+     "score": [
+      2,
+      1
+     ],
+     "btts": 0.5878,
+     "o25": 0.6001,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -49681,9 +49503,9 @@
      "pick": "South Hobart",
      "c": 0.4314,
      "p": {
-      "h": 0.293,
-      "d": 0.2756,
-      "a": 0.4314
+      "h": 0.2851,
+      "d": 0.2652,
+      "a": 0.4497
      },
      "score": [
       1,
@@ -50114,18 +49936,18 @@
      "a": "FCI Levadia II",
      "side": "h",
      "pick": "Elva",
-     "c": 0.4227,
+     "c": 0.4229,
      "p": {
-      "h": 0.4227,
-      "d": 0.2501,
-      "a": 0.3272
+      "h": 0.4229,
+      "d": 0.2499,
+      "a": 0.3273
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5868,
-     "o25": 0.5698,
+     "btts": 0.5871,
+     "o25": 0.5702,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -50743,6 +50565,35 @@
      "unrated": false
     },
     {
+     "t": "14:30",
+     "ko": "2026-10-25T14:30:00Z",
+     "lg": "af.1126",
+     "lgName": "Esiliiga B",
+     "country": "Estonia",
+     "h": "Tallinna Kalev II",
+     "a": "Luunja",
+     "side": "a",
+     "pick": "Luunja",
+     "c": 0.4168,
+     "p": {
+      "h": 0.3701,
+      "d": 0.2131,
+      "a": 0.4168
+     },
+     "score": [
+      2,
+      2
+     ],
+     "btts": 0.647,
+     "o25": 0.6454,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-10-25T15:00:00Z",
      "lg": "af.474",
@@ -51347,35 +51198,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "14:30",
-     "ko": "2026-10-25T14:30:00Z",
-     "lg": "af.1126",
-     "lgName": "Esiliiga B",
-     "country": "Estonia",
-     "h": "Tallinna Kalev II",
-     "a": "Luunja",
-     "side": "h",
-     "pick": "Tallinna Kalev II",
-     "c": 0.4071,
-     "p": {
-      "h": 0.4071,
-      "d": 0.2165,
-      "a": 0.3764
-     },
-     "score": [
-      2,
-      2
-     ],
-     "btts": 0.6427,
-     "o25": 0.64,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -54002,9 +53824,9 @@
      "pick": "Araks Ararat",
      "c": 0.3832,
      "p": {
-      "h": 0.3414,
-      "d": 0.2754,
-      "a": 0.3832
+      "h": 0.3429,
+      "d": 0.2541,
+      "a": 0.403
      },
      "score": [
       1,
