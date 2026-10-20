@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-20T15:55:43",
- "fetched": "2026-10-20T17:18:41.862076+01:00",
+ "fetched": "2026-10-20T18:47:53.144403+01:00",
  "bar": 0.8,
  "days": [
   {
@@ -8,11 +8,11 @@
    "count": 110,
    "games": [
     {
-     "t": "16:45",
+     "t": "17:45",
      "ko": "2026-10-20T16:45:00Z",
      "lg": "eu.cl",
-     "lgName": "Champions League",
-     "country": "Europe",
+     "lgName": "Europe Champions League",
+     "sport": "football",
      "h": "Sabah FK",
      "a": "Borussia Dortmund",
      "side": "a",
@@ -23,18 +23,14 @@
       "d": 0.084,
       "a": 0.8852
      },
-     "score": [
-      0,
-      3
-     ],
-     "btts": 0.4929,
-     "o25": 0.6139,
-     "hit": 0.8397,
-     "hitN": 131,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "19:00",
@@ -570,11 +566,11 @@
      "res": "Pierre Hugues Herbert won"
     },
     {
-     "t": "17:00",
+     "t": "18:00",
      "ko": "2026-10-20T17:00:00Z",
      "lg": "af.444",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 6",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 6",
+     "sport": "football",
      "h": "Levante II",
      "a": "Crevillente",
      "side": "h",
@@ -585,18 +581,14 @@
       "d": 0.2041,
       "a": 0.1232
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5175,
-     "o25": 0.5398,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "06:00",
@@ -1028,19 +1020,25 @@
      "unrated": false
     },
     {
-     "t": "17:00",
+     "t": "18:00",
+     "ko": "2026-10-20T17:00:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes \u00b7 Round 1",
      "sport": "tennis",
      "h": "Kyrian Jacquet",
      "a": "Matteo Berrettini",
      "side": "a",
      "pick": "Matteo Berrettini",
      "c": 0.6286,
+     "p": null,
      "hit": 0.5932,
      "hitN": 236,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "18:45",
