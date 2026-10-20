@@ -1,24 +1,24 @@
 {
- "time": "2026-10-20T13:11:48.347418+01:00",
+ "time": "2026-10-20T17:18:36.933601+01:00",
  "date": "2026-10-20",
  "stage": "refresh",
  "pricing": {
-  "priced": 13,
+  "priced": 14,
   "total": 15,
   "site": true,
-  "generated": "2026-10-20T10:06:22Z"
+  "generated": "2026-10-20T15:54:34Z"
  },
  "review": {
   "dropped": [
    "Banker",
-   "Balanced"
+   "Banker (alternative)"
   ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 132,
+  "today": 123,
   "list": 3,
-  "tomorrow": 119
+  "tomorrow": 125
  },
  "impactful": [
   {
@@ -212,39 +212,6 @@
  ],
  "tomorrow": [
   {
-   "sport": "football",
-   "event": "Internazionale v Shakhtar Donetsk",
-   "comp": "Champions League",
-   "lg": "eu.cl",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-10-21T19:00:00Z",
-   "date": "2026-10-21",
-   "selection": "Internazionale",
-   "opp": "Shakhtar Donetsk",
-   "side": "h",
-   "home": "Internazionale",
-   "away": "Shakhtar Donetsk",
-   "p": 0.8537,
-   "modelPick": "Internazionale",
-   "list": true,
-   "reserve": false,
-   "hit": 0.8397,
-   "hitN": 131,
-   "score": [
-    3,
-    0
-   ],
-   "xg": [
-    3.68,
-    0.93
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "85% Internazionale, likely 3-0, xG 3.7 v 0.9, calls at this level won 84% (131)"
-  },
-  {
    "sport": "tennis",
    "event": "Jaume Munar v Arthur Fils",
    "comp": "BNP Paribas Fortis European Open Round 2",
@@ -269,10 +236,66 @@
   },
   {
    "sport": "tennis",
+   "event": "Marta Kostyuk v Ekaterina Alexandrova",
+   "comp": "BNB Ningbo Open Round 2",
+   "tour": "WTA",
+   "when": "2026-10-21T11:00:00Z",
+   "date": "2026-10-21",
+   "selection": "Marta Kostyuk",
+   "opp": "Ekaterina Alexandrova",
+   "p": 0.6668,
+   "modelPick": "Marta Kostyuk",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.7603,
+   "hitN": 171,
+   "id": "185529",
+   "rank": [
+    10,
+    33
+   ],
+   "status": "pending",
+   "why": "67% Marta Kostyuk, ranked 10 v 33, calls at this level won 76% (171)"
+  },
+  {
+   "sport": "football",
+   "event": "Internazionale v Shakhtar Donetsk",
+   "comp": "Champions League",
+   "lg": "eu.cl",
+   "country": "Europe",
+   "tier": 1,
+   "when": "2026-10-21T19:00:00Z",
+   "date": "2026-10-21",
+   "selection": "Internazionale",
+   "opp": "Shakhtar Donetsk",
+   "side": "h",
+   "home": "Internazionale",
+   "away": "Shakhtar Donetsk",
+   "p": 0.7724,
+   "modelPick": "Internazionale",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.95,
+    0.9
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "77% Internazionale, likely 2-0, xG 3.0 v 0.9, calls at this level won 73% (111)"
+  },
+  {
+   "sport": "tennis",
    "event": "Lorenzo Musetti v Moise Kouame",
    "comp": "Grand Prix Auvergne-Rhône-Alpes Round 2",
    "tour": "ATP",
-   "when": "2026-10-21T04:00:00Z",
+   "when": "2026-10-21T17:00:00Z",
    "date": "2026-10-21",
    "selection": "Lorenzo Musetti",
    "opp": "Moise Kouame",
@@ -322,29 +345,6 @@
    "rankA": null,
    "status": "pending",
    "why": "70% Sporting CP, likely 2-0, xG 2.6 v 1.0, calls at this level won 72% (39)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Francisco Cerundolo v Martin Damm",
-   "comp": "BNP Paribas Fortis European Open Round 2",
-   "tour": "ATP",
-   "when": "2026-10-21T04:00:00Z",
-   "date": "2026-10-21",
-   "selection": "Francisco Cerundolo",
-   "opp": "Martin Damm",
-   "p": 0.7137,
-   "modelPick": "Francisco Cerundolo",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.7778,
-   "hitN": 171,
-   "id": "185050",
-   "rank": [
-    21,
-    107
-   ],
-   "status": "pending",
-   "why": "71% Francisco Cerundolo, ranked 21 v 107, calls at this level won 78% (171)"
   }
  ],
  "groups": [],
@@ -541,5 +541,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/21",
  "issue": 21,
- "text": "Good afternoon Douglas. Tuesday 20 October, 13:11 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (13 of today's 15 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Banker, Balanced.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Tuesday 20 October, 17:18 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (14 of today's 15 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Banker, Banker (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
