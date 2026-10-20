@@ -1,3 +1,12 @@
+# The office plans the work - October 20, 2026 (Claude)
+
+- **Planner** (`scripts/planner.py`): at each scheduled stand-up HQ measures every gap between what the site quotes and what lands (Daily List by sport, football 5-point bands, leagues, tennis tours, the other sports, Odds tab legs), ranks them by z-score and writes `docs/data/backlog.json`, one task per gap with its evidence and the site's testing rules. The site README's priority list sits below the measured gaps until an agent ships each item. footyalmanac's sprint reads this file each morning and runs the four agents with the most urgent work. HQ still never predicts or grades: the live record only locates a gap, and every fix is tested on history.
+- **Stand-ups lead with the site's three objectives**: Daily List landed against quoted, the widest football band gap, and coverage. The Daily List KPI target is now 80% (was 70%), and Luke owns a new "List landed minus quoted" KPI in place of the raw overall hit rate.
+- **Outcomes, not activity**: every merged agent pull request is classed by what it changed (changed the picks, data or grading fix, tests, evidence only), cached in `docs/data/pr-outcomes.json`. The Stand-up tab and the playback show the week's breakdown.
+- **Office page**: three objective tiles, the backlog and the outcomes list above the stand-up. Checked at 700px and 400px.
+- The playback's next-focus separator is a middle dot instead of a dash.
+- Tests: `tests/test_planner.py`.
+
 # Copyright notice - October 6, 2026 (Perplexity)
 
 - Added `LICENSE`: a proprietary, all-rights-reserved notice in Douglas Baker's name. No licence is granted to copy, modify, distribute or use the code without written permission. `README.md` ends with a short Copyright section pointing to it.

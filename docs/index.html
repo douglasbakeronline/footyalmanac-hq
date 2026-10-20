@@ -182,6 +182,15 @@ header{gap:18px;padding:10px 18px;background:linear-gradient(180deg,#1d1611 0%,#
 .spr{background:linear-gradient(135deg,#2a2018,#211a14);border:1px solid #4a3a28;border-radius:12px;padding:12px;margin-bottom:14px}
 .spr h4{margin:0 0 2px;font-size:13px;font-weight:600}
 .spr .meta{color:var(--mut);font-size:11px;margin-bottom:8px}
+.obj3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+.obj3 div{background:#211a14;border:1px solid #3a2e22;border-radius:10px;padding:10px}
+.obj3 small{display:block;color:var(--mut);font-size:10px;letter-spacing:.06em;text-transform:uppercase}
+.obj3 b{display:block;font-size:20px;font-weight:600;margin:4px 0 2px;font-variant-numeric:tabular-nums}
+.obj3 span{color:var(--mut);font-size:11px;line-height:1.35}
+@media (max-width:520px){.obj3{grid-template-columns:1fr}}
+.bkl .bk{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:10px;align-items:baseline;padding:7px 0;border-top:1px solid #ffffff0d;font-size:12.5px;line-height:1.4}
+.bkl .bk b{font-weight:600}.bkl .bk i{font-style:normal;color:var(--mut);font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sp.ev{background:#2a241d;color:var(--mut)}
 .spr .r{display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:8px;align-items:center;padding:6px 0;border-top:1px solid #ffffff0d;font-size:12.5px}
 .spr .r a{color:var(--txt);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.spr .r a:hover{color:var(--acc)}
 .spr .av{width:22px;height:22px;font-size:10.5px}
@@ -494,7 +503,7 @@ function paintPlayback(c,w,h){const r=REPORT;const mode=SLIDE||"cover";const s=r
   k.forEach(([a,b],i)=>{const x=40+i*(w-60)/4;c.fillStyle="#9aa";c.font=`600 26px ${FONT}`;c.fillText(a.toUpperCase(),x,220);c.fillStyle="#fff";c.font=`700 96px ${MONO}`;c.fillText(b,x,320)});
   c.fillStyle="#7a6a5a";c.font=`500 26px ${FONT}`;c.fillText("Learn from each other · encourage each other · hit the objectives",40,h-50);return}
  if(mode==="objectives"){LASTSU=LASTSU||r;paintObjectives(c,w,h);return}
- const T={wins:["WHAT WENT WELL","#5fd38d",r?.wins||[]],lessons:["WHAT WE LEARNED","#f07a7a",r?.lessons||[]],next:["NEXT FOCUS","#f0b35a",r?.next||[]],shout:["SHOUT-OUTS","#d4a64a",[]]}[mode];
+ const T={wins:["WHAT WENT WELL","#5fd38d",r?.wins||[]],lessons:["WHAT WE LEARNED","#f07a7a",r?.lessons||[]],next:["NEXT FOCUS","#f0b35a",(r?.next||[]).map(x=>x.replace(/ (?:—|·) (\w+)$/,(m,id)=>" · "+(AG[id]?.name||id)))],shout:["SHOUT-OUTS","#d4a64a",[]]}[mode];
  hdr(c,w,T[0],T[1]);
  if(mode==="shout"){const a=AG[r?.star];if(a){c.fillStyle=DEPT[a.d].c;c.beginPath();c.arc(150,260,100,0,7);c.fill();c.fillStyle="#1a1208";c.font=`700 96px ${FONT}`;c.fillText(a.name[0],118,292);c.fillStyle="#fff";c.font=`700 64px ${FONT}`;c.fillText(`${a.name} · ${a.role}`,290,230);c.fillStyle="#e8d2a0";c.font=`500 32px ${FONT}`;const o=r.objectives.find(x=>x.owner===a.id);c.fillText(o?fit(c,`${o.name}: ${objFmt(o)} vs ${tgtFmt(o)} target`,w-340):"",290,290)}
   const ch=(r?.chats||[]).slice(0,3);c.font=`500 26px ${FONT}`;ch.forEach((x,i)=>{c.fillStyle="#cfc4b6";c.fillText(fit(c,`“${x.lines?.[0]?.t||""}” — ${AG[x.lines?.[0]?.a]?.name||""}`,w-80),40,420+i*44)});return}
@@ -942,7 +951,7 @@ function profileHTML(id){const a=AG[id],c=DEPT[a.d].c,s=HISTORY[0];const mine=(s
 
 function line(l,cur){const a=AG[l.agent];return `<div class="msg ${cur?"now":""}" id="m-${l.agent}" style="border-left-color:${DEPT[a.d].c}"><div class="h"><span class="who"><span class="av" style="background:${DEPT[a.d].c}">${a.name[0]}</span><b style="color:${DEPT[a.d].c}">${a.name} · ${a.role}</b></span><span>${DEPT[a.d].name}</span></div><p><em>Done</em>${l.yesterday}</p><p><em>Next</em>${l.today}</p>${l.kudos?"":`<p><em>Blockers</em>${l.blockers}</p>`}</div>`}
 function renderLog(list){HISTORY=list;renderTeam();if(!list.length){$("#log").innerHTML="<p class='k'>No stand-ups yet.</p>";return}
- const s=list[0];$("#log").innerHTML=sprintCard()+`<div class="k" style="margin-bottom:10px">Last stand-up · ${fmt(s.time)} · ${s.trigger}</div>`+s.lines.map(l=>line(l)).join("")}
+ const s=list[0];$("#log").innerHTML=siteObjCard(s)+sprintCard()+backlogCard(s)+outcomesHTML(s.outcomes)+`<div class="k" style="margin:14px 0 10px">Last stand-up · ${fmt(s.time)} · ${s.trigger}</div>`+s.lines.map(l=>line(l)).join("")}
 function objTable(ob){return `<table><tr><th>Objective</th><th>Owner</th><th class="n">Now</th><th class="n">Target</th><th></th></tr>${ob.map(o=>`<tr><td>${o.name}</td><td style="color:${DEPT[AG[o.owner].d].c}">${AG[o.owner].name}</td><td class="n">${objFmt(o)}</td><td class="n">${tgtFmt(o)}</td><td><span class="chipS ${o.status==="on track"?"s-on":o.status==="at risk"?"s-risk":o.status==="behind"?"s-behind":"s-nodata"}">${o.status}</span></td></tr>`).join("")}</table>`}
 function renderAcc(s){if(!s)return;const t=s.stats;STATS=t;LASTSU=s;
  const days=(t.days||[]).slice().reverse();const W=340,Hh=70;const pts=days.map((d,i)=>[i/(Math.max(1,days.length-1))*W,Hh-d.acc*Hh]);
@@ -965,9 +974,9 @@ function renderPlayback(reports){REPORT=reports[0]||REPORT;const r=REPORT;screen
   ${star?`<div class="card" style="border-color:#5a4520"><div class="k" style="color:#d4a64a">Agent of the week</div><div style="display:flex;gap:10px;align-items:center;margin-top:8px"><span class="av" style="background:${DEPT[star.d].c};width:36px;height:36px;font-size:16px">${star.name[0]}</span><div><b>${star.name} · ${star.role}</b><div style="color:var(--mut);font-size:12px">${(()=>{const o=r.objectives.find(x=>x.owner===star.id);return o?`${o.name}: ${objFmt(o)} vs ${tgtFmt(o)} target`:""})()}</div></div></div></div>`:""}
   <div class="k">KPIs vs objectives</div>${objTable(r.objectives)}
   <div class="k">What went well</div><ul class="l">${(r.wins||[]).map(x=>`<li>${x}</li>`).join("")||"<li>—</li>"}</ul>
-  <div class="k">Shipped by the agents</div><ul class="l">${(r.shipped||[]).map(x=>`<li>${x}</li>`).join("")||"<li>Nothing merged yet</li>"}</ul>
+  ${r.outcomes?outcomesHTML(r.outcomes):`<div class="k">Shipped by the agents</div><ul class="l">${(r.shipped||[]).map(x=>`<li>${x}</li>`).join("")||"<li>Nothing merged yet</li>"}</ul>`}
   <div class="k">What we learned</div><ul class="l">${(r.lessons||[]).map(x=>`<li>${x}</li>`).join("")||"<li>—</li>"}</ul>
-  <div class="k">Next focus</div><ul class="l">${(r.next||[]).map(x=>`<li>${x.replace(/ — (\w+)$/,(m,id)=>" — "+(AG[id]?.name||id))}</li>`).join("")||"<li>All objectives on track</li>"}</ul>
+  <div class="k">Next focus</div><ul class="l">${(r.next||[]).map(x=>`<li>${x.replace(/ (?:—|·) (\w+)$/,(m,id)=>" · "+(AG[id]?.name||id))}</li>`).join("")||"<li>All objectives on track</li>"}</ul>
   <div class="k">Replay past stand-ups</div>${HISTORY.slice(0,12).map((s,i)=>`<div class="row" style="display:flex;justify-content:space-between;align-items:center"><span>${fmt(s.time)} · ${s.trigger}</span><button class="sbtn" data-replay="${i}">Replay</button></div>`).join("")}
   ${reports.length>1?`<div class="k" style="margin-top:14px">Earlier playbacks</div>`+reports.slice(1,8).map((x,i)=>`<div class="row" style="display:flex;justify-content:space-between"><span>${fmt(x.time)} · ${x.period}</span><span class="mono" style="color:var(--mut)">${x.objectives.filter(o=>o.status==="on track").length}/${x.objectives.length} on track</span></div>`).join(""):""}`;
  $("#pbPresent").onclick=()=>present();$("#pbNew").onclick=()=>newReport("day");$("#pbWeek").onclick=()=>newReport("week");
@@ -1007,6 +1016,21 @@ function paintStatus(){const st=agentStatus();let sh=0;
  AGENTS.forEach(a=>{const v=st[a.id]||"idle";if(v==="shipped")sh++;const c=document.querySelector(`#roster .chip[data-id="${a.id}"]`);if(c){c.dataset.s=v;c.title=`${a.name} · ${a.role} · ${v==="idle"?"no pull request today":v}`}
   const d=$("#st-"+a.id);if(d)d.className="st s-"+v;const ti=document.querySelector(`#labels i[data-id="${a.id}"]`);if(ti)ti.className="s-"+v});
  const rs=$("#rsum");if(rs)rs.innerHTML=`<b>${sh} of ${AGENTS.length}</b> shipped today<br>${Object.values(st).filter(v=>v==="working").length} in checks`}
+/* ---------- site objectives, backlog and outcomes (20 Oct 2026) ---------- */
+const OUTC={model:["shipped","Changed picks"],data:["owner","Data fix"],tests:["checking","Tests"],evidence:["ev","Evidence only"]};
+function siteObjCard(s){const o=s&&s.siteObjectives;if(!o)return "";const la=o.listAll||{},wb=(o.honesty||{}).worstBand||{},cv=o.coverage||{};
+ const gap=la.n?la.landed-la.quoted:null,gc=gap==null?"var(--mut)":gap>=-.02?"var(--good)":gap>=-.05?"var(--warn)":"var(--bad)";
+ const lc=la.landed==null?"var(--mut)":la.landed>=.8?"var(--good)":la.landed>=.75?"var(--warn)":"var(--bad)";
+ const zc=wb.z==null?"var(--mut)":Math.abs(wb.z)<2?"var(--good)":Math.abs(wb.z)<3?"var(--warn)":"var(--bad)";
+ return `<div class="obj3"><div><small>Daily List</small><b style="color:${lc}">${pct(la.landed)}</b><span>${la.won??"–"} of ${la.n??"–"} landed · target 80%</span></div>
+ <div><small>Quoted v landed</small><b style="color:${gc}">${gap==null?"–":(gap>=0?"+":"")+Math.round(gap*100)+"pt"}</b><span>List ${pct(la.quoted)} quoted · widest band ${wb.band||"–"} z ${wb.z!=null?(wb.z>0?"+":"")+wb.z.toFixed(1):"–"}</span></div>
+ <div><small>Coverage</small><b>${cv.fixtures?cv.fixtures.toLocaleString():"–"}</b><span>football fixtures · ${cv.unrated??"–"} unrated</span></div></div>`}
+function backlogCard(s){const b=(s&&s.backlog)||[];if(!b.length)return "";
+ return `<div class="spr bkl"><h4>Backlog for the next sprint</h4><div class="meta">Ranked by how far each gap is from its quote. The top tasks run at 07:30.</div>`+
+ b.map(x=>{const a=agOf(x.owner);return `<div class="bk"><b style="color:${a?DEPT[a.d].c:"var(--acc)"}">${a?a.name:x.owner}</b><span>${x.title}</span><i>${x.metric==="roadmap"?"priority":"gap "+x.score.toFixed(1)}</i></div>`}).join("")+`</div>`}
+function outcomesHTML(o){if(!o)return "";const c=o.count||{};
+ return `<div class="k">What the agents shipped · last ${o.days} days</div><p style="color:var(--mut);font-size:12px;margin:4px 0 8px">${o.merged} merged · ${c.model||0} changed the picks · ${c.data||0} fixed data or grading · ${c.tests||0} tests · ${c.evidence||0} evidence only</p>`+
+ (o.items||[]).map(p=>{const[k,l]=OUTC[p.outcome]||OUTC.evidence;const a=agOf(p.owner);return `<div class="row" style="display:flex;gap:8px;align-items:baseline"><span class="sp ${k}">${l}</span><a href="${p.url}" target="_blank" rel="noopener">#${p.n} ${p.title}</a><span style="margin-left:auto;color:var(--mut);font-size:11px">${a?a.name:""}</span></div>`}).join("")}
 function sprintCard(){const prs=todayPRs();if(!prs.length)return "";const c={};prs.forEach(p=>{const k=spOf(p);c[k]=(c[k]||0)+1});
  return `<div class="spr"><h4>Today's sprint</h4><div class="meta">${prs.length} pull requests · ${c.shipped||0} shipped${c.checking?` · ${c.checking} in checks`:""}${c.held?` · ${c.held} held or closed`:""}${c.owner?` · ${c.owner} need you`:""}</div>`+
  prs.map(p=>{const a=agOf(p.owner),k=spOf(p),pl=PLAT[p.platform]||PLAT.office;return `<div class="r"><span class="av" style="background:${a?DEPT[a.d].c:pl.c}">${a?a.name[0]:pl.n[0]}</span><a href="${p.url}" target="_blank" rel="noopener" title="${p.title.replace(/"/g,"&quot;")}"><b>${a?a.name:pl.n}</b> · ${p.title.replace(/^\[[^\]]*\]\s*/,"")}</a><span class="sp ${k}">${spLab[k]}</span></div>`}).join("")+`</div>`}
@@ -1083,7 +1107,7 @@ async function present(){if(meetingOn||presenting)return;if(!REPORT)return;prese
   wins:`What went well: ${r.wins[0]||"steady day"}${r.wins.length>1?` and ${r.wins.length-1} more Daily List hits`:""}.`,
   lessons:`What we learned: ${r.lessons[0]||"nothing major"}. Let's own these together.`,
   shout:star?`Shout-out to ${star.name} — furthest ahead of target. Agent of the Week!`:"Thanks everyone.",
-  next:`Next focus: ${(r.next[0]||"keep it up").replace(/ — \w+$/,"")}. Help each other get there.`};
+  next:`Next focus: ${(r.next[0]||"keep it up").replace(/ (?:—|·) \w+$/,"")}. Help each other get there.`};
  for(const sl of ["cover",...SLIDES]){SLIDE=sl;screens.playback.redraw(paintPlayback);b.textContent=`Playback · ${sl==="cover"?"overview":sl}`;await say(chief,`<b style="color:${DEPT.lead.c}">Luke · Chief of Staff</b>${script[sl]}`,5600);
   if(sl==="shout"&&star){await say(star.p,"Thank you! Couldn't do it without the data team.",2600,true)}
   if(sl==="lessons"){const e=AG.experiment.p;await say(e,"I'll turn that into tonight's experiment.",2600,true)}}
