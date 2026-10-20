@@ -1,7 +1,7 @@
 {
- "id": 1792483293327,
- "time": "2026-10-20T09:01:33.327227+01:00",
- "trigger": "on demand",
+ "id": 1792498322990,
+ "time": "2026-10-20T13:12:02.990338+01:00",
+ "trigger": "work",
  "lines": [
   {
    "agent": "chief",
@@ -11,26 +11,26 @@
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1862 football fixtures across 229 competitions for 2026-10-20, plus 150 other-sport and 53 tennis matches.",
-   "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #31 Add a free data source for an uncovered league (shipped, evidence only).",
+   "yesterday": "Swept 1886 football fixtures across 230 competitions for 2026-10-20, plus 150 other-sport and 63 tennis matches.",
+   "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #54 Cover Croatia, Serbia, Ukraine, Hungary, Korea or the UAE (shipped, changed the model or picks).",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 229 competitions matched to a rated team pool.",
+   "yesterday": "0 unrated fixtures in today's slate; 230 competitions matched to a rated team pool.",
    "today": "Recheck club-name matching for new API-Football leagues. Dev work: PR #29 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 9/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 10/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps. Dev work: PR #30 Make one data source fail more gracefully (shipped, fixed data or grading).",
    "blockers": "None."
   },
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1862 fixtures; overall log loss is 1.0109. Dev work: PR #32 Test one ratings improvement (shipped, evidence only).",
+   "today": "Rate today's 1886 fixtures; overall log loss is 1.0109. Dev work: PR #32 Test one ratings improvement (shipped, evidence only).",
    "blockers": "None."
   },
   {
@@ -41,8 +41,8 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 27/46, MLB 23/35, RUGBY 33/40, CFB 76/117, WNBA 5/6. Tennis 61% over 765 matches (expected 63%).",
-   "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #41 Lift the weakest of the other sports (shipped, evidence only).",
+   "yesterday": "Other sports: NFL 27/46, MLB 23/35, RUGBY 33/40, CFB 76/117, WNBA 5/6. Tennis 61% over 777 matches (expected 63%).",
+   "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #52 Daily List college football: 30/41 against 34 expected (shipped, evidence only).",
    "blockers": "NBA and rugby have no graded games yet."
   },
   {
@@ -60,13 +60,13 @@
   {
    "agent": "curator",
    "yesterday": "Daily List for 2026-10-20: 27 picks. Top: Sabah FK v Borussia Dortmund 89%; Leotar v Vele\u017e Nevesinje 88%; AS Roma v Slovan Bratislava 88%.",
-   "today": "Re-rank at 13:00 if any team news shifts confidence. Dev work: PR #36 Test the Daily List bar (shipped, evidence only).",
+   "today": "Re-rank at 13:00 if any team news shifts confidence. Dev work: PR #53 Replay own-band List admission for every sport (shipped, changed the model or picks).",
    "blockers": "None."
   },
   {
    "agent": "engineer",
-   "yesterday": "9/10 recent 'Rebuild and publish' runs green.",
-   "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #28 Add tests for the least-tested module (shipped, tests only).",
+   "yesterday": "10/10 recent 'Rebuild and publish' runs green.",
+   "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #56 Add tests for the least-tested module (checking).",
    "blockers": "None."
   },
   {
@@ -83,20 +83,20 @@
   },
   {
    "agent": "h3",
-   "yesterday": "Group legs won: 70% of 268 settled over 30 days (target 78%).",
-   "today": "Build today's three groups of five and review every losing leg in the playback.",
+   "yesterday": "Groups since 2026-10-19: 1 of 2 won against 0.6 expected.",
+   "today": "Lead the desk: check today's groups against their honest chances before the 07:45 briefing.",
    "blockers": "None."
   },
   {
    "agent": "h4",
-   "yesterday": "Strong tier: 26 of 230 calls drawn out (11%, target 10% or less).",
-   "today": "Tag drawn-out Strong calls by league and draw probability for the next experiment.",
+   "yesterday": "Legs since 2026-10-19: 70% landed against 79% quoted over 10.",
+   "today": "Compare each settled leg's quote with the bookmaker's fair chance, by price range.",
    "blockers": "None."
   },
   {
    "agent": "h5",
-   "yesterday": "9/10 recent builds green (target 100%).",
-   "today": "Trace each failed build to its cause and add a guard.",
+   "yesterday": "Average leg chance 74% over 18 legs grouped since 2026-10-19 (target 75%).",
+   "today": "Rank today's candidate legs by how firmly their kind of leg has landed against its quote.",
    "blockers": "None."
   },
   {
@@ -153,7 +153,7 @@
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 229,
+   "actual": 230,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -171,25 +171,25 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 0.9,
+   "actual": 1.0,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
-   "status": "at risk"
+   "status": "on track"
   },
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 0.9,
+   "actual": 1.0,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
-   "status": "behind"
+   "status": "on track"
   },
   {
    "owner": "sports",
    "name": "Tennis hit vs expected",
-   "actual": -0.014699999999999935,
+   "actual": -0.013899999999999912,
    "target": 0.0,
    "fmt": "pt",
    "higher": true,
@@ -233,30 +233,30 @@
   },
   {
    "owner": "h3",
-   "name": "Group legs won (30 days)",
-   "actual": 0.6977611940298507,
-   "target": 0.78,
-   "fmt": "pct",
+   "name": "Groups won minus expected",
+   "actual": 0.18345,
+   "target": 0.0,
+   "fmt": "pt",
    "higher": true,
-   "status": "behind"
+   "status": "on track"
   },
   {
    "owner": "h4",
-   "name": "Strong calls drawn out",
-   "actual": 0.11304347826086956,
-   "target": 0.1,
-   "fmt": "pct",
-   "higher": false,
-   "status": "at risk"
+   "name": "Legs landed minus quoted",
+   "actual": -0.09476000000000007,
+   "target": -0.02,
+   "fmt": "pt",
+   "higher": true,
+   "status": "behind"
   },
   {
    "owner": "h5",
-   "name": "Builds green (last 10)",
-   "actual": 0.9,
-   "target": 1.0,
+   "name": "Average leg chance",
+   "actual": 0.7400611111111111,
+   "target": 0.75,
    "fmt": "pct",
    "higher": true,
-   "status": "behind"
+   "status": "at risk"
   },
   {
    "owner": "h6",
@@ -385,14 +385,42 @@
  },
  "outcomes": {
   "days": 7,
-  "merged": 6,
+  "merged": 10,
   "count": {
-   "model": 4,
+   "model": 7,
    "data": 0,
    "tests": 0,
-   "evidence": 2
+   "evidence": 3
   },
   "items": [
+   {
+    "n": 55,
+    "title": "Log why tennis tournaments miss an Odds API key",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/55",
+    "owner": "odds",
+    "outcome": "model"
+   },
+   {
+    "n": 54,
+    "title": "Cover Croatia, Serbia, Ukraine, Hungary, Korea or the UAE",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/54",
+    "owner": "scout",
+    "outcome": "model"
+   },
+   {
+    "n": 53,
+    "title": "Replay own-band List admission for every sport",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/53",
+    "owner": "curator",
+    "outcome": "model"
+   },
+   {
+    "n": 52,
+    "title": "Daily List college football: 30/41 against 34 expected",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/52",
+    "owner": "sports",
+    "outcome": "evidence"
+   },
    {
     "n": 48,
     "title": "README: handover guide for any AI",
@@ -438,6 +466,71 @@
   ]
  },
  "dev": [
+  {
+   "n": 56,
+   "title": "[engineer] Add tests for the least-tested module",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/56",
+   "owner": "engineer",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-10-20T12:11:49Z",
+   "merged": null,
+   "closed": null,
+   "objective": "tests-gap",
+   "outcome": null
+  },
+  {
+   "n": 55,
+   "title": "[odds] Log why tennis tournaments miss an Odds API key",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/55",
+   "owner": "odds",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-20T12:08:43Z",
+   "merged": "2026-10-20T12:09:47Z",
+   "closed": "2026-10-20T12:09:47Z",
+   "objective": "hq-odds-keys",
+   "outcome": "model"
+  },
+  {
+   "n": 54,
+   "title": "[scout] Cover Croatia, Serbia, Ukraine, Hungary, Korea or the UAE",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/54",
+   "owner": "scout",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-20T12:05:35Z",
+   "merged": "2026-10-20T12:06:35Z",
+   "closed": "2026-10-20T12:06:35Z",
+   "objective": "hq-coverage-af",
+   "outcome": "model"
+  },
+  {
+   "n": 53,
+   "title": "[curator] Replay own-band List admission for every sport",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/53",
+   "owner": "curator",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-20T12:00:43Z",
+   "merged": "2026-10-20T12:01:46Z",
+   "closed": "2026-10-20T12:01:46Z",
+   "objective": "hq-own-band",
+   "outcome": "model"
+  },
+  {
+   "n": 52,
+   "title": "[sports] Daily List college football: 30/41 against 34 expected",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/52",
+   "owner": "sports",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-20T11:55:39Z",
+   "merged": "2026-10-20T11:56:43Z",
+   "closed": "2026-10-20T11:56:43Z",
+   "objective": "hq-list-cfb",
+   "outcome": "evidence"
+  },
   {
    "n": 48,
    "title": "README: handover guide for any AI",
@@ -528,88 +621,23 @@
    "closed": "2026-10-13T14:30:27Z",
    "objective": "other-sports",
    "outcome": "evidence"
-  },
-  {
-   "n": 40,
-   "title": "[chief] Write the office review and next week's priorities",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/40",
-   "owner": "chief",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-12T16:43:54Z",
-   "merged": "2026-10-12T16:45:27Z",
-   "closed": "2026-10-12T16:45:27Z",
-   "objective": "office-review",
-   "outcome": "evidence"
-  },
-  {
-   "n": 39,
-   "title": "[auditor] Audit the grading of recent results",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/39",
-   "owner": "auditor",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-12T16:40:46Z",
-   "merged": "2026-10-12T16:42:18Z",
-   "closed": "2026-10-12T16:42:18Z",
-   "objective": "grading-audit",
-   "outcome": "data"
-  },
-  {
-   "n": 38,
-   "title": "[accas] Backtest the Odds tab group rules",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/38",
-   "owner": "accas",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-12T16:32:29Z",
-   "merged": "2026-10-12T16:33:30Z",
-   "closed": "2026-10-12T16:33:30Z",
-   "objective": "group-rules",
-   "outcome": "evidence"
-  },
-  {
-   "n": 37,
-   "title": "[odds] Price more of the Odds tab legs",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/37",
-   "owner": "odds",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-12T16:29:26Z",
-   "merged": "2026-10-12T16:30:59Z",
-   "closed": "2026-10-12T16:30:59Z",
-   "objective": "odds-coverage",
-   "outcome": "evidence"
-  },
-  {
-   "n": 36,
-   "title": "[curator] Test the Daily List bar",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/36",
-   "owner": "curator",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-12T16:26:12Z",
-   "merged": "2026-10-12T16:27:45Z",
-   "closed": "2026-10-12T16:27:45Z",
-   "objective": "list-bar",
-   "outcome": "evidence"
   }
  ],
  "shipped": [
+  "PR #55 Log why tennis tournaments miss an Odds API key (shipped, changed the model or picks) by odds",
+  "PR #54 Cover Croatia, Serbia, Ukraine, Hungary, Korea or the UAE (shipped, changed the model or picks) by Ava",
+  "PR #53 Replay own-band List admission for every sport (shipped, changed the model or picks) by Nina",
+  "PR #52 Daily List college football: 30/41 against 34 expected (shipped, evidence only) by Theo",
   "PR #48 README: handover guide for any AI (shipped, evidence only) by None",
-  "PR #47 Odds tab groups: honest chances, bookmaker-priced legs only (shipped, changed the model or picks) by None",
-  "PR #44 Odds tab: The Odds API prices tennis and rugby (shipped, changed the model or picks) by None",
-  "PR #43 Tennis off the Daily List (shipped, changed the model or picks) by None",
-  "PR #42 College football Daily List bar 70% -> 80% (shipped, changed the model or picks) by None",
-  "PR #41 Lift the weakest of the other sports (shipped, evidence only) by Theo"
+  "PR #47 Odds tab groups: honest chances, bookmaker-priced legs only (shipped, changed the model or picks) by None"
  ],
  "lessons": [
   "Calibration: 40%-50% band won 68% vs 66% expected",
   "Weakest league: England Isthmian League Premier at 50% over 36 games"
  ],
  "stats": {
-  "fixtures": 1862,
-  "competitions": 229,
+  "fixtures": 1886,
+  "competitions": 230,
   "listPicks": 27,
   "overallAcc": 0.6764,
   "listAcc": 0.8041,
@@ -618,8 +646,8 @@
   "logLoss": 1.0109,
   "dayAcc": 1.0,
   "dayDate": "2026-10-20",
-  "tennisAcc": 0.6118,
-  "runsOk": 9,
+  "tennisAcc": 0.6126,
+  "runsOk": 10,
   "runsTotal": 10,
   "tiers": [
    {
