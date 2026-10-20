@@ -16,7 +16,7 @@ LOOKS = [("#e8b996", "#2b1d14"), ("#b07c58", "#16100c"), ("#f2d0b4", "#8a5a2e"),
 NEW_DEPTS = {
     "multi": {"name": "Multi-sport", "c": "#ffb86b"},
     "growth": {"name": "Growth & Support", "c": "#7fb2ff"},
-    "markets": {"name": "Markets & Groupings", "c": "#f0b35a"},
+    "markets": {"name": "Groups & Odds Desk", "c": "#f0b35a"},
 }
 
 def pct(x): return "–" if x is None else f"{x*100:.0f}%"
@@ -55,7 +55,39 @@ def metric(h, d):
         if k["type"] == "priced":
             return share, k["target"], True, "pct", (f"{pct(share)} of today's picks carry a live bookmaker price (target {pct(k['target'])})." if share is not None else "No prices collected yet.")
         return hit, k["target"], True, "pct", (f"Group legs won: {pct(hit)} of {n} settled over 30 days (target {pct(k['target'])})." if hit is not None else "No group legs settled yet.")
+    if k["type"] in ("groupsexp", "legsquote", "legfirm"):
+        return desk_metric(k, d.get("grec") or {})
     return None, k.get("target"), True, "pct", "No data yet."
+
+DESK_FROM = "2026-10-19"   # honest leg chances (footyalmanac #47): earlier groups were priced on the old rule
+
+def desk_metric(k, grec):
+    """The Groups & Odds Desk's KPIs, from the site's graded groups since the honest-chance rule.
+    Jade: groups won minus expected. Kofi: legs landed minus quoted. Hannah: the average quoted chance of a leg.
+    Kofi's keeps Hannah's honest: firmer legs only count if they land as firm as they are quoted."""
+    days = [x for x in grec.get("days") or [] if x.get("date", "") >= DESK_FROM]
+    groups = [g for x in days for g in x.get("groups") or [] if g.get("p") is not None]
+    settled = [g for g in groups if g.get("status") in ("won", "lost")]
+    legs, seen = [], set()
+    for x in days:
+        for g in x.get("groups") or []:
+            for l in g.get("legs") or []:
+                if l.get("p") is None or (x["date"], l.get("event")) in seen: continue
+                seen.add((x["date"], l.get("event"))); legs.append(l)
+    done = [l for l in legs if l.get("status") in ("won", "lost")]
+    if k["type"] == "groupsexp":
+        if not settled: return None, k["target"], True, "pt", "No groups settled under the honest rule yet."
+        won, exp = sum(g["status"] == "won" for g in settled), sum(g["p"] for g in settled)
+        a = (won - exp) / len(settled)
+        return a, k["target"], True, "pt", f"Groups since {DESK_FROM}: {won} of {len(settled)} won against {exp:.1f} expected."
+    if k["type"] == "legsquote":
+        if not done: return None, k["target"], True, "pt", "No legs settled under the honest rule yet."
+        won, q = sum(l["status"] == "won" for l in done), sum(l["p"] for l in done) / len(done)
+        a = won / len(done) - q
+        return a, k["target"], True, "pt", f"Legs since {DESK_FROM}: {pct(won / len(done))} landed against {pct(q)} quoted over {len(done)}."
+    if not legs: return None, k["target"], True, "pct", "No legs grouped under the honest rule yet."
+    a = sum(l["p"] for l in legs) / len(legs)
+    return a, k["target"], True, "pct", f"Average leg chance {pct(a)} over {len(legs)} legs grouped since {DESK_FROM} (target {pct(k['target'])})."
 
 NEXT = {
     "league": "Review every miss in the league with Mia and queue one tested change.",
@@ -65,6 +97,9 @@ NEXT = {
     "listhit": "Prepare the launch story from the published, graded record.",
     "priced": "Price every candidate leg before the 07:45 briefing and flag anything still on an estimate.",
     "grouplegs": "Build today's three groups of five and review every losing leg in the playback.",
+    "groupsexp": "Lead the desk: check today's groups against their honest chances before the 07:45 briefing.",
+    "legsquote": "Compare each settled leg's quote with the bookmaker's fair chance, by price range.",
+    "legfirm": "Rank today's candidate legs by how firmly their kind of leg has landed against its quote.",
 }
 
 def candidates(d, org):
@@ -122,13 +157,14 @@ def lines_and_objectives(d, org):
         if a is None: status = "no data"
         else:
             ok = a >= t if higher else a <= t
-            near = (a >= t * 0.93) if higher else (a <= t * 1.25)
+            near = (a >= t - 0.03) if fmt == "pt" else ((a >= t * 0.93) if higher else (a <= t * 1.25))
             status = "on track" if ok else ("at risk" if near else "behind")
         lines.append({"agent": h["id"], "yesterday": text, "today": NEXT.get(h["kpi"]["type"], "Keep going."), "blockers": "None."})
         k = h["kpi"]
         label = {"league": f"{h['role'].replace(' Specialist', '')} hit rate", "draws": "Strong calls drawn out",
                  "builds": "Builds green (last 10)", "sport": f"{k.get('code', '').upper()} hit rate",
                  "listhit": "Daily List hit rate (launch)", "priced": "Legs with a live price",
-                 "grouplegs": "Group legs won (30 days)"}.get(k["type"], h["role"] + " KPI")
+                 "grouplegs": "Group legs won (30 days)", "groupsexp": "Groups won minus expected",
+                 "legsquote": "Legs landed minus quoted", "legfirm": "Average leg chance"}.get(k["type"], h["role"] + " KPI")
         objs.append({"owner": h["id"], "name": label, "actual": a, "target": t, "fmt": fmt, "higher": higher, "status": status})
     return lines, objs

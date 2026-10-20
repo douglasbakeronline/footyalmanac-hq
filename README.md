@@ -73,9 +73,9 @@ are `standup`, `report`, `work`, `saturday`, `slip`, `briefing`, `refresh` and
 | `scripts/planner.py` | The planner: ranks every quoted-versus-landed gap by z-score and writes `docs/data/backlog.json`, which footyalmanac's `agents/pick_task.py` reads each morning (four agents a day). Runs inside each scheduled stand-up. |
 | `scripts/org.py` | Luke's hiring desk: adds a specialist when a KPI gap has no owner (at most one a day, six in total). State is in `docs/data/org.json`. |
 | `scripts/performance_monitor.py` | Build-health and run-time KPIs. |
-| `scripts/ceo.py` | Elena, the CEO, from the command line and the `ceo` slot. **Placeholder:** `get_llm_response` returns a canned reply and no model is called. The live site's CEO tab is different: it goes through `cloudflare-worker/`, which calls OpenAI. |
+| `scripts/ceo.py` | Offline placeholder, kept for the tests. The real Elena is footyalmanac's `ceo.yml` (see "Elena, the CEO" below). |
 | `docs/index.html` | The 3D office. The Picks tab answers questions like "Saturday picks" from published predictions, using no AI tokens. It only reads `docs/data/*.json`. |
-| `cloudflare-worker/` | The CEO tab's chat backend (Cloudflare Worker calling OpenAI, with live context from `docs/data/`). See its README. |
+| `cloudflare-worker/` | The old CEO chat backend (OpenAI). **Unused since 20 Oct 2026:** the CEO tab now briefs the real Elena on GitHub. It stays deployed on Cloudflare until Douglas removes it; nothing calls it. |
 | `tests/` | `test_office.py`, `test_picks_all_sports.py` |
 
 ## Groups (Oscar and Jade)
@@ -95,8 +95,16 @@ are `standup`, `report`, `work`, `saturday`, `slip`, `briefing`, `refresh` and
   a run). HQ has no `ODDS_API_KEY` secret today; it lives in footyalmanac,
   where it does the real work. Adding it here would share the same 500 free
   credits a month.
-- **KPIs:** Oscar's is the share of legs with a live price, and Jade's is the
-  share of group legs that win.
+- **The Groups & Odds Desk (20 Oct 2026):** Jade leads, Oscar prices, Kofi
+  (value) tests whether the model has any edge over bookmaker prices, and
+  Hannah (leg selection) finds which legs land at or above their quote. All
+  four are working agents in footyalmanac's sprint, and one of them works every
+  day (`agents/pick_task.py` `DESK`). The planner gives them tasks by sport,
+  price range and group band.
+- **KPIs:** Oscar, legs with a live price. Jade, groups won minus expected.
+  Kofi, legs landed minus quoted. Hannah, the average leg chance, which only
+  counts if Kofi's stays honest. All from the site's graded groups since the
+  honest-chance rule (19 Oct).
 - Groups lose to the bookmakers' margin on average, and the briefing should
   never suggest otherwise.
 
@@ -104,9 +112,21 @@ are `standup`, `report`, `work`, `saturday`, `slip`, `briefing`, `refresh` and
 
 - **Core agents:** Luke (chief of staff), Ava (scout), Cory (quality), Raj
   (source), Ben (ratings), Mia (experiment), Theo (sports), Susie (auditor),
-  Andrew (calibration), Nina (curator) and Allan (engineer). Oscar (odds) and
-  Jade (groups) run markets, Elena is the CEO, and up to six hires sit in the
-  Expansion Wing.
+  Andrew (calibration), Nina (curator) and Allan (engineer). The Expansion Wing
+  holds Priya (Championship) and the Groups & Odds Desk (Oscar, Jade, Kofi,
+  Hannah); Omar (CFB) reports only.
+- **Who does real work:** every agent above except Omar has a place in
+  footyalmanac's daily sprint and opens pull requests there. Each day five run
+  on the most urgent backlog tasks, plus one from the desk.
+
+## Elena, the CEO
+
+Ask her anything, or ask for a change, from the CEO tab: it opens a GitHub issue
+labelled `ceo` on footyalmanac for you to submit. footyalmanac's `ceo.yml` runs
+Claude as Elena on the whole repository. She answers on the issue, ships what is
+clear and safe through the same `open_pr.sh` and merge gate as the agents, and
+delegates bigger work as `office-backlog` issues the next sprint works first.
+Follow-up comments continue the thread. Only Douglas's words reach her.
 - **Team tab:** each agent's KPI today, its target, status, 14-day trend and
   days on track. Tap an agent for today's done, next and blockers, the last 7
   days, PRs and Agent of the Week days.
@@ -133,7 +153,6 @@ everything is in.
 ```bash
 python3 tests/test_office.py                     # tests
 python3 scripts/office.py --slot standup         # a stand-up
-python3 scripts/ceo.py --chat                    # CEO chat (placeholder replies)
 python3 -m http.server -d docs 8080              # preview the office
 ```
 
@@ -145,13 +164,12 @@ More detail is in [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
    coverage of every daily fixture, a Daily List that lands at least 80%, and
    quotes that match what lands. Stand-ups and playbacks should lead with those
    three numbers and the quoted-versus-landed gap, not raw win counts.
-2. **One Elena.** The site tab uses the Cloudflare Worker (OpenAI), but the
-   command line and `ceo` slot return a canned reply. Either route both
-   through the worker or label the script as offline.
+2. **Elena's reach.** She can't change `.github/`, `agents/`, `CLAUDE.md` or
+   `AGENTS.md` (nor can any agent); those still need Douglas.
 3. **Briefing honesty.** Show each group's honest chance next to its odds,
    and say plainly that groups lose on average.
-4. **KPIs that can't be gamed.** Jade's "legs that win" rewards very short
-   legs. A calibration-style KPI (legs landed versus quoted) would be truer.
+4. **KPIs that can't be gamed.** Done for the desk (20 Oct). Omar's KPI and
+   the hiring desk's triggers still use raw hit rates.
 5. **Stale numbers.** Every figure is copied from the site at run time. Never
    hard-code a rate or a bar here.
 

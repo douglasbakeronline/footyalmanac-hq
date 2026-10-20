@@ -59,13 +59,14 @@ def gather():
     tune = raw("tuning-report.json") or {}
     srec = raw("sports-record.json") or {}
     trec = raw("tennis-record.json") or {}
+    grec = raw("groupings-record.json") or {}
     pname, preds = latest_dir_file("predictions")
     _, spreds = latest_dir_file("predictions-sports")
     _, tpreds = latest_dir_file("predictions-tennis")
     commits = gh_json(["api", f"repos/{REPO}/commits?per_page=40"]) or []
     runs = gh_json(["run", "list", "-R", REPO, "--workflow", "deploy.yml", "-L", "15", "--json", "name,conclusion,status,createdAt,url"]) or []
     prs = agent_prs()
-    return dict(prs=prs, rec=rec, calib=calib, tune=tune, srec=srec, trec=trec, pdate=(pname or "").replace(".json", ""),
+    return dict(prs=prs, rec=rec, calib=calib, tune=tune, srec=srec, trec=trec, grec=grec, pdate=(pname or "").replace(".json", ""),
                 preds=preds or [], spreds=spreds or [], tpreds=tpreds or [], commits=commits, runs=runs)
 
 def agent_prs():
@@ -315,7 +316,7 @@ def build_report(period="day"):
     return r
 
 
-NAMES = {"chief": "Luke", "scout": "Ava", "quality": "Cory", "source": "Raj", "ratings": "Ben", "experiment": "Mia",
+NAMES = {"ceo": "Elena", "chief": "Luke", "scout": "Ava", "quality": "Cory", "source": "Raj", "ratings": "Ben", "experiment": "Mia",
          "sports": "Theo", "auditor": "Susie", "calib": "Andrew", "curator": "Nina", "engineer": "Allan"}
 SPOTS = ["the north water cooler", "the water cooler by Validation", "the canteen water cooler", "the coffee bar", "the canteen", "the aquarium"]
 

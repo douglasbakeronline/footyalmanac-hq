@@ -1,5 +1,8 @@
 # Footyalmanac CEO Chat - Cloudflare Worker
 
+> **Unused since 20 Oct 2026.** The office's CEO tab now briefs Elena through GitHub issues worked by
+> footyalmanac's `ceo.yml`. Nothing calls this worker; delete it on Cloudflare to retire it fully.
+
 This Worker powers the "CEO" tab on the live site (docs/index.html). It receives
 chat messages from the browser, pulls live business context from the public
 `docs/data/*.json` files, and calls OpenAI to respond in character as Elena.
