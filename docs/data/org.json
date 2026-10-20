@@ -38,11 +38,11 @@
    "id": "h3",
    "key": "markets-groups",
    "name": "Jade",
-   "role": "Accumulator Strategist",
+   "role": "Accumulator Strategist (desk lead)",
    "d": "markets",
    "kpi": {
-    "type": "grouplegs",
-    "target": 0.78
+    "type": "groupsexp",
+    "target": 0.0
    },
    "reason": "Douglas asked for three groups of five each day with a mix of odds for a decent return.",
    "hired": "2026-10-03",
@@ -53,35 +53,37 @@
   },
   {
    "id": "h4",
-   "key": "draws",
-   "name": "Tom",
-   "role": "Draw Risk Analyst",
-   "d": "valid",
+   "key": "desk-value",
+   "name": "Kofi",
+   "role": "Value Analyst",
+   "d": "markets",
    "kpi": {
-    "type": "draws",
-    "target": 0.1
+    "type": "legsquote",
+    "target": -0.02
    },
-   "reason": "8 of 48 Strong calls were drawn out (17%): draws are our biggest single cause of misses.",
-   "hired": "2026-10-05",
+   "reason": "Douglas asked for a department that picks the groups and the odds, in line with how firm each fixture is. Kofi tests whether the model has any edge over the bookmakers' prices.",
+   "hired": "2026-10-20",
    "skin": "#8d5a3b",
    "hair": "#0f0b08",
-   "slot": 3
+   "slot": 3,
+   "by": "Douglas"
   },
   {
    "id": "h5",
-   "key": "builds",
-   "name": "Leah",
-   "role": "Reliability Engineer",
-   "d": "eng",
+   "key": "desk-legs",
+   "name": "Hannah",
+   "role": "Leg Selector",
+   "d": "markets",
    "kpi": {
-    "type": "builds",
-    "target": 1.0
+    "type": "legfirm",
+    "target": 0.75
    },
-   "reason": "Only 4/10 recent builds were green: Allan needs a second pair of hands on the pipeline.",
-   "hired": "2026-10-06",
+   "reason": "Douglas asked for a department that picks the groups and the odds, in line with how firm each fixture is. Hannah finds which legs land at or above their quote.",
+   "hired": "2026-10-20",
    "skin": "#f0c8a8",
    "hair": "#c9a15a",
-   "slot": 4
+   "slot": 4,
+   "by": "Douglas"
   },
   {
    "id": "h6",
@@ -103,7 +105,7 @@
  ],
  "departments": {
   "markets": {
-   "name": "Markets & Groupings",
+   "name": "Groups & Odds Desk",
    "c": "#f0b35a",
    "opened": "2026-10-03"
   },
@@ -114,6 +116,11 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-20",
+   "type": "department",
+   "text": "Markets & Groupings becomes the Groups & Odds Desk: Jade leads, Oscar prices, Kofi (value) and Hannah (leg selection) join. Tom and Leah's desks go to them: draw risk stays with Mia and build reliability with Allan, who do that work in the sprint."
+  },
   {
    "date": "2026-10-11",
    "type": "hire",

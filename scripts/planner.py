@@ -21,7 +21,7 @@ RAW = f"https://raw.githubusercontent.com/{REPO}/main/"
 WINDOW_DAYS = 28
 MAX_TASKS = 12
 OWNERS = {"chief", "scout", "quality", "source", "ratings", "experiment", "sports", "auditor",
-          "calib", "curator", "engineer", "champ", "odds", "accas"}
+          "calib", "curator", "engineer", "champ", "odds", "accas", "value", "legs"}
 SPORT_NAMES = {"nfl": "NFL", "mlb": "baseball (MLB)", "nba": "NBA", "rugby": "rugby union", "nhl": "NHL",
                "cfb": "college football", "ncaab": "college basketball", "wnba": "WNBA", "nrl": "rugby league (NRL)"}
 GROUPS_RULE_FROM = "2026-10-19"   # honest leg chances (footyalmanac #47); earlier groups used the old rule
@@ -249,6 +249,35 @@ def plan(files, today=None, done=()):
             "already the lower of the tested rate and the bookmaker's fair chance, so a shortfall here means one of "
             "those is still too high for the kind of leg the rules pick. Find which sport, price range or "
             "competition carries it. Prices never feed a model.", g, 1.5, "honesty"))
+
+    # 8b. The Groups & Odds Desk: where the legs fall short, by sport and by price, and which group bands miss
+    for sp in sorted({l.get("sport") for l in uniq} - {None}):
+        g = gap((l["p"], l["status"] == "won") for l in uniq if l.get("sport") == sp)
+        if g["n"] >= 20 and g["z"] <= -1.5:
+            T.append(task(f"legs-{sp}", "legs", f"{sp.title()} legs: {g['won']}/{g['n']} against {g['expected']:.0f} expected",
+                f"{sp.title()} legs in the Odds tab's groups since {GROUPS_RULE_FROM}: {says(g)}. Find which kind of "
+                f"{sp} leg falls short (competition tier, tested band, home or away, price) and replay a selection "
+                "rule that leaves it out.", g, 1.5, "groups"))
+    for lo, hi in ((1.0, 1.3), (1.3, 1.6), (1.6, 2.2), (2.2, 99)):
+        g = gap((l["p"], l["status"] == "won") for l in uniq if l.get("odds") and lo <= l["odds"] < hi)
+        if g["n"] >= 20 and g["z"] <= -1.5:
+            T.append(task(f"price-{lo}", "value", f"Legs priced {lo:.1f}-{hi if hi < 99 else '+'} land below their chance",
+                f"Group legs priced {lo:.2f} to {hi if hi < 99 else 'above'} since {GROUPS_RULE_FROM}: {says(g)}. The leg's "
+                "chance is already the lower of the tested rate and the bookmaker's fair chance, so check which of the "
+                "two is too high at this price and whether the bookmaker's margin is being removed correctly.", g, 1.5, "groups"))
+    by_band = {}
+    for d in (files.get("groupings-record.json") or {}).get("days") or []:
+        if d.get("date", "") < GROUPS_RULE_FROM: continue
+        for grp in d.get("groups") or []:
+            if grp.get("status") in ("won", "lost") and grp.get("p") is not None:
+                by_band.setdefault(grp.get("name"), []).append((grp["p"], grp["status"] == "won"))
+    for band, rows in sorted(by_band.items()):
+        g = gap(rows)
+        if g["n"] >= 8 and g["z"] <= -1.5:
+            T.append(task(f"band-groups-{str(band).lower()}", "accas", f"{band} groups: {g['won']}/{g['n']} against {g['expected']:.1f} expected",
+                f"{band} groups since {GROUPS_RULE_FROM}: {says(g)}. Groups multiply small errors in their legs, so check "
+                "whether the legs are correlated (same competition, same kick-off) and whether the band's rules pick "
+                "the riskiest leg that still fits the price range.", g, 1.5, "groups"))
 
     # 9. Coverage: unrated fixtures on today's board (objective 1)
     preds = files.get("predictions") or []

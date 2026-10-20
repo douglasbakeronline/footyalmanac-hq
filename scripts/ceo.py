@@ -1,9 +1,6 @@
-"""CEO Agent - Strategic leadership and 1-2-1 conversations with Douglas.
-
-The CEO (Elena) provides strategic oversight, answers questions about the business,
-and has 1-2-1 conversations with Douglas. She can be messaged directly via GitHub
-issues or workflow dispatch.
-"""
+"""Offline placeholder, kept for the tests. The real Elena is footyalmanac's ceo.yml (20 Oct 2026): brief her from
+the office's CEO tab, which opens a GitHub issue labelled `ceo`; she answers there with Claude, ships what is safe
+through the merge gate and delegates the rest to the office."""
 import json, os, sys, argparse, subprocess
 from datetime import datetime
 from zoneinfo import ZoneInfo

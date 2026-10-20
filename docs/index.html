@@ -93,6 +93,11 @@ a.cta.alm:hover{text-decoration:underline}
 .perk{display:flex;gap:10px;padding:10px;border-radius:10px;background:var(--panel2);margin-bottom:8px;border:1px solid var(--line)}.perk.un{border-color:#5a4520}
 .perk .ic{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;flex:none;background:#2e251c}
 .perk b{font-size:13px}.perk p{margin:2px 0 0;font-size:12px;color:var(--mut)}
+.ceo-hd b{font-size:15px;font-weight:600}.ceo-hd p{color:var(--mut);font-size:12.5px;line-height:1.45;margin:4px 0 12px}
+#ceoInput{width:100%;box-sizing:border-box;resize:vertical;background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:10px 12px;font:500 13px/1.45 "General Sans"}#ceoInput:focus{outline:2px solid var(--acc);outline-offset:1px}
+.ceo-go{display:flex;gap:10px;align-items:center;margin:8px 0 4px}.ceo-go .sbtn{padding:8px 14px;flex:none}.ceo-go small{color:var(--mut);font-size:11px;line-height:1.35}
+.brief{display:block;padding:10px 12px;background:var(--panel2);border-radius:10px;margin-bottom:8px;color:var(--txt);text-decoration:none}.brief:hover{outline:1px solid var(--line)}
+.brief .t{display:flex;gap:8px;align-items:baseline;font-size:13px;font-weight:600}.brief .t span{margin-left:auto;flex:none}.brief p{margin:6px 0 0;color:var(--mut);font-size:12px;line-height:1.45;white-space:pre-line}
 .chatm{padding:8px 10px;background:var(--panel2);border-radius:10px;margin-bottom:8px;font-size:12.5px}.chatm .w{color:var(--mut);font-size:11px;margin-bottom:3px}
 .sbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:5px 10px;font:600 12px "General Sans";cursor:pointer}.sbtn:hover{border-color:var(--acc)}
 ul.l{margin:4px 0 14px;padding-left:18px;font-size:12.5px}ul.l li{margin:4px 0}
@@ -238,7 +243,7 @@ header{gap:18px;padding:10px 18px;background:linear-gradient(180deg,#1d1611 0%,#
   <section class="today" id="today" aria-label="Today at a glance"></section>
   <div class="tabs"><div class="on" data-p="log">Stand-up</div><div data-p="team">Team</div><div data-p="picks">Picks</div><div data-p="acc">KPIs</div><div data-p="pb">Playback</div><div data-p="chat">Chatter</div><div data-p="ceo">CEO</div><div data-p="perk">Perks</div><div data-p="rhy">Rhythm</div><div data-p="gh">GitHub</div></div>
   <div class="pane on" id="log"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
-  <div class="pane" id="team"></div><div class="pane" id="picks"></div><div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="ceo"><div class="k" style="margin-bottom:12px">Chat with Elena, CEO</div><div id="ceoHistory" style="max-height:calc(100vh - 280px);overflow-y:auto;margin-bottom:12px"></div><div class="ask"><input id="ceoInput" placeholder="Ask Elena about business performance..." style="flex:1"><button class="sbtn" id="ceoSend" style="padding:8px 14px">Send</button></div></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
+  <div class="pane" id="team"></div><div class="pane" id="picks"></div><div class="pane" id="acc"></div><div class="pane" id="pb"></div><div class="pane" id="chat"></div><div class="pane" id="ceo"><div class="ceo-hd"><b>Elena, CEO</b><p>Ask anything, or ask for a change. Elena reads the whole project, answers on GitHub, ships what is safe through the same checks as the agents, and hands bigger work to the office for the next sprint.</p></div><textarea id="ceoInput" rows="4" placeholder="e.g. Why did Saturday's List miss three picks? Fix whatever caused it."></textarea><div class="ceo-go"><button class="sbtn" id="ceoSend">Brief Elena</button><small>Opens the brief on GitHub: tap Submit there. Her reply lands on the issue in about ten minutes.</small></div><div class="k" style="margin:16px 0 8px">Recent briefs</div><div id="ceoHistory"><p class="k">Loading…</p></div></div><div class="pane" id="perk"></div><div class="pane" id="rhy"></div><div class="pane" id="gh"></div>
   <div class="foot" id="foot">Loading office data…</div>
  </aside>
 </main>
@@ -1005,7 +1010,7 @@ async function loadGH(){try{const d=await J("activity.json");
  const PR=d.prs||[];ACT_PRS=PR;paintStatus();renderToday();if(HISTORY.length)renderLog(HISTORY);$("#gh").innerHTML=`<div class="k">Agent development work</div>`+(PR.length?PR.map(p=>`<div class="row"><b style="color:${AG[p.owner]?DEPT[AG[p.owner].d].c:"var(--acc)"}">${(AG[p.owner]||{}).name||p.owner}</b> · <a href="${p.url}" target="_blank" rel="noopener">#${p.n} ${p.title.replace(/^\[[^\]]*\]\s*/,"")}</a><br><small style="color:${p.status==="shipped"?"var(--good)":"var(--mut)"}">${p.status} · opened ${fmt(p.opened)}</small></div>`).join(""):`<div class="row" style="color:var(--mut)">No pull requests yet. The sprint starts at 07:30 UK.</div>`)+`<div class="k" style="margin-top:16px">Recent commits · footyalmanac</div>`+d.commits.map(c=>`<div class="row"><a href="${c.url}" target="_blank" rel="noopener">${c.msg}</a><br><small style="color:var(--mut)" class="mono">${c.sha} · ${fmt(c.date)}</small></div>`).join("")+`<div class="k" style="margin-top:16px">Workflow runs</div>`+d.runs.map(r=>`<div class="row"><span style="color:${r.conclusion==="success"?"var(--good)":r.conclusion==="failure"?"var(--bad)":"var(--mut)"}">●</span> ${r.name} · ${fmt(r.createdAt)}</div>`).join("")}catch(e){$("#gh").innerHTML="<p class='k'>Couldn't reach GitHub right now.</p>"}}
 
 /* ---------- today at a glance, agent status, sprint card (5 Oct 2026) ---------- */
-const OWN={champ:"h1",odds:"h2",accas:"h3"};const agOf=o=>AG[OWN[o]||o];
+const OWN={champ:"h1",odds:"h2",accas:"h3",value:"h4",legs:"h5"};const agOf=o=>AG[OWN[o]||o];
 const PLAT={office:{n:"Office agents",c:"#f0b35a"},myclaw:{n:"MyClaw",c:"#a98bff"},perplexity:{n:"Perplexity",c:"#4cc3e6"},kiro:{n:"Kiro",c:"#ff7f9f"}};
 const spOf=p=>p.status==="shipped"?"shipped":p.status==="checking"?"checking":p.status==="waiting for Douglas"?"owner":"held";
 const spLab={shipped:"Shipped",checking:"Checking",owner:"Needs you",held:"Held"};
@@ -1030,7 +1035,7 @@ function backlogCard(s){const b=(s&&s.backlog)||[];if(!b.length)return "";
  b.map(x=>{const a=agOf(x.owner);return `<div class="bk"><b style="color:${a?DEPT[a.d].c:"var(--acc)"}">${a?a.name:x.owner}</b><span>${x.title}</span><i>${x.metric==="roadmap"?"priority":"gap "+x.score.toFixed(1)}</i></div>`}).join("")+`</div>`}
 function outcomesHTML(o){if(!o)return "";const c=o.count||{};
  return `<div class="k">What the agents shipped · last ${o.days} days</div><p style="color:var(--mut);font-size:12px;margin:4px 0 8px">${o.merged} merged · ${c.model||0} changed the picks · ${c.data||0} fixed data or grading · ${c.tests||0} tests · ${c.evidence||0} evidence only</p>`+
- (o.items||[]).map(p=>{const[k,l]=OUTC[p.outcome]||OUTC.evidence;const a=agOf(p.owner);return `<div class="row" style="display:flex;gap:8px;align-items:baseline"><span class="sp ${k}">${l}</span><a href="${p.url}" target="_blank" rel="noopener">#${p.n} ${p.title}</a><span style="margin-left:auto;color:var(--mut);font-size:11px">${a?a.name:""}</span></div>`}).join("")}
+ (o.items||[]).map(p=>{const[k,l]=OUTC[p.outcome]||OUTC.evidence;const a=agOf(p.owner);return `<div class="row" style="display:flex;gap:8px;align-items:baseline"><span class="sp ${k}">${l}</span><a href="${p.url}" target="_blank" rel="noopener">#${p.n} ${p.title}</a><span style="margin-left:auto;color:var(--mut);font-size:11px">${a?a.name:p.owner==="ceo"?"Elena":""}</span></div>`}).join("")}
 function sprintCard(){const prs=todayPRs();if(!prs.length)return "";const c={};prs.forEach(p=>{const k=spOf(p);c[k]=(c[k]||0)+1});
  return `<div class="spr"><h4>Today's sprint</h4><div class="meta">${prs.length} pull requests · ${c.shipped||0} shipped${c.checking?` · ${c.checking} in checks`:""}${c.held?` · ${c.held} held or closed`:""}${c.owner?` · ${c.owner} need you`:""}</div>`+
  prs.map(p=>{const a=agOf(p.owner),k=spOf(p),pl=PLAT[p.platform]||PLAT.office;return `<div class="r"><span class="av" style="background:${a?DEPT[a.d].c:pl.c}">${a?a.name[0]:pl.n[0]}</span><a href="${p.url}" target="_blank" rel="noopener" title="${p.title.replace(/"/g,"&quot;")}"><b>${a?a.name:pl.n}</b> · ${p.title.replace(/^\[[^\]]*\]\s*/,"")}</a><span class="sp ${k}">${spLab[k]}</span></div>`}).join("")+`</div>`}
@@ -1125,12 +1130,21 @@ J("rhythm.json").then(d=>{if(d.rhythm)RHYTHM=d.rhythm;rhythmTick()}).catch(()=>{
 setInterval(()=>poll(false),20000);setInterval(loadGH,180000);setInterval(loadReports,120000);setInterval(loadChats,60000);
 setTimeout(chitchat,4000);loadEvents();setInterval(loadEvents,120000);loadPicks().then(()=>{loadSlip();loadBrief()});setInterval(()=>{loadSlip();loadBrief()},120000);setInterval(()=>J("picks.json").then(d=>{PICKS=d;renderBoard()}).catch(()=>{}),600000);if(matchMedia("(max-width:980px)").matches)$("#board").classList.add("min");
 
-/* ---------- CEO chat ---------- */
-const CEO_API="https://footyalmanac-ceo.douglasbakeronline.workers.dev";
-let ceoHistory=[];
+/* ---------- Elena, CEO (20 Oct 2026): briefs are GitHub issues labelled ceo, worked by footyalmanac's ceo.yml ---------- */
+const CEO_REPO="douglasbakeronline/footyalmanac",CEO_MARK="<!-- elena -->";
 const ceoHistoryEl=$("#ceoHistory"),ceoInput=$("#ceoInput"),ceoSend=$("#ceoSend");
-function renderCEOHistory(){ceoHistoryEl.innerHTML=ceoHistory.map(m=>`<div class="chatm"><div class="w">${m.role==="user"?"You":"Elena, CEO"}</div>${m.content}</div>`).join("")}
-async function sendCEO(){const msg=ceoInput.value.trim();if(!msg)return;ceoInput.value="";ceoSend.disabled=true;ceoSend.textContent="...";ceoHistory.push({role:"user",content:msg});renderCEOHistory();ceoHistoryEl.scrollTop=ceoHistoryEl.scrollHeight;try{const res=await fetch(CEO_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:msg,history:ceoHistory.slice(-10)})});if(!res.ok)throw new Error("Network error");const data=await res.json();if(data.error)throw new Error(data.error);ceoHistory.push({role:"ceo",content:data.reply});renderCEOHistory();ceoHistoryEl.scrollTop=ceoHistoryEl.scrollHeight}catch(e){ceoHistory.push({role:"ceo",content:`Error: ${e.message}`});renderCEOHistory()}finally{ceoSend.disabled=false;ceoSend.textContent="Send"}}
-ceoSend.onclick=sendCEO;ceoInput.onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendCEO()}};
+const escH=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function briefElena(){const msg=ceoInput.value.trim();if(!msg)return;const first=msg.split(/\n/)[0];const title=first.length>78?first.slice(0,76)+"…":first;
+ const u=`https://github.com/${CEO_REPO}/issues/new?labels=ceo&title=${encodeURIComponent(title)}&body=${encodeURIComponent(msg)}`;window.open(u,"_blank","noopener");ceoInput.value="";setTimeout(loadBriefs,60000)}
+async function loadBriefs(){try{const gh=u=>fetch("https://api.github.com/repos/"+CEO_REPO+u,{headers:{Accept:"application/vnd.github+json"}}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
+ const issues=(await gh("/issues?labels=ceo&state=all&per_page=8")).filter(i=>!i.pull_request);
+ if(!issues.length){ceoHistoryEl.innerHTML="<p class='k'>No briefs yet.</p>";return}
+ const rows=await Promise.all(issues.slice(0,6).map(async i=>{const cs=i.comments?await gh(`/issues/${i.number}/comments?per_page=100`).catch(()=>[]):[];
+  const last=cs[cs.length-1],ans=[...cs].reverse().find(c=>(c.body||"").startsWith(CEO_MARK));
+  const st=!last?["Queued","var(--mut)"]:(last.body||"").startsWith(CEO_MARK)?["Answered","var(--good)"]:(last.body||"").startsWith("<!-- elena-status")?["Working","var(--warn)"]:["Queued","var(--mut)"];
+  const txt=ans?ans.body.slice(CEO_MARK.length).trim():"";
+  return `<a class="brief" href="${i.html_url}" target="_blank" rel="noopener"><div class="t">#${i.number} ${escH(i.title)}<span class="sp" style="color:${st[1]}">${st[0]}</span></div>${txt?`<p>${escH(txt.length>420?txt.slice(0,420)+"…":txt)}</p>`:""}</a>`}));
+ ceoHistoryEl.innerHTML=rows.join("")}catch(e){ceoHistoryEl.innerHTML=`<p class='k'>Couldn't reach GitHub just now. <a href="https://github.com/${CEO_REPO}/issues?q=label%3Aceo" target="_blank" rel="noopener" style="color:var(--acc)">Open the briefs</a></p>`}}
+ceoSend.onclick=briefElena;document.querySelector('.tabs [data-p="ceo"]')?.addEventListener("click",loadBriefs);loadBriefs();
 
 </script></body></html>

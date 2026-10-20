@@ -87,6 +87,16 @@ class TestPlan(unittest.TestCase):
         b = P.plan(files(**{"groupings-record.json": {"days": days}}), today=TODAY)
         self.assertNotIn("hq-groups-legs", self.keys(b))
 
+    def test_desk_tasks_by_sport_price_and_band(self):
+        legs = [{"event": f"E{i}", "sport": "rugby", "odds": 1.2, "p": 0.85, "status": "won" if i < 12 else "lost"}
+                for i in range(30)]
+        groups = [{"name": "Steady", "p": 0.5, "status": "lost", "legs": legs[i * 3:(i + 1) * 3]} for i in range(10)]
+        b = P.plan(files(**{"groupings-record.json": {"days": [{"date": "2026-10-19", "groups": groups}]}}), today=TODAY)
+        owners = {t["key"]: t["owner"] for t in b["tasks"]}
+        self.assertEqual(owners.get("hq-legs-rugby"), "legs")
+        self.assertEqual(owners.get("hq-price-1.0"), "value")
+        self.assertEqual(owners.get("hq-band-groups-steady"), "accas")
+
     def test_unrated_fixtures(self):
         preds = [{"league": "hr.1", "unrated": True}] * 12 + [{"league": "en.1"}] * 50
         t = next(t for t in P.plan(files(predictions=preds), today=TODAY)["tasks"] if t["key"] == "hq-unrated")

@@ -1,3 +1,11 @@
+# Elena works, and the Groups & Odds Desk opens - October 20, 2026 (Claude)
+
+- **Elena is real.** The CEO tab now briefs her on GitHub: type a question or a change, tap Brief Elena, submit the issue. footyalmanac's new `ceo.yml` runs Claude as Elena on the whole repository. She answers on the issue, ships what is safe through the agents' merge gate, and delegates bigger work as backlog issues the next sprint takes first. The tab lists recent briefs live from GitHub with their status. The OpenAI worker is no longer called.
+- **Groups & Odds Desk.** Markets & Groupings becomes a four-agent desk: Jade (lead), Oscar (prices), and two new working agents, Kofi (Value Analyst: is there any edge over bookmaker prices?) and Hannah (Leg Selector: which legs land at or above their quote?). They take the Expansion Wing desks of Tom and Leah, who only reported; draw risk stays with Mia and build reliability with Allan.
+- **Honest desk KPIs**: groups won minus expected (Jade), legs landed minus quoted (Kofi), average leg chance (Hannah), all from the site's graded groups since 19 Oct.
+- **Planner** adds desk tasks: legs short of their quote by sport and by price range, and group bands short of their expected wins.
+- footyalmanac's sprint grows to five agents a day plus a guaranteed desk place.
+
 # The office plans the work - October 20, 2026 (Claude)
 
 - **Planner** (`scripts/planner.py`): at each scheduled stand-up HQ measures every gap between what the site quotes and what lands (Daily List by sport, football 5-point bands, leagues, tennis tours, the other sports, Odds tab legs), ranks them by z-score and writes `docs/data/backlog.json`, one task per gap with its evidence and the site's testing rules. The site README's priority list sits below the measured gaps until an agent ships each item. footyalmanac's sprint reads this file each morning and runs the four agents with the most urgent work. HQ still never predicts or grades: the live record only locates a gap, and every fix is tested on history.
