@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-20T08:04:16",
- "fetched": "2026-10-20T09:18:39.750015+01:00",
+ "generated": "2026-10-20T08:50:22",
+ "fetched": "2026-10-20T10:10:38.602158+01:00",
  "bar": 0.8,
  "days": [
   {
@@ -174,8 +174,8 @@
      "unrated": false
     },
     {
-     "t": "09:10",
-     "ko": "2026-10-20T08:10:00Z",
+     "t": "09:00",
+     "ko": "2026-10-20T08:00:00Z",
      "lg": "ATP",
      "lgName": "ATP \u00b7 Almaty Open \u00b7 Round 1",
      "sport": "tennis",
@@ -292,9 +292,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "Sho Shimabukuro won"
     },
     {
      "t": "18:45",
@@ -518,7 +518,7 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "void",
      "score": null,
      "res": null
     },
@@ -3310,10 +3310,10 @@
     "reserve": {
      "n": 34,
      "won": 5,
-     "lost": 1,
-     "void": 0,
-     "started": 6,
-     "upcoming": 22
+     "lost": 2,
+     "void": 1,
+     "started": 5,
+     "upcoming": 21
     }
    }
   },
@@ -3720,21 +3720,6 @@
     },
     {
      "t": "04:00",
-     "lg": "WTA",
-     "lgName": "WTA \u00b7 BNB Ningbo Open",
-     "sport": "tennis",
-     "h": "Sara Bejlek",
-     "a": "Sorana Cirstea",
-     "side": "a",
-     "pick": "Sorana Cirstea",
-     "c": 0.6575,
-     "hit": 0.7603,
-     "hitN": 171,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "04:00",
      "lg": "ATP",
      "lgName": "ATP \u00b7 BNP Paribas Fortis European Open",
      "sport": "tennis",
@@ -3745,6 +3730,36 @@
      "c": 0.6515,
      "hit": 0.6985,
      "hitN": 199,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "04:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 BNB Ningbo Open",
+     "sport": "tennis",
+     "h": "Sara Bejlek",
+     "a": "Sorana Cirstea",
+     "side": "a",
+     "pick": "Sorana Cirstea",
+     "c": 0.6486,
+     "hit": 0.608,
+     "hitN": 194,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "04:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Kinoshita Group Japan Open",
+     "sport": "tennis",
+     "h": "Moyuka Uchijima",
+     "a": "Mary Stoiana",
+     "side": "a",
+     "pick": "Mary Stoiana",
+     "c": 0.6456,
+     "hit": 0.608,
+     "hitN": 194,
      "list": false,
      "reserve": true
     },
@@ -3760,21 +3775,6 @@
      "c": 0.6406,
      "hit": 0.5932,
      "hitN": 236,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "04:00",
-     "lg": "WTA",
-     "lgName": "WTA \u00b7 Kinoshita Group Japan Open",
-     "sport": "tennis",
-     "h": "Moyuka Uchijima",
-     "a": "Mary Stoiana",
-     "side": "a",
-     "pick": "Mary Stoiana",
-     "c": 0.6375,
-     "hit": 0.608,
-     "hitN": 194,
      "list": false,
      "reserve": true
     },
@@ -6320,7 +6320,7 @@
   },
   {
    "date": "2026-10-22",
-   "count": 80,
+   "count": 81,
    "games": [
     {
      "t": "15:00",
@@ -6662,6 +6662,21 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "04:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Kinoshita Group Japan Open",
+     "sport": "tennis",
+     "h": "Moyuka Uchijima",
+     "a": "Mary Stoiana",
+     "side": "a",
+     "pick": "Mary Stoiana",
+     "c": 0.6456,
+     "hit": 0.608,
+     "hitN": 194,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "13:30",
@@ -21825,6 +21840,35 @@
      "unrated": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-10-24T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Sportivo Trinidense",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.519,
+     "p": {
+      "h": 0.519,
+      "d": 0.2602,
+      "a": 0.2208
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5331,
+     "o25": 0.5166,
+     "hit": 0.4896,
+     "hitN": 194,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "11:30",
      "ko": "2026-10-24T11:30:00Z",
      "lg": "af.120",
@@ -23067,35 +23111,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-10-24T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Sportivo Trinidense",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.4974,
-     "p": {
-      "h": 0.4974,
-      "d": 0.2692,
-      "a": 0.2335
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5289,
-     "o25": 0.5074,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -55026,6 +55041,35 @@
      "unrated": false
     },
     {
+     "t": "22:00",
+     "ko": "2026-10-26T22:00:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Nacional Potos\u00ed",
+     "a": "Guabir\u00e1",
+     "side": "h",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.6008,
+     "p": {
+      "h": 0.6008,
+      "d": 0.2189,
+      "a": 0.1803
+     },
+     "score": [
+      2,
+      1
+     ],
+     "btts": 0.5576,
+     "o25": 0.5634,
+     "hit": 0.7052,
+     "hitN": 78,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "01:00",
      "ko": "2026-10-26T01:00:00Z",
      "lg": "us.1",
@@ -55076,35 +55120,6 @@
      ],
      "btts": 0.4293,
      "o25": 0.415,
-     "hit": 0.5352,
-     "hitN": 99,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "22:00",
-     "ko": "2026-10-26T22:00:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Nacional Potos\u00ed",
-     "a": "Guabir\u00e1",
-     "side": "h",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.5542,
-     "p": {
-      "h": 0.5542,
-      "d": 0.2393,
-      "a": 0.2065
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5505,
-     "o25": 0.5444,
      "hit": 0.5352,
      "hitN": 99,
      "celtic": true,
