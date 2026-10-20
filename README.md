@@ -9,8 +9,10 @@ picks, slip tracking and a business playback, all shown in a 3D office.
 - **Prediction site and models:** [footyalmanac](https://github.com/douglasbakeronline/footyalmanac). Read its README first: it holds the project's objective, the current numbers and the improvement priorities.
 - **Owner:** Douglas Baker. UK English, no em dashes, direct.
 
-> **Picking this up as an AI?** HQ **reports on** the prediction site. It
-> **never** makes predictions, changes probabilities or grades results. Every
+> **Picking this up as an AI?** HQ **reports on and plans for** the prediction
+> site. It **never** makes predictions, changes probabilities or grades results:
+> it ranks the gaps between quoted and landed into a backlog
+> (`scripts/planner.py`, `docs/data/backlog.json`) that footyalmanac's agents work. Every
 > number comes from footyalmanac's published files. To make the predictions
 > better, work in footyalmanac. Work here to make the reporting clearer,
 > cheaper or more useful. The code on `main` is the source of truth; where
@@ -68,6 +70,7 @@ are `standup`, `report`, `work`, `saturday`, `slip`, `briefing`, `refresh` and
 | `scripts/markets.py` | Oscar and Jade: daily briefing and five-leg groups. |
 | `scripts/slip.py` | Matches the owner's slips to published picks and settles them from graded records. |
 | `scripts/saturday.py` | Saturday picks preview, final and review. |
+| `scripts/planner.py` | The planner: ranks every quoted-versus-landed gap by z-score and writes `docs/data/backlog.json`, which footyalmanac's `agents/pick_task.py` reads each morning (four agents a day). Runs inside each scheduled stand-up. |
 | `scripts/org.py` | Luke's hiring desk: adds a specialist when a KPI gap has no owner (at most one a day, six in total). State is in `docs/data/org.json`. |
 | `scripts/performance_monitor.py` | Build-health and run-time KPIs. |
 | `scripts/ceo.py` | Elena, the CEO, from the command line and the `ceo` slot. **Placeholder:** `get_llm_response` returns a canned reply and no model is called. The live site's CEO tab is different: it goes through `cloudflare-worker/`, which calls OpenAI. |

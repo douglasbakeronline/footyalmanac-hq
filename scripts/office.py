@@ -77,6 +77,7 @@ def agent_prs():
         lab = {l["name"] for l in p.get("labels", [])}
         if "office-agent" not in lab: continue
         owner = next((l[6:] for l in lab if l.startswith("agent:")), None)
+        objective = next((l[10:] for l in lab if l.startswith("objective:")), None)
         platform = next((l[9:] for l in lab if l.startswith("platform:")), "office")
         if p.get("merged_at"): status = "shipped"
         elif p["state"] == "closed": status = "closed"
@@ -85,10 +86,46 @@ def agent_prs():
         else: status = "checking"
         out.append({"n": p["number"], "title": p["title"], "url": p["html_url"], "owner": owner, "platform": platform,
                     "status": status, "opened": p["created_at"], "merged": p.get("merged_at"),
-                    "closed": p.get("closed_at")})
+                    "closed": p.get("closed_at"), "objective": objective,
+                    "outcome": pr_outcome(p["number"]) if p.get("merged_at") else None})
+    _save("pr-outcomes.json", OUTCOMES)
     return out
 
-def pr_line(p): return f"PR #{p['n']} {p['title'].split('] ',1)[-1]} ({p['status']})"
+# What a merged agent pull request actually changed, judged from its files (1 API call per PR, cached for good).
+# The point is to tell work that changes the picks from work that only writes about them.
+MODEL_FILES = ("engine.py", "build.py", "build_tennis.py", "sports.py", "calibration.json", "tennis.json", "sports.json",
+               "rankings.py", "adjustments.json", "europe.json", "international", "groupings.py", "daylist.py", "af-leagues.json")
+DATA_FILES = ("sources.py", "backfill.py", "score.py", "score_tennis.py", "odds.py", "nametest.py")
+OUTCOME_LABEL = {"model": "changed the model or picks", "data": "fixed data or grading", "tests": "tests only",
+                 "evidence": "evidence only"}
+OUTCOMES = _load("pr-outcomes.json", {})
+
+def classify(files):
+    if any(f.startswith(MODEL_FILES) for f in files): return "model"
+    if any(f.startswith(DATA_FILES) for f in files): return "data"
+    if files and all(f.startswith("tests/") or f == "RELEASES.md" for f in files): return "tests"
+    return "evidence"
+
+def pr_outcome(n):
+    k = str(n)
+    if k not in OUTCOMES:
+        files = gh_json(["api", f"repos/{REPO}/pulls/{n}/files?per_page=100"])
+        if not isinstance(files, list): return None
+        OUTCOMES[k] = classify([f["filename"] for f in files])
+    return OUTCOMES[k]
+
+def pr_line(p):
+    o = f", {OUTCOME_LABEL[p['outcome']]}" if p.get("outcome") else ""
+    return f"PR #{p['n']} {p['title'].split('] ',1)[-1]} ({p['status']}{o})"
+
+def outcomes(prs, days=7):
+    """Merged agent work in the last week, by what it changed."""
+    cut = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    merged = [p for p in prs if p.get("merged") and p["merged"] >= cut]
+    count = {k: sum(1 for p in merged if p.get("outcome") == k) for k in OUTCOME_LABEL}
+    return {"days": days, "merged": len(merged), "count": count,
+            "items": [{"n": p["n"], "title": p["title"].split("] ", 1)[-1], "url": p["url"], "owner": p["owner"],
+                       "outcome": p.get("outcome")} for p in merged[:12]]}
 
 LOCK = threading.Lock()
 CACHE = {"d": None, "at": 0}
@@ -136,10 +173,31 @@ def _build(d, trigger):
     exp_msgs = [m for m in msgs if any(k in m.lower() for k in ["test", "retune", "rejected", "tune"])]
     by_sport = {k: v for k, v in (d["srec"].get("bySport") or {}).items() if v}
     tov = d["trec"].get("overall") or {}
-    focus = f"Lift accuracy in {weak[0][1]} ({pct(weak[0][0])} over {weak[0][2]} games)" if weak else "Hold calibration steady"
-
-    say("chief", f"Model record: {pct(ov.get('accuracy'))} over {ov.get('n',0)} graded games; Daily List {pct(lst.get('accuracy'))} ({lst.get('correct',0)}/{lst.get('n',0)}).",
-        f"Focus: {focus}.", "None." if not failed else f"{len(failed)} failed pipeline run(s).")
+    # The three objectives the site is judged on lead every stand-up (footyalmanac README).
+    prs = d.get("prs") or []
+    import planner as PL
+    if trigger.startswith(("scheduled", "on demand")):
+        cut = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
+        done = {p["objective"] for p in prs if p.get("merged") and p["merged"] >= cut and p.get("objective")}
+        backlog = PL.write(DATA, preds, done) or _load("backlog.json", {})
+    else:
+        backlog = _load("backlog.json", {})
+    bo = backlog.get("objectives") or {}
+    la, wb, cv = bo.get("listAll") or {}, (bo.get("honesty") or {}).get("worstBand") or {}, bo.get("coverage") or {}
+    tasks = backlog.get("tasks") or []
+    head = []
+    if la.get("n"):
+        head.append(f"Daily List, last {backlog.get('window', 28)} days: {la['won']} of {la['n']} landed against "
+                    f"{la['expected']:.0f} expected ({pct(la['landed'])} landed, {pct(la['quoted'])} quoted)")
+    if wb.get("n"):
+        head.append(f"widest football band gap {wb['band']}: {pct(wb['landed'])} landed v {pct(wb['quoted'])} quoted (z {wb['z']:+.1f})")
+    if cv.get("fixtures"):
+        head.append(f"{cv['fixtures']:,} football fixtures on the board, {cv['unrated']} unrated")
+    focus = (f"Top of the backlog for {NAMES.get(tasks[0]['owner'], tasks[0]['owner'])}: {tasks[0]['title']}"
+             if tasks else "No measurable gap today; the agents work the standing list")
+    say("chief", ("; ".join(head) + ".") if head else
+        f"Model record: {pct(ov.get('accuracy'))} over {ov.get('n',0)} graded games; Daily List {pct(lst.get('accuracy'))} ({lst.get('correct',0)}/{lst.get('n',0)}).",
+        f"{focus}.", "None." if not failed else f"{len(failed)} failed pipeline run(s).")
     say("scout", f"Swept {len(preds)} football fixtures across {leagues} competitions for {d['pdate']}, plus {len(d['spreds'])} other-sport and {len(d['tpreds'])} tennis matches.",
         "Next sweep at 13:00 for late-added fixtures and kick-off changes.")
     say("quality", f"{unrated} unrated fixtures in today's slate; {leagues} competitions matched to a rated team pool.",
@@ -169,7 +227,6 @@ def _build(d, trigger):
     say("engineer", f"{ok}/{min(10,len(runs))} recent 'Rebuild and publish' runs green.",
         "Keep the build ahead of the 03:00 sweep.", "None." if not failed else f"Failed: {failed[0]['name']} {failed[0]['createdAt'][:16]}")
 
-    prs = d.get("prs") or []
     for line in L:
         mine = [p for p in prs if p["owner"] == line["agent"] and p["status"] not in ("closed",)][:1]
         if mine: line["today"] += f" Dev work: {pr_line(mine[0])}."
@@ -185,8 +242,8 @@ def _build(d, trigger):
             status = "on track" if ok else ("at risk" if near else "behind")
         return {"owner": owner, "name": name, "actual": actual, "target": target, "fmt": fmt, "higher": higher, "status": status}
     OBJ = [
-        obj("curator", "Daily List hit rate", lst.get("accuracy"), 0.70),
-        obj("chief", "Overall hit rate", ov.get("accuracy"), 0.55),
+        obj("curator", "Daily List hit rate", la.get("landed") if la.get("n") else lst.get("accuracy"), 0.80),
+        obj("chief", "List landed minus quoted", (la["landed"] - la["quoted"]) if la.get("n") else None, -0.02, fmt="pt"),
         obj("ratings", "Strong tier hit rate", strong.get("hit"), 0.80),
         obj("calib", "Largest calibration gap", maxgap, 0.05, higher=False),
         obj("scout", "Competitions covered today", leagues, 150, fmt="num"),
@@ -218,10 +275,12 @@ def _build(d, trigger):
     star = max(OBJ, key=margin)
     hits = [g for g in ((rec.get("listDays") or [{}])[0].get("games") or []) if g.get("ok")]
     misses_g = [g for g in ((rec.get("listDays") or [{}])[0].get("games") or []) if g.get("ok") is False]
-    L.append({"agent": "chief", "yesterday": f"Shout-out: {NAMES.get(star['owner'], star['owner'])} for '{star['name']}' — ahead of target.", "today": "Keep encouraging each other: every objective owner posts one learning in the playback.", "blockers": "None.", "kudos": star["owner"]})
+    L.append({"agent": "chief", "yesterday": f"Shout-out: {NAMES.get(star['owner'], star['owner'])} for '{star['name']}', ahead of target.", "today": "Keep encouraging each other: every objective owner posts one learning in the playback.", "blockers": "None.", "kudos": star["owner"]})
     s = {"id": int(time.time() * 1000), "time": datetime.now(UK).isoformat(), "trigger": trigger, "lines": L,
          "objectives": OBJ, "star": star["owner"],
          "wins": [f"{g['home']} v {g['away']} ({pct(g['confidence'])}) finished {g['result'][0]}-{g['result'][1]}" for g in sorted(hits, key=lambda g: -g["confidence"])[:5]],
+         "backlog": [{k: t[k] for k in ("key", "owner", "title", "score", "metric")} for t in tasks[:8]],
+         "siteObjectives": bo, "outcomes": outcomes(prs),
          "dev": prs[:12], "shipped": [pr_line(p) + f" by {NAMES.get(p['owner'], p['owner'])}" for p in shipped[:6]],
          "lessons": ([f"Daily List miss: {m}" for m in misses[:3]] +
                      ([f"Calibration: {pct(gap['from'])}-{pct(gap['to'])} band won {pct(gap['hit'])} vs {pct(gap['expected'])} expected"] if gap else []) +
@@ -247,9 +306,11 @@ def build_report(period="day"):
     chats = [c for c in STATE["chats"] if datetime.fromisoformat(c["time"]) >= since][:20]
     r = {"id": int(time.time() * 1000), "time": datetime.now(UK).isoformat(), "period": period,
          "objectives": s["objectives"], "star": s["star"], "wins": s["wins"], "lessons": s["lessons"],
-         "dev": s.get("dev", []), "shipped": [x for x in s.get("shipped", []) if True],
+         "dev": s.get("dev", []), "shipped": s.get("shipped", []),
          "standups": len(recent), "trend": trend, "chats": chats, "stats": s["stats"],
-         "next": [o["name"] + " — " + o["owner"] for o in s["objectives"] if o["status"] in ("behind", "at risk")][:5]}
+         "outcomes": s.get("outcomes"), "backlog": s.get("backlog", []), "siteObjectives": s.get("siteObjectives"),
+         "next": ([t["title"] + " · " + t["owner"] for t in s.get("backlog", [])[:3]] +
+                  [o["name"] + " · " + o["owner"] for o in s["objectives"] if o["status"] in ("behind", "at risk")])[:5]}
     STATE["reports"].insert(0, r); STATE["reports"] = STATE["reports"][:60]; _save("reports.json", STATE["reports"])
     return r
 
