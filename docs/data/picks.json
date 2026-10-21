@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-21T16:14:15",
- "fetched": "2026-10-21T17:33:48.682078+01:00",
+ "generated": "2026-10-21T16:54:31",
+ "fetched": "2026-10-21T18:55:09.945074+01:00",
  "bar": 0.8,
  "days": [
   {
@@ -83,19 +83,25 @@
      "res": "1-0"
     },
     {
-     "t": "17:00",
+     "t": "18:00",
+     "ko": "2026-10-21T17:00:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes \u00b7 Round 2",
      "sport": "tennis",
      "h": "Lorenzo Musetti",
      "a": "Moise Kouame",
      "side": "h",
      "pick": "Lorenzo Musetti",
      "c": 0.8389,
+     "p": null,
      "hit": 0.8356,
      "hitN": 73,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:00",
@@ -307,19 +313,25 @@
      "unrated": false
     },
     {
-     "t": "17:30",
+     "t": "18:30",
+     "ko": "2026-10-21T17:30:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 BNP Paribas Fortis European Open",
+     "lgName": "ATP \u00b7 BNP Paribas Fortis European Open \u00b7 Round 2",
      "sport": "tennis",
      "h": "Jan Lennard Struff",
      "a": "Gauthier Onclin",
      "side": "h",
      "pick": "Jan Lennard Struff",
      "c": 0.7001,
+     "p": null,
      "hit": 0.7778,
      "hitN": 171,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "06:00",
@@ -474,9 +486,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Corentin Moutet won"
     },
     {
      "t": "13:50",
@@ -1838,11 +1850,11 @@
     },
     "reserve": {
      "n": 23,
-     "won": 7,
+     "won": 8,
      "lost": 6,
      "void": 1,
      "started": 2,
-     "upcoming": 7
+     "upcoming": 6
     }
    }
   },
@@ -18375,6 +18387,35 @@
      "unrated": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-10-24T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Sportivo Trinidense",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.519,
+     "p": {
+      "h": 0.519,
+      "d": 0.2602,
+      "a": 0.2208
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5331,
+     "o25": 0.5166,
+     "hit": 0.4896,
+     "hitN": 194,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "11:30",
      "ko": "2026-10-24T11:30:00Z",
      "lg": "af.120",
@@ -19588,35 +19629,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-10-24T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Sportivo Trinidense",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.4974,
-     "p": {
-      "h": 0.4974,
-      "d": 0.2692,
-      "a": 0.2335
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5289,
-     "o25": 0.5074,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -52011,6 +52023,35 @@
      "unrated": false
     },
     {
+     "t": "22:00",
+     "ko": "2026-10-26T22:00:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Nacional Potos\u00ed",
+     "a": "Guabir\u00e1",
+     "side": "h",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.6008,
+     "p": {
+      "h": 0.6008,
+      "d": 0.2189,
+      "a": 0.1803
+     },
+     "score": [
+      2,
+      1
+     ],
+     "btts": 0.5576,
+     "o25": 0.5634,
+     "hit": 0.7052,
+     "hitN": 78,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "01:00",
      "ko": "2026-10-26T01:00:00Z",
      "lg": "us.1",
@@ -52092,35 +52133,6 @@
      "o25": 0.5425,
      "hit": 0.5868,
      "hitN": 4716,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "22:00",
-     "ko": "2026-10-26T22:00:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Nacional Potos\u00ed",
-     "a": "Guabir\u00e1",
-     "side": "h",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.5542,
-     "p": {
-      "h": 0.5542,
-      "d": 0.2393,
-      "a": 0.2065
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5505,
-     "o25": 0.5444,
-     "hit": 0.5352,
-     "hitN": 99,
      "celtic": true,
      "list": false,
      "reserve": false,
