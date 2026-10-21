@@ -1,17 +1,30 @@
 {
  "prs": [
   {
+   "n": 64,
+   "title": "[odds] Price more of the Odds tab legs",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/64",
+   "owner": "odds",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-21T12:29:13Z",
+   "merged": "2026-10-21T12:30:47Z",
+   "closed": "2026-10-21T12:30:47Z",
+   "objective": "odds-coverage",
+   "outcome": "evidence"
+  },
+  {
    "n": 63,
    "title": "[ratings] Test one ratings improvement",
    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/63",
    "owner": "ratings",
    "platform": "office",
-   "status": "checking",
+   "status": "shipped",
    "opened": "2026-10-21T12:24:13Z",
-   "merged": null,
-   "closed": null,
+   "merged": "2026-10-21T12:26:19Z",
+   "closed": "2026-10-21T12:26:19Z",
    "objective": "ratings-idea",
-   "outcome": null
+   "outcome": "evidence"
   },
   {
    "n": 62,
@@ -545,23 +558,28 @@
    "closed": "2026-10-05T13:58:33Z",
    "objective": "calibration-check",
    "outcome": "evidence"
-  },
-  {
-   "n": 11,
-   "title": "[champ] Find why the Championship misses",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/11",
-   "owner": "champ",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-05T13:11:58Z",
-   "merged": "2026-10-05T13:44:51Z",
-   "closed": "2026-10-05T13:44:52Z",
-   "objective": "championship-deep-dive",
-   "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-21T13:25:13.340211+01:00",
+ "fetched": "2026-10-21T17:00:36.237054+01:00",
  "commits": [
+  {
+   "sha": "3a44d09",
+   "msg": "Archive predictions and record for 2026-10-21 [skip ci]",
+   "date": "2026-10-21T12:33:24Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3a44d0988c7f269a0ca977faf383f1678890ab5b"
+  },
+  {
+   "sha": "50916ea",
+   "msg": "Office agent (odds): Price more of the Odds tab legs (#64)",
+   "date": "2026-10-21T12:30:46Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/50916ea4c26b2e8dd447a71cbf37c6e8fa2e3450"
+  },
+  {
+   "sha": "870c6fb",
+   "msg": "Office agent (ratings): Test one ratings improvement (#63)",
+   "date": "2026-10-21T12:26:19Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/870c6fbf8a521f2b42597edec39da45944d8d909"
+  },
   {
    "sha": "af37b03",
    "msg": "Office agent (scout): Add a free data source for an uncovered league (#62)",
@@ -663,27 +681,45 @@
    "msg": "Office agent (engineer): Add tests for the least-tested module (#56)",
    "date": "2026-10-20T12:13:21Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/01a2da95f89b13e9df339ebc96f8102b2596c996"
-  },
-  {
-   "sha": "0a852b1",
-   "msg": "Office agent (odds): Log why tennis tournaments miss an Odds API key (#55)",
-   "date": "2026-10-20T12:09:46Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/0a852b1567fce2357cbc0d8b475b2a1c75f55352"
-  },
-  {
-   "sha": "b57949e",
-   "msg": "Office agent (scout): Cover Croatia, Serbia, Ukraine, Hungary, Korea or the UAE (#54)",
-   "date": "2026-10-20T12:06:35Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/b57949e164207087e2e254d81c446dfa01f808be"
-  },
-  {
-   "sha": "44904ab",
-   "msg": "Office agent (curator): Replay own-band List admission for every sport (#53)",
-   "date": "2026-10-20T12:01:45Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/44904ab4ee18b70df4aad88ee39142af496d0a2c"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T14:34:53Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39618058270"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T14:15:56Z",
+   "name": "Office merge window",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39615351132"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T12:31:01Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39600222654"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T12:29:16Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39599978539"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T12:29:16Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39599978467"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T12:29:03Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39599948830"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-21T12:24:18Z",
@@ -697,7 +733,7 @@
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39599316576"
   },
   {
-   "conclusion": "",
+   "conclusion": "success",
    "createdAt": "2026-10-21T12:24:07Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39599295422"
@@ -707,42 +743,6 @@
    "createdAt": "2026-10-21T12:18:53Z",
    "name": "Evaluation",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39598604707"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:18:53Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39598604701"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:18:43Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39598584628"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:16:06Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39598246550"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:16:06Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39598246386"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:15:58Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39598227680"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:11:51Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39597677516"
   }
  ]
 }

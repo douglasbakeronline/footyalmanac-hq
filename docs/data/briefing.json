@@ -1,21 +1,21 @@
 {
- "time": "2026-10-21T13:24:50.526508+01:00",
+ "time": "2026-10-21T17:00:28.977157+01:00",
  "date": "2026-10-21",
  "stage": "refresh",
  "pricing": {
-  "priced": 4,
-  "total": 9,
+  "priced": 2,
+  "total": 7,
   "site": true,
-  "generated": "2026-10-21T10:09:56Z"
+  "generated": "2026-10-21T12:33:19Z"
  },
  "review": {
   "dropped": [],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 107,
-  "list": 4,
-  "tomorrow": 103
+  "today": 79,
+  "list": 3,
+  "tomorrow": 104
  },
  "impactful": [
   {
@@ -132,29 +132,6 @@
   },
   {
    "sport": "tennis",
-   "event": "Mikhail Kukushkin v Stefanos Tsitsipas",
-   "comp": "Almaty Open Round 2",
-   "tour": "ATP",
-   "when": "2026-10-21T14:30:00Z",
-   "date": "2026-10-21",
-   "selection": "Stefanos Tsitsipas",
-   "opp": "Mikhail Kukushkin",
-   "p": 0.8162,
-   "modelPick": "Stefanos Tsitsipas",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.8356,
-   "hitN": 73,
-   "id": "184995",
-   "rank": [
-    39,
-    null
-   ],
-   "status": "pending",
-   "why": "82% Stefanos Tsitsipas, calls at this level won 84% (73)"
-  },
-  {
-   "sport": "tennis",
    "event": "Jan Lennard Struff v Gauthier Onclin",
    "comp": "BNP Paribas Fortis European Open Round 2",
    "tour": "ATP",
@@ -175,6 +152,39 @@
    ],
    "status": "pending",
    "why": "70% Jan Lennard Struff, calls at this level won 78% (171)"
+  },
+  {
+   "sport": "football",
+   "event": "Laktaši v Kozara Gradiška",
+   "comp": "1st League - RS",
+   "lg": "af.317",
+   "country": "Bosnia",
+   "tier": 2,
+   "when": "2026-10-21T16:30:00Z",
+   "date": "2026-10-21",
+   "selection": "Laktaši",
+   "opp": "Kozara Gradiška",
+   "side": "h",
+   "home": "Laktaši",
+   "away": "Kozara Gradiška",
+   "p": 0.6777,
+   "modelPick": "Laktaši",
+   "list": false,
+   "reserve": true,
+   "hit": 0.6793,
+   "hitN": 2254,
+   "score": [
+    1,
+    0
+   ],
+   "xg": [
+    1.85,
+    0.5
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "68% Laktaši, likely 1-0, xG 1.9 v 0.5, calls at this level won 68% (2254)"
   }
  ],
  "tomorrow": [
@@ -183,7 +193,7 @@
    "event": "Polina Kudermetova v Elena Rybakina",
    "comp": "BNB Ningbo Open Round 2",
    "tour": "WTA",
-   "when": "2026-10-22T04:00:00Z",
+   "when": "2026-10-22T11:00:00Z",
    "date": "2026-10-22",
    "selection": "Elena Rybakina",
    "opp": "Polina Kudermetova",
@@ -206,7 +216,7 @@
    "event": "Sho Shimabukuro v Daniil Medvedev",
    "comp": "Almaty Open Round 2",
    "tour": "ATP",
-   "when": "2026-10-22T04:00:00Z",
+   "when": "2026-10-22T09:30:00Z",
    "date": "2026-10-22",
    "selection": "Daniil Medvedev",
    "opp": "Sho Shimabukuro",
@@ -252,7 +262,7 @@
    "event": "Belinda Bencic v Katarzyna Kawa",
    "comp": "BNB Ningbo Open Round 2",
    "tour": "WTA",
-   "when": "2026-10-22T04:00:00Z",
+   "when": "2026-10-22T06:30:00Z",
    "date": "2026-10-22",
    "selection": "Belinda Bencic",
    "opp": "Katarzyna Kawa",
@@ -498,5 +508,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/24",
  "issue": 24,
- "text": "Good afternoon Douglas. Wednesday 21 October, 13:24 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (4 of today's 9 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Wednesday 21 October, 17:00 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (2 of today's 7 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
