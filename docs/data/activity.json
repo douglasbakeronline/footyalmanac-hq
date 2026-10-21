@@ -560,8 +560,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-21T17:00:36.237054+01:00",
+ "fetched": "2026-10-21T17:33:47.909570+01:00",
  "commits": [
+  {
+   "sha": "abbcb17",
+   "msg": "Archive predictions and record for 2026-10-21 [skip ci]",
+   "date": "2026-10-21T16:12:38Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/abbcb17daa34911dff0709425067fa0dc7383b23"
+  },
   {
    "sha": "3a44d09",
    "msg": "Archive predictions and record for 2026-10-21 [skip ci]",
@@ -675,15 +681,15 @@
    "msg": "Archive predictions and record for 2026-10-20 [skip ci]",
    "date": "2026-10-20T12:15:43Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/980081bafee410145cb107de7e3c6ad6cb86b5be"
-  },
-  {
-   "sha": "01a2da9",
-   "msg": "Office agent (engineer): Add tests for the least-tested module (#56)",
-   "date": "2026-10-20T12:13:21Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/01a2da95f89b13e9df339ebc96f8102b2596c996"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T16:09:28Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39632232710"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-21T14:34:53Z",
@@ -737,12 +743,6 @@
    "createdAt": "2026-10-21T12:24:07Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39599295422"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:18:53Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39598604707"
   }
  ]
 }
