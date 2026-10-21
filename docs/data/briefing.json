@@ -1,262 +1,23 @@
 {
- "time": "2026-10-20T17:18:36.933601+01:00",
- "date": "2026-10-20",
+ "time": "2026-10-21T13:24:50.526508+01:00",
+ "date": "2026-10-21",
  "stage": "refresh",
  "pricing": {
-  "priced": 14,
-  "total": 15,
+  "priced": 4,
+  "total": 9,
   "site": true,
-  "generated": "2026-10-20T15:54:34Z"
+  "generated": "2026-10-21T10:09:56Z"
  },
  "review": {
-  "dropped": [
-   "Banker",
-   "Banker (alternative)"
-  ],
+  "dropped": [],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 123,
-  "list": 3,
-  "tomorrow": 125
+  "today": 107,
+  "list": 4,
+  "tomorrow": 103
  },
  "impactful": [
-  {
-   "sport": "football",
-   "event": "Sabah FK v Borussia Dortmund",
-   "comp": "Champions League",
-   "lg": "eu.cl",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-10-20T16:45:00Z",
-   "date": "2026-10-20",
-   "selection": "Borussia Dortmund",
-   "opp": "Sabah FK",
-   "side": "a",
-   "home": "Sabah FK",
-   "away": "Borussia Dortmund",
-   "p": 0.8852,
-   "modelPick": "Borussia Dortmund",
-   "list": true,
-   "reserve": false,
-   "hit": 0.8397,
-   "hitN": 131,
-   "score": [
-    0,
-    3
-   ],
-   "xg": [
-    0.57,
-    3.38
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "89% Borussia Dortmund, likely 0-3, xG 0.6 v 3.4, calls at this level won 84% (131)"
-  },
-  {
-   "sport": "football",
-   "event": "AS Roma v Slovan Bratislava",
-   "comp": "Champions League",
-   "lg": "eu.cl",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-10-20T19:00:00Z",
-   "date": "2026-10-20",
-   "selection": "AS Roma",
-   "opp": "Slovan Bratislava",
-   "side": "h",
-   "home": "AS Roma",
-   "away": "Slovan Bratislava",
-   "p": 0.8775,
-   "modelPick": "AS Roma",
-   "list": true,
-   "reserve": false,
-   "hit": 0.8397,
-   "hitN": 131,
-   "score": [
-    3,
-    0
-   ],
-   "xg": [
-    3.49,
-    0.68
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "88% AS Roma, likely 3-0, xG 3.5 v 0.7, calls at this level won 84% (131)"
-  },
-  {
-   "sport": "football",
-   "event": "Huddersfield Town v Peterborough United",
-   "comp": "League One",
-   "lg": "en.3",
-   "country": "England",
-   "tier": 3,
-   "when": "2026-10-20T18:45:00Z",
-   "date": "2026-10-20",
-   "selection": "Huddersfield Town",
-   "opp": "Peterborough United",
-   "side": "h",
-   "home": "Huddersfield Town",
-   "away": "Peterborough United",
-   "p": 0.6287,
-   "modelPick": "Huddersfield Town",
-   "list": false,
-   "reserve": true,
-   "hit": 0.7052,
-   "hitN": 78,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.05,
-    0.84
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "63% Huddersfield Town, likely 2-0, xG 2.0 v 0.8, calls at this level won 71% (78)"
-  },
-  {
-   "sport": "football",
-   "event": "Liverpool v Villarreal",
-   "comp": "Champions League",
-   "lg": "eu.cl",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-10-20T19:00:00Z",
-   "date": "2026-10-20",
-   "selection": "Liverpool",
-   "opp": "Villarreal",
-   "side": "h",
-   "home": "Liverpool",
-   "away": "Villarreal",
-   "p": 0.6098,
-   "modelPick": "Liverpool",
-   "list": false,
-   "reserve": false,
-   "hit": 0.7052,
-   "hitN": 78,
-   "score": [
-    2,
-    1
-   ],
-   "xg": [
-    2.21,
-    1.05
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "61% Liverpool, likely 2-1, xG 2.2 v 1.1, calls at this level won 71% (78)"
-  },
-  {
-   "sport": "football",
-   "event": "Barnet v Swindon Town",
-   "comp": "League Two",
-   "lg": "en.4",
-   "country": "England",
-   "tier": 4,
-   "when": "2026-10-20T18:45:00Z",
-   "date": "2026-10-20",
-   "selection": "Barnet",
-   "opp": "Swindon Town",
-   "side": "h",
-   "home": "Barnet",
-   "away": "Swindon Town",
-   "p": 0.6035,
-   "modelPick": "Barnet",
-   "list": false,
-   "reserve": false,
-   "hit": 0.7052,
-   "hitN": 78,
-   "score": [
-    2,
-    1
-   ],
-   "xg": [
-    2.16,
-    1.03
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "60% Barnet, likely 2-1, xG 2.2 v 1.0, calls at this level won 71% (78)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Brandon Nakashima v Hamad Medjedovic",
-   "comp": "Grand Prix Auvergne-Rhône-Alpes Round 1",
-   "tour": "ATP",
-   "when": "2026-10-20T18:30:00Z",
-   "date": "2026-10-20",
-   "selection": "Brandon Nakashima",
-   "opp": "Hamad Medjedovic",
-   "p": 0.6967,
-   "modelPick": "Brandon Nakashima",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.6985,
-   "hitN": 199,
-   "id": "185091",
-   "rank": [
-    17,
-    76
-   ],
-   "status": "pending",
-   "why": "70% Brandon Nakashima, ranked 17 v 76, calls at this level won 70% (199)"
-  }
- ],
- "tomorrow": [
-  {
-   "sport": "tennis",
-   "event": "Jaume Munar v Arthur Fils",
-   "comp": "BNP Paribas Fortis European Open Round 2",
-   "tour": "ATP",
-   "when": "2026-10-21T04:00:00Z",
-   "date": "2026-10-21",
-   "selection": "Arthur Fils",
-   "opp": "Jaume Munar",
-   "p": 0.7297,
-   "modelPick": "Arthur Fils",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.7778,
-   "hitN": 171,
-   "id": "185056",
-   "rank": [
-    10,
-    51
-   ],
-   "status": "pending",
-   "why": "73% Arthur Fils, ranked 10 v 51, calls at this level won 78% (171)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Marta Kostyuk v Ekaterina Alexandrova",
-   "comp": "BNB Ningbo Open Round 2",
-   "tour": "WTA",
-   "when": "2026-10-21T11:00:00Z",
-   "date": "2026-10-21",
-   "selection": "Marta Kostyuk",
-   "opp": "Ekaterina Alexandrova",
-   "p": 0.6668,
-   "modelPick": "Marta Kostyuk",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.7603,
-   "hitN": 171,
-   "id": "185529",
-   "rank": [
-    10,
-    33
-   ],
-   "status": "pending",
-   "why": "67% Marta Kostyuk, ranked 10 v 33, calls at this level won 76% (171)"
-  },
   {
    "sport": "football",
    "event": "Internazionale v Shakhtar Donetsk",
@@ -271,7 +32,7 @@
    "side": "h",
    "home": "Internazionale",
    "away": "Shakhtar Donetsk",
-   "p": 0.7724,
+   "p": 0.7834,
    "modelPick": "Internazionale",
    "list": false,
    "reserve": true,
@@ -282,13 +43,13 @@
     0
    ],
    "xg": [
-    2.95,
-    0.9
+    3.0,
+    0.88
    ],
    "rankH": null,
    "rankA": null,
    "status": "pending",
-   "why": "77% Internazionale, likely 2-0, xG 3.0 v 0.9, calls at this level won 73% (111)"
+   "why": "78% Internazionale, likely 2-0, xG 3.0 v 0.9, calls at this level won 73% (111)"
   },
   {
    "sport": "tennis",
@@ -345,6 +106,202 @@
    "rankA": null,
    "status": "pending",
    "why": "70% Sporting CP, likely 2-0, xG 2.6 v 1.0, calls at this level won 72% (39)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Tommy Paul v Benjamin Bonzi",
+   "comp": "Grand Prix Auvergne-Rhône-Alpes Round 2",
+   "tour": "ATP",
+   "when": "2026-10-21T18:30:00Z",
+   "date": "2026-10-21",
+   "selection": "Tommy Paul",
+   "opp": "Benjamin Bonzi",
+   "p": 0.6952,
+   "modelPick": "Tommy Paul",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.6985,
+   "hitN": 199,
+   "id": "185101",
+   "rank": [
+    15,
+    100
+   ],
+   "status": "pending",
+   "why": "70% Tommy Paul, ranked 15 v 100, calls at this level won 70% (199)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Mikhail Kukushkin v Stefanos Tsitsipas",
+   "comp": "Almaty Open Round 2",
+   "tour": "ATP",
+   "when": "2026-10-21T14:30:00Z",
+   "date": "2026-10-21",
+   "selection": "Stefanos Tsitsipas",
+   "opp": "Mikhail Kukushkin",
+   "p": 0.8162,
+   "modelPick": "Stefanos Tsitsipas",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.8356,
+   "hitN": 73,
+   "id": "184995",
+   "rank": [
+    39,
+    null
+   ],
+   "status": "pending",
+   "why": "82% Stefanos Tsitsipas, calls at this level won 84% (73)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Jan Lennard Struff v Gauthier Onclin",
+   "comp": "BNP Paribas Fortis European Open Round 2",
+   "tour": "ATP",
+   "when": "2026-10-21T17:30:00Z",
+   "date": "2026-10-21",
+   "selection": "Jan Lennard Struff",
+   "opp": "Gauthier Onclin",
+   "p": 0.7001,
+   "modelPick": "Jan Lennard Struff",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.7778,
+   "hitN": 171,
+   "id": "185060",
+   "rank": [
+    58,
+    null
+   ],
+   "status": "pending",
+   "why": "70% Jan Lennard Struff, calls at this level won 78% (171)"
+  }
+ ],
+ "tomorrow": [
+  {
+   "sport": "tennis",
+   "event": "Polina Kudermetova v Elena Rybakina",
+   "comp": "BNB Ningbo Open Round 2",
+   "tour": "WTA",
+   "when": "2026-10-22T04:00:00Z",
+   "date": "2026-10-22",
+   "selection": "Elena Rybakina",
+   "opp": "Polina Kudermetova",
+   "p": 0.8792,
+   "modelPick": "Elena Rybakina",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.9464,
+   "hitN": 56,
+   "id": "185535",
+   "rank": [
+    1,
+    105
+   ],
+   "status": "pending",
+   "why": "88% Elena Rybakina, ranked 1 v 105, calls at this level won 95% (56)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Sho Shimabukuro v Daniil Medvedev",
+   "comp": "Almaty Open Round 2",
+   "tour": "ATP",
+   "when": "2026-10-22T04:00:00Z",
+   "date": "2026-10-22",
+   "selection": "Daniil Medvedev",
+   "opp": "Sho Shimabukuro",
+   "p": 0.833,
+   "modelPick": "Daniil Medvedev",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.8356,
+   "hitN": 73,
+   "id": "185014",
+   "rank": [
+    5,
+    109
+   ],
+   "status": "pending",
+   "why": "83% Daniil Medvedev, ranked 5 v 109, calls at this level won 84% (73)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Taylor Fritz v Pierre Hugues Herbert",
+   "comp": "Grand Prix Auvergne-Rhône-Alpes Round 2",
+   "tour": "ATP",
+   "when": "2026-10-22T04:00:00Z",
+   "date": "2026-10-22",
+   "selection": "Taylor Fritz",
+   "opp": "Pierre Hugues Herbert",
+   "p": 0.8501,
+   "modelPick": "Taylor Fritz",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.9483,
+   "hitN": 58,
+   "id": "185106",
+   "rank": [
+    14,
+    null
+   ],
+   "status": "pending",
+   "why": "85% Taylor Fritz, calls at this level won 95% (58)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Belinda Bencic v Katarzyna Kawa",
+   "comp": "BNB Ningbo Open Round 2",
+   "tour": "WTA",
+   "when": "2026-10-22T04:00:00Z",
+   "date": "2026-10-22",
+   "selection": "Belinda Bencic",
+   "opp": "Katarzyna Kawa",
+   "p": 0.8206,
+   "modelPick": "Belinda Bencic",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.8816,
+   "hitN": 76,
+   "id": "185536",
+   "rank": [
+    14,
+    128
+   ],
+   "status": "pending",
+   "why": "82% Belinda Bencic, ranked 14 v 128, calls at this level won 88% (76)"
+  },
+  {
+   "sport": "football",
+   "event": "Jablonec v Brighton & Hove Albion",
+   "comp": "Conference League",
+   "lg": "eu.ec",
+   "country": "Europe",
+   "tier": 1,
+   "when": "2026-10-22T16:45:00Z",
+   "date": "2026-10-22",
+   "selection": "Brighton & Hove Albion",
+   "opp": "Jablonec",
+   "side": "a",
+   "home": "Jablonec",
+   "away": "Brighton & Hove Albion",
+   "p": 0.6811,
+   "modelPick": "Brighton & Hove Albion",
+   "list": false,
+   "reserve": true,
+   "hit": 0.8148,
+   "hitN": 54,
+   "score": [
+    0,
+    2
+   ],
+   "xg": [
+    0.77,
+    2.22
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "68% Brighton & Hove Albion, likely 0-2, xG 0.8 v 2.2, calls at this level won 81% (54)"
   }
  ],
  "groups": [],
@@ -539,7 +496,7 @@
    "legsWon": 4
   }
  },
- "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/21",
- "issue": 21,
- "text": "Good afternoon Douglas. Tuesday 20 October, 17:18 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (14 of today's 15 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Banker, Banker (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/24",
+ "issue": 24,
+ "text": "Good afternoon Douglas. Wednesday 21 October, 13:24 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (4 of today's 9 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
