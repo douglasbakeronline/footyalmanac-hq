@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-21T16:54:31",
- "fetched": "2026-10-21T18:55:09.945074+01:00",
+ "generated": "2026-10-21T18:31:19",
+ "fetched": "2026-10-21T20:45:30.787151+01:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-21",
-   "count": 69,
+   "count": 60,
    "games": [
     {
      "t": "13:30",
@@ -150,11 +150,11 @@
      "res": "Stefanos Tsitsipas won"
     },
     {
-     "t": "19:00",
+     "t": "20:00",
      "ko": "2026-10-21T19:00:00Z",
      "lg": "eu.cl",
-     "lgName": "Champions League",
-     "country": "Europe",
+     "lgName": "Europe Champions League",
+     "sport": "football",
      "h": "Internazionale",
      "a": "Shakhtar Donetsk",
      "side": "h",
@@ -165,18 +165,14 @@
       "d": 0.1363,
       "a": 0.0803
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5472,
-     "o25": 0.6093,
-     "hit": 0.7298,
-     "hitN": 111,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:00",
@@ -219,6 +215,31 @@
      "status": "won",
      "score": null,
      "res": "Marie Bouzkova won"
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-10-21T19:00:00Z",
+     "lg": "eu.cl",
+     "lgName": "Europe Champions League",
+     "sport": "football",
+     "h": "Aston Villa",
+     "a": "VIKING FK",
+     "side": "h",
+     "pick": "Aston Villa",
+     "c": 0.7381,
+     "p": {
+      "h": 0.7381,
+      "d": 0.1574,
+      "a": 0.1045
+     },
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "05:00",
@@ -284,11 +305,11 @@
      "res": "100-106"
     },
     {
-     "t": "19:00",
+     "t": "20:00",
      "ko": "2026-10-21T19:00:00Z",
      "lg": "eu.cl",
-     "lgName": "Champions League",
-     "country": "Europe",
+     "lgName": "Europe Champions League",
+     "sport": "football",
      "h": "Sporting CP",
      "a": "LASK Linz",
      "side": "h",
@@ -299,22 +320,18 @@
       "d": 0.1755,
       "a": 0.1231
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.557,
-     "o25": 0.5906,
-     "hit": 0.718,
-     "hitN": 39,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "18:30",
-     "ko": "2026-10-21T17:30:00Z",
+     "t": "19:35",
+     "ko": "2026-10-21T18:35:00Z",
      "lg": "ATP",
      "lgName": "ATP \u00b7 BNP Paribas Fortis European Open \u00b7 Round 2",
      "sport": "tennis",
@@ -355,19 +372,25 @@
      "res": "Marie Bouzkova won"
     },
     {
-     "t": "18:30",
+     "t": "19:50",
+     "ko": "2026-10-21T18:50:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes \u00b7 Round 2",
      "sport": "tennis",
      "h": "Tommy Paul",
      "a": "Benjamin Bonzi",
      "side": "h",
      "pick": "Tommy Paul",
      "c": 0.6952,
+     "p": null,
      "hit": 0.6985,
      "hitN": 199,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:30",
@@ -650,6 +673,35 @@
      "unrated": false
     },
     {
+     "t": "16:30",
+     "ko": "2026-10-21T16:30:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "Las Palmas III",
+     "a": "Laguna de Duero",
+     "side": "h",
+     "pick": "Las Palmas III",
+     "c": 0.5989,
+     "p": {
+      "h": 0.5989,
+      "d": 0.2293,
+      "a": 0.1719
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5368,
+     "o25": 0.5392,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "23:30",
      "ko": "2026-10-21T23:30:00Z",
      "lg": "us.2",
@@ -673,35 +725,6 @@
      "o25": 0.6048,
      "hit": 0.5352,
      "hitN": 99,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:30",
-     "ko": "2026-10-21T16:30:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Las Palmas III",
-     "a": "Laguna de Duero",
-     "side": "h",
-     "pick": "Las Palmas III",
-     "c": 0.5958,
-     "p": {
-      "h": 0.5958,
-      "d": 0.2315,
-      "a": 0.1728
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5348,
-     "o25": 0.5362,
-     "hit": 0.5868,
-     "hitN": 4716,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -760,93 +783,6 @@
      "o25": 0.5418,
      "hit": 0.5868,
      "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-10-21T19:00:00Z",
-     "lg": "eu.cl",
-     "lgName": "Champions League",
-     "country": "Europe",
-     "h": "Aston Villa",
-     "a": "Viking FK",
-     "side": "h",
-     "pick": "Aston Villa",
-     "c": 0.5751,
-     "p": {
-      "h": 0.5751,
-      "d": 0.2314,
-      "a": 0.1936
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5516,
-     "o25": 0.5504,
-     "hit": 0.5352,
-     "hitN": 99,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-21T17:00:00Z",
-     "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
-     "h": "Jerez",
-     "a": "Plasencia",
-     "side": "h",
-     "pick": "Jerez",
-     "c": 0.5617,
-     "p": {
-      "h": 0.5617,
-      "d": 0.2378,
-      "a": 0.2005
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5483,
-     "o25": 0.5435,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:30",
-     "ko": "2026-10-21T15:30:00Z",
-     "lg": "afc.1249",
-     "lgName": "Pro Cup",
-     "country": "Bulgaria",
-     "h": "Cherno More Varna",
-     "a": "Lokomotiv Plovdiv",
-     "side": "h",
-     "pick": "Cherno More Varna",
-     "c": 0.5586,
-     "p": {
-      "h": 0.5217,
-      "d": 0.2938,
-      "a": 0.1845
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.472,
-     "o25": 0.4567,
-     "hit": null,
-     "hitN": null,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -940,6 +876,35 @@
      "unrated": false
     },
     {
+     "t": "17:00",
+     "ko": "2026-10-21T17:00:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "UD San Fernando",
+     "a": "Real Uni\u00f3n de Tenerife",
+     "side": "h",
+     "pick": "UD San Fernando",
+     "c": 0.5421,
+     "p": {
+      "h": 0.5421,
+      "d": 0.2951,
+      "a": 0.1628
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4608,
+     "o25": 0.4409,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:00",
      "ko": "2026-10-21T19:00:00Z",
      "lg": "en.3",
@@ -969,35 +934,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-10-21T17:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "UD San Fernando",
-     "a": "Real Uni\u00f3n de Tenerife",
-     "side": "h",
-     "pick": "UD San Fernando",
-     "c": 0.5393,
-     "p": {
-      "h": 0.5393,
-      "d": 0.2973,
-      "a": 0.1634
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4594,
-     "o25": 0.4388,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:45",
      "ko": "2026-10-21T18:45:00Z",
      "lg": "en.7n",
@@ -1021,35 +957,6 @@
      "o25": 0.515,
      "hit": 0.4811,
      "hitN": 266,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-21T15:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "San Bartolom\u00e9",
-     "a": "Playas Sotavento",
-     "side": "h",
-     "pick": "San Bartolom\u00e9",
-     "c": 0.5287,
-     "p": {
-      "h": 0.5287,
-      "d": 0.255,
-      "a": 0.2163
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5369,
-     "o25": 0.523,
-     "hit": 0.5376,
-     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1114,64 +1021,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-10-21T16:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Tenerife C",
-     "a": "Villa Santa Br\u00edgida",
-     "side": "h",
-     "pick": "Tenerife C",
-     "c": 0.5044,
-     "p": {
-      "h": 0.5044,
-      "d": 0.265,
-      "a": 0.2307
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5326,
-     "o25": 0.5131,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-21T16:00:00Z",
-     "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
-     "h": "Llerenense",
-     "a": "Santa Amalia",
-     "side": "h",
-     "pick": "Llerenense",
-     "c": 0.5001,
-     "p": {
-      "h": 0.5001,
-      "d": 0.3046,
-      "a": 0.1952
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4717,
-     "o25": 0.4431,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:00",
      "ko": "2026-10-21T12:00:00Z",
      "lg": "af.317",
@@ -1193,35 +1042,6 @@
      ],
      "btts": 0.5236,
      "o25": 0.4976,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-21T16:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "San Miguel",
-     "a": "Estrella",
-     "side": "h",
-     "pick": "San Miguel",
-     "c": 0.4631,
-     "p": {
-      "h": 0.4631,
-      "d": 0.2911,
-      "a": 0.2457
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5086,
-     "o25": 0.4777,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -1259,35 +1079,6 @@
      "unrated": false
     },
     {
-     "t": "18:00",
-     "ko": "2026-10-21T18:00:00Z",
-     "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
-     "h": "Villafranca",
-     "a": "CD Zafra",
-     "side": "h",
-     "pick": "Villafranca",
-     "c": 0.4463,
-     "p": {
-      "h": 0.4463,
-      "d": 0.2834,
-      "a": 0.2703
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5266,
-     "o25": 0.4967,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:30",
      "ko": "2026-10-21T16:30:00Z",
      "lg": "af.450",
@@ -1297,18 +1088,47 @@
      "a": "Mensajero",
      "side": "h",
      "pick": "Panader\u00eda Pulido",
-     "c": 0.4461,
+     "c": 0.4479,
      "p": {
-      "h": 0.4461,
-      "d": 0.2758,
-      "a": 0.2781
+      "h": 0.4479,
+      "d": 0.2739,
+      "a": 0.2782
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5387,
-     "o25": 0.5114,
+     "btts": 0.5412,
+     "o25": 0.5146,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-10-21T18:00:00Z",
+     "lg": "af.452",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
+     "country": "Spain",
+     "h": "Villafranca",
+     "a": "CD Zafra",
+     "side": "h",
+     "pick": "Villafranca",
+     "c": 0.4461,
+     "p": {
+      "h": 0.4461,
+      "d": 0.2836,
+      "a": 0.2702
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5263,
+     "o25": 0.4963,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1341,64 +1161,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-21T15:00:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al Anwar",
-     "a": "Al Wehda Club",
-     "side": "h",
-     "pick": "Al Anwar",
-     "c": 0.4322,
-     "p": {
-      "h": 0.4322,
-      "d": 0.2567,
-      "a": 0.3111
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5738,
-     "o25": 0.5539,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-21T16:00:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Terrassa",
-     "a": "Girona II",
-     "side": "h",
-     "pick": "Terrassa",
-     "c": 0.4303,
-     "p": {
-      "h": 0.4303,
-      "d": 0.2829,
-      "a": 0.2869
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5323,
-     "o25": 0.5016,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -1529,18 +1291,18 @@
      "a": "Al Jabalain",
      "side": "a",
      "pick": "Al Jabalain",
-     "c": 0.4093,
+     "c": 0.4095,
      "p": {
       "h": 0.2891,
-      "d": 0.3016,
-      "a": 0.4093
+      "d": 0.3014,
+      "a": 0.4095
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5098,
-     "o25": 0.4723,
+     "btts": 0.51,
+     "o25": 0.4726,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1578,35 +1340,6 @@
      "unrated": false
     },
     {
-     "t": "18:00",
-     "ko": "2026-10-21T18:00:00Z",
-     "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
-     "h": "Quintana",
-     "a": "Castuera",
-     "side": "a",
-     "pick": "Castuera",
-     "c": 0.4021,
-     "p": {
-      "h": 0.2929,
-      "d": 0.3049,
-      "a": 0.4021
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5067,
-     "o25": 0.468,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:00",
      "ko": "2026-10-21T17:00:00Z",
      "lg": "af.450",
@@ -1616,18 +1349,47 @@
      "a": "Marino",
      "side": "h",
      "pick": "Los Llanos",
-     "c": 0.401,
+     "c": 0.4019,
      "p": {
-      "h": 0.401,
-      "d": 0.2927,
-      "a": 0.3063
+      "h": 0.4019,
+      "d": 0.2911,
+      "a": 0.3069
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5243,
-     "o25": 0.4891,
+     "btts": 0.5264,
+     "o25": 0.4917,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-10-21T18:00:00Z",
+     "lg": "af.452",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
+     "country": "Spain",
+     "h": "Quintana",
+     "a": "Castuera",
+     "side": "a",
+     "pick": "Castuera",
+     "c": 0.4018,
+     "p": {
+      "h": 0.2931,
+      "d": 0.3052,
+      "a": 0.4018
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5065,
+     "o25": 0.4677,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1723,35 +1485,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-10-21T15:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Villaverde Norte",
-     "a": "Uni\u00f3n Sur Yaiza",
-     "side": "h",
-     "pick": "Villaverde Norte",
-     "c": 0.3836,
-     "p": {
-      "h": 0.3836,
-      "d": 0.3105,
-      "a": 0.306
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5024,
-     "o25": 0.4615,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "23:15",
      "ko": "2026-10-21T23:15:00Z",
      "lg": "co.1",
@@ -1790,18 +1523,18 @@
      "a": "Lanzarote",
      "side": "h",
      "pick": "Anaza",
-     "c": 0.3748,
+     "c": 0.3756,
      "p": {
-      "h": 0.3748,
-      "d": 0.3135,
-      "a": 0.3117
+      "h": 0.3756,
+      "d": 0.312,
+      "a": 0.3123
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.4996,
-     "o25": 0.4576,
+     "btts": 0.5014,
+     "o25": 0.4598,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1853,14 +1586,14 @@
      "won": 8,
      "lost": 6,
      "void": 1,
-     "started": 2,
-     "upcoming": 6
+     "started": 3,
+     "upcoming": 5
     }
    }
   },
   {
    "date": "2026-10-22",
-   "count": 92,
+   "count": 93,
    "games": [
     {
      "t": "11:00",
@@ -1950,6 +1683,21 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "13:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 BNP Paribas Fortis European Open",
+     "sport": "tennis",
+     "h": "Alex Michelsen",
+     "a": "David Goffin",
+     "side": "h",
+     "pick": "Alex Michelsen",
+     "c": 0.7641,
+     "hit": 0.7768,
+     "hitN": 112,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "13:00",
@@ -4584,21 +4332,6 @@
      "unrated": false
     },
     {
-     "t": "04:00",
-     "lg": "ATP",
-     "lgName": "ATP \u00b7 BNP Paribas Fortis European Open",
-     "sport": "tennis",
-     "h": "Francisco Cerundolo",
-     "a": "Clement Chidekh",
-     "side": "h",
-     "pick": "Francisco Cerundolo",
-     "c": 0.7757,
-     "hit": 0.7768,
-     "hitN": 112,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "16:50",
      "ko": "2026-10-23T16:50:00Z",
      "lg": "af.330",
@@ -4684,6 +4417,21 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 BNP Paribas Fortis European Open",
+     "sport": "tennis",
+     "h": "Francisco Cerundolo",
+     "a": "Clement Chidekh",
+     "side": "h",
+     "pick": "Francisco Cerundolo",
+     "c": 0.7605,
+     "hit": 0.7768,
+     "hitN": 112,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "12:50",
@@ -4905,6 +4653,21 @@
      "unrated": false
     },
     {
+     "t": "04:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Almaty Open",
+     "sport": "tennis",
+     "h": "James Duckworth",
+     "a": "Stefanos Tsitsipas",
+     "side": "a",
+     "pick": "Stefanos Tsitsipas",
+     "c": 0.7347,
+     "hit": 0.7778,
+     "hitN": 171,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "11:00",
      "ko": "2026-10-23T11:00:00Z",
      "lg": "af.395",
@@ -4932,21 +4695,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "04:00",
-     "lg": "ATP",
-     "lgName": "ATP \u00b7 Almaty Open",
-     "sport": "tennis",
-     "h": "James Duckworth",
-     "a": "Stefanos Tsitsipas",
-     "side": "a",
-     "pick": "Stefanos Tsitsipas",
-     "c": 0.7318,
-     "hit": 0.7778,
-     "hitN": 171,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "17:00",
@@ -16531,6 +16279,35 @@
      "unrated": false
     },
     {
+     "t": "14:30",
+     "ko": "2026-10-24T14:30:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "San Miguel",
+     "a": "Villaverde Norte",
+     "side": "h",
+     "pick": "San Miguel",
+     "c": 0.5567,
+     "p": {
+      "h": 0.5567,
+      "d": 0.2666,
+      "a": 0.1767
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4973,
+     "o25": 0.4838,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-10-24T13:00:00Z",
      "lg": "af.946",
@@ -18126,35 +17903,6 @@
      "unrated": false
     },
     {
-     "t": "11:00",
-     "ko": "2026-10-24T11:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Playas Sotavento",
-     "a": "Panader\u00eda Pulido",
-     "side": "a",
-     "pick": "Panader\u00eda Pulido",
-     "c": 0.5211,
-     "p": {
-      "h": 0.2353,
-      "d": 0.2435,
-      "a": 0.5211
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5624,
-     "o25": 0.552,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:30",
      "ko": "2026-10-24T18:30:00Z",
      "lg": "af.879",
@@ -18207,6 +17955,35 @@
      "o25": 0.514,
      "hit": 0.4896,
      "hitN": 194,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "11:00",
+     "ko": "2026-10-24T11:00:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "Playas Sotavento",
+     "a": "Panader\u00eda Pulido",
+     "side": "a",
+     "pick": "Panader\u00eda Pulido",
+     "c": 0.5205,
+     "p": {
+      "h": 0.2358,
+      "d": 0.2437,
+      "a": 0.5205
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5625,
+     "o25": 0.5519,
+     "hit": 0.5376,
+     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -18468,35 +18245,6 @@
      "o25": 0.4994,
      "hit": 0.4896,
      "hitN": 194,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "14:30",
-     "ko": "2026-10-24T14:30:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "San Miguel",
-     "a": "Villaverde Norte",
-     "side": "h",
-     "pick": "San Miguel",
-     "c": 0.5152,
-     "p": {
-      "h": 0.5152,
-      "d": 0.2771,
-      "a": 0.2077
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.506,
-     "o25": 0.4842,
-     "hit": 0.5376,
-     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -21432,6 +21180,35 @@
      "unrated": false
     },
     {
+     "t": "16:00",
+     "ko": "2026-10-24T16:00:00Z",
+     "lg": "af.876",
+     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
+     "country": "Spain",
+     "h": "Tudelano",
+     "a": "Barbastro",
+     "side": "h",
+     "pick": "Tudelano",
+     "c": 0.4758,
+     "p": {
+      "h": 0.4758,
+      "d": 0.285,
+      "a": 0.2391
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5128,
+     "o25": 0.4847,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "21:15",
      "ko": "2026-10-24T21:15:00Z",
      "lg": "bo.1",
@@ -21455,35 +21232,6 @@
      "o25": 0.4462,
      "hit": 0.4634,
      "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-24T16:00:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Tudelano",
-     "a": "Barbastro",
-     "side": "h",
-     "pick": "Tudelano",
-     "c": 0.4749,
-     "p": {
-      "h": 0.4749,
-      "d": 0.2861,
-      "a": 0.239
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5115,
-     "o25": 0.483,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -22186,6 +21934,35 @@
      "unrated": false
     },
     {
+     "t": "15:00",
+     "ko": "2026-10-24T15:00:00Z",
+     "lg": "af.876",
+     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
+     "country": "Spain",
+     "h": "Manresa",
+     "a": "Ebro",
+     "side": "h",
+     "pick": "Manresa",
+     "c": 0.4651,
+     "p": {
+      "h": 0.4651,
+      "d": 0.2966,
+      "a": 0.2383
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4996,
+     "o25": 0.4677,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "11:00",
      "ko": "2026-10-24T11:00:00Z",
      "lg": "af.114",
@@ -22273,6 +22050,35 @@
      "unrated": false
     },
     {
+     "t": "16:00",
+     "ko": "2026-10-24T16:00:00Z",
+     "lg": "af.876",
+     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
+     "country": "Spain",
+     "h": "Pe\u00f1a Sport",
+     "a": "Reddis",
+     "side": "h",
+     "pick": "Pe\u00f1a Sport",
+     "c": 0.4646,
+     "p": {
+      "h": 0.4646,
+      "d": 0.2709,
+      "a": 0.2645
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5402,
+     "o25": 0.5157,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "07:30",
      "ko": "2026-10-24T07:30:00Z",
      "lg": "cn.1",
@@ -22307,51 +22113,22 @@
      "lg": "af.876",
      "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
      "country": "Spain",
-     "h": "Manresa",
-     "a": "Ebro",
+     "h": "Arnedo",
+     "a": "Calamocha",
      "side": "h",
-     "pick": "Manresa",
-     "c": 0.4642,
-     "p": {
-      "h": 0.4642,
-      "d": 0.2976,
-      "a": 0.2382
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4985,
-     "o25": 0.4663,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-24T16:00:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Pe\u00f1a Sport",
-     "a": "Reddis",
-     "side": "h",
-     "pick": "Pe\u00f1a Sport",
+     "pick": "Arnedo",
      "c": 0.4638,
      "p": {
       "h": 0.4638,
-      "d": 0.2719,
-      "a": 0.2643
+      "d": 0.2685,
+      "a": 0.2677
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5389,
-     "o25": 0.514,
+     "btts": 0.5445,
+     "o25": 0.5208,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
@@ -22471,35 +22248,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-24T15:00:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Arnedo",
-     "a": "Calamocha",
-     "side": "h",
-     "pick": "Arnedo",
-     "c": 0.4628,
-     "p": {
-      "h": 0.4628,
-      "d": 0.2696,
-      "a": 0.2675
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.543,
-     "o25": 0.5189,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -22903,6 +22651,35 @@
      ],
      "btts": 0.4819,
      "o25": 0.447,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "11:00",
+     "ko": "2026-10-24T11:00:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "Uni\u00f3n Sur Yaiza",
+     "a": "Laguna de Duero",
+     "side": "h",
+     "pick": "Uni\u00f3n Sur Yaiza",
+     "c": 0.4597,
+     "p": {
+      "h": 0.4597,
+      "d": 0.2946,
+      "a": 0.2456
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5047,
+     "o25": 0.4726,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -23897,35 +23674,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-10-24T16:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Anaza",
-     "a": "San Bartolom\u00e9",
-     "side": "h",
-     "pick": "Anaza",
-     "c": 0.4495,
-     "p": {
-      "h": 0.4495,
-      "d": 0.2818,
-      "a": 0.2686
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.528,
-     "o25": 0.4988,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "10:30",
      "ko": "2026-10-24T10:30:00Z",
      "lg": "af.204",
@@ -24092,6 +23840,35 @@
      ],
      "btts": 0.5412,
      "o25": 0.5144,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:00",
+     "ko": "2026-10-24T16:00:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "Anaza",
+     "a": "San Bartolom\u00e9",
+     "side": "h",
+     "pick": "Anaza",
+     "c": 0.446,
+     "p": {
+      "h": 0.446,
+      "d": 0.2839,
+      "a": 0.2701
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5259,
+     "o25": 0.4958,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -24332,27 +24109,27 @@
      "unrated": false
     },
     {
-     "t": "11:00",
-     "ko": "2026-10-24T11:00:00Z",
+     "t": "15:00",
+     "ko": "2026-10-24T15:00:00Z",
      "lg": "af.450",
      "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
      "country": "Spain",
-     "h": "Uni\u00f3n Sur Yaiza",
-     "a": "Laguna de Duero",
+     "h": "Tenerife C",
+     "a": "Las Palmas III",
      "side": "h",
-     "pick": "Uni\u00f3n Sur Yaiza",
+     "pick": "Tenerife C",
      "c": 0.4436,
      "p": {
       "h": 0.4436,
-      "d": 0.2966,
-      "a": 0.2598
+      "d": 0.251,
+      "a": 0.3054
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5075,
-     "o25": 0.4736,
+     "btts": 0.5804,
+     "o25": 0.5633,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -25690,35 +25467,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-24T15:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Tenerife C",
-     "a": "Las Palmas III",
-     "side": "h",
-     "pick": "Tenerife C",
-     "c": 0.4306,
-     "p": {
-      "h": 0.4306,
-      "d": 0.254,
-      "a": 0.3154
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5786,
-     "o25": 0.5599,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -31901,6 +31649,35 @@
      "unrated": false
     },
     {
+     "t": "15:00",
+     "ko": "2026-10-24T15:00:00Z",
+     "lg": "af.876",
+     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
+     "country": "Spain",
+     "h": "Utebo",
+     "a": "UD Logro\u00f1\u00e9s II",
+     "side": "h",
+     "pick": "Utebo",
+     "c": 0.3745,
+     "p": {
+      "h": 0.3745,
+      "d": 0.284,
+      "a": 0.3414
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5404,
+     "o25": 0.5078,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:45",
      "ko": "2026-10-24T17:45:00Z",
      "lg": "ar.1",
@@ -31959,6 +31736,35 @@
      "unrated": false
     },
     {
+     "t": "10:00",
+     "ko": "2026-10-24T10:00:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "Estrella",
+     "a": "Real Uni\u00f3n de Tenerife",
+     "side": "a",
+     "pick": "Real Uni\u00f3n de Tenerife",
+     "c": 0.374,
+     "p": {
+      "h": 0.3009,
+      "d": 0.3251,
+      "a": 0.374
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4852,
+     "o25": 0.4409,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "14:00",
      "ko": "2026-10-24T14:00:00Z",
      "lg": "in.1",
@@ -31980,35 +31786,6 @@
      ],
      "btts": 0.5587,
      "o25": 0.5313,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-24T15:00:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Utebo",
-     "a": "UD Logro\u00f1\u00e9s II",
-     "side": "h",
-     "pick": "Utebo",
-     "c": 0.3735,
-     "p": {
-      "h": 0.3735,
-      "d": 0.2849,
-      "a": 0.3416
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5392,
-     "o25": 0.5062,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -33322,35 +33099,6 @@
      "unrated": false
     },
     {
-     "t": "11:00",
-     "ko": "2026-10-24T11:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Villa Santa Br\u00edgida",
-     "a": "Los Llanos",
-     "side": "h",
-     "pick": "Villa Santa Br\u00edgida",
-     "c": 0.362,
-     "p": {
-      "h": 0.362,
-      "d": 0.3228,
-      "a": 0.3152
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4892,
-     "o25": 0.445,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-24T15:00:00Z",
      "lg": "af.444",
@@ -33699,6 +33447,35 @@
      "unrated": false
     },
     {
+     "t": "11:00",
+     "ko": "2026-10-24T11:00:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "Villa Santa Br\u00edgida",
+     "a": "Los Llanos",
+     "side": "h",
+     "pick": "Villa Santa Br\u00edgida",
+     "c": 0.3531,
+     "p": {
+      "h": 0.3531,
+      "d": 0.3212,
+      "a": 0.3257
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4917,
+     "o25": 0.4477,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-10-24T12:00:00Z",
      "lg": "af.287",
@@ -33720,35 +33497,6 @@
      ],
      "btts": 0.5055,
      "o25": 0.464,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "10:00",
-     "ko": "2026-10-24T10:00:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Estrella",
-     "a": "Real Uni\u00f3n de Tenerife",
-     "side": "a",
-     "pick": "Real Uni\u00f3n de Tenerife",
-     "c": 0.3496,
-     "p": {
-      "h": 0.3228,
-      "d": 0.3276,
-      "a": 0.3496
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4842,
-     "o25": 0.4389,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -36264,35 +36012,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-10-25T15:00:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Girona II",
-     "a": "N\u00e1xara",
-     "side": "h",
-     "pick": "Girona II",
-     "c": 0.6157,
-     "p": {
-      "h": 0.6157,
-      "d": 0.2223,
-      "a": 0.162
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5368,
-     "o25": 0.5437,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "09:00",
      "ko": "2026-10-25T09:00:00Z",
      "lg": "af.588",
@@ -36418,18 +36137,18 @@
      "a": "Guadiana",
      "side": "h",
      "pick": "Jara\u00edz",
-     "c": 0.6107,
+     "c": 0.6102,
      "p": {
-      "h": 0.6107,
-      "d": 0.2341,
-      "a": 0.1552
+      "h": 0.6102,
+      "d": 0.2345,
+      "a": 0.1553
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.5158,
-     "o25": 0.5188,
+     "btts": 0.5155,
+     "o25": 0.5183,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -36926,6 +36645,35 @@
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-10-25T15:00:00Z",
+     "lg": "af.876",
+     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
+     "country": "Spain",
+     "h": "Girona II",
+     "a": "N\u00e1xara",
+     "side": "h",
+     "pick": "Girona II",
+     "c": 0.5921,
+     "p": {
+      "h": 0.5921,
+      "d": 0.2339,
+      "a": 0.174
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5328,
+     "o25": 0.533,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -38013,18 +37761,18 @@
      "a": "Atl\u00e9tico Pueblonuevo",
      "side": "h",
      "pick": "Quintana",
-     "c": 0.5527,
+     "c": 0.5524,
      "p": {
-      "h": 0.5527,
-      "d": 0.2638,
+      "h": 0.5524,
+      "d": 0.2641,
       "a": 0.1835
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.5052,
-     "o25": 0.4917,
+     "btts": 0.5049,
+     "o25": 0.4913,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -40159,18 +39907,18 @@
      "a": "Jerez",
      "side": "h",
      "pick": "Villanovense",
-     "c": 0.5041,
+     "c": 0.5038,
      "p": {
-      "h": 0.5041,
-      "d": 0.2691,
-      "a": 0.2268
+      "h": 0.5038,
+      "d": 0.2694,
+      "a": 0.2269
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5255,
-     "o25": 0.5047,
+     "btts": 0.5253,
+     "o25": 0.5043,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -41281,6 +41029,35 @@
      "unrated": false
     },
     {
+     "t": "17:00",
+     "ko": "2026-10-25T17:00:00Z",
+     "lg": "af.876",
+     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
+     "country": "Spain",
+     "h": "Espanyol II",
+     "a": "Osasuna II",
+     "side": "h",
+     "pick": "Espanyol II",
+     "c": 0.4856,
+     "p": {
+      "h": 0.4856,
+      "d": 0.2759,
+      "a": 0.2385
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5231,
+     "o25": 0.4985,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "06:00",
      "ko": "2026-10-25T06:00:00Z",
      "lg": "jp.1",
@@ -41360,35 +41137,6 @@
      ],
      "btts": 0.5015,
      "o25": 0.4732,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-25T17:00:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Espanyol II",
-     "a": "Osasuna II",
-     "side": "h",
-     "pick": "Espanyol II",
-     "c": 0.4844,
-     "p": {
-      "h": 0.4844,
-      "d": 0.277,
-      "a": 0.2386
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5219,
-     "o25": 0.4968,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
@@ -41803,35 +41551,6 @@
      "unrated": false
     },
     {
-     "t": "11:00",
-     "ko": "2026-10-25T11:00:00Z",
-     "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
-     "h": "Castuera",
-     "a": "Llerenense",
-     "side": "h",
-     "pick": "Castuera",
-     "c": 0.4777,
-     "p": {
-      "h": 0.4777,
-      "d": 0.2888,
-      "a": 0.2335
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5061,
-     "o25": 0.4772,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:00",
      "ko": "2026-10-25T16:00:00Z",
      "lg": "af.439",
@@ -42116,6 +41835,35 @@
      "o25": 0.5327,
      "hit": 0.4867,
      "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-25T13:00:00Z",
+     "lg": "caf.cl",
+     "lgName": "CAF Champions League",
+     "country": "Africa",
+     "h": "Simba",
+     "a": "15 de Agosto",
+     "side": "h",
+     "pick": "Simba",
+     "c": 0.4701,
+     "p": {
+      "h": 0.4701,
+      "d": 0.2668,
+      "a": 0.2631
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.545,
+     "o25": 0.5223,
+     "hit": 0.4634,
+     "hitN": 259,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -42412,35 +42160,6 @@
      "unrated": false
     },
     {
-     "t": "13:00",
-     "ko": "2026-10-25T13:00:00Z",
-     "lg": "caf.cl",
-     "lgName": "CAF Champions League",
-     "country": "Africa",
-     "h": "Simba",
-     "a": "15 de Agosto",
-     "side": "h",
-     "pick": "Simba",
-     "c": 0.4648,
-     "p": {
-      "h": 0.4648,
-      "d": 0.269,
-      "a": 0.2662
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5433,
-     "o25": 0.5195,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:00",
      "ko": "2026-10-25T14:00:00Z",
      "lg": "af.433",
@@ -42673,35 +42392,6 @@
      "unrated": false
     },
     {
-     "t": "11:00",
-     "ko": "2026-10-25T11:00:00Z",
-     "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
-     "h": "Plasencia",
-     "a": "Moralo",
-     "side": "a",
-     "pick": "Moralo",
-     "c": 0.4587,
-     "p": {
-      "h": 0.2645,
-      "d": 0.2768,
-      "a": 0.4587
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5328,
-     "o25": 0.5058,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "20:30",
      "ko": "2026-10-25T20:30:00Z",
      "lg": "pe.1",
@@ -42725,6 +42415,35 @@
      "o25": 0.4872,
      "hit": 0.4634,
      "hitN": 259,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "11:00",
+     "ko": "2026-10-25T11:00:00Z",
+     "lg": "af.452",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
+     "country": "Spain",
+     "h": "Plasencia",
+     "a": "Moralo",
+     "side": "a",
+     "pick": "Moralo",
+     "c": 0.4583,
+     "p": {
+      "h": 0.2646,
+      "d": 0.2771,
+      "a": 0.4583
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5324,
+     "o25": 0.5053,
+     "hit": 0.4867,
+     "hitN": 9010,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -43833,6 +43552,35 @@
      "unrated": false
     },
     {
+     "t": "11:00",
+     "ko": "2026-10-25T11:00:00Z",
+     "lg": "af.452",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
+     "country": "Spain",
+     "h": "Castuera",
+     "a": "Llerenense",
+     "side": "h",
+     "pick": "Castuera",
+     "c": 0.4407,
+     "p": {
+      "h": 0.4407,
+      "d": 0.296,
+      "a": 0.2634
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5094,
+     "o25": 0.4754,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "02:00",
      "ko": "2026-10-25T02:00:00Z",
      "lg": "au.1",
@@ -44558,6 +44306,35 @@
      "unrated": false
     },
     {
+     "t": "16:00",
+     "ko": "2026-10-25T16:00:00Z",
+     "lg": "af.876",
+     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
+     "country": "Spain",
+     "h": "SD Logro\u00f1\u00e9s",
+     "a": "Terrassa",
+     "side": "a",
+     "pick": "Terrassa",
+     "c": 0.4336,
+     "p": {
+      "h": 0.2345,
+      "d": 0.3319,
+      "a": 0.4336
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4636,
+     "o25": 0.4234,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "23:15",
      "ko": "2026-10-25T23:15:00Z",
      "lg": "hn.1",
@@ -45080,6 +44857,35 @@
      "unrated": false
     },
     {
+     "t": "16:30",
+     "ko": "2026-10-25T16:30:00Z",
+     "lg": "af.876",
+     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
+     "country": "Spain",
+     "h": "Olot",
+     "a": "Barcelona B",
+     "side": "a",
+     "pick": "Barcelona B",
+     "c": 0.423,
+     "p": {
+      "h": 0.2936,
+      "d": 0.2834,
+      "a": 0.423
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5333,
+     "o25": 0.5021,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "10:30",
      "ko": "2026-10-25T10:30:00Z",
      "lg": "af.328",
@@ -45138,35 +44944,6 @@
      "unrated": false
     },
     {
-     "t": "16:30",
-     "ko": "2026-10-25T16:30:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Olot",
-     "a": "Barcelona B",
-     "side": "a",
-     "pick": "Barcelona B",
-     "c": 0.4217,
-     "p": {
-      "h": 0.2938,
-      "d": 0.2845,
-      "a": 0.4217
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.532,
-     "o25": 0.5004,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "11:15",
      "ko": "2026-10-25T11:15:00Z",
      "lg": "af.452",
@@ -45176,18 +44953,18 @@
      "a": "Azuaga",
      "side": "a",
      "pick": "Azuaga",
-     "c": 0.4216,
+     "c": 0.4214,
      "p": {
       "h": 0.2892,
-      "d": 0.2892,
-      "a": 0.4216
+      "d": 0.2895,
+      "a": 0.4214
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5249,
-     "o25": 0.4917,
+     "btts": 0.5246,
+     "o25": 0.4913,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -45452,35 +45229,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-25T16:00:00Z",
-     "lg": "af.876",
-     "lgName": "Segunda Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "SD Logro\u00f1\u00e9s",
-     "a": "Terrassa",
-     "side": "a",
-     "pick": "Terrassa",
-     "c": 0.4198,
-     "p": {
-      "h": 0.2485,
-      "d": 0.3317,
-      "a": 0.4198
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4679,
-     "o25": 0.4261,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -47574,35 +47322,6 @@
      "unrated": false
     },
     {
-     "t": "11:15",
-     "ko": "2026-10-25T11:15:00Z",
-     "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
-     "h": "Puebla Calzada",
-     "a": "Villafranca",
-     "side": "h",
-     "pick": "Puebla Calzada",
-     "c": 0.3942,
-     "p": {
-      "h": 0.3942,
-      "d": 0.2831,
-      "a": 0.3227
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5396,
-     "o25": 0.5076,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-10-25T13:00:00Z",
      "lg": "af.576",
@@ -47624,6 +47343,35 @@
      ],
      "btts": 0.5739,
      "o25": 0.5516,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "11:15",
+     "ko": "2026-10-25T11:15:00Z",
+     "lg": "af.452",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
+     "country": "Spain",
+     "h": "Puebla Calzada",
+     "a": "Villafranca",
+     "side": "h",
+     "pick": "Puebla Calzada",
+     "c": 0.394,
+     "p": {
+      "h": 0.394,
+      "d": 0.2833,
+      "a": 0.3226
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5392,
+     "o25": 0.5072,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -47769,6 +47517,35 @@
      ],
      "btts": 0.5425,
      "o25": 0.5113,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:00",
+     "ko": "2026-10-25T16:00:00Z",
+     "lg": "af.452",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
+     "country": "Spain",
+     "h": "Santa Amalia",
+     "a": "Cabeza Buey",
+     "side": "a",
+     "pick": "Cabeza Buey",
+     "c": 0.3936,
+     "p": {
+      "h": 0.2799,
+      "d": 0.3266,
+      "a": 0.3936
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4803,
+     "o25": 0.4369,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -48357,6 +48134,35 @@
      "unrated": false
     },
     {
+     "t": "12:30",
+     "ko": "2026-10-25T12:30:00Z",
+     "lg": "af.450",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
+     "country": "Spain",
+     "h": "Mensajero",
+     "a": "UD San Fernando",
+     "side": "a",
+     "pick": "UD San Fernando",
+     "c": 0.387,
+     "p": {
+      "h": 0.2907,
+      "d": 0.3223,
+      "a": 0.387
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4867,
+     "o25": 0.4436,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:30",
      "ko": "2026-10-25T14:30:00Z",
      "lg": "de.1",
@@ -48642,35 +48448,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:30",
-     "ko": "2026-10-25T12:30:00Z",
-     "lg": "af.450",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 12",
-     "country": "Spain",
-     "h": "Mensajero",
-     "a": "UD San Fernando",
-     "side": "a",
-     "pick": "UD San Fernando",
-     "c": 0.3847,
-     "p": {
-      "h": 0.2914,
-      "d": 0.324,
-      "a": 0.3847
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.485,
-     "o25": 0.4415,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -50280,18 +50057,18 @@
      "a": "Montijo",
      "side": "h",
      "pick": "G\u00e9vora",
-     "c": 0.3674,
+     "c": 0.3672,
      "p": {
-      "h": 0.3674,
-      "d": 0.2869,
-      "a": 0.3457
+      "h": 0.3672,
+      "d": 0.2872,
+      "a": 0.3456
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5366,
-     "o25": 0.5029,
+     "btts": 0.5363,
+     "o25": 0.5024,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -50614,35 +50391,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-25T16:00:00Z",
-     "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
-     "h": "Santa Amalia",
-     "a": "Cabeza Buey",
-     "side": "a",
-     "pick": "Cabeza Buey",
-     "c": 0.365,
-     "p": {
-      "h": 0.3065,
-      "d": 0.3285,
-      "a": 0.365
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4821,
-     "o25": 0.437,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -51034,18 +50782,18 @@
      "a": "Marino",
      "side": "h",
      "pick": "Lanzarote",
-     "c": 0.3611,
+     "c": 0.3609,
      "p": {
-      "h": 0.3611,
-      "d": 0.3,
-      "a": 0.3389
+      "h": 0.3609,
+      "d": 0.2985,
+      "a": 0.3406
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5186,
-     "o25": 0.4802,
+     "btts": 0.5207,
+     "o25": 0.4828,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -51916,18 +51664,18 @@
      "a": "Al Orubah",
      "side": "h",
      "pick": "Al Ula",
-     "c": 0.657,
+     "c": 0.6575,
      "p": {
-      "h": 0.657,
-      "d": 0.2176,
-      "a": 0.1254
+      "h": 0.6575,
+      "d": 0.2172,
+      "a": 0.1252
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.5038,
-     "o25": 0.5198,
+     "btts": 0.5041,
+     "o25": 0.5202,
      "hit": 0.6793,
      "hitN": 2254,
      "celtic": false,
@@ -52119,18 +51867,18 @@
      "a": "Al Okhdood",
      "side": "h",
      "pick": "Al Anwar",
-     "c": 0.5601,
+     "c": 0.559,
      "p": {
-      "h": 0.5601,
-      "d": 0.2386,
-      "a": 0.2012
+      "h": 0.559,
+      "d": 0.2395,
+      "a": 0.2015
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5478,
-     "o25": 0.5425,
+     "btts": 0.5468,
+     "o25": 0.5412,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": true,
@@ -53540,18 +53288,18 @@
      "a": "Hajer",
      "side": "h",
      "pick": "Al Bukayriyah",
-     "c": 0.359,
+     "c": 0.3591,
      "p": {
-      "h": 0.359,
-      "d": 0.2852,
-      "a": 0.3559
+      "h": 0.3591,
+      "d": 0.2849,
+      "a": 0.356
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5396,
-     "o25": 0.5065,
+     "btts": 0.5399,
+     "o25": 0.507,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -55366,18 +55114,18 @@
      "a": "Al Jeel",
      "side": "h",
      "pick": "Al-Adalah",
-     "c": 0.5335,
+     "c": 0.534,
      "p": {
-      "h": 0.5335,
-      "d": 0.2461,
-      "a": 0.2204
+      "h": 0.534,
+      "d": 0.2458,
+      "a": 0.2202
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5505,
-     "o25": 0.5401,
+     "btts": 0.5508,
+     "o25": 0.5405,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -55830,18 +55578,18 @@
      "a": "Al Saqer",
      "side": "h",
      "pick": "Al Wehda Club",
-     "c": 0.5104,
+     "c": 0.509,
      "p": {
-      "h": 0.5104,
-      "d": 0.2445,
-      "a": 0.2451
+      "h": 0.509,
+      "d": 0.246,
+      "a": 0.2449
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5662,
-     "o25": 0.5547,
+     "btts": 0.5641,
+     "o25": 0.5519,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -57164,18 +56912,18 @@
      "a": "Jeddah Club",
      "side": "h",
      "pick": "Al Taee",
-     "c": 0.4534,
+     "c": 0.4536,
      "p": {
-      "h": 0.4534,
-      "d": 0.2562,
-      "a": 0.2904
+      "h": 0.4536,
+      "d": 0.2559,
+      "a": 0.2905
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5688,
-     "o25": 0.5497,
+     "btts": 0.5692,
+     "o25": 0.5502,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -58585,18 +58333,18 @@
      "a": "Zaragoza",
      "side": "h",
      "pick": "Tudelano",
-     "c": 0.3897,
+     "c": 0.3898,
      "p": {
       "h": 0.4107,
-      "d": 0.2664,
-      "a": 0.3229
+      "d": 0.2659,
+      "a": 0.3233
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5393,
-     "o25": 0.5071,
+     "btts": 0.5399,
+     "o25": 0.5078,
      "hit": null,
      "hitN": null,
      "celtic": true,

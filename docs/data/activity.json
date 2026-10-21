@@ -545,23 +545,34 @@
    "closed": "2026-10-05T13:36:51Z",
    "objective": "tennis-gap",
    "outcome": "evidence"
-  },
-  {
-   "n": 13,
-   "title": "[calib] Check calibration by sport and confidence band",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/13",
-   "owner": "calib",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-05T13:30:44Z",
-   "merged": "2026-10-05T13:58:33Z",
-   "closed": "2026-10-05T13:58:33Z",
-   "objective": "calibration-check",
-   "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-21T18:55:09.472763+01:00",
+ "fetched": "2026-10-21T20:45:30.019906+01:00",
  "commits": [
+  {
+   "sha": "97c577f",
+   "msg": "Archive predictions and record for 2026-10-21 [skip ci]",
+   "date": "2026-10-21T18:29:47Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/97c577f09ff4d002a5eefd6d8f11d830bec46d00"
+  },
+  {
+   "sha": "b10c13a",
+   "msg": "Odds tab: rugby legs priced from any union market (#66)",
+   "date": "2026-10-21T18:27:07Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/b10c13aa3b873dfd0176849900f4f9d3619ba845"
+  },
+  {
+   "sha": "87ecaf2",
+   "msg": "Archive predictions and record for 2026-10-21 [skip ci]",
+   "date": "2026-10-21T18:12:00Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/87ecaf20441d4a024183cdc69569dabaf6ac5aeb"
+  },
+  {
+   "sha": "1cfe2f6",
+   "msg": "Odds tab: groups three days ahead, re-checked on every build (#65)",
+   "date": "2026-10-21T18:08:06Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1cfe2f6b7b7bbd2115f3af85f2f2e2bedc10caff"
+  },
   {
    "sha": "5e64bf6",
    "msg": "Archive predictions and record for 2026-10-21 [skip ci]",
@@ -657,41 +668,53 @@
    "msg": "Archive predictions and record for 2026-10-20 [skip ci]",
    "date": "2026-10-20T20:41:38Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/c8479ef99d617be38c38c236f147f205f9df664f"
-  },
-  {
-   "sha": "f97bb3d",
-   "msg": "Current season for Croatia, Hungary, Serbia, Ukraine and Korea reaches the board (#58)",
-   "date": "2026-10-20T20:39:12Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f97bb3d3441bc2c9984ad8bdf71cbe68d6e7c906"
-  },
-  {
-   "sha": "a3c1580",
-   "msg": "Archive predictions and record for 2026-10-20 [skip ci]",
-   "date": "2026-10-20T20:20:53Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a3c15804f5f9e6560d19b4eb53d72b0ccdff57fd"
-  },
-  {
-   "sha": "10eebf4",
-   "msg": "Archive predictions and record for 2026-10-20 [skip ci]",
-   "date": "2026-10-20T15:54:36Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/10eebf4b0a65e78803ad91c18d1770fd9515cf03"
-  },
-  {
-   "sha": "30f6ee1",
-   "msg": "Archive predictions and record for 2026-10-20 [skip ci]",
-   "date": "2026-10-20T15:30:47Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/30f6ee17a31b66db66e480a8b9856e2d9e6d933c"
   }
  ],
  "runs": [
   {
-   "conclusion": "",
+   "conclusion": "success",
+   "createdAt": "2026-10-21T19:03:06Z",
+   "name": "Office merge window",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39658207355"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T18:27:10Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39652833882"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T18:26:22Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39652712910"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T18:26:22Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39652712842"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T18:26:19Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39652704653"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-21T18:08:09Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39649977031"
+  },
+  {
+   "conclusion": "success",
    "createdAt": "2026-10-21T17:54:50Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39648002361"
   },
   {
-   "conclusion": "",
+   "conclusion": "success",
    "createdAt": "2026-10-21T17:54:50Z",
    "name": "Evaluation",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39648002040"
@@ -707,42 +730,6 @@
    "createdAt": "2026-10-21T16:49:05Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39638169186"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T16:09:28Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39632232710"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T14:34:53Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39618058270"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T14:15:56Z",
-   "name": "Office merge window",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39615351132"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:31:01Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39600222654"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:29:16Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39599978539"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-21T12:29:16Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39599978467"
   }
  ]
 }
