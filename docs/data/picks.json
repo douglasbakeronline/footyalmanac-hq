@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-22T16:12:15",
- "fetched": "2026-10-22T18:51:52.995970+01:00",
+ "generated": "2026-10-22T18:42:00",
+ "fetched": "2026-10-22T20:36:32.965531+01:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-22",
-   "count": 58,
+   "count": 48,
    "games": [
     {
      "t": "12:00",
@@ -45,9 +45,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Taylor Fritz won"
     },
     {
      "t": "13:35",
@@ -90,35 +90,6 @@
      "status": "lost",
      "score": null,
      "res": "Katarzyna Kawa won"
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-22T15:00:00Z",
-     "lg": "afc.657",
-     "lgName": "Cup",
-     "country": "Estonia",
-     "h": "Flora Tallinn",
-     "a": "Tallinna Kalev II",
-     "side": "h",
-     "pick": "Flora Tallinn",
-     "c": 0.7968,
-     "p": {
-      "h": 0.6046,
-      "d": 0.2224,
-      "a": 0.1731
-     },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.5643,
-     "o25": 0.629,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     },
     {
      "t": "14:00",
@@ -167,6 +138,31 @@
      "res": "2-0"
     },
     {
+     "t": "19:00",
+     "ko": "2026-10-22T18:00:00Z",
+     "lg": "sa.1",
+     "lgName": "Saudi Arabia Pro League",
+     "sport": "football",
+     "h": "Al Ahli",
+     "a": "Al Khaleej",
+     "side": "h",
+     "pick": "Al Ahli",
+     "c": 0.7397,
+     "p": {
+      "h": 0.7397,
+      "d": 0.1598,
+      "a": 0.1006
+     },
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
+    },
+    {
      "t": "18:00",
      "ko": "2026-10-22T17:00:00Z",
      "lg": "ATP",
@@ -183,9 +179,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Flavio Cobolli won"
     },
     {
      "t": "01:30",
@@ -209,35 +205,6 @@
      "res": "128-110"
     },
     {
-     "t": "15:00",
-     "ko": "2026-10-22T15:00:00Z",
-     "lg": "af.387",
-     "lgName": "League",
-     "country": "Jordan",
-     "h": "Al Hussein",
-     "a": "Doqarah",
-     "side": "h",
-     "pick": "Al Hussein",
-     "c": 0.7111,
-     "p": {
-      "h": 0.7111,
-      "d": 0.1694,
-      "a": 0.1196
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5615,
-     "o25": 0.5981,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:00",
      "ko": "2026-10-22T15:00:00Z",
      "lg": "ATP",
@@ -254,9 +221,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Zizou Bergs won"
     },
     {
      "t": "00:30",
@@ -301,19 +268,25 @@
      "res": "103-110"
     },
     {
-     "t": "18:30",
+     "t": "19:40",
+     "ko": "2026-10-22T18:40:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes \u00b7 Round 2",
      "sport": "tennis",
      "h": "Brandon Nakashima",
      "a": "Kyrian Jacquet",
      "side": "h",
      "pick": "Brandon Nakashima",
      "c": 0.6833,
+     "p": null,
      "hit": 0.6985,
      "hitN": 199,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:45",
@@ -588,35 +561,6 @@
      "res": "97-71"
     },
     {
-     "t": "16:00",
-     "ko": "2026-10-22T16:00:00Z",
-     "lg": "af.328",
-     "lgName": "Esiliiga A",
-     "country": "Estonia",
-     "h": "Flora II",
-     "a": "N\u00f5mme United II",
-     "side": "h",
-     "pick": "Flora II",
-     "c": 0.6242,
-     "p": {
-      "h": 0.6242,
-      "d": 0.1829,
-      "a": 0.193
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.619,
-     "o25": 0.6358,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "10:00",
      "ko": "2026-10-22T10:00:00Z",
      "lg": "af.1104",
@@ -698,35 +642,6 @@
      "o25": 0.4403,
      "hit": 0.5868,
      "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:45",
-     "ko": "2026-10-22T16:45:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "Pafos",
-     "a": "Riga",
-     "side": "h",
-     "pick": "Pafos",
-     "c": 0.5706,
-     "p": {
-      "h": 0.5706,
-      "d": 0.2547,
-      "a": 0.1747
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5088,
-     "o25": 0.5002,
-     "hit": 0.5352,
-     "hitN": 99,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -820,35 +735,6 @@
      "unrated": false
     },
     {
-     "t": "16:45",
-     "ko": "2026-10-22T16:45:00Z",
-     "lg": "eu.el",
-     "lgName": "Europa League",
-     "country": "Europe",
-     "h": "Ararat-Armenia",
-     "a": "AZ Alkmaar",
-     "side": "a",
-     "pick": "AZ Alkmaar",
-     "c": 0.513,
-     "p": {
-      "h": 0.2436,
-      "d": 0.2434,
-      "a": 0.513
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.567,
-     "o25": 0.5561,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:00",
      "ko": "2026-10-22T19:00:00Z",
      "lg": "eu.ec",
@@ -872,35 +758,6 @@
      "o25": 0.4978,
      "hit": 0.4896,
      "hitN": 194,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:45",
-     "ko": "2026-10-22T16:45:00Z",
-     "lg": "eu.el",
-     "lgName": "Europa League",
-     "country": "Europe",
-     "h": "SK Sturm Graz",
-     "a": "Marseille",
-     "side": "a",
-     "pick": "Marseille",
-     "c": 0.497,
-     "p": {
-      "h": 0.2478,
-      "d": 0.2552,
-      "a": 0.497
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5534,
-     "o25": 0.5368,
-     "hit": 0.4634,
-     "hitN": 259,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1017,64 +874,6 @@
      "o25": 0.5734,
      "hit": 0.4867,
      "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:45",
-     "ko": "2026-10-22T16:45:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "Iberia 1999",
-     "a": "Mj\u00e4llby AIF",
-     "side": "h",
-     "pick": "Iberia 1999",
-     "c": 0.4648,
-     "p": {
-      "h": 0.4648,
-      "d": 0.26,
-      "a": 0.2752
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5585,
-     "o25": 0.5382,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:45",
-     "ko": "2026-10-22T16:45:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "Kauno Zalgiris",
-     "a": "SK Brann",
-     "side": "a",
-     "pick": "SK Brann",
-     "c": 0.4596,
-     "p": {
-      "h": 0.2656,
-      "d": 0.2748,
-      "a": 0.4596
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5357,
-     "o25": 0.5095,
-     "hit": 0.4634,
-     "hitN": 259,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1226,35 +1025,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-10-22T16:00:00Z",
-     "lg": "af.542",
-     "lgName": "Iraqi League",
-     "country": "Iraq",
-     "h": "Gharraf",
-     "a": "Naft",
-     "side": "a",
-     "pick": "Naft",
-     "c": 0.4314,
-     "p": {
-      "h": 0.2368,
-      "d": 0.3318,
-      "a": 0.4314
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4643,
-     "o25": 0.4239,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:00",
      "ko": "2026-10-22T19:00:00Z",
      "lg": "eu.el",
@@ -1351,18 +1121,18 @@
      "a": "Al Quwa Al Jawiya",
      "side": "h",
      "pick": "Al Talaba",
-     "c": 0.3928,
+     "c": 0.3937,
      "p": {
-      "h": 0.3928,
-      "d": 0.2836,
-      "a": 0.3237
+      "h": 0.3937,
+      "d": 0.2822,
+      "a": 0.3241
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.539,
-     "o25": 0.5068,
+     "btts": 0.5409,
+     "o25": 0.5093,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1431,35 +1201,6 @@
     {
      "t": "16:45",
      "ko": "2026-10-22T16:45:00Z",
-     "lg": "eu.el",
-     "lgName": "Europa League",
-     "country": "Europe",
-     "h": "Lech Poznan",
-     "a": "Sunderland",
-     "side": "a",
-     "pick": "Sunderland",
-     "c": 0.3817,
-     "p": {
-      "h": 0.3489,
-      "d": 0.2694,
-      "a": 0.3817
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5619,
-     "o25": 0.5356,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:45",
-     "ko": "2026-10-22T16:45:00Z",
      "lg": "eu.ec",
      "lgName": "Conference League",
      "country": "Europe",
@@ -1485,35 +1226,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "14:45",
-     "ko": "2026-10-22T14:45:00Z",
-     "lg": "sa.1",
-     "lgName": "Pro League",
-     "country": "Saudi Arabia",
-     "h": "Al Fateh",
-     "a": "Al Shabab",
-     "side": "a",
-     "pick": "Al Shabab",
-     "c": 0.3658,
-     "p": {
-      "h": 0.3564,
-      "d": 0.2777,
-      "a": 0.3658
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5502,
-     "o25": 0.5202,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     }
    ],
    "pinned": {
@@ -1527,17 +1239,17 @@
     },
     "reserve": {
      "n": 23,
-     "won": 14,
+     "won": 17,
      "lost": 2,
      "void": 1,
-     "started": 2,
-     "upcoming": 4
+     "started": 3,
+     "upcoming": 0
     }
    }
   },
   {
    "date": "2026-10-23",
-   "count": 226,
+   "count": 227,
    "games": [
     {
      "t": "11:00",
@@ -1654,18 +1366,18 @@
      "a": "Tallinna Kalev",
      "side": "h",
      "pick": "Tartu Welco",
-     "c": 0.825,
+     "c": 0.8241,
      "p": {
-      "h": 0.825,
-      "d": 0.1051,
-      "a": 0.0699
+      "h": 0.8241,
+      "d": 0.1057,
+      "a": 0.0702
      },
      "score": [
       3,
       1
      ],
-     "btts": 0.5848,
-     "o25": 0.6542,
+     "btts": 0.5843,
+     "o25": 0.6535,
      "hit": 0.8075,
      "hitN": 644,
      "celtic": true,
@@ -1951,6 +1663,21 @@
      "reserve": true
     },
     {
+     "t": "13:30",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+     "sport": "tennis",
+     "h": "Taylor Fritz",
+     "a": "Daniel Altmaier",
+     "side": "h",
+     "pick": "Taylor Fritz",
+     "c": 0.7586,
+     "hit": 0.7768,
+     "hitN": 112,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "12:50",
      "ko": "2026-10-23T12:50:00Z",
      "lg": "af.406",
@@ -2179,18 +1906,18 @@
      "a": "Al Khaleej",
      "side": "h",
      "pick": "Al Ahli",
-     "c": 0.7386,
+     "c": 0.7375,
      "p": {
-      "h": 0.7386,
-      "d": 0.1606,
-      "a": 0.1009
+      "h": 0.7375,
+      "d": 0.1613,
+      "a": 0.1011
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.5461,
-     "o25": 0.5919,
+     "btts": 0.5454,
+     "o25": 0.5909,
      "hit": 0.718,
      "hitN": 39,
      "celtic": false,
@@ -2545,18 +2272,18 @@
      "a": "Al Nassr",
      "side": "a",
      "pick": "Al Nassr",
-     "c": 0.6584,
+     "c": 0.6573,
      "p": {
-      "h": 0.1438,
-      "d": 0.1978,
-      "a": 0.6584
+      "h": 0.1441,
+      "d": 0.1985,
+      "a": 0.6573
      },
      "score": [
       0,
       2
      ],
-     "btts": 0.5507,
-     "o25": 0.5711,
+     "btts": 0.55,
+     "o25": 0.5701,
      "hit": 0.8148,
      "hitN": 54,
      "celtic": true,
@@ -3483,6 +3210,35 @@
      "unrated": false
     },
     {
+     "t": "16:30",
+     "ko": "2026-10-23T16:30:00Z",
+     "lg": "af.542",
+     "lgName": "Iraqi League",
+     "country": "Iraq",
+     "h": "Duhok",
+     "a": "Karbala",
+     "side": "h",
+     "pick": "Duhok",
+     "c": 0.57,
+     "p": {
+      "h": 0.57,
+      "d": 0.2449,
+      "a": 0.1851
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5283,
+     "o25": 0.5222,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:30",
      "ko": "2026-10-23T15:30:00Z",
      "lg": "sa.1",
@@ -3492,18 +3248,18 @@
      "a": "Al Diriyah",
      "side": "h",
      "pick": "Al Ittihad",
-     "c": 0.57,
+     "c": 0.5692,
      "p": {
-      "h": 0.57,
-      "d": 0.2403,
-      "a": 0.1897
+      "h": 0.5692,
+      "d": 0.2409,
+      "a": 0.1898
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5373,
-     "o25": 0.5326,
+     "btts": 0.5366,
+     "o25": 0.5316,
      "hit": 0.5352,
      "hitN": 99,
      "celtic": true,
@@ -3535,35 +3291,6 @@
      "o25": 0.5965,
      "hit": 0.5352,
      "hitN": 99,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:30",
-     "ko": "2026-10-23T16:30:00Z",
-     "lg": "af.542",
-     "lgName": "Iraqi League",
-     "country": "Iraq",
-     "h": "Duhok",
-     "a": "Karbala",
-     "side": "h",
-     "pick": "Duhok",
-     "c": 0.5673,
-     "p": {
-      "h": 0.5673,
-      "d": 0.2468,
-      "a": 0.1859
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5265,
-     "o25": 0.5195,
-     "hit": 0.5868,
-     "hitN": 4716,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -4208,6 +3935,35 @@
      "unrated": false
     },
     {
+     "t": "17:30",
+     "ko": "2026-10-23T17:30:00Z",
+     "lg": "af.542",
+     "lgName": "Iraqi League",
+     "country": "Iraq",
+     "h": "Al-Jolan",
+     "a": "Al Kahrabaa",
+     "side": "h",
+     "pick": "Al-Jolan",
+     "c": 0.5224,
+     "p": {
+      "h": 0.5224,
+      "d": 0.2837,
+      "a": 0.194
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4911,
+     "o25": 0.4689,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "18:00",
      "ko": "2026-10-23T18:00:00Z",
      "lg": "nl.2",
@@ -4231,35 +3987,6 @@
      "o25": 0.4901,
      "hit": 0.4896,
      "hitN": 194,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:30",
-     "ko": "2026-10-23T17:30:00Z",
-     "lg": "af.542",
-     "lgName": "Iraqi League",
-     "country": "Iraq",
-     "h": "Al-Jolan",
-     "a": "Al Kahrabaa",
-     "side": "h",
-     "pick": "Al-Jolan",
-     "c": 0.5206,
-     "p": {
-      "h": 0.5206,
-      "d": 0.2852,
-      "a": 0.1942
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4897,
-     "o25": 0.467,
-     "hit": 0.5376,
-     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -4536,18 +4263,18 @@
      "a": "Mosul",
      "side": "h",
      "pick": "Al Karkh",
-     "c": 0.5039,
+     "c": 0.5052,
      "p": {
-      "h": 0.5039,
-      "d": 0.2458,
-      "a": 0.2504
+      "h": 0.5052,
+      "d": 0.2443,
+      "a": 0.2505
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5671,
-     "o25": 0.5547,
+     "btts": 0.5691,
+     "o25": 0.5573,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -4768,18 +4495,18 @@
      "a": "Al Faisaly",
      "side": "a",
      "pick": "Al Faisaly",
-     "c": 0.4854,
+     "c": 0.4867,
      "p": {
-      "h": 0.2593,
-      "d": 0.2554,
-      "a": 0.4854
+      "h": 0.2595,
+      "d": 0.2538,
+      "a": 0.4867
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5583,
-     "o25": 0.541,
+     "btts": 0.5605,
+     "o25": 0.5439,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -6711,18 +6438,18 @@
      "a": "Al Shorta",
      "side": "h",
      "pick": "Al Zawra'a",
-     "c": 0.3946,
+     "c": 0.3957,
      "p": {
-      "h": 0.3946,
-      "d": 0.3217,
-      "a": 0.2837
+      "h": 0.3957,
+      "d": 0.3204,
+      "a": 0.2839
      },
      "score": [
       1,
-      0
+      1
      ],
-     "btts": 0.4861,
-     "o25": 0.4435,
+     "btts": 0.4875,
+     "o25": 0.4452,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -6740,18 +6467,18 @@
      "a": "Al Hilal",
      "side": "h",
      "pick": "Al Qadsiah",
-     "c": 0.3932,
+     "c": 0.393,
      "p": {
-      "h": 0.3932,
-      "d": 0.2486,
-      "a": 0.3582
+      "h": 0.393,
+      "d": 0.2491,
+      "a": 0.3579
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5934,
-     "o25": 0.577,
+     "btts": 0.5926,
+     "o25": 0.576,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -7659,6 +7386,35 @@
      "unrated": false
     },
     {
+     "t": "14:00",
+     "ko": "2026-10-23T14:00:00Z",
+     "lg": "af.387",
+     "lgName": "League",
+     "country": "Jordan",
+     "h": "Al Salt",
+     "a": "Al Ramtha",
+     "side": "h",
+     "pick": "Al Salt",
+     "c": 0.359,
+     "p": {
+      "h": 0.359,
+      "d": 0.3105,
+      "a": 0.3306
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5049,
+     "o25": 0.4634,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:30",
      "ko": "2026-10-23T13:30:00Z",
      "lg": "af.289",
@@ -7709,35 +7465,6 @@
      ],
      "btts": 0.5358,
      "o25": 0.5017,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "14:00",
-     "ko": "2026-10-23T14:00:00Z",
-     "lg": "af.387",
-     "lgName": "League",
-     "country": "Jordan",
-     "h": "Al Salt",
-     "a": "Al Ramtha",
-     "side": "h",
-     "pick": "Al Salt",
-     "c": 0.358,
-     "p": {
-      "h": 0.358,
-      "d": 0.3118,
-      "a": 0.3302
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5032,
-     "o25": 0.4613,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -11675,18 +11402,18 @@
      "a": "Abha",
      "side": "h",
      "pick": "Neom",
-     "c": 0.602,
+     "c": 0.6009,
      "p": {
-      "h": 0.602,
-      "d": 0.2412,
-      "a": 0.1567
+      "h": 0.6009,
+      "d": 0.242,
+      "a": 0.1571
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.509,
-     "o25": 0.5088,
+     "btts": 0.5084,
+     "o25": 0.5078,
      "hit": 0.7052,
      "hitN": 78,
      "celtic": true,
@@ -11956,6 +11683,35 @@
      "unrated": false
     },
     {
+     "t": "13:30",
+     "ko": "2026-10-24T13:30:00Z",
+     "lg": "af.542",
+     "lgName": "Iraqi League",
+     "country": "Iraq",
+     "h": "Newroz",
+     "a": "Diyala",
+     "side": "h",
+     "pick": "Newroz",
+     "c": 0.5928,
+     "p": {
+      "h": 0.5928,
+      "d": 0.2352,
+      "a": 0.172
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5296,
+     "o25": 0.5294,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "05:00",
      "ko": "2026-10-24T05:00:00Z",
      "lg": "kr.1",
@@ -12064,35 +11820,6 @@
      ],
      "btts": 0.526,
      "o25": 0.525,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:30",
-     "ko": "2026-10-24T13:30:00Z",
-     "lg": "af.542",
-     "lgName": "Iraqi League",
-     "country": "Iraq",
-     "h": "Newroz",
-     "a": "Diyala",
-     "side": "h",
-     "pick": "Newroz",
-     "c": 0.5902,
-     "p": {
-      "h": 0.5902,
-      "d": 0.237,
-      "a": 0.1727
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5279,
-     "o25": 0.5268,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -16663,18 +16390,18 @@
      "a": "Al Buqa'a",
      "side": "h",
      "pick": "Al Arabi",
-     "c": 0.4999,
+     "c": 0.4994,
      "p": {
-      "h": 0.4999,
-      "d": 0.2452,
-      "a": 0.2549
+      "h": 0.4994,
+      "d": 0.2443,
+      "a": 0.2563
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.57,
-     "o25": 0.5576,
+     "btts": 0.5719,
+     "o25": 0.5598,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
@@ -17350,6 +17077,35 @@
      "unrated": false
     },
     {
+     "t": "16:30",
+     "ko": "2026-10-24T16:30:00Z",
+     "lg": "af.387",
+     "lgName": "League",
+     "country": "Jordan",
+     "h": "Shabab Al Ordon",
+     "a": "Al Wihdat",
+     "side": "a",
+     "pick": "Al Wihdat",
+     "c": 0.4921,
+     "p": {
+      "h": 0.2034,
+      "d": 0.3045,
+      "a": 0.4921
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4759,
+     "o25": 0.4461,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-10-24T13:00:00Z",
      "lg": "cze.1",
@@ -17487,35 +17243,6 @@
      ],
      "btts": 0.5846,
      "o25": 0.5742,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:30",
-     "ko": "2026-10-24T16:30:00Z",
-     "lg": "af.387",
-     "lgName": "League",
-     "country": "Jordan",
-     "h": "Shabab Al Ordon",
-     "a": "Al Wihdat",
-     "side": "a",
-     "pick": "Al Wihdat",
-     "c": 0.4901,
-     "p": {
-      "h": 0.2036,
-      "d": 0.3063,
-      "a": 0.4901
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4744,
-     "o25": 0.4441,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -17721,6 +17448,35 @@
      "o25": 0.6005,
      "hit": 0.4634,
      "hitN": 259,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-10-24T15:00:00Z",
+     "lg": "af.542",
+     "lgName": "Iraqi League",
+     "country": "Iraq",
+     "h": "Al Minaa Basra",
+     "a": "Al-Karma",
+     "side": "a",
+     "pick": "Al-Karma",
+     "c": 0.4856,
+     "p": {
+      "h": 0.2305,
+      "d": 0.284,
+      "a": 0.4856
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5101,
+     "o25": 0.4833,
+     "hit": 0.4867,
+     "hitN": 9010,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -17983,35 +17739,6 @@
      "hit": 0.4634,
      "hitN": 259,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-24T15:00:00Z",
-     "lg": "af.542",
-     "lgName": "Iraqi League",
-     "country": "Iraq",
-     "h": "Al Minaa Basra",
-     "a": "Al-Karma",
-     "side": "a",
-     "pick": "Al-Karma",
-     "c": 0.4837,
-     "p": {
-      "h": 0.2307,
-      "d": 0.2856,
-      "a": 0.4837
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.5084,
-     "o25": 0.4809,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -18771,6 +18498,35 @@
      "unrated": false
     },
     {
+     "t": "17:00",
+     "ko": "2026-10-24T17:00:00Z",
+     "lg": "af.542",
+     "lgName": "Iraqi League",
+     "country": "Iraq",
+     "h": "Ghaz Al Shamal",
+     "a": "Naft Maysan",
+     "side": "h",
+     "pick": "Ghaz Al Shamal",
+     "c": 0.4737,
+     "p": {
+      "h": 0.4737,
+      "d": 0.3072,
+      "a": 0.219
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4806,
+     "o25": 0.4478,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "16:00",
      "ko": "2026-10-24T16:00:00Z",
      "lg": "fr.w1",
@@ -18908,35 +18664,6 @@
      ],
      "btts": 0.636,
      "o25": 0.6351,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-24T17:00:00Z",
-     "lg": "af.542",
-     "lgName": "Iraqi League",
-     "country": "Iraq",
-     "h": "Ghaz Al Shamal",
-     "a": "Naft Maysan",
-     "side": "h",
-     "pick": "Ghaz Al Shamal",
-     "c": 0.4724,
-     "p": {
-      "h": 0.4724,
-      "d": 0.3085,
-      "a": 0.2191
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4794,
-     "o25": 0.4463,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -21390,18 +21117,18 @@
      "a": "FC Tallinn",
      "side": "h",
      "pick": "N\u00f5mme Kalju II",
-     "c": 0.444,
+     "c": 0.4436,
      "p": {
-      "h": 0.444,
-      "d": 0.247,
-      "a": 0.309
+      "h": 0.4436,
+      "d": 0.2475,
+      "a": 0.3089
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5869,
-     "o25": 0.5717,
+     "btts": 0.5862,
+     "o25": 0.5708,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -25354,35 +25081,6 @@
      "unrated": false
     },
     {
-     "t": "15:05",
-     "ko": "2026-10-24T15:05:00Z",
-     "lg": "sa.1",
-     "lgName": "Pro League",
-     "country": "Saudi Arabia",
-     "h": "Al Kholood",
-     "a": "Al Ettifaq",
-     "side": "h",
-     "pick": "Al Kholood",
-     "c": 0.4041,
-     "p": {
-      "h": 0.4041,
-      "d": 0.25,
-      "a": 0.3458
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5899,
-     "o25": 0.5728,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": null,
      "ko": null,
      "lg": "br.1",
@@ -25433,6 +25131,35 @@
      ],
      "btts": 0.5502,
      "o25": 0.5216,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:05",
+     "ko": "2026-10-24T15:05:00Z",
+     "lg": "sa.1",
+     "lgName": "Pro League",
+     "country": "Saudi Arabia",
+     "h": "Al Kholood",
+     "a": "Al Ettifaq",
+     "side": "h",
+     "pick": "Al Kholood",
+     "c": 0.4037,
+     "p": {
+      "h": 0.4037,
+      "d": 0.2506,
+      "a": 0.3457
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.589,
+     "o25": 0.5716,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -25557,35 +25284,6 @@
      "unrated": false
     },
     {
-     "t": "18:00",
-     "ko": "2026-10-24T18:00:00Z",
-     "lg": "sa.1",
-     "lgName": "Pro League",
-     "country": "Saudi Arabia",
-     "h": "Al Riyadh",
-     "a": "Al Taawoun",
-     "side": "h",
-     "pick": "Al Riyadh",
-     "c": 0.4027,
-     "p": {
-      "h": 0.4027,
-      "d": 0.2875,
-      "a": 0.3097
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5315,
-     "o25": 0.4981,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": null,
      "ko": null,
      "lg": "br.1",
@@ -25607,6 +25305,35 @@
      ],
      "btts": 0.5621,
      "o25": 0.5367,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-10-24T18:00:00Z",
+     "lg": "sa.1",
+     "lgName": "Pro League",
+     "country": "Saudi Arabia",
+     "h": "Al Riyadh",
+     "a": "Al Taawoun",
+     "side": "h",
+     "pick": "Al Riyadh",
+     "c": 0.4021,
+     "p": {
+      "h": 0.4021,
+      "d": 0.2881,
+      "a": 0.3098
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5308,
+     "o25": 0.4972,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -31128,7 +30855,7 @@
   },
   {
    "date": "2026-10-25",
-   "count": 648,
+   "count": 649,
    "games": [
     {
      "t": "12:00",
@@ -42773,18 +42500,18 @@
      "a": "FCI Levadia II",
      "side": "h",
      "pick": "Elva",
-     "c": 0.4229,
+     "c": 0.4226,
      "p": {
-      "h": 0.4229,
-      "d": 0.2499,
-      "a": 0.3273
+      "h": 0.4226,
+      "d": 0.2503,
+      "a": 0.3271
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5871,
-     "o25": 0.5702,
+     "btts": 0.5864,
+     "o25": 0.5692,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -45917,6 +45644,35 @@
      ],
      "btts": 0.5244,
      "o25": 0.4884,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:00",
+     "ko": "2026-10-25T16:00:00Z",
+     "lg": "af.1087",
+     "lgName": "Ykk\u00f6sliiga",
+     "country": "Finland",
+     "h": "K\u00e4Pa",
+     "a": "Rops",
+     "side": "a",
+     "pick": "Rops",
+     "c": 0.3889,
+     "p": {
+      "h": 0.3714,
+      "d": 0.2397,
+      "a": 0.3889
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.608,
+     "o25": 0.5958,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -49861,18 +49617,18 @@
      "a": "Flora II",
      "side": "h",
      "pick": "Viimsi",
-     "c": 0.6083,
+     "c": 0.6022,
      "p": {
-      "h": 0.6083,
-      "d": 0.211,
-      "a": 0.1807
+      "h": 0.6022,
+      "d": 0.2119,
+      "a": 0.1859
      },
      "score": [
       2,
       1
      ],
-     "btts": 0.5687,
-     "o25": 0.5778,
+     "btts": 0.5717,
+     "o25": 0.5798,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -55598,10 +55354,10 @@
      "lg": "es.cup",
      "lgName": "Copa del Rey",
      "country": "Spain",
-     "h": "UD CASTELLONENSE",
+     "h": "UD Castellonense",
      "a": "Almer\u00eda",
      "side": "h",
-     "pick": "UD CASTELLONENSE",
+     "pick": "UD Castellonense",
      "c": 0.4261,
      "p": {
       "h": 0.4261,
@@ -56095,18 +55851,18 @@
      "a": "Al Faisaly",
      "side": "h",
      "pick": "Abha",
-     "c": 0.4032,
+     "c": 0.403,
      "p": {
-      "h": 0.4032,
-      "d": 0.275,
-      "a": 0.3217
+      "h": 0.403,
+      "d": 0.2756,
+      "a": 0.3215
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5504,
-     "o25": 0.5218,
+     "btts": 0.5496,
+     "o25": 0.5209,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -57356,35 +57112,6 @@
      "hitN": 168,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-28T17:00:00Z",
-     "lg": "afc.105",
-     "lgName": "NM Cupen",
-     "country": "Norway",
-     "h": "Viking",
-     "a": "KFUM Oslo",
-     "side": "h",
-     "pick": "Viking",
-     "c": 0.7262,
-     "p": {
-      "h": 0.58,
-      "d": 0.2475,
-      "a": 0.1725
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5161,
-     "o25": 0.5572,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     },
     {
      "t": "13:30",
@@ -59457,6 +59184,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-10-28T17:00:00Z",
+     "lg": "afc.105",
+     "lgName": "NM Cupen",
+     "country": "Norway",
+     "h": "Viking",
+     "a": "KFUM Oslo",
+     "side": "h",
+     "pick": "Viking",
+     "c": 0.5042,
+     "p": {
+      "h": 0.4959,
+      "d": 0.2674,
+      "a": 0.2367
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5348,
+     "o25": 0.5157,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
