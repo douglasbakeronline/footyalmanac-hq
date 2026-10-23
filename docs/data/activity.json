@@ -456,8 +456,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-23T02:40:33.732470+01:00",
+ "fetched": "2026-10-23T07:39:31.150386+01:00",
  "commits": [
+  {
+   "sha": "b031d50",
+   "msg": "Archive predictions and record for 2026-10-23 [skip ci]",
+   "date": "2026-10-23T04:42:29Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/b031d5054e9dac79401e9c847c0f68d479f8bfd9"
+  },
   {
    "sha": "12dfcfc",
    "msg": "Archive predictions and record for 2026-10-23 [skip ci]",
@@ -571,15 +577,15 @@
    "msg": "Office agent (calib): Check calibration by sport and confidence band (#71)",
    "date": "2026-10-22T12:24:22Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/9bddf3bcc7c5bfd434720d00089a674f9b5d0318"
-  },
-  {
-   "sha": "1226f74",
-   "msg": "Office agent (champ): Find why the Championship misses (#70)",
-   "date": "2026-10-22T12:17:49Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1226f7453680f880bf4e5c8a8816ae6490fb83be"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-23T04:38:27Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39901390742"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-23T00:38:21Z",
@@ -633,12 +639,6 @@
    "createdAt": "2026-10-22T22:34:08Z",
    "name": "Evaluation",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39865901166"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-22T22:34:08Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/39865901157"
   }
  ]
 }
