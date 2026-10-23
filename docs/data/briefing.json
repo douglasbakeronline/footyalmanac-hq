@@ -1,21 +1,21 @@
 {
- "time": "2026-10-23T13:06:45.459627+01:00",
+ "time": "2026-10-23T17:24:23.835324+01:00",
  "date": "2026-10-23",
  "stage": "refresh",
  "pricing": {
-  "priced": 14,
-  "total": 22,
+  "priced": 13,
+  "total": 18,
   "site": true,
-  "generated": "2026-10-23T10:06:51Z"
+  "generated": "2026-10-23T16:01:36Z"
  },
  "review": {
   "dropped": [],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 229,
-  "list": 7,
-  "tomorrow": 864
+  "today": 168,
+  "list": 5,
+  "tomorrow": 865
  },
  "impactful": [
   {
@@ -100,52 +100,6 @@
   },
   {
    "sport": "tennis",
-   "event": "Taylor Fritz v Daniel Altmaier",
-   "comp": "Grand Prix Auvergne-Rhône-Alpes Quarterfinal",
-   "tour": "ATP",
-   "when": "2026-10-23T13:30:00Z",
-   "date": "2026-10-23",
-   "selection": "Taylor Fritz",
-   "opp": "Daniel Altmaier",
-   "p": 0.7586,
-   "modelPick": "Taylor Fritz",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.7768,
-   "hitN": 112,
-   "id": "185110",
-   "rank": [
-    14,
-    65
-   ],
-   "status": "pending",
-   "why": "76% Taylor Fritz, ranked 14 v 65, calls at this level won 78% (112)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Jiri Lehecka v Tallon Griekspoor",
-   "comp": "BNP Paribas Fortis European Open Quarterfinal",
-   "tour": "ATP",
-   "when": "2026-10-23T14:00:00Z",
-   "date": "2026-10-23",
-   "selection": "Jiri Lehecka",
-   "opp": "Tallon Griekspoor",
-   "p": 0.7024,
-   "modelPick": "Jiri Lehecka",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.7778,
-   "hitN": 171,
-   "id": "185063",
-   "rank": [
-    20,
-    60
-   ],
-   "status": "pending",
-   "why": "70% Jiri Lehecka, ranked 20 v 60, calls at this level won 78% (171)"
-  },
-  {
-   "sport": "tennis",
    "event": "Lorenzo Musetti v Luca Van Assche",
    "comp": "Grand Prix Auvergne-Rhône-Alpes Quarterfinal",
    "tour": "ATP",
@@ -166,6 +120,54 @@
    ],
    "status": "pending",
    "why": "70% Lorenzo Musetti, ranked 26 v 48, calls at this level won 70% (199)"
+  },
+  {
+   "sport": "rugby",
+   "event": "Newcastle Falcons v Sale Sharks",
+   "comp": "Premiership",
+   "when": "2026-10-23T18:45Z",
+   "date": "2026-10-23",
+   "selection": "Sale Sharks",
+   "opp": "Newcastle Falcons",
+   "p": 0.7572,
+   "modelPick": "Sale Sharks",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.7472,
+   "hitN": 91,
+   "id": "604632",
+   "elo": [
+    1492,
+    1195
+   ],
+   "homeSide": false,
+   "form": "WWLWL",
+   "status": "pending",
+   "why": "76% Sale Sharks, rating 1492 v 1195, form WWLWL, away, calls at this level won 75% (91)"
+  },
+  {
+   "sport": "rugby",
+   "event": "Gloucester Rugby v Bath Rugby",
+   "comp": "Premiership",
+   "when": "2026-10-23T18:45Z",
+   "date": "2026-10-23",
+   "selection": "Bath Rugby",
+   "opp": "Gloucester Rugby",
+   "p": 0.6403,
+   "modelPick": "Bath Rugby",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.6003,
+   "hitN": 110,
+   "id": "604629",
+   "elo": [
+    1670,
+    1470
+   ],
+   "homeSide": false,
+   "form": "LWWLW",
+   "status": "pending",
+   "why": "64% Bath Rugby, rating 1670 v 1470, form LWWLW, away, calls at this level won 60% (110)"
   }
  ],
  "tomorrow": [
@@ -218,6 +220,29 @@
    "why": "88% Stormers, rating 1609 v 1362, form WLWLW, at home, calls at this level won 91% (76)"
   },
   {
+   "sport": "tennis",
+   "event": "Diana Shnaider v Elena Rybakina",
+   "comp": "BNB Ningbo Open Semifinal",
+   "tour": "WTA",
+   "when": "2026-10-24T09:30:00Z",
+   "date": "2026-10-24",
+   "selection": "Elena Rybakina",
+   "opp": "Diana Shnaider",
+   "p": 0.7159,
+   "modelPick": "Elena Rybakina",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.7254,
+   "hitN": 142,
+   "id": "185566",
+   "rank": [
+    1,
+    13
+   ],
+   "status": "pending",
+   "why": "72% Elena Rybakina, ranked 1 v 13, calls at this level won 73% (142)"
+  },
+  {
    "sport": "rugby",
    "event": "Leinster v Munster",
    "comp": "URC",
@@ -264,39 +289,6 @@
    "form": "WLLLW",
    "status": "pending",
    "why": "81% Ospreys, rating 1436 v 1285, form WLLLW, at home, calls at this level won 89% (65)"
-  },
-  {
-   "sport": "football",
-   "event": "Borussia Dortmund v Eintracht Frankfurt",
-   "comp": "Bundesliga",
-   "lg": "de.1",
-   "country": "Germany",
-   "tier": 1,
-   "when": "2026-10-24T16:30:00Z",
-   "date": "2026-10-24",
-   "selection": "Borussia Dortmund",
-   "opp": "Eintracht Frankfurt",
-   "side": "h",
-   "home": "Borussia Dortmund",
-   "away": "Eintracht Frankfurt",
-   "p": 0.712,
-   "modelPick": "Borussia Dortmund",
-   "list": false,
-   "reserve": true,
-   "hit": 0.718,
-   "hitN": 39,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.69,
-    0.99
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "71% Borussia Dortmund, likely 2-0, xG 2.7 v 1.0, calls at this level won 72% (39)"
   }
  ],
  "groups": [],
@@ -396,5 +388,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/26",
  "issue": 26,
- "text": "Good afternoon Douglas. Friday 23 October, 13:06 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (14 of today's 22 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Friday 23 October, 17:24 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (13 of today's 18 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
