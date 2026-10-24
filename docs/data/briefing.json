@@ -1,47 +1,23 @@
 {
- "time": "2026-10-24T12:37:43.012478+01:00",
+ "time": "2026-10-24T17:27:01.257910+01:00",
  "date": "2026-10-24",
  "stage": "refresh",
  "pricing": {
-  "priced": 34,
-  "total": 54,
+  "priced": 20,
+  "total": 32,
   "site": true,
-  "generated": "2026-10-24T09:35:04Z"
+  "generated": "2026-10-24T15:03:44Z"
  },
  "review": {
   "dropped": [],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 813,
-  "list": 9,
-  "tomorrow": 662
+  "today": 597,
+  "list": 8,
+  "tomorrow": 673
  },
  "impactful": [
-  {
-   "sport": "rugby",
-   "event": "Stade Toulousain v Perpignan",
-   "comp": "Top 14",
-   "when": "2026-10-24T14:35Z",
-   "date": "2026-10-24",
-   "selection": "Stade Toulousain",
-   "opp": "Perpignan",
-   "p": 0.9226,
-   "modelPick": "Stade Toulousain",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9079,
-   "hitN": 76,
-   "id": "604409",
-   "elo": [
-    1727,
-    1397
-   ],
-   "homeSide": true,
-   "form": "WWWWW",
-   "status": "pending",
-   "why": "92% Stade Toulousain, rating 1727 v 1397, form WWWWW, at home, calls at this level won 91% (76)"
-  },
   {
    "sport": "tennis",
    "event": "Jan Lennard Struff v Arthur Fils",
@@ -64,30 +40,6 @@
    ],
    "status": "pending",
    "why": "77% Arthur Fils, ranked 10 v 58, calls at this level won 78% (112)"
-  },
-  {
-   "sport": "rugby",
-   "event": "Stormers v Scarlets",
-   "comp": "URC",
-   "when": "2026-10-24T14:00Z",
-   "date": "2026-10-24",
-   "selection": "Stormers",
-   "opp": "Scarlets",
-   "p": 0.8802,
-   "modelPick": "Stormers",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9079,
-   "hitN": 76,
-   "id": "604060",
-   "elo": [
-    1609,
-    1362
-   ],
-   "homeSide": true,
-   "form": "WLWLW",
-   "status": "pending",
-   "why": "88% Stormers, rating 1609 v 1362, form WLWLW, at home, calls at this level won 91% (76)"
   },
   {
    "sport": "rugby",
@@ -138,27 +90,85 @@
    "why": "81% Ospreys, rating 1436 v 1285, form WLLLW, at home, calls at this level won 89% (65)"
   },
   {
-   "sport": "tennis",
-   "event": "Alexander Bublik v Daniil Medvedev",
-   "comp": "Almaty Open Semifinal",
-   "tour": "ATP",
-   "when": "2026-10-24T13:00:00Z",
+   "sport": "football",
+   "event": "Borussia Dortmund v Eintracht Frankfurt",
+   "comp": "Bundesliga",
+   "lg": "de.1",
+   "country": "Germany",
+   "tier": 1,
+   "when": "2026-10-24T16:30:00Z",
    "date": "2026-10-24",
-   "selection": "Daniil Medvedev",
-   "opp": "Alexander Bublik",
-   "p": 0.6148,
-   "modelPick": "Daniil Medvedev",
-   "tierName": "Lean",
+   "selection": "Borussia Dortmund",
+   "opp": "Eintracht Frankfurt",
+   "side": "h",
+   "home": "Borussia Dortmund",
+   "away": "Eintracht Frankfurt",
+   "p": 0.712,
+   "modelPick": "Borussia Dortmund",
    "list": false,
-   "hit": 0.5932,
-   "hitN": 236,
-   "id": "185019",
-   "rank": [
-    5,
-    19
+   "reserve": true,
+   "hit": 0.718,
+   "hitN": 39,
+   "score": [
+    2,
+    0
    ],
+   "xg": [
+    2.69,
+    0.99
+   ],
+   "rankH": null,
+   "rankA": null,
    "status": "pending",
-   "why": "61% Daniil Medvedev, ranked 5 v 19, calls at this level won 59% (236)"
+   "why": "71% Borussia Dortmund, likely 2-0, xG 2.7 v 1.0, calls at this level won 72% (39)"
+  },
+  {
+   "sport": "rugby",
+   "event": "Bristol Rugby v Exeter Chiefs",
+   "comp": "Premiership",
+   "when": "2026-10-24T16:30Z",
+   "date": "2026-10-24",
+   "selection": "Bristol Rugby",
+   "opp": "Exeter Chiefs",
+   "p": 0.6878,
+   "modelPick": "Bristol Rugby",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.6851,
+   "hitN": 89,
+   "id": "604631",
+   "elo": [
+    1561,
+    1524
+   ],
+   "homeSide": true,
+   "form": "LWWLW",
+   "status": "pending",
+   "why": "69% Bristol Rugby, rating 1561 v 1524, form LWWLW, at home, calls at this level won 69% (89)"
+  },
+  {
+   "sport": "cfb",
+   "event": "Troy Trojans v UL Monroe Warhawks",
+   "comp": "NCAA FBS",
+   "when": "2026-10-24T20:00Z",
+   "date": "2026-10-24",
+   "selection": "Troy Trojans",
+   "opp": "UL Monroe Warhawks",
+   "p": 0.8825,
+   "modelPick": "Troy Trojans",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.9341,
+   "hitN": 167,
+   "id": "401871094",
+   "elo": [
+    1485,
+    1208
+   ],
+   "homeSide": true,
+   "form": "LWLLW",
+   "status": "pending",
+   "why": "88% Troy Trojans, rating 1485 v 1208, form LWLLW, at home, calls at this level won 93% (167)"
   }
  ],
  "tomorrow": [
@@ -185,6 +195,52 @@
    "form": "WWWWW",
    "status": "pending",
    "why": "81% Minnesota Vikings, rating 1626 v 1422, form WWWWW, at home, calls at this level won 81% (31)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Leylah Fernandez v Elena Rybakina",
+   "comp": "BNB Ningbo Open Final",
+   "tour": "WTA",
+   "when": "2026-10-25T09:00:00Z",
+   "date": "2026-10-25",
+   "selection": "Elena Rybakina",
+   "opp": "Leylah Fernandez",
+   "p": 0.7796,
+   "modelPick": "Elena Rybakina",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.8842,
+   "hitN": 95,
+   "id": "185550",
+   "rank": [
+    1,
+    30
+   ],
+   "status": "pending",
+   "why": "78% Elena Rybakina, ranked 1 v 30, calls at this level won 88% (95)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Nikoloz Basilashvili v Daniil Medvedev",
+   "comp": "Almaty Open Final",
+   "tour": "ATP",
+   "when": "2026-10-25T10:00:00Z",
+   "date": "2026-10-25",
+   "selection": "Daniil Medvedev",
+   "opp": "Nikoloz Basilashvili",
+   "p": 0.7627,
+   "modelPick": "Daniil Medvedev",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.7768,
+   "hitN": 112,
+   "id": "185021",
+   "rank": [
+    5,
+    128
+   ],
+   "status": "pending",
+   "why": "76% Daniil Medvedev, ranked 5 v 128, calls at this level won 78% (112)"
   },
   {
    "sport": "football",
@@ -251,54 +307,6 @@
    "rankA": null,
    "status": "pending",
    "why": "72% Sporting Clube de Portugal, likely 2-0, xG 2.6 v 0.9, calls at this level won 72% (39)"
-  },
-  {
-   "sport": "nfl",
-   "event": "Arizona Cardinals v Denver Broncos",
-   "comp": "NFL",
-   "when": "2026-10-25T20:05Z",
-   "date": "2026-10-25",
-   "selection": "Denver Broncos",
-   "opp": "Arizona Cardinals",
-   "p": 0.7288,
-   "modelPick": "Denver Broncos",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.653,
-   "hitN": 49,
-   "id": "401873019",
-   "elo": [
-    1609,
-    1387
-   ],
-   "homeSide": false,
-   "form": "WWLWW",
-   "status": "pending",
-   "why": "73% Denver Broncos, rating 1609 v 1387, form WWLWW, away, calls at this level won 65% (49)"
-  },
-  {
-   "sport": "nfl",
-   "event": "Houston Texans v New York Giants",
-   "comp": "NFL",
-   "when": "2026-10-25T17:00Z",
-   "date": "2026-10-25",
-   "selection": "Houston Texans",
-   "opp": "New York Giants",
-   "p": 0.7187,
-   "modelPick": "Houston Texans",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.653,
-   "hitN": 49,
-   "id": "401873016",
-   "elo": [
-    1543,
-    1430
-   ],
-   "homeSide": true,
-   "form": "WWLLL",
-   "status": "pending",
-   "why": "72% Houston Texans, rating 1543 v 1430, form WWLLL, at home, calls at this level won 65% (49)"
   }
  ],
  "groups": [],
@@ -463,5 +471,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/27",
  "issue": 27,
- "text": "Good afternoon Douglas. Saturday 24 October, 12:37 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (34 of today's 54 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Saturday 24 October, 17:27 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (20 of today's 32 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
