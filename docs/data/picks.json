@@ -1,16 +1,16 @@
 {
  "generated": "2026-10-24T09:37:05",
- "fetched": "2026-10-24T12:37:51.100128+01:00",
+ "fetched": "2026-10-24T15:41:55.123497+01:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-24",
-   "count": 766,
+   "count": 768,
    "games": [
     {
      "t": "15:35",
-     "ko": "2026-10-24T14:35Z",
-     "lg": "rugby",
+     "ko": "2026-10-24T14:35:00Z",
+     "lg": "Top 14",
      "lgName": "Top 14",
      "sport": "rugby",
      "h": "Stade Toulousain",
@@ -18,10 +18,15 @@
      "side": "h",
      "pick": "Stade Toulousain",
      "c": 0.9226,
+     "p": null,
      "hit": 0.9079,
      "hitN": 76,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:00",
@@ -102,8 +107,8 @@
     },
     {
      "t": "15:00",
-     "ko": "2026-10-24T14:00Z",
-     "lg": "rugby",
+     "ko": "2026-10-24T14:00:00Z",
+     "lg": "URC",
      "lgName": "URC",
      "sport": "rugby",
      "h": "Stormers",
@@ -111,10 +116,15 @@
      "side": "h",
      "pick": "Stormers",
      "c": 0.8802,
+     "p": null,
      "hit": 0.9079,
      "hitN": 76,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "20:30",
@@ -279,11 +289,11 @@
      "res": "35-16"
     },
     {
-     "t": "14:00",
+     "t": "15:00",
      "ko": "2026-10-24T14:00:00Z",
      "lg": "nor.1",
-     "lgName": "Eliteserien",
-     "country": "Norway",
+     "lgName": "Norway Eliteserien",
+     "sport": "football",
      "h": "Bodo/Glimt",
      "a": "V\u00e5lerenga",
      "side": "h",
@@ -294,18 +304,14 @@
       "d": 0.1303,
       "a": 0.0655
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5229,
-     "o25": 0.5959,
-     "hit": 0.8397,
-     "hitN": 131,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:30",
@@ -525,10 +531,35 @@
     },
     {
      "t": "14:00",
+     "ko": "2026-10-24T13:00:00Z",
+     "lg": "af.567",
+     "lgName": "Tanzania Ligi kuu Bara",
+     "sport": "football",
+     "h": "Simba",
+     "a": "Mbeya City",
+     "side": "h",
+     "pick": "Simba",
+     "c": 0.7631,
+     "p": {
+      "h": 0.7631,
+      "d": 0.1773,
+      "a": 0.0596
+     },
+     "hit": null,
+     "hitN": null,
+     "list": true,
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
+    },
+    {
+     "t": "15:00",
      "ko": "2026-10-24T14:00:00Z",
      "lg": "af.183",
-     "lgName": "League One",
-     "country": "Scotland",
+     "lgName": "Scotland League One",
+     "sport": "football",
      "h": "Hamilton Academical",
      "a": "East Fife",
      "side": "h",
@@ -539,18 +570,14 @@
       "d": 0.1723,
       "a": 0.0657
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4641,
-     "o25": 0.5196,
-     "hit": 0.7832,
-     "hitN": 964,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:00",
@@ -599,8 +626,8 @@
     },
     {
      "t": "12:45",
-     "ko": "2026-10-24T11:45Z",
-     "lg": "rugby",
+     "ko": "2026-10-24T11:45:00Z",
+     "lg": "URC",
      "lgName": "URC",
      "sport": "rugby",
      "h": "Bulls",
@@ -608,17 +635,22 @@
      "side": "h",
      "pick": "Bulls",
      "c": 0.7583,
+     "p": null,
      "hit": 0.7472,
      "hitN": 91,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "13:00",
+     "t": "14:00",
      "ko": "2026-10-24T13:00:00Z",
      "lg": "af.389",
-     "lgName": "Premier League",
-     "country": "Kazakhstan",
+     "lgName": "Kazakhstan Premier League",
+     "sport": "football",
      "h": "Ordabasy",
      "a": "Zhenys",
      "side": "h",
@@ -629,18 +661,14 @@
       "d": 0.1649,
       "a": 0.0798
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5013,
-     "o25": 0.554,
-     "hit": 0.7832,
-     "hitN": 964,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:00",
@@ -778,11 +806,11 @@
      "reserve": true
     },
     {
-     "t": "14:00",
+     "t": "15:00",
      "ko": "2026-10-24T14:00:00Z",
      "lg": "af.601",
-     "lgName": "1. Liga Classic - Group 3",
-     "country": "Switzerland",
+     "lgName": "Switzerland 1. Liga Classic - Group 3",
+     "sport": "football",
      "h": "Baden",
      "a": "Widnau",
      "side": "h",
@@ -793,25 +821,21 @@
       "d": 0.1505,
       "a": 0.1069
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5726,
-     "o25": 0.6185,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "12:00",
+     "t": "13:00",
      "ko": "2026-10-24T12:00:00Z",
      "lg": "af.317",
-     "lgName": "1st League - RS",
-     "country": "Bosnia",
+     "lgName": "Bosnia 1st League - RS",
+     "sport": "football",
      "h": "Vele\u017e Nevesinje",
      "a": "Lakta\u0161i",
      "side": "a",
@@ -822,18 +846,14 @@
       "d": 0.1657,
       "a": 0.7399
      },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5272,
-     "o25": 0.5737,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "12:00",
@@ -1081,11 +1101,11 @@
      "unrated": false
     },
     {
-     "t": "12:00",
+     "t": "13:00",
      "ko": "2026-10-24T12:00:00Z",
      "lg": "af.85",
-     "lgName": "Regionalliga - Nordost",
-     "country": "Germany",
+     "lgName": "Germany Regionalliga - Nordost",
+     "sport": "football",
      "h": "Chemnitzer",
      "a": "Magdeburg II",
      "side": "h",
@@ -1096,18 +1116,14 @@
       "d": 0.1706,
       "a": 0.1187
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5584,
-     "o25": 0.5949,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:30",
@@ -1214,11 +1230,11 @@
      "unrated": false
     },
     {
-     "t": "13:30",
+     "t": "14:30",
      "ko": "2026-10-24T13:30:00Z",
      "lg": "af.289",
-     "lgName": "1st Division",
-     "country": "South Africa",
+     "lgName": "South Africa 1st Division",
+     "sport": "football",
      "h": "Hungry Lions",
      "a": "Venda",
      "side": "h",
@@ -1229,18 +1245,14 @@
       "d": 0.2059,
       "a": 0.0904
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4706,
-     "o25": 0.5013,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "20:30",
@@ -1325,11 +1337,11 @@
      "reserve": true
     },
     {
-     "t": "12:00",
+     "t": "13:00",
      "ko": "2026-10-24T12:00:00Z",
      "lg": "af.205",
-     "lgName": "2. Lig",
-     "country": "Turkey",
+     "lgName": "Turkey 2. Lig",
+     "sport": "football",
      "h": "G\u00fczide Gebzespor",
      "a": "Somaspor",
      "side": "h",
@@ -1340,25 +1352,21 @@
       "d": 0.1978,
       "a": 0.1135
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5128,
-     "o25": 0.5402,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "13:00",
+     "t": "14:00",
      "ko": "2026-10-24T13:00:00Z",
      "lg": "af.404",
-     "lgName": "Campionato",
-     "country": "San Marino",
+     "lgName": "San Marino Campionato",
+     "sport": "football",
      "h": "Fiorentino",
      "a": "Cailungo",
      "side": "h",
@@ -1369,18 +1377,14 @@
       "d": 0.1969,
       "a": 0.1149
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5158,
-     "o25": 0.5432,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:30",
@@ -1895,11 +1899,11 @@
      "res": null
     },
     {
-     "t": "14:00",
+     "t": "15:00",
      "ko": "2026-10-24T14:00:00Z",
      "lg": "en.6n",
-     "lgName": "National League North",
-     "country": "England",
+     "lgName": "England National League North",
+     "sport": "football",
      "h": "King's Lynn Town",
      "a": "Southport",
      "side": "h",
@@ -1910,18 +1914,14 @@
       "d": 0.1935,
       "a": 0.1482
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5616,
-     "o25": 0.5828,
-     "hit": 0.8148,
-     "hitN": 54,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "22:00",
@@ -1954,8 +1954,8 @@
     },
     {
      "t": "15:00",
-     "ko": "2026-10-24T14:00Z",
-     "lg": "rugby",
+     "ko": "2026-10-24T14:00:00Z",
+     "lg": "URC",
      "lgName": "URC",
      "sport": "rugby",
      "h": "Benetton Treviso",
@@ -1963,17 +1963,22 @@
      "side": "a",
      "pick": "Glasgow Warriors",
      "c": 0.655,
+     "p": null,
      "hit": 0.6851,
      "hitN": 89,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "13:00",
+     "t": "14:00",
      "ko": "2026-10-24T13:00:00Z",
      "lg": "af.369",
-     "lgName": "Super League",
-     "country": "Uzbekistan",
+     "lgName": "Uzbekistan Super League",
+     "sport": "football",
      "h": "Nasaf",
      "a": "Sogdiana",
      "side": "h",
@@ -1984,25 +1989,21 @@
       "d": 0.2044,
       "a": 0.1423
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5399,
-     "o25": 0.5579,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "14:00",
+     "t": "15:00",
      "ko": "2026-10-24T14:00:00Z",
      "lg": "af.564",
-     "lgName": "Ettan - S\u00f6dra",
-     "country": "Sweden",
+     "lgName": "Sweden Ettan - S\u00f6dra",
+     "sport": "football",
      "h": "H\u00e4ssleholms IF",
      "a": "Sk\u00f6vde AIK",
      "side": "h",
@@ -2013,25 +2014,21 @@
       "d": 0.2086,
       "a": 0.1384
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.53,
-     "o25": 0.547,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:30",
      "ko": "2026-10-24T14:30:00Z",
      "lg": "pt.1",
-     "lgName": "Primeira Liga",
-     "country": "Portugal",
+     "lgName": "Portugal Primeira Liga",
+     "sport": "football",
      "h": "CF Estrela da Amadora",
      "a": "Casa Pia",
      "side": "h",
@@ -2042,18 +2039,14 @@
       "d": 0.2047,
       "a": 0.1438
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5412,
-     "o25": 0.5588,
-     "hit": 0.8148,
-     "hitN": 54,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "",
@@ -2082,10 +2075,35 @@
     },
     {
      "t": "14:00",
+     "ko": "2026-10-24T13:00:00Z",
+     "lg": "af.567",
+     "lgName": "Tanzania Ligi kuu Bara",
+     "sport": "football",
+     "h": "Azam",
+     "a": "Mashujaa",
+     "side": "h",
+     "pick": "Azam",
+     "c": 0.6515,
+     "p": {
+      "h": 0.6515,
+      "d": 0.2458,
+      "a": 0.1027
+     },
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
+    },
+    {
+     "t": "15:00",
      "ko": "2026-10-24T14:00:00Z",
      "lg": "en.3",
-     "lgName": "League One",
-     "country": "England",
+     "lgName": "England League One",
+     "sport": "football",
      "h": "Reading",
      "a": "Barnsley",
      "side": "h",
@@ -2096,18 +2114,14 @@
       "d": 0.2039,
       "a": 0.1451
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5437,
-     "o25": 0.5614,
-     "hit": 0.8148,
-     "hitN": 54,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:30",
@@ -2209,11 +2223,11 @@
      "reserve": true
     },
     {
-     "t": "13:00",
+     "t": "14:00",
      "ko": "2026-10-24T13:00:00Z",
      "lg": "af.404",
-     "lgName": "Campionato",
-     "country": "San Marino",
+     "lgName": "San Marino Campionato",
+     "sport": "football",
      "h": "Murata",
      "a": "Domagnano",
      "side": "a",
@@ -2224,18 +2238,14 @@
       "d": 0.2031,
       "a": 0.6464
      },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5507,
-     "o25": 0.5677,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "12:00",
@@ -2545,11 +2555,11 @@
      "res": null
     },
     {
-     "t": "13:00",
+     "t": "14:00",
      "ko": "2026-10-24T13:00:00Z",
      "lg": "swe.1",
-     "lgName": "Allsvenskan",
-     "country": "Sweden",
+     "lgName": "Sweden Allsvenskan",
+     "sport": "football",
      "h": "BK H\u00e4cken",
      "a": "Degerfors IF",
      "side": "h",
@@ -2560,18 +2570,14 @@
       "d": 0.2165,
       "a": 0.1463
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5285,
-     "o25": 0.5406,
-     "hit": 0.7052,
-     "hitN": 78,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:00",
@@ -2690,19 +2696,25 @@
      "unrated": false
     },
     {
-     "t": "14:00",
+     "t": "15:00",
+     "ko": "2026-10-24T14:00:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 BNP Paribas Fortis European Open",
+     "lgName": "ATP \u00b7 BNP Paribas Fortis European Open \u00b7 Semifinal",
      "sport": "tennis",
      "h": "Tallon Griekspoor",
      "a": "Francisco Cerundolo",
      "side": "a",
      "pick": "Francisco Cerundolo",
      "c": 0.6356,
+     "p": null,
      "hit": 0.5932,
      "hitN": 236,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "03:00",
@@ -2727,8 +2739,8 @@
     },
     {
      "t": "15:35",
-     "ko": "2026-10-24T14:35Z",
-     "lg": "rugby",
+     "ko": "2026-10-24T14:35:00Z",
+     "lg": "Top 14",
      "lgName": "Top 14",
      "sport": "rugby",
      "h": "Bayonne",
@@ -2736,17 +2748,22 @@
      "side": "h",
      "pick": "Bayonne",
      "c": 0.6345,
+     "p": null,
      "hit": 0.6003,
      "hitN": 110,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
-     "t": "15:30",
+     "t": "14:30",
      "ko": "2026-10-24T13:30:00Z",
      "lg": "de.1",
-     "lgName": "Bundesliga",
-     "country": "Germany",
+     "lgName": "Germany Bundesliga",
+     "sport": "football",
      "h": "FC Augsburg",
      "a": "1. FC Union Berlin",
      "side": "h",
@@ -2757,18 +2774,14 @@
       "d": 0.2014,
       "a": 0.1654
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5681,
-     "o25": 0.5833,
-     "hit": 0.7052,
-     "hitN": 78,
-     "celtic": false,
+     "hit": null,
+     "hitN": null,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:00",
