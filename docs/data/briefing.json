@@ -1,177 +1,27 @@
 {
- "time": "2026-10-24T17:27:01.257910+01:00",
- "date": "2026-10-24",
- "stage": "refresh",
+ "time": "2026-10-25T08:13:08.699741+00:00",
+ "date": "2026-10-25",
+ "stage": "briefing",
  "pricing": {
-  "priced": 20,
-  "total": 32,
+  "priced": 129,
+  "total": 248,
   "site": true,
-  "generated": "2026-10-24T15:03:44Z"
+  "generated": "2026-10-25T04:35:35Z"
  },
  "review": {
-  "dropped": [],
+  "dropped": [
+   "Multiplier",
+   "Multiplier (alternative)",
+   "Multiplier"
+  ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 597,
-  "list": 8,
-  "tomorrow": 673
+  "today": 645,
+  "list": 9,
+  "tomorrow": 108
  },
  "impactful": [
-  {
-   "sport": "tennis",
-   "event": "Jan Lennard Struff v Arthur Fils",
-   "comp": "BNP Paribas Fortis European Open Semifinal",
-   "tour": "ATP",
-   "when": "2026-10-24T16:30:00Z",
-   "date": "2026-10-24",
-   "selection": "Arthur Fils",
-   "opp": "Jan Lennard Struff",
-   "p": 0.766,
-   "modelPick": "Arthur Fils",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.7768,
-   "hitN": 112,
-   "id": "185065",
-   "rank": [
-    10,
-    58
-   ],
-   "status": "pending",
-   "why": "77% Arthur Fils, ranked 10 v 58, calls at this level won 78% (112)"
-  },
-  {
-   "sport": "rugby",
-   "event": "Leinster v Munster",
-   "comp": "URC",
-   "when": "2026-10-24T17:00Z",
-   "date": "2026-10-24",
-   "selection": "Leinster",
-   "opp": "Munster",
-   "p": 0.8233,
-   "modelPick": "Leinster",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.8923,
-   "hitN": 65,
-   "id": "604062",
-   "elo": [
-    1715,
-    1548
-   ],
-   "homeSide": true,
-   "form": "WLLWW",
-   "status": "pending",
-   "why": "82% Leinster, rating 1715 v 1548, form WLLWW, at home, calls at this level won 89% (65)"
-  },
-  {
-   "sport": "rugby",
-   "event": "Ospreys v Dragons",
-   "comp": "URC",
-   "when": "2026-10-24T18:00Z",
-   "date": "2026-10-24",
-   "selection": "Ospreys",
-   "opp": "Dragons",
-   "p": 0.8093,
-   "modelPick": "Ospreys",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.8923,
-   "hitN": 65,
-   "id": "604063",
-   "elo": [
-    1436,
-    1285
-   ],
-   "homeSide": true,
-   "form": "WLLLW",
-   "status": "pending",
-   "why": "81% Ospreys, rating 1436 v 1285, form WLLLW, at home, calls at this level won 89% (65)"
-  },
-  {
-   "sport": "football",
-   "event": "Borussia Dortmund v Eintracht Frankfurt",
-   "comp": "Bundesliga",
-   "lg": "de.1",
-   "country": "Germany",
-   "tier": 1,
-   "when": "2026-10-24T16:30:00Z",
-   "date": "2026-10-24",
-   "selection": "Borussia Dortmund",
-   "opp": "Eintracht Frankfurt",
-   "side": "h",
-   "home": "Borussia Dortmund",
-   "away": "Eintracht Frankfurt",
-   "p": 0.712,
-   "modelPick": "Borussia Dortmund",
-   "list": false,
-   "reserve": true,
-   "hit": 0.718,
-   "hitN": 39,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.69,
-    0.99
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "71% Borussia Dortmund, likely 2-0, xG 2.7 v 1.0, calls at this level won 72% (39)"
-  },
-  {
-   "sport": "rugby",
-   "event": "Bristol Rugby v Exeter Chiefs",
-   "comp": "Premiership",
-   "when": "2026-10-24T16:30Z",
-   "date": "2026-10-24",
-   "selection": "Bristol Rugby",
-   "opp": "Exeter Chiefs",
-   "p": 0.6878,
-   "modelPick": "Bristol Rugby",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.6851,
-   "hitN": 89,
-   "id": "604631",
-   "elo": [
-    1561,
-    1524
-   ],
-   "homeSide": true,
-   "form": "LWWLW",
-   "status": "pending",
-   "why": "69% Bristol Rugby, rating 1561 v 1524, form LWWLW, at home, calls at this level won 69% (89)"
-  },
-  {
-   "sport": "cfb",
-   "event": "Troy Trojans v UL Monroe Warhawks",
-   "comp": "NCAA FBS",
-   "when": "2026-10-24T20:00Z",
-   "date": "2026-10-24",
-   "selection": "Troy Trojans",
-   "opp": "UL Monroe Warhawks",
-   "p": 0.8825,
-   "modelPick": "Troy Trojans",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.9341,
-   "hitN": 167,
-   "id": "401871094",
-   "elo": [
-    1485,
-    1208
-   ],
-   "homeSide": true,
-   "form": "LWLLW",
-   "status": "pending",
-   "why": "88% Troy Trojans, rating 1485 v 1208, form LWLLW, at home, calls at this level won 93% (167)"
-  }
- ],
- "tomorrow": [
   {
    "sport": "nfl",
    "event": "Minnesota Vikings v Indianapolis Colts",
@@ -307,159 +157,322 @@
    "rankA": null,
    "status": "pending",
    "why": "72% Sporting Clube de Portugal, likely 2-0, xG 2.6 v 0.9, calls at this level won 72% (39)"
+  },
+  {
+   "sport": "nfl",
+   "event": "Arizona Cardinals v Denver Broncos",
+   "comp": "NFL",
+   "when": "2026-10-25T20:05Z",
+   "date": "2026-10-25",
+   "selection": "Denver Broncos",
+   "opp": "Arizona Cardinals",
+   "p": 0.7288,
+   "modelPick": "Denver Broncos",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.653,
+   "hitN": 49,
+   "id": "401873019",
+   "elo": [
+    1609,
+    1387
+   ],
+   "homeSide": false,
+   "form": "WWLWW",
+   "status": "pending",
+   "why": "73% Denver Broncos, rating 1609 v 1387, form WWLWW, away, calls at this level won 65% (49)"
+  }
+ ],
+ "tomorrow": [
+  {
+   "sport": "tennis",
+   "event": "Martin Landaluce v Alexander Zverev",
+   "comp": "Erste Bank Open Round 1",
+   "tour": "ATP",
+   "when": "2026-10-26T04:00:00Z",
+   "date": "2026-10-26",
+   "selection": "Alexander Zverev",
+   "opp": "Martin Landaluce",
+   "p": 0.8887,
+   "modelPick": "Alexander Zverev",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.9483,
+   "hitN": 58,
+   "id": "185188",
+   "rank": [
+    2,
+    67
+   ],
+   "status": "pending",
+   "why": "89% Alexander Zverev, ranked 2 v 67, calls at this level won 95% (58)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Carlos Alcaraz v Karen Khachanov",
+   "comp": "Erste Bank Open Round 1",
+   "tour": "ATP",
+   "when": "2026-10-26T04:00:00Z",
+   "date": "2026-10-26",
+   "selection": "Carlos Alcaraz",
+   "opp": "Karen Khachanov",
+   "p": 0.847,
+   "modelPick": "Carlos Alcaraz",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.8356,
+   "hitN": 73,
+   "id": "185181",
+   "rank": [
+    3,
+    25
+   ],
+   "status": "pending",
+   "why": "85% Carlos Alcaraz, ranked 3 v 25, calls at this level won 84% (73)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Arthur Fils v Hubert Hurkacz",
+   "comp": "Swiss Indoors Basel Round 1",
+   "tour": "ATP",
+   "when": "2026-10-26T04:00:00Z",
+   "date": "2026-10-26",
+   "selection": "Arthur Fils",
+   "opp": "Hubert Hurkacz",
+   "p": 0.6151,
+   "modelPick": "Arthur Fils",
+   "tierName": "Lean",
+   "list": false,
+   "hit": 0.5932,
+   "hitN": 236,
+   "id": "185134",
+   "rank": [
+    10,
+    30
+   ],
+   "status": "pending",
+   "why": "62% Arthur Fils, ranked 10 v 30, calls at this level won 59% (236)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Mika Stojsavljevic v Alexandra Eala",
+   "comp": "Toray Pan Pacific Open Tennis Round 1",
+   "tour": "WTA",
+   "when": "2026-10-26T04:00:00Z",
+   "date": "2026-10-26",
+   "selection": "Alexandra Eala",
+   "opp": "Mika Stojsavljevic",
+   "p": 0.8382,
+   "modelPick": "Alexandra Eala",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.8816,
+   "hitN": 76,
+   "id": "185681",
+   "rank": [
+    20,
+    null
+   ],
+   "status": "pending",
+   "why": "84% Alexandra Eala, calls at this level won 88% (76)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Casper Ruud v Dominic Stricker",
+   "comp": "Swiss Indoors Basel Round 1",
+   "tour": "ATP",
+   "when": "2026-10-26T04:00:00Z",
+   "date": "2026-10-26",
+   "selection": "Casper Ruud",
+   "opp": "Dominic Stricker",
+   "p": 0.8337,
+   "modelPick": "Casper Ruud",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.8356,
+   "hitN": 73,
+   "id": "185137",
+   "rank": [
+    24,
+    null
+   ],
+   "status": "pending",
+   "why": "83% Casper Ruud, calls at this level won 84% (73)"
   }
  ],
  "groups": [],
  "yesterday": {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "football": {
-   "n": 207,
-   "correct": 138,
-   "acc": 0.6667
+   "n": 747,
+   "correct": 504,
+   "acc": 0.6747
   },
   "list": {
-   "n": 6,
+   "n": 5,
    "won": 3,
    "misses": [
-    "Vipers v Police 0-0",
-    "Dornbirn v Rheindorf Altach II 0-2",
-    "Royal Vision v Inter Star 1-1"
+    "Bodo/Glimt v Vålerenga 0-1",
+    "Ordabasy v Zhenys 1-1"
    ]
   },
   "tennis": {
-   "n": 20,
-   "correct": 15,
-   "acc": 0.75
+   "n": 47,
+   "correct": 25,
+   "acc": 0.5319
   },
   "sports": {
-   "n": 15,
-   "correct": 7,
-   "acc": 0.4667
+   "n": 69,
+   "correct": 41,
+   "acc": 0.5942
   },
   "oddsTab": {
    "groups": [
     {
-     "name": "Wider Treble",
-     "rank": "fill",
-     "odds": 2.02,
-     "p": 0.3901,
-     "status": "lost",
-     "paid": 0,
-     "legsWon": 2,
-     "legsLost": 1,
-     "legsPending": 0,
-     "legs": [
-      {
-       "pick": "Al-Shabab",
-       "event": "Al-Shabab v Smail",
-       "sport": "football",
-       "comp": "Professional League",
-       "when": "2026-10-23T12:50:00Z",
-       "odds": 1.28,
-       "est": false,
-       "p": 0.7078,
-       "status": "won",
-       "result": "2-1"
-      },
-      {
-       "pick": "Vipers",
-       "event": "Vipers v Police",
-       "sport": "football",
-       "comp": "Premier League",
-       "when": "2026-10-23T17:00:00Z",
-       "odds": 1.17,
-       "est": true,
-       "p": 0.8075,
-       "status": "lost",
-       "result": "0-0"
-      },
-      {
-       "pick": "Oddevold",
-       "event": "Oddevold v GIF Sundsvall",
-       "sport": "football",
-       "comp": "Superettan",
-       "when": "2026-10-23T17:00:00Z",
-       "odds": 1.35,
-       "est": false,
-       "p": 0.6825,
-       "status": "won",
-       "result": "7-0"
-      }
-     ]
-    },
-    {
      "name": "Wider Fourfold",
      "rank": "fill",
-     "odds": 2.04,
-     "p": 0.3726,
+     "odds": 2.08,
+     "p": 0.3609,
      "status": "lost",
      "paid": 0,
+     "paidBest": 0,
      "legsWon": 3,
      "legsLost": 1,
      "legsPending": 0,
      "legs": [
       {
-       "pick": "Royal Vision",
-       "event": "Royal Vision v Inter Star",
+       "pick": "Spišská Nová Ves",
+       "event": "Spišská Nová Ves v Kežmarok",
        "sport": "football",
-       "comp": "Ligue A",
-       "when": "2026-10-23T13:00:00Z",
-       "odds": 1.22,
+       "comp": "3. liga - East",
+       "when": "2026-10-24T11:30:00Z",
+       "odds": 1.21,
+       "best": 1.21,
+       "lastOdds": null,
        "est": true,
-       "p": 0.7788,
+       "p": 0.7832,
+       "status": "won",
+       "result": "4-1"
+      },
+      {
+       "pick": "Bodo/Glimt",
+       "event": "Bodo/Glimt v Vålerenga",
+       "sport": "football",
+       "comp": "Eliteserien",
+       "when": "2026-10-24T14:00:00Z",
+       "odds": 1.13,
+       "best": 1.16,
+       "lastOdds": null,
+       "est": false,
+       "p": 0.8042,
+       "status": "lost",
+       "result": "0-1"
+      },
+      {
+       "pick": "Hamilton Academical",
+       "event": "Hamilton Academical v East Fife",
+       "sport": "football",
+       "comp": "League One",
+       "when": "2026-10-24T14:00:00Z",
+       "odds": 1.29,
+       "best": 1.32,
+       "lastOdds": null,
+       "est": false,
+       "p": 0.708,
+       "status": "won",
+       "result": "2-1"
+      },
+      {
+       "pick": "Ospreys",
+       "event": "Ospreys v Dragons",
+       "sport": "rugby",
+       "comp": "URC",
+       "when": "2026-10-24T18:00Z",
+       "odds": 1.18,
+       "best": 1.18,
+       "lastOdds": null,
+       "est": true,
+       "p": 0.8093,
+       "status": "won",
+       "result": "31-14"
+      }
+     ]
+    },
+    {
+     "name": "Wider Treble",
+     "rank": "fill",
+     "odds": 2.02,
+     "p": 0.3632,
+     "status": "lost",
+     "paid": 0,
+     "paidBest": 0,
+     "legsWon": 2,
+     "legsLost": 1,
+     "legsPending": 0,
+     "legs": [
+      {
+       "pick": "Púchov",
+       "event": "Púchov v Slovan Duslo Šaľa",
+       "sport": "football",
+       "comp": "3. liga - West",
+       "when": "2026-10-24T11:30:00Z",
+       "odds": 1.26,
+       "best": 1.3,
+       "lastOdds": null,
+       "est": false,
+       "p": 0.676,
+       "status": "won",
+       "result": "4-0"
+      },
+      {
+       "pick": "Fiorentino",
+       "event": "Fiorentino v Cailungo",
+       "sport": "football",
+       "comp": "Campionato",
+       "when": "2026-10-24T13:00:00Z",
+       "odds": 1.38,
+       "best": 1.42,
+       "lastOdds": null,
+       "est": false,
+       "p": 0.6526,
        "status": "lost",
        "result": "1-1"
       },
       {
-       "pick": "Al Seeb",
-       "event": "Al Seeb v Sohar",
-       "sport": "football",
-       "comp": "Professional League",
-       "when": "2026-10-23T15:50:00Z",
-       "odds": 1.36,
-       "est": false,
-       "p": 0.6636,
-       "status": "won",
-       "result": "2-0"
-      },
-      {
-       "pick": "Cham",
-       "event": "Cham v ASV Neumarkt",
-       "sport": "football",
-       "comp": "Oberliga - Bayern Nord",
-       "when": "2026-10-23T17:00:00Z",
-       "odds": 1.15,
-       "est": true,
-       "p": 0.8075,
-       "status": "won",
-       "result": "5-1"
-      },
-      {
-       "pick": "Connacht",
-       "event": "Connacht v Zebre",
+       "pick": "Leinster",
+       "event": "Leinster v Munster",
        "sport": "rugby",
        "comp": "URC",
-       "when": "2026-10-23T18:45Z",
-       "odds": 1.07,
+       "when": "2026-10-24T17:00Z",
+       "odds": 1.16,
+       "best": 1.16,
+       "lastOdds": null,
        "est": true,
-       "p": 0.8929,
+       "p": 0.8233,
        "status": "won",
-       "result": "48-27"
+       "result": "24-18"
       }
      ]
     }
    ],
    "overall": {
-    "groups": 63,
-    "settled": 61,
+    "groups": 69,
+    "settled": 63,
     "won": 11,
-    "lost": 50,
-    "pending": 2,
-    "legs": 292,
-    "legsWon": 211,
+    "lost": 52,
+    "pending": 6,
+    "legs": 299,
+    "legsWon": 216,
     "returned": 40.5,
-    "staked": 61,
-    "expected": 19.78
+    "staked": 63,
+    "returnedBest": 43.39,
+    "expected": 20.5,
+    "clv": {
+     "n": 15,
+     "shortened": 7,
+     "drifted": 2,
+     "mean": 0.0083
+    }
    }
   },
   "groups": {
@@ -469,7 +482,7 @@
    "legsWon": 0
   }
  },
- "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/27",
- "issue": 27,
- "text": "Good afternoon Douglas. Saturday 24 October, 17:27 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (20 of today's 32 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/28",
+ "issue": 28,
+ "text": "Good morning Douglas. Sunday 25 October, 08:13 UK.\n\n### Yesterday\n**Susie (Auditor):** Daily List 3/5 (misses: Bodo/Glimt v Vålerenga 0-1, Ordabasy v Zhenys 1-1); football overall 67% of 747; tennis 25/47; other sports 41/69.\n\n**Jade (Accumulator Strategist): yesterday's groups**\n\n| Group | Odds | Result | Legs | Lost on |\n|---|---|---|---|---|\n| Wider Fourfold | 2.08 | Lost | 3 won, 1 lost | Bodo/Glimt (0-1) |\n| Wider Treble | 2.02 | Lost | 2 won, 1 lost | Fiorentino (1-1) |\n\nRunning record: 11 of 63 groups won (tested chances expected 20.5), legs 216/299, return on 1 unit a group -22.50.\n\n### Today: what matters and why\n- **Minnesota Vikings v Indianapolis Colts** (NFL, 17:00): 81% Minnesota Vikings, rating 1626 v 1422, form WWWWW, at home, calls at this level won 81% (31)\n- **Leylah Fernandez v Elena Rybakina** (BNB Ningbo Open Final, 09:00): 78% Elena Rybakina, ranked 1 v 30, calls at this level won 88% (95)\n- **Nikoloz Basilashvili v Daniil Medvedev** (Almaty Open Final, 10:00): 76% Daniil Medvedev, ranked 5 v 128, calls at this level won 78% (112)\n- **FC Internazionale Milano v ACF Fiorentina** (Serie A, 11:30): 80% FC Internazionale Milano, likely 3-0, xG 3.0 v 0.8, calls at this level won 73% (111)\n- **Sporting Clube de Portugal v Académico de Viseu** (Primeira Liga, 20:30): 72% Sporting Clube de Portugal, likely 2-0, xG 2.6 v 0.9, calls at this level won 72% (39)\n- **Arizona Cardinals v Denver Broncos** (NFL, 20:05): 73% Denver Broncos, rating 1609 v 1387, form WWLWW, away, calls at this level won 65% (49)\n\n**Nina (Daily Board):** 645 games rated by the model today, 9 on the Daily List.\n\n### Tomorrow\n- **Martin Landaluce v Alexander Zverev** (Erste Bank Open Round 1, 04:00): 89% Alexander Zverev, ranked 2 v 67, calls at this level won 95% (58)\n- **Carlos Alcaraz v Karen Khachanov** (Erste Bank Open Round 1, 04:00): 85% Carlos Alcaraz, ranked 3 v 25, calls at this level won 84% (73)\n- **Arthur Fils v Hubert Hurkacz** (Swiss Indoors Basel Round 1, 04:00): 62% Arthur Fils, ranked 10 v 30, calls at this level won 59% (236)\n- **Mika Stojsavljevic v Alexandra Eala** (Toray Pan Pacific Open Tennis Round 1, 04:00): 84% Alexandra Eala, calls at this level won 88% (76)\n- **Casper Ruud v Dominic Stricker** (Swiss Indoors Basel Round 1, 04:00): 83% Casper Ruud, calls at this level won 84% (73)\n\n### Three groups of five\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (129 of today's 248 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
