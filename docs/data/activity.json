@@ -430,8 +430,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-26T01:22:50.497953+00:00",
+ "fetched": "2026-10-26T07:10:17.436149+00:00",
  "commits": [
+  {
+   "sha": "5d483ca",
+   "msg": "Archive predictions and record for 2026-10-26 [skip ci]",
+   "date": "2026-10-26T04:40:35Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5d483ca90e4a63a7bba4efdf827aeb88b6036073"
+  },
   {
    "sha": "2423a87",
    "msg": "Archive predictions and record for 2026-10-26 [skip ci]",
@@ -545,15 +551,15 @@
    "msg": "deploy.yml: note-only pushes do not rebuild",
    "date": "2026-10-25T22:43:01Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/82b4180268634d7cc316e7c8a5aa8633344763dd"
-  },
-  {
-   "sha": "f4b65dd",
-   "msg": "deploy.yml: guard sports and groupings, floor the football count, fail on a lost App token",
-   "date": "2026-10-25T22:42:44Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f4b65dde2507a71e92edd8cc72bad625ca5293ab"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-26T04:36:18Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40269928434"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-26T00:19:07Z",
@@ -607,12 +613,6 @@
    "createdAt": "2026-10-25T20:53:02Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40232851149"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-25T19:27:12Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40226097144"
   }
  ]
 }
