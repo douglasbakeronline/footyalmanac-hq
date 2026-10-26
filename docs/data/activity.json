@@ -430,8 +430,32 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-26T08:39:46.878457+00:00",
+ "fetched": "2026-10-26T09:46:08.744780+00:00",
  "commits": [
+  {
+   "sha": "80252c7",
+   "msg": "Archive predictions and record for 2026-10-26 [skip ci]",
+   "date": "2026-10-26T09:00:10Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/80252c75b73c6fd42f15ba0a04cf9a37a2fc5052"
+  },
+  {
+   "sha": "eb385a0",
+   "msg": "Bets: every leg keeps its full board row after kick-off",
+   "date": "2026-10-26T08:56:23Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/eb385a08e1677f4e0167eb0b4822ef63f0cf5ccd"
+  },
+  {
+   "sha": "55f2900",
+   "msg": "Archive predictions and record for 2026-10-26 [skip ci]",
+   "date": "2026-10-26T08:54:49Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/55f2900ad071ae3a76277229cd7f747869e02e71"
+  },
+  {
+   "sha": "b51623f",
+   "msg": "Bets: locked or started legs show price at lock, not stale",
+   "date": "2026-10-26T08:52:07Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/b51623fb767d798d498869f3987dab83fe920bf2"
+  },
   {
    "sha": "63508a6",
    "msg": "Archive predictions and record for 2026-10-26 [skip ci]",
@@ -527,33 +551,21 @@
    "msg": "Bets: strict won/lost Card record beside the Late tile",
    "date": "2026-10-26T06:49:44Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e50d2c02eecde931675a6bd9d8963a686a66813c"
-  },
-  {
-   "sha": "56d4689",
-   "msg": "Bets: three labelled figures on each group instead of \"Lands about N in 10\"",
-   "date": "2026-10-26T06:48:39Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/56d4689ee4dfdf41412f48d2bbf29150ef5ff7cf"
-  },
-  {
-   "sha": "f27d8e2",
-   "msg": "Bets: show when every price was read, mark stale reads, drop the dead Odds tab",
-   "date": "2026-10-26T06:47:23Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f27d8e277c20904d3e066c5fcc6bee34b61c592d"
-  },
-  {
-   "sha": "50c0102",
-   "msg": "Note: home/away tilt test, 26 Oct 2026, not shipped",
-   "date": "2026-10-26T06:22:11Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/50c0102d8701eb31f063540240591e782952c9b6"
-  },
-  {
-   "sha": "ca06824",
-   "msg": "Add tools/home_away_tilt.py: test the home/away tilt and RHO on the replay",
-   "date": "2026-10-26T06:22:11Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ca06824832ef59989883504c01a694333b80bd26"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-26T08:56:28Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40295790289"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-26T08:52:12Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40295277255"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-26T08:34:00Z",
@@ -601,18 +613,6 @@
    "createdAt": "2026-10-25T22:57:39Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40242566759"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-25T22:57:38Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40242565261"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-25T22:57:24Z",
-   "name": "Office merge window",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40242548750"
   }
  ]
 }
