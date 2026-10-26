@@ -430,8 +430,14 @@
    "outcome": "data"
   }
  ],
- "fetched": "2026-10-26T13:34:40.621380+00:00",
+ "fetched": "2026-10-26T17:29:38.913870+00:00",
  "commits": [
+  {
+   "sha": "469a1e3",
+   "msg": "Archive predictions and record for 2026-10-26 [skip ci]",
+   "date": "2026-10-26T13:36:46Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/469a1e3ec9634f5687699fffb24a2d6000f951a1"
+  },
   {
    "sha": "b7f88a8",
    "msg": "Office agent (sports): College football landing below its quotes (#89)",
@@ -545,17 +551,17 @@
    "msg": "Page: a tennis rate chip reads \"live\", or is not drawn",
    "date": "2026-10-26T07:33:20Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/68dcbe83d1a00015c73ec072b9dcd0efe81147f6"
-  },
-  {
-   "sha": "3b388f7",
-   "msg": "Tennis rows quote the live own-band record, or nothing",
-   "date": "2026-10-26T07:30:38Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3b388f788d8cc3ccf8577ff4de3296266f7d74fe"
   }
  ],
  "runs": [
   {
-   "conclusion": "",
+   "conclusion": "success",
+   "createdAt": "2026-10-26T15:40:27Z",
+   "name": "Office merge window",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40351626064"
+  },
+  {
+   "conclusion": "success",
    "createdAt": "2026-10-26T13:32:12Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40331424981"
@@ -607,12 +613,6 @@
    "createdAt": "2026-10-26T13:24:26Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40330289896"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-26T13:24:17Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40330269293"
   }
  ]
 }
