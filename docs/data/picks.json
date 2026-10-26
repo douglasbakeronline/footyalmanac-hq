@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-26T17:47:45",
- "fetched": "2026-10-26T19:02:39.150167+00:00",
+ "generated": "2026-10-26T19:46:37",
+ "fetched": "2026-10-26T20:48:06.833648+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-26",
-   "count": 60,
+   "count": 53,
    "games": [
     {
      "t": "15:30",
@@ -61,8 +61,8 @@
      "pick": "Casper Ruud",
      "c": 0.8337,
      "p": null,
-     "hit": null,
-     "hitN": null,
+     "hit": 0.8356,
+     "hitN": 73,
      "list": false,
      "reserve": true,
      "pinned": true,
@@ -87,9 +87,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "Lourdes Ayala won"
     },
     {
      "t": "16:30",
@@ -108,9 +108,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Jakub Mensik won"
     },
     {
      "t": "23:00",
@@ -175,8 +175,8 @@
      "side": "h",
      "pick": "Elizara Yaneva",
      "c": 0.7541,
-     "hit": 0.8056,
-     "hitN": 36,
+     "hit": 0.8108,
+     "hitN": 37,
      "list": false,
      "reserve": true
     },
@@ -197,9 +197,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Ayla Aksu won"
     },
     {
      "t": "14:00",
@@ -274,8 +274,8 @@
      "pick": "Learner Tien",
      "c": 0.6843,
      "p": null,
-     "hit": 0.6923,
-     "hitN": 52,
+     "hit": 0.6985,
+     "hitN": 199,
      "list": false,
      "reserve": true,
      "pinned": true,
@@ -388,9 +388,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "3-1"
     },
     {
      "t": "04:30",
@@ -436,47 +436,24 @@
     },
     {
      "t": "19:30",
+     "ko": "2026-10-26T19:30:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 Curitiba Open",
+     "lgName": "WTA \u00b7 Curitiba Open \u00b7 Round 1",
      "sport": "tennis",
      "h": "Lucia Bronzetti",
      "a": "Luisina Giovannini",
      "side": "h",
      "pick": "Lucia Bronzetti",
      "c": 0.6227,
+     "p": null,
      "hit": 0.6392,
      "hitN": 97,
      "list": false,
-     "reserve": true
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-26T17:00:00Z",
-     "lg": "af.204",
-     "lgName": "1. Lig",
-     "country": "Turkey",
-     "h": "Mardin 1969",
-     "a": "Manisa F.K.",
-     "side": "h",
-     "pick": "Mardin 1969",
-     "c": 0.6119,
-     "p": {
-      "h": 0.6119,
-      "d": 0.2196,
-      "a": 0.1685
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5462,
-     "o25": 0.5533,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "22:05",
@@ -500,35 +477,6 @@
      ],
      "btts": 0.5398,
      "o25": 0.5453,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-26T17:00:00Z",
-     "lg": "af.328",
-     "lgName": "Esiliiga A",
-     "country": "Estonia",
-     "h": "Viimsi",
-     "a": "Flora II",
-     "side": "h",
-     "pick": "Viimsi",
-     "c": 0.6007,
-     "p": {
-      "h": 0.6007,
-      "d": 0.2131,
-      "a": 0.1861
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5702,
-     "o25": 0.5777,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -595,35 +543,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-10-26T16:00:00Z",
-     "lg": "af.1126",
-     "lgName": "Esiliiga B",
-     "country": "Estonia",
-     "h": "Levadia U19",
-     "a": "Parnu JK Vaprus U21",
-     "side": "h",
-     "pick": "Levadia U19",
-     "c": 0.5263,
-     "p": {
-      "h": 0.5263,
-      "d": 0.2017,
-      "a": 0.272
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.6378,
-     "o25": 0.6422,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:00",
      "ko": "2026-10-26T19:00:00Z",
      "lg": "afu.702",
@@ -676,35 +595,6 @@
      "o25": 0.4295,
      "hit": 0.4896,
      "hitN": 194,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-26T16:00:00Z",
-     "lg": "af.361",
-     "lgName": "1 Lyga",
-     "country": "Lithuania",
-     "h": "Transinvest 2",
-     "a": "FA \u0160iauliai II",
-     "side": "h",
-     "pick": "Transinvest 2",
-     "c": 0.5174,
-     "p": {
-      "h": 0.5174,
-      "d": 0.22,
-      "a": 0.2626
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.6083,
-     "o25": 0.6067,
-     "hit": 0.5376,
-     "hitN": 6805,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -1059,35 +949,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-10-26T17:00:00Z",
-     "lg": "hrv.1",
-     "lgName": "HNL",
-     "country": "Croatia",
-     "h": "Istra 1961",
-     "a": "HNK Hajduk Split",
-     "side": "a",
-     "pick": "HNK Hajduk Split",
-     "c": 0.4371,
-     "p": {
-      "h": 0.2839,
-      "d": 0.279,
-      "a": 0.4371
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5364,
-     "o25": 0.5074,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:00",
      "ko": "2026-10-26T19:00:00Z",
      "lg": "afu.702",
@@ -1291,35 +1152,6 @@
      "unrated": false
     },
     {
-     "t": "16:30",
-     "ko": "2026-10-26T16:30:00Z",
-     "lg": "af.236",
-     "lgName": "First League",
-     "country": "Russia",
-     "h": "Shinnik Yaroslavl",
-     "a": "Spartak Kostroma",
-     "side": "h",
-     "pick": "Shinnik Yaroslavl",
-     "c": 0.3829,
-     "p": {
-      "h": 0.3829,
-      "d": 0.332,
-      "a": 0.2851
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4756,
-     "o25": 0.4309,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "22:00",
      "ko": "2026-10-26T22:00:00Z",
      "lg": "af.131",
@@ -1370,35 +1202,6 @@
      ],
      "btts": 0.5281,
      "o25": 0.4922,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-10-26T16:00:00Z",
-     "lg": "af.129",
-     "lgName": "Primera Nacional",
-     "country": "Argentina",
-     "h": "Nueva Chicago",
-     "a": "San Martin S.J.",
-     "side": "d",
-     "pick": "Draw",
-     "c": 0.3622,
-     "p": {
-      "h": 0.3175,
-      "d": 0.3622,
-      "a": 0.3203
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4492,
-     "o25": 0.4002,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1563,17 +1366,17 @@
     },
     "reserve": {
      "n": 23,
-     "won": 7,
-     "lost": 2,
+     "won": 10,
+     "lost": 3,
      "void": 0,
      "started": 5,
-     "upcoming": 9
+     "upcoming": 5
     }
    }
   },
   {
    "date": "2026-10-27",
-   "count": 211,
+   "count": 217,
    "games": [
     {
      "t": "07:30",
@@ -1591,6 +1394,21 @@
      "reserve": true
     },
     {
+     "t": "14:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Curitiba Open",
+     "sport": "tennis",
+     "h": "Maria Florencia Urrutia",
+     "a": "Francesca Jones",
+     "side": "a",
+     "pick": "Francesca Jones",
+     "c": 0.8932,
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "16:30",
      "lg": "ATP",
      "lgName": "ATP \u00b7 Erste Bank Open",
@@ -1600,6 +1418,21 @@
      "side": "a",
      "pick": "Alexander Zverev",
      "c": 0.8887,
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "17:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Curitiba Open",
+     "sport": "tennis",
+     "h": "Yasmine Kabbaj",
+     "a": "Rebeca Pereira",
+     "side": "h",
+     "pick": "Yasmine Kabbaj",
+     "c": 0.8837,
      "hit": null,
      "hitN": null,
      "list": false,
@@ -1636,6 +1469,21 @@
      "reserve": true
     },
     {
+     "t": "15:30",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Curitiba Open",
+     "sport": "tennis",
+     "h": "Solana Sierra",
+     "a": "Justina Maria Gonzalez Daniele",
+     "side": "h",
+     "pick": "Solana Sierra",
+     "c": 0.8387,
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "14:30",
      "lg": "ATP",
      "lgName": "ATP \u00b7 Swiss Indoors Basel",
@@ -1665,6 +1513,21 @@
      "hitN": 89,
      "list": true,
      "reserve": false
+    },
+    {
+     "t": "21:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Curitiba Open",
+     "sport": "tennis",
+     "h": "Julia Grabher",
+     "a": "Carolina Alves",
+     "side": "h",
+     "pick": "Julia Grabher",
+     "c": 0.8104,
+     "hit": null,
+     "hitN": null,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "13:00",
@@ -1778,8 +1641,8 @@
      "side": "a",
      "pick": "Selena Janicijevic",
      "c": 0.7778,
-     "hit": 0.8056,
-     "hitN": 36,
+     "hit": 0.8108,
+     "hitN": 37,
      "list": false,
      "reserve": true
     },
@@ -1867,8 +1730,8 @@
      "side": "a",
      "pick": "Leylah Fernandez",
      "c": 0.7557,
-     "hit": 0.8056,
-     "hitN": 36,
+     "hit": 0.8108,
+     "hitN": 37,
      "list": false,
      "reserve": true
     },
@@ -1911,8 +1774,8 @@
      "side": "h",
      "pick": "Rafael Jodar",
      "c": 0.7381,
-     "hit": 0.6842,
-     "hitN": 38,
+     "hit": 0.6923,
+     "hitN": 39,
      "list": false,
      "reserve": true
     },
@@ -2313,6 +2176,21 @@
      "reserve": true
     },
     {
+     "t": "14:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Curitiba Open",
+     "sport": "tennis",
+     "h": "Rebeka Masarova",
+     "a": "Julia Riera",
+     "side": "h",
+     "pick": "Rebeka Masarova",
+     "c": 0.6485,
+     "hit": 0.6263,
+     "hitN": 99,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "19:45",
      "ko": "2026-10-27T19:45:00Z",
      "lg": "en.7sc",
@@ -2387,6 +2265,21 @@
      "reserve": true
     },
     {
+     "t": "15:30",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Curitiba Open",
+     "sport": "tennis",
+     "h": "Luna Maria Cinalli",
+     "a": "Ana Candiotto",
+     "side": "h",
+     "pick": "Luna Maria Cinalli",
+     "c": 0.6436,
+     "hit": 0.6263,
+     "hitN": 99,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "03:00",
      "lg": "WTA",
      "lgName": "WTA \u00b7 Guangzhou Open",
@@ -2396,8 +2289,8 @@
      "side": "a",
      "pick": "Kaitlin Quevedo",
      "c": 0.6427,
-     "hit": 0.6392,
-     "hitN": 97,
+     "hit": 0.6263,
+     "hitN": 99,
      "list": false,
      "reserve": true
     },
@@ -2411,8 +2304,8 @@
      "side": "a",
      "pick": "Tommy Paul",
      "c": 0.6295,
-     "hit": 0.5667,
-     "hitN": 60,
+     "hit": 0.5873,
+     "hitN": 63,
      "list": false,
      "reserve": true
     },
@@ -2645,18 +2538,18 @@
      "a": "HNK Rijeka",
      "side": "h",
      "pick": "Dinamo Zagreb",
-     "c": 0.6107,
+     "c": 0.6097,
      "p": {
-      "h": 0.6107,
-      "d": 0.217,
-      "a": 0.1723
+      "h": 0.6097,
+      "d": 0.2179,
+      "a": 0.1724
      },
      "score": [
       2,
       1
      ],
-     "btts": 0.5531,
-     "o25": 0.5608,
+     "btts": 0.5521,
+     "o25": 0.5593,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -2822,15 +2715,15 @@
      "c": 0.5852,
      "p": {
       "h": 0.5852,
-      "d": 0.2506,
+      "d": 0.2507,
       "a": 0.1642
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.4982,
-     "o25": 0.5438,
+     "btts": 0.4981,
+     "o25": 0.5437,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -2974,8 +2867,8 @@
       2,
       0
      ],
-     "btts": 0.5409,
-     "o25": 0.5804,
+     "btts": 0.5408,
+     "o25": 0.5803,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -3564,35 +3457,6 @@
      "unrated": false
     },
     {
-     "t": "16:30",
-     "ko": "2026-10-27T16:30:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al-Adalah",
-     "a": "Al Jeel",
-     "side": "h",
-     "pick": "Al-Adalah",
-     "c": 0.5351,
-     "p": {
-      "h": 0.5351,
-      "d": 0.2452,
-      "a": 0.2197
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5513,
-     "o25": 0.5413,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:00",
      "ko": "2026-10-27T14:00:00Z",
      "lg": "afc.674",
@@ -3645,6 +3509,35 @@
      "o25": 0.5092,
      "hit": null,
      "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:30",
+     "ko": "2026-10-27T16:30:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al-Adalah",
+     "a": "Al Jeel",
+     "side": "h",
+     "pick": "Al-Adalah",
+     "c": 0.5329,
+     "p": {
+      "h": 0.5329,
+      "d": 0.2465,
+      "a": 0.2207
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5503,
+     "o25": 0.5397,
+     "hit": 0.5376,
+     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -4008,18 +3901,18 @@
      "a": "Al Saqer",
      "side": "h",
      "pick": "Al Wehda Club",
-     "c": 0.5097,
+     "c": 0.5083,
      "p": {
-      "h": 0.5097,
-      "d": 0.2455,
-      "a": 0.2448
+      "h": 0.5083,
+      "d": 0.2466,
+      "a": 0.2451
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5648,
-     "o25": 0.5528,
+     "btts": 0.5634,
+     "o25": 0.5509,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -4840,35 +4733,6 @@
      "unrated": false
     },
     {
-     "t": "13:45",
-     "ko": "2026-10-27T13:45:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al Taee",
-     "a": "Jeddah Club",
-     "side": "h",
-     "pick": "Al Taee",
-     "c": 0.4648,
-     "p": {
-      "h": 0.4648,
-      "d": 0.2573,
-      "a": 0.2779
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5631,
-     "o25": 0.5439,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:00",
      "ko": "2026-10-27T19:00:00Z",
      "lg": "es.cup",
@@ -4893,6 +4757,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:45",
+     "ko": "2026-10-27T13:45:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al Taee",
+     "a": "Jeddah Club",
+     "side": "h",
+     "pick": "Al Taee",
+     "c": 0.4641,
+     "p": {
+      "h": 0.4641,
+      "d": 0.2584,
+      "a": 0.2775
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5614,
+     "o25": 0.5418,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -8770,35 +8663,6 @@
      "unrated": false
     },
     {
-     "t": "15:05",
-     "ko": "2026-10-28T15:05:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al Jabalain",
-     "a": "Al-Raed",
-     "side": "h",
-     "pick": "Al Jabalain",
-     "c": 0.5559,
-     "p": {
-      "h": 0.5559,
-      "d": 0.2447,
-      "a": 0.1994
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5388,
-     "o25": 0.531,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "23:30",
      "ko": "2026-10-28T23:30:00Z",
      "lg": "us.1",
@@ -8822,6 +8686,35 @@
      "o25": 0.5282,
      "hit": 0.5352,
      "hitN": 99,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:05",
+     "ko": "2026-10-28T15:05:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al Jabalain",
+     "a": "Al-Raed",
+     "side": "h",
+     "pick": "Al Jabalain",
+     "c": 0.5541,
+     "p": {
+      "h": 0.5541,
+      "d": 0.246,
+      "a": 0.1999
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5376,
+     "o25": 0.5292,
+     "hit": 0.5868,
+     "hitN": 4716,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -9997,18 +9890,18 @@
      "a": "NK Lokomotiva Zagreb",
      "side": "h",
      "pick": "NK Varazdin",
-     "c": 0.5026,
+     "c": 0.5021,
      "p": {
-      "h": 0.5026,
-      "d": 0.2893,
-      "a": 0.2081
+      "h": 0.5021,
+      "d": 0.2901,
+      "a": 0.2079
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.4934,
-     "o25": 0.4704,
+     "btts": 0.4924,
+     "o25": 0.4691,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -12607,9 +12500,9 @@
      "a": "K\u00fc\u00e7\u00fck\u00e7ekmece Sinopspor",
      "side": "h",
      "pick": "\u00dcmraniyespor",
-     "c": 0.4023,
+     "c": 0.4022,
      "p": {
-      "h": 0.4023,
+      "h": 0.4022,
       "d": 0.2679,
       "a": 0.3299
      },
@@ -12618,7 +12511,7 @@
       1
      ],
      "btts": 0.5368,
-     "o25": 0.5036,
+     "o25": 0.5035,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -12801,6 +12694,35 @@
      "unrated": false
     },
     {
+     "t": "15:05",
+     "ko": "2026-10-28T15:05:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al Najma",
+     "a": "Al Zulfi",
+     "side": "h",
+     "pick": "Al Najma",
+     "c": 0.3979,
+     "p": {
+      "h": 0.3979,
+      "d": 0.2837,
+      "a": 0.3184
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.538,
+     "o25": 0.5059,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-10-28T12:00:00Z",
      "lg": "af.276",
@@ -12851,35 +12773,6 @@
      ],
      "btts": 0.4613,
      "o25": 0.4168,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:05",
-     "ko": "2026-10-28T15:05:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al Najma",
-     "a": "Al Zulfi",
-     "side": "h",
-     "pick": "Al Najma",
-     "c": 0.3976,
-     "p": {
-      "h": 0.3976,
-      "d": 0.2829,
-      "a": 0.3194
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5393,
-     "o25": 0.5075,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -13013,18 +12906,18 @@
      "a": "Damac",
      "side": "a",
      "pick": "Damac",
-     "c": 0.3931,
+     "c": 0.3928,
      "p": {
-      "h": 0.3442,
-      "d": 0.2627,
-      "a": 0.3931
+      "h": 0.3435,
+      "d": 0.2637,
+      "a": 0.3928
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5712,
-     "o25": 0.548,
+     "btts": 0.5695,
+     "o25": 0.5459,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -13906,7 +13799,7 @@
   },
   {
    "date": "2026-10-29",
-   "count": 94,
+   "count": 95,
    "games": [
     {
      "t": "23:30",
@@ -14191,18 +14084,18 @@
      "a": "N\u00f5mme Kalju II",
      "side": "h",
      "pick": "Tallinna Kalev",
-     "c": 0.6419,
+     "c": 0.6429,
      "p": {
-      "h": 0.6419,
-      "d": 0.1913,
-      "a": 0.1668
+      "h": 0.6429,
+      "d": 0.1906,
+      "a": 0.1665
      },
      "score": [
       2,
       1
      ],
-     "btts": 0.5839,
-     "o25": 0.6025,
+     "btts": 0.5846,
+     "o25": 0.6036,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": true,
@@ -14283,6 +14176,22 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "16:30",
+     "ko": "2026-10-29T16:30Z",
+     "lg": "wnba",
+     "lgName": "WNBA",
+     "sport": "wnba",
+     "h": "Atlanta Dream",
+     "a": "Golden State Valkyries",
+     "side": "h",
+     "pick": "Atlanta Dream",
+     "c": 0.6243,
+     "hit": 0.6322,
+     "hitN": 68,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "23:15",
@@ -16521,7 +16430,7 @@
   },
   {
    "date": "2026-10-30",
-   "count": 165,
+   "count": 164,
    "games": [
     {
      "t": "11:00",
@@ -16652,18 +16561,18 @@
      "a": "Arsenal Tula",
      "side": "h",
      "pick": "Nizhny Novgorod",
-     "c": 0.8047,
+     "c": 0.8045,
      "p": {
-      "h": 0.8047,
-      "d": 0.1274,
-      "a": 0.0678
+      "h": 0.8045,
+      "d": 0.1276,
+      "a": 0.0679
      },
      "score": [
       3,
       0
      ],
-     "btts": 0.534,
-     "o25": 0.606,
+     "btts": 0.5338,
+     "o25": 0.6058,
      "hit": 0.8075,
      "hitN": 644,
      "celtic": true,
@@ -17245,22 +17154,6 @@
      "unrated": false
     },
     {
-     "t": "00:00",
-     "ko": "2026-10-30T00:00Z",
-     "lg": "wnba",
-     "lgName": "WNBA",
-     "sport": "wnba",
-     "h": "Atlanta Dream",
-     "a": "Golden State Valkyries",
-     "side": "h",
-     "pick": "Atlanta Dream",
-     "c": 0.6243,
-     "hit": 0.6322,
-     "hitN": 68,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "17:00",
      "ko": "2026-10-30T17:00:00Z",
      "lg": "af.392",
@@ -17596,35 +17489,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-10-30T15:00:00Z",
-     "lg": "af.361",
-     "lgName": "1 Lyga",
-     "country": "Lithuania",
-     "h": "Ekranas",
-     "a": "Tauras",
-     "side": "a",
-     "pick": "Tauras",
-     "c": 0.579,
-     "p": {
-      "h": 0.2009,
-      "d": 0.2201,
-      "a": 0.579
-     },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5721,
-     "o25": 0.5751,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:30",
      "ko": "2026-10-30T18:30:00Z",
      "lg": "af.221",
@@ -17646,6 +17510,35 @@
      ],
      "btts": 0.6219,
      "o25": 0.6314,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-10-30T15:00:00Z",
+     "lg": "af.361",
+     "lgName": "1 Lyga",
+     "country": "Lithuania",
+     "h": "Ekranas",
+     "a": "Tauras",
+     "side": "a",
+     "pick": "Tauras",
+     "c": 0.5781,
+     "p": {
+      "h": 0.2011,
+      "d": 0.2209,
+      "a": 0.5781
+     },
+     "score": [
+      1,
+      2
+     ],
+     "btts": 0.5712,
+     "o25": 0.5738,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -19684,35 +19577,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-10-30T17:00:00Z",
-     "lg": "af.361",
-     "lgName": "1 Lyga",
-     "country": "Lithuania",
-     "h": "Kauno \u017dalgiris II",
-     "a": "Nept\u016bn\u0105 Klaip\u0117da",
-     "side": "a",
-     "pick": "Nept\u016bn\u0105 Klaip\u0117da",
-     "c": 0.4174,
-     "p": {
-      "h": 0.2967,
-      "d": 0.2859,
-      "a": 0.4174
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5309,
-     "o25": 0.4987,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:00",
      "ko": "2026-10-30T18:00:00Z",
      "lg": "af.85",
@@ -19734,6 +19598,35 @@
      ],
      "btts": 0.5268,
      "o25": 0.4935,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-10-30T17:00:00Z",
+     "lg": "af.361",
+     "lgName": "1 Lyga",
+     "country": "Lithuania",
+     "h": "Kauno \u017dalgiris II",
+     "a": "Nept\u016bn\u0105 Klaip\u0117da",
+     "side": "a",
+     "pick": "Nept\u016bn\u0105 Klaip\u0117da",
+     "c": 0.4169,
+     "p": {
+      "h": 0.2965,
+      "d": 0.2866,
+      "a": 0.4169
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.53,
+     "o25": 0.4975,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -20070,18 +19963,18 @@
      "a": "Babrungas",
      "side": "a",
      "pick": "Babrungas",
-     "c": 0.3995,
+     "c": 0.3986,
      "p": {
-      "h": 0.319,
-      "d": 0.2815,
-      "a": 0.3995
+      "h": 0.3193,
+      "d": 0.282,
+      "a": 0.3986
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5411,
-     "o25": 0.5099,
+     "btts": 0.5404,
+     "o25": 0.509,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -20172,6 +20065,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-10-30T15:00:00Z",
+     "lg": "af.236",
+     "lgName": "First League",
+     "country": "Russia",
+     "h": "Veles",
+     "a": "Spartak Kostroma",
+     "side": "h",
+     "pick": "Veles",
+     "c": 0.3936,
+     "p": {
+      "h": 0.3936,
+      "d": 0.3209,
+      "a": 0.2855
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4873,
+     "o25": 0.4447,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -20438,64 +20360,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-10-30T15:00:00Z",
-     "lg": "af.236",
-     "lgName": "First League",
-     "country": "Russia",
-     "h": "Veles",
-     "a": "Spartak Kostroma",
-     "side": "h",
-     "pick": "Veles",
-     "c": 0.3798,
-     "p": {
-      "h": 0.3798,
-      "d": 0.3221,
-      "a": 0.2981
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4881,
-     "o25": 0.4446,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-30T17:00:00Z",
-     "lg": "af.204",
-     "lgName": "1. Lig",
-     "country": "Turkey",
-     "h": "Esenler Erokspor",
-     "a": "Ke\u00e7i\u00f6reng\u00fcc\u00fc",
-     "side": "h",
-     "pick": "Esenler Erokspor",
-     "c": 0.3794,
-     "p": {
-      "h": 0.3794,
-      "d": 0.2696,
-      "a": 0.3511
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5617,
-     "o25": 0.5354,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:15",
      "ko": "2026-10-30T12:15:00Z",
      "lg": "af.173",
@@ -20517,6 +20381,35 @@
      ],
      "btts": 0.5099,
      "o25": 0.4702,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-10-30T17:00:00Z",
+     "lg": "af.204",
+     "lgName": "1. Lig",
+     "country": "Turkey",
+     "h": "Esenler Erokspor",
+     "a": "Ke\u00e7i\u00f6reng\u00fcc\u00fc",
+     "side": "h",
+     "pick": "Esenler Erokspor",
+     "c": 0.3793,
+     "p": {
+      "h": 0.3793,
+      "d": 0.2697,
+      "a": 0.351
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5616,
+     "o25": 0.5352,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -20844,6 +20737,35 @@
      "unrated": false
     },
     {
+     "t": "17:00",
+     "ko": "2026-10-30T17:00:00Z",
+     "lg": "hrv.1",
+     "lgName": "HNL",
+     "country": "Croatia",
+     "h": "NK Slaven Belupo",
+     "a": "Istra 1961",
+     "side": "a",
+     "pick": "Istra 1961",
+     "c": 0.3664,
+     "p": {
+      "h": 0.365,
+      "d": 0.2686,
+      "a": 0.3664
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5639,
+     "o25": 0.5381,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:45",
      "ko": "2026-10-30T19:45:00Z",
      "lg": "en.4",
@@ -20894,35 +20816,6 @@
      ],
      "btts": 0.5164,
      "o25": 0.4776,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-30T17:00:00Z",
-     "lg": "hrv.1",
-     "lgName": "HNL",
-     "country": "Croatia",
-     "h": "NK Slaven Belupo",
-     "a": "Istra 1961",
-     "side": "h",
-     "pick": "NK Slaven Belupo",
-     "c": 0.3654,
-     "p": {
-      "h": 0.3654,
-      "d": 0.2697,
-      "a": 0.365
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5624,
-     "o25": 0.536,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -21223,18 +21116,18 @@
      "a": "Legion",
      "side": "h",
      "pick": "Narva U21",
-     "c": 0.949,
+     "c": 0.9488,
      "p": {
-      "h": 0.949,
-      "d": 0.0393,
+      "h": 0.9488,
+      "d": 0.0395,
       "a": 0.0117
      },
      "score": [
       4,
       0
      ],
-     "btts": 0.4838,
-     "o25": 0.656,
+     "btts": 0.4837,
+     "o25": 0.6558,
      "hit": 0.8997,
      "hitN": 628,
      "celtic": false,
@@ -23385,35 +23278,6 @@
      "unrated": false
     },
     {
-     "t": "12:00",
-     "ko": "2026-10-31T12:00:00Z",
-     "lg": "af.361",
-     "lgName": "1 Lyga",
-     "country": "Lithuania",
-     "h": "Minija",
-     "a": "Atmosfera",
-     "side": "h",
-     "pick": "Minija",
-     "c": 0.6891,
-     "p": {
-      "h": 0.6891,
-      "d": 0.1873,
-      "a": 0.1236
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5406,
-     "o25": 0.5698,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "16:00",
      "ko": "2026-10-31T16:00:00Z",
      "lg": "af.635",
@@ -23486,6 +23350,35 @@
      "hitN": 125,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "12:00",
+     "ko": "2026-10-31T12:00:00Z",
+     "lg": "af.361",
+     "lgName": "1 Lyga",
+     "country": "Lithuania",
+     "h": "Minija",
+     "a": "Atmosfera",
+     "side": "h",
+     "pick": "Minija",
+     "c": 0.6877,
+     "p": {
+      "h": 0.6877,
+      "d": 0.1882,
+      "a": 0.1241
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5398,
+     "o25": 0.5685,
+     "hit": 0.6793,
+     "hitN": 2254,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
     },
     {
      "t": "16:00",
@@ -23964,35 +23857,6 @@
      "unrated": false
     },
     {
-     "t": "14:00",
-     "ko": "2026-10-31T14:00:00Z",
-     "lg": "hrv.1",
-     "lgName": "HNL",
-     "country": "Croatia",
-     "h": "HNK Hajduk Split",
-     "a": "HNK Gorica",
-     "side": "h",
-     "pick": "HNK Hajduk Split",
-     "c": 0.6529,
-     "p": {
-      "h": 0.6529,
-      "d": 0.2341,
-      "a": 0.113
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4717,
-     "o25": 0.484,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-10-31T13:00:00Z",
      "lg": "af.317",
@@ -24109,6 +23973,35 @@
      "unrated": false
     },
     {
+     "t": "14:00",
+     "ko": "2026-10-31T14:00:00Z",
+     "lg": "hrv.1",
+     "lgName": "HNL",
+     "country": "Croatia",
+     "h": "HNK Hajduk Split",
+     "a": "HNK Gorica",
+     "side": "h",
+     "pick": "HNK Hajduk Split",
+     "c": 0.6424,
+     "p": {
+      "h": 0.6424,
+      "d": 0.2385,
+      "a": 0.119
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4742,
+     "o25": 0.4832,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-10-31T17:00:00Z",
      "lg": "hrv.1",
@@ -24118,18 +24011,18 @@
      "a": "Dinamo Zagreb",
      "side": "a",
      "pick": "Dinamo Zagreb",
-     "c": 0.6401,
+     "c": 0.6386,
      "p": {
-      "h": 0.1641,
-      "d": 0.1959,
-      "a": 0.6401
+      "h": 0.1645,
+      "d": 0.1969,
+      "a": 0.6386
      },
      "score": [
       1,
       2
      ],
-     "btts": 0.5747,
-     "o25": 0.5922,
+     "btts": 0.5736,
+     "o25": 0.5906,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -26493,6 +26386,35 @@
      "unrated": false
     },
     {
+     "t": "15:00",
+     "ko": "2026-10-31T15:00:00Z",
+     "lg": "af.1126",
+     "lgName": "Esiliiga B",
+     "country": "Estonia",
+     "h": "JK Tabasalu",
+     "a": "Levadia U19",
+     "side": "a",
+     "pick": "Levadia U19",
+     "c": 0.566,
+     "p": {
+      "h": 0.2194,
+      "d": 0.2146,
+      "a": 0.566
+     },
+     "score": [
+      1,
+      2
+     ],
+     "btts": 0.5924,
+     "o25": 0.5959,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "09:00",
      "ko": "2026-10-31T09:00:00Z",
      "lg": "af.284",
@@ -26618,18 +26540,18 @@
      "a": "Band\u0131rmaspor",
      "side": "h",
      "pick": "Bursaspor",
-     "c": 0.5633,
+     "c": 0.5632,
      "p": {
-      "h": 0.5633,
-      "d": 0.255,
+      "h": 0.5632,
+      "d": 0.2551,
       "a": 0.1817
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.5137,
-     "o25": 0.5039,
+     "btts": 0.5136,
+     "o25": 0.5037,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": true,
@@ -26937,50 +26859,21 @@
      "a": "Pendikspor",
      "side": "h",
      "pick": "Fatih Karag\u00fcmr\u00fck",
-     "c": 0.5571,
+     "c": 0.5569,
      "p": {
-      "h": 0.5571,
-      "d": 0.2388,
-      "a": 0.2041
+      "h": 0.5569,
+      "d": 0.2389,
+      "a": 0.2042
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5496,
-     "o25": 0.544,
+     "btts": 0.5494,
+     "o25": 0.5438,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-10-31T15:00:00Z",
-     "lg": "af.1126",
-     "lgName": "Esiliiga B",
-     "country": "Estonia",
-     "h": "JK Tabasalu",
-     "a": "Levadia U19",
-     "side": "a",
-     "pick": "Levadia U19",
-     "c": 0.5569,
-     "p": {
-      "h": 0.2248,
-      "d": 0.2182,
-      "a": 0.5569
-     },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5908,
-     "o25": 0.5923,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -31142,18 +31035,18 @@
      "a": "Tekstilshchik",
      "side": "h",
      "pick": "Volga Ulyanovsk",
-     "c": 0.4879,
+     "c": 0.4877,
      "p": {
-      "h": 0.4879,
-      "d": 0.2911,
+      "h": 0.4877,
+      "d": 0.2912,
       "a": 0.221
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.4979,
-     "o25": 0.4696,
+     "btts": 0.4977,
+     "o25": 0.4694,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
@@ -31287,9 +31180,9 @@
      "a": "Racing Cordoba",
      "side": "h",
      "pick": "Chaco For Ever",
-     "c": 0.4858,
+     "c": 0.4857,
      "p": {
-      "h": 0.4858,
+      "h": 0.4857,
       "d": 0.3018,
       "a": 0.2124
      },
@@ -32186,9 +32079,9 @@
      "a": "Almirante Brown",
      "side": "h",
      "pick": "Godoy Cruz",
-     "c": 0.4752,
+     "c": 0.4751,
      "p": {
-      "h": 0.4752,
+      "h": 0.4751,
       "d": 0.3288,
       "a": 0.196
      },
@@ -33511,6 +33404,35 @@
      "unrated": false
     },
     {
+     "t": "17:00",
+     "ko": "2026-10-31T17:00:00Z",
+     "lg": "af.328",
+     "lgName": "Esiliiga A",
+     "country": "Estonia",
+     "h": "Flora II",
+     "a": "Tartu Welco",
+     "side": "a",
+     "pick": "Tartu Welco",
+     "c": 0.4582,
+     "p": {
+      "h": 0.3272,
+      "d": 0.2146,
+      "a": 0.4582
+     },
+     "score": [
+      1,
+      2
+     ],
+     "btts": 0.6376,
+     "o25": 0.6359,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "00:00",
      "ko": "2026-10-31T00:00:00Z",
      "lg": "cr.1",
@@ -33578,9 +33500,9 @@
      "a": "Deportivo Maipu",
      "side": "h",
      "pick": "Tristan Suarez",
-     "c": 0.4571,
+     "c": 0.457,
      "p": {
-      "h": 0.4571,
+      "h": 0.457,
       "d": 0.3519,
       "a": 0.191
      },
@@ -33984,11 +33906,11 @@
      "a": "Deportivo Madryn",
      "side": "a",
      "pick": "Deportivo Madryn",
-     "c": 0.4542,
+     "c": 0.4541,
      "p": {
       "h": 0.236,
       "d": 0.3098,
-      "a": 0.4542
+      "a": 0.4541
      },
      "score": [
       0,
@@ -33996,35 +33918,6 @@
      ],
      "btts": 0.485,
      "o25": 0.4494,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-10-31T17:00:00Z",
-     "lg": "af.328",
-     "lgName": "Esiliiga A",
-     "country": "Estonia",
-     "h": "Flora II",
-     "a": "Tartu Welco",
-     "side": "a",
-     "pick": "Tartu Welco",
-     "c": 0.4537,
-     "p": {
-      "h": 0.3326,
-      "d": 0.2138,
-      "a": 0.4537
-     },
-     "score": [
-      2,
-      2
-     ],
-     "btts": 0.64,
-     "o25": 0.6385,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -35321,15 +35214,15 @@
      "c": 0.4426,
      "p": {
       "h": 0.4426,
-      "d": 0.2126,
-      "a": 0.3448
+      "d": 0.2127,
+      "a": 0.3447
      },
      "score": [
       2,
       2
      ],
-     "btts": 0.644,
-     "o25": 0.6428,
+     "btts": 0.6438,
+     "o25": 0.6425,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -37243,7 +37136,7 @@
       0
      ],
      "btts": 0.4745,
-     "o25": 0.4336,
+     "o25": 0.4335,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -37708,6 +37601,35 @@
      ],
      "btts": 0.5755,
      "o25": 0.5551,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:00",
+     "ko": "2026-10-31T16:00:00Z",
+     "lg": "af.204",
+     "lgName": "1. Lig",
+     "country": "Turkey",
+     "h": "Manisa F.K.",
+     "a": "Batman Petrolspor",
+     "side": "a",
+     "pick": "Batman Petrolspor",
+     "c": 0.4181,
+     "p": {
+      "h": 0.3515,
+      "d": 0.2303,
+      "a": 0.4181
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.6197,
+     "o25": 0.6117,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -38537,18 +38459,18 @@
      "a": "Enisey",
      "side": "h",
      "pick": "Leningradets",
-     "c": 0.4112,
+     "c": 0.4111,
      "p": {
-      "h": 0.4112,
-      "d": 0.3008,
-      "a": 0.288
+      "h": 0.4111,
+      "d": 0.301,
+      "a": 0.2879
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5105,
-     "o25": 0.4733,
+     "btts": 0.5103,
+     "o25": 0.4731,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -39108,35 +39030,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-10-31T16:00:00Z",
-     "lg": "af.204",
-     "lgName": "1. Lig",
-     "country": "Turkey",
-     "h": "Manisa F.K.",
-     "a": "Batman Petrolspor",
-     "side": "a",
-     "pick": "Batman Petrolspor",
-     "c": 0.4077,
-     "p": {
-      "h": 0.3618,
-      "d": 0.2305,
-      "a": 0.4077
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.6208,
-     "o25": 0.6128,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "af.184",
@@ -39465,18 +39358,18 @@
      "a": "Ska-khabarovsk",
      "side": "h",
      "pick": "FK Neftekhimik",
-     "c": 0.4051,
+     "c": 0.405,
      "p": {
-      "h": 0.4051,
-      "d": 0.3095,
-      "a": 0.2854
+      "h": 0.405,
+      "d": 0.3097,
+      "a": 0.2853
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.4998,
-     "o25": 0.4602,
+     "btts": 0.4996,
+     "o25": 0.46,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -39990,15 +39883,15 @@
      "c": 0.4015,
      "p": {
       "h": 0.4015,
-      "d": 0.2837,
+      "d": 0.2838,
       "a": 0.3148
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5375,
-     "o25": 0.5055,
+     "btts": 0.5373,
+     "o25": 0.5053,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -40210,35 +40103,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-10-31T20:00:00Z",
-     "lg": "af.129",
-     "lgName": "Primera Nacional",
-     "country": "Argentina",
-     "h": "Chacarita Juniors",
-     "a": "Nueva Chicago",
-     "side": "h",
-     "pick": "Chacarita Juniors",
-     "c": 0.4003,
-     "p": {
-      "h": 0.4003,
-      "d": 0.3689,
-      "a": 0.2308
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4333,
-     "o25": 0.3892,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:00",
      "ko": "2026-10-31T14:00:00Z",
      "lg": "af.223",
@@ -40347,6 +40211,35 @@
      ],
      "btts": 0.5097,
      "o25": 0.4713,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-10-31T20:00:00Z",
+     "lg": "af.129",
+     "lgName": "Primera Nacional",
+     "country": "Argentina",
+     "h": "Chacarita Juniors",
+     "a": "Nueva Chicago",
+     "side": "h",
+     "pick": "Chacarita Juniors",
+     "c": 0.3994,
+     "p": {
+      "h": 0.3994,
+      "d": 0.3685,
+      "a": 0.2321
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4339,
+     "o25": 0.3897,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -41196,35 +41089,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-10-31T20:00:00Z",
-     "lg": "af.129",
-     "lgName": "Primera Nacional",
-     "country": "Argentina",
-     "h": "San Martin S.J.",
-     "a": "Gimnasia Jujuy",
-     "side": "h",
-     "pick": "San Martin S.J.",
-     "c": 0.3916,
-     "p": {
-      "h": 0.3916,
-      "d": 0.298,
-      "a": 0.3105
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5183,
-     "o25": 0.4811,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-10-31T13:00:00Z",
      "lg": "af.593",
@@ -41800,6 +41664,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-10-31T20:00:00Z",
+     "lg": "af.129",
+     "lgName": "Primera Nacional",
+     "country": "Argentina",
+     "h": "San Martin S.J.",
+     "a": "Gimnasia Jujuy",
+     "side": "h",
+     "pick": "San Martin S.J.",
+     "c": 0.3874,
+     "p": {
+      "h": 0.3874,
+      "d": 0.2993,
+      "a": 0.3133
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.517,
+     "o25": 0.4793,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -44009,35 +43902,6 @@
      "unrated": false
     },
     {
-     "t": "11:00",
-     "ko": "2026-10-31T11:00:00Z",
-     "lg": "af.361",
-     "lgName": "1 Lyga",
-     "country": "Lithuania",
-     "h": "Jonava",
-     "a": "\u017dalgiris II",
-     "side": "a",
-     "pick": "\u017dalgiris II",
-     "c": 0.3612,
-     "p": {
-      "h": 0.3473,
-      "d": 0.2916,
-      "a": 0.3612
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5303,
-     "o25": 0.4948,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "20:00",
      "ko": "2026-10-31T20:00:00Z",
      "lg": "af.129",
@@ -44062,6 +43926,64 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "11:00",
+     "ko": "2026-10-31T11:00:00Z",
+     "lg": "af.361",
+     "lgName": "1 Lyga",
+     "country": "Lithuania",
+     "h": "Jonava",
+     "a": "\u017dalgiris II",
+     "side": "a",
+     "pick": "\u017dalgiris II",
+     "c": 0.3607,
+     "p": {
+      "h": 0.347,
+      "d": 0.2923,
+      "a": 0.3607
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5294,
+     "o25": 0.4936,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "10:00",
+     "ko": "2026-10-31T10:00:00Z",
+     "lg": "af.236",
+     "lgName": "First League",
+     "country": "Russia",
+     "h": "Chelyabinsk",
+     "a": "Shinnik Yaroslavl",
+     "side": "a",
+     "pick": "Shinnik Yaroslavl",
+     "c": 0.3604,
+     "p": {
+      "h": 0.3251,
+      "d": 0.3146,
+      "a": 0.3604
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4995,
+     "o25": 0.457,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -44784,35 +44706,6 @@
      ],
      "btts": 0.4849,
      "o25": 0.4397,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "10:00",
-     "ko": "2026-10-31T10:00:00Z",
-     "lg": "af.236",
-     "lgName": "First League",
-     "country": "Russia",
-     "h": "Chelyabinsk",
-     "a": "Shinnik Yaroslavl",
-     "side": "a",
-     "pick": "Shinnik Yaroslavl",
-     "c": 0.3506,
-     "p": {
-      "h": 0.3322,
-      "d": 0.3172,
-      "a": 0.3506
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4967,
-     "o25": 0.4535,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -46598,6 +46491,35 @@
      "reserve": true
     },
     {
+     "t": "14:40",
+     "ko": "2026-11-01T14:40:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Hajer",
+     "a": "Al Ula",
+     "side": "a",
+     "pick": "Al Ula",
+     "c": 0.6539,
+     "p": {
+      "h": 0.1448,
+      "d": 0.2014,
+      "a": 0.6539
+     },
+     "score": [
+      0,
+      2
+     ],
+     "btts": 0.5468,
+     "o25": 0.5656,
+     "hit": 0.6793,
+     "hitN": 2254,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-11-01T12:00:00Z",
      "lg": "af.276",
@@ -46653,35 +46575,6 @@
      "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
-    },
-    {
-     "t": "14:40",
-     "ko": "2026-11-01T14:40:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Hajer",
-     "a": "Al Ula",
-     "side": "a",
-     "pick": "Al Ula",
-     "c": 0.6452,
-     "p": {
-      "h": 0.1485,
-      "d": 0.2063,
-      "a": 0.6452
-     },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5441,
-     "o25": 0.5601,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
      "unrated": false
     },
     {
@@ -46978,35 +46871,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-11-01T15:00:00Z",
-     "lg": "af.328",
-     "lgName": "Esiliiga A",
-     "country": "Estonia",
-     "h": "Viimsi",
-     "a": "FCI Levadia II",
-     "side": "h",
-     "pick": "Viimsi",
-     "c": 0.6344,
-     "p": {
-      "h": 0.6344,
-      "d": 0.2041,
-      "a": 0.1615
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5605,
-     "o25": 0.5752,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "12:00",
      "ko": "2026-11-01T12:00:00Z",
      "lg": "af.564",
@@ -47074,18 +46938,47 @@
      "a": "Boluspor",
      "side": "h",
      "pick": "Sivasspor",
-     "c": 0.6275,
+     "c": 0.6272,
      "p": {
-      "h": 0.6275,
-      "d": 0.2259,
-      "a": 0.1466
+      "h": 0.6272,
+      "d": 0.226,
+      "a": 0.1467
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.5173,
-     "o25": 0.5253,
+     "btts": 0.5172,
+     "o25": 0.5251,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-01T15:00:00Z",
+     "lg": "af.328",
+     "lgName": "Esiliiga A",
+     "country": "Estonia",
+     "h": "Viimsi",
+     "a": "FCI Levadia II",
+     "side": "h",
+     "pick": "Viimsi",
+     "c": 0.625,
+     "p": {
+      "h": 0.625,
+      "d": 0.2083,
+      "a": 0.1667
+     },
+     "score": [
+      2,
+      1
+     ],
+     "btts": 0.5598,
+     "o25": 0.572,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -47219,18 +47112,18 @@
      "a": "FC Tallinn",
      "side": "h",
      "pick": "N\u00f5mme United II",
-     "c": 0.6199,
+     "c": 0.6207,
      "p": {
-      "h": 0.6199,
-      "d": 0.1973,
-      "a": 0.1828
+      "h": 0.6207,
+      "d": 0.1967,
+      "a": 0.1826
      },
      "score": [
       2,
       1
      ],
-     "btts": 0.5898,
-     "o25": 0.6039,
+     "btts": 0.5905,
+     "o25": 0.6049,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": true,
@@ -47587,35 +47480,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-11-01T15:00:00Z",
-     "lg": "af.1126",
-     "lgName": "Esiliiga B",
-     "country": "Estonia",
-     "h": "Parnu JK Vaprus U21",
-     "a": "Luunja",
-     "side": "h",
-     "pick": "Parnu JK Vaprus U21",
-     "c": 0.5992,
-     "p": {
-      "h": 0.5992,
-      "d": 0.1728,
-      "a": 0.228
-     },
-     "score": [
-      3,
-      1
-     ],
-     "btts": 0.6561,
-     "o25": 0.6691,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-11-01T13:00:00Z",
      "lg": "af.85",
@@ -47848,6 +47712,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-11-01T13:00:00Z",
+     "lg": "af.204",
+     "lgName": "1. Lig",
+     "country": "Turkey",
+     "h": "\u0130stanbulspor",
+     "a": "Mardin 1969",
+     "side": "a",
+     "pick": "Mardin 1969",
+     "c": 0.5929,
+     "p": {
+      "h": 0.1763,
+      "d": 0.2308,
+      "a": 0.5929
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5387,
+     "o25": 0.5399,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-01T14:00:00Z",
      "lg": "fr.1",
@@ -47898,6 +47791,35 @@
      ],
      "btts": 0.5139,
      "o25": 0.5116,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-01T15:00:00Z",
+     "lg": "af.1126",
+     "lgName": "Esiliiga B",
+     "country": "Estonia",
+     "h": "Parnu JK Vaprus U21",
+     "a": "Luunja",
+     "side": "h",
+     "pick": "Parnu JK Vaprus U21",
+     "c": 0.5921,
+     "p": {
+      "h": 0.5921,
+      "d": 0.1745,
+      "a": 0.2334
+     },
+     "score": [
+      3,
+      2
+     ],
+     "btts": 0.6567,
+     "o25": 0.6689,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": true,
@@ -48051,35 +47973,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-11-01T15:00:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al Saqer",
-     "a": "Al Taee",
-     "side": "h",
-     "pick": "Al Saqer",
-     "c": 0.5856,
-     "p": {
-      "h": 0.5856,
-      "d": 0.2211,
-      "a": 0.1933
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.565,
-     "o25": 0.5683,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-01T13:30:00Z",
      "lg": "af.104",
@@ -48101,6 +47994,35 @@
      ],
      "btts": 0.6154,
      "o25": 0.6252,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-01T15:00:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al Saqer",
+     "a": "Al Taee",
+     "side": "h",
+     "pick": "Al Saqer",
+     "c": 0.5837,
+     "p": {
+      "h": 0.5837,
+      "d": 0.2225,
+      "a": 0.1939
+     },
+     "score": [
+      2,
+      1
+     ],
+     "btts": 0.5636,
+     "o25": 0.5663,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -48246,35 +48168,6 @@
      ],
      "btts": 0.6192,
      "o25": 0.6288,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:00",
-     "ko": "2026-11-01T13:00:00Z",
-     "lg": "af.204",
-     "lgName": "1. Lig",
-     "country": "Turkey",
-     "h": "\u0130stanbulspor",
-     "a": "Mardin 1969",
-     "side": "a",
-     "pick": "Mardin 1969",
-     "c": 0.5803,
-     "p": {
-      "h": 0.1831,
-      "d": 0.2366,
-      "a": 0.5803
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5369,
-     "o25": 0.5346,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": true,
@@ -50400,6 +50293,35 @@
      "unrated": false
     },
     {
+     "t": "11:00",
+     "ko": "2026-11-01T11:00:00Z",
+     "lg": "af.328",
+     "lgName": "Esiliiga A",
+     "country": "Estonia",
+     "h": "Elva",
+     "a": "Tallinna Kalev",
+     "side": "h",
+     "pick": "Elva",
+     "c": 0.5288,
+     "p": {
+      "h": 0.5288,
+      "d": 0.234,
+      "a": 0.2372
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5763,
+     "o25": 0.5701,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:30",
      "ko": "2026-11-01T13:30:00Z",
      "lg": "af.426",
@@ -50453,35 +50375,6 @@
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "11:00",
-     "ko": "2026-11-01T11:00:00Z",
-     "lg": "af.328",
-     "lgName": "Esiliiga A",
-     "country": "Estonia",
-     "h": "Elva",
-     "a": "Tallinna Kalev",
-     "side": "h",
-     "pick": "Elva",
-     "c": 0.5282,
-     "p": {
-      "h": 0.5282,
-      "d": 0.2346,
-      "a": 0.2372
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5755,
-     "o25": 0.569,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -50931,18 +50824,18 @@
      "a": "Dainava",
      "side": "a",
      "pick": "Dainava",
-     "c": 0.5199,
+     "c": 0.5191,
      "p": {
-      "h": 0.2387,
-      "d": 0.2415,
-      "a": 0.5199
+      "h": 0.2401,
+      "d": 0.2408,
+      "a": 0.5191
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5669,
-     "o25": 0.5572,
+     "btts": 0.5686,
+     "o25": 0.5591,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -51850,35 +51743,6 @@
      "unrated": false
     },
     {
-     "t": "13:00",
-     "ko": "2026-11-01T13:00:00Z",
-     "lg": "af.204",
-     "lgName": "1. Lig",
-     "country": "Turkey",
-     "h": "I\u011fd\u0131r FK",
-     "a": "Antalyaspor",
-     "side": "h",
-     "pick": "I\u011fd\u0131r FK",
-     "c": 0.4998,
-     "p": {
-      "h": 0.4998,
-      "d": 0.2571,
-      "a": 0.2432
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5488,
-     "o25": 0.5317,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-01T13:30:00Z",
      "lg": "af.828",
@@ -51900,6 +51764,35 @@
      ],
      "btts": 0.4956,
      "o25": 0.4692,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-01T13:00:00Z",
+     "lg": "af.204",
+     "lgName": "1. Lig",
+     "country": "Turkey",
+     "h": "I\u011fd\u0131r FK",
+     "a": "Antalyaspor",
+     "side": "h",
+     "pick": "I\u011fd\u0131r FK",
+     "c": 0.4996,
+     "p": {
+      "h": 0.4996,
+      "d": 0.2572,
+      "a": 0.2432
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5486,
+     "o25": 0.5315,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
@@ -52517,35 +52410,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-11-01T16:00:00Z",
-     "lg": "af.204",
-     "lgName": "1. Lig",
-     "country": "Turkey",
-     "h": "Bodrum FK",
-     "a": "\u00dcmraniyespor",
-     "side": "h",
-     "pick": "Bodrum FK",
-     "c": 0.4896,
-     "p": {
-      "h": 0.4896,
-      "d": 0.2895,
-      "a": 0.2209
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4995,
-     "o25": 0.4718,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-11-01T13:00:00Z",
      "lg": "af.208",
@@ -52570,6 +52434,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:00",
+     "ko": "2026-11-01T16:00:00Z",
+     "lg": "af.204",
+     "lgName": "1. Lig",
+     "country": "Turkey",
+     "h": "Bodrum FK",
+     "a": "\u00dcmraniyespor",
+     "side": "h",
+     "pick": "Bodrum FK",
+     "c": 0.4895,
+     "p": {
+      "h": 0.4895,
+      "d": 0.2896,
+      "a": 0.2209
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4994,
+     "o25": 0.4716,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -53773,18 +53666,18 @@
      "a": "FC UFA",
      "side": "h",
      "pick": "Rotor Volgograd",
-     "c": 0.471,
+     "c": 0.4709,
      "p": {
-      "h": 0.471,
-      "d": 0.3096,
+      "h": 0.4709,
+      "d": 0.3097,
       "a": 0.2194
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.4785,
-     "o25": 0.4451,
+     "btts": 0.4784,
+     "o25": 0.4449,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -54257,35 +54150,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-01T17:00:00Z",
-     "lg": "af.361",
-     "lgName": "1 Lyga",
-     "country": "Lithuania",
-     "h": "Hegelmann II",
-     "a": "BFA",
-     "side": "a",
-     "pick": "BFA",
-     "c": 0.4636,
-     "p": {
-      "h": 0.2949,
-      "d": 0.2415,
-      "a": 0.4636
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5906,
-     "o25": 0.5783,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:55",
      "ko": "2026-11-01T12:55:00Z",
      "lg": "af.303",
@@ -54336,6 +54200,35 @@
      ],
      "btts": 0.525,
      "o25": 0.4971,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-11-01T17:00:00Z",
+     "lg": "af.361",
+     "lgName": "1 Lyga",
+     "country": "Lithuania",
+     "h": "Hegelmann II",
+     "a": "BFA",
+     "side": "a",
+     "pick": "BFA",
+     "c": 0.463,
+     "p": {
+      "h": 0.2948,
+      "d": 0.2422,
+      "a": 0.463
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5896,
+     "o25": 0.577,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -55562,35 +55455,6 @@
      "unrated": false
     },
     {
-     "t": "12:30",
-     "ko": "2026-11-01T12:30:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Al Orubah",
-     "a": "Al Anwar",
-     "side": "h",
-     "pick": "Al Orubah",
-     "c": 0.4425,
-     "p": {
-      "h": 0.4425,
-      "d": 0.3007,
-      "a": 0.2568
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5019,
-     "o25": 0.4669,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "11:00",
      "ko": "2026-11-01T11:00:00Z",
      "lg": "af.442",
@@ -55736,35 +55600,6 @@
      "unrated": false
     },
     {
-     "t": "14:00",
-     "ko": "2026-11-01T14:00:00Z",
-     "lg": "hrv.1",
-     "lgName": "HNL",
-     "country": "Croatia",
-     "h": "HNK Rijeka",
-     "a": "NK Varazdin",
-     "side": "h",
-     "pick": "HNK Rijeka",
-     "c": 0.4417,
-     "p": {
-      "h": 0.4417,
-      "d": 0.2975,
-      "a": 0.2608
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5069,
-     "o25": 0.4726,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-01T15:00:00Z",
      "lg": "af.563",
@@ -55818,6 +55653,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "14:00",
+     "ko": "2026-11-01T14:00:00Z",
+     "lg": "hrv.1",
+     "lgName": "HNL",
+     "country": "Croatia",
+     "h": "HNK Rijeka",
+     "a": "NK Varazdin",
+     "side": "h",
+     "pick": "HNK Rijeka",
+     "c": 0.4411,
+     "p": {
+      "h": 0.4411,
+      "d": 0.2983,
+      "a": 0.2606
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5059,
+     "o25": 0.4713,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -57920,18 +57784,18 @@
      "a": "Torpedo Moskva",
      "side": "a",
      "pick": "Torpedo Moskva",
-     "c": 0.4179,
+     "c": 0.4178,
      "p": {
       "h": 0.2888,
-      "d": 0.2933,
-      "a": 0.4179
+      "d": 0.2935,
+      "a": 0.4178
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5197,
-     "o25": 0.485,
+     "btts": 0.5195,
+     "o25": 0.4848,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -58019,6 +57883,35 @@
      ],
      "btts": 0.5352,
      "o25": 0.5038,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-01T12:30:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Al Orubah",
+     "a": "Al Anwar",
+     "side": "h",
+     "pick": "Al Orubah",
+     "c": 0.416,
+     "p": {
+      "h": 0.416,
+      "d": 0.2997,
+      "a": 0.2842
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5109,
+     "o25": 0.4743,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -59535,35 +59428,6 @@
      "unrated": false
     },
     {
-     "t": "13:00",
-     "ko": "2026-11-01T13:00:00Z",
-     "lg": "af.361",
-     "lgName": "1 Lyga",
-     "country": "Lithuania",
-     "h": "Transinvest 2",
-     "a": "Garliava",
-     "side": "a",
-     "pick": "Garliava",
-     "c": 0.3976,
-     "p": {
-      "h": 0.3337,
-      "d": 0.2686,
-      "a": 0.3976
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5612,
-     "o25": 0.5354,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:30",
      "ko": "2026-11-01T14:30:00Z",
      "lg": "af.330",
@@ -60724,35 +60588,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-01T17:00:00Z",
-     "lg": "hrv.1",
-     "lgName": "HNL",
-     "country": "Croatia",
-     "h": "NK Lokomotiva Zagreb",
-     "a": "NK Osijek",
-     "side": "h",
-     "pick": "NK Lokomotiva Zagreb",
-     "c": 0.3857,
-     "p": {
-      "h": 0.3857,
-      "d": 0.298,
-      "a": 0.3163
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5191,
-     "o25": 0.4817,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:30",
      "ko": "2026-11-01T14:30:00Z",
      "lg": "af.455",
@@ -60806,6 +60641,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-11-01T17:00:00Z",
+     "lg": "hrv.1",
+     "lgName": "HNL",
+     "country": "Croatia",
+     "h": "NK Lokomotiva Zagreb",
+     "a": "NK Osijek",
+     "side": "h",
+     "pick": "NK Lokomotiva Zagreb",
+     "c": 0.3854,
+     "p": {
+      "h": 0.3854,
+      "d": 0.2989,
+      "a": 0.3157
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5179,
+     "o25": 0.4803,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -60956,35 +60820,6 @@
      "unrated": false
     },
     {
-     "t": "16:45",
-     "ko": "2026-11-01T16:45:00Z",
-     "lg": "af.308",
-     "lgName": "Division 1",
-     "country": "Saudi Arabia",
-     "h": "Jeddah Club",
-     "a": "Al-Adalah",
-     "side": "h",
-     "pick": "Jeddah Club",
-     "c": 0.3842,
-     "p": {
-      "h": 0.3842,
-      "d": 0.2715,
-      "a": 0.3443
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5583,
-     "o25": 0.5311,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "10:00",
      "ko": "2026-11-01T10:00:00Z",
      "lg": "ru.1",
@@ -61009,6 +60844,64 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:45",
+     "ko": "2026-11-01T16:45:00Z",
+     "lg": "af.308",
+     "lgName": "Division 1",
+     "country": "Saudi Arabia",
+     "h": "Jeddah Club",
+     "a": "Al-Adalah",
+     "side": "h",
+     "pick": "Jeddah Club",
+     "c": 0.384,
+     "p": {
+      "h": 0.384,
+      "d": 0.2725,
+      "a": 0.3435
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5568,
+     "o25": 0.5291,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-01T13:00:00Z",
+     "lg": "af.361",
+     "lgName": "1 Lyga",
+     "country": "Lithuania",
+     "h": "Transinvest 2",
+     "a": "Garliava",
+     "side": "a",
+     "pick": "Garliava",
+     "c": 0.3837,
+     "p": {
+      "h": 0.3498,
+      "d": 0.2665,
+      "a": 0.3837
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5661,
+     "o25": 0.5411,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -62125,18 +62018,18 @@
      "a": "Ural",
      "side": "h",
      "pick": "FC Sochi",
-     "c": 0.3717,
+     "c": 0.3716,
      "p": {
-      "h": 0.3717,
-      "d": 0.3106,
+      "h": 0.3716,
+      "d": 0.3107,
       "a": 0.3177
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5037,
-     "o25": 0.4624,
+     "btts": 0.5036,
+     "o25": 0.4622,
      "hit": null,
      "hitN": null,
      "celtic": true,
