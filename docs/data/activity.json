@@ -417,8 +417,14 @@
    "outcome": "model"
   }
  ],
- "fetched": "2026-10-27T12:40:29.540859+00:00",
+ "fetched": "2026-10-27T16:44:58.197224+00:00",
  "commits": [
+  {
+   "sha": "755a4d5",
+   "msg": "Archive predictions and record for 2026-10-27 [skip ci]",
+   "date": "2026-10-27T12:40:58Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/755a4d5327e2e8f3f46a232785d931f6de8a037e"
+  },
   {
    "sha": "f697335",
    "msg": "Office agent (engineer): Add tests for the least-tested module (#92)",
@@ -532,17 +538,17 @@
    "msg": "Archive predictions and record for 2026-10-26 [skip ci]",
    "date": "2026-10-26T09:00:10Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/80252c75b73c6fd42f15ba0a04cf9a37a2fc5052"
-  },
-  {
-   "sha": "eb385a0",
-   "msg": "Bets: every leg keeps its full board row after kick-off",
-   "date": "2026-10-26T08:56:23Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/eb385a08e1677f4e0167eb0b4822ef63f0cf5ccd"
   }
  ],
  "runs": [
   {
-   "conclusion": "",
+   "conclusion": "success",
+   "createdAt": "2026-10-27T15:02:47Z",
+   "name": "Office merge window",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40527066184"
+  },
+  {
+   "conclusion": "success",
    "createdAt": "2026-10-27T12:37:15Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40505197847"
@@ -594,12 +600,6 @@
    "createdAt": "2026-10-27T10:32:51Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40489319768"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-27T04:54:16Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40452287519"
   }
  ]
 }
