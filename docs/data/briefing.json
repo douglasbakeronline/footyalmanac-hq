@@ -1,223 +1,62 @@
 {
- "time": "2026-10-28T17:13:49.982399+00:00",
- "date": "2026-10-28",
+ "time": "2026-10-29T13:43:09.663039+00:00",
+ "date": "2026-10-29",
  "stage": "refresh",
  "pricing": {
-  "priced": 43,
-  "total": 59,
+  "priced": 28,
+  "total": 35,
   "site": true,
-  "generated": "2026-10-28T13:42:09Z"
+  "generated": "2026-10-29T12:05:34Z"
  },
  "review": {
   "dropped": [
    "Multiplier",
-   "Multiplier (alternative)",
-   "Multiplier"
+   "Multiplier (alternative)"
   ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 231,
-  "list": 1,
-  "tomorrow": 117
+  "today": 105,
+  "list": 12,
+  "tomorrow": 189
  },
  "impactful": [
   {
-   "sport": "football",
-   "event": "Gimnástica Torrelavega v UD Ourense",
-   "comp": "Copa del Rey",
-   "lg": "es.cup",
-   "country": "Spain",
-   "tier": 1,
-   "when": "2026-10-28T19:30:00Z",
-   "date": "2026-10-28",
-   "selection": "Gimnástica Torrelavega",
-   "opp": "UD Ourense",
-   "side": "h",
-   "home": "Gimnástica Torrelavega",
-   "away": "UD Ourense",
-   "p": 0.7532,
-   "modelPick": "Gimnástica Torrelavega",
-   "list": false,
-   "reserve": false,
-   "hit": null,
-   "hitN": null,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.2,
-    0.48
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "75% Gimnástica Torrelavega, likely 2-0, xG 2.2 v 0.5"
-  },
-  {
-   "sport": "football",
-   "event": "Celtic v Dundee United",
-   "comp": "Premiership",
-   "lg": "sco.1",
-   "country": "Scotland",
-   "tier": 1,
-   "when": "2026-10-28T19:45:00Z",
-   "date": "2026-10-28",
-   "selection": "Celtic",
-   "opp": "Dundee United",
-   "side": "h",
-   "home": "Celtic",
-   "away": "Dundee United",
-   "p": 0.7475,
-   "modelPick": "Celtic",
-   "list": false,
-   "reserve": true,
-   "hit": 0.718,
-   "hitN": 39,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.69,
-    0.84
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "75% Celtic, likely 2-0, xG 2.7 v 0.8, calls at this level won 72% (39)"
-  },
-  {
    "sport": "tennis",
-   "event": "Solana Sierra v Gabriela Ce",
-   "comp": "Curitiba Open Round 2",
-   "tour": "WTA",
-   "when": "2026-10-28T17:30:00Z",
-   "date": "2026-10-28",
-   "selection": "Solana Sierra",
-   "opp": "Gabriela Ce",
-   "p": 0.7937,
-   "modelPick": "Solana Sierra",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.8409,
-   "hitN": 44,
-   "id": "185768",
-   "rank": [
-    101,
-    null
-   ],
-   "status": "pending",
-   "why": "79% Solana Sierra, calls at this level won 84% (44)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Elizabeth Mandlik v Selena Janicijevic",
-   "comp": "Queretaro Open Round 2",
-   "tour": "WTA",
-   "when": "2026-10-28T23:00:00Z",
-   "date": "2026-10-28",
-   "selection": "Elizabeth Mandlik",
-   "opp": "Selena Janicijevic",
-   "p": 0.7023,
-   "modelPick": "Elizabeth Mandlik",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.6452,
-   "hitN": 62,
-   "id": "185808",
-   "rank": [
-    null,
-    null
-   ],
-   "status": "pending",
-   "why": "70% Elizabeth Mandlik, calls at this level won 65% (62)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Carole Monnet v Carmen Andreea Herea",
-   "comp": "Queretaro Open Round 2",
-   "tour": "WTA",
-   "when": "2026-10-28T21:30:00Z",
-   "date": "2026-10-28",
-   "selection": "Carole Monnet",
-   "opp": "Carmen Andreea Herea",
-   "p": 0.6868,
-   "modelPick": "Carole Monnet",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.6308,
-   "hitN": 65,
-   "id": "185797",
-   "rank": [
-    null,
-    null
-   ],
-   "status": "pending",
-   "why": "69% Carole Monnet, calls at this level won 63% (65)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Luisina Giovannini v Nauhany Vitoria Leme Da Silva",
-   "comp": "Curitiba Open Round 2",
-   "tour": "WTA",
-   "when": "2026-10-28T21:00:00Z",
-   "date": "2026-10-28",
-   "selection": "Luisina Giovannini",
-   "opp": "Nauhany Vitoria Leme Da Silva",
-   "p": 0.6272,
-   "modelPick": "Luisina Giovannini",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.6228,
-   "hitN": 114,
-   "id": "185771",
-   "rank": [
-    null,
-    null
-   ],
-   "status": "pending",
-   "why": "63% Luisina Giovannini, calls at this level won 62% (114)"
-  }
- ],
- "tomorrow": [
-  {
-   "sport": "tennis",
-   "event": "Yulia Putintseva v Elena Rybakina",
-   "comp": "Toray Pan Pacific Open Tennis Round 2",
-   "tour": "WTA",
-   "when": "2026-10-29T08:00:00Z",
+   "event": "Carlos Alcaraz v Nikoloz Basilashvili",
+   "comp": "Erste Bank Open Round 2",
+   "tour": "ATP",
+   "when": "2026-10-29T14:00:00Z",
    "date": "2026-10-29",
-   "selection": "Elena Rybakina",
-   "opp": "Yulia Putintseva",
-   "p": 0.8531,
-   "modelPick": "Elena Rybakina",
+   "selection": "Carlos Alcaraz",
+   "opp": "Nikoloz Basilashvili",
+   "p": 0.8893,
+   "modelPick": "Carlos Alcaraz",
    "tierName": "Strong",
-   "list": false,
+   "list": true,
    "hit": null,
    "hitN": null,
-   "id": "185676",
+   "id": "185193",
    "rank": [
-    1,
-    67
+    3,
+    95
    ],
    "status": "pending",
-   "why": "85% Elena Rybakina, ranked 1 v 67"
+   "why": "89% Carlos Alcaraz, ranked 3 v 95"
   },
   {
    "sport": "tennis",
    "event": "Jerome Kym v Ben Shelton",
    "comp": "Swiss Indoors Basel Round 2",
    "tour": "ATP",
-   "when": "2026-10-29T04:00:00Z",
+   "when": "2026-10-29T18:30:00Z",
    "date": "2026-10-29",
    "selection": "Ben Shelton",
    "opp": "Jerome Kym",
    "p": 0.84,
    "modelPick": "Ben Shelton",
    "tierName": "Strong",
-   "list": false,
+   "list": true,
    "hit": null,
    "hitN": null,
    "id": "185149",
@@ -230,72 +69,224 @@
   },
   {
    "sport": "tennis",
-   "event": "Arthur Fils v Alex Michelsen",
+   "event": "Tallon Griekspoor v Alexander Zverev",
+   "comp": "Erste Bank Open Round 2",
+   "tour": "ATP",
+   "when": "2026-10-29T16:30:00Z",
+   "date": "2026-10-29",
+   "selection": "Alexander Zverev",
+   "opp": "Tallon Griekspoor",
+   "p": 0.795,
+   "modelPick": "Alexander Zverev",
+   "tierName": "Strong",
+   "list": true,
+   "hit": null,
+   "hitN": null,
+   "id": "185183",
+   "rank": [
+    2,
+    50
+   ],
+   "status": "pending",
+   "why": "80% Alexander Zverev, ranked 2 v 50"
+  },
+  {
+   "sport": "tennis",
+   "event": "Jan Lennard Struff v Novak Djokovic",
    "comp": "Swiss Indoors Basel Round 2",
    "tour": "ATP",
-   "when": "2026-10-29T04:00:00Z",
+   "when": "2026-10-29T17:00:00Z",
    "date": "2026-10-29",
-   "selection": "Arthur Fils",
-   "opp": "Alex Michelsen",
-   "p": 0.6598,
-   "modelPick": "Arthur Fils",
+   "selection": "Novak Djokovic",
+   "opp": "Jan Lennard Struff",
+   "p": 0.8192,
+   "modelPick": "Novak Djokovic",
+   "tierName": "Strong",
+   "list": true,
+   "hit": null,
+   "hitN": null,
+   "id": "185151",
+   "rank": [
+    12,
+    47
+   ],
+   "status": "pending",
+   "why": "82% Novak Djokovic, ranked 12 v 47"
+  },
+  {
+   "sport": "tennis",
+   "event": "Marjorie Souza v Francesca Jones",
+   "comp": "Curitiba Open Round 2",
+   "tour": "WTA",
+   "when": "2026-10-29T16:30:00Z",
+   "date": "2026-10-29",
+   "selection": "Francesca Jones",
+   "opp": "Marjorie Souza",
+   "p": 0.9093,
+   "modelPick": "Francesca Jones",
+   "tierName": "Strong",
+   "list": true,
+   "hit": null,
+   "hitN": null,
+   "id": "185770",
+   "rank": [
+    98,
+    null
+   ],
+   "status": "pending",
+   "why": "91% Francesca Jones"
+  },
+  {
+   "sport": "tennis",
+   "event": "Adriana Reami v Fiona Ferro",
+   "comp": "Queretaro Open Round 2",
+   "tour": "WTA",
+   "when": "2026-10-29T21:30:00Z",
+   "date": "2026-10-29",
+   "selection": "Fiona Ferro",
+   "opp": "Adriana Reami",
+   "p": 0.887,
+   "modelPick": "Fiona Ferro",
+   "tierName": "Strong",
+   "list": true,
+   "hit": null,
+   "hitN": null,
+   "id": "185806",
+   "rank": [
+    99,
+    null
+   ],
+   "status": "pending",
+   "why": "89% Fiona Ferro"
+  }
+ ],
+ "tomorrow": [
+  {
+   "sport": "tennis",
+   "event": "Leylah Fernandez v Elena Rybakina",
+   "comp": "Toray Pan Pacific Open Tennis Quarterfinal",
+   "tour": "WTA",
+   "when": "2026-10-30T05:30:00Z",
+   "date": "2026-10-30",
+   "selection": "Elena Rybakina",
+   "opp": "Leylah Fernandez",
+   "p": 0.7787,
+   "modelPick": "Elena Rybakina",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.8333,
+   "hitN": 48,
+   "id": "185683",
+   "rank": [
+    1,
+    23
+   ],
+   "status": "pending",
+   "why": "78% Elena Rybakina, ranked 1 v 23, calls at this level won 83% (48)"
+  },
+  {
+   "sport": "rugby",
+   "event": "Glasgow Warriors v Lions",
+   "comp": "URC",
+   "when": "2026-10-30T19:45Z",
+   "date": "2026-10-30",
+   "selection": "Glasgow Warriors",
+   "opp": "Lions",
+   "p": 0.8221,
+   "modelPick": "Glasgow Warriors",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.8923,
+   "hitN": 65,
+   "id": "604065",
+   "elo": [
+    1669,
+    1503
+   ],
+   "homeSide": true,
+   "form": "WWDWL",
+   "status": "pending",
+   "why": "82% Glasgow Warriors, rating 1669 v 1503, form WWDWL, at home, calls at this level won 89% (65)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Bianca Andreescu v Diletta Cherubini",
+   "comp": "Queretaro Open Round 2",
+   "tour": "WTA",
+   "when": "2026-10-30T00:00:00Z",
+   "date": "2026-10-30",
+   "selection": "Bianca Andreescu",
+   "opp": "Diletta Cherubini",
+   "p": 0.8778,
+   "modelPick": "Bianca Andreescu",
+   "tierName": "Strong",
+   "list": true,
+   "hit": null,
+   "hitN": null,
+   "id": "185812",
+   "rank": [
+    129,
+    null
+   ],
+   "status": "pending",
+   "why": "88% Bianca Andreescu"
+  },
+  {
+   "sport": "football",
+   "event": "Casa Pia v Sporting Clube de Portugal",
+   "comp": "Primeira Liga",
+   "lg": "pt.1",
+   "country": "Portugal",
+   "tier": 1,
+   "when": "2026-10-30T20:15:00Z",
+   "date": "2026-10-30",
+   "selection": "Sporting Clube de Portugal",
+   "opp": "Casa Pia",
+   "side": "a",
+   "home": "Casa Pia",
+   "away": "Sporting Clube de Portugal",
+   "p": 0.7648,
+   "modelPick": "Sporting Clube de Portugal",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    0,
+    2
+   ],
+   "xg": [
+    0.73,
+    2.64
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "76% Sporting Clube de Portugal, likely 0-2, xG 0.7 v 2.6, calls at this level won 73% (111)"
+  },
+  {
+   "sport": "nfl",
+   "event": "Green Bay Packers v Carolina Panthers",
+   "comp": "NFL",
+   "when": "2026-10-30T00:15Z",
+   "date": "2026-10-30",
+   "selection": "Green Bay Packers",
+   "opp": "Carolina Panthers",
+   "p": 0.6734,
+   "modelPick": "Green Bay Packers",
    "tierName": "Firm",
    "list": false,
-   "hit": 0.6852,
-   "hitN": 54,
-   "id": "185152",
-   "rank": [
-    8,
-    34
+   "hit": 0.667,
+   "hitN": 33,
+   "id": "401873023",
+   "elo": [
+    1522,
+    1446
    ],
+   "homeSide": true,
+   "form": "LWWWL",
    "status": "pending",
-   "why": "66% Arthur Fils, ranked 8 v 34, calls at this level won 69% (54)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Mia Pohankova v Naomi Osaka",
-   "comp": "Toray Pan Pacific Open Tennis Round 2",
-   "tour": "WTA",
-   "when": "2026-10-29T05:30:00Z",
-   "date": "2026-10-29",
-   "selection": "Naomi Osaka",
-   "opp": "Mia Pohankova",
-   "p": 0.7885,
-   "modelPick": "Naomi Osaka",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.8409,
-   "hitN": 44,
-   "id": "185672",
-   "rank": [
-    18,
-    144
-   ],
-   "status": "pending",
-   "why": "79% Naomi Osaka, ranked 18 v 144, calls at this level won 84% (44)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Jiri Lehecka v Daniel Altmaier",
-   "comp": "Swiss Indoors Basel Round 2",
-   "tour": "ATP",
-   "when": "2026-10-29T04:00:00Z",
-   "date": "2026-10-29",
-   "selection": "Jiri Lehecka",
-   "opp": "Daniel Altmaier",
-   "p": 0.7349,
-   "modelPick": "Jiri Lehecka",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.7,
-   "hitN": 40,
-   "id": "185150",
-   "rank": [
-    21,
-    60
-   ],
-   "status": "pending",
-   "why": "73% Jiri Lehecka, ranked 21 v 60, calls at this level won 70% (40)"
+   "why": "67% Green Bay Packers, rating 1522 v 1446, form LWWWL, at home, calls at this level won 67% (33)"
   }
  ],
  "groups": [],
@@ -703,7 +694,7 @@
    "legsWon": 0
   }
  },
- "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/32",
- "issue": 32,
- "text": "Good afternoon Douglas. Wednesday 28 October, 17:13 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (43 of today's 59 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/33",
+ "issue": 33,
+ "text": "Good afternoon Douglas. Thursday 29 October, 13:43 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (28 of today's 35 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }

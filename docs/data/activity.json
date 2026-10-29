@@ -1,6 +1,58 @@
 {
  "prs": [
   {
+   "n": 109,
+   "title": "[accas] Backtest the Odds tab group rules",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/109",
+   "owner": "accas",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-10-29T13:41:43Z",
+   "merged": null,
+   "closed": null,
+   "objective": "group-rules",
+   "outcome": null
+  },
+  {
+   "n": 108,
+   "title": "[curator] Test the Daily List bar",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/108",
+   "owner": "curator",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-29T13:37:45Z",
+   "merged": "2026-10-29T13:39:19Z",
+   "closed": "2026-10-29T13:39:19Z",
+   "objective": "list-bar",
+   "outcome": "evidence"
+  },
+  {
+   "n": 107,
+   "title": "[calib] Check calibration by sport and confidence band",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/107",
+   "owner": "calib",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-10-29T13:33:46Z",
+   "merged": "2026-10-29T13:35:21Z",
+   "closed": "2026-10-29T13:35:21Z",
+   "objective": "calibration-check",
+   "outcome": "evidence"
+  },
+  {
+   "n": 106,
+   "title": "[champ] Find why the Championship misses",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/106",
+   "owner": "champ",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-10-29T13:27:58Z",
+   "merged": null,
+   "closed": null,
+   "objective": "championship-deep-dive",
+   "outcome": null
+  },
+  {
    "n": 97,
    "title": "[odds] Price more of the Odds tab legs",
    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/97",
@@ -324,62 +376,46 @@
    "closed": "2026-10-21T12:13:21Z",
    "objective": "fixture-integrity",
    "outcome": "evidence"
-  },
-  {
-   "n": 59,
-   "title": "[sports] Rugby union landing above its quotes",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/59",
-   "owner": "sports",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-21T12:08:21Z",
-   "merged": "2026-10-21T12:09:26Z",
-   "closed": "2026-10-21T12:09:26Z",
-   "objective": "hq-sport-rugby",
-   "outcome": "evidence"
-  },
-  {
-   "n": 56,
-   "title": "[engineer] Add tests for the least-tested module",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/56",
-   "owner": "engineer",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-20T12:11:49Z",
-   "merged": "2026-10-20T12:13:21Z",
-   "closed": "2026-10-20T12:13:22Z",
-   "objective": "tests-gap",
-   "outcome": "tests"
-  },
-  {
-   "n": 55,
-   "title": "[odds] Log why tennis tournaments miss an Odds API key",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/55",
-   "owner": "odds",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-20T12:08:43Z",
-   "merged": "2026-10-20T12:09:47Z",
-   "closed": "2026-10-20T12:09:47Z",
-   "objective": "hq-odds-keys",
-   "outcome": "model"
-  },
-  {
-   "n": 54,
-   "title": "[scout] Cover Croatia, Serbia, Ukraine, Hungary, Korea or the UAE",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/54",
-   "owner": "scout",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-10-20T12:05:35Z",
-   "merged": "2026-10-20T12:06:35Z",
-   "closed": "2026-10-20T12:06:35Z",
-   "objective": "hq-coverage-af",
-   "outcome": "model"
   }
  ],
- "fetched": "2026-10-29T10:43:57.044425+00:00",
+ "fetched": "2026-10-29T13:43:29.318002+00:00",
  "commits": [
+  {
+   "sha": "38571b4",
+   "msg": "Office agent (curator): Test the Daily List bar (#108)",
+   "date": "2026-10-29T13:39:18Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/38571b405fcab33ed9d304c80de46712baa911cb"
+  },
+  {
+   "sha": "1ef1192",
+   "msg": "Office agent (calib): Check calibration by sport and confidence band (#107)",
+   "date": "2026-10-29T13:35:20Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1ef1192b375835cbcee2964c5cdd402fb3948527"
+  },
+  {
+   "sha": "3d3c9f7",
+   "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
+   "date": "2026-10-29T12:05:44Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3d3c9f7bf1cbbc9d567a72357d67cc7ce2fa6690"
+  },
+  {
+   "sha": "67c9a3e",
+   "msg": "Merge pull request #104 from douglasbakeronline/card-core-again",
+   "date": "2026-10-29T12:02:06Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/67c9a3e46a81ad6359e3cf2adb8ae647fb2d836d"
+  },
+  {
+   "sha": "cfe79ff",
+   "msg": "The Card: core leagues only again, after the two-rule replay",
+   "date": "2026-10-29T12:00:58Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/cfe79fff3be6b01dd207934e78080539b7164cce"
+  },
+  {
+   "sha": "0de47ad",
+   "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
+   "date": "2026-10-29T11:37:10Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/0de47ad0ee2f6ef542e1c09f011b26f65d433b94"
+  },
   {
    "sha": "e3d5d57",
    "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
@@ -463,104 +499,68 @@
    "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
    "date": "2026-10-29T09:22:51Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/d530f06e5bfd7f24bb3d898b8570f2ed7fb291e5"
-  },
-  {
-   "sha": "f54fa99",
-   "msg": "The Card: sport rule, one window a day, William Hill prices, substitutes, core leagues, under-market rule, four groups, the floor (#99)",
-   "date": "2026-10-29T09:17:14Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f54fa998e4474f6ff831c687fc4b73d18916b268"
-  },
-  {
-   "sha": "ee65f9d",
-   "msg": "CLAUDE.md: CARD_UNDER_MARKET",
-   "date": "2026-10-29T09:09:46Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ee65f9d3b376207715a1e659ce86e47a59c70fc5"
-  },
-  {
-   "sha": "bd64e07",
-   "msg": "The Card: a football leg needs the model 5+ points under the bookmakers",
-   "date": "2026-10-29T09:09:35Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/bd64e074f3c71e928e3aa1cab59be008af33e8a9"
-  },
-  {
-   "sha": "ef56852",
-   "msg": "CLAUDE.md: four groups a day, stake weights, per-rule record",
-   "date": "2026-10-29T09:02:06Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ef5685296f1277bc363b9c6541482e3c6bdc3f29"
-  },
-  {
-   "sha": "ccbcc13",
-   "msg": "The Card: up to four groups a day, stake weights, a record line per rule",
-   "date": "2026-10-29T09:01:54Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ccbcc13272d1d7b6214261be1c312d66b565fcf9"
-  },
-  {
-   "sha": "dff9a13",
-   "msg": "CLAUDE.md and note: core-only Card, the floor, card_replay",
-   "date": "2026-10-29T08:42:36Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/dff9a13ac371fe1d175e53ba07fe207301f7a1cf"
   }
  ],
  "runs": [
   {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T10:08:53Z",
+   "conclusion": "",
+   "createdAt": "2026-10-29T13:42:52Z",
    "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40855219352"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40884467984"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-29T10:07:50Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40855075842"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T10:07:50Z",
+   "createdAt": "2026-10-29T13:41:47Z",
    "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40855075689"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40884301672"
   },
   {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T10:07:46Z",
+   "conclusion": "failure",
+   "createdAt": "2026-10-29T13:41:47Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40855066803"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40884301492"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-29T09:59:26Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40853939340"
+   "createdAt": "2026-10-29T13:41:38Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40884279178"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-29T09:58:23Z",
+   "createdAt": "2026-10-29T13:37:48Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40883688078"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-29T13:37:48Z",
    "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40853805435"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40883688070"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-29T09:58:23Z",
+   "createdAt": "2026-10-29T13:37:40Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40853805411"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40883665862"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-10-29T09:58:20Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40853800216"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T09:34:39Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40850723317"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T09:33:37Z",
+   "createdAt": "2026-10-29T13:33:50Z",
    "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40850584151"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40883075051"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-29T13:33:50Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40883074966"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-29T13:33:40Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40883047801"
   }
  ]
 }
