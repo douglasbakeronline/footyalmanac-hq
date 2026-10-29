@@ -313,8 +313,26 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-29T18:48:50.435266+00:00",
+ "fetched": "2026-10-29T20:43:36.212067+00:00",
  "commits": [
+  {
+   "sha": "2f64681",
+   "msg": "Weekly retune 2026-10-29 [skip ci]",
+   "date": "2026-10-29T20:15:52Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/2f64681d200abf0e69f76bb32cdc0db4a768a9da"
+  },
+  {
+   "sha": "a9817df",
+   "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
+   "date": "2026-10-29T20:07:55Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a9817df2e3fae1955f1f9fe29655516c64d48e5e"
+  },
+  {
+   "sha": "e5c1a56",
+   "msg": "tools/card_legs_history.py: the Card leg rule on past seasons, run by tune.yml (#115)",
+   "date": "2026-10-29T20:03:24Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e5c1a5656f26d422c1139d4ece1a925f35caf21a"
+  },
   {
    "sha": "b557c38",
    "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
@@ -416,27 +434,39 @@
    "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
    "date": "2026-10-29T14:05:38Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a70a2ab57234a6ff3732dda0702d372fb0bd7374"
-  },
-  {
-   "sha": "fe9687b",
-   "msg": "Merge pull request #105 from douglasbakeronline/card-notify",
-   "date": "2026-10-29T14:01:30Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/fe9687bc504e5b30a5046a9dd3a105068f6248fb"
-  },
-  {
-   "sha": "f36fad1",
-   "msg": "Merge main into card-notify",
-   "date": "2026-10-29T14:00:19Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f36fad19c939331e313e93e8843293724b99d22d"
-  },
-  {
-   "sha": "66f57dc",
-   "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
-   "date": "2026-10-29T13:48:39Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/66f57dc0af53913327e92b2b2a9537123e3c8328"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-29T20:03:27Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40945594855"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-29T20:03:27Z",
+   "name": "Weekly retune",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40945594117"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-29T19:59:55Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40945053603"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-29T19:59:55Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40945053601"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-29T19:59:53Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40945048300"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-29T17:38:10Z",
@@ -466,36 +496,6 @@
    "createdAt": "2026-10-29T16:05:46Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40908159839"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T15:52:43Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40905973877"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T15:52:43Z",
-   "name": "Weekly retune",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40905972802"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T15:51:30Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40905773987"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T15:51:30Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40905773764"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-29T15:51:27Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/40905765675"
   }
  ]
 }
