@@ -1,12 +1,12 @@
 {
- "time": "2026-10-30T13:34:08.908168+00:00",
+ "time": "2026-10-30T17:04:23.971842+00:00",
  "date": "2026-10-30",
  "stage": "refresh",
  "pricing": {
-  "priced": 56,
-  "total": 79,
+  "priced": 59,
+  "total": 76,
   "site": true,
-  "generated": "2026-10-30T11:28:11Z"
+  "generated": "2026-10-30T13:37:14Z"
  },
  "review": {
   "dropped": [
@@ -18,78 +18,9 @@
  "counts": {
   "today": 186,
   "list": 8,
-  "tomorrow": 858
+  "tomorrow": 867
  },
  "impactful": [
-  {
-   "sport": "tennis",
-   "event": "Arthur Fery v Alexander Zverev",
-   "comp": "Erste Bank Open Quarterfinal",
-   "tour": "ATP",
-   "when": "2026-10-30T16:30:00Z",
-   "date": "2026-10-30",
-   "selection": "Alexander Zverev",
-   "opp": "Arthur Fery",
-   "p": 0.8013,
-   "modelPick": "Alexander Zverev",
-   "tierName": "Strong",
-   "list": true,
-   "hit": null,
-   "hitN": null,
-   "id": "185199",
-   "rank": [
-    2,
-    35
-   ],
-   "status": "pending",
-   "why": "80% Alexander Zverev, ranked 2 v 35"
-  },
-  {
-   "sport": "tennis",
-   "event": "Carlos Alcaraz v Tommy Paul",
-   "comp": "Erste Bank Open Quarterfinal",
-   "tour": "ATP",
-   "when": "2026-10-30T14:00:00Z",
-   "date": "2026-10-30",
-   "selection": "Carlos Alcaraz",
-   "opp": "Tommy Paul",
-   "p": 0.7757,
-   "modelPick": "Carlos Alcaraz",
-   "tierName": "Strong",
-   "list": true,
-   "hit": null,
-   "hitN": null,
-   "id": "185202",
-   "rank": [
-    3,
-    14
-   ],
-   "status": "pending",
-   "why": "78% Carlos Alcaraz, ranked 3 v 14"
-  },
-  {
-   "sport": "tennis",
-   "event": "Jiri Lehecka v Jerome Kym",
-   "comp": "Swiss Indoors Basel Quarterfinal",
-   "tour": "ATP",
-   "when": "2026-10-30T17:00:00Z",
-   "date": "2026-10-30",
-   "selection": "Jiri Lehecka",
-   "opp": "Jerome Kym",
-   "p": 0.7651,
-   "modelPick": "Jiri Lehecka",
-   "tierName": "Strong",
-   "list": true,
-   "hit": null,
-   "hitN": null,
-   "id": "185155",
-   "rank": [
-    21,
-    null
-   ],
-   "status": "pending",
-   "why": "77% Jiri Lehecka"
-  },
   {
    "sport": "rugby",
    "event": "Glasgow Warriors v Lions",
@@ -159,6 +90,86 @@
    ],
    "status": "pending",
    "why": "88% Tatjana Maria"
+  },
+  {
+   "sport": "football",
+   "event": "Casa Pia v Sporting Clube de Portugal",
+   "comp": "Primeira Liga",
+   "lg": "pt.1",
+   "country": "Portugal",
+   "tier": 1,
+   "when": "2026-10-30T20:15:00Z",
+   "date": "2026-10-30",
+   "selection": "Sporting Clube de Portugal",
+   "opp": "Casa Pia",
+   "side": "a",
+   "home": "Casa Pia",
+   "away": "Sporting Clube de Portugal",
+   "p": 0.7738,
+   "modelPick": "Sporting Clube de Portugal",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    0,
+    2
+   ],
+   "xg": [
+    0.72,
+    2.68
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "77% Sporting Clube de Portugal, likely 0-2, xG 0.7 v 2.7, calls at this level won 73% (111)"
+  },
+  {
+   "sport": "rugby",
+   "event": "Connacht v Leinster",
+   "comp": "URC",
+   "when": "2026-10-30T19:45Z",
+   "date": "2026-10-30",
+   "selection": "Leinster",
+   "opp": "Connacht",
+   "p": 0.6204,
+   "modelPick": "Leinster",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.6003,
+   "hitN": 110,
+   "id": "604064",
+   "elo": [
+    1719,
+    1534
+   ],
+   "homeSide": false,
+   "form": "WWLLW",
+   "status": "pending",
+   "why": "62% Leinster, rating 1719 v 1534, form WWLLW, away, calls at this level won 60% (110)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Carole Monnet v Nadia Podoroska",
+   "comp": "Queretaro Open Quarterfinal",
+   "tour": "WTA",
+   "when": "2026-10-30T21:30:00Z",
+   "date": "2026-10-30",
+   "selection": "Nadia Podoroska",
+   "opp": "Carole Monnet",
+   "p": 0.6606,
+   "modelPick": "Nadia Podoroska",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.6301,
+   "hitN": 73,
+   "id": "185815",
+   "rank": [
+    null,
+    null
+   ],
+   "status": "pending",
+   "why": "66% Nadia Podoroska, calls at this level won 63% (73)"
   }
  ],
  "tomorrow": [
@@ -659,5 +670,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/34",
  "issue": 34,
- "text": "Good afternoon Douglas. Friday 30 October, 13:34 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (56 of today's 79 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Friday 30 October, 17:04 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (59 of today's 76 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }

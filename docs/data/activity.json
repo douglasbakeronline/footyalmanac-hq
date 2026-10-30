@@ -313,8 +313,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-30T13:34:23.764359+00:00",
+ "fetched": "2026-10-30T17:04:32.028487+00:00",
  "commits": [
+  {
+   "sha": "f767d38",
+   "msg": "Archive predictions and record for 2026-10-30 [skip ci]",
+   "date": "2026-10-30T13:39:08Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f767d380056ac88973da7a42e8bc3867a20d462b"
+  },
   {
    "sha": "36d94fc",
    "msg": "Office agent (odds): Log why tennis tournaments miss an Odds API key (#123)",
@@ -428,17 +434,17 @@
    "msg": "Archive predictions and record for 2026-10-29 [skip ci]",
    "date": "2026-10-29T16:20:08Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/159b4dcc110c44f87e0630f20cd10641cc9dd8c0"
-  },
-  {
-   "sha": "ad60f46",
-   "msg": "CLAUDE.md: goals-market value backtest result, tested and rejected (#114)",
-   "date": "2026-10-29T16:09:53Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ad60f46896416e2c93f666bf03ce5e63906ceee1"
   }
  ],
  "runs": [
   {
-   "conclusion": "",
+   "conclusion": "success",
+   "createdAt": "2026-10-30T15:27:05Z",
+   "name": "Office merge window",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41080826402"
+  },
+  {
+   "conclusion": "success",
    "createdAt": "2026-10-30T13:34:08Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41064331013"
@@ -490,12 +496,6 @@
    "createdAt": "2026-10-30T13:24:43Z",
    "name": "Evaluation",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41063010345"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-30T13:24:33Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41062985457"
   }
  ]
 }
