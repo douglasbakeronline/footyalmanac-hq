@@ -1,50 +1,26 @@
 {
- "time": "2026-10-31T13:03:57.425830+00:00",
+ "time": "2026-10-31T17:31:37.801441+00:00",
  "date": "2026-10-31",
  "stage": "refresh",
  "pricing": {
-  "priced": 165,
-  "total": 325,
+  "priced": 114,
+  "total": 203,
   "site": true,
-  "generated": "2026-10-31T10:58:59Z"
+  "generated": "2026-10-31T16:28:07Z"
  },
  "review": {
   "dropped": [
    "Multiplier",
-   "Multiplier (alternative)",
-   "Multiplier"
+   "Multiplier (alternative)"
   ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 800,
-  "list": 18,
-  "tomorrow": 669
+  "today": 549,
+  "list": 12,
+  "tomorrow": 687
  },
  "impactful": [
-  {
-   "sport": "tennis",
-   "event": "Carlos Alcaraz v Daniil Medvedev",
-   "comp": "Erste Bank Open Semifinal",
-   "tour": "ATP",
-   "when": "2026-10-31T14:00:00Z",
-   "date": "2026-10-31",
-   "selection": "Carlos Alcaraz",
-   "opp": "Daniil Medvedev",
-   "p": 0.7513,
-   "modelPick": "Carlos Alcaraz",
-   "tierName": "Strong",
-   "list": true,
-   "hit": null,
-   "hitN": null,
-   "id": "185204",
-   "rank": [
-    3,
-    5
-   ],
-   "status": "pending",
-   "why": "75% Carlos Alcaraz, ranked 3 v 5"
-  },
   {
    "sport": "football",
    "event": "FC Porto v GD Estoril Praia",
@@ -79,100 +55,151 @@
    "why": "82% FC Porto, likely 2-0, xG 2.7 v 0.5, calls at this level won 84% (131)"
   },
   {
-   "sport": "rugby",
-   "event": "Saracens v Newcastle Falcons",
-   "comp": "Premiership",
-   "when": "2026-10-31T15:00Z",
+   "sport": "football",
+   "event": "PSV v Willem II Tilburg",
+   "comp": "Eredivisie",
+   "lg": "nl.1",
+   "country": "Netherlands",
+   "tier": 1,
+   "when": "2026-10-31T17:45:00Z",
    "date": "2026-10-31",
-   "selection": "Saracens",
-   "opp": "Newcastle Falcons",
-   "p": 0.9291,
-   "modelPick": "Saracens",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9079,
-   "hitN": 76,
-   "id": "604636",
-   "elo": [
-    1570,
-    1223
+   "selection": "PSV",
+   "opp": "Willem II Tilburg",
+   "side": "h",
+   "home": "PSV",
+   "away": "Willem II Tilburg",
+   "p": 0.8673,
+   "modelPick": "PSV",
+   "list": false,
+   "reserve": false,
+   "hit": 0.8397,
+   "hitN": 131,
+   "score": [
+    3,
+    0
    ],
-   "homeSide": true,
-   "form": "LWLWL",
+   "xg": [
+    3.6,
+    0.8
+   ],
+   "rankH": null,
+   "rankA": null,
    "status": "pending",
-   "why": "93% Saracens, rating 1570 v 1223, form LWLWL, at home, calls at this level won 91% (76)"
+   "why": "87% PSV, likely 3-0, xG 3.6 v 0.8, calls at this level won 84% (131)"
+  },
+  {
+   "sport": "football",
+   "event": "Olympique Lyonnais v Angers SCO",
+   "comp": "Ligue 1",
+   "lg": "fr.1",
+   "country": "France",
+   "tier": 1,
+   "when": "2026-10-31T19:45:00Z",
+   "date": "2026-10-31",
+   "selection": "Olympique Lyonnais",
+   "opp": "Angers SCO",
+   "side": "h",
+   "home": "Olympique Lyonnais",
+   "away": "Angers SCO",
+   "p": 0.6001,
+   "modelPick": "Olympique Lyonnais",
+   "list": false,
+   "reserve": false,
+   "hit": 0.7052,
+   "hitN": 78,
+   "score": [
+    1,
+    0
+   ],
+   "xg": [
+    1.76,
+    0.7
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "60% Olympique Lyonnais, likely 1-0, xG 1.8 v 0.7, calls at this level won 71% (78)"
+  },
+  {
+   "sport": "football",
+   "event": "Al Hilal v Al Fateh",
+   "comp": "Pro League",
+   "lg": "sa.1",
+   "country": "Saudi Arabia",
+   "tier": 1,
+   "when": "2026-10-31T18:00:00Z",
+   "date": "2026-10-31",
+   "selection": "Al Hilal",
+   "opp": "Al Fateh",
+   "side": "h",
+   "home": "Al Hilal",
+   "away": "Al Fateh",
+   "p": 0.876,
+   "modelPick": "Al Hilal",
+   "list": true,
+   "reserve": false,
+   "hit": 0.8397,
+   "hitN": 131,
+   "score": [
+    3,
+    0
+   ],
+   "xg": [
+    3.44,
+    0.66
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "88% Al Hilal, likely 3-0, xG 3.4 v 0.7, calls at this level won 84% (131)"
   },
   {
    "sport": "rugby",
-   "event": "Bulls v Scarlets",
+   "event": "Ospreys v Cardiff Blues",
    "comp": "URC",
-   "when": "2026-10-31T15:00Z",
+   "when": "2026-10-31T19:45Z",
    "date": "2026-10-31",
-   "selection": "Bulls",
-   "opp": "Scarlets",
-   "p": 0.89,
-   "modelPick": "Bulls",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9079,
-   "hitN": 76,
-   "id": "604067",
+   "selection": "Ospreys",
+   "opp": "Cardiff Blues",
+   "p": 0.6321,
+   "modelPick": "Ospreys",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.6003,
+   "hitN": 110,
+   "id": "604071",
    "elo": [
-    1622,
-    1359
+    1442,
+    1448
    ],
    "homeSide": true,
-   "form": "WWLWL",
+   "form": "WWLLL",
    "status": "pending",
-   "why": "89% Bulls, rating 1622 v 1359, form WWLWL, at home, calls at this level won 91% (76)"
+   "why": "63% Ospreys, rating 1442 v 1448, form WWLLL, at home, calls at this level won 60% (110)"
   },
   {
-   "sport": "rugby",
-   "event": "Bordeaux Begles v Bayonne",
-   "comp": "Top 14",
-   "when": "2026-10-31T15:35Z",
+   "sport": "cfb",
+   "event": "North Dakota State Bison v UTEP Miners",
+   "comp": "NCAA FBS",
+   "when": "2026-10-31T19:30Z",
    "date": "2026-10-31",
-   "selection": "Bordeaux Begles",
-   "opp": "Bayonne",
-   "p": 0.8681,
-   "modelPick": "Bordeaux Begles",
+   "selection": "North Dakota State Bison",
+   "opp": "UTEP Miners",
+   "p": 0.966,
+   "modelPick": "North Dakota State Bison",
    "tierName": "Strong",
-   "list": true,
-   "hit": 0.9079,
-   "hitN": 76,
-   "id": "604411",
+   "list": false,
+   "hit": 0.9341,
+   "hitN": 167,
+   "id": "401864531",
    "elo": [
-    1676,
-    1449
+    1745,
+    1247
    ],
    "homeSide": true,
-   "form": "WWWLW",
+   "form": "LWLWW",
    "status": "pending",
-   "why": "87% Bordeaux Begles, rating 1676 v 1449, form WWWLW, at home, calls at this level won 91% (76)"
-  },
-  {
-   "sport": "rugby",
-   "event": "Bath Rugby v Sale Sharks",
-   "comp": "Premiership",
-   "when": "2026-10-31T15:05Z",
-   "date": "2026-10-31",
-   "selection": "Bath Rugby",
-   "opp": "Sale Sharks",
-   "p": 0.8351,
-   "modelPick": "Bath Rugby",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.8923,
-   "hitN": 65,
-   "id": "604637",
-   "elo": [
-    1645,
-    1464
-   ],
-   "homeSide": true,
-   "form": "LLWWL",
-   "status": "pending",
-   "why": "84% Bath Rugby, rating 1645 v 1464, form LLWWL, at home, calls at this level won 89% (65)"
+   "why": "97% North Dakota State Bison, rating 1745 v 1247, form LWLWW, at home, calls at this level won 93% (167)"
   }
  ],
  "tomorrow": [
@@ -691,5 +718,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/35",
  "issue": 35,
- "text": "Good afternoon Douglas. Saturday 31 October, 13:03 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (165 of today's 325 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Saturday 31 October, 17:31 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (114 of today's 203 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
