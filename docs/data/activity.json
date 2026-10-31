@@ -313,8 +313,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-31T16:12:30.355405+00:00",
+ "fetched": "2026-10-31T16:46:49.729579+00:00",
  "commits": [
+  {
+   "sha": "e98c745",
+   "msg": "Archive predictions and record for 2026-10-31 [skip ci]",
+   "date": "2026-10-31T16:29:06Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e98c7452c9ab8886284f2050d1d4ac5e127ac100"
+  },
   {
    "sha": "3665dd9",
    "msg": "Archive predictions and record for 2026-10-31 [skip ci]",
@@ -428,15 +434,15 @@
    "msg": "Archive predictions and record for 2026-10-30 [skip ci]",
    "date": "2026-10-30T19:57:41Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3f55f74fdc1f986a381cbc51dea135a5982f24c1"
-  },
-  {
-   "sha": "aa4dd4b",
-   "msg": "groupings: archive the whole priced pool per day (pool-<date>.json.gz) for the variant review (#126)",
-   "date": "2026-10-30T19:53:19Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/aa4dd4b314046bd18fd4e95d38177af4db01d2f2"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-31T16:21:40Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41219309300"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-31T14:55:16Z",
@@ -490,12 +496,6 @@
    "createdAt": "2026-10-31T14:05:06Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41208478646"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-31T13:34:17Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41206166333"
   }
  ]
 }
