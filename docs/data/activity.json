@@ -313,8 +313,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-10-31T02:33:10.927653+00:00",
+ "fetched": "2026-10-31T09:24:36.585005+00:00",
  "commits": [
+  {
+   "sha": "7110753",
+   "msg": "Archive predictions and record for 2026-10-31 [skip ci]",
+   "date": "2026-10-31T05:33:14Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/71107537b3c4de80a4c0d201c47e29acbb83e125"
+  },
   {
    "sha": "7181e58",
    "msg": "Archive predictions and record for 2026-10-31 [skip ci]",
@@ -428,15 +434,15 @@
    "msg": "Card re-check: a published group holds through price drift within 10% of its band (#118)",
    "date": "2026-10-30T08:51:22Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e4d4cd7641c6f6f4bbadb0ef4d9168e9fee5e714"
-  },
-  {
-   "sha": "3ccf162",
-   "msg": "Archive predictions and record for 2026-10-30 [skip ci]",
-   "date": "2026-10-30T05:42:38Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3ccf162ac35b978547270f00f59aa8298597c161"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-10-31T05:27:13Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41172649823"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-10-31T01:34:21Z",
@@ -490,12 +496,6 @@
    "createdAt": "2026-10-30T19:53:23Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41118896911"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-30T19:49:20Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41118361438"
   }
  ]
 }
