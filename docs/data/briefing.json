@@ -1,178 +1,50 @@
 {
- "time": "2026-10-30T17:04:23.971842+00:00",
- "date": "2026-10-30",
+ "time": "2026-10-31T13:03:57.425830+00:00",
+ "date": "2026-10-31",
  "stage": "refresh",
  "pricing": {
-  "priced": 59,
-  "total": 76,
+  "priced": 165,
+  "total": 325,
   "site": true,
-  "generated": "2026-10-30T13:37:14Z"
+  "generated": "2026-10-31T10:58:59Z"
  },
  "review": {
   "dropped": [
    "Multiplier",
-   "Multiplier (alternative)"
+   "Multiplier (alternative)",
+   "Multiplier"
   ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 186,
-  "list": 8,
-  "tomorrow": 867
+  "today": 800,
+  "list": 18,
+  "tomorrow": 669
  },
  "impactful": [
   {
-   "sport": "rugby",
-   "event": "Glasgow Warriors v Lions",
-   "comp": "URC",
-   "when": "2026-10-30T19:45Z",
-   "date": "2026-10-30",
-   "selection": "Glasgow Warriors",
-   "opp": "Lions",
-   "p": 0.8221,
-   "modelPick": "Glasgow Warriors",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.8923,
-   "hitN": 65,
-   "id": "604065",
-   "elo": [
-    1669,
-    1503
-   ],
-   "homeSide": true,
-   "form": "WWDWL",
-   "status": "pending",
-   "why": "82% Glasgow Warriors, rating 1669 v 1503, form WWDWL, at home, calls at this level won 89% (65)"
-  },
-  {
    "sport": "tennis",
-   "event": "Alex De Minaur v Matteo Berrettini",
-   "comp": "Erste Bank Open Quarterfinal",
+   "event": "Carlos Alcaraz v Daniil Medvedev",
+   "comp": "Erste Bank Open Semifinal",
    "tour": "ATP",
-   "when": "2026-10-30T19:00:00Z",
-   "date": "2026-10-30",
-   "selection": "Alex De Minaur",
-   "opp": "Matteo Berrettini",
-   "p": 0.6652,
-   "modelPick": "Alex De Minaur",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.661,
-   "hitN": 59,
-   "id": "185200",
-   "rank": [
-    10,
-    48
-   ],
-   "status": "pending",
-   "why": "67% Alex De Minaur, ranked 10 v 48, calls at this level won 66% (59)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Valeriya Strakhova v Tatjana Maria",
-   "comp": "Queretaro Open Quarterfinal",
-   "tour": "WTA",
-   "when": "2026-10-30T20:00:00Z",
-   "date": "2026-10-30",
-   "selection": "Tatjana Maria",
-   "opp": "Valeriya Strakhova",
-   "p": 0.8767,
-   "modelPick": "Tatjana Maria",
+   "when": "2026-10-31T14:00:00Z",
+   "date": "2026-10-31",
+   "selection": "Carlos Alcaraz",
+   "opp": "Daniil Medvedev",
+   "p": 0.7513,
+   "modelPick": "Carlos Alcaraz",
    "tierName": "Strong",
    "list": true,
    "hit": null,
    "hitN": null,
-   "id": "185816",
+   "id": "185204",
    "rank": [
-    70,
-    null
+    3,
+    5
    ],
    "status": "pending",
-   "why": "88% Tatjana Maria"
+   "why": "75% Carlos Alcaraz, ranked 3 v 5"
   },
-  {
-   "sport": "football",
-   "event": "Casa Pia v Sporting Clube de Portugal",
-   "comp": "Primeira Liga",
-   "lg": "pt.1",
-   "country": "Portugal",
-   "tier": 1,
-   "when": "2026-10-30T20:15:00Z",
-   "date": "2026-10-30",
-   "selection": "Sporting Clube de Portugal",
-   "opp": "Casa Pia",
-   "side": "a",
-   "home": "Casa Pia",
-   "away": "Sporting Clube de Portugal",
-   "p": 0.7738,
-   "modelPick": "Sporting Clube de Portugal",
-   "list": false,
-   "reserve": true,
-   "hit": 0.7298,
-   "hitN": 111,
-   "score": [
-    0,
-    2
-   ],
-   "xg": [
-    0.72,
-    2.68
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "77% Sporting Clube de Portugal, likely 0-2, xG 0.7 v 2.7, calls at this level won 73% (111)"
-  },
-  {
-   "sport": "rugby",
-   "event": "Connacht v Leinster",
-   "comp": "URC",
-   "when": "2026-10-30T19:45Z",
-   "date": "2026-10-30",
-   "selection": "Leinster",
-   "opp": "Connacht",
-   "p": 0.6204,
-   "modelPick": "Leinster",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.6003,
-   "hitN": 110,
-   "id": "604064",
-   "elo": [
-    1719,
-    1534
-   ],
-   "homeSide": false,
-   "form": "WWLLW",
-   "status": "pending",
-   "why": "62% Leinster, rating 1719 v 1534, form WWLLW, away, calls at this level won 60% (110)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Carole Monnet v Nadia Podoroska",
-   "comp": "Queretaro Open Quarterfinal",
-   "tour": "WTA",
-   "when": "2026-10-30T21:30:00Z",
-   "date": "2026-10-30",
-   "selection": "Nadia Podoroska",
-   "opp": "Carole Monnet",
-   "p": 0.6606,
-   "modelPick": "Nadia Podoroska",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.6301,
-   "hitN": 73,
-   "id": "185815",
-   "rank": [
-    null,
-    null
-   ],
-   "status": "pending",
-   "why": "66% Nadia Podoroska, calls at this level won 63% (73)"
-  }
- ],
- "tomorrow": [
   {
    "sport": "football",
    "event": "FC Porto v GD Estoril Praia",
@@ -301,6 +173,155 @@
    "form": "LLWWL",
    "status": "pending",
    "why": "84% Bath Rugby, rating 1645 v 1464, form LLWWL, at home, calls at this level won 89% (65)"
+  }
+ ],
+ "tomorrow": [
+  {
+   "sport": "nfl",
+   "event": "Cincinnati Bengals v Tennessee Titans",
+   "comp": "NFL",
+   "when": "2026-11-01T18:00Z",
+   "date": "2026-11-01",
+   "selection": "Cincinnati Bengals",
+   "opp": "Tennessee Titans",
+   "p": 0.8473,
+   "modelPick": "Cincinnati Bengals",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.8065,
+   "hitN": 31,
+   "id": "401873031",
+   "elo": [
+    1558,
+    1310
+   ],
+   "homeSide": true,
+   "form": "WWLLW",
+   "status": "pending",
+   "why": "85% Cincinnati Bengals, rating 1558 v 1310, form WWLLW, at home, calls at this level won 81% (31)"
+  },
+  {
+   "sport": "rugby",
+   "event": "Montpellier Herault v Castres Olympique",
+   "comp": "Top 14",
+   "when": "2026-11-01T14:00Z",
+   "date": "2026-11-01",
+   "selection": "Montpellier Herault",
+   "opp": "Castres Olympique",
+   "p": 0.8371,
+   "modelPick": "Montpellier Herault",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.8923,
+   "hitN": 65,
+   "id": "604414",
+   "elo": [
+    1647,
+    1463
+   ],
+   "homeSide": true,
+   "form": "WLWLW",
+   "status": "pending",
+   "why": "84% Montpellier Herault, rating 1647 v 1463, form WLWLW, at home, calls at this level won 89% (65)"
+  },
+  {
+   "sport": "football",
+   "event": "FC Barcelona v Deportivo Alavés",
+   "comp": "La Liga",
+   "lg": "es.1",
+   "country": "Spain",
+   "tier": 1,
+   "when": null,
+   "date": "2026-11-01",
+   "selection": "FC Barcelona",
+   "opp": "Deportivo Alavés",
+   "side": "h",
+   "home": "FC Barcelona",
+   "away": "Deportivo Alavés",
+   "p": 0.7619,
+   "modelPick": "FC Barcelona",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.79,
+    0.84
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "76% FC Barcelona, likely 2-0, xG 2.8 v 0.8, calls at this level won 73% (111)"
+  },
+  {
+   "sport": "football",
+   "event": "Atiker Konyaspor v Galatasaray",
+   "comp": "Super Lig",
+   "lg": "tr.1",
+   "country": "Turkey",
+   "tier": 1,
+   "when": null,
+   "date": "2026-11-01",
+   "selection": "Galatasaray",
+   "opp": "Atiker Konyaspor",
+   "side": "a",
+   "home": "Atiker Konyaspor",
+   "away": "Galatasaray",
+   "p": 0.6735,
+   "modelPick": "Galatasaray",
+   "list": false,
+   "reserve": true,
+   "hit": 0.8148,
+   "hitN": 54,
+   "score": [
+    1,
+    2
+   ],
+   "xg": [
+    1.05,
+    2.55
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "67% Galatasaray, likely 1-2, xG 1.1 v 2.5, calls at this level won 81% (54)"
+  },
+  {
+   "sport": "football",
+   "event": "Real Betis Balompié v Málaga",
+   "comp": "La Liga",
+   "lg": "es.1",
+   "country": "Spain",
+   "tier": 1,
+   "when": null,
+   "date": "2026-11-01",
+   "selection": "Real Betis Balompié",
+   "opp": "Málaga",
+   "side": "h",
+   "home": "Real Betis Balompié",
+   "away": "Málaga",
+   "p": 0.6414,
+   "modelPick": "Real Betis Balompié",
+   "list": false,
+   "reserve": false,
+   "hit": 0.7052,
+   "hitN": 78,
+   "score": [
+    1,
+    0
+   ],
+   "xg": [
+    1.84,
+    0.62
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "64% Real Betis Balompié, likely 1-0, xG 1.8 v 0.6, calls at this level won 71% (78)"
   }
  ],
  "groups": [],
@@ -668,7 +689,7 @@
    "legsWon": 0
   }
  },
- "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/34",
- "issue": 34,
- "text": "Good afternoon Douglas. Friday 30 October, 17:04 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (59 of today's 76 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/35",
+ "issue": 35,
+ "text": "Good afternoon Douglas. Saturday 31 October, 13:03 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (165 of today's 325 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
