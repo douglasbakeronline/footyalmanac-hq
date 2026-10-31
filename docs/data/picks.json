@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-31T05:35:53",
- "fetched": "2026-10-31T10:12:15.535851+00:00",
+ "generated": "2026-10-31T11:02:54",
+ "fetched": "2026-10-31T11:23:31.811698+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-10-31",
-   "count": 834,
+   "count": 767,
    "games": [
     {
      "t": "19:30",
@@ -869,8 +869,8 @@
      "reserve": true
     },
     {
-     "t": "19:00",
-     "ko": "2026-10-31T19:00:00Z",
+     "t": "19:30",
+     "ko": "2026-10-31T19:30:00Z",
      "lg": "af.568",
      "lgName": "Eerste Divisie",
      "country": "Suriname",
@@ -2231,9 +2231,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "1-4"
     },
     {
      "t": "18:00",
@@ -2277,8 +2277,8 @@
      "side": "h",
      "pick": "Alina Charaeva",
      "c": 0.685,
-     "hit": 0.6316,
-     "hitN": 76,
+     "hit": 0.6364,
+     "hitN": 77,
      "list": false,
      "reserve": true
     },
@@ -2349,9 +2349,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Diana Shnaider won"
     },
     {
      "t": "23:45",
@@ -2951,8 +2951,8 @@
      "side": "a",
      "pick": "Anna Blinkova",
      "c": 0.6362,
-     "hit": 0.6016,
-     "hitN": 123,
+     "hit": 0.6048,
+     "hitN": 124,
      "list": false,
      "reserve": true
     },
@@ -3231,8 +3231,8 @@
      "t": "11:00",
      "ko": "2026-10-31T11:00:00Z",
      "lg": "af.410",
-     "lgName": "C-League",
-     "country": "Cambodia",
+     "lgName": "Cambodia C-League",
+     "sport": "football",
      "h": "Angkor Tiger",
      "a": "Boeung Ket",
      "side": "h",
@@ -3243,18 +3243,14 @@
       "d": 0.2169,
       "a": 0.1604
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5422,
-     "o25": 0.5517,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "13:00",
@@ -3650,6 +3646,35 @@
      "unrated": false
     },
     {
+     "t": "12:00",
+     "ko": "2026-10-31T12:00:00Z",
+     "lg": "af.275",
+     "lgName": "Liga 2",
+     "country": "Indonesia",
+     "h": "Deltras",
+     "a": "Dejan",
+     "side": "h",
+     "pick": "Deltras",
+     "c": 0.6081,
+     "p": {
+      "h": 0.6081,
+      "d": 0.2251,
+      "a": 0.1668
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5377,
+     "o25": 0.5427,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-10-31T17:00:00Z",
      "lg": "af.69",
@@ -3700,35 +3725,6 @@
      ],
      "btts": 0.5408,
      "o25": 0.5459,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:00",
-     "ko": "2026-10-31T12:00:00Z",
-     "lg": "af.275",
-     "lgName": "Liga 2",
-     "country": "Indonesia",
-     "h": "Deltras",
-     "a": "Dejan",
-     "side": "h",
-     "pick": "Deltras",
-     "c": 0.607,
-     "p": {
-      "h": 0.607,
-      "d": 0.2258,
-      "a": 0.1672
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5371,
-     "o25": 0.5417,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -4201,35 +4197,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-10-31T09:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "\u015etef\u0103ne\u015fti",
-     "a": "Chindia Targoviste",
-     "side": "a",
-     "pick": "Chindia Targoviste",
-     "c": 0.596,
-     "p": {
-      "h": 0.1829,
-      "d": 0.2211,
-      "a": 0.596
-     },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5567,
-     "o25": 0.5612,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:30",
      "ko": "2026-10-31T14:30:00Z",
      "lg": "af.219",
@@ -4317,35 +4284,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.170",
-     "lgName": "League One",
-     "country": "China",
-     "h": "Meizhou Kejia",
-     "a": "Shaanxi Union",
-     "side": "a",
-     "pick": "Shaanxi Union",
-     "c": 0.5919,
-     "p": {
-      "h": 0.1816,
-      "d": 0.2265,
-      "a": 0.5919
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5486,
-     "o25": 0.5509,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-10-31T13:00:00Z",
      "lg": "af.578",
@@ -4370,35 +4308,6 @@
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Kanazawa",
-     "a": "Thespakusatsu Gunma",
-     "side": "h",
-     "pick": "Kanazawa",
-     "c": 0.5911,
-     "p": {
-      "h": 0.5911,
-      "d": 0.2322,
-      "a": 0.1767
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5371,
-     "o25": 0.5376,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -4761,18 +4670,18 @@
      "a": "Metaloglobus",
      "side": "h",
      "pick": "FC Bacau",
-     "c": 0.5795,
+     "c": 0.579,
      "p": {
-      "h": 0.5795,
-      "d": 0.2433,
-      "a": 0.1773
+      "h": 0.579,
+      "d": 0.2436,
+      "a": 0.1774
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.5241,
-     "o25": 0.5198,
+     "btts": 0.5238,
+     "o25": 0.5193,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": true,
@@ -4805,35 +4714,6 @@
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "Mito Hollyhock",
-     "a": "Sanfrecce Hiroshima",
-     "side": "a",
-     "pick": "Sanfrecce Hiroshima",
-     "c": 0.5789,
-     "p": {
-      "h": 0.1551,
-      "d": 0.2659,
-      "a": 0.5789
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4816,
-     "o25": 0.4723,
-     "hit": 0.5352,
-     "hitN": 99,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -5013,35 +4893,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-10-31T09:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "Dumbr\u0103vi\u0163a",
-     "a": "FC Politehnica Timisoara",
-     "side": "a",
-     "pick": "FC Politehnica Timisoara",
-     "c": 0.5686,
-     "p": {
-      "h": 0.1742,
-      "d": 0.2572,
-      "a": 0.5686
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.5056,
-     "o25": 0.4961,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:00",
      "ko": "2026-10-31T17:00:00Z",
      "lg": "us.1",
@@ -5065,35 +4916,6 @@
      "o25": 0.614,
      "hit": 0.5352,
      "hitN": 99,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "14:30",
-     "ko": "2026-10-31T14:30:00Z",
-     "lg": "af.968",
-     "lgName": "Championnat D1",
-     "country": "Gabon",
-     "h": "US Oyem",
-     "a": "Bitam",
-     "side": "h",
-     "pick": "US Oyem",
-     "c": 0.5678,
-     "p": {
-      "h": 0.5678,
-      "d": 0.2394,
-      "a": 0.1928
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5408,
-     "o25": 0.5361,
-     "hit": 0.5868,
-     "hitN": 4716,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -5883,6 +5705,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-10-31T13:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Members",
+     "a": "Lioli",
+     "side": "a",
+     "pick": "Lioli",
+     "c": 0.5541,
+     "p": {
+      "h": 0.1558,
+      "d": 0.2902,
+      "a": 0.5541
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4602,
+     "o25": 0.4432,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-10-31T12:00:00Z",
      "lg": "af.473",
@@ -6405,35 +6256,6 @@
      "unrated": false
     },
     {
-     "t": "04:00",
-     "ko": "2026-10-31T04:00:00Z",
-     "lg": "au.1",
-     "lgName": "A-League",
-     "country": "Australia",
-     "h": "Newcastle Jets",
-     "a": "Wellington Phoenix",
-     "side": "h",
-     "pick": "Newcastle Jets",
-     "c": 0.545,
-     "p": {
-      "h": 0.545,
-      "d": 0.2187,
-      "a": 0.2363
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5969,
-     "o25": 0.5975,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:00",
      "ko": "2026-10-31T17:00:00Z",
      "lg": "af.600",
@@ -6869,35 +6691,6 @@
      "unrated": false
     },
     {
-     "t": "05:05",
-     "ko": "2026-10-31T05:05:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Imabari",
-     "a": "Ventforet Kofu",
-     "side": "h",
-     "pick": "Imabari",
-     "c": 0.5351,
-     "p": {
-      "h": 0.5351,
-      "d": 0.254,
-      "a": 0.2108
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5347,
-     "o25": 0.5217,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.3",
@@ -6927,27 +6720,27 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Kochi United",
-     "a": "Sagamihara",
-     "side": "a",
-     "pick": "Sagamihara",
-     "c": 0.5342,
+     "t": "10:30",
+     "ko": "2026-10-31T10:30:00Z",
+     "lg": "af.636",
+     "lgName": "\u00ddokary Liga",
+     "country": "Turkmenistan",
+     "h": "A\u015fgabat",
+     "a": "Merw",
+     "side": "h",
+     "pick": "A\u015fgabat",
+     "c": 0.5336,
      "p": {
-      "h": 0.1849,
-      "d": 0.2809,
-      "a": 0.5342
+      "h": 0.5336,
+      "d": 0.2484,
+      "a": 0.218
      },
      "score": [
-      0,
+      1,
       1
      ],
-     "btts": 0.4882,
-     "o25": 0.4684,
+     "btts": 0.5462,
+     "o25": 0.5349,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -7275,35 +7068,6 @@
      "unrated": false
     },
     {
-     "t": "06:00",
-     "ko": "2026-10-31T06:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "Kashima Antlers",
-     "a": "Cerezo Osaka",
-     "side": "h",
-     "pick": "Kashima Antlers",
-     "c": 0.5274,
-     "p": {
-      "h": 0.5274,
-      "d": 0.2779,
-      "a": 0.1947
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4974,
-     "o25": 0.4771,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-10-31T13:00:00Z",
      "lg": "af.566",
@@ -7415,35 +7179,6 @@
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:05",
-     "ko": "2026-10-31T06:05:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Renofa Yamaguchi",
-     "a": "Kitakyushu",
-     "side": "h",
-     "pick": "Renofa Yamaguchi",
-     "c": 0.5241,
-     "p": {
-      "h": 0.5241,
-      "d": 0.2754,
-      "a": 0.2006
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5037,
-     "o25": 0.4835,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -7589,35 +7324,6 @@
      "hit": 0.4896,
      "hitN": 194,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:00",
-     "ko": "2026-10-31T06:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "Vissel Kobe",
-     "a": "Nagoya Grampus",
-     "side": "h",
-     "pick": "Vissel Kobe",
-     "c": 0.5191,
-     "p": {
-      "h": 0.5191,
-      "d": 0.2776,
-      "a": 0.2033
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5029,
-     "o25": 0.4815,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -8000,8 +7706,8 @@
      "unrated": false
     },
     {
-     "t": "14:00",
-     "ko": "2026-10-31T14:00:00Z",
+     "t": "10:00",
+     "ko": "2026-10-31T10:00:00Z",
      "lg": "af.636",
      "lgName": "\u00ddokary Liga",
      "country": "Turkmenistan",
@@ -8551,6 +8257,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-10-31T13:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Limkokwing University",
+     "a": "Villa",
+     "side": "a",
+     "pick": "Villa",
+     "c": 0.5075,
+     "p": {
+      "h": 0.2196,
+      "d": 0.273,
+      "a": 0.5075
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5172,
+     "o25": 0.4955,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-10-31T14:00:00Z",
      "lg": "cze.1",
@@ -8725,35 +8460,6 @@
      "unrated": false
     },
     {
-     "t": "07:00",
-     "ko": "2026-10-31T07:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "FC Ryukyu",
-     "a": "Gainare Tottori",
-     "side": "h",
-     "pick": "FC Ryukyu",
-     "c": 0.504,
-     "p": {
-      "h": 0.504,
-      "d": 0.2812,
-      "a": 0.2148
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5053,
-     "o25": 0.4812,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.2",
@@ -8806,35 +8512,6 @@
      "o25": 0.5236,
      "hit": 0.4896,
      "hitN": 194,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Chengdu Rongcheng II",
-     "a": "BIT",
-     "side": "h",
-     "pick": "Chengdu Rongcheng II",
-     "c": 0.5028,
-     "p": {
-      "h": 0.5028,
-      "d": 0.2624,
-      "a": 0.2348
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5379,
-     "o25": 0.5191,
-     "hit": 0.5376,
-     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -9653,64 +9330,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Vegalta Sendai",
-     "a": "Omiya Ardija",
-     "side": "h",
-     "pick": "Vegalta Sendai",
-     "c": 0.4894,
-     "p": {
-      "h": 0.4894,
-      "d": 0.2693,
-      "a": 0.2413
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5325,
-     "o25": 0.5103,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:00",
-     "ko": "2026-10-31T13:00:00Z",
-     "lg": "af.1025",
-     "lgName": "Second League A - Division A Gold",
-     "country": "Russia",
-     "h": "Dinamo Bryansk",
-     "a": "FK Sokol Saratov",
-     "side": "h",
-     "pick": "Dinamo Bryansk",
-     "c": 0.4892,
-     "p": {
-      "h": 0.4892,
-      "d": 0.2879,
-      "a": 0.2229
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5022,
-     "o25": 0.4748,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.7i",
@@ -9822,6 +9441,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-31T13:00:00Z",
+     "lg": "af.1025",
+     "lgName": "Second League A - Division A Gold",
+     "country": "Russia",
+     "h": "Dinamo Bryansk",
+     "a": "FK Sokol Saratov",
+     "side": "h",
+     "pick": "Dinamo Bryansk",
+     "c": 0.4885,
+     "p": {
+      "h": 0.4885,
+      "d": 0.2887,
+      "a": 0.2228
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.5013,
+     "o25": 0.4736,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -10088,35 +9736,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-10-31T09:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Kagoshima United",
-     "a": "Roasso Kumamoto",
-     "side": "h",
-     "pick": "Kagoshima United",
-     "c": 0.485,
-     "p": {
-      "h": 0.485,
-      "d": 0.2846,
-      "a": 0.2303
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5093,
-     "o25": 0.4822,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-10-31T13:00:00Z",
      "lg": "af.939",
@@ -10141,6 +9760,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "09:00",
+     "ko": "2026-10-31T09:00:00Z",
+     "lg": "af.100",
+     "lgName": "J3 League",
+     "country": "Japan",
+     "h": "Kagoshima United",
+     "a": "Roasso Kumamoto",
+     "side": "h",
+     "pick": "Kagoshima United",
+     "c": 0.4839,
+     "p": {
+      "h": 0.4839,
+      "d": 0.2862,
+      "a": 0.2299
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.5074,
+     "o25": 0.4797,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -10320,35 +9968,6 @@
      "unrated": false
     },
     {
-     "t": "14:30",
-     "ko": "2026-10-31T14:30:00Z",
-     "lg": "af.968",
-     "lgName": "Championnat D1",
-     "country": "Gabon",
-     "h": "Stade Mandji",
-     "a": "Cercle Mb\u00e9ri",
-     "side": "h",
-     "pick": "Stade Mandji",
-     "c": 0.481,
-     "p": {
-      "h": 0.481,
-      "d": 0.3263,
-      "a": 0.1927
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4521,
-     "o25": 0.4192,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:00",
      "ko": "2026-10-31T14:00:00Z",
      "lg": "in.1",
@@ -10372,35 +9991,6 @@
      "o25": 0.4822,
      "hit": 0.4634,
      "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.170",
-     "lgName": "League One",
-     "country": "China",
-     "h": "Dongguan United",
-     "a": "Ningbo Professional",
-     "side": "a",
-     "pick": "Ningbo Professional",
-     "c": 0.4807,
-     "p": {
-      "h": 0.2442,
-      "d": 0.275,
-      "a": 0.4807
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5268,
-     "o25": 0.502,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -10460,35 +10050,6 @@
      "hit": 0.4634,
      "hitN": 259,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Fukushima United",
-     "a": "Matsumoto Yamaga",
-     "side": "h",
-     "pick": "Fukushima United",
-     "c": 0.479,
-     "p": {
-      "h": 0.479,
-      "d": 0.258,
-      "a": 0.263
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5564,
-     "o25": 0.5376,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -10894,6 +10455,35 @@
      "o25": 0.522,
      "hit": 0.4634,
      "hitN": 259,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-10-31T13:00:00Z",
+     "lg": "af.290",
+     "lgName": "Persian Gulf Pro League",
+     "country": "Iran",
+     "h": "Nassaji Mazandaran",
+     "a": "Persepolis",
+     "side": "a",
+     "pick": "Persepolis",
+     "c": 0.4723,
+     "p": {
+      "h": 0.1989,
+      "d": 0.3288,
+      "a": 0.4723
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4528,
+     "o25": 0.4184,
+     "hit": 0.4867,
+     "hitN": 9010,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -11335,35 +10925,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.170",
-     "lgName": "League One",
-     "country": "China",
-     "h": "Guangxi Hengchen",
-     "a": "Wuxi Wugou",
-     "side": "h",
-     "pick": "Guangxi Hengchen",
-     "c": 0.465,
-     "p": {
-      "h": 0.465,
-      "d": 0.2712,
-      "a": 0.2638
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5396,
-     "o25": 0.515,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.7i",
@@ -11590,35 +11151,6 @@
      "o25": 0.4845,
      "hit": 0.4634,
      "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "11:00",
-     "ko": "2026-10-31T11:00:00Z",
-     "lg": "af.276",
-     "lgName": "FKF Premier League",
-     "country": "Kenya",
-     "h": "Migori Youth",
-     "a": "Mombasa Elite",
-     "side": "h",
-     "pick": "Migori Youth",
-     "c": 0.4623,
-     "p": {
-      "h": 0.4623,
-      "d": 0.3162,
-      "a": 0.2216
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4732,
-     "o25": 0.4379,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -11857,35 +11389,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Tochigi City",
-     "a": "Iwaki",
-     "side": "h",
-     "pick": "Tochigi City",
-     "c": 0.4604,
-     "p": {
-      "h": 0.4604,
-      "d": 0.2465,
-      "a": 0.2931
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5831,
-     "o25": 0.5686,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:00",
      "ko": "2026-10-31T16:00:00Z",
      "lg": "af.221",
@@ -12002,6 +11505,35 @@
      "unrated": false
     },
     {
+     "t": "16:30",
+     "ko": "2026-10-31T16:30:00Z",
+     "lg": "af.542",
+     "lgName": "Iraqi League",
+     "country": "Iraq",
+     "h": "Al Shorta",
+     "a": "Newroz",
+     "side": "h",
+     "pick": "Al Shorta",
+     "c": 0.4597,
+     "p": {
+      "h": 0.4597,
+      "d": 0.3197,
+      "a": 0.2206
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4696,
+     "o25": 0.4336,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.6s",
@@ -12023,35 +11555,6 @@
      ],
      "btts": 0.5254,
      "o25": 0.4968,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "08:40",
-     "ko": "2026-10-31T08:40:00Z",
-     "lg": "au.1",
-     "lgName": "A-League",
-     "country": "Australia",
-     "h": "Macarthur",
-     "a": "Western Sydney Wanderers",
-     "side": "h",
-     "pick": "Macarthur",
-     "c": 0.4584,
-     "p": {
-      "h": 0.4584,
-      "d": 0.2579,
-      "a": 0.2837
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5643,
-     "o25": 0.5446,
      "hit": 0.4634,
      "hitN": 259,
      "celtic": false,
@@ -12229,64 +11732,6 @@
      "hit": 0.4634,
      "hitN": 259,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "07:00",
-     "ko": "2026-10-31T07:00:00Z",
-     "lg": "af.380",
-     "lgName": "Premier League",
-     "country": "Hong Kong",
-     "h": "Eastern District",
-     "a": "Shatin",
-     "side": "h",
-     "pick": "Eastern District",
-     "c": 0.4567,
-     "p": {
-      "h": 0.4567,
-      "d": 0.272,
-      "a": 0.2713
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5414,
-     "o25": 0.516,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "04:00",
-     "ko": "2026-10-31T04:00:00Z",
-     "lg": "afc.1202",
-     "lgName": "Australian Championship",
-     "country": "Australia",
-     "h": "Sutherland Sharks",
-     "a": "Sydney United",
-     "side": "a",
-     "pick": "Sydney United",
-     "c": 0.4562,
-     "p": {
-      "h": 0.2615,
-      "d": 0.2822,
-      "a": 0.4562
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5195,
-     "o25": 0.4873,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -12640,35 +12085,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Guangzhou Dandelion",
-     "a": "Changchun Xidu",
-     "side": "h",
-     "pick": "Guangzhou Dandelion",
-     "c": 0.4517,
-     "p": {
-      "h": 0.4517,
-      "d": 0.3102,
-      "a": 0.2381
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4854,
-     "o25": 0.4495,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:45",
      "ko": "2026-10-31T16:45:00Z",
      "lg": "af.186",
@@ -12864,35 +12280,6 @@
      ],
      "btts": 0.564,
      "o25": 0.5433,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "04:00",
-     "ko": "2026-10-31T04:00:00Z",
-     "lg": "afc.1202",
-     "lgName": "Australian Championship",
-     "country": "Australia",
-     "h": "Wollongong Wolves",
-     "a": "Lions",
-     "side": "a",
-     "pick": "Lions",
-     "c": 0.4489,
-     "p": {
-      "h": 0.2855,
-      "d": 0.2656,
-      "a": 0.4489
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5428,
-     "o25": 0.5146,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -13133,93 +12520,6 @@
      "unrated": false
     },
     {
-     "t": "12:00",
-     "ko": "2026-10-31T12:00:00Z",
-     "lg": "af.1025",
-     "lgName": "Second League A - Division A Gold",
-     "country": "Russia",
-     "h": "Rodina Moskva II",
-     "a": "Dinamo Kirov",
-     "side": "h",
-     "pick": "Rodina Moskva II",
-     "c": 0.4468,
-     "p": {
-      "h": 0.4468,
-      "d": 0.2705,
-      "a": 0.2827
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5471,
-     "o25": 0.5218,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.295",
-     "lgName": "K3 League",
-     "country": "South Korea",
-     "h": "Gangneung City",
-     "a": "Yangpyeong",
-     "side": "h",
-     "pick": "Gangneung City",
-     "c": 0.4468,
-     "p": {
-      "h": 0.4468,
-      "d": 0.2912,
-      "a": 0.262
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5145,
-     "o25": 0.4823,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "09:00",
-     "ko": "2026-10-31T09:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "Cetatea Suceava",
-     "a": "Bihor Oradea",
-     "side": "h",
-     "pick": "Cetatea Suceava",
-     "c": 0.4465,
-     "p": {
-      "h": 0.4465,
-      "d": 0.2647,
-      "a": 0.2888
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5567,
-     "o25": 0.5337,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:30",
      "ko": "2026-10-31T12:30:00Z",
      "lg": "af.173",
@@ -13241,6 +12541,64 @@
      ],
      "btts": 0.507,
      "o25": 0.4734,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "09:00",
+     "ko": "2026-10-31T09:00:00Z",
+     "lg": "af.284",
+     "lgName": "Liga II",
+     "country": "Romania",
+     "h": "Cetatea Suceava",
+     "a": "Bihor Oradea",
+     "side": "h",
+     "pick": "Cetatea Suceava",
+     "c": 0.4463,
+     "p": {
+      "h": 0.4463,
+      "d": 0.265,
+      "a": 0.2888
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5563,
+     "o25": 0.5333,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:00",
+     "ko": "2026-10-31T12:00:00Z",
+     "lg": "af.1025",
+     "lgName": "Second League A - Division A Gold",
+     "country": "Russia",
+     "h": "Rodina Moskva II",
+     "a": "Dinamo Kirov",
+     "side": "h",
+     "pick": "Rodina Moskva II",
+     "c": 0.4463,
+     "p": {
+      "h": 0.4463,
+      "d": 0.2711,
+      "a": 0.2826
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5462,
+     "o25": 0.5206,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -13394,35 +12752,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "kr.1",
-     "lgName": "K League 1",
-     "country": "South Korea",
-     "h": "Jeonbuk Motors",
-     "a": "Daejeon Citizen",
-     "side": "h",
-     "pick": "Jeonbuk Motors",
-     "c": 0.4457,
-     "p": {
-      "h": 0.4457,
-      "d": 0.2762,
-      "a": 0.2781
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5382,
-     "o25": 0.5107,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.7i",
@@ -13447,35 +12776,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "04:00",
-     "ko": "2026-10-31T04:00:00Z",
-     "lg": "afc.1202",
-     "lgName": "Australian Championship",
-     "country": "Australia",
-     "h": "South Hobart",
-     "a": "Preston Lions",
-     "side": "h",
-     "pick": "South Hobart",
-     "c": 0.4453,
-     "p": {
-      "h": 0.4453,
-      "d": 0.2778,
-      "a": 0.2769
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5265,
-     "o25": 0.4941,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -14003,64 +13303,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.293",
-     "lgName": "K League 2",
-     "country": "South Korea",
-     "h": "Yongin City",
-     "a": "Seoul E-Land",
-     "side": "a",
-     "pick": "Seoul E-Land",
-     "c": 0.4397,
-     "p": {
-      "h": 0.2844,
-      "d": 0.276,
-      "a": 0.4397
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5404,
-     "o25": 0.5127,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "14:30",
-     "ko": "2026-10-31T14:30:00Z",
-     "lg": "af.968",
-     "lgName": "Championnat D1",
-     "country": "Gabon",
-     "h": "Ogooue",
-     "a": "Oyem",
-     "side": "h",
-     "pick": "Ogooue",
-     "c": 0.4392,
-     "p": {
-      "h": 0.4392,
-      "d": 0.2888,
-      "a": 0.2721
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5207,
-     "o25": 0.4886,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:00",
      "ko": "2026-10-31T14:00:00Z",
      "lg": "af.585",
@@ -14438,35 +13680,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-10-31T09:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "ASA Targu Mures",
-     "a": "Unirea Slobozia",
-     "side": "h",
-     "pick": "ASA Targu Mures",
-     "c": 0.435,
-     "p": {
-      "h": 0.435,
-      "d": 0.2727,
-      "a": 0.2924
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5471,
-     "o25": 0.5204,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.4",
@@ -14815,35 +14028,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Dalian Yingbo B",
-     "a": "Guangdong Mingtu",
-     "side": "h",
-     "pick": "Dalian Yingbo B",
-     "c": 0.431,
-     "p": {
-      "h": 0.431,
-      "d": 0.3201,
-      "a": 0.2489
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4791,
-     "o25": 0.4397,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:30",
      "ko": "2026-10-31T18:30:00Z",
      "lg": "af.129",
@@ -14931,35 +14115,6 @@
      "unrated": false
     },
     {
-     "t": "08:30",
-     "ko": "2026-10-31T08:30:00Z",
-     "lg": "af.275",
-     "lgName": "Liga 2",
-     "country": "Indonesia",
-     "h": "PSGC Ciamis",
-     "a": "PSMS Medan",
-     "side": "a",
-     "pick": "PSMS Medan",
-     "c": 0.4295,
-     "p": {
-      "h": 0.2815,
-      "d": 0.289,
-      "a": 0.4295
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5232,
-     "o25": 0.4904,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:45",
      "ko": "2026-10-31T19:45:00Z",
      "lg": "af.144",
@@ -14984,35 +14139,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Tegevajaro Miyazaki",
-     "a": "Oita Trinita",
-     "side": "h",
-     "pick": "Tegevajaro Miyazaki",
-     "c": 0.4291,
-     "p": {
-      "h": 0.4291,
-      "d": 0.304,
-      "a": 0.267
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5015,
-     "o25": 0.4647,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -15126,35 +14252,6 @@
      ],
      "btts": 0.5413,
      "o25": 0.5125,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Jubilo Iwata",
-     "a": "Sagan Tosu",
-     "side": "h",
-     "pick": "Jubilo Iwata",
-     "c": 0.4269,
-     "p": {
-      "h": 0.4269,
-      "d": 0.3011,
-      "a": 0.272
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5061,
-     "o25": 0.4699,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -15569,93 +14666,6 @@
      "unrated": false
     },
     {
-     "t": "07:00",
-     "ko": "2026-10-31T07:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Parceiro Nagano",
-     "a": "Biwako Shiga",
-     "side": "h",
-     "pick": "Parceiro Nagano",
-     "c": 0.4242,
-     "p": {
-      "h": 0.4242,
-      "d": 0.2798,
-      "a": 0.296
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5386,
-     "o25": 0.5088,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "07:30",
-     "ko": "2026-10-31T07:30:00Z",
-     "lg": "af.293",
-     "lgName": "K League 2",
-     "country": "South Korea",
-     "h": "Asan Mugunghwa",
-     "a": "Gimpo Citizen",
-     "side": "h",
-     "pick": "Asan Mugunghwa",
-     "c": 0.4238,
-     "p": {
-      "h": 0.4238,
-      "d": 0.3078,
-      "a": 0.2684
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4975,
-     "o25": 0.4595,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Shangyu Pterosaur",
-     "a": "Tai'an Tiankuang",
-     "side": "a",
-     "pick": "Tai'an Tiankuang",
-     "c": 0.4228,
-     "p": {
-      "h": 0.2737,
-      "d": 0.3036,
-      "a": 0.4228
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5037,
-     "o25": 0.4666,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:00",
      "ko": "2026-10-31T18:00:00Z",
      "lg": "af.129",
@@ -15677,35 +14687,6 @@
      ],
      "btts": 0.4749,
      "o25": 0.434,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "08:30",
-     "ko": "2026-10-31T08:30:00Z",
-     "lg": "af.275",
-     "lgName": "Liga 2",
-     "country": "Indonesia",
-     "h": "Bekasi City",
-     "a": "PSPS",
-     "side": "h",
-     "pick": "Bekasi City",
-     "c": 0.4219,
-     "p": {
-      "h": 0.4219,
-      "d": 0.2801,
-      "a": 0.298
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5387,
-     "o25": 0.5087,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -15764,35 +14745,6 @@
      ],
      "btts": 0.606,
      "o25": 0.5944,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "07:00",
-     "ko": "2026-10-31T07:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "Kashiwa Reysol",
-     "a": "Urawa Red Diamonds",
-     "side": "h",
-     "pick": "Kashiwa Reysol",
-     "c": 0.4211,
-     "p": {
-      "h": 0.4211,
-      "d": 0.2919,
-      "a": 0.287
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.521,
-     "o25": 0.487,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -15975,35 +14927,6 @@
      "unrated": false
     },
     {
-     "t": "07:30",
-     "ko": "2026-10-31T07:30:00Z",
-     "lg": "kr.1",
-     "lgName": "K League 1",
-     "country": "South Korea",
-     "h": "Gwangju",
-     "a": "Gimcheon Sangmu",
-     "side": "a",
-     "pick": "Gimcheon Sangmu",
-     "c": 0.4199,
-     "p": {
-      "h": 0.2943,
-      "d": 0.2858,
-      "a": 0.4199
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5305,
-     "o25": 0.4984,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:00",
      "ko": "2026-10-31T14:00:00Z",
      "lg": "af.122",
@@ -16170,35 +15093,6 @@
      ],
      "btts": 0.5302,
      "o25": 0.4979,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.170",
-     "lgName": "League One",
-     "country": "China",
-     "h": "Hebei Kungfu",
-     "a": "Guangzhou E-Power",
-     "side": "a",
-     "pick": "Guangzhou E-Power",
-     "c": 0.4187,
-     "p": {
-      "h": 0.2757,
-      "d": 0.3056,
-      "a": 0.4187
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.502,
-     "o25": 0.4641,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -16381,35 +15275,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-10-31T09:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "Pope\u0219ti-Leordeni",
-     "a": "Metalul Buz\u0103u",
-     "side": "h",
-     "pick": "Pope\u0219ti-Leordeni",
-     "c": 0.416,
-     "p": {
-      "h": 0.416,
-      "d": 0.2799,
-      "a": 0.3041
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5404,
-     "o25": 0.5102,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:30",
      "ko": "2026-10-31T12:30:00Z",
      "lg": "af.552",
@@ -16468,35 +15333,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Yichun Grand Tiger",
-     "a": "Shanghai Second",
-     "side": "h",
-     "pick": "Yichun Grand Tiger",
-     "c": 0.4148,
-     "p": {
-      "h": 0.4148,
-      "d": 0.3107,
-      "a": 0.2745
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.496,
-     "o25": 0.4568,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:30",
      "ko": "2026-10-31T17:30:00Z",
      "lg": "es.2",
@@ -16547,35 +15383,6 @@
      ],
      "btts": 0.5095,
      "o25": 0.4725,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "09:00",
-     "ko": "2026-10-31T09:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "CSM Satu Mare",
-     "a": "Viitorul \u015eelimb\u0103r",
-     "side": "h",
-     "pick": "CSM Satu Mare",
-     "c": 0.4146,
-     "p": {
-      "h": 0.4146,
-      "d": 0.3073,
-      "a": 0.2781
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5007,
-     "o25": 0.4621,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -16700,64 +15507,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.295",
-     "lgName": "K3 League",
-     "country": "South Korea",
-     "h": "Chuncheon",
-     "a": "Busan Transportation",
-     "side": "h",
-     "pick": "Chuncheon",
-     "c": 0.4132,
-     "p": {
-      "h": 0.4132,
-      "d": 0.2666,
-      "a": 0.3201
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5618,
-     "o25": 0.537,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "04:00",
-     "ko": "2026-10-31T04:00:00Z",
-     "lg": "af.1025",
-     "lgName": "Second League A - Division A Gold",
-     "country": "Russia",
-     "h": "Dinamo Vladivostok",
-     "a": "Alaniya Vladikavkaz",
-     "side": "h",
-     "pick": "Dinamo Vladivostok",
-     "c": 0.413,
-     "p": {
-      "h": 0.413,
-      "d": 0.296,
-      "a": 0.291
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5169,
-     "o25": 0.4812,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.6n",
@@ -16779,35 +15528,6 @@
      ],
      "btts": 0.5825,
      "o25": 0.5637,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "10:00",
-     "ko": "2026-10-31T10:00:00Z",
-     "lg": "af.1025",
-     "lgName": "Second League A - Division A Gold",
-     "country": "Russia",
-     "h": "Novosibirsk",
-     "a": "Mashuk-KMV",
-     "side": "h",
-     "pick": "Novosibirsk",
-     "c": 0.4125,
-     "p": {
-      "h": 0.4125,
-      "d": 0.3039,
-      "a": 0.2836
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5059,
-     "o25": 0.468,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -16874,6 +15594,35 @@
      "unrated": false
     },
     {
+     "t": "10:00",
+     "ko": "2026-10-31T10:00:00Z",
+     "lg": "af.1025",
+     "lgName": "Second League A - Division A Gold",
+     "country": "Russia",
+     "h": "Novosibirsk",
+     "a": "Mashuk-KMV",
+     "side": "h",
+     "pick": "Novosibirsk",
+     "c": 0.412,
+     "p": {
+      "h": 0.412,
+      "d": 0.3046,
+      "a": 0.2834
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.505,
+     "o25": 0.4669,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-10-31T17:00:00Z",
      "lg": "nor.1",
@@ -16895,35 +15644,6 @@
      ],
      "btts": 0.522,
      "o25": 0.4872,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "Fagiano Okayama",
-     "a": "FC Tokyo",
-     "side": "a",
-     "pick": "FC Tokyo",
-     "c": 0.4119,
-     "p": {
-      "h": 0.2671,
-      "d": 0.3211,
-      "a": 0.4119
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4831,
-     "o25": 0.4418,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -16956,35 +15676,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Kamatamare Sanuki",
-     "a": "Nara Club",
-     "side": "a",
-     "pick": "Nara Club",
-     "c": 0.4114,
-     "p": {
-      "h": 0.3204,
-      "d": 0.2682,
-      "a": 0.4114
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5597,
-     "o25": 0.5342,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -17918,35 +16609,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Wuhan Three Towns II",
-     "a": "Qingdao Red Lions",
-     "side": "h",
-     "pick": "Wuhan Three Towns II",
-     "c": 0.4049,
-     "p": {
-      "h": 0.4049,
-      "d": 0.3258,
-      "a": 0.2694
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4789,
-     "o25": 0.4364,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-10-31T13:00:00Z",
      "lg": "af.236",
@@ -18026,35 +16688,6 @@
      ],
      "btts": 0.488,
      "o25": 0.4466,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.170",
-     "lgName": "League One",
-     "country": "China",
-     "h": "Changchun Yatai",
-     "a": "Nantong Zhiyun",
-     "side": "a",
-     "pick": "Nantong Zhiyun",
-     "c": 0.4045,
-     "p": {
-      "h": 0.3016,
-      "d": 0.2939,
-      "a": 0.4045
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5218,
-     "o25": 0.4864,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -18324,30 +16957,30 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Albirex Niigata",
-     "a": "Kataller Toyama",
+     "t": "12:00",
+     "ko": "2026-10-31T12:00:00Z",
+     "lg": "af.275",
+     "lgName": "Liga 2",
+     "country": "Indonesia",
+     "h": "Persela Lamongan",
+     "a": "Persipura Jayapura",
      "side": "h",
-     "pick": "Albirex Niigata",
+     "pick": "Persela Lamongan",
      "c": 0.4024,
      "p": {
       "h": 0.4024,
-      "d": 0.2726,
-      "a": 0.325
+      "d": 0.3006,
+      "a": 0.297
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5543,
-     "o25": 0.5268,
+     "btts": 0.5127,
+     "o25": 0.4751,
      "hit": null,
      "hitN": null,
-     "celtic": true,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -18374,35 +17007,6 @@
      ],
      "btts": 0.5534,
      "o25": 0.5256,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:00",
-     "ko": "2026-10-31T12:00:00Z",
-     "lg": "af.275",
-     "lgName": "Liga 2",
-     "country": "Indonesia",
-     "h": "Persela Lamongan",
-     "a": "Persipura Jayapura",
-     "side": "h",
-     "pick": "Persela Lamongan",
-     "c": 0.4018,
-     "p": {
-      "h": 0.4018,
-      "d": 0.3012,
-      "a": 0.297
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.512,
-     "o25": 0.4742,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -18983,35 +17587,6 @@
      ],
      "btts": 0.5313,
      "o25": 0.4976,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "FC Gifu",
-     "a": "Osaka",
-     "side": "h",
-     "pick": "FC Gifu",
-     "c": 0.3976,
-     "p": {
-      "h": 0.3976,
-      "d": 0.288,
-      "a": 0.3144
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5318,
-     "o25": 0.4981,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -19948,35 +18523,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "Kyoto Sanga",
-     "a": "Shimizu S-Pulse",
-     "side": "h",
-     "pick": "Kyoto Sanga",
-     "c": 0.3876,
-     "p": {
-      "h": 0.3876,
-      "d": 0.3199,
-      "a": 0.2925
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4896,
-     "o25": 0.447,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:00",
      "ko": "2026-10-31T17:00:00Z",
      "lg": "af.69",
@@ -20056,35 +18602,6 @@
      ],
      "btts": 0.4994,
      "o25": 0.4582,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.170",
-     "lgName": "League One",
-     "country": "China",
-     "h": "Nanjing City",
-     "a": "Dalian Huayi",
-     "side": "h",
-     "pick": "Nanjing City",
-     "c": 0.386,
-     "p": {
-      "h": 0.386,
-      "d": 0.2949,
-      "a": 0.3191
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5234,
-     "o25": 0.487,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -20847,35 +19364,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.295",
-     "lgName": "K3 League",
-     "country": "South Korea",
-     "h": "Dangjin Citizen",
-     "a": "Siheung Citizen",
-     "side": "a",
-     "pick": "Siheung Citizen",
-     "c": 0.3774,
-     "p": {
-      "h": 0.3436,
-      "d": 0.279,
-      "a": 0.3774
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5476,
-     "o25": 0.5171,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-10-31T13:00:00Z",
      "lg": "af.364",
@@ -21050,35 +19538,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.170",
-     "lgName": "League One",
-     "country": "China",
-     "h": "Heilongjiang Lava Spring",
-     "a": "Shenzhen Juniors",
-     "side": "h",
-     "pick": "Heilongjiang Lava Spring",
-     "c": 0.3753,
-     "p": {
-      "h": 0.3753,
-      "d": 0.2668,
-      "a": 0.3579
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5662,
-     "o25": 0.5412,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.6n",
@@ -21195,35 +19654,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.170",
-     "lgName": "League One",
-     "country": "China",
-     "h": "Suzhou Dongwu",
-     "a": "Yanbian Longding",
-     "side": "a",
-     "pick": "Yanbian Longding",
-     "c": 0.374,
-     "p": {
-      "h": 0.3125,
-      "d": 0.3135,
-      "a": 0.374
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4997,
-     "o25": 0.4577,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.2",
@@ -21282,30 +19712,30 @@
      "unrated": false
     },
     {
-     "t": "07:30",
-     "ko": "2026-10-31T07:30:00Z",
-     "lg": "af.293",
-     "lgName": "K League 2",
-     "country": "South Korea",
-     "h": "Daegu",
-     "a": "Suwon Bluewings",
-     "side": "h",
-     "pick": "Daegu",
+     "t": "13:30",
+     "ko": "2026-10-31T13:30:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Linare",
+     "a": "Bantu",
+     "side": "a",
+     "pick": "Bantu",
      "c": 0.3735,
      "p": {
-      "h": 0.3735,
-      "d": 0.2704,
-      "a": 0.3561
+      "h": 0.3729,
+      "d": 0.2537,
+      "a": 0.3735
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5608,
-     "o25": 0.5341,
+     "btts": 0.5868,
+     "o25": 0.568,
      "hit": null,
      "hitN": null,
-     "celtic": true,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -21335,35 +19765,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Tochigi",
-     "a": "Ehime",
-     "side": "h",
-     "pick": "Tochigi",
-     "c": 0.3731,
-     "p": {
-      "h": 0.3731,
-      "d": 0.29,
-      "a": 0.3369
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5319,
-     "o25": 0.497,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -21456,35 +19857,6 @@
      "unrated": false
     },
     {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Xiamen Feilu",
-     "a": "Nantong Haimen Codion",
-     "side": "h",
-     "pick": "Xiamen Feilu",
-     "c": 0.3721,
-     "p": {
-      "h": 0.3721,
-      "d": 0.2759,
-      "a": 0.352
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5527,
-     "o25": 0.5235,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-10-31T15:00:00Z",
      "lg": "en.7sc",
@@ -21535,35 +19907,6 @@
      ],
      "btts": 0.5282,
      "o25": 0.4923,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "14:30",
-     "ko": "2026-10-31T14:30:00Z",
-     "lg": "af.968",
-     "lgName": "Championnat D1",
-     "country": "Gabon",
-     "h": "Stade Migoveen",
-     "a": "FC 105",
-     "side": "h",
-     "pick": "Stade Migoveen",
-     "c": 0.3701,
-     "p": {
-      "h": 0.3701,
-      "d": 0.3125,
-      "a": 0.3174
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5014,
-     "o25": 0.4596,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -21949,35 +20292,6 @@
      "unrated": false
     },
     {
-     "t": "14:30",
-     "ko": "2026-10-31T14:30:00Z",
-     "lg": "af.968",
-     "lgName": "Championnat D1",
-     "country": "Gabon",
-     "h": "Lozo",
-     "a": "P\u00e9lican",
-     "side": "h",
-     "pick": "Lozo",
-     "c": 0.3658,
-     "p": {
-      "h": 0.3658,
-      "d": 0.3183,
-      "a": 0.3159
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4944,
-     "o25": 0.4512,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:00",
      "ko": "2026-10-31T19:00:00Z",
      "lg": "af.134",
@@ -21999,35 +20313,6 @@
      ],
      "btts": 0.4442,
      "o25": 0.396,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:00",
-     "ko": "2026-10-31T06:00:00Z",
-     "lg": "au.1",
-     "lgName": "A-League",
-     "country": "Australia",
-     "h": "Melbourne City",
-     "a": "Sydney",
-     "side": "a",
-     "pick": "Sydney",
-     "c": 0.3653,
-     "p": {
-      "h": 0.3163,
-      "d": 0.3184,
-      "a": 0.3653
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4943,
-     "o25": 0.451,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -22268,35 +20553,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-10-31T09:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "CSM Ramnicu Valcea",
-     "a": "CS Afumati",
-     "side": "h",
-     "pick": "CSM Ramnicu Valcea",
-     "c": 0.3634,
-     "p": {
-      "h": 0.3634,
-      "d": 0.289,
-      "a": 0.3477
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5339,
-     "o25": 0.4994,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "11:00",
      "ko": "2026-10-31T11:00:00Z",
      "lg": "ukr.1",
@@ -22466,35 +20722,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "10:00",
-     "ko": "2026-10-31T10:00:00Z",
-     "lg": "af.236",
-     "lgName": "First League",
-     "country": "Russia",
-     "h": "Chelyabinsk",
-     "a": "Shinnik Yaroslavl",
-     "side": "a",
-     "pick": "Shinnik Yaroslavl",
-     "c": 0.3602,
-     "p": {
-      "h": 0.325,
-      "d": 0.3148,
-      "a": 0.3602
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4992,
-     "o25": 0.4567,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -22703,35 +20930,6 @@
      "unrated": false
     },
     {
-     "t": "04:00",
-     "ko": "2026-10-31T04:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Consadole Sapporo",
-     "a": "Shonan Bellmare",
-     "side": "a",
-     "pick": "Shonan Bellmare",
-     "c": 0.3559,
-     "p": {
-      "h": 0.3455,
-      "d": 0.2985,
-      "a": 0.3559
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5209,
-     "o25": 0.4829,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:30",
      "ko": "2026-10-31T15:30:00Z",
      "lg": "af.600",
@@ -22753,35 +20951,6 @@
      ],
      "btts": 0.5294,
      "o25": 0.4936,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-10-31T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Rizhao Yuqi",
-     "a": "Hubei Chufeng Heli",
-     "side": "h",
-     "pick": "Rizhao Yuqi",
-     "c": 0.355,
-     "p": {
-      "h": 0.355,
-      "d": 0.3454,
-      "a": 0.2996
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4641,
-     "o25": 0.4167,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -22935,64 +21104,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Vanraure Hachinohe",
-     "a": "Montedio Yamagata",
-     "side": "h",
-     "pick": "Vanraure Hachinohe",
-     "c": 0.3517,
-     "p": {
-      "h": 0.3517,
-      "d": 0.3271,
-      "a": 0.3212
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4847,
-     "o25": 0.4395,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.295",
-     "lgName": "K3 League",
-     "country": "South Korea",
-     "h": "Yeoju Sejong",
-     "a": "Gyeongju HNP",
-     "side": "h",
-     "pick": "Yeoju Sejong",
-     "c": 0.3517,
-     "p": {
-      "h": 0.3517,
-      "d": 0.3076,
-      "a": 0.3407
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5089,
-     "o25": 0.4682,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "20:30",
      "ko": "2026-10-31T20:30:00Z",
      "lg": "br.2",
@@ -23051,37 +21162,8 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-10-31T15:00:00Z",
-     "lg": "af.290",
-     "lgName": "Persian Gulf Pro League",
-     "country": "Iran",
-     "h": "Sanat Naft",
-     "a": "Gol Gohar",
-     "side": "a",
-     "pick": "Gol Gohar",
-     "c": 0.3504,
-     "p": {
-      "h": 0.3212,
-      "d": 0.3284,
-      "a": 0.3504
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4833,
-     "o25": 0.4378,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "18:00",
-     "ko": "2026-10-31T18:00:00Z",
+     "t": "13:00",
+     "ko": "2026-10-31T13:00:00Z",
      "lg": "af.567",
      "lgName": "Ligi kuu Bara",
      "country": "Tanzania",
@@ -23234,18 +21316,18 @@
      "a": "Volgar Astrakhan",
      "side": "d",
      "pick": "Draw",
-     "c": 0.3439,
+     "c": 0.3446,
      "p": {
-      "h": 0.3251,
-      "d": 0.3439,
-      "a": 0.331
+      "h": 0.3248,
+      "d": 0.3446,
+      "a": 0.3306
      },
      "score": [
       0,
       0
      ],
-     "btts": 0.4669,
-     "o25": 0.4191,
+     "btts": 0.4661,
+     "o25": 0.4182,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -23278,35 +21360,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.293",
-     "lgName": "K League 2",
-     "country": "South Korea",
-     "h": "Gyeongnam",
-     "a": "Hwaseong",
-     "side": "a",
-     "pick": "Hwaseong",
-     "c": 0.3436,
-     "p": {
-      "h": 0.3387,
-      "d": 0.3177,
-      "a": 0.3436
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4963,
-     "o25": 0.4529,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -23399,30 +21452,30 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-10-31T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Tokushima Vortis",
-     "a": "Yokohama",
+     "t": "11:00",
+     "ko": "2026-10-31T11:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Mzamane",
+     "a": "LMPS",
      "side": "h",
-     "pick": "Tokushima Vortis",
-     "c": 0.3379,
+     "pick": "Mzamane",
+     "c": 0.3363,
      "p": {
-      "h": 0.3379,
-      "d": 0.3244,
-      "a": 0.3376
+      "h": 0.3363,
+      "d": 0.3279,
+      "a": 0.3358
      },
      "score": [
-      1,
-      1
+      0,
+      0
      ],
-     "btts": 0.4883,
-     "o25": 0.4434,
+     "btts": 0.4843,
+     "o25": 0.4388,
      "hit": null,
      "hitN": null,
-     "celtic": true,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -23468,11 +21521,11 @@
     },
     "reserve": {
      "n": 96,
-     "won": 6,
+     "won": 8,
      "lost": 1,
      "void": 0,
-     "started": 1,
-     "upcoming": 88
+     "started": 2,
+     "upcoming": 85
     },
     "groupA": {
      "n": 5,
@@ -23494,7 +21547,7 @@
   },
   {
    "date": "2026-11-01",
-   "count": 656,
+   "count": 657,
    "games": [
     {
      "t": "02:30",
@@ -23809,35 +21862,6 @@
      "reserve": true
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-01T05:00:00Z",
-     "lg": "af.293",
-     "lgName": "K League 2",
-     "country": "South Korea",
-     "h": "Suwon City",
-     "a": "Ansan Greeners",
-     "side": "h",
-     "pick": "Suwon City",
-     "c": 0.7777,
-     "p": {
-      "h": 0.7777,
-      "d": 0.1478,
-      "a": 0.0745
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5154,
-     "o25": 0.5774,
-     "hit": 0.7832,
-     "hitN": 964,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "22:00",
      "ko": "2026-11-01T22:00:00Z",
      "lg": "us.w1",
@@ -23862,6 +21886,35 @@
      "hit": 0.7298,
      "hitN": 111,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-01T05:00:00Z",
+     "lg": "af.293",
+     "lgName": "K League 2",
+     "country": "South Korea",
+     "h": "Suwon City",
+     "a": "Ansan Greeners",
+     "side": "h",
+     "pick": "Suwon City",
+     "c": 0.7743,
+     "p": {
+      "h": 0.7743,
+      "d": 0.1504,
+      "a": 0.0753
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5132,
+     "o25": 0.5738,
+     "hit": 0.7832,
+     "hitN": 964,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -24044,6 +22097,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-11-01T13:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Matlama",
+     "a": "Machokha",
+     "side": "h",
+     "pick": "Matlama",
+     "c": 0.748,
+     "p": {
+      "h": 0.748,
+      "d": 0.1835,
+      "a": 0.0685
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4574,
+     "o25": 0.5064,
+     "hit": 0.7405,
+     "hitN": 1426,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
      "t": "18:00",
      "ko": "2026-11-01T18:00Z",
      "lg": "nfl",
@@ -24069,8 +22151,8 @@
      "side": "a",
      "pick": "Bianca Andreescu",
      "c": 0.7403,
-     "hit": 0.6615,
-     "hitN": 65,
+     "hit": 0.6716,
+     "hitN": 67,
      "list": false,
      "reserve": true
     },
@@ -24270,35 +22352,6 @@
      ],
      "btts": 0.461,
      "o25": 0.4992,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
-     "t": "15:35",
-     "ko": "2026-11-01T15:35:00Z",
-     "lg": "af.301",
-     "lgName": "Pro League",
-     "country": "United Arab Emirates",
-     "h": "Al-Jazira",
-     "a": "Baniyas",
-     "side": "h",
-     "pick": "Al-Jazira",
-     "c": 0.7222,
-     "p": {
-      "h": 0.7222,
-      "d": 0.1849,
-      "a": 0.0929
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4983,
-     "o25": 0.5374,
      "hit": 0.7405,
      "hitN": 1426,
      "celtic": false,
@@ -24909,6 +22962,35 @@
      "unrated": false
     },
     {
+     "t": "11:00",
+     "ko": "2026-11-01T11:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Lijabatho",
+     "a": "LCS",
+     "side": "h",
+     "pick": "Lijabatho",
+     "c": 0.6598,
+     "p": {
+      "h": 0.6598,
+      "d": 0.2419,
+      "a": 0.0983
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4478,
+     "o25": 0.4615,
+     "hit": 0.6793,
+     "hitN": 2254,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
      "t": "14:40",
      "ko": "2026-11-01T14:40:00Z",
      "lg": "af.308",
@@ -25215,6 +23297,35 @@
      "unrated": false
     },
     {
+     "t": "05:00",
+     "ko": "2026-11-01T05:00:00Z",
+     "lg": "af.295",
+     "lgName": "K3 League",
+     "country": "South Korea",
+     "h": "Jeonbuk Motors II",
+     "a": "Pocheon",
+     "side": "a",
+     "pick": "Pocheon",
+     "c": 0.6392,
+     "p": {
+      "h": 0.1376,
+      "d": 0.2232,
+      "a": 0.6392
+     },
+     "score": [
+      0,
+      2
+     ],
+     "btts": 0.5111,
+     "o25": 0.5221,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-11-01T12:00:00Z",
      "lg": "af.553",
@@ -25241,35 +23352,6 @@
      "celtic": true,
      "list": false,
      "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-01T05:00:00Z",
-     "lg": "af.295",
-     "lgName": "K3 League",
-     "country": "South Korea",
-     "h": "Jeonbuk Motors II",
-     "a": "Pocheon",
-     "side": "a",
-     "pick": "Pocheon",
-     "c": 0.6385,
-     "p": {
-      "h": 0.1378,
-      "d": 0.2237,
-      "a": 0.6385
-     },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5106,
-     "o25": 0.5213,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
      "unrated": false
     },
     {
@@ -27593,6 +25675,35 @@
      "unrated": false
     },
     {
+     "t": "07:30",
+     "ko": "2026-11-01T07:30:00Z",
+     "lg": "kr.1",
+     "lgName": "K League 1",
+     "country": "South Korea",
+     "h": "FC Seoul",
+     "a": "Incheon United",
+     "side": "h",
+     "pick": "FC Seoul",
+     "c": 0.5522,
+     "p": {
+      "h": 0.5522,
+      "d": 0.2539,
+      "a": 0.1938
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5237,
+     "o25": 0.5127,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:00",
      "ko": "2026-11-01T19:00:00Z",
      "lg": "br.2",
@@ -27616,35 +25727,6 @@
      "o25": 0.467,
      "hit": 0.5352,
      "hitN": 99,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "07:30",
-     "ko": "2026-11-01T07:30:00Z",
-     "lg": "kr.1",
-     "lgName": "K League 1",
-     "country": "South Korea",
-     "h": "FC Seoul",
-     "a": "Incheon United",
-     "side": "h",
-     "pick": "FC Seoul",
-     "c": 0.5504,
-     "p": {
-      "h": 0.5504,
-      "d": 0.2555,
-      "a": 0.1941
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.522,
-     "o25": 0.5103,
-     "hit": null,
-     "hitN": null,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -27854,35 +25936,6 @@
      "unrated": false
     },
     {
-     "t": "06:00",
-     "ko": "2026-11-01T06:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "Machida Zelvia",
-     "a": "Gamba Osaka",
-     "side": "h",
-     "pick": "Machida Zelvia",
-     "c": 0.5457,
-     "p": {
-      "h": 0.5457,
-      "d": 0.27,
-      "a": 0.1843
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4991,
-     "o25": 0.4832,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "23:00",
      "ko": "2026-11-01T23:00:00Z",
      "lg": "mx.1",
@@ -27936,6 +25989,35 @@
      "hit": 0.4896,
      "hitN": 194,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "06:00",
+     "ko": "2026-11-01T06:00:00Z",
+     "lg": "jp.1",
+     "lgName": "J1 League",
+     "country": "Japan",
+     "h": "Machida Zelvia",
+     "a": "Gamba Osaka",
+     "side": "h",
+     "pick": "Machida Zelvia",
+     "c": 0.5438,
+     "p": {
+      "h": 0.5438,
+      "d": 0.2716,
+      "a": 0.1846
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4976,
+     "o25": 0.481,
+     "hit": 0.4896,
+     "hitN": 194,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -28550,35 +26632,6 @@
      "unrated": false
     },
     {
-     "t": "14:00",
-     "ko": "2026-11-01T14:00:00Z",
-     "lg": "af.636",
-     "lgName": "\u00ddokary Liga",
-     "country": "Turkmenistan",
-     "h": "A\u015fgabat",
-     "a": "Merw",
-     "side": "h",
-     "pick": "A\u015fgabat",
-     "c": 0.5336,
-     "p": {
-      "h": 0.5336,
-      "d": 0.2484,
-      "a": 0.218
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5462,
-     "o25": 0.5349,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:30",
      "ko": "2026-11-01T16:30:00Z",
      "lg": "af.877",
@@ -28666,6 +26719,35 @@
      "unrated": false
     },
     {
+     "t": "06:30",
+     "ko": "2026-11-01T06:30:00Z",
+     "lg": "af.929",
+     "lgName": "League Two",
+     "country": "China",
+     "h": "Xi'an Ronghai",
+     "a": "Langfang Glory City",
+     "side": "h",
+     "pick": "Xi'an Ronghai",
+     "c": 0.5322,
+     "p": {
+      "h": 0.5322,
+      "d": 0.276,
+      "a": 0.1918
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4976,
+     "o25": 0.4784,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "16:30",
      "ko": "2026-11-01T16:30:00Z",
      "lg": "af.138",
@@ -28690,35 +26772,6 @@
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-11-01T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Xi'an Ronghai",
-     "a": "Langfang Glory City",
-     "side": "h",
-     "pick": "Xi'an Ronghai",
-     "c": 0.5309,
-     "p": {
-      "h": 0.5309,
-      "d": 0.2771,
-      "a": 0.192
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4966,
-     "o25": 0.477,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -29420,6 +27473,35 @@
      "unrated": false
     },
     {
+     "t": "04:00",
+     "ko": "2026-11-01T04:00:00Z",
+     "lg": "au.1",
+     "lgName": "A-League",
+     "country": "Australia",
+     "h": "Melbourne Victory",
+     "a": "Central Coast Mariners",
+     "side": "h",
+     "pick": "Melbourne Victory",
+     "c": 0.5204,
+     "p": {
+      "h": 0.5204,
+      "d": 0.2492,
+      "a": 0.2304
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5524,
+     "o25": 0.5398,
+     "hit": 0.4896,
+     "hitN": 194,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-01T15:00:00Z",
      "lg": "af.361",
@@ -29443,35 +27525,6 @@
      "o25": 0.5601,
      "hit": 0.5376,
      "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "04:00",
-     "ko": "2026-11-01T04:00:00Z",
-     "lg": "au.1",
-     "lgName": "A-League",
-     "country": "Australia",
-     "h": "Melbourne Victory",
-     "a": "Central Coast Mariners",
-     "side": "h",
-     "pick": "Melbourne Victory",
-     "c": 0.5187,
-     "p": {
-      "h": 0.5187,
-      "d": 0.2508,
-      "a": 0.2305
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5503,
-     "o25": 0.537,
-     "hit": 0.4896,
-     "hitN": 194,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -30087,35 +28140,6 @@
      "unrated": false
     },
     {
-     "t": "12:55",
-     "ko": "2026-11-01T12:55:00Z",
-     "lg": "af.301",
-     "lgName": "Pro League",
-     "country": "United Arab Emirates",
-     "h": "Al Wahda",
-     "a": "Hatta",
-     "side": "h",
-     "pick": "Al Wahda",
-     "c": 0.5046,
-     "p": {
-      "h": 0.5046,
-      "d": 0.2737,
-      "a": 0.2217
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5174,
-     "o25": 0.4952,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "11:00",
      "ko": "2026-11-01T11:00:00Z",
      "lg": "ukr.1",
@@ -30241,18 +28265,18 @@
      "a": "Shenzhen 2028",
      "side": "h",
      "pick": "Shandong Taishan II",
-     "c": 0.5015,
+     "c": 0.5025,
      "p": {
-      "h": 0.5015,
-      "d": 0.2654,
+      "h": 0.5025,
+      "d": 0.2645,
       "a": 0.2331
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5333,
-     "o25": 0.5133,
+     "btts": 0.5344,
+     "o25": 0.5149,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -30966,18 +28990,18 @@
      "a": "Daejeon Korail",
      "side": "a",
      "pick": "Daejeon Korail",
-     "c": 0.4852,
+     "c": 0.4857,
      "p": {
       "h": 0.2086,
-      "d": 0.3062,
-      "a": 0.4852
+      "d": 0.3057,
+      "a": 0.4857
      },
      "score": [
       0,
       1
      ],
-     "btts": 0.4768,
-     "o25": 0.4458,
+     "btts": 0.4773,
+     "o25": 0.4464,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -31015,35 +29039,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-11-01T09:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "Slatina",
-     "a": "Concordia",
-     "side": "h",
-     "pick": "Slatina",
-     "c": 0.4843,
-     "p": {
-      "h": 0.4843,
-      "d": 0.2561,
-      "a": 0.2596
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5575,
-     "o25": 0.5398,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-01T15:00:00Z",
      "lg": "af.387",
@@ -31065,6 +29060,35 @@
      ],
      "btts": 0.5296,
      "o25": 0.5059,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "09:00",
+     "ko": "2026-11-01T09:00:00Z",
+     "lg": "af.284",
+     "lgName": "Liga II",
+     "country": "Romania",
+     "h": "Slatina",
+     "a": "Concordia",
+     "side": "h",
+     "pick": "Slatina",
+     "c": 0.484,
+     "p": {
+      "h": 0.484,
+      "d": 0.2564,
+      "a": 0.2596
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5571,
+     "o25": 0.5393,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -31392,6 +29416,35 @@
      "unrated": false
     },
     {
+     "t": "07:30",
+     "ko": "2026-11-01T07:30:00Z",
+     "lg": "kr.1",
+     "lgName": "K League 1",
+     "country": "South Korea",
+     "h": "FC Anyang",
+     "a": "Bucheon FC 1995",
+     "side": "h",
+     "pick": "FC Anyang",
+     "c": 0.4801,
+     "p": {
+      "h": 0.4801,
+      "d": 0.2724,
+      "a": 0.2475
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5314,
+     "o25": 0.5075,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-01T15:00:00Z",
      "lg": "cl.1",
@@ -31474,35 +29527,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "07:30",
-     "ko": "2026-11-01T07:30:00Z",
-     "lg": "kr.1",
-     "lgName": "K League 1",
-     "country": "South Korea",
-     "h": "FC Anyang",
-     "a": "Bucheon FC 1995",
-     "side": "h",
-     "pick": "FC Anyang",
-     "c": 0.4787,
-     "p": {
-      "h": 0.4787,
-      "d": 0.2739,
-      "a": 0.2475
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5297,
-     "o25": 0.5051,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -32320,35 +30344,6 @@
      "unrated": false
     },
     {
-     "t": "13:30",
-     "ko": "2026-11-01T13:30:00Z",
-     "lg": "af.289",
-     "lgName": "1st Division",
-     "country": "South Africa",
-     "h": "Cape Town City",
-     "a": "Magesi",
-     "side": "h",
-     "pick": "Cape Town City",
-     "c": 0.4683,
-     "p": {
-      "h": 0.4683,
-      "d": 0.2777,
-      "a": 0.254
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5277,
-     "o25": 0.5011,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "11:00",
      "ko": "2026-11-01T11:00:00Z",
      "lg": "af.456",
@@ -32605,6 +30600,35 @@
      "hit": 0.4634,
      "hitN": 259,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "11:00",
+     "ko": "2026-11-01T11:00:00Z",
+     "lg": "af.276",
+     "lgName": "FKF Premier League",
+     "country": "Kenya",
+     "h": "Migori Youth",
+     "a": "Mombasa Elite",
+     "side": "h",
+     "pick": "Migori Youth",
+     "c": 0.4623,
+     "p": {
+      "h": 0.4623,
+      "d": 0.3162,
+      "a": 0.2216
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4732,
+     "o25": 0.4379,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -32996,18 +31020,18 @@
      "a": "Gloria Bistri\u0163a",
      "side": "h",
      "pick": "CSM Re\u015fi\u0163a",
-     "c": 0.4568,
+     "c": 0.4565,
      "p": {
-      "h": 0.4568,
-      "d": 0.2787,
-      "a": 0.2646
+      "h": 0.4565,
+      "d": 0.2789,
+      "a": 0.2645
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5305,
-     "o25": 0.5028,
+     "btts": 0.5302,
+     "o25": 0.5023,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -33190,35 +31214,6 @@
      "unrated": false
     },
     {
-     "t": "04:00",
-     "ko": "2026-11-01T04:00:00Z",
-     "lg": "afc.1202",
-     "lgName": "Australian Championship",
-     "country": "Australia",
-     "h": "Wests APIA",
-     "a": "Avondale",
-     "side": "h",
-     "pick": "Wests APIA",
-     "c": 0.4548,
-     "p": {
-      "h": 0.4548,
-      "d": 0.2331,
-      "a": 0.3121
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5911,
-     "o25": 0.5765,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:30",
      "ko": "2026-11-01T16:30:00Z",
      "lg": "af.877",
@@ -33248,6 +31243,35 @@
      "unrated": false
     },
     {
+     "t": "04:00",
+     "ko": "2026-11-01T04:00:00Z",
+     "lg": "afc.1202",
+     "lgName": "Australian Championship",
+     "country": "Australia",
+     "h": "Wests APIA",
+     "a": "Avondale",
+     "side": "h",
+     "pick": "Wests APIA",
+     "c": 0.4544,
+     "p": {
+      "h": 0.4544,
+      "d": 0.2332,
+      "a": 0.3124
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5909,
+     "o25": 0.5762,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "06:30",
      "ko": "2026-11-01T06:30:00Z",
      "lg": "af.929",
@@ -33257,18 +31281,18 @@
      "a": "Guizhou Zhucheng",
      "side": "h",
      "pick": "Shanghai Port II",
-     "c": 0.4532,
+     "c": 0.454,
      "p": {
-      "h": 0.4532,
-      "d": 0.2834,
-      "a": 0.2634
+      "h": 0.454,
+      "d": 0.2825,
+      "a": 0.2635
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5243,
-     "o25": 0.4947,
+     "btts": 0.5254,
+     "o25": 0.4962,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -33364,6 +31388,35 @@
      "unrated": false
     },
     {
+     "t": "06:30",
+     "ko": "2026-11-01T06:30:00Z",
+     "lg": "af.929",
+     "lgName": "League Two",
+     "country": "China",
+     "h": "Dalian Kewei",
+     "a": "Jiangxi Liansheng",
+     "side": "h",
+     "pick": "Dalian Kewei",
+     "c": 0.4506,
+     "p": {
+      "h": 0.4506,
+      "d": 0.3267,
+      "a": 0.2227
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4642,
+     "o25": 0.4265,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-11-01T17:00:00Z",
      "lg": "af.447",
@@ -33443,35 +31496,6 @@
      ],
      "btts": 0.5343,
      "o25": 0.5064,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "06:30",
-     "ko": "2026-11-01T06:30:00Z",
-     "lg": "af.929",
-     "lgName": "League Two",
-     "country": "China",
-     "h": "Dalian Kewei",
-     "a": "Jiangxi Liansheng",
-     "side": "h",
-     "pick": "Dalian Kewei",
-     "c": 0.4496,
-     "p": {
-      "h": 0.4496,
-      "d": 0.3277,
-      "a": 0.2227
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4633,
-     "o25": 0.4254,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -33973,35 +31997,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-11-01T09:00:00Z",
-     "lg": "af.588",
-     "lgName": "National League",
-     "country": "Myanmar",
-     "h": "Hantharwady United",
-     "a": "GFA",
-     "side": "h",
-     "pick": "Hantharwady United",
-     "c": 0.4401,
-     "p": {
-      "h": 0.4401,
-      "d": 0.257,
-      "a": 0.3029
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5712,
-     "o25": 0.5514,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:30",
      "ko": "2026-11-01T12:30:00Z",
      "lg": "af.311",
@@ -34026,6 +32021,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "09:00",
+     "ko": "2026-11-01T09:00:00Z",
+     "lg": "af.588",
+     "lgName": "National League",
+     "country": "Myanmar",
+     "h": "Hantharwady United",
+     "a": "GFA",
+     "side": "h",
+     "pick": "Hantharwady United",
+     "c": 0.4396,
+     "p": {
+      "h": 0.4396,
+      "d": 0.2578,
+      "a": 0.3025
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.57,
+     "o25": 0.5498,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -34379,35 +32403,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-01T05:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "V-Varen Nagasaki",
-     "a": "Tokyo Verdy 1969",
-     "side": "h",
-     "pick": "V-Varen Nagasaki",
-     "c": 0.4361,
-     "p": {
-      "h": 0.4361,
-      "d": 0.3206,
-      "a": 0.2432
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4768,
-     "o25": 0.4379,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:00",
      "ko": "2026-11-01T16:00:00Z",
      "lg": "af.439",
@@ -34466,30 +32461,30 @@
      "unrated": false
     },
     {
-     "t": "15:35",
-     "ko": "2026-11-01T15:35:00Z",
-     "lg": "af.301",
-     "lgName": "Pro League",
-     "country": "United Arab Emirates",
-     "h": "Sharjah",
-     "a": "Al Nasr",
+     "t": "05:00",
+     "ko": "2026-11-01T05:00:00Z",
+     "lg": "jp.1",
+     "lgName": "J1 League",
+     "country": "Japan",
+     "h": "V-Varen Nagasaki",
+     "a": "Tokyo Verdy 1969",
      "side": "h",
-     "pick": "Sharjah",
-     "c": 0.4355,
+     "pick": "V-Varen Nagasaki",
+     "c": 0.4348,
      "p": {
-      "h": 0.4355,
-      "d": 0.2728,
-      "a": 0.2917
+      "h": 0.4348,
+      "d": 0.3221,
+      "a": 0.243
      },
      "score": [
       1,
-      1
+      0
      ],
-     "btts": 0.5467,
-     "o25": 0.52,
+     "btts": 0.4753,
+     "o25": 0.4361,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -34698,35 +32693,6 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-11-01T09:00:00Z",
-     "lg": "af.588",
-     "lgName": "National League",
-     "country": "Myanmar",
-     "h": "Sagaing United",
-     "a": "Thitsar Arman",
-     "side": "h",
-     "pick": "Sagaing United",
-     "c": 0.4322,
-     "p": {
-      "h": 0.4322,
-      "d": 0.2372,
-      "a": 0.3306
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.6061,
-     "o25": 0.5952,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:30",
      "ko": "2026-11-01T15:30:00Z",
      "lg": "af.443",
@@ -34748,6 +32714,35 @@
      ],
      "btts": 0.5102,
      "o25": 0.4752,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "09:00",
+     "ko": "2026-11-01T09:00:00Z",
+     "lg": "af.588",
+     "lgName": "National League",
+     "country": "Myanmar",
+     "h": "Sagaing United",
+     "a": "Thitsar Arman",
+     "side": "h",
+     "pick": "Sagaing United",
+     "c": 0.4318,
+     "p": {
+      "h": 0.4318,
+      "d": 0.2381,
+      "a": 0.33
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.6046,
+     "o25": 0.5933,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -34814,8 +32809,8 @@
      "unrated": false
     },
     {
-     "t": "21:30",
-     "ko": "2026-11-01T21:30:00Z",
+     "t": "23:30",
+     "ko": "2026-11-01T23:30:00Z",
      "lg": "ve.1",
      "lgName": "Primera Divisi\u00f3n",
      "country": "Venezuela",
@@ -35270,6 +33265,35 @@
      ],
      "btts": 0.5354,
      "o25": 0.5052,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:30",
+     "ko": "2026-11-01T13:30:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Manonyane",
+     "a": "Majantja",
+     "side": "a",
+     "pick": "Majantja",
+     "c": 0.4277,
+     "p": {
+      "h": 0.278,
+      "d": 0.2942,
+      "a": 0.4277
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5158,
+     "o25": 0.4814,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -36844,35 +34868,6 @@
      "unrated": false
     },
     {
-     "t": "11:00",
-     "ko": "2026-11-01T11:00:00Z",
-     "lg": "af.276",
-     "lgName": "FKF Premier League",
-     "country": "Kenya",
-     "h": "Shabana",
-     "a": "Kenya Police",
-     "side": "h",
-     "pick": "Shabana",
-     "c": 0.4093,
-     "p": {
-      "h": 0.4093,
-      "d": 0.3434,
-      "a": 0.2474
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4572,
-     "o25": 0.4138,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-01T15:00:00Z",
      "lg": "af.439",
@@ -37134,6 +35129,35 @@
      "unrated": false
     },
     {
+     "t": "07:00",
+     "ko": "2026-11-01T07:00:00Z",
+     "lg": "au.1",
+     "lgName": "A-League",
+     "country": "Australia",
+     "h": "Perth Glory",
+     "a": "Adelaide United",
+     "side": "a",
+     "pick": "Adelaide United",
+     "c": 0.4057,
+     "p": {
+      "h": 0.3272,
+      "d": 0.2671,
+      "a": 0.4057
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5623,
+     "o25": 0.5373,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-11-01T17:00:00Z",
      "lg": "dnk.1",
@@ -37242,35 +35266,6 @@
      ],
      "btts": 0.5748,
      "o25": 0.5532,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "07:00",
-     "ko": "2026-11-01T07:00:00Z",
-     "lg": "au.1",
-     "lgName": "A-League",
-     "country": "Australia",
-     "h": "Perth Glory",
-     "a": "Adelaide United",
-     "side": "a",
-     "pick": "Adelaide United",
-     "c": 0.4046,
-     "p": {
-      "h": 0.3272,
-      "d": 0.2682,
-      "a": 0.4046
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5608,
-     "o25": 0.5352,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -37540,35 +35535,6 @@
      "unrated": false
     },
     {
-     "t": "04:00",
-     "ko": "2026-11-01T04:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "Yokohama F. Marinos",
-     "a": "Kawasaki Frontale",
-     "side": "h",
-     "pick": "Yokohama F. Marinos",
-     "c": 0.4014,
-     "p": {
-      "h": 0.4014,
-      "d": 0.2918,
-      "a": 0.3068
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5255,
-     "o25": 0.4906,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-01T15:00:00Z",
      "lg": "af.459",
@@ -37648,6 +35614,35 @@
      ],
      "btts": 0.5187,
      "o25": 0.4823,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "04:00",
+     "ko": "2026-11-01T04:00:00Z",
+     "lg": "jp.1",
+     "lgName": "J1 League",
+     "country": "Japan",
+     "h": "Yokohama F. Marinos",
+     "a": "Kawasaki Frontale",
+     "side": "h",
+     "pick": "Yokohama F. Marinos",
+     "c": 0.4003,
+     "p": {
+      "h": 0.4003,
+      "d": 0.2931,
+      "a": 0.3065
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5237,
+     "o25": 0.4883,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -38120,6 +36115,35 @@
      "unrated": false
     },
     {
+     "t": "05:00",
+     "ko": "2026-11-01T05:00:00Z",
+     "lg": "kr.1",
+     "lgName": "K League 1",
+     "country": "South Korea",
+     "h": "Ulsan Hyundai",
+     "a": "Gangwon",
+     "side": "h",
+     "pick": "Ulsan Hyundai",
+     "c": 0.3931,
+     "p": {
+      "h": 0.3931,
+      "d": 0.2902,
+      "a": 0.3167
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5291,
+     "o25": 0.4945,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:30",
      "ko": "2026-11-01T13:30:00Z",
      "lg": "af.430",
@@ -38141,35 +36165,6 @@
      ],
      "btts": 0.4834,
      "o25": 0.4403,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-01T05:00:00Z",
-     "lg": "kr.1",
-     "lgName": "K League 1",
-     "country": "South Korea",
-     "h": "Ulsan Hyundai",
-     "a": "Gangwon",
-     "side": "h",
-     "pick": "Ulsan Hyundai",
-     "c": 0.3922,
-     "p": {
-      "h": 0.3922,
-      "d": 0.2916,
-      "a": 0.3162
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5273,
-     "o25": 0.4922,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -38526,35 +36521,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-01T05:00:00Z",
-     "lg": "af.293",
-     "lgName": "K League 2",
-     "country": "South Korea",
-     "h": "Jeonnam Dragons",
-     "a": "Seongnam",
-     "side": "h",
-     "pick": "Jeonnam Dragons",
-     "c": 0.3887,
-     "p": {
-      "h": 0.3887,
-      "d": 0.3009,
-      "a": 0.3104
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5146,
-     "o25": 0.4764,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "11:00",
      "ko": "2026-11-01T11:00:00Z",
      "lg": "af.445",
@@ -38634,6 +36600,35 @@
      ],
      "btts": 0.5569,
      "o25": 0.5294,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-01T05:00:00Z",
+     "lg": "af.293",
+     "lgName": "K League 2",
+     "country": "South Korea",
+     "h": "Jeonnam Dragons",
+     "a": "Seongnam",
+     "side": "h",
+     "pick": "Jeonnam Dragons",
+     "c": 0.3874,
+     "p": {
+      "h": 0.3874,
+      "d": 0.303,
+      "a": 0.3096
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.512,
+     "o25": 0.4732,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -38837,35 +36832,6 @@
      ],
      "btts": 0.4905,
      "o25": 0.4478,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "07:30",
-     "ko": "2026-11-01T07:30:00Z",
-     "lg": "af.293",
-     "lgName": "K League 2",
-     "country": "South Korea",
-     "h": "Cheongju",
-     "a": "Paju Citizen",
-     "side": "h",
-     "pick": "Cheongju",
-     "c": 0.386,
-     "p": {
-      "h": 0.386,
-      "d": 0.3138,
-      "a": 0.3001
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4976,
-     "o25": 0.4561,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -39130,6 +37096,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "07:30",
+     "ko": "2026-11-01T07:30:00Z",
+     "lg": "af.293",
+     "lgName": "K League 2",
+     "country": "South Korea",
+     "h": "Cheongju",
+     "a": "Paju Citizen",
+     "side": "h",
+     "pick": "Cheongju",
+     "c": 0.3845,
+     "p": {
+      "h": 0.3845,
+      "d": 0.3159,
+      "a": 0.2995
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4952,
+     "o25": 0.4531,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -39504,6 +37499,35 @@
      ],
      "btts": 0.5945,
      "o25": 0.5782,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "10:00",
+     "ko": "2026-11-01T10:00:00Z",
+     "lg": "af.571",
+     "lgName": "Vysshaya Liga",
+     "country": "Tajikistan",
+     "h": "Sardor Tursunzoda",
+     "a": "Ravshan",
+     "side": "a",
+     "pick": "Ravshan",
+     "c": 0.3821,
+     "p": {
+      "h": 0.3411,
+      "d": 0.2768,
+      "a": 0.3821
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5505,
+     "o25": 0.521,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -40788,30 +38812,30 @@
      "unrated": false
     },
     {
-     "t": "07:30",
-     "ko": "2026-11-01T07:30:00Z",
-     "lg": "af.293",
-     "lgName": "K League 2",
+     "t": "05:00",
+     "ko": "2026-11-01T05:00:00Z",
+     "lg": "af.295",
+     "lgName": "K3 League",
      "country": "South Korea",
-     "h": "Gimhae City",
-     "a": "Cheonan City",
-     "side": "a",
-     "pick": "Cheonan City",
-     "c": 0.3673,
+     "h": "Ulsan Citizen",
+     "a": "Changwon City",
+     "side": "h",
+     "pick": "Ulsan Citizen",
+     "c": 0.3671,
      "p": {
-      "h": 0.34,
-      "d": 0.2927,
-      "a": 0.3673
+      "h": 0.3671,
+      "d": 0.3439,
+      "a": 0.289
      },
      "score": [
-      1,
-      1
+      0,
+      0
      ],
-     "btts": 0.5284,
-     "o25": 0.4925,
+     "btts": 0.4645,
+     "o25": 0.4177,
      "hit": null,
      "hitN": null,
-     "celtic": true,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -40896,35 +38920,6 @@
      ],
      "btts": 0.5509,
      "o25": 0.5212,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-01T05:00:00Z",
-     "lg": "af.295",
-     "lgName": "K3 League",
-     "country": "South Korea",
-     "h": "Ulsan Citizen",
-     "a": "Changwon City",
-     "side": "h",
-     "pick": "Ulsan Citizen",
-     "c": 0.3668,
-     "p": {
-      "h": 0.3668,
-      "d": 0.3443,
-      "a": 0.2889
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.464,
-     "o25": 0.4172,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -41020,6 +39015,35 @@
      "unrated": false
     },
     {
+     "t": "07:30",
+     "ko": "2026-11-01T07:30:00Z",
+     "lg": "af.293",
+     "lgName": "K League 2",
+     "country": "South Korea",
+     "h": "Gimhae City",
+     "a": "Cheonan City",
+     "side": "a",
+     "pick": "Cheonan City",
+     "c": 0.3655,
+     "p": {
+      "h": 0.3398,
+      "d": 0.2946,
+      "a": 0.3655
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5258,
+     "o25": 0.4892,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:30",
      "ko": "2026-11-01T13:30:00Z",
      "lg": "af.431",
@@ -41099,35 +39123,6 @@
      ],
      "btts": 0.5247,
      "o25": 0.4878,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-01T05:00:00Z",
-     "lg": "jp.1",
-     "lgName": "J1 League",
-     "country": "Japan",
-     "h": "JEF United Ichihara-Chiba",
-     "a": "Avispa Fukuoka",
-     "side": "h",
-     "pick": "JEF United Ichihara-Chiba",
-     "c": 0.3635,
-     "p": {
-      "h": 0.3635,
-      "d": 0.322,
-      "a": 0.3145
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.49,
-     "o25": 0.446,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -41305,6 +39300,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-01T05:00:00Z",
+     "lg": "jp.1",
+     "lgName": "J1 League",
+     "country": "Japan",
+     "h": "JEF United Ichihara-Chiba",
+     "a": "Avispa Fukuoka",
+     "side": "h",
+     "pick": "JEF United Ichihara-Chiba",
+     "c": 0.3628,
+     "p": {
+      "h": 0.3628,
+      "d": 0.3234,
+      "a": 0.3139
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4884,
+     "o25": 0.4441,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -41609,18 +39633,47 @@
      "a": "Persikad Depok",
      "side": "h",
      "pick": "PSIS Semarang",
-     "c": 0.3604,
+     "c": 0.3608,
      "p": {
-      "h": 0.3604,
-      "d": 0.2852,
-      "a": 0.3544
+      "h": 0.3608,
+      "d": 0.2847,
+      "a": 0.3545
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5395,
-     "o25": 0.5064,
+     "btts": 0.5401,
+     "o25": 0.5072,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-01T13:00:00Z",
+     "lg": "af.236",
+     "lgName": "First League",
+     "country": "Russia",
+     "h": "Chelyabinsk",
+     "a": "Shinnik Yaroslavl",
+     "side": "a",
+     "pick": "Shinnik Yaroslavl",
+     "c": 0.3602,
+     "p": {
+      "h": 0.325,
+      "d": 0.3148,
+      "a": 0.3602
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4992,
+     "o25": 0.4567,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -41682,6 +39735,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-01T13:00:00Z",
+     "lg": "af.962",
+     "lgName": "Premier League",
+     "country": "Lesotho",
+     "h": "Lifofane",
+     "a": "LDF",
+     "side": "h",
+     "pick": "Lifofane",
+     "c": 0.3587,
+     "p": {
+      "h": 0.3587,
+      "d": 0.323,
+      "a": 0.3183
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4893,
+     "o25": 0.4449,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -41832,6 +39914,35 @@
      "unrated": false
     },
     {
+     "t": "05:00",
+     "ko": "2026-11-01T05:00:00Z",
+     "lg": "kr.1",
+     "lgName": "K League 1",
+     "country": "South Korea",
+     "h": "Pohang Steelers",
+     "a": "Jeju United",
+     "side": "h",
+     "pick": "Pohang Steelers",
+     "c": 0.3557,
+     "p": {
+      "h": 0.3557,
+      "d": 0.3237,
+      "a": 0.3206
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4885,
+     "o25": 0.444,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "11:00",
      "ko": "2026-11-01T11:00:00Z",
      "lg": "af.456",
@@ -41853,35 +39964,6 @@
      ],
      "btts": 0.4632,
      "o25": 0.4157,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-01T05:00:00Z",
-     "lg": "kr.1",
-     "lgName": "K League 1",
-     "country": "South Korea",
-     "h": "Pohang Steelers",
-     "a": "Jeju United",
-     "side": "h",
-     "pick": "Pohang Steelers",
-     "c": 0.355,
-     "p": {
-      "h": 0.355,
-      "d": 0.3252,
-      "a": 0.3199
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4869,
-     "o25": 0.442,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -42328,7 +40410,7 @@
   },
   {
    "date": "2026-11-02",
-   "count": 137,
+   "count": 139,
    "games": [
     {
      "t": "23:30",
@@ -44024,6 +42106,35 @@
      "unrated": false
     },
     {
+     "t": "17:30",
+     "ko": "2026-11-02T17:30:00Z",
+     "lg": "af.289",
+     "lgName": "1st Division",
+     "country": "South Africa",
+     "h": "Cape Town City",
+     "a": "Magesi",
+     "side": "h",
+     "pick": "Cape Town City",
+     "c": 0.4683,
+     "p": {
+      "h": 0.4683,
+      "d": 0.2777,
+      "a": 0.254
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5277,
+     "o25": 0.5011,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-11-02T12:00:00Z",
      "lg": "af.287",
@@ -44857,6 +42968,35 @@
      ],
      "btts": 0.5309,
      "o25": 0.4978,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:15",
+     "ko": "2026-11-02T13:15:00Z",
+     "lg": "af.276",
+     "lgName": "FKF Premier League",
+     "country": "Kenya",
+     "h": "Shabana",
+     "a": "Kenya Police",
+     "side": "h",
+     "pick": "Shabana",
+     "c": 0.4093,
+     "p": {
+      "h": 0.4093,
+      "d": 0.3434,
+      "a": 0.2474
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4572,
+     "o25": 0.4138,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -46086,7 +44226,7 @@
   },
   {
    "date": "2026-11-03",
-   "count": 201,
+   "count": 202,
    "games": [
     {
      "t": "02:00",
@@ -47924,6 +46064,35 @@
      "reserve": true
     },
     {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.100",
+     "lgName": "J3 League",
+     "country": "Japan",
+     "h": "Nara Club",
+     "a": "Thespakusatsu Gunma",
+     "side": "h",
+     "pick": "Nara Club",
+     "c": 0.6213,
+     "p": {
+      "h": 0.6213,
+      "d": 0.2199,
+      "a": 0.1588
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5367,
+     "o25": 0.5452,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
      "t": "19:45",
      "ko": "2026-11-03T19:45:00Z",
      "lg": "en.7n",
@@ -48042,28 +46211,28 @@
     {
      "t": "05:00",
      "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
+     "lg": "af.99",
+     "lgName": "J2 League",
      "country": "Japan",
-     "h": "Nara Club",
-     "a": "Thespakusatsu Gunma",
+     "h": "Yokohama",
+     "a": "Blaublitz Akita",
      "side": "h",
-     "pick": "Nara Club",
-     "c": 0.578,
+     "pick": "Yokohama",
+     "c": 0.5787,
      "p": {
-      "h": 0.578,
-      "d": 0.2334,
-      "a": 0.1887
+      "h": 0.5787,
+      "d": 0.2518,
+      "a": 0.1695
      },
      "score": [
       1,
-      1
+      0
      ],
-     "btts": 0.5453,
-     "o25": 0.5437,
+     "btts": 0.5079,
+     "o25": 0.5012,
      "hit": 0.5868,
      "hitN": 4716,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -48100,57 +46269,28 @@
     {
      "t": "05:00",
      "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Yokohama",
-     "a": "Blaublitz Akita",
-     "side": "h",
-     "pick": "Yokohama",
-     "c": 0.5761,
-     "p": {
-      "h": 0.5761,
-      "d": 0.2488,
-      "a": 0.1751
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5158,
-     "o25": 0.5095,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
      "lg": "af.100",
      "lgName": "J3 League",
      "country": "Japan",
-     "h": "Kochi United",
-     "a": "Ehime",
-     "side": "a",
-     "pick": "Ehime",
-     "c": 0.5715,
+     "h": "Kanazawa",
+     "a": "Parceiro Nagano",
+     "side": "h",
+     "pick": "Kanazawa",
+     "c": 0.5669,
      "p": {
-      "h": 0.1866,
-      "d": 0.2418,
-      "a": 0.5715
+      "h": 0.5669,
+      "d": 0.2436,
+      "a": 0.1895
      },
      "score": [
       1,
       1
      ],
      "btts": 0.5331,
-     "o25": 0.5281,
+     "o25": 0.527,
      "hit": 0.5868,
      "hitN": 4716,
-     "celtic": true,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -48214,35 +46354,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Kanazawa",
-     "a": "Parceiro Nagano",
-     "side": "h",
-     "pick": "Kanazawa",
-     "c": 0.5602,
-     "p": {
-      "h": 0.5602,
-      "d": 0.2486,
-      "a": 0.1912
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5282,
-     "o25": 0.5197,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:45",
      "ko": "2026-11-03T19:45:00Z",
      "lg": "en.7n",
@@ -48272,6 +46383,35 @@
      "unrated": false
     },
     {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.100",
+     "lgName": "J3 League",
+     "country": "Japan",
+     "h": "Kochi United",
+     "a": "Ehime",
+     "side": "a",
+     "pick": "Ehime",
+     "c": 0.5523,
+     "p": {
+      "h": 0.1969,
+      "d": 0.2508,
+      "a": 0.5523
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5295,
+     "o25": 0.5194,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "00:15",
      "ko": "2026-11-03T00:15:00Z",
      "lg": "ar.1",
@@ -48295,6 +46435,35 @@
      "o25": 0.5188,
      "hit": 0.5352,
      "hitN": 99,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.99",
+     "lgName": "J2 League",
+     "country": "Japan",
+     "h": "Tegevajaro Miyazaki",
+     "a": "Tochigi City",
+     "side": "h",
+     "pick": "Tegevajaro Miyazaki",
+     "c": 0.5488,
+     "p": {
+      "h": 0.5488,
+      "d": 0.2324,
+      "a": 0.2189
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5677,
+     "o25": 0.5636,
+     "hit": 0.5376,
+     "hitN": 6805,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -48448,57 +46617,28 @@
     {
      "t": "05:00",
      "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
+     "lg": "af.100",
+     "lgName": "J3 League",
      "country": "Japan",
-     "h": "Omiya Ardija",
-     "a": "Iwaki",
+     "h": "Kitakyushu",
+     "a": "Biwako Shiga",
      "side": "h",
-     "pick": "Omiya Ardija",
-     "c": 0.5255,
+     "pick": "Kitakyushu",
+     "c": 0.5271,
      "p": {
-      "h": 0.5255,
-      "d": 0.2422,
-      "a": 0.2323
+      "h": 0.5271,
+      "d": 0.2495,
+      "a": 0.2234
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5625,
-     "o25": 0.5529,
+     "btts": 0.5479,
+     "o25": 0.5357,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Oita Trinita",
-     "a": "Vanraure Hachinohe",
-     "side": "h",
-     "pick": "Oita Trinita",
-     "c": 0.5249,
-     "p": {
-      "h": 0.5249,
-      "d": 0.2989,
-      "a": 0.1762
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.466,
-     "o25": 0.4424,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -48556,6 +46696,35 @@
      "o25": 0.5843,
      "hit": null,
      "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.99",
+     "lgName": "J2 League",
+     "country": "Japan",
+     "h": "Omiya Ardija",
+     "a": "Iwaki",
+     "side": "h",
+     "pick": "Omiya Ardija",
+     "c": 0.5171,
+     "p": {
+      "h": 0.5171,
+      "d": 0.2407,
+      "a": 0.2423
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.57,
+     "o25": 0.5604,
+     "hit": 0.5376,
+     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -48683,22 +46852,22 @@
      "lg": "af.99",
      "lgName": "J2 League",
      "country": "Japan",
-     "h": "Tegevajaro Miyazaki",
-     "a": "Tochigi City",
+     "h": "Oita Trinita",
+     "a": "Vanraure Hachinohe",
      "side": "h",
-     "pick": "Tegevajaro Miyazaki",
-     "c": 0.506,
+     "pick": "Oita Trinita",
+     "c": 0.5061,
      "p": {
-      "h": 0.506,
-      "d": 0.244,
-      "a": 0.25
+      "h": 0.5061,
+      "d": 0.3051,
+      "a": 0.1887
      },
      "score": [
       1,
-      1
+      0
      ],
-     "btts": 0.5693,
-     "o25": 0.5578,
+     "btts": 0.4677,
+     "o25": 0.4402,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": true,
@@ -48730,35 +46899,6 @@
      "o25": 0.4845,
      "hit": 0.4811,
      "hitN": 266,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Kitakyushu",
-     "a": "Biwako Shiga",
-     "side": "h",
-     "pick": "Kitakyushu",
-     "c": 0.496,
-     "p": {
-      "h": 0.496,
-      "d": 0.2552,
-      "a": 0.2488
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5538,
-     "o25": 0.5372,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -48823,6 +46963,35 @@
      "unrated": false
     },
     {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.100",
+     "lgName": "J3 League",
+     "country": "Japan",
+     "h": "Tochigi",
+     "a": "Fukushima United",
+     "side": "h",
+     "pick": "Tochigi",
+     "c": 0.4827,
+     "p": {
+      "h": 0.4827,
+      "d": 0.262,
+      "a": 0.2553
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5479,
+     "o25": 0.5279,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-11-03T17:00:00Z",
      "lg": "afc.121",
@@ -48846,64 +47015,6 @@
      "o25": 0.5294,
      "hit": null,
      "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "07:45",
-     "ko": "2026-11-03T07:45:00Z",
-     "lg": "afc.cl",
-     "lgName": "AFC Champions League Elite",
-     "country": "Asia",
-     "h": "Newcastle Jets",
-     "a": "Shanghai Port",
-     "side": "h",
-     "pick": "Newcastle Jets",
-     "c": 0.4817,
-     "p": {
-      "h": 0.4817,
-      "d": 0.2292,
-      "a": 0.2891
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.606,
-     "o25": 0.5995,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Ventforet Kofu",
-     "a": "Albirex Niigata",
-     "side": "a",
-     "pick": "Albirex Niigata",
-     "c": 0.4781,
-     "p": {
-      "h": 0.2585,
-      "d": 0.2635,
-      "a": 0.4781
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5474,
-     "o25": 0.5265,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -49064,18 +47175,18 @@
      "a": "Sagan Tosu",
      "side": "h",
      "pick": "Shonan Bellmare",
-     "c": 0.4618,
+     "c": 0.4629,
      "p": {
-      "h": 0.4618,
-      "d": 0.3086,
-      "a": 0.2296
+      "h": 0.4629,
+      "d": 0.3123,
+      "a": 0.2249
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.4836,
-     "o25": 0.4492,
+     "btts": 0.4782,
+     "o25": 0.4434,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
@@ -49108,6 +47219,35 @@
      "hit": 0.439,
      "hitN": 335,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.99",
+     "lgName": "J2 League",
+     "country": "Japan",
+     "h": "Ventforet Kofu",
+     "a": "Albirex Niigata",
+     "side": "a",
+     "pick": "Albirex Niigata",
+     "c": 0.4575,
+     "p": {
+      "h": 0.2773,
+      "d": 0.2652,
+      "a": 0.4575
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5522,
+     "o25": 0.5295,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -49229,30 +47369,30 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Tochigi",
-     "a": "Fukushima United",
+     "t": "07:45",
+     "ko": "2026-11-03T07:45:00Z",
+     "lg": "afc.cl",
+     "lgName": "AFC Champions League Elite",
+     "country": "Asia",
+     "h": "Newcastle Jets",
+     "a": "Shanghai Port",
      "side": "h",
-     "pick": "Tochigi",
-     "c": 0.4468,
+     "pick": "Newcastle Jets",
+     "c": 0.4442,
      "p": {
-      "h": 0.4468,
-      "d": 0.2676,
-      "a": 0.2855
+      "h": 0.4442,
+      "d": 0.2354,
+      "a": 0.3203
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5518,
-     "o25": 0.5276,
+     "btts": 0.6064,
+     "o25": 0.5964,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -49282,6 +47422,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-11-03T17:00:00Z",
+     "lg": "afc.508",
+     "lgName": "League Cup",
+     "country": "South Africa",
+     "h": "Mamelodi Sundowns",
+     "a": "Golden Arrows",
+     "side": "h",
+     "pick": "Mamelodi Sundowns",
+     "c": 0.4392,
+     "p": {
+      "h": 0.4392,
+      "d": 0.2628,
+      "a": 0.298
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5463,
+     "o25": 0.5179,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -49337,6 +47506,35 @@
      ],
      "btts": 0.5918,
      "o25": 0.5771,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.100",
+     "lgName": "J3 League",
+     "country": "Japan",
+     "h": "Gainare Tottori",
+     "a": "Sagamihara",
+     "side": "a",
+     "pick": "Sagamihara",
+     "c": 0.4347,
+     "p": {
+      "h": 0.2787,
+      "d": 0.2866,
+      "a": 0.4347
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5253,
+     "o25": 0.4936,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -49635,35 +47833,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Fujieda MYFC",
-     "a": "Jubilo Iwata",
-     "side": "h",
-     "pick": "Fujieda MYFC",
-     "c": 0.4061,
-     "p": {
-      "h": 0.4061,
-      "d": 0.3059,
-      "a": 0.2881
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5046,
-     "o25": 0.4658,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "20:00",
      "ko": "2026-11-03T20:00:00Z",
      "lg": "en.2",
@@ -49693,56 +47862,27 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Renofa Yamaguchi",
-     "a": "Kagoshima United",
-     "side": "h",
-     "pick": "Renofa Yamaguchi",
-     "c": 0.4049,
-     "p": {
-      "h": 0.4049,
-      "d": 0.2915,
-      "a": 0.3036
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5252,
-     "o25": 0.4906,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:50",
-     "ko": "2026-11-03T05:50:00Z",
+     "t": "04:55",
+     "ko": "2026-11-03T04:55:00Z",
      "lg": "af.99",
      "lgName": "J2 League",
      "country": "Japan",
-     "h": "Imabari",
-     "a": "Consadole Sapporo",
+     "h": "Kataller Toyama",
+     "a": "Vegalta Sendai",
      "side": "h",
-     "pick": "Imabari",
-     "c": 0.403,
+     "pick": "Kataller Toyama",
+     "c": 0.4041,
      "p": {
-      "h": 0.403,
-      "d": 0.2643,
-      "a": 0.3327
+      "h": 0.4041,
+      "d": 0.2928,
+      "a": 0.3031
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5673,
-     "o25": 0.5434,
+     "btts": 0.5236,
+     "o25": 0.4884,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -49891,35 +48031,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Gainare Tottori",
-     "a": "Sagamihara",
-     "side": "a",
-     "pick": "Sagamihara",
-     "c": 0.3965,
-     "p": {
-      "h": 0.305,
-      "d": 0.2985,
-      "a": 0.3965
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5167,
-     "o25": 0.4795,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -50099,6 +48210,35 @@
      "unrated": false
     },
     {
+     "t": "05:50",
+     "ko": "2026-11-03T05:50:00Z",
+     "lg": "af.99",
+     "lgName": "J2 League",
+     "country": "Japan",
+     "h": "Imabari",
+     "a": "Consadole Sapporo",
+     "side": "h",
+     "pick": "Imabari",
+     "c": 0.3889,
+     "p": {
+      "h": 0.3889,
+      "d": 0.2705,
+      "a": 0.3406
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5594,
+     "o25": 0.5326,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-11-03T13:00:00Z",
      "lg": "af.585",
@@ -50186,6 +48326,35 @@
      "unrated": false
     },
     {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.99",
+     "lgName": "J2 League",
+     "country": "Japan",
+     "h": "Fujieda MYFC",
+     "a": "Jubilo Iwata",
+     "side": "h",
+     "pick": "Fujieda MYFC",
+     "c": 0.3855,
+     "p": {
+      "h": 0.3855,
+      "d": 0.309,
+      "a": 0.3055
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5041,
+     "o25": 0.4637,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-03T15:00:00Z",
      "lg": "af.308",
@@ -50207,6 +48376,35 @@
      ],
      "btts": 0.6026,
      "o25": 0.5888,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.99",
+     "lgName": "J2 League",
+     "country": "Japan",
+     "h": "Montedio Yamagata",
+     "a": "Tokushima Vortis",
+     "side": "h",
+     "pick": "Montedio Yamagata",
+     "c": 0.3821,
+     "p": {
+      "h": 0.3821,
+      "d": 0.3484,
+      "a": 0.2695
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4574,
+     "o25": 0.4114,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -50244,30 +48442,30 @@
      "unrated": false
     },
     {
-     "t": "04:55",
-     "ko": "2026-11-03T04:55:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
+     "lg": "af.100",
+     "lgName": "J3 League",
      "country": "Japan",
-     "h": "Kataller Toyama",
-     "a": "Vegalta Sendai",
+     "h": "Renofa Yamaguchi",
+     "a": "Kagoshima United",
      "side": "h",
-     "pick": "Kataller Toyama",
-     "c": 0.3776,
+     "pick": "Renofa Yamaguchi",
+     "c": 0.3783,
      "p": {
-      "h": 0.3776,
-      "d": 0.3014,
-      "a": 0.321
+      "h": 0.3783,
+      "d": 0.2972,
+      "a": 0.3246
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5154,
-     "o25": 0.4768,
+     "btts": 0.5212,
+     "o25": 0.4839,
      "hit": null,
      "hitN": null,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -50360,27 +48558,27 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
+     "t": "07:00",
+     "ko": "2026-11-03T07:00:00Z",
      "lg": "af.100",
      "lgName": "J3 League",
      "country": "Japan",
-     "h": "Kamatamare Sanuki",
-     "a": "Matsumoto Yamaga",
+     "h": "FC Ryukyu",
+     "a": "FC Gifu",
      "side": "h",
-     "pick": "Kamatamare Sanuki",
-     "c": 0.3667,
+     "pick": "FC Ryukyu",
+     "c": 0.3686,
      "p": {
-      "h": 0.3667,
-      "d": 0.3107,
-      "a": 0.3227
+      "h": 0.3686,
+      "d": 0.2867,
+      "a": 0.3447
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5041,
-     "o25": 0.4627,
+     "btts": 0.5369,
+     "o25": 0.5032,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -50418,35 +48616,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-03T05:00:00Z",
-     "lg": "af.99",
-     "lgName": "J2 League",
-     "country": "Japan",
-     "h": "Montedio Yamagata",
-     "a": "Tokushima Vortis",
-     "side": "h",
-     "pick": "Montedio Yamagata",
-     "c": 0.3605,
-     "p": {
-      "h": 0.3605,
-      "d": 0.3511,
-      "a": 0.2883
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4576,
-     "o25": 0.41,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-03T13:30:00Z",
      "lg": "af.202",
@@ -50476,27 +48645,27 @@
      "unrated": false
     },
     {
-     "t": "07:00",
-     "ko": "2026-11-03T07:00:00Z",
+     "t": "05:00",
+     "ko": "2026-11-03T05:00:00Z",
      "lg": "af.100",
      "lgName": "J3 League",
      "country": "Japan",
-     "h": "FC Ryukyu",
-     "a": "FC Gifu",
+     "h": "Kamatamare Sanuki",
+     "a": "Matsumoto Yamaga",
      "side": "a",
-     "pick": "FC Gifu",
-     "c": 0.3588,
+     "pick": "Matsumoto Yamaga",
+     "c": 0.3568,
      "p": {
-      "h": 0.3482,
-      "d": 0.293,
-      "a": 0.3588
+      "h": 0.3329,
+      "d": 0.3103,
+      "a": 0.3568
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5285,
-     "o25": 0.4924,
+     "btts": 0.5052,
+     "o25": 0.4637,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -50595,7 +48764,7 @@
   },
   {
    "date": "2026-11-04",
-   "count": 115,
+   "count": 116,
    "games": [
     {
      "t": "01:00",
@@ -52191,35 +50360,6 @@
      "unrated": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-04T05:00:00Z",
-     "lg": "af.100",
-     "lgName": "J3 League",
-     "country": "Japan",
-     "h": "Osaka",
-     "a": "Roasso Kumamoto",
-     "side": "h",
-     "pick": "Osaka",
-     "c": 0.4589,
-     "p": {
-      "h": 0.4589,
-      "d": 0.3136,
-      "a": 0.2275
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.478,
-     "o25": 0.4425,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:00",
      "ko": "2026-11-04T12:00:00Z",
      "lg": "afc.732",
@@ -52473,6 +50613,35 @@
      ],
      "btts": 0.5503,
      "o25": 0.526,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "05:00",
+     "ko": "2026-11-04T05:00:00Z",
+     "lg": "af.100",
+     "lgName": "J3 League",
+     "country": "Japan",
+     "h": "Osaka",
+     "a": "Roasso Kumamoto",
+     "side": "h",
+     "pick": "Osaka",
+     "c": 0.4451,
+     "p": {
+      "h": 0.4451,
+      "d": 0.3213,
+      "a": 0.2336
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4729,
+     "o25": 0.4349,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -52882,6 +51051,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-11-04T17:00:00Z",
+     "lg": "afc.657",
+     "lgName": "Cup",
+     "country": "Estonia",
+     "h": "Flora Tallinn",
+     "a": "Tartu Welco",
+     "side": "a",
+     "pick": "Tartu Welco",
+     "c": 0.416,
+     "p": {
+      "h": 0.3707,
+      "d": 0.2133,
+      "a": 0.416
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.6072,
+     "o25": 0.595,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -53447,11 +51645,11 @@
      "a": "Gamba Osaka",
      "side": "h",
      "pick": "Pohang Steelers",
-     "c": 0.3703,
+     "c": 0.3702,
      "p": {
-      "h": 0.3703,
+      "h": 0.3702,
       "d": 0.3125,
-      "a": 0.3172
+      "a": 0.3173
      },
      "score": [
       1,
@@ -53819,22 +52017,6 @@
     {
      "t": "00:00",
      "ko": "2026-11-05T00:00Z",
-     "lg": "cfb",
-     "lgName": "NCAA FBS",
-     "sport": "cfb",
-     "h": "Sacramento State Hornets",
-     "a": "Toledo Rockets",
-     "side": "a",
-     "pick": "Toledo Rockets",
-     "c": 0.8564,
-     "hit": 0.9341,
-     "hitN": 167,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-05T00:00Z",
      "lg": "ncaab",
      "lgName": "NCAA",
      "sport": "ncaab",
@@ -53893,6 +52075,22 @@
      "c": 0.8131,
      "hit": 0.7893,
      "hitN": 626,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-05T00:00Z",
+     "lg": "cfb",
+     "lgName": "NCAA FBS",
+     "sport": "cfb",
+     "h": "Sacramento State Hornets",
+     "a": "Toledo Rockets",
+     "side": "a",
+     "pick": "Toledo Rockets",
+     "c": 0.8018,
+     "hit": 0.8737,
+     "hitN": 95,
      "list": false,
      "reserve": true
     },
@@ -54746,6 +52944,35 @@
      "unrated": false
     },
     {
+     "t": "15:00",
+     "ko": "2026-11-05T15:00:00Z",
+     "lg": "af.284",
+     "lgName": "Liga II",
+     "country": "Romania",
+     "h": "Chindia Targoviste",
+     "a": "Pope\u0219ti-Leordeni",
+     "side": "h",
+     "pick": "Chindia Targoviste",
+     "c": 0.5254,
+     "p": {
+      "h": 0.5254,
+      "d": 0.2244,
+      "a": 0.2502
+     },
+     "score": [
+      2,
+      1
+     ],
+     "btts": 0.5963,
+     "o25": 0.5936,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "11:00",
      "ko": "2026-11-05T11:00:00Z",
      "lg": "af.418",
@@ -54827,35 +53054,6 @@
      "o25": 0.4759,
      "hit": null,
      "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-11-05T15:00:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "Chindia Targoviste",
-     "a": "Pope\u0219ti-Leordeni",
-     "side": "h",
-     "pick": "Chindia Targoviste",
-     "c": 0.5092,
-     "p": {
-      "h": 0.5092,
-      "d": 0.2262,
-      "a": 0.2646
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.6005,
-     "o25": 0.5962,
-     "hit": 0.5376,
-     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -56112,7 +54310,7 @@
   },
   {
    "date": "2026-11-06",
-   "count": 179,
+   "count": 182,
    "games": [
     {
      "t": "01:00",
@@ -58050,35 +56248,6 @@
      "unrated": false
     },
     {
-     "t": "08:40",
-     "ko": "2026-11-06T08:40:00Z",
-     "lg": "au.1",
-     "lgName": "A-League",
-     "country": "Australia",
-     "h": "Sydney",
-     "a": "Central Coast Mariners",
-     "side": "h",
-     "pick": "Sydney",
-     "c": 0.5141,
-     "p": {
-      "h": 0.5141,
-      "d": 0.2766,
-      "a": 0.2094
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5076,
-     "o25": 0.4857,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:30",
      "ko": "2026-11-06T19:30:00Z",
      "lg": "es.2",
@@ -58247,6 +56416,35 @@
      "o25": 0.5442,
      "hit": 0.5376,
      "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "08:40",
+     "ko": "2026-11-06T08:40:00Z",
+     "lg": "au.1",
+     "lgName": "A-League",
+     "country": "Australia",
+     "h": "Sydney",
+     "a": "Central Coast Mariners",
+     "side": "h",
+     "pick": "Sydney",
+     "c": 0.4958,
+     "p": {
+      "h": 0.4958,
+      "d": 0.2789,
+      "a": 0.2253
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5134,
+     "o25": 0.4888,
+     "hit": 0.4634,
+     "hitN": 259,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -58572,6 +56770,35 @@
      "unrated": false
     },
     {
+     "t": "17:00",
+     "ko": "2026-11-06T17:00:00Z",
+     "lg": "afc.508",
+     "lgName": "League Cup",
+     "country": "South Africa",
+     "h": "Kaizer Chiefs",
+     "a": "Siwelele",
+     "side": "h",
+     "pick": "Kaizer Chiefs",
+     "c": 0.4706,
+     "p": {
+      "h": 0.4706,
+      "d": 0.2674,
+      "a": 0.262
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5394,
+     "o25": 0.5141,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "10:00",
      "ko": "2026-11-06T10:00:00Z",
      "lg": "af.1104",
@@ -58688,6 +56915,35 @@
      "unrated": false
     },
     {
+     "t": "17:00",
+     "ko": "2026-11-06T17:00:00Z",
+     "lg": "afc.508",
+     "lgName": "League Cup",
+     "country": "South Africa",
+     "h": "Orlando Pirates",
+     "a": "Sekhukhune United",
+     "side": "h",
+     "pick": "Orlando Pirates",
+     "c": 0.4647,
+     "p": {
+      "h": 0.4647,
+      "d": 0.2605,
+      "a": 0.2748
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5504,
+     "o25": 0.5265,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:45",
      "ko": "2026-11-06T13:45:00Z",
      "lg": "af.542",
@@ -58712,6 +56968,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-11-06T17:00:00Z",
+     "lg": "afc.508",
+     "lgName": "League Cup",
+     "country": "South Africa",
+     "h": "Stellenbosch",
+     "a": "Amazulu",
+     "side": "h",
+     "pick": "Stellenbosch",
+     "c": 0.4602,
+     "p": {
+      "h": 0.4602,
+      "d": 0.2673,
+      "a": 0.2725
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5402,
+     "o25": 0.5131,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -60350,18 +58635,18 @@
      "a": "Sydney United",
      "side": "h",
      "pick": "Canberra",
-     "c": 0.3747,
+     "c": 0.3757,
      "p": {
-      "h": 0.3747,
-      "d": 0.2816,
-      "a": 0.3436
+      "h": 0.3757,
+      "d": 0.2821,
+      "a": 0.3422
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.52,
-     "o25": 0.4819,
+     "btts": 0.5197,
+     "o25": 0.4815,
      "hit": null,
      "hitN": null,
      "celtic": true,
