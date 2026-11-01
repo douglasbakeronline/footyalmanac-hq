@@ -313,8 +313,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-01T11:02:57.214509+00:00",
+ "fetched": "2026-11-01T13:39:57.819468+00:00",
  "commits": [
+  {
+   "sha": "88cb1e4",
+   "msg": "Archive predictions and record for 2026-11-01 [skip ci]",
+   "date": "2026-11-01T11:54:30Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/88cb1e43aa813cd7208a57825ca0fb367697edf3"
+  },
   {
    "sha": "82f36db",
    "msg": "Archive predictions and record for 2026-11-01 [skip ci]",
@@ -428,15 +434,21 @@
    "msg": "Archive predictions and record for 2026-10-31 [skip ci]",
    "date": "2026-10-31T01:40:05Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/7181e58511a65a376b01ad13b13670da9fa98262"
-  },
-  {
-   "sha": "5b2840a",
-   "msg": "Archive predictions and record for 2026-10-30 [skip ci]",
-   "date": "2026-10-30T23:09:18Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5b2840aee5fe3224090192916120b01384df7f34"
   }
  ],
  "runs": [
+  {
+   "conclusion": "failure",
+   "createdAt": "2026-11-01T13:39:31Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41312319240"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-01T11:49:43Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41303610699"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-11-01T05:52:28Z",
@@ -484,18 +496,6 @@
    "createdAt": "2026-10-31T14:55:16Z",
    "name": "Office merge window",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41212359331"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-31T14:18:23Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41209507555"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-10-31T14:14:30Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41209210334"
   }
  ]
 }
