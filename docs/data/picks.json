@@ -1,11 +1,11 @@
 {
  "generated": "2026-11-01T11:56:15",
- "fetched": "2026-11-01T13:47:27.657648+00:00",
+ "fetched": "2026-11-01T17:11:37.714268+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-01",
-   "count": 620,
+   "count": 621,
    "games": [
     {
      "t": "02:30",
@@ -158,8 +158,8 @@
     },
     {
      "t": "14:00",
-     "ko": "2026-11-01T14:00Z",
-     "lg": "rugby",
+     "ko": "2026-11-01T14:00:00Z",
+     "lg": "Top 14",
      "lgName": "Top 14",
      "sport": "rugby",
      "h": "Montpellier Herault",
@@ -167,10 +167,15 @@
      "side": "h",
      "pick": "Montpellier Herault",
      "c": 0.8371,
+     "p": null,
      "hit": 0.8923,
      "hitN": 65,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:00",
@@ -234,8 +239,8 @@
      "t": "16:00",
      "ko": "2026-11-01T16:00:00Z",
      "lg": "af.312",
-     "lgName": "1a Divisi\u00f3",
-     "country": "Andorra",
+     "lgName": "Andorra 1a Divisi\u00f3",
+     "sport": "football",
      "h": "Inter Club d'Escaldes",
      "a": "Penya Encarnada",
      "side": "h",
@@ -246,18 +251,14 @@
       "d": 0.1395,
       "a": 0.0571
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4865,
-     "o25": 0.5618,
      "hit": 0.8075,
      "hitN": 644,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:00",
@@ -472,8 +473,8 @@
     },
     {
      "t": "14:30",
-     "ko": "2026-11-01T14:30Z",
-     "lg": "ncaab",
+     "ko": "2026-11-01T14:30:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "Villanova Wildcats",
@@ -481,10 +482,15 @@
      "side": "h",
      "pick": "Villanova Wildcats",
      "c": 0.7564,
+     "p": null,
      "hit": 0.7492,
      "hitN": 630,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:30",
@@ -761,11 +767,11 @@
      "res": null
     },
     {
-     "t": "19:00",
+     "t": "17:00",
      "ko": "2026-11-01T17:00:00Z",
      "lg": "gr.1",
-     "lgName": "Super League",
-     "country": "Greece",
+     "lgName": "Greece Super League",
+     "sport": "football",
      "h": "PAOK",
      "a": "Asteras Tripolis",
      "side": "h",
@@ -776,25 +782,21 @@
       "d": 0.1766,
       "a": 0.0988
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5191,
-     "o25": 0.5597,
      "hit": 0.718,
      "hitN": 39,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:00",
      "ko": "2026-11-01T15:00:00Z",
      "lg": "af.563",
-     "lgName": "Ettan - Norra",
-     "country": "Sweden",
+     "lgName": "Sweden Ettan - Norra",
+     "sport": "football",
      "h": "Hammarby Talang",
      "a": "Gefle IF",
      "side": "h",
@@ -805,18 +807,39 @@
       "d": 0.1753,
       "a": 0.1017
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5256,
-     "o25": 0.5658,
      "hit": 0.7405,
      "hitN": 1426,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
+    },
+    {
+     "t": "15:35",
+     "ko": "2026-11-01T15:35:00Z",
+     "lg": "af.301",
+     "lgName": "United Arab Emirates Pro League",
+     "sport": "football",
+     "h": "Al-Jazira",
+     "a": "Baniyas",
+     "side": "h",
+     "pick": "Al-Jazira",
+     "c": 0.7222,
+     "p": {
+      "h": 0.7222,
+      "d": 0.1849,
+      "a": 0.0929
+     },
+     "hit": 0.7405,
+     "hitN": 1426,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "21:25",
@@ -975,8 +998,8 @@
      "t": "15:30",
      "ko": "2026-11-01T15:30:00Z",
      "lg": "af.455",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 17",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 17",
+     "sport": "football",
      "h": "Caspe",
      "a": "Belchite 97",
      "side": "h",
@@ -987,18 +1010,14 @@
       "d": 0.2166,
       "a": 0.0886
      },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4574,
-     "o25": 0.4842,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:00",
@@ -1144,8 +1163,8 @@
      "t": "16:00",
      "ko": "2026-11-01T16:00:00Z",
      "lg": "af.403",
-     "lgName": "Ligue 1",
-     "country": "Senegal",
+     "lgName": "Senegal Ligue 1",
+     "sport": "football",
      "h": "G\u00e9n\u00e9ration Foot",
      "a": "La Lingu\u00e8re",
      "side": "h",
@@ -1156,18 +1175,14 @@
       "d": 0.2204,
       "a": 0.0992
      },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4682,
-     "o25": 0.49,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "13:00",
@@ -1244,8 +1259,8 @@
      "t": "16:00",
      "ko": "2026-11-01T16:00:00Z",
      "lg": "af.272",
-     "lgName": "NB II",
-     "country": "Hungary",
+     "lgName": "Hungary NB II",
+     "sport": "football",
      "h": "Soroksar",
      "a": "Kozarmisleny",
      "side": "h",
@@ -1256,18 +1271,14 @@
       "d": 0.1934,
       "a": 0.1279
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5377,
-     "o25": 0.5633,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "",
@@ -1617,8 +1628,8 @@
      "t": "16:00",
      "ko": "2026-11-01T16:00:00Z",
      "lg": "af.446",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 8",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 8",
+     "sport": "football",
      "h": "Guijuelo",
      "a": "Arandina",
      "side": "h",
@@ -1629,18 +1640,14 @@
       "d": 0.2198,
       "a": 0.1306
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5074,
-     "o25": 0.5212,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:00",
@@ -1758,8 +1765,8 @@
      "t": "15:30",
      "ko": "2026-11-01T15:30:00Z",
      "lg": "swe.1",
-     "lgName": "Allsvenskan",
-     "country": "Sweden",
+     "lgName": "Sweden Allsvenskan",
+     "sport": "football",
      "h": "BK H\u00e4cken",
      "a": "IFK G\u00f6teborg",
      "side": "h",
@@ -1770,18 +1777,14 @@
       "d": 0.2018,
       "a": 0.1585
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5607,
-     "o25": 0.5769,
      "hit": 0.7052,
      "hitN": 78,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "05:00",
@@ -1839,18 +1842,24 @@
     },
     {
      "t": "14:00",
+     "ko": "2026-11-01T14:00:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 Curitiba Open",
+     "lgName": "WTA \u00b7 Curitiba Open \u00b7 Final",
      "sport": "tennis",
      "h": "Julia Grabher",
      "a": "Alice Tubello",
      "side": "h",
      "pick": "Julia Grabher",
      "c": 0.6342,
+     "p": null,
      "hit": 0.6094,
      "hitN": 128,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "09:30",
@@ -1993,8 +2002,8 @@
      "t": "15:00",
      "ko": "2026-11-01T15:00:00Z",
      "lg": "af.328",
-     "lgName": "Esiliiga A",
-     "country": "Estonia",
+     "lgName": "Estonia Esiliiga A",
+     "sport": "football",
      "h": "Viimsi",
      "a": "FCI Levadia II",
      "side": "h",
@@ -2005,40 +2014,42 @@
       "d": 0.2082,
       "a": 0.1667
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5599,
-     "o25": 0.5722,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:00",
+     "ko": "2026-11-01T14:00:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 Valle D'Aosta Ladies Open",
+     "lgName": "WTA \u00b7 Valle D'Aosta Ladies Open \u00b7 Final",
      "sport": "tennis",
      "h": "Alina Charaeva",
      "a": "Noma Noha Akugue",
      "side": "h",
      "pick": "Alina Charaeva",
      "c": 0.6221,
+     "p": null,
      "hit": 0.6094,
      "hitN": 128,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:45",
      "ko": "2026-11-01T14:45:00Z",
      "lg": "af.454",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 16",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 16",
+     "sport": "football",
      "h": "Anguiano",
      "a": "Vian\u00e9s",
      "side": "h",
@@ -2049,18 +2060,14 @@
       "d": 0.2295,
       "a": 0.1485
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5148,
-     "o25": 0.521,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:00",

@@ -1,5 +1,5 @@
 {
- "time": "2026-11-01T13:39:44.357454+00:00",
+ "time": "2026-11-01T17:11:30.245817+00:00",
  "date": "2026-11-01",
  "stage": "refresh",
  "pricing": {
@@ -10,8 +10,6 @@
  },
  "review": {
   "dropped": [
-   "Multiplier",
-   "Multiplier (alternative)",
    "Multiplier"
   ],
   "haircut": 0.0719
@@ -45,30 +43,6 @@
    "form": "WWLLW",
    "status": "pending",
    "why": "85% Cincinnati Bengals, rating 1558 v 1310, form WWLLW, at home, calls at this level won 81% (31)"
-  },
-  {
-   "sport": "rugby",
-   "event": "Montpellier Herault v Castres Olympique",
-   "comp": "Top 14",
-   "when": "2026-11-01T14:00Z",
-   "date": "2026-11-01",
-   "selection": "Montpellier Herault",
-   "opp": "Castres Olympique",
-   "p": 0.8371,
-   "modelPick": "Montpellier Herault",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.8923,
-   "hitN": 65,
-   "id": "604414",
-   "elo": [
-    1647,
-    1463
-   ],
-   "homeSide": true,
-   "form": "WLWLW",
-   "status": "pending",
-   "why": "84% Montpellier Herault, rating 1647 v 1463, form WLWLW, at home, calls at this level won 89% (65)"
   },
   {
    "sport": "football",
@@ -174,6 +148,30 @@
    "form": "WWLWW",
    "status": "pending",
    "why": "74% Buffalo Bills, rating 1646 v 1512, form WWLWW, at home, calls at this level won 65% (49)"
+  },
+  {
+   "sport": "nfl",
+   "event": "Miami Dolphins v New England Patriots",
+   "comp": "NFL",
+   "when": "2026-11-01T21:25Z",
+   "date": "2026-11-01",
+   "selection": "New England Patriots",
+   "opp": "Miami Dolphins",
+   "p": 0.7134,
+   "modelPick": "New England Patriots",
+   "tierName": "Strong",
+   "list": false,
+   "hit": 0.653,
+   "hitN": 49,
+   "id": "401873034",
+   "elo": [
+    1592,
+    1384
+   ],
+   "homeSide": false,
+   "form": "LWWWL",
+   "status": "pending",
+   "why": "71% New England Patriots, rating 1592 v 1384, form LWWWL, away, calls at this level won 65% (49)"
   }
  ],
  "tomorrow": [
@@ -878,5 +876,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/36",
  "issue": 36,
- "text": "Good afternoon Douglas. Sunday 01 November, 13:39 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (136 of today's 213 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Sunday 01 November, 17:11 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (136 of today's 213 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
