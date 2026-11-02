@@ -313,8 +313,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-02T01:38:53.636771+00:00",
+ "fetched": "2026-11-02T02:37:42.000884+00:00",
  "commits": [
+  {
+   "sha": "e22a160",
+   "msg": "Archive predictions and record for 2026-11-02 [skip ci]",
+   "date": "2026-11-02T01:38:49Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e22a160651301a605beb2a4be103226f11f2ec92"
+  },
   {
    "sha": "e324a6c",
    "msg": "Archive predictions and record for 2026-11-01 [skip ci]",
@@ -428,17 +434,11 @@
    "msg": "Office agent (legs): Find which legs land at or above their quote (#129)",
    "date": "2026-10-31T13:09:11Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3995880c8c1054a5dd35d007b8e32fb219f2cbe0"
-  },
-  {
-   "sha": "56adb76",
-   "msg": "Office agent (value): Test whether the model has any edge over bookmaker prices (#128)",
-   "date": "2026-10-31T13:03:56Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/56adb760403d9e86d44537145147802d440da380"
   }
  ],
  "runs": [
   {
-   "conclusion": "",
+   "conclusion": "success",
    "createdAt": "2026-11-02T01:29:23Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41372737035"
