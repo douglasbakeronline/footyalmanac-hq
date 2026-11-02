@@ -313,8 +313,20 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-02T12:01:44.032026+00:00",
+ "fetched": "2026-11-02T16:33:39.149349+00:00",
  "commits": [
+  {
+   "sha": "5bb0efa",
+   "msg": "Archive predictions and record for 2026-11-02 [skip ci]",
+   "date": "2026-11-02T13:35:59Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5bb0efa0261b907ff6803ea2b8b314f76ef06339"
+  },
+  {
+   "sha": "524e019",
+   "msg": "Weekly retune 2026-11-02 [skip ci]",
+   "date": "2026-11-02T13:00:47Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/524e019400f84aeb38a7fe843ebbc5e944179144"
+  },
   {
    "sha": "dad8515",
    "msg": "Archive predictions and record for 2026-11-02 [skip ci]",
@@ -422,21 +434,27 @@
    "msg": "Archive predictions and record for 2026-10-31 [skip ci]",
    "date": "2026-10-31T13:21:50Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a73556bda79b5a995acb2ce072a7a66cef2b3c95"
-  },
-  {
-   "sha": "954425a",
-   "msg": "Office agent (chief): Write the office review and next week's priorities (#131)",
-   "date": "2026-10-31T13:16:38Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/954425a805e93b013bdec830f2e9a93842042565"
-  },
-  {
-   "sha": "1156483",
-   "msg": "Office agent (auditor): Audit the grading of recent results (#130)",
-   "date": "2026-10-31T13:14:03Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/115648314cdd3baeab923e91317d017890997d36"
   }
  ],
  "runs": [
+  {
+   "conclusion": "failure",
+   "createdAt": "2026-11-02T16:22:03Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41480742455"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-02T13:29:01Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41453354204"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-02T12:51:29Z",
+   "name": "Weekly retune",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41448095713"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-11-02T05:52:34Z",
@@ -478,24 +496,6 @@
    "createdAt": "2026-11-01T15:38:11Z",
    "name": "Office merge window",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41322224947"
-  },
-  {
-   "conclusion": "failure",
-   "createdAt": "2026-11-01T13:39:31Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41312319240"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-01T11:49:43Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41303610699"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-01T05:52:28Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41278580981"
   }
  ]
 }
