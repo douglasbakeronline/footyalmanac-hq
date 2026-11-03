@@ -313,8 +313,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-03T11:38:57.593734+00:00",
+ "fetched": "2026-11-03T14:39:31.333920+00:00",
  "commits": [
+  {
+   "sha": "81abc18",
+   "msg": "Archive predictions and record for 2026-11-03 [skip ci]",
+   "date": "2026-11-03T12:50:58Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/81abc1898844bf536794da92ea02ea7423f96bf4"
+  },
   {
    "sha": "ddb94eb",
    "msg": "Archive predictions and record for 2026-11-03 [skip ci]",
@@ -428,15 +434,21 @@
    "msg": "Archive predictions and record for 2026-10-31 [skip ci]",
    "date": "2026-10-31T14:22:36Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3665dd986ab544e2d856819009d9f5470826b060"
-  },
-  {
-   "sha": "a2ba75e",
-   "msg": "Card: college basketball off until it has a live record (CARD_SPORTS_OFF) (#134)",
-   "date": "2026-10-31T14:18:20Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a2ba75ec760adb2d0e448164180c547227107210"
   }
  ],
  "runs": [
+  {
+   "conclusion": "failure",
+   "createdAt": "2026-11-03T14:29:45Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41654231702"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-03T12:46:51Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41638591842"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-11-03T06:37:23Z",
@@ -484,18 +496,6 @@
    "createdAt": "2026-11-02T16:22:03Z",
    "name": "Office agents",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41480742455"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-02T13:29:01Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41453354204"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-02T12:51:29Z",
-   "name": "Weekly retune",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/41448095713"
   }
  ]
 }
