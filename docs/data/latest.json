@@ -1,7 +1,7 @@
 {
- "id": 1793803956563,
- "time": "2026-11-04T14:52:36.563254+00:00",
- "trigger": "scheduled 13:30",
+ "id": 1793849717470,
+ "time": "2026-11-05T03:35:17.470607+00:00",
+ "trigger": "work",
  "lines": [
   {
    "agent": "chief",
@@ -11,13 +11,13 @@
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1855 football fixtures across 235 competitions for 2026-11-04, plus 442 other-sport and 60 tennis matches.",
+   "yesterday": "Swept 1799 football fixtures across 226 competitions for 2026-11-05, plus 477 other-sport and 39 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #122 Cover Croatia, Serbia, Ukraine, Hungary, Korea or the UAE (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 235 competitions matched to a rated team pool.",
+   "yesterday": "0 unrated fixtures in today's slate; 226 competitions matched to a rated team pool.",
    "today": "Recheck club-name matching for new API-Football leagues. Dev work: PR #93 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped, evidence only).",
    "blockers": "None."
   },
@@ -30,7 +30,7 @@
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1855 fixtures; overall log loss is 1.0086. Dev work: PR #96 Test one ratings improvement (checking).",
+   "today": "Rate today's 1799 fixtures; overall log loss is 1.0083. Dev work: PR #96 Test one ratings improvement (checking).",
    "blockers": "None."
   },
   {
@@ -41,25 +41,25 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 44/74, MLB 27/40, NBA 68/107, RUGBY 60/81, CFB 155/231, NCAAB 127/148, WNBA 9/11. Tennis 63% over 1292 matches (expected 64%).",
+   "yesterday": "Other sports: NFL 44/74, MLB 27/40, NBA 69/108, RUGBY 60/81, CFB 155/231, NCAAB 132/153, WNBA 9/11. Tennis 63% over 1316 matches (expected 64%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #127 Baseball (MLB) landing above its quotes (checking).",
    "blockers": "None."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-11-04: 3/4 correct (75%).",
+   "yesterday": "Graded 2026-11-05: 1/1 correct (100%).",
    "today": "Grade early kick-offs at 13:00 and the full day at 23:30. Dev work: PR #130 Audit the grading of recent results (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 40%-50% won 48% vs 45% expected (3929 games).",
+   "yesterday": "Biggest calibration gap: picks at 40%-50% won 48% vs 45% expected (3955 games).",
    "today": "Track tiers: Strong 77% vs 77%, Firm 70% vs 68%, Lean 60% vs 59%. Dev work: PR #107 Check calibration by sport and confidence band (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "curator",
-   "yesterday": "Daily List for 2026-11-04: 19 picks. Top: Tre Penne v Murata 93%; Arkadag v Nebitci 92%; Babrungas v FA \u0160iauliai II 89%.",
+   "yesterday": "Daily List for 2026-11-05: 18 picks. Top: Tre Penne v Murata 93%; Arkadag v Nebitci 92%; Babrungas v FA \u0160iauliai II 89%.",
    "today": "Re-rank at 13:00 if any team news shifts confidence. Dev work: PR #121 Replay own-band List admission for every sport (checking).",
    "blockers": "None."
   },
@@ -71,7 +71,7 @@
   },
   {
    "agent": "h1",
-   "yesterday": "England Championship: 43% over 146 graded games (target 50%), 37 drawn out.",
+   "yesterday": "England Championship: 42% over 149 graded games (target 50%), 38 drawn out.",
    "today": "Review every miss in the league with Mia and queue one tested change.",
    "blockers": "None."
   },
@@ -83,19 +83,19 @@
   },
   {
    "agent": "h3",
-   "yesterday": "Groups since 2026-10-19: 22 of 58 won against 19.7 expected.",
+   "yesterday": "Groups since 2026-10-19: 22 of 61 won against 20.7 expected.",
    "today": "Lead the desk: check today's groups against their honest chances before the 07:45 briefing.",
    "blockers": "None."
   },
   {
    "agent": "h4",
-   "yesterday": "Legs since 2026-10-19: 71% landed against 71% quoted over 175.",
+   "yesterday": "Legs since 2026-10-19: 71% landed against 71% quoted over 178.",
    "today": "Compare each settled leg's quote with the bookmaker's fair chance, by price range.",
    "blockers": "None."
   },
   {
    "agent": "h5",
-   "yesterday": "Average leg chance 71% over 183 legs grouped since 2026-10-19 (target 75%).",
+   "yesterday": "Average leg chance 71% over 187 legs grouped since 2026-10-19 (target 75%).",
    "today": "Rank today's candidate legs by how firmly their kind of leg has landed against its quote.",
    "blockers": "None."
   },
@@ -135,7 +135,7 @@
   {
    "owner": "ratings",
    "name": "Strong tier hit rate",
-   "actual": 0.7694,
+   "actual": 0.7698,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -144,7 +144,7 @@
   {
    "owner": "calib",
    "name": "Largest calibration gap",
-   "actual": 0.0368,
+   "actual": 0.03710000000000002,
    "target": 0.05,
    "fmt": "pct",
    "higher": false,
@@ -153,7 +153,7 @@
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 235,
+   "actual": 226,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -189,7 +189,7 @@
   {
    "owner": "sports",
    "name": "Tennis hit vs expected",
-   "actual": -0.009700000000000042,
+   "actual": -0.011199999999999988,
    "target": 0.0,
    "fmt": "pt",
    "higher": true,
@@ -216,7 +216,7 @@
   {
    "owner": "h1",
    "name": "England Championship hit rate",
-   "actual": 0.4315,
+   "actual": 0.4228,
    "target": 0.5,
    "fmt": "pct",
    "higher": true,
@@ -234,7 +234,7 @@
   {
    "owner": "h3",
    "name": "Groups won minus expected",
-   "actual": 0.040444827586206905,
+   "actual": 0.021357377049180348,
    "target": 0.0,
    "fmt": "pt",
    "higher": true,
@@ -243,7 +243,7 @@
   {
    "owner": "h4",
    "name": "Legs landed minus quoted",
-   "actual": 0.0034205714285714395,
+   "actual": -0.0039022471910112877,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -252,7 +252,7 @@
   {
    "owner": "h5",
    "name": "Average leg chance",
-   "actual": 0.7112846994535519,
+   "actual": 0.7113786096256686,
    "target": 0.75,
    "fmt": "pct",
    "higher": true,
@@ -270,9 +270,8 @@
  ],
  "star": "h4",
  "wins": [
-  "Sport Lisboa e Benfica v FC Alverca (81%) finished 1-0",
-  "Managua v UNAN Managua (75%) finished 4-0",
-  "Simba v Namungo (75%) finished 3-2"
+  "Viking FK v Sabah FK (89%) finished 4-1",
+  "Ozgon v Kara-Balta (88%) finished 2-0"
  ],
  "backlog": [
   {
@@ -639,17 +638,17 @@
   "Weakest league: Turkey 3. Lig - Group 1 at 29% over 45 games"
  ],
  "stats": {
-  "fixtures": 1855,
-  "competitions": 235,
-  "listPicks": 19,
-  "overallAcc": 0.5102,
-  "listAcc": 0.7945,
-  "listN": 146,
-  "graded": 9781,
-  "logLoss": 1.0086,
-  "dayAcc": 0.75,
-  "dayDate": "2026-11-04",
-  "tennisAcc": 0.6285,
+  "fixtures": 1799,
+  "competitions": 226,
+  "listPicks": 18,
+  "overallAcc": 0.5103,
+  "listAcc": 0.7973,
+  "listN": 148,
+  "graded": 9845,
+  "logLoss": 1.0083,
+  "dayAcc": 1.0,
+  "dayDate": "2026-11-05",
+  "tennisAcc": 0.6277,
   "runsOk": 10,
   "runsTotal": 10,
   "tiers": [
@@ -657,25 +656,25 @@
     "name": "Strong",
     "k": 3,
     "min": 0.7,
-    "n": 386,
-    "correct": 297,
-    "hit": 0.7694,
-    "expected": 0.7737,
-    "reads": 298,
-    "readHit": 0.772,
-    "expectedRead": 0.774,
+    "n": 391,
+    "correct": 301,
+    "hit": 0.7698,
+    "expected": 0.774,
+    "reads": 302,
+    "readHit": 0.7724,
+    "expectedRead": 0.7743,
     "drawnOut": 49
    },
    {
     "name": "Firm",
     "k": 2,
     "min": 0.62,
-    "n": 584,
-    "correct": 407,
-    "hit": 0.6969,
+    "n": 586,
+    "correct": 409,
+    "hit": 0.698,
     "expected": 0.6795,
-    "reads": 407,
-    "readHit": 0.6969,
+    "reads": 409,
+    "readHit": 0.698,
     "expectedRead": 0.6798,
     "drawnOut": 103
    },
@@ -683,91 +682,96 @@
     "name": "Lean",
     "k": 1,
     "min": 0.55,
-    "n": 1001,
-    "correct": 603,
+    "n": 1006,
+    "correct": 606,
     "hit": 0.6024,
     "expected": 0.5939,
-    "reads": 664,
-    "readHit": 0.6633,
-    "expectedRead": 0.6432,
-    "drawnOut": 238
+    "reads": 667,
+    "readHit": 0.663,
+    "expectedRead": 0.643,
+    "drawnOut": 239
    },
    {
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 7810,
-    "correct": 3683,
+    "n": 7862,
+    "correct": 3708,
     "hit": 0.4716,
     "expected": 0.4426,
-    "reads": 5277,
+    "reads": 5312,
     "readHit": 0.6757,
-    "expectedRead": 0.6609,
-    "drawnOut": 1971
+    "expectedRead": 0.661,
+    "drawnOut": 1983
    }
   ],
   "bands": [
    {
     "from": 0.0,
     "to": 0.4,
-    "n": 2318,
-    "hit": 0.3943,
-    "won": 914,
+    "n": 2335,
+    "hit": 0.394,
+    "won": 920,
     "expected": 0.3751,
-    "reads": 1542,
-    "readHit": 0.6652,
-    "expectedRead": 0.6543
+    "reads": 1552,
+    "readHit": 0.6647,
+    "expectedRead": 0.6544
    },
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 3929,
-    "hit": 0.4823,
-    "won": 1895,
-    "expected": 0.4455,
-    "reads": 2698,
+    "n": 3955,
+    "hit": 0.4827,
+    "won": 1909,
+    "expected": 0.4456,
+    "reads": 2716,
     "readHit": 0.6867,
-    "expectedRead": 0.6663
+    "expectedRead": 0.6664
    },
    {
     "from": 0.5,
     "to": 0.6,
-    "n": 2115,
+    "n": 2129,
     "hit": 0.5622,
-    "won": 1189,
+    "won": 1197,
     "expected": 0.5442,
-    "reads": 1412,
-    "readHit": 0.6676,
-    "expectedRead": 0.6569
+    "reads": 1422,
+    "readHit": 0.6679,
+    "expectedRead": 0.6568
    },
    {
     "from": 0.6,
     "to": 0.7,
-    "n": 923,
-    "hit": 0.6598,
-    "won": 609,
+    "n": 925,
+    "hit": 0.6605,
+    "won": 611,
     "expected": 0.6413,
-    "reads": 610,
-    "readHit": 0.6609,
-    "expectedRead": 0.6429
+    "reads": 612,
+    "readHit": 0.6616,
+    "expectedRead": 0.643
    },
    {
     "from": 0.7,
     "to": 1.0,
-    "n": 496,
-    "hit": 0.7722,
-    "won": 383,
-    "expected": 0.7743,
-    "reads": 384,
-    "readHit": 0.7742,
-    "expectedRead": 0.7745
+    "n": 501,
+    "hit": 0.7725,
+    "won": 387,
+    "expected": 0.7745,
+    "reads": 388,
+    "readHit": 0.7745,
+    "expectedRead": 0.7748
    }
   ],
   "days": [
    {
+    "date": "2026-11-05",
+    "acc": 1.0,
+    "n": 1
+   },
+   {
     "date": "2026-11-04",
-    "acc": 0.75,
-    "n": 4
+    "acc": 0.5373,
+    "n": 67
    },
    {
     "date": "2026-11-03",
@@ -828,11 +832,6 @@
     "date": "2026-10-23",
     "acc": 0.4976,
     "n": 207
-   },
-   {
-    "date": "2026-10-22",
-    "acc": 0.5652,
-    "n": 69
    }
   ],
   "weak": [
@@ -857,9 +856,9 @@
     "n": 50
    },
    {
-    "name": "Ukraine Druha Liga",
-    "acc": 0.3514,
-    "n": 37
+    "name": "Lithuania 1 Lyga",
+    "acc": 0.3429,
+    "n": 35
    }
   ],
   "top": [
@@ -875,18 +874,8 @@
    },
    {
     "m": "Babrungas v FA \u0160iauliai II",
-    "c": 0.8881,
+    "c": 0.8869,
     "lg": "af.361"
-   },
-   {
-    "m": "Viking FK v Sabah FK",
-    "c": 0.8866,
-    "lg": "eu.cl"
-   },
-   {
-    "m": "Ozgon v Kara-Balta",
-    "c": 0.8849,
-    "lg": "af.569"
    },
    {
     "m": "Schwaz v Lustenau",
@@ -902,6 +891,16 @@
     "m": "Istiqlol v Istaravshan",
     "c": 0.8408,
     "lg": "af.571"
+   },
+   {
+    "m": "Celtic v Kilmarnock",
+    "c": 0.8404,
+    "lg": "sco.1"
+   },
+   {
+    "m": "FC Inter Wanica v Leo Victor",
+    "c": 0.8311,
+    "lg": "af.568"
    }
   ]
  }
