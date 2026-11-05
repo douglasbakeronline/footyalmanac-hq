@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-05T14:53:39",
- "fetched": "2026-11-05T14:57:33.161153+00:00",
+ "generated": "2026-11-05T15:44:26",
+ "fetched": "2026-11-05T18:52:06.055815+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -143,6 +143,27 @@
      "hitN": 1258,
      "list": true,
      "reserve": false
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-11-05T18:00:00Z",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Rolex Paris Masters \u00b7 Round 3",
+     "sport": "tennis",
+     "h": "Carlos Alcaraz",
+     "a": "Matteo Berrettini",
+     "side": "h",
+     "pick": "Carlos Alcaraz",
+     "c": 0.8547,
+     "p": null,
+     "hit": null,
+     "hitN": null,
+     "list": true,
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:30",
@@ -339,9 +360,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Anastasia Zakharova won"
     },
     {
      "t": "09:00",
@@ -389,8 +410,8 @@
      "t": "17:00",
      "ko": "2026-11-05T17:00:00Z",
      "lg": "af.585",
-     "lgName": "Premier League",
-     "country": "Uganda",
+     "lgName": "Uganda Premier League",
+     "sport": "football",
      "h": "Vipers",
      "a": "Lugazi",
      "side": "h",
@@ -401,18 +422,14 @@
       "d": 0.1776,
       "a": 0.0515
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4299,
-     "o25": 0.4896,
      "hit": 0.7832,
      "hitN": 964,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "20:00",
@@ -689,9 +706,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Sorana Cirstea won"
     },
     {
      "t": "01:00",
@@ -718,8 +735,8 @@
      "t": "17:45",
      "ko": "2026-11-05T17:45:00Z",
      "lg": "eu.el",
-     "lgName": "Europa League",
-     "country": "Europe",
+     "lgName": "Europe Europa League",
+     "sport": "football",
      "h": "AC Milan",
      "a": "Ferencvaros",
      "side": "h",
@@ -730,18 +747,14 @@
       "d": 0.2034,
       "a": 0.1093
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5002,
-     "o25": 0.5263,
      "hit": null,
      "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:00",
@@ -871,22 +884,6 @@
      "status": "won",
      "score": null,
      "res": "99-55"
-    },
-    {
-     "t": "23:00",
-     "ko": "2026-11-05T23:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Incarnate Word Cardinals",
-     "a": "Chicago State Cougars",
-     "side": "h",
-     "pick": "Incarnate Word Cardinals",
-     "c": 0.6495,
-     "hit": 0.5806,
-     "hitN": 704,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "20:00",
@@ -2450,18 +2447,18 @@
    "pinned": {
     "list": {
      "n": 15,
-     "won": 8,
+     "won": 9,
      "lost": 0,
      "void": 0,
-     "started": 1,
+     "started": 0,
      "upcoming": 6
     },
     "reserve": {
      "n": 31,
-     "won": 17,
+     "won": 18,
      "lost": 2,
      "void": 0,
-     "started": 2,
+     "started": 1,
      "upcoming": 10
     },
     "groupA": {
@@ -2484,7 +2481,7 @@
   },
   {
    "date": "2026-11-06",
-   "count": 200,
+   "count": 202,
    "games": [
     {
      "t": "01:00",
@@ -3545,6 +3542,21 @@
      "unrated": false
     },
     {
+     "t": "08:30",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 Prudential Hong Kong Tennis Open",
+     "sport": "tennis",
+     "h": "Alexandra Shubladze",
+     "a": "Sorana Cirstea",
+     "side": "a",
+     "pick": "Sorana Cirstea",
+     "c": 0.6924,
+     "hit": 0.6813,
+     "hitN": 91,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "23:00",
      "ko": "2026-11-06T23:00Z",
      "lg": "ncaab",
@@ -3707,6 +3719,22 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-06T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Incarnate Word Cardinals",
+     "a": "Chicago State Cougars",
+     "side": "h",
+     "pick": "Incarnate Word Cardinals",
+     "c": 0.6495,
+     "hit": 0.5806,
+     "hitN": 704,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "14:55",
@@ -28479,35 +28507,6 @@
      "unrated": false
     },
     {
-     "t": "22:30",
-     "ko": "2026-11-07T22:30:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Libertad",
-     "a": "Nacional Asunci\u00f3n",
-     "side": "a",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.3743,
-     "p": {
-      "h": 0.3426,
-      "d": 0.283,
-      "a": 0.3743
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5419,
-     "o25": 0.5097,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-07T15:00:00Z",
      "lg": "nor.1",
@@ -29663,6 +29662,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "22:30",
+     "ko": "2026-11-07T22:30:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Libertad",
+     "a": "Nacional Asunci\u00f3n",
+     "side": "a",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.3583,
+     "p": {
+      "h": 0.3544,
+      "d": 0.2873,
+      "a": 0.3583
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5365,
+     "o25": 0.5026,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -48291,35 +48319,6 @@
      "unrated": false
     },
     {
-     "t": "19:00",
-     "ko": "2026-11-08T19:00:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Nacional Potos\u00ed",
-     "a": "Real Potos\u00ed",
-     "side": "h",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.384,
-     "p": {
-      "h": 0.384,
-      "d": 0.321,
-      "a": 0.295
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4887,
-     "o25": 0.4457,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "21:30",
      "ko": "2026-11-08T21:30:00Z",
      "lg": "ec.1",
@@ -50835,6 +50834,35 @@
      ],
      "btts": 0.5104,
      "o25": 0.47,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "19:00",
+     "ko": "2026-11-08T19:00:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Nacional Potos\u00ed",
+     "a": "Real Potos\u00ed",
+     "side": "h",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.3555,
+     "p": {
+      "h": 0.3555,
+      "d": 0.331,
+      "a": 0.3135
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.48,
+     "o25": 0.4342,
      "hit": null,
      "hitN": null,
      "celtic": true,
