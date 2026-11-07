@@ -326,8 +326,14 @@
    "outcome": null
   }
  ],
- "fetched": "2026-11-07T16:55:54.759587+00:00",
+ "fetched": "2026-11-07T17:22:51.669772+00:00",
  "commits": [
+  {
+   "sha": "9558e68",
+   "msg": "Archive predictions and record for 2026-11-07 [skip ci]",
+   "date": "2026-11-07T17:08:01Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/9558e68c8a1a51ed89637d1f21522b371dd05441"
+  },
   {
    "sha": "a2dd0d0",
    "msg": "Archive predictions and record for 2026-11-07 [skip ci]",
@@ -441,15 +447,15 @@
    "msg": "Archive predictions and record for 2026-11-06 [skip ci]",
    "date": "2026-11-06T01:34:30Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ca6efdfb0b8103e7c6637aeb4e4989f77486159a"
-  },
-  {
-   "sha": "3b967f1",
-   "msg": "The opposition's price on every leg; Card rule 6: football needs it 9+ (#144)",
-   "date": "2026-11-06T01:30:16Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3b967f1572119d3f8463142f5039f60d7c770df4"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-07T17:01:34Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42394222851"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-11-07T13:22:01Z",
@@ -503,12 +509,6 @@
    "createdAt": "2026-11-07T00:18:36Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42317428352"
-  },
-  {
-   "conclusion": "failure",
-   "createdAt": "2026-11-07T00:18:35Z",
-   "name": ".github/workflows/office-merge.yml",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42317427140"
   }
  ]
 }
