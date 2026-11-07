@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-07T11:48:52",
- "fetched": "2026-11-07T12:03:36.112453+00:00",
+ "fetched": "2026-11-07T13:33:08.056470+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -591,8 +591,8 @@
     },
     {
      "t": "13:30",
-     "ko": "2026-11-07T13:30Z",
-     "lg": "rugby",
+     "ko": "2026-11-07T13:30:00Z",
+     "lg": "Top 14",
      "lgName": "Top 14",
      "sport": "rugby",
      "h": "Stade Toulousain",
@@ -600,17 +600,22 @@
      "side": "h",
      "pick": "Stade Toulousain",
      "c": 0.8496,
+     "p": null,
      "hit": 0.8923,
      "hitN": 65,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "13:00",
      "ko": "2026-11-07T13:00:00Z",
      "lg": "af.223",
-     "lgName": "Regionalliga - West",
-     "country": "Austria",
+     "lgName": "Austria Regionalliga - West",
+     "sport": "football",
      "h": "Schwaz",
      "a": "Lustenau",
      "side": "h",
@@ -621,18 +626,14 @@
       "d": 0.0927,
       "a": 0.0587
      },
-     "score": [
-      3,
-      1
-     ],
-     "btts": 0.5824,
-     "o25": 0.66,
      "hit": 0.8075,
      "hitN": 644,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:00",
@@ -1682,18 +1683,24 @@
     },
     {
      "t": "13:30",
+     "ko": "2026-11-07T13:30:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Rolex Paris Masters",
+     "lgName": "ATP \u00b7 Rolex Paris Masters \u00b7 Semifinal",
      "sport": "tennis",
      "h": "Ben Shelton",
      "a": "Luca Van Assche",
      "side": "h",
      "pick": "Ben Shelton",
      "c": 0.7527,
+     "p": null,
      "hit": 0.7941,
      "hitN": 34,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:00",
@@ -2525,35 +2532,6 @@
      "res": "3-0"
     },
     {
-     "t": "12:30",
-     "ko": "2026-11-07T12:30:00Z",
-     "lg": "af.311",
-     "lgName": "1st Division",
-     "country": "Albania",
-     "h": "Besa Kavaj\u00eb",
-     "a": "Burreli",
-     "side": "h",
-     "pick": "Besa Kavaj\u00eb",
-     "c": 0.695,
-     "p": {
-      "h": 0.695,
-      "d": 0.1991,
-      "a": 0.1058
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5005,
-     "o25": 0.5294,
-     "hit": 0.6793,
-     "hitN": 2254,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "06:30",
      "ko": "2026-11-07T06:30:00Z",
      "lg": "af.170",
@@ -2577,6 +2555,31 @@
      "status": "lost",
      "score": null,
      "res": "1-3"
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-07T12:30:00Z",
+     "lg": "af.311",
+     "lgName": "Albania 1st Division",
+     "sport": "football",
+     "h": "Besa Kavaj\u00eb",
+     "a": "Burreli",
+     "side": "h",
+     "pick": "Besa Kavaj\u00eb",
+     "c": 0.695,
+     "p": {
+      "h": 0.695,
+      "d": 0.1991,
+      "a": 0.1058
+     },
+     "hit": 0.6793,
+     "hitN": 2254,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "23:00",
@@ -2719,8 +2722,8 @@
      "t": "13:00",
      "ko": "2026-11-07T13:00:00Z",
      "lg": "af.401",
-     "lgName": "Premier Soccer League",
-     "country": "Zimbabwe",
+     "lgName": "Zimbabwe Premier Soccer League",
+     "sport": "football",
      "h": "Dynamos",
      "a": "Manica Diamonds",
      "side": "h",
@@ -2731,18 +2734,14 @@
       "d": 0.2401,
       "a": 0.0718
      },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4168,
-     "o25": 0.4408,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "20:45",
@@ -3653,8 +3652,8 @@
      "t": "13:00",
      "ko": "2026-11-07T13:00:00Z",
      "lg": "af.401",
-     "lgName": "Premier Soccer League",
-     "country": "Zimbabwe",
+     "lgName": "Zimbabwe Premier Soccer League",
+     "sport": "football",
      "h": "Scotland Mabvuku",
      "a": "Herentals",
      "side": "h",
@@ -3665,18 +3664,14 @@
       "d": 0.2586,
       "a": 0.0948
      },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4314,
-     "o25": 0.4406,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "19:00",
@@ -4041,18 +4036,24 @@
     },
     {
      "t": "12:30",
+     "ko": "2026-11-07T12:30:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 Angola Ladies Open",
+     "lgName": "WTA \u00b7 Angola Ladies Open \u00b7 Semifinal",
      "sport": "tennis",
      "h": "Noma Noha Akugue",
      "a": "Sofya Lansere",
      "side": "h",
      "pick": "Noma Noha Akugue",
      "c": 0.6346,
+     "p": null,
      "hit": 0.5973,
      "hitN": 149,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:00",
@@ -4298,8 +4299,8 @@
      "t": "13:00",
      "ko": "2026-11-07T13:00:00Z",
      "lg": "af.85",
-     "lgName": "Regionalliga - Nordost",
-     "country": "Germany",
+     "lgName": "Germany Regionalliga - Nordost",
+     "sport": "football",
      "h": "Chemnitzer",
      "a": "Greifswalder",
      "side": "h",
@@ -4310,18 +4311,14 @@
       "d": 0.2108,
       "a": 0.161
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5509,
-     "o25": 0.5629,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:00",

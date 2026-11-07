@@ -1,40 +1,40 @@
 {
- "generated": "2026-11-06T14:36+00:00",
+ "generated": "2026-11-07T13:33+00:00",
  "window": 28,
- "since": "2026-10-09",
+ "since": "2026-10-10",
  "objectives": {
   "list": {
    "football": {
-    "n": 103,
-    "won": 83,
-    "expected": 84.4,
-    "z": -0.36,
-    "quoted": 0.8194,
-    "landed": 0.8058
+    "n": 104,
+    "won": 84,
+    "expected": 85.1,
+    "z": -0.29,
+    "quoted": 0.8184,
+    "landed": 0.8077
    },
    "tennis": {
-    "n": 79,
+    "n": 77,
     "won": 59,
-    "expected": 65.1,
-    "z": -1.84,
-    "quoted": 0.8246,
-    "landed": 0.7468
+    "expected": 63.5,
+    "z": -1.35,
+    "quoted": 0.8244,
+    "landed": 0.7662
    },
    "nba": {
-    "n": 6,
-    "won": 6,
-    "expected": 5.0,
-    "z": 1.11,
-    "quoted": 0.8312,
+    "n": 7,
+    "won": 7,
+    "expected": 5.8,
+    "z": 1.21,
+    "quoted": 0.8268,
     "landed": 1.0
    },
    "ncaab": {
-    "n": 77,
-    "won": 72,
-    "expected": 70.7,
-    "z": 0.54,
-    "quoted": 0.9185,
-    "landed": 0.9351
+    "n": 96,
+    "won": 90,
+    "expected": 88.1,
+    "z": 0.72,
+    "quoted": 0.9175,
+    "landed": 0.9375
    },
    "nfl": {
     "n": 2,
@@ -45,35 +45,35 @@
     "landed": 1.0
    },
    "rugby": {
-    "n": 11,
-    "won": 11,
-    "expected": 9.4,
-    "z": 1.37,
-    "quoted": 0.8568,
+    "n": 7,
+    "won": 7,
+    "expected": 6.0,
+    "z": 1.09,
+    "quoted": 0.8557,
     "landed": 1.0
    }
   },
   "listAll": {
-   "n": 278,
-   "won": 233,
-   "expected": 236.3,
-   "z": -0.57,
-   "quoted": 0.8501,
-   "landed": 0.8381
+   "n": 293,
+   "won": 249,
+   "expected": 250.1,
+   "z": -0.19,
+   "quoted": 0.8536,
+   "landed": 0.8498
   },
   "honesty": {
    "worstBand": {
-    "n": 561,
-    "won": 315,
-    "expected": 295.0,
-    "z": 1.69,
+    "n": 569,
+    "won": 319,
+    "expected": 299.3,
+    "z": 1.66,
     "quoted": 0.5259,
-    "landed": 0.5615,
+    "landed": 0.5606,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1769,
+   "fixtures": 1704,
    "unrated": 0
   }
  },
@@ -81,50 +81,50 @@
   {
    "key": "hq-list-tennis",
    "owner": "sports",
-   "title": "Daily List tennis: 59/79 against 65 expected",
-   "brief": "Over the last 28 days the tennis Daily List picks: 59 of 79 landed (75%) against 65.1 expected (82% quoted), z -1.8. The List promises at least 80% and quotes that match what lands. Find where the shortfall sits (league or tournament, 5-point band, home or away pick, Celtic's Law, early season) and whether the bar or the quote is wrong. Suspects from the site README: the cumulative tested rate shown on rows (own-band rates are stricter), and tier-2 leagues at a 75% bar. If a stricter admission rule would have landed 80% on history, ship it.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "title": "Daily List tennis: 59/77 against 64 expected",
+   "brief": "Over the last 28 days the tennis Daily List picks: 59 of 77 landed (77%) against 63.5 expected (82% quoted), z -1.4. The List promises at least 80% and quotes that match what lands. Find where the shortfall sits (league or tournament, 5-point band, home or away pick, Celtic's Law, early season) and whether the bar or the quote is wrong. Suspects from the site README: the cumulative tested rate shown on rows (own-band rates are stricter), and tier-2 leagues at a 75% bar. If a stricter admission rule would have landed 80% on history, ship it.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 79,
+    "n": 77,
     "won": 59,
-    "expected": 65.1,
-    "z": -1.84,
-    "quoted": 0.8246,
-    "landed": 0.7468
+    "expected": 63.5,
+    "z": -1.35,
+    "quoted": 0.8244,
+    "landed": 0.7662
    },
    "metric": "list",
-   "score": 5.52
+   "score": 4.05
   },
   {
    "key": "hq-legs-tennis",
    "owner": "legs",
-   "title": "Tennis legs: 27/49 against 35 expected",
-   "brief": "Tennis legs in the Odds tab's groups since 2026-10-19: 27 of 49 landed (55%) against 35.4 expected (72% quoted), z -2.7. Find which kind of tennis leg falls short (competition tier, tested band, home or away, price) and replay a selection rule that leaves it out.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "title": "Tennis legs: 30/52 against 38 expected",
+   "brief": "Tennis legs in the Odds tab's groups since 2026-10-19: 30 of 52 landed (58%) against 37.8 expected (73% quoted), z -2.5. Find which kind of tennis leg falls short (competition tier, tested band, home or away, price) and replay a selection rule that leaves it out.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 49,
-    "won": 27,
-    "expected": 35.4,
-    "z": -2.73,
-    "quoted": 0.7227,
-    "landed": 0.551
+    "n": 52,
+    "won": 30,
+    "expected": 37.8,
+    "z": -2.46,
+    "quoted": 0.7265,
+    "landed": 0.5769
    },
    "metric": "groups",
-   "score": 4.09
+   "score": 3.69
   },
   {
-   "key": "hq-tennis-atp",
+   "key": "hq-sport-ncaab",
    "owner": "sports",
-   "title": "ATP landing below its quotes",
-   "brief": "ATP calls over the last 28 days: 196 of 324 landed (60%) against 208.7 expected (64% quoted), z -1.5. Tennis is off the Daily List until its live record holds. Known cause: ESPN results carry no surface, so everything since June is rated as hard court. Find a free, automatable surface source or test a tournament-to-surface map, then replay the live period.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "title": "College basketball landing above its quotes",
+   "brief": "college basketball, every graded call: 225 of 269 landed (84%) against 209.3 expected (78% quoted), z +2.3. Check the Elo settings for this sport (K, home advantage, season carry-over) with sports.py --tune style evidence on history. Under-quoting is a bug too: it keeps good picks off the List.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 324,
-    "won": 196,
-    "expected": 208.7,
-    "z": -1.5,
-    "quoted": 0.644,
-    "landed": 0.6049
+    "n": 269,
+    "won": 225,
+    "expected": 209.3,
+    "quoted": 0.7782,
+    "landed": 0.8364,
+    "z": 2.3
    },
    "metric": "honesty",
-   "score": 2.25
+   "score": 2.76
   },
   {
    "key": "hq-sport-mlb",
@@ -141,22 +141,6 @@
    },
    "metric": "honesty",
    "score": 1.85
-  },
-  {
-   "key": "hq-sport-ncaab",
-   "owner": "sports",
-   "title": "College basketball landing above its quotes",
-   "brief": "college basketball, every graded call: 172 of 208 landed (83%) against 163.0 expected (78% quoted), z +1.5. Check the Elo settings for this sport (K, home advantage, season carry-over) with sports.py --tune style evidence on history. Under-quoting is a bug too: it keeps good picks off the List.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
-   "evidence": {
-    "n": 208,
-    "won": 172,
-    "expected": 163.0,
-    "quoted": 0.7835,
-    "landed": 0.8269,
-    "z": 1.52
-   },
-   "metric": "honesty",
-   "score": 1.82
   },
   {
    "key": "hq-own-band",
