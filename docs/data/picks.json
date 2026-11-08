@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-08T12:04:57",
- "fetched": "2026-11-08T13:51:30.354879+00:00",
+ "fetched": "2026-11-08T17:09:22.850542+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -30,8 +30,8 @@
     },
     {
      "t": "17:00",
-     "ko": "2026-11-08T17:00Z",
-     "lg": "ncaab",
+     "ko": "2026-11-08T17:00:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "St. John's Red Storm",
@@ -39,10 +39,15 @@
      "side": "h",
      "pick": "St. John's Red Storm",
      "c": 0.9501,
+     "p": null,
      "hit": 0.9157,
      "hitN": 1258,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "03:00",
@@ -90,8 +95,8 @@
      "t": "14:00",
      "ko": "2026-11-08T14:00:00Z",
      "lg": "af.404",
-     "lgName": "Campionato",
-     "country": "San Marino",
+     "lgName": "San Marino Campionato",
+     "sport": "football",
      "h": "Tre Penne",
      "a": "Murata",
      "side": "h",
@@ -102,25 +107,21 @@
       "d": 0.0578,
       "a": 0.0149
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.4553,
-     "o25": 0.6185,
      "hit": 0.8997,
      "hitN": 628,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:00",
      "ko": "2026-11-08T14:00:00Z",
      "lg": "af.636",
-     "lgName": "\u00ddokary Liga",
-     "country": "Turkmenistan",
+     "lgName": "Turkmenistan \u00ddokary Liga",
+     "sport": "football",
      "h": "Arkadag",
      "a": "Nebitci",
      "side": "h",
@@ -131,18 +132,14 @@
       "d": 0.058,
       "a": 0.0151
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.4562,
-     "o25": 0.6189,
      "hit": 0.8997,
      "hitN": 628,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "22:00",
@@ -402,8 +399,8 @@
      "t": "16:00",
      "ko": "2026-11-08T16:00:00Z",
      "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
+     "lgName": "Scotland Premiership",
+     "sport": "football",
      "h": "Celtic",
      "a": "Kilmarnock",
      "side": "h",
@@ -414,18 +411,14 @@
       "d": 0.1102,
       "a": 0.0494
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.5131,
-     "o25": 0.6046,
      "hit": 0.8397,
      "hitN": 131,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "21:25",
@@ -624,8 +617,8 @@
      "t": "15:00",
      "ko": "2026-11-08T15:00:00Z",
      "lg": "af.387",
-     "lgName": "League",
-     "country": "Jordan",
+     "lgName": "Jordan League",
+     "sport": "football",
      "h": "Al Faisaly",
      "a": "Shabab Al Ordon",
      "side": "h",
@@ -636,18 +629,14 @@
       "d": 0.1403,
       "a": 0.0674
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5109,
-     "o25": 0.5796,
      "hit": 0.7832,
      "hitN": 964,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:30",
@@ -759,8 +748,8 @@
     },
     {
      "t": "14:00",
-     "ko": "2026-11-08T14:00Z",
-     "lg": "rugby",
+     "ko": "2026-11-08T14:00:00Z",
+     "lg": "Top 14",
      "lgName": "Top 14",
      "sport": "rugby",
      "h": "Vannes",
@@ -768,10 +757,15 @@
      "side": "a",
      "pick": "Bordeaux Begles",
      "c": 0.7759,
+     "p": null,
      "hit": 0.7472,
      "hitN": 91,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "03:00",
@@ -830,8 +824,8 @@
      "t": "17:00",
      "ko": "2026-11-08T17:00:00Z",
      "lg": "dnk.1",
-     "lgName": "Superliga",
-     "country": "Denmark",
+     "lgName": "Denmark Superliga",
+     "sport": "football",
      "h": "FC Midtjylland",
      "a": "S\u00f8nderjyske Fodbold",
      "side": "h",
@@ -842,18 +836,14 @@
       "d": 0.1404,
       "a": 0.0929
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.5655,
-     "o25": 0.6197,
      "hit": 0.7298,
      "hitN": 111,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:30",
@@ -988,18 +978,24 @@
     },
     {
      "t": "14:00",
+     "ko": "2026-11-08T14:00:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Rolex Paris Masters",
+     "lgName": "ATP \u00b7 Rolex Paris Masters \u00b7 Final",
      "sport": "tennis",
      "h": "Carlos Alcaraz",
      "a": "Ben Shelton",
      "side": "h",
      "pick": "Carlos Alcaraz",
      "c": 0.7512,
+     "p": null,
      "hit": 0.8,
      "hitN": 35,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:30",
@@ -1068,35 +1064,6 @@
      "reserve": true
     },
     {
-     "t": "16:00",
-     "ko": "2026-11-08T16:00:00Z",
-     "lg": "nor.1",
-     "lgName": "Eliteserien",
-     "country": "Norway",
-     "h": "Viking FK",
-     "a": "KFUM Oslo",
-     "side": "h",
-     "pick": "Viking FK",
-     "c": 0.7408,
-     "p": {
-      "h": 0.7408,
-      "d": 0.1665,
-      "a": 0.0927
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5231,
-     "o25": 0.57,
-     "hit": 0.718,
-     "hitN": 39,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "00:00",
      "ko": "2026-11-08T00:00:00Z",
      "lg": "NCAA",
@@ -1116,6 +1083,31 @@
      "status": "won",
      "score": null,
      "res": "67-58"
+    },
+    {
+     "t": "16:00",
+     "ko": "2026-11-08T16:00:00Z",
+     "lg": "nor.1",
+     "lgName": "Norway Eliteserien",
+     "sport": "football",
+     "h": "Viking FK",
+     "a": "KFUM Oslo",
+     "side": "h",
+     "pick": "Viking FK",
+     "c": 0.7408,
+     "p": {
+      "h": 0.7408,
+      "d": 0.1665,
+      "a": 0.0927
+     },
+     "hit": 0.718,
+     "hitN": 39,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:00",
@@ -1271,18 +1263,24 @@
     },
     {
      "t": "15:00",
+     "ko": "2026-11-08T15:00:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Bybit Stockholm Open",
+     "lgName": "ATP \u00b7 Bybit Stockholm Open \u00b7 Round 1",
      "sport": "tennis",
      "h": "Juan Manuel Cerundolo",
      "a": "Elias Ymer",
      "side": "h",
      "pick": "Juan Manuel Cerundolo",
      "c": 0.7284,
+     "p": null,
      "hit": 0.7547,
      "hitN": 53,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": null,
@@ -1430,35 +1428,6 @@
      "reserve": true
     },
     {
-     "t": "15:00",
-     "ko": "2026-11-08T15:00:00Z",
-     "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
-     "h": "Heart of Midlothian",
-     "a": "Falkirk",
-     "side": "h",
-     "pick": "Heart of Midlothian",
-     "c": 0.7077,
-     "p": {
-      "h": 0.7077,
-      "d": 0.1731,
-      "a": 0.1192
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5551,
-     "o25": 0.5907,
-     "hit": 0.718,
-     "hitN": 39,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-11-08T13:00:00Z",
      "lg": "af.576",
@@ -1486,6 +1455,31 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-08T15:00:00Z",
+     "lg": "sco.1",
+     "lgName": "Scotland Premiership",
+     "sport": "football",
+     "h": "Heart of Midlothian",
+     "a": "Falkirk",
+     "side": "h",
+     "pick": "Heart of Midlothian",
+     "c": 0.7077,
+     "p": {
+      "h": 0.7077,
+      "d": 0.1731,
+      "a": 0.1192
+     },
+     "hit": 0.718,
+     "hitN": 39,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "13:15",
@@ -1611,8 +1605,8 @@
      "t": "14:00",
      "ko": "2026-11-08T14:00:00Z",
      "lg": "af.404",
-     "lgName": "Campionato",
-     "country": "San Marino",
+     "lgName": "San Marino Campionato",
+     "sport": "football",
      "h": "Cailungo",
      "a": "Tre Fiori",
      "side": "a",
@@ -1623,18 +1617,14 @@
       "d": 0.193,
       "a": 0.7012
      },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5081,
-     "o25": 0.5397,
      "hit": 0.7405,
      "hitN": 1426,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "06:00",
@@ -1720,11 +1710,11 @@
      "unrated": false
     },
     {
-     "t": "17:30",
+     "t": "16:30",
      "ko": "2026-11-08T16:30:00Z",
      "lg": "de.1",
-     "lgName": "Bundesliga",
-     "country": "Germany",
+     "lgName": "Germany Bundesliga",
+     "sport": "football",
      "h": "SC Freiburg",
      "a": "1. FC Union Berlin",
      "side": "h",
@@ -1735,18 +1725,14 @@
       "d": 0.1781,
       "a": 0.1273
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5588,
-     "o25": 0.5904,
      "hit": 0.8148,
      "hitN": 54,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "13:15",
@@ -1777,8 +1763,8 @@
      "t": "15:30",
      "ko": "2026-11-08T15:30:00Z",
      "lg": "af.456",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 18",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 18",
+     "sport": "football",
      "h": "Toledo",
      "a": "Marchamalo",
      "side": "h",
@@ -1789,18 +1775,14 @@
       "d": 0.1959,
       "a": 0.1148
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5171,
-     "o25": 0.545,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "03:00",
@@ -2175,8 +2157,8 @@
      "t": "15:30",
      "ko": "2026-11-08T15:30:00Z",
      "lg": "ru.1",
-     "lgName": "Premier League",
-     "country": "Russia",
+     "lgName": "Russia Premier League",
+     "sport": "football",
      "h": "Zenit St Petersburg",
      "a": "Rostov",
      "side": "h",
@@ -2187,18 +2169,14 @@
       "d": 0.2077,
       "a": 0.1158
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5037,
-     "o25": 0.5262,
      "hit": 0.8148,
      "hitN": 54,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:30",
@@ -2503,8 +2481,8 @@
      "t": "16:00",
      "ko": "2026-11-08T16:00:00Z",
      "lg": "af.454",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 16",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 16",
+     "sport": "football",
      "h": "Vian\u00e9s",
      "a": "Calahorra",
      "side": "a",
@@ -2515,18 +2493,14 @@
       "d": 0.1975,
       "a": 0.6519
      },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5586,
-     "o25": 0.5778,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:00",
@@ -2804,8 +2778,8 @@
     },
     {
      "t": "14:30",
-     "ko": "2026-11-08T14:30Z",
-     "lg": "nfl",
+     "ko": "2026-11-08T14:30:00Z",
+     "lg": "NFL",
      "lgName": "NFL",
      "sport": "nfl",
      "h": "Atlanta Falcons",
@@ -2813,10 +2787,15 @@
      "side": "a",
      "pick": "Cincinnati Bengals",
      "c": 0.6456,
+     "p": null,
      "hit": 0.6537,
      "hitN": 52,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:30",
@@ -3006,35 +2985,6 @@
      "unrated": false
     },
     {
-     "t": "16:30",
-     "ko": "2026-11-08T16:30:00Z",
-     "lg": "af.440",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 2",
-     "country": "Spain",
-     "h": "Caudal",
-     "a": "Llanes",
-     "side": "h",
-     "pick": "Caudal",
-     "c": 0.637,
-     "p": {
-      "h": 0.637,
-      "d": 0.2216,
-      "a": 0.1413
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5169,
-     "o25": 0.5277,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "18:00",
      "ko": "2026-11-08T18:00Z",
      "lg": "nfl",
@@ -3049,6 +2999,31 @@
      "hitN": 52,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "16:30",
+     "ko": "2026-11-08T16:30:00Z",
+     "lg": "af.440",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 2",
+     "sport": "football",
+     "h": "Caudal",
+     "a": "Llanes",
+     "side": "h",
+     "pick": "Caudal",
+     "c": 0.637,
+     "p": {
+      "h": 0.637,
+      "d": 0.2216,
+      "a": 0.1413
+     },
+     "hit": 0.646,
+     "hitN": 3240,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:00",
@@ -3158,8 +3133,8 @@
      "t": "16:00",
      "ko": "2026-11-08T16:00:00Z",
      "lg": "af.441",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 3",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 3",
+     "sport": "football",
      "h": "Barquere\u00f1o",
      "a": "Tropez\u00f3n",
      "side": "a",
@@ -3170,18 +3145,14 @@
       "d": 0.234,
       "a": 0.6315
      },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4956,
-     "o25": 0.5027,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:30",
@@ -3233,8 +3204,8 @@
      "t": "15:30",
      "ko": "2026-11-08T15:30:00Z",
      "lg": "af.208",
-     "lgName": "Challenge League",
-     "country": "Switzerland",
+     "lgName": "Switzerland Challenge League",
+     "sport": "football",
      "h": "Yverdon Sport",
      "a": "Neuchatel Xamax",
      "side": "h",
@@ -3245,18 +3216,14 @@
       "d": 0.2102,
       "a": 0.1627
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5533,
-     "o25": 0.5653,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:30",

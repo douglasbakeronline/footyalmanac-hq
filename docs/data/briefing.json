@@ -1,5 +1,5 @@
 {
- "time": "2026-11-08T13:42:40.044570+00:00",
+ "time": "2026-11-08T17:09:15.465037+00:00",
  "date": "2026-11-08",
  "stage": "refresh",
  "pricing": {
@@ -22,39 +22,6 @@
   "tomorrow": 67
  },
  "impactful": [
-  {
-   "sport": "football",
-   "event": "Celtic v Kilmarnock",
-   "comp": "Premiership",
-   "lg": "sco.1",
-   "country": "Scotland",
-   "tier": 1,
-   "when": "2026-11-08T16:00:00Z",
-   "date": "2026-11-08",
-   "selection": "Celtic",
-   "opp": "Kilmarnock",
-   "side": "h",
-   "home": "Celtic",
-   "away": "Kilmarnock",
-   "p": 0.8404,
-   "modelPick": "Celtic",
-   "list": true,
-   "reserve": false,
-   "hit": 0.8397,
-   "hitN": 131,
-   "score": [
-    3,
-    0
-   ],
-   "xg": [
-    3.12,
-    0.68
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "84% Celtic, likely 3-0, xG 3.1 v 0.7, calls at this level won 84% (131)"
-  },
   {
    "sport": "nfl",
    "event": "Seattle Seahawks v Arizona Cardinals",
@@ -128,60 +95,94 @@
    "why": "81% San Francisco 49ers, rating 1618 v 1415, form LWWWW, at home, calls at this level won 81% (31)"
   },
   {
-   "sport": "tennis",
-   "event": "Carlos Alcaraz v Ben Shelton",
-   "comp": "Rolex Paris Masters Final",
-   "tour": "ATP",
-   "when": "2026-11-08T14:00:00Z",
+   "sport": "ncaab",
+   "event": "Idaho Vandals v Lincoln (CA) Oaklanders",
+   "comp": "NCAA",
+   "when": "2026-11-08T22:00Z",
    "date": "2026-11-08",
-   "selection": "Carlos Alcaraz",
-   "opp": "Ben Shelton",
-   "p": 0.7512,
-   "modelPick": "Carlos Alcaraz",
+   "selection": "Idaho Vandals",
+   "opp": "Lincoln (CA) Oaklanders",
+   "p": 0.9199,
+   "modelPick": "Idaho Vandals",
    "tierName": "Strong",
-   "list": false,
-   "hit": 0.8,
-   "hitN": 35,
-   "id": "186507",
-   "rank": [
-    3,
-    4
+   "list": true,
+   "hit": 0.9157,
+   "hitN": 1258,
+   "id": "401922262",
+   "elo": [
+    1639,
+    1315
    ],
+   "homeSide": true,
+   "form": "LWLWW",
    "status": "pending",
-   "why": "75% Carlos Alcaraz, ranked 3 v 4, calls at this level won 80% (35)"
+   "why": "92% Idaho Vandals, rating 1639 v 1315, form LWLWW, at home, calls at this level won 92% (1258)"
   },
   {
    "sport": "football",
-   "event": "Heart of Midlothian v Falkirk",
-   "comp": "Premiership",
-   "lg": "sco.1",
-   "country": "Scotland",
+   "event": "CF Estrela da Amadora v Sport Lisboa e Benfica",
+   "comp": "Primeira Liga",
+   "lg": "pt.1",
+   "country": "Portugal",
    "tier": 1,
-   "when": "2026-11-08T15:00:00Z",
+   "when": "2026-11-08T20:30:00Z",
    "date": "2026-11-08",
-   "selection": "Heart of Midlothian",
-   "opp": "Falkirk",
-   "side": "h",
-   "home": "Heart of Midlothian",
-   "away": "Falkirk",
-   "p": 0.7077,
-   "modelPick": "Heart of Midlothian",
+   "selection": "Sport Lisboa e Benfica",
+   "opp": "CF Estrela da Amadora",
+   "side": "a",
+   "home": "CF Estrela da Amadora",
+   "away": "Sport Lisboa e Benfica",
+   "p": 0.6492,
+   "modelPick": "Sport Lisboa e Benfica",
    "list": false,
    "reserve": true,
-   "hit": 0.718,
-   "hitN": 39,
+   "hit": 0.7052,
+   "hitN": 78,
    "score": [
-    2,
-    0
+    1,
+    2
    ],
    "xg": [
-    2.63,
-    0.97
+    1.21,
+    2.6
    ],
    "rankH": null,
    "rankA": null,
    "status": "pending",
-   "why": "71% Heart of Midlothian, likely 2-0, xG 2.6 v 1.0, calls at this level won 72% (39)"
+   "why": "65% Sport Lisboa e Benfica, likely 1-2, xG 1.2 v 2.6, calls at this level won 71% (78)"
+  },
+  {
+   "sport": "football",
+   "event": "Vitória Guimarães v FC Porto",
+   "comp": "Primeira Liga",
+   "lg": "pt.1",
+   "country": "Portugal",
+   "tier": 1,
+   "when": "2026-11-08T18:00:00Z",
+   "date": "2026-11-08",
+   "selection": "FC Porto",
+   "opp": "Vitória Guimarães",
+   "side": "a",
+   "home": "Vitória Guimarães",
+   "away": "FC Porto",
+   "p": 0.6383,
+   "modelPick": "FC Porto",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7052,
+   "hitN": 78,
+   "score": [
+    0,
+    1
+   ],
+   "xg": [
+    0.63,
+    1.83
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "64% FC Porto, likely 0-1, xG 0.6 v 1.8, calls at this level won 71% (78)"
   }
  ],
  "tomorrow": [
@@ -666,5 +667,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/45",
  "issue": 45,
- "text": "Good afternoon Douglas. Sunday 08 November, 13:42 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (156 of today's 254 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Sunday 08 November, 17:09 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (156 of today's 254 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
