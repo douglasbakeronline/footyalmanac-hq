@@ -25,7 +25,7 @@ from datetime import date, datetime, timedelta, timezone
 REPO = "douglasbakeronline/footyalmanac"
 RAW = f"https://raw.githubusercontent.com/{REPO}/main/"
 WINDOW_DAYS = 28
-MAX_TASKS = 14   # 9 Nov 2026: two sprints a day, 12 agent places
+MAX_TASKS = 24   # 9 Nov 2026: four sprints a day plus four build sessions (Douglas: double output)
 OWNERS = {"chief", "scout", "quality", "source", "ratings", "experiment", "sports", "auditor",
           "calib", "curator", "engineer", "champ", "odds", "accas", "value", "legs"}
 SPORT_NAMES = {"nfl": "NFL", "mlb": "baseball (MLB)", "nba": "NBA", "rugby": "rugby union", "nhl": "NHL",
