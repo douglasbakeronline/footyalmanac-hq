@@ -12,6 +12,12 @@ A gap is ranked by its z-score: (won - expected) / sqrt(sum p(1-p)). Raw hit
 rates are not compared, because a 70% band and a 90% band should land
 differently and small samples swing. Shortfalls and overshoots are both bugs
 (the site's objective 3), but a List shortfall is worth most.
+
+9 Nov 2026 (Douglas): the ultimate goal is consistent returns on the group
+accumulators, so the Card comes first: its return at stake, its legs by sport,
+price band and the opposition's price, empty days, the move to the closing
+price, and five standing Card tasks (seasons, pool replay, bookmaker, timing,
+stake) that outrank the README's list.
 """
 import json, math, os, urllib.request
 from datetime import date, datetime, timedelta, timezone
@@ -19,7 +25,7 @@ from datetime import date, datetime, timedelta, timezone
 REPO = "douglasbakeronline/footyalmanac"
 RAW = f"https://raw.githubusercontent.com/{REPO}/main/"
 WINDOW_DAYS = 28
-MAX_TASKS = 12
+MAX_TASKS = 14   # 9 Nov 2026: two sprints a day, 12 agent places
 OWNERS = {"chief", "scout", "quality", "source", "ratings", "experiment", "sports", "auditor",
           "calib", "curator", "engineer", "champ", "odds", "accas", "value", "legs"}
 SPORT_NAMES = {"nfl": "NFL", "mlb": "baseball (MLB)", "nba": "NBA", "rugby": "rugby union", "nhl": "NHL",
@@ -82,6 +88,57 @@ def sports_rows(srec):
     return out
 
 
+# ---------- the Card: the objective is return, not accuracy (Douglas, 9 Nov 2026) ----------
+
+CARD_FROM = "2026-10-29"   # one window a day, the leg rule as it stands; earlier groups were other kinds
+
+
+def card_groups(grec):
+    """Settled Card groups (not the wider-rule fillers, not the Model card) since CARD_FROM, with their legs."""
+    out = []
+    for d in grec.get("days") or []:
+        if (d.get("date") or "") < CARD_FROM: continue
+        for g in d.get("groups") or []:
+            if not str(g.get("name", "")).startswith("Card") or g.get("wide"): continue
+            if g.get("status") not in ("won", "lost") or g.get("p") is None or not g.get("odds"): continue
+            out.append(dict(g, date=d["date"]))
+    return out
+
+
+def card_return(gs):
+    st = sum(g.get("stake") or 1 for g in gs); rt = sum((g.get("stake") or 1) * g["odds"] for g in gs if g["status"] == "won")
+    return round(rt / st, 3) if st else None
+
+
+CARD_ROADMAP = [
+    ("card-seasons", "experiment", "Replay the Card over 2022-23, 2023-24 and 2024-25",
+     "tools/card_legs_history.py replays the Card's leg rule and the whole Card on football-data.co.uk prices for one "
+     "past season and the current one. football-data has prices for every core league back years; the replay needs "
+     "each season's history in history/ (openfootball, backfill.py). Add the three seasons, run the tool, and report "
+     "by season: legs landed v quoted, singles return, the Card's return and losing months, by gap band and by the "
+     "opposition's price band. The rule only earns a bankroll if it holds across seasons."),
+    ("card-pool-replay", "accas", "Replay every Card variant on the archived pool, not the football-data rows",
+     "tools/card_replay.py rebuilds the Card from predictions/<date>.json rows priced by football-data.co.uk, a few "
+     "dozen fixtures a day; the live Card draws on groupings-archive/pool-<date>.json.gz, 900+ priced fixtures a day "
+     "with first and last prices, every book, the opposition's price and each result. Make the pool the replay's "
+     "source from 30 Oct 2026 so the nightly card-review issue compares the variants on the legs the Card really had."),
+    ("card-book", "odds", "Which bookmaker to write the Card for",
+     "Every pool leg carries each UK book's price (bookOdds). On the legs that pass the Card's rule, rank the books by "
+     "price against the average and by how often each is best, then the same at the time of the push notification. "
+     "If one book is clearly best, change CARD_BOOK with the evidence; if best price beats any one book by 2+ points, "
+     "say so on the Bets page."),
+    ("card-timing", "odds", "When to take the Card's prices",
+     "The pool keeps each leg's first price (firstAt) and last pre-start price (lastAt). On Card-rule legs, measure "
+     "the move from first to last by hour of first pricing and by sport. If prices drift, the push should come "
+     "later; if they shorten, the Card should be published and pushed earlier. Change notify.py or the build "
+     "times only with the measurement."),
+    ("card-stake", "value", "Stake size and bankroll for the Card",
+     "tools/staking.py gives the return and drawdown distribution at a flat stake, half and quarter Kelly from the "
+     "replayed and live Card. Turn it into one line on the Bets page: the unit size for a stated bankroll that keeps "
+     "a 95%-worst season's drawdown to half, from the replay, never from the live record."),
+]
+
+
 # ---------- standing priorities from footyalmanac's README ----------
 
 ROADMAP = [
@@ -124,6 +181,80 @@ def plan(files, today=None, done=()):
     sp = sports_rows(files.get("sports-record.json") or {})
     fbw, tnw, spw = since(fb, start), since(tn, start), since(sp, start)
     T = []
+
+    # 0. The Card (Douglas, 9 Nov 2026: "the ultimate goal is consistent returns on group accumulators").
+    #    Ranked above everything: return at stake, then the legs by sport, price band and the opposition's price.
+    cg = card_groups(files.get("groupings-record.json") or {})
+    card = {"groups": len(cg), "won": sum(g["status"] == "won" for g in cg), "return": card_return(cg),
+            "gap": gap((g["p"], g["status"] == "won") for g in cg)}
+    if cg:
+        g = card["gap"]
+        if len(cg) >= 20 and (card["return"] or 1) < 1.0:
+            T.append(task("card-return", "accas", f"The Card returns {card['return']:.3f} a unit over {len(cg)} groups",
+                f"Settled Card groups since {CARD_FROM}: {says(g)}; return at the published price {card['return']:.3f} a unit. "
+                "The Card's only purpose is a return above 1. Find which class of leg or group loses (sport, price band, "
+                "the opposition's price band, the gap between model and market, the day of the week) on the pool "
+                "archive and the football-data replay, and replay a rule that leaves it out. Pre-registered variants "
+                "are in tools/card_replay.py; add yours there before reading its result.", g, 4.0, "card"))
+            # the return shortfall, not the z-score, is the size of this gap
+            T[-1]["score"] = round(4.0 + (1.0 - card["return"]) * 10, 2)
+        legs, seen = [], set()
+        for grp in cg:
+            for l in grp.get("legs") or []:
+                k = (grp["date"], l.get("event"))
+                if l.get("status") in ("won", "lost") and l.get("p") is not None and k not in seen:
+                    seen.add(k); legs.append(l)
+        for sp in sorted({l.get("sport") for l in legs} - {None}):
+            g = gap((l["p"], l["status"] == "won") for l in legs if l.get("sport") == sp)
+            if g["n"] >= 15 and g["z"] <= -1.0:
+                T.append(task(f"card-legs-{sp}", "legs", f"Card {sp} legs: {g['won']}/{g['n']} against {g['expected']:.0f} expected",
+                    f"{sp.title()} legs on the Card since {CARD_FROM}: {says(g)}. The chance is the bookmakers' own, so a "
+                    "shortfall means the Card picks the kind of favourite the market over-rates. Find which (competition, "
+                    "price, home or away, the opposition's price) and replay a rule that excludes it; if the sport as a "
+                    "whole is under quote by two standard errors on 50+ legs, propose it for CARD_SPORTS_OFF.", g, 3.0, "card"))
+        for lo, hi in ((1.0, 1.3), (1.3, 1.6), (1.6, 2.0)):
+            g = gap((l["p"], l["status"] == "won") for l in legs if l.get("odds") and lo <= l["odds"] < hi)
+            if g["n"] >= 15 and g["z"] <= -1.0:
+                T.append(task(f"card-price-{lo}", "value", f"Card legs priced {lo:.1f}-{hi:.1f} land below their chance",
+                    f"Card legs priced {lo:.2f} to {hi:.2f} since {CARD_FROM}: {says(g)}. Replay CARD_ODDS without this band "
+                    "(tools/card_replay.py `short` is the 1.15-1.35 variant) on the pool and on football-data.", g, 2.5, "card"))
+        opp = [l for l in legs if l.get("opp")]
+        for lo, hi, nm in ((0, 6, "under 6"), (6, 9, "6 to 9"), (9, 999, "9+")):
+            g = gap((l["p"], l["status"] == "won") for l in opp if lo <= l["opp"] < hi)
+            if g["n"] >= 15 and abs(g["z"]) >= 1.0:
+                word = "below" if g["z"] < 0 else "above"
+                T.append(task(f"card-opp-{lo}", "legs", f"Card legs with the opposition priced {nm} land {word} their chance",
+                    f"Card legs whose opposition was priced {nm} since 6 Nov 2026: {says(g)}. The rule takes 9+ "
+                    "(CARD_OPP_MIN) on last season's replay; this is the live check. Replay opp7 and opp12 beside it "
+                    "and report whether the live legs agree with the season.", g, 2.5, "card"))
+        days = {d["date"] for d in (files.get("groupings-record.json") or {}).get("days") or [] if d.get("date", "") >= CARD_FROM}
+        with_card = {g["date"] for g in cg} | {d["date"] for d in (files.get("groupings-record.json") or {}).get("days") or []
+                                                for grp in d.get("groups") or [] if str(grp.get("name", "")).startswith("Card") and not grp.get("wide")}
+        empty = sorted(days - with_card)
+        card["emptyDays"] = len(empty)
+        if len(empty) >= 3:
+            g = {"n": len(days), "won": len(days) - len(empty), "expected": float(len(days)), "quoted": 1.0,
+                 "landed": round(1 - len(empty) / len(days), 3), "z": round(-min(4.0, len(empty) / 2), 2)}
+            T.append(task("card-empty-days", "accas", f"{len(empty)} of {len(days)} Card days had no full-rule group",
+                f"Days since {CARD_FROM} with no Card group under the full rule: {', '.join(empty[-8:])}. A thin Card "
+                "earns nothing. Test the fillers on the replay before loosening anything: the opposition at 7+ (opp7), "
+                "five short legs (short), the Championship-tier leagues that landed above quote. Ship the one that "
+                "keeps the return and fills the most days.", g, 2.0, "card"))
+        clv = [(l["lastOdds"] / l["odds"] - 1) for l in legs if l.get("lastOdds") and l.get("odds")]
+        if len(clv) >= 30:
+            m = sum(clv) / len(clv); card["closingMovePct"] = round(m * 100, 2)
+            if abs(m) >= 0.02:
+                g = {"n": len(clv), "won": sum(x > 0 for x in clv), "expected": len(clv) / 2, "quoted": 0.5,
+                     "landed": round(sum(x > 0 for x in clv) / len(clv), 3), "z": round(m * 100, 2)}
+                T.append(task("card-closing", "odds", f"Card prices move {m * 100:+.1f}% to the start",
+                    f"On {len(clv)} Card legs the last pre-start price was {m * 100:+.1f}% against the price taken. "
+                    + ("Prices drift: push the Card later and re-read the price nearer the start." if m > 0 else
+                       "Prices shorten: publish and push earlier, and show the bench so a missed price has a stand-in.")
+                    + " Measure by hour and sport from the pool archive before changing notify.py.", g, 2.0, "card"))
+    for key, owner, title, brief in CARD_ROADMAP:
+        if f"hq-{key}" in done: continue
+        T.append({"key": f"hq-{key}", "owner": owner, "title": title, "brief": brief + "\n\n" + RULES,
+                  "evidence": None, "metric": "card", "score": 3.0})   # above the README's list: the Card is the objective
 
     # 1. Daily List: quoted vs landed, by sport (objective 2)
     lists = {"football": gap((fq(r), r["ok"]) for r in fbw if r.get("list")),
@@ -304,6 +435,7 @@ def plan(files, today=None, done=()):
     T.sort(key=lambda t: -t["score"])
     worst = max(bands, key=lambda b: abs(b[1]["z"])) if bands else None
     objectives = {
+        "card": card,
         "list": {k: v for k, v in lists.items() if v["n"]},
         "listAll": gap([(fq(r), r["ok"]) for r in fbw if r.get("list")] +
                        [(r["confidence"], r["ok"]) for r in tnw if r.get("list")] +
