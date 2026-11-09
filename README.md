@@ -70,7 +70,7 @@ are `standup`, `report`, `work`, `saturday`, `slip`, `briefing`, `refresh` and
 | `scripts/markets.py` | Oscar and Jade: daily briefing and five-leg groups. |
 | `scripts/slip.py` | Matches the owner's slips to published picks and settles them from graded records. |
 | `scripts/saturday.py` | Saturday picks preview, final and review. |
-| `scripts/planner.py` | The planner: ranks every quoted-versus-landed gap by z-score and writes `docs/data/backlog.json`, which footyalmanac's `agents/pick_task.py` reads each morning (four agents a day). Runs inside each scheduled stand-up. |
+| `scripts/planner.py` | The planner: since 9 Nov 2026 the Card comes first (return at stake, legs by sport, price and the opposition's price, empty days, the move to the closing price, and five standing Card tasks), then every quoted-versus-landed gap by z-score; writes `docs/data/backlog.json`, which footyalmanac's `agents/pick_task.py` reads at each sprint (two a day, six agents each). Runs inside each scheduled stand-up. |
 | `scripts/org.py` | Luke's hiring desk: adds a specialist when a KPI gap has no owner (at most one a day, six in total). State is in `docs/data/org.json`. |
 | `scripts/performance_monitor.py` | Build-health and run-time KPIs. |
 | `scripts/ceo.py` | Offline placeholder, kept for the tests. The real Elena is footyalmanac's `ceo.yml` (see "Elena, the CEO" below). |

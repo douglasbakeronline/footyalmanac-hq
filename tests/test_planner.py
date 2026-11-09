@@ -114,3 +114,26 @@ class TestOutcomes(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CardFirst(unittest.TestCase):
+    """9 Nov 2026: the Card's return outranks accuracy gaps, and the standing Card tasks outrank the README list."""
+    def test_losing_card_tops_the_backlog(self):
+        import planner as P
+        days = [{"date": f"2026-11-{d:02d}", "groups": [
+            {"name": "Card 2x", "status": "won" if d % 4 == 0 else "lost", "p": 0.34, "odds": 2.4, "stake": 2,
+             "legs": [{"event": f"e{d}", "sport": "football", "status": "won", "p": 0.7, "odds": 1.3, "opp": 10.0}]}]} for d in range(1, 25)]
+        b = P.plan({"groupings-record.json": {"days": days}, "record-graded.json": {"graded": []},
+                    "tennis-record.json": {}, "sports-record.json": {}, "record.json": {}, "predictions": []}, today=P.date(2026, 11, 25))
+        self.assertEqual(b["tasks"][0]["key"], "hq-card-return")
+        self.assertLess(b["objectives"]["card"]["return"], 1.0)
+        keys = [t["key"] for t in b["tasks"]]
+        self.assertLess(keys.index("hq-card-seasons"), keys.index("hq-own-band"))
+
+    def test_winning_card_raises_no_return_task(self):
+        import planner as P
+        days = [{"date": f"2026-11-{d:02d}", "groups": [
+            {"name": "Card 2x", "status": "won" if d % 2 == 0 else "lost", "p": 0.34, "odds": 2.4, "stake": 2, "legs": []}]} for d in range(1, 25)]
+        b = P.plan({"groupings-record.json": {"days": days}, "record-graded.json": {"graded": []},
+                    "tennis-record.json": {}, "sports-record.json": {}, "record.json": {}, "predictions": []}, today=P.date(2026, 11, 25))
+        self.assertNotIn("hq-card-return", [t["key"] for t in b["tasks"]])
