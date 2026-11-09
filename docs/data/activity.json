@@ -287,8 +287,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-09T21:31:27.962902+00:00",
+ "fetched": "2026-11-09T21:53:55.030503+00:00",
  "commits": [
+  {
+   "sha": "2503b62",
+   "msg": "Archive predictions and record for 2026-11-09 [skip ci]",
+   "date": "2026-11-09T21:43:45Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/2503b62bc5c570ffe3af5423e748a2c78108af8c"
+  },
   {
    "sha": "565280a",
    "msg": "Archive predictions and record for 2026-11-09 [skip ci]",
@@ -402,15 +408,15 @@
    "msg": "Card decisions delegated: recorded; uncapped and opp7 whole-Card replays per season (#165)",
    "date": "2026-11-09T01:36:57Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/b2a9add142ca46af6010cf26a3469abfbc2306ea"
-  },
-  {
-   "sha": "25726db",
-   "msg": "The weekly report: tools/weekly_report.py and the PDF renderer (#164)",
-   "date": "2026-11-09T01:30:57Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/25726dbda586f965831c1547c0d1444065437c39"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-09T21:39:30Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42704565811"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-11-09T16:59:09Z",
@@ -464,12 +470,6 @@
    "createdAt": "2026-11-09T16:49:28Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42658627968"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-09T16:49:18Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42658599590"
   }
  ]
 }
