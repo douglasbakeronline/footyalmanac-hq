@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T06:14:23",
- "fetched": "2026-11-09T11:05:48.663834+00:00",
+ "generated": "2026-11-09T12:32:28",
+ "fetched": "2026-11-09T12:33:45.532097+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -160,9 +160,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "93-86"
     },
     {
      "t": "15:00",
@@ -260,18 +260,24 @@
     },
     {
      "t": "12:00",
+     "ko": "2026-11-09T12:00:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Bybit Stockholm Open",
+     "lgName": "ATP \u00b7 Bybit Stockholm Open \u00b7 Round 1",
      "sport": "tennis",
      "h": "Cameron Norrie",
      "a": "James Duckworth",
      "side": "h",
      "pick": "Cameron Norrie",
      "c": 0.6678,
+     "p": null,
      "hit": 0.6338,
      "hitN": 71,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "10:30",
@@ -352,18 +358,24 @@
     },
     {
      "t": "11:30",
+     "ko": "2026-11-09T11:30:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Bybit Stockholm Open",
+     "lgName": "ATP \u00b7 Bybit Stockholm Open \u00b7 Round 1",
      "sport": "tennis",
      "h": "Yannick Hanfmann",
      "a": "Alex Michelsen",
      "side": "a",
      "pick": "Alex Michelsen",
      "c": 0.6314,
+     "p": null,
      "hit": 0.5926,
      "hitN": 81,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "18:00",
@@ -1451,10 +1463,10 @@
     "reserve": {
      "n": 15,
      "won": 8,
-     "lost": 0,
+     "lost": 1,
      "void": 0,
-     "started": 1,
-     "upcoming": 6
+     "started": 3,
+     "upcoming": 3
     },
     "groupA": {
      "n": 3,
@@ -7529,22 +7541,6 @@
      "reserve": true
     },
     {
-     "t": "04:00",
-     "ko": "2026-11-12T04:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "California Golden Bears",
-     "a": "USC Trojans",
-     "side": "h",
-     "pick": "California Golden Bears",
-     "c": 0.7171,
-     "hit": 0.7369,
-     "hitN": 658,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "00:30",
      "ko": "2026-11-12T00:30Z",
      "lg": "cfb",
@@ -7767,6 +7763,22 @@
      "side": "h",
      "pick": "Princeton Tigers",
      "c": 0.6498,
+     "hit": 0.5806,
+     "hitN": 704,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "04:00",
+     "ko": "2026-11-12T04:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "California Golden Bears",
+     "a": "USC Trojans",
+     "side": "h",
+     "pick": "California Golden Bears",
+     "c": 0.6482,
      "hit": 0.5806,
      "hitN": 704,
      "list": false,
@@ -24612,22 +24624,6 @@
      "reserve": true
     },
     {
-     "t": "00:00",
-     "ko": "2026-11-15T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Wichita State Shockers",
-     "a": "Austin Peay Governors",
-     "side": "h",
-     "pick": "Wichita State Shockers",
-     "c": 0.8272,
-     "hit": 0.7893,
-     "hitN": 626,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "21:30",
      "ko": "2026-11-15T21:30:00Z",
      "lg": "af.872",
@@ -24960,6 +24956,22 @@
      "list": true,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-15T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Wichita State Shockers",
+     "a": "Austin Peay Governors",
+     "side": "h",
+     "pick": "Wichita State Shockers",
+     "c": 0.7769,
+     "hit": 0.7492,
+     "hitN": 630,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "10:00",
@@ -37314,11 +37326,11 @@
      "a": "Arkansas-Pine Bluff Golden Lions",
      "side": "h",
      "pick": "USC Trojans",
-     "c": 0.8487,
-     "hit": 0.7893,
-     "hitN": 626,
-     "list": false,
-     "reserve": true
+     "c": 0.8853,
+     "hit": 0.9157,
+     "hitN": 1258,
+     "list": true,
+     "reserve": false
     },
     {
      "t": "02:00",
