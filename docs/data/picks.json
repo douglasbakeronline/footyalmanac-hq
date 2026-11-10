@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T10:54:20",
- "fetched": "2026-11-10T12:10:01.661137+00:00",
+ "generated": "2026-11-10T14:43:44",
+ "fetched": "2026-11-10T15:14:17.263816+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -255,7 +255,7 @@
      "res": "81-72"
     },
     {
-     "t": "18:00",
+     "t": "18:30",
      "lg": "WTA",
      "lgName": "WTA \u00b7 DIRECTV Open Presentado por Compesar",
      "sport": "tennis",
@@ -651,7 +651,7 @@
      "res": "95-79"
     },
     {
-     "t": "18:00",
+     "t": "18:30",
      "lg": "WTA",
      "lgName": "WTA \u00b7 DIRECTV Open Presentado por Compesar",
      "sport": "tennis",
@@ -750,7 +750,7 @@
      "res": "66-46"
     },
     {
-     "t": "16:30",
+     "t": "17:00",
      "lg": "WTA",
      "lgName": "WTA \u00b7 DIRECTV Open Presentado por Compesar",
      "sport": "tennis",
@@ -972,7 +972,7 @@
      "reserve": true
     },
     {
-     "t": "16:30",
+     "t": "17:00",
      "lg": "WTA",
      "lgName": "WTA \u00b7 DIRECTV Open Presentado por Compesar",
      "sport": "tennis",
@@ -1098,14 +1098,14 @@
      "pick": "Alex Michelsen",
      "c": 0.6452,
      "p": null,
-     "hit": 0.6071,
+     "hit": 0.5952,
      "hitN": 84,
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Alex Michelsen won"
     },
     {
      "t": "19:45",
@@ -1183,18 +1183,24 @@
     },
     {
      "t": "13:30",
+     "ko": "2026-11-10T13:30:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Bybit Stockholm Open",
+     "lgName": "ATP \u00b7 Bybit Stockholm Open \u00b7 Round 1",
      "sport": "tennis",
      "h": "Quentin Halys",
      "a": "Lorenzo Sonego",
      "side": "h",
      "pick": "Quentin Halys",
      "c": 0.6335,
-     "hit": 0.6071,
+     "p": null,
+     "hit": 0.5952,
      "hitN": 84,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "02:00",
@@ -1262,19 +1268,25 @@
      "unrated": false
     },
     {
-     "t": "15:00",
+     "t": "14:30",
+     "ko": "2026-11-10T14:30:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Bybit Stockholm Open",
+     "lgName": "ATP \u00b7 Bybit Stockholm Open \u00b7 Round 1",
      "sport": "tennis",
      "h": "Miomir Kecmanovic",
      "a": "Arthur Rinderknech",
      "side": "a",
      "pick": "Arthur Rinderknech",
      "c": 0.6267,
-     "hit": 0.6071,
-     "hitN": 84,
+     "p": null,
+     "hit": 0.6,
+     "hitN": 85,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "12:00",
@@ -1288,14 +1300,14 @@
      "pick": "Adrian Mannarino",
      "c": 0.6209,
      "p": null,
-     "hit": 0.6071,
+     "hit": 0.5952,
      "hitN": 84,
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "Alexander Shevchenko won"
     },
     {
      "t": "19:45",
@@ -2643,11 +2655,11 @@
     },
     "reserve": {
      "n": 41,
-     "won": 24,
-     "lost": 3,
+     "won": 25,
+     "lost": 4,
      "void": 0,
-     "started": 0,
-     "upcoming": 14
+     "started": 2,
+     "upcoming": 10
     },
     "groupA": {
      "n": 5,
@@ -2669,7 +2681,7 @@
   },
   {
    "date": "2026-11-11",
-   "count": 135,
+   "count": 136,
    "games": [
     {
      "t": "02:00",
@@ -4539,6 +4551,35 @@
      "unrated": false
     },
     {
+     "t": "16:00",
+     "ko": "2026-11-11T16:00:00Z",
+     "lg": "af.872",
+     "lgName": "Liga Premier Serie B",
+     "country": "Mexico",
+     "h": "Atletico Hidalgo",
+     "a": "Celaya 2",
+     "side": "a",
+     "pick": "Celaya 2",
+     "c": 0.5015,
+     "p": {
+      "h": 0.2417,
+      "d": 0.2568,
+      "a": 0.5015
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5483,
+     "o25": 0.5314,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:00",
      "ko": "2026-11-11T19:00:00Z",
      "lg": "af.67",
@@ -4916,8 +4957,8 @@
      "unrated": false
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-11T21:00:00Z",
+     "t": "00:00",
+     "ko": "2026-11-11T00:00:00Z",
      "lg": "af.263",
      "lgName": "Liga de Expansi\u00f3n MX",
      "country": "Mexico",
@@ -5148,27 +5189,27 @@
      "unrated": false
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-11T21:00:00Z",
-     "lg": "af.263",
-     "lgName": "Liga de Expansi\u00f3n MX",
-     "country": "Mexico",
-     "h": "Piratas",
-     "a": "CA La Paz",
+     "t": "13:30",
+     "ko": "2026-11-11T13:30:00Z",
+     "lg": "af.432",
+     "lgName": "Serie D - Girone G",
+     "country": "Italy",
+     "h": "Trastevere",
+     "a": "Anzio",
      "side": "h",
-     "pick": "Piratas",
-     "c": 0.4174,
+     "pick": "Trastevere",
+     "c": 0.4184,
      "p": {
-      "h": 0.4174,
-      "d": 0.2704,
-      "a": 0.3122
+      "h": 0.4184,
+      "d": 0.2948,
+      "a": 0.2868
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.555,
-     "o25": 0.5287,
+     "btts": 0.5174,
+     "o25": 0.4823,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -5731,7 +5772,7 @@
   },
   {
    "date": "2026-11-12",
-   "count": 92,
+   "count": 96,
    "games": [
     {
      "t": "03:00",
@@ -6154,8 +6195,8 @@
      "reserve": true
     },
     {
-     "t": "06:00",
-     "ko": "2026-11-12T06:00:00Z",
+     "t": "06:10",
+     "ko": "2026-11-12T06:10:00Z",
      "lg": "friendly",
      "lgName": "International friendly",
      "country": "International",
@@ -6999,35 +7040,6 @@
      "unrated": false
     },
     {
-     "t": "00:00",
-     "ko": "2026-11-12T00:00:00Z",
-     "lg": "af.872",
-     "lgName": "Liga Premier Serie B",
-     "country": "Mexico",
-     "h": "Atletico Hidalgo",
-     "a": "Celaya 2",
-     "side": "a",
-     "pick": "Celaya 2",
-     "c": 0.5015,
-     "p": {
-      "h": 0.2417,
-      "d": 0.2568,
-      "a": 0.5015
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5483,
-     "o25": 0.5314,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:30",
      "ko": "2026-11-12T12:30:00Z",
      "lg": "af.887",
@@ -7318,6 +7330,64 @@
      "unrated": false
     },
     {
+     "t": "13:55",
+     "ko": "2026-11-12T13:55:00Z",
+     "lg": "afc.1197",
+     "lgName": "FA Cup",
+     "country": "Oman",
+     "h": "Smail",
+     "a": "Bahla",
+     "side": "a",
+     "pick": "Bahla",
+     "c": 0.4429,
+     "p": {
+      "h": 0.2803,
+      "d": 0.2769,
+      "a": 0.4429
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5279,
+     "o25": 0.4954,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:50",
+     "ko": "2026-11-12T13:50:00Z",
+     "lg": "afc.1197",
+     "lgName": "FA Cup",
+     "country": "Oman",
+     "h": "Sur",
+     "a": "Dhofar",
+     "side": "h",
+     "pick": "Sur",
+     "c": 0.4416,
+     "p": {
+      "h": 0.4416,
+      "d": 0.264,
+      "a": 0.2944
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5449,
+     "o25": 0.5163,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "20:00",
      "ko": "2026-11-12T20:00:00Z",
      "lg": "af.322",
@@ -7426,6 +7496,35 @@
      ],
      "btts": 0.5431,
      "o25": 0.5139,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "23:00",
+     "ko": "2026-11-12T23:00:00Z",
+     "lg": "br.2",
+     "lgName": "Serie B",
+     "country": "Brazil",
+     "h": "S\u00e3o Bernardo",
+     "a": "Athletic",
+     "side": "h",
+     "pick": "S\u00e3o Bernardo",
+     "c": 0.4367,
+     "p": {
+      "h": 0.4367,
+      "d": 0.3002,
+      "a": 0.2631
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5045,
+     "o25": 0.4692,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -7550,6 +7649,35 @@
      "unrated": false
     },
     {
+     "t": "00:00",
+     "ko": "2026-11-12T00:00:00Z",
+     "lg": "af.263",
+     "lgName": "Liga de Expansi\u00f3n MX",
+     "country": "Mexico",
+     "h": "Piratas",
+     "a": "CA La Paz",
+     "side": "h",
+     "pick": "Piratas",
+     "c": 0.4174,
+     "p": {
+      "h": 0.4174,
+      "d": 0.2704,
+      "a": 0.3122
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.555,
+     "o25": 0.5287,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:30",
      "ko": "2026-11-12T12:30:00Z",
      "lg": "af.887",
@@ -7658,6 +7786,35 @@
      ],
      "btts": 0.5524,
      "o25": 0.5233,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:50",
+     "ko": "2026-11-12T13:50:00Z",
+     "lg": "afc.1197",
+     "lgName": "FA Cup",
+     "country": "Oman",
+     "h": "Oman Club",
+     "a": "Al Nasr",
+     "side": "a",
+     "pick": "Al Nasr",
+     "c": 0.3761,
+     "p": {
+      "h": 0.2928,
+      "d": 0.331,
+      "a": 0.3761
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4781,
+     "o25": 0.4323,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -7872,7 +8029,7 @@
   },
   {
    "date": "2026-11-13",
-   "count": 95,
+   "count": 98,
    "games": [
     {
      "t": "20:00",
@@ -9129,6 +9286,35 @@
      "unrated": false
     },
     {
+     "t": "16:00",
+     "ko": "2026-11-13T16:00:00Z",
+     "lg": "af.1023",
+     "lgName": "NB III - Southeast",
+     "country": "Hungary",
+     "h": "Szeged-Csan\u00e1d II",
+     "a": "Dabas",
+     "side": "h",
+     "pick": "Szeged-Csan\u00e1d II",
+     "c": 0.5606,
+     "p": {
+      "h": 0.5606,
+      "d": 0.2327,
+      "a": 0.2067
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5592,
+     "o25": 0.556,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:30",
      "ko": "2026-11-13T12:30:00Z",
      "lg": "af.887",
@@ -9303,6 +9489,35 @@
      "unrated": false
     },
     {
+     "t": "12:45",
+     "ko": "2026-11-13T12:45:00Z",
+     "lg": "afc.1197",
+     "lgName": "FA Cup",
+     "country": "Oman",
+     "h": "Ibri",
+     "a": "Al-Shabab",
+     "side": "a",
+     "pick": "Al-Shabab",
+     "c": 0.5312,
+     "p": {
+      "h": 0.2272,
+      "d": 0.2416,
+      "a": 0.5312
+     },
+     "score": [
+      1,
+      2
+     ],
+     "btts": 0.5777,
+     "o25": 0.5831,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:45",
      "ko": "2026-11-13T19:45:00Z",
      "lg": "uefa.nations",
@@ -9353,6 +9568,35 @@
      ],
      "btts": 0.4958,
      "o25": 0.4694,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:55",
+     "ko": "2026-11-13T13:55:00Z",
+     "lg": "afc.1197",
+     "lgName": "FA Cup",
+     "country": "Oman",
+     "h": "Al Seeb",
+     "a": "Al-Nahda",
+     "side": "h",
+     "pick": "Al Seeb",
+     "c": 0.519,
+     "p": {
+      "h": 0.519,
+      "d": 0.2754,
+      "a": 0.2056
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.5089,
+     "o25": 0.4961,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -14632,6 +14876,35 @@
      "unrated": false
     },
     {
+     "t": "07:00",
+     "ko": "2026-11-14T07:00:00Z",
+     "lg": "af.170",
+     "lgName": "League One",
+     "country": "China",
+     "h": "Guizhou Zhucheng",
+     "a": "Heilongjiang Lava Spring",
+     "side": "h",
+     "pick": "Guizhou Zhucheng",
+     "c": 0.5643,
+     "p": {
+      "h": 0.5643,
+      "d": 0.2315,
+      "a": 0.2042
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5591,
+     "o25": 0.5567,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-14T15:00:00Z",
      "lg": "afc.47",
@@ -16894,8 +17167,8 @@
      "unrated": false
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-14T21:00:00Z",
+     "t": "00:00",
+     "ko": "2026-11-14T00:00:00Z",
      "lg": "af.263",
      "lgName": "Liga de Expansi\u00f3n MX",
      "country": "Mexico",
@@ -18344,8 +18617,8 @@
      "unrated": false
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-14T21:00:00Z",
+     "t": "00:00",
+     "ko": "2026-11-14T00:00:00Z",
      "lg": "af.263",
      "lgName": "Liga de Expansi\u00f3n MX",
      "country": "Mexico",
@@ -19006,35 +19279,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:30",
-     "ko": "2026-11-14T19:30:00Z",
-     "lg": "br.2",
-     "lgName": "Serie B",
-     "country": "Brazil",
-     "h": "S\u00e3o Bernardo",
-     "a": "Athletic",
-     "side": "h",
-     "pick": "S\u00e3o Bernardo",
-     "c": 0.4367,
-     "p": {
-      "h": 0.4367,
-      "d": 0.3002,
-      "a": 0.2631
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5045,
-     "o25": 0.4692,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -23845,8 +24089,8 @@
      "reserve": true
     },
     {
-     "t": "03:00",
-     "ko": "2026-11-15T03:00:00Z",
+     "t": "03:10",
+     "ko": "2026-11-15T03:10:00Z",
      "lg": "friendly",
      "lgName": "International friendly",
      "country": "International",
@@ -24691,6 +24935,35 @@
      "hitN": 168,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-11-15T17:00:00Z",
+     "lg": "friendly",
+     "lgName": "International friendly",
+     "country": "International",
+     "h": "Suriname",
+     "a": "Eswatini",
+     "side": "h",
+     "pick": "Suriname",
+     "c": 0.7082,
+     "p": {
+      "h": 0.7082,
+      "d": 0.193,
+      "a": 0.0988
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4932,
+     "o25": 0.5212,
+     "hit": 0.7665,
+     "hitN": 30,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
     },
     {
      "t": "00:30",
@@ -26732,35 +27005,6 @@
      ],
      "btts": 0.5122,
      "o25": 0.5017,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "10:00",
-     "ko": "2026-11-15T10:00:00Z",
-     "lg": "af.1023",
-     "lgName": "NB III - Southeast",
-     "country": "Hungary",
-     "h": "Szeged-Csan\u00e1d II",
-     "a": "Dabas",
-     "side": "h",
-     "pick": "Szeged-Csan\u00e1d II",
-     "c": 0.5606,
-     "p": {
-      "h": 0.5606,
-      "d": 0.2327,
-      "a": 0.2067
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5592,
-     "o25": 0.556,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
