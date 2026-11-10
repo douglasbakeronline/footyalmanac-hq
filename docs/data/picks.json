@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-10T19:02:11",
- "fetched": "2026-11-10T19:16:13.007998+00:00",
+ "generated": "2026-11-10T20:05:27",
+ "fetched": "2026-11-10T20:15:56.258120+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-10",
-   "count": 104,
+   "count": 103,
    "games": [
     {
      "t": "00:30",
@@ -255,8 +255,8 @@
      "res": "81-72"
     },
     {
-     "t": "19:15",
-     "ko": "2026-11-10T19:15:00Z",
+     "t": "20:10",
+     "ko": "2026-11-10T20:10:00Z",
      "lg": "WTA",
      "lgName": "WTA \u00b7 DIRECTV Open Presentado por Compesar \u00b7 Round 1",
      "sport": "tennis",
@@ -292,9 +292,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Jazmin Ortenzi won"
     },
     {
      "t": "03:00",
@@ -757,9 +757,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Jazmin Ortenzi won"
     },
     {
      "t": "01:00",
@@ -1178,6 +1178,31 @@
     {
      "t": "19:45",
      "ko": "2026-11-10T19:45:00Z",
+     "lg": "en.7sc",
+     "lgName": "England Southern League Premier Central",
+     "sport": "football",
+     "h": "Stamford",
+     "a": "Needham Market",
+     "side": "a",
+     "pick": "Needham Market",
+     "c": 0.6444,
+     "p": {
+      "h": 0.1406,
+      "d": 0.215,
+      "a": 0.6444
+     },
+     "hit": 0.5574,
+     "hitN": 131,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
+    },
+    {
+     "t": "19:45",
+     "ko": "2026-11-10T19:45:00Z",
      "lg": "en.7ss",
      "lgName": "Southern League Premier South",
      "country": "England",
@@ -1208,8 +1233,8 @@
      "t": "19:45",
      "ko": "2026-11-10T19:45:00Z",
      "lg": "en.7ss",
-     "lgName": "Southern League Premier South",
-     "country": "England",
+     "lgName": "England Southern League Premier South",
+     "sport": "football",
      "h": "Uxbridge",
      "a": "Hanwell Town",
      "side": "h",
@@ -1220,18 +1245,14 @@
       "d": 0.2173,
       "a": 0.1457
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5268,
-     "o25": 0.5387,
      "hit": 0.5574,
      "hitN": 131,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "23:00",
@@ -1292,19 +1313,25 @@
      "res": "62-68"
     },
     {
-     "t": "20:00",
+     "t": "20:05",
+     "ko": "2026-11-10T20:05:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 FAGE WTA Finals Indian Wells",
+     "lgName": "WTA \u00b7 FAGE WTA Finals Indian Wells \u00b7 Group Stage",
      "sport": "tennis",
      "h": "Jessica Pegula",
      "a": "Marta Kostyuk",
      "side": "h",
      "pick": "Jessica Pegula",
      "c": 0.6313,
+     "p": null,
      "hit": 0.5894,
      "hitN": 151,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:30",
@@ -1547,35 +1574,6 @@
      "hit": 0.5389,
      "hitN": 193,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:30",
-     "ko": "2026-11-10T17:30:00Z",
-     "lg": "af.284",
-     "lgName": "Liga II",
-     "country": "Romania",
-     "h": "Metalul Buz\u0103u",
-     "a": "CSA Steaua Bucure\u015fti",
-     "side": "h",
-     "pick": "Metalul Buz\u0103u",
-     "c": 0.5704,
-     "p": {
-      "h": 0.5704,
-      "d": 0.2571,
-      "a": 0.1726
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5045,
-     "o25": 0.4953,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -2011,35 +2009,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:30",
-     "ko": "2026-11-10T19:30:00Z",
-     "lg": "en.7ss",
-     "lgName": "Southern League Premier South",
-     "country": "England",
-     "h": "Wimborne Town",
-     "a": "Poole Town",
-     "side": "h",
-     "pick": "Wimborne Town",
-     "c": 0.4529,
-     "p": {
-      "h": 0.4529,
-      "d": 0.2836,
-      "a": 0.2635
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5241,
-     "o25": 0.4945,
-     "hit": 0.439,
-     "hitN": 335,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -2570,19 +2539,19 @@
    "pinned": {
     "list": {
      "n": 16,
-     "won": 12,
+     "won": 13,
      "lost": 0,
      "void": 0,
-     "started": 2,
+     "started": 1,
      "upcoming": 2
     },
     "reserve": {
      "n": 41,
-     "won": 25,
+     "won": 26,
      "lost": 6,
      "void": 0,
-     "started": 5,
-     "upcoming": 5
+     "started": 7,
+     "upcoming": 2
     },
     "groupA": {
      "n": 5,
@@ -2604,7 +2573,7 @@
   },
   {
    "date": "2026-11-11",
-   "count": 137,
+   "count": 140,
    "games": [
     {
      "t": "02:00",
@@ -3151,6 +3120,21 @@
      "reserve": true
     },
     {
+     "t": "17:00",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Bybit Stockholm Open",
+     "sport": "tennis",
+     "h": "Casper Ruud",
+     "a": "Alexander Shevchenko",
+     "side": "h",
+     "pick": "Casper Ruud",
+     "c": 0.7843,
+     "hit": 0.8611,
+     "hitN": 36,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:00",
      "ko": "2026-11-11T00:00Z",
      "lg": "ncaab",
@@ -3474,6 +3458,36 @@
      "c": 0.7083,
      "hit": 0.7369,
      "hitN": 658,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "13:30",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Bybit Stockholm Open",
+     "sport": "tennis",
+     "h": "Cameron Norrie",
+     "a": "Taylor Fritz",
+     "side": "a",
+     "pick": "Taylor Fritz",
+     "c": 0.7067,
+     "hit": 0.7593,
+     "hitN": 54,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "18:30",
+     "lg": "ATP",
+     "lgName": "ATP \u00b7 Bybit Stockholm Open",
+     "sport": "tennis",
+     "h": "Holger Rune",
+     "a": "Miomir Kecmanovic",
+     "side": "h",
+     "pick": "Holger Rune",
+     "c": 0.7028,
+     "hit": 0.7593,
+     "hitN": 54,
      "list": false,
      "reserve": true
     },
