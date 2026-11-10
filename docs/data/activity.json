@@ -196,7 +196,7 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-10T20:15:55.875505+00:00",
+ "fetched": "2026-11-10T21:33:03.182505+00:00",
  "commits": [
   {
    "sha": "d672724",
@@ -321,6 +321,24 @@
  ],
  "runs": [
   {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-10T21:15:12Z",
+   "name": "Claude",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42903208826"
+  },
+  {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-10T21:15:12Z",
+   "name": "CEO",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42903207978"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-10T21:14:54Z",
+   "name": "Office merge window",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42903155566"
+  },
+  {
    "conclusion": "success",
    "createdAt": "2026-11-10T19:58:37Z",
    "name": "Rebuild and publish",
@@ -361,24 +379,6 @@
    "createdAt": "2026-11-10T18:46:25Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42878570090"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-10T18:45:09Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42878355059"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-10T18:45:09Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42878355007"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-10T18:45:05Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/42878342287"
   }
  ]
 }
