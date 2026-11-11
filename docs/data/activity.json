@@ -1,6 +1,45 @@
 {
  "prs": [
   {
+   "n": 254,
+   "title": "[curator] Replay own-band List admission for every sport",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/254",
+   "owner": "curator",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-11T19:57:15Z",
+   "merged": "2026-11-11T19:58:47Z",
+   "closed": "2026-11-11T19:58:47Z",
+   "objective": "hq-own-band",
+   "outcome": "evidence"
+  },
+  {
+   "n": 253,
+   "title": "[legs] Card tennis legs: 8/15 against 12 expected",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/253",
+   "owner": "legs",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-11T19:53:49Z",
+   "merged": "2026-11-11T19:55:23Z",
+   "closed": "2026-11-11T19:55:23Z",
+   "objective": "hq-card-legs-tennis",
+   "outcome": "evidence"
+  },
+  {
+   "n": 252,
+   "title": "[sports] College basketball: redo the Nov-Dec calibration curve on current code",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/252",
+   "owner": "sports",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-11T19:50:28Z",
+   "merged": null,
+   "closed": null,
+   "objective": "issue-245",
+   "outcome": null
+  },
+  {
    "n": 223,
    "title": "[odds] Log why tennis tournaments miss an Odds API key",
    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/223",
@@ -38,49 +77,22 @@
    "closed": "2026-11-11T14:45:40Z",
    "objective": "hq-card-timing",
    "outcome": null
-  },
-  {
-   "n": 198,
-   "title": "[curator] Reserve (football) landing below its quotes",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/198",
-   "owner": "curator",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-10T07:52:50Z",
-   "merged": "2026-11-10T07:54:22Z",
-   "closed": "2026-11-10T07:54:22Z",
-   "objective": "hq-reserve-football",
-   "outcome": "evidence"
-  },
-  {
-   "n": 197,
-   "title": "[value] Stake size and bankroll for the Card",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/197",
-   "owner": "value",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-10T07:49:19Z",
-   "merged": "2026-11-10T07:50:50Z",
-   "closed": "2026-11-10T07:50:50Z",
-   "objective": "hq-card-stake",
-   "outcome": "evidence"
-  },
-  {
-   "n": 196,
-   "title": "[odds] Which bookmaker to write the Card for",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/196",
-   "owner": "odds",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-10T07:42:03Z",
-   "merged": "2026-11-10T07:43:36Z",
-   "closed": "2026-11-10T07:43:36Z",
-   "objective": "hq-card-book",
-   "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-11T19:13:04.319186+00:00",
+ "fetched": "2026-11-11T20:00:41.505221+00:00",
  "commits": [
+  {
+   "sha": "0088bd3",
+   "msg": "Office agent (curator): Replay own-band List admission for every sport (#254)",
+   "date": "2026-11-11T19:58:46Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/0088bd3f6408a62819b4dde9ec5013979c525fb0"
+  },
+  {
+   "sha": "99781f5",
+   "msg": "Office agent (legs): Card tennis legs: 8/15 against 12 expected (#253)",
+   "date": "2026-11-11T19:55:22Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/99781f59ce1ba7d68fa65b68c0c1862cf5ee655f"
+  },
   {
    "sha": "81560bc",
    "msg": "Archive predictions and record for 2026-11-11 [skip ci]",
@@ -188,80 +200,68 @@
    "msg": "The list at William Hill counts every settled pick (#242)",
    "date": "2026-11-11T12:40:44Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/06b66f6d85e735fe99dd681d07ff8bfa284e4375"
-  },
-  {
-   "sha": "814b992",
-   "msg": "Archive predictions and record for 2026-11-11 [skip ci]",
-   "date": "2026-11-11T10:39:51Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/814b992f994e27f31d06e6b09aca176fa716e73d"
-  },
-  {
-   "sha": "3ed9c83",
-   "msg": "Odds for every game, and the free price sources (Betfair, Matchbook, SportsGameOdds) (#240)",
-   "date": "2026-11-11T10:36:14Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3ed9c83bb60716029b4e9930e57ebc8e9d9c6b41"
   }
  ],
  "runs": [
   {
    "conclusion": "success",
-   "createdAt": "2026-11-11T18:54:03Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43082112355"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-11T16:40:04Z",
-   "name": "Claude",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43060572196"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-11T16:40:04Z",
-   "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43060572026"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-11T16:38:05Z",
+   "createdAt": "2026-11-11T19:57:18Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43060262729"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43091946569"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-11T16:38:05Z",
+   "createdAt": "2026-11-11T19:57:17Z",
    "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43060262693"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43091945854"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-11T16:38:02Z",
+   "createdAt": "2026-11-11T19:57:10Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43060255044"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43091926478"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-11T16:26:03Z",
+   "createdAt": "2026-11-11T19:53:53Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43058281192"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43091433598"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-11T16:26:03Z",
+   "createdAt": "2026-11-11T19:53:53Z",
    "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43058281024"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43091433533"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-11T16:25:59Z",
+   "createdAt": "2026-11-11T19:53:44Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43058269367"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43091413509"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-11T16:25:06Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43058123524"
+   "createdAt": "2026-11-11T19:50:33Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43090931178"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-11T19:50:33Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43090931112"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-11T19:50:23Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43090903547"
+  },
+  {
+   "conclusion": "",
+   "createdAt": "2026-11-11T19:46:22Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43090295162"
   }
  ]
 }
