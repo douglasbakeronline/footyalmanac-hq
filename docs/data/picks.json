@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-11T01:58:34",
- "fetched": "2026-11-11T02:01:46.550880+00:00",
+ "generated": "2026-11-11T02:03:57",
+ "fetched": "2026-11-11T02:51:59.636608+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-11",
-   "count": 141,
+   "count": 140,
    "games": [
     {
      "t": "02:00",
@@ -80,7 +80,7 @@
      "a": "Virginia Lynchburg Dragons",
      "side": "h",
      "pick": "Western Carolina Catamounts",
-     "c": 0.9645,
+     "c": 0.967,
      "hit": 0.9157,
      "hitN": 1258,
      "list": true,
@@ -287,9 +287,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "131-50"
     },
     {
      "t": "00:00",
@@ -392,9 +392,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "78-55"
     },
     {
      "t": "19:00",
@@ -507,9 +507,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "76-69"
     },
     {
      "t": "01:00",
@@ -1427,9 +1427,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "100-55"
     },
     {
      "t": "23:30",
@@ -1729,35 +1729,6 @@
      "hitN": 704,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-11-11T17:00:00Z",
-     "lg": "af.69",
-     "lgName": "National 2 - Group C",
-     "country": "France",
-     "h": "Andr\u00e9zieux",
-     "a": "Chateauroux",
-     "side": "h",
-     "pick": "Andr\u00e9zieux",
-     "c": 0.6195,
-     "p": {
-      "h": 0.6195,
-      "d": 0.227,
-      "a": 0.1536
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5229,
-     "o25": 0.5292,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     },
     {
      "t": "10:00",
@@ -3445,41 +3416,41 @@
    "pinned": {
     "list": {
      "n": 24,
-     "won": 0,
+     "won": 2,
      "lost": 0,
      "void": 0,
-     "started": 14,
-     "upcoming": 10
+     "started": 17,
+     "upcoming": 5
     },
     "reserve": {
      "n": 53,
-     "won": 1,
+     "won": 3,
      "lost": 0,
      "void": 0,
-     "started": 29,
-     "upcoming": 23
+     "started": 33,
+     "upcoming": 17
     },
     "groupA": {
      "n": 5,
      "won": 0,
      "lost": 0,
      "void": 0,
-     "started": 1,
-     "upcoming": 4
+     "started": 4,
+     "upcoming": 1
     },
     "groupB": {
      "n": 5,
      "won": 0,
      "lost": 0,
      "void": 0,
-     "started": 4,
-     "upcoming": 1
+     "started": 5,
+     "upcoming": 0
     }
    }
   },
   {
    "date": "2026-11-12",
-   "count": 88,
+   "count": 90,
    "games": [
     {
      "t": "03:00",
@@ -4258,6 +4229,21 @@
      "reserve": true
     },
     {
+     "t": "20:00",
+     "lg": "WTA",
+     "lgName": "WTA \u00b7 FAGE WTA Finals Indian Wells",
+     "sport": "tennis",
+     "h": "Coco Gauff",
+     "a": "Marta Kostyuk",
+     "side": "h",
+     "pick": "Coco Gauff",
+     "c": 0.6773,
+     "hit": 0.6979,
+     "hitN": 96,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "19:45",
      "ko": "2026-11-12T19:45:00Z",
      "lg": "uefa.nations",
@@ -4484,6 +4470,35 @@
      "hitN": 197,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-12T13:00:00Z",
+     "lg": "af.585",
+     "lgName": "Premier League",
+     "country": "Uganda",
+     "h": "Kigezi HomeBoyz",
+     "a": "Vipers",
+     "side": "a",
+     "pick": "Vipers",
+     "c": 0.5973,
+     "p": {
+      "h": 0.1293,
+      "d": 0.2734,
+      "a": 0.5973
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.4533,
+     "o25": 0.4476,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
     },
     {
      "t": "22:00",
@@ -5504,8 +5519,24 @@
   },
   {
    "date": "2026-11-13",
-   "count": 100,
+   "count": 99,
    "games": [
+    {
+     "t": "00:00",
+     "ko": "2026-11-13T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Coastal Carolina Chanticleers",
+     "a": "Virginia Lynchburg Dragons",
+     "side": "h",
+     "pick": "Coastal Carolina Chanticleers",
+     "c": 0.9507,
+     "hit": 0.9157,
+     "hitN": 1258,
+     "list": true,
+     "reserve": false
+    },
     {
      "t": "20:00",
      "ko": "2026-11-13T20:00:00Z",
@@ -5534,22 +5565,6 @@
      "list": true,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-13T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Coastal Carolina Chanticleers",
-     "a": "Virginia Lynchburg Dragons",
-     "side": "h",
-     "pick": "Coastal Carolina Chanticleers",
-     "c": 0.9471,
-     "hit": 0.9157,
-     "hitN": 1258,
-     "list": true,
-     "reserve": false
     },
     {
      "t": "22:00",
@@ -5641,7 +5656,7 @@
      "a": "Bryant Bulldogs",
      "side": "h",
      "pick": "Rutgers Scarlet Knights",
-     "c": 0.8764,
+     "c": 0.8835,
      "hit": 0.9157,
      "hitN": 1258,
      "list": true,
@@ -7312,35 +7327,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-13T17:00:00Z",
-     "lg": "af.635",
-     "lgName": "NB III - Northwest",
-     "country": "Hungary",
-     "h": "SC Sopron",
-     "a": "Halad\u00e1s VSE",
-     "side": "a",
-     "pick": "Halad\u00e1s VSE",
-     "c": 0.4671,
-     "p": {
-      "h": 0.2782,
-      "d": 0.2547,
-      "a": 0.4671
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5666,
-     "o25": 0.5487,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:00",
      "ko": "2026-11-13T18:00:00Z",
      "lg": "af.938",
@@ -8098,7 +8084,7 @@
   },
   {
    "date": "2026-11-14",
-   "count": 514,
+   "count": 521,
    "games": [
     {
      "t": "02:30",
@@ -8652,22 +8638,6 @@
      "reserve": false
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-14T21:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Navy Midshipmen",
-     "a": "Hampton Pirates",
-     "side": "h",
-     "pick": "Navy Midshipmen",
-     "c": 0.8647,
-     "hit": 0.9157,
-     "hitN": 1258,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "10:00",
      "ko": "2026-11-14T10:00:00Z",
      "lg": "af.205",
@@ -8809,6 +8779,22 @@
      "reserve": true
     },
     {
+     "t": "21:00",
+     "ko": "2026-11-14T21:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Navy Midshipmen",
+     "a": "Hampton Pirates",
+     "side": "h",
+     "pick": "Navy Midshipmen",
+     "c": 0.8427,
+     "hit": 0.7893,
+     "hitN": 626,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "03:15",
      "ko": "2026-11-14T03:15Z",
      "lg": "cfb",
@@ -8835,6 +8821,22 @@
      "side": "h",
      "pick": "Utah State Aggies",
      "c": 0.8412,
+     "hit": 0.7893,
+     "hitN": 626,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "23:00",
+     "ko": "2026-11-14T23:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "North Texas Mean Green",
+     "a": "South Alabama Jaguars",
+     "side": "h",
+     "pick": "North Texas Mean Green",
+     "c": 0.8369,
      "hit": 0.7893,
      "hitN": 626,
      "list": false,
@@ -8915,22 +8917,6 @@
      "side": "h",
      "pick": "Alabama Crimson Tide",
      "c": 0.8305,
-     "hit": 0.7893,
-     "hitN": 626,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "23:00",
-     "ko": "2026-11-14T23:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "North Texas Mean Green",
-     "a": "South Alabama Jaguars",
-     "side": "h",
-     "pick": "North Texas Mean Green",
-     "c": 0.8295,
      "hit": 0.7893,
      "hitN": 626,
      "list": false,
@@ -9142,6 +9128,22 @@
      "reserve": true
     },
     {
+     "t": "01:00",
+     "ko": "2026-11-14T01:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "UCF Knights",
+     "a": "Georgia Southern Eagles",
+     "side": "h",
+     "pick": "UCF Knights",
+     "c": 0.8045,
+     "hit": 0.7893,
+     "hitN": 626,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "12:00",
      "ko": "2026-11-14T12:00:00Z",
      "lg": "af.317",
@@ -9256,22 +9258,6 @@
      "list": true,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "01:00",
-     "ko": "2026-11-14T01:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "UCF Knights",
-     "a": "Georgia Southern Eagles",
-     "side": "h",
-     "pick": "UCF Knights",
-     "c": 0.796,
-     "hit": 0.7492,
-     "hitN": 630,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "21:00",
@@ -11362,6 +11348,22 @@
      "unrated": false
     },
     {
+     "t": "23:00",
+     "ko": "2026-11-14T23:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Providence Friars",
+     "a": "Colorado Buffaloes",
+     "side": "h",
+     "pick": "Providence Friars",
+     "c": 0.6254,
+     "hit": 0.5806,
+     "hitN": 704,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "02:00",
      "ko": "2026-11-14T02:00Z",
      "lg": "ncaab",
@@ -12227,6 +12229,35 @@
      ],
      "btts": 0.5165,
      "o25": 0.5104,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-11-14T17:00:00Z",
+     "lg": "af.451",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 13",
+     "country": "Spain",
+     "h": "Uni\u00f3n Molinense",
+     "a": "SFC Minerva",
+     "side": "h",
+     "pick": "Uni\u00f3n Molinense",
+     "c": 0.5766,
+     "p": {
+      "h": 0.5766,
+      "d": 0.2835,
+      "a": 0.1399
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4539,
+     "o25": 0.4425,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -13656,6 +13687,35 @@
      "unrated": false
     },
     {
+     "t": "17:00",
+     "ko": "2026-11-14T17:00:00Z",
+     "lg": "af.444",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 6",
+     "country": "Spain",
+     "h": "Crevillente",
+     "a": "Jove Espa\u00f1ol",
+     "side": "h",
+     "pick": "Crevillente",
+     "c": 0.5182,
+     "p": {
+      "h": 0.5182,
+      "d": 0.258,
+      "a": 0.2237
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5374,
+     "o25": 0.5214,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:30",
      "ko": "2026-11-14T13:30:00Z",
      "lg": "en.w1",
@@ -13709,6 +13769,35 @@
      "hit": 0.4896,
      "hitN": 194,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-11-14T18:00:00Z",
+     "lg": "af.456",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 18",
+     "country": "Spain",
+     "h": "Noblejas",
+     "a": "Quintanar del Rey",
+     "side": "h",
+     "pick": "Noblejas",
+     "c": 0.5164,
+     "p": {
+      "h": 0.5164,
+      "d": 0.2694,
+      "a": 0.2142
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5184,
+     "o25": 0.4988,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -15454,6 +15543,35 @@
      "unrated": false
     },
     {
+     "t": "18:00",
+     "ko": "2026-11-14T18:00:00Z",
+     "lg": "af.451",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 13",
+     "country": "Spain",
+     "h": "\u00c1guilas II",
+     "a": "Santomera",
+     "side": "h",
+     "pick": "\u00c1guilas II",
+     "c": 0.4712,
+     "p": {
+      "h": 0.4712,
+      "d": 0.2699,
+      "a": 0.2589
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5393,
+     "o25": 0.5155,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "11:00",
      "ko": "2026-11-14T11:00:00Z",
      "lg": "af.336",
@@ -15591,6 +15709,35 @@
      ],
      "btts": 0.5234,
      "o25": 0.4952,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "14:00",
+     "ko": "2026-11-14T14:00:00Z",
+     "lg": "af.428",
+     "lgName": "Serie D - Girone C",
+     "country": "Italy",
+     "h": "Brian Lignano",
+     "a": "Cjarlins Muzane",
+     "side": "a",
+     "pick": "Cjarlins Muzane",
+     "c": 0.4629,
+     "p": {
+      "h": 0.2786,
+      "d": 0.2585,
+      "a": 0.4629
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5617,
+     "o25": 0.542,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -18441,6 +18588,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-11-14T13:00:00Z",
+     "lg": "af.579",
+     "lgName": "Gamma Ethniki - Group 4",
+     "country": "Greece",
+     "h": "Karitsa",
+     "a": "Ermis Exochi",
+     "side": "a",
+     "pick": "Ermis Exochi",
+     "c": 0.408,
+     "p": {
+      "h": 0.3103,
+      "d": 0.2816,
+      "a": 0.408
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5394,
+     "o25": 0.5083,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:30",
      "ko": "2026-11-14T15:30:00Z",
      "lg": "af.875",
@@ -18755,6 +18931,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:00",
+     "ko": "2026-11-14T16:00:00Z",
+     "lg": "af.456",
+     "lgName": "Tercera Divisi\u00f3n RFEF - Group 18",
+     "country": "Spain",
+     "h": "Manchego",
+     "a": "CD Villa",
+     "side": "h",
+     "pick": "Manchego",
+     "c": 0.4009,
+     "p": {
+      "h": 0.4009,
+      "d": 0.2959,
+      "a": 0.3032
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5196,
+     "o25": 0.4833,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -19973,35 +20178,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:00",
-     "ko": "2026-11-14T13:00:00Z",
-     "lg": "af.577",
-     "lgName": "Gamma Ethniki - Group 2",
-     "country": "Greece",
-     "h": "PAO Kristoni",
-     "a": "Finikas Polichnis",
-     "side": "h",
-     "pick": "PAO Kristoni",
-     "c": 0.3807,
-     "p": {
-      "h": 0.3807,
-      "d": 0.2784,
-      "a": 0.3408
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5482,
-     "o25": 0.5179,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -21489,7 +21665,7 @@
   },
   {
    "date": "2026-11-15",
-   "count": 488,
+   "count": 482,
    "games": [
     {
      "t": "17:00",
@@ -24459,35 +24635,6 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-15T17:00:00Z",
-     "lg": "af.451",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 13",
-     "country": "Spain",
-     "h": "Uni\u00f3n Molinense",
-     "a": "SFC Minerva",
-     "side": "h",
-     "pick": "Uni\u00f3n Molinense",
-     "c": 0.5766,
-     "p": {
-      "h": 0.5766,
-      "d": 0.2835,
-      "a": 0.1399
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4539,
-     "o25": 0.4425,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-15T13:30:00Z",
      "lg": "af.426",
@@ -26344,35 +26491,6 @@
      "unrated": false
     },
     {
-     "t": "16:30",
-     "ko": "2026-11-15T16:30:00Z",
-     "lg": "af.444",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 6",
-     "country": "Spain",
-     "h": "Crevillente",
-     "a": "Jove Espa\u00f1ol",
-     "side": "h",
-     "pick": "Crevillente",
-     "c": 0.5182,
-     "p": {
-      "h": 0.5182,
-      "d": 0.258,
-      "a": 0.2237
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5374,
-     "o25": 0.5214,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "10:30",
      "ko": "2026-11-15T10:30:00Z",
      "lg": "af.877",
@@ -26455,35 +26573,6 @@
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-11-15T17:00:00Z",
-     "lg": "af.456",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 18",
-     "country": "Spain",
-     "h": "Noblejas",
-     "a": "Quintanar del Rey",
-     "side": "h",
-     "pick": "Noblejas",
-     "c": 0.5164,
-     "p": {
-      "h": 0.5164,
-      "d": 0.2694,
-      "a": 0.2142
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5184,
-     "o25": 0.4988,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -27997,35 +28086,6 @@
      "unrated": false
     },
     {
-     "t": "11:30",
-     "ko": "2026-11-15T11:30:00Z",
-     "lg": "af.451",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 13",
-     "country": "Spain",
-     "h": "\u00c1guilas II",
-     "a": "Santomera",
-     "side": "h",
-     "pick": "\u00c1guilas II",
-     "c": 0.4712,
-     "p": {
-      "h": 0.4712,
-      "d": 0.2699,
-      "a": 0.2589
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5393,
-     "o25": 0.5155,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-15T13:30:00Z",
      "lg": "af.428",
@@ -28171,6 +28231,35 @@
      "unrated": false
     },
     {
+     "t": "12:00",
+     "ko": "2026-11-15T12:00:00Z",
+     "lg": "af.635",
+     "lgName": "NB III - Northwest",
+     "country": "Hungary",
+     "h": "SC Sopron",
+     "a": "Halad\u00e1s VSE",
+     "side": "a",
+     "pick": "Halad\u00e1s VSE",
+     "c": 0.4671,
+     "p": {
+      "h": 0.2782,
+      "d": 0.2547,
+      "a": 0.4671
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5666,
+     "o25": 0.5487,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:30",
      "ko": "2026-11-15T13:30:00Z",
      "lg": "af.432",
@@ -28282,35 +28371,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:30",
-     "ko": "2026-11-15T13:30:00Z",
-     "lg": "af.428",
-     "lgName": "Serie D - Girone C",
-     "country": "Italy",
-     "h": "Brian Lignano",
-     "a": "Cjarlins Muzane",
-     "side": "a",
-     "pick": "Cjarlins Muzane",
-     "c": 0.4629,
-     "p": {
-      "h": 0.2786,
-      "d": 0.2585,
-      "a": 0.4629
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5617,
-     "o25": 0.542,
-     "hit": 0.4867,
-     "hitN": 9010,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -31158,35 +31218,6 @@
      "unrated": false
     },
     {
-     "t": "13:00",
-     "ko": "2026-11-15T13:00:00Z",
-     "lg": "af.579",
-     "lgName": "Gamma Ethniki - Group 4",
-     "country": "Greece",
-     "h": "Karitsa",
-     "a": "Ermis Exochi",
-     "side": "a",
-     "pick": "Ermis Exochi",
-     "c": 0.408,
-     "p": {
-      "h": 0.3103,
-      "d": 0.2816,
-      "a": 0.408
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5394,
-     "o25": 0.5083,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "10:00",
      "ko": "2026-11-15T10:00:00Z",
      "lg": "af.552",
@@ -31791,35 +31822,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-11-15T17:00:00Z",
-     "lg": "af.456",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 18",
-     "country": "Spain",
-     "h": "Manchego",
-     "a": "CD Villa",
-     "side": "h",
-     "pick": "Manchego",
-     "c": 0.4009,
-     "p": {
-      "h": 0.4009,
-      "d": 0.2959,
-      "a": 0.3032
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5196,
-     "o25": 0.4833,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -32603,6 +32605,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-15T13:00:00Z",
+     "lg": "af.577",
+     "lgName": "Gamma Ethniki - Group 2",
+     "country": "Greece",
+     "h": "PAO Kristoni",
+     "a": "Finikas Polichnis",
+     "side": "h",
+     "pick": "PAO Kristoni",
+     "c": 0.3807,
+     "p": {
+      "h": 0.3807,
+      "d": 0.2784,
+      "a": 0.3408
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5482,
+     "o25": 0.5179,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -34781,41 +34812,12 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "12:00",
-     "ko": "2026-11-15T12:00:00Z",
-     "lg": "af.287",
-     "lgName": "Prva Liga",
-     "country": "Serbia",
-     "h": "Grafi\u010dar",
-     "a": "FK Vozdovac",
-     "side": "a",
-     "pick": "FK Vozdovac",
-     "c": 0.3408,
-     "p": {
-      "h": 0.3373,
-      "d": 0.3219,
-      "a": 0.3408
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4913,
-     "o25": 0.447,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     }
    ]
   },
   {
    "date": "2026-11-16",
-   "count": 57,
+   "count": 58,
    "games": [
     {
      "t": "00:00",
@@ -36300,6 +36302,35 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "12:00",
+     "ko": "2026-11-16T12:00:00Z",
+     "lg": "af.287",
+     "lgName": "Prva Liga",
+     "country": "Serbia",
+     "h": "Grafi\u010dar",
+     "a": "FK Vozdovac",
+     "side": "a",
+     "pick": "FK Vozdovac",
+     "c": 0.3408,
+     "p": {
+      "h": 0.3373,
+      "d": 0.3219,
+      "a": 0.3408
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4913,
+     "o25": 0.447,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
     }
    ]
   },
@@ -36417,22 +36448,6 @@
      "reserve": false
     },
     {
-     "t": "00:00",
-     "ko": "2026-11-17T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Clemson Tigers",
-     "a": "The Citadel Bulldogs",
-     "side": "h",
-     "pick": "Clemson Tigers",
-     "c": 0.9218,
-     "hit": 0.9157,
-     "hitN": 1258,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "00:30",
      "ko": "2026-11-17T00:30Z",
      "lg": "ncaab",
@@ -36443,6 +36458,22 @@
      "side": "h",
      "pick": "Southeast Missouri State Redhawks",
      "c": 0.9172,
+     "hit": 0.9157,
+     "hitN": 1258,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-17T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Clemson Tigers",
+     "a": "The Citadel Bulldogs",
+     "side": "h",
+     "pick": "Clemson Tigers",
+     "c": 0.9161,
      "hit": 0.9157,
      "hitN": 1258,
      "list": true,
@@ -36544,6 +36575,22 @@
      "lg": "ncaab",
      "lgName": "NCAA",
      "sport": "ncaab",
+     "h": "North Carolina Central Eagles",
+     "a": "Virginia Lynchburg Dragons",
+     "side": "h",
+     "pick": "North Carolina Central Eagles",
+     "c": 0.8863,
+     "hit": 0.9157,
+     "hitN": 1258,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-17T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
      "h": "Georgia Bulldogs",
      "a": "Jacksonville Dolphins",
      "side": "h",
@@ -36565,22 +36612,6 @@
      "side": "h",
      "pick": "UC San Diego Tritons",
      "c": 0.8838,
-     "hit": 0.9157,
-     "hitN": 1258,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-17T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "North Carolina Central Eagles",
-     "a": "Virginia Lynchburg Dragons",
-     "side": "h",
-     "pick": "North Carolina Central Eagles",
-     "c": 0.8784,
      "hit": 0.9157,
      "hitN": 1258,
      "list": true,
@@ -37400,6 +37431,35 @@
      "reserve": true
     },
     {
+     "t": "16:00",
+     "ko": "2026-11-17T16:00:00Z",
+     "lg": "af.69",
+     "lgName": "National 2 - Group C",
+     "country": "France",
+     "h": "Andr\u00e9zieux",
+     "a": "Chateauroux",
+     "side": "h",
+     "pick": "Andr\u00e9zieux",
+     "c": 0.6195,
+     "p": {
+      "h": 0.6195,
+      "d": 0.227,
+      "a": 0.1536
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5229,
+     "o25": 0.5292,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-11-17T13:00:00Z",
      "lg": "afcon.q",
@@ -37684,35 +37744,6 @@
      "o25": 0.4557,
      "hit": 0.7047,
      "hitN": 44,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:45",
-     "ko": "2026-11-17T19:45:00Z",
-     "lg": "en.6s",
-     "lgName": "National League South",
-     "country": "England",
-     "h": "Torquay",
-     "a": "Dover",
-     "side": "h",
-     "pick": "Torquay",
-     "c": 0.5556,
-     "p": {
-      "h": 0.5556,
-      "d": 0.2423,
-      "a": 0.2021
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5436,
-     "o25": 0.5367,
-     "hit": 0.5352,
-     "hitN": 99,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -39135,6 +39166,22 @@
      "reserve": false
     },
     {
+     "t": "00:00",
+     "ko": "2026-11-18T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Xavier Musketeers",
+     "a": "Cleveland State Vikings",
+     "side": "h",
+     "pick": "Xavier Musketeers",
+     "c": 0.8636,
+     "hit": 0.9157,
+     "hitN": 1258,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "01:00",
      "ko": "2026-11-18T01:00Z",
      "lg": "ncaab",
@@ -39145,6 +39192,22 @@
      "side": "h",
      "pick": "Illinois State Redbirds",
      "c": 0.8569,
+     "hit": 0.9157,
+     "hitN": 1258,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "00:30",
+     "ko": "2026-11-18T00:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Massachusetts Minutemen",
+     "a": "Bryant Bulldogs",
+     "side": "h",
+     "pick": "Massachusetts Minutemen",
+     "c": 0.8517,
      "hit": 0.9157,
      "hitN": 1258,
      "list": true,
@@ -39167,22 +39230,6 @@
      "reserve": true
     },
     {
-     "t": "00:30",
-     "ko": "2026-11-18T00:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Massachusetts Minutemen",
-     "a": "Bryant Bulldogs",
-     "side": "h",
-     "pick": "Massachusetts Minutemen",
-     "c": 0.843,
-     "hit": 0.7893,
-     "hitN": 626,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "01:00",
      "ko": "2026-11-18T01:00Z",
      "lg": "ncaab",
@@ -39193,22 +39240,6 @@
      "side": "h",
      "pick": "SMU Mustangs",
      "c": 0.8359,
-     "hit": 0.7893,
-     "hitN": 626,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-18T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Xavier Musketeers",
-     "a": "Cleveland State Vikings",
-     "side": "h",
-     "pick": "Xavier Musketeers",
-     "c": 0.8334,
      "hit": 0.7893,
      "hitN": 626,
      "list": false,
@@ -39320,7 +39351,7 @@
      "a": "Mississippi State Bulldogs",
      "side": "h",
      "pick": "UCF Knights",
-     "c": 0.7625,
+     "c": 0.772,
      "hit": 0.7492,
      "hitN": 630,
      "list": false,
@@ -39423,6 +39454,22 @@
      "reserve": true
     },
     {
+     "t": "00:00",
+     "ko": "2026-11-18T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Providence Friars",
+     "a": "Sacred Heart Pioneers",
+     "side": "h",
+     "pick": "Providence Friars",
+     "c": 0.7065,
+     "hit": 0.7369,
+     "hitN": 658,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:30",
      "ko": "2026-11-18T00:30Z",
      "lg": "ncaab",
@@ -39465,22 +39512,6 @@
      "side": "h",
      "pick": "William & Mary Tribe",
      "c": 0.6985,
-     "hit": 0.6261,
-     "hitN": 620,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-18T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Providence Friars",
-     "a": "Sacred Heart Pioneers",
-     "side": "h",
-     "pick": "Providence Friars",
-     "c": 0.6924,
      "hit": 0.6261,
      "hitN": 620,
      "list": false,
