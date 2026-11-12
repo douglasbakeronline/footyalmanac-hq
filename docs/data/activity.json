@@ -1,6 +1,19 @@
 {
  "prs": [
   {
+   "n": 267,
+   "title": "[sports] Baseball (MLB) landing above its quotes",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/267",
+   "owner": "sports",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-12T07:34:30Z",
+   "merged": null,
+   "closed": null,
+   "objective": "hq-sport-mlb",
+   "outcome": null
+  },
+  {
    "n": 265,
    "title": "[sports] Baseball: redo the MLB Elo retune on current code",
    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/265",
@@ -105,8 +118,26 @@
    "outcome": null
   }
  ],
- "fetched": "2026-11-12T03:56:46.837408+00:00",
+ "fetched": "2026-11-12T08:55:22.644786+00:00",
  "commits": [
+  {
+   "sha": "2a935cb",
+   "msg": "Card funnel: count legs lost to a missing price (price_gaps) (#268)",
+   "date": "2026-11-12T08:43:59Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/2a935cb26d576d5efb051707661f86fc18266601"
+  },
+  {
+   "sha": "9478130",
+   "msg": "Archive predictions and record for 2026-11-12 [skip ci]",
+   "date": "2026-11-12T07:06:25Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/94781300bf4b8e80e888d78885f9c3177329a54d"
+  },
+  {
+   "sha": "1ddfd6a",
+   "msg": "Card replay: two-pick groups (m7legs2) replayed and refused (#266)",
+   "date": "2026-11-12T04:52:49Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1ddfd6abec833bfb2d2de9813c55cb9945b5a0e5"
+  },
   {
    "sha": "677d098",
    "msg": "Archive predictions and record for 2026-11-12 [skip ci]",
@@ -208,86 +239,68 @@
    "msg": "Tennis at 85% on the Card, Under 80 mark, rows keep their place (#257)",
    "date": "2026-11-11T21:50:56Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/64a47ce6afdc127a7fd04864eab50389d0daa8fe"
-  },
-  {
-   "sha": "c7a7e25",
-   "msg": "Card: the league limit read by the replay and the funnel, m7wide pre-registered (#256)",
-   "date": "2026-11-11T21:47:44Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/c7a7e252e1380a1567f9df87f6318af6470a2182"
-  },
-  {
-   "sha": "ccee922",
-   "msg": "Archive predictions and record for 2026-11-11 [skip ci]",
-   "date": "2026-11-11T21:46:32Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ccee92256668e56a5e9f71c606e7765c57c35864"
-  },
-  {
-   "sha": "c8c433a",
-   "msg": "Build log: one line per price source (#250)",
-   "date": "2026-11-11T21:41:50Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/c8c433a6278ef1e0dc703a60b57e13bd5a96a9c5"
   }
  ],
  "runs": [
   {
-   "conclusion": "success",
-   "createdAt": "2026-11-12T02:56:16Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43144783048"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-12T01:36:31Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43135664094"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-12T01:00:08Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43131376599"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-12T01:00:08Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43131376573"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-12T00:59:59Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43131357548"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-12T00:56:22Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43130949295"
-  },
-  {
    "conclusion": "skipped",
-   "createdAt": "2026-11-12T00:51:24Z",
+   "createdAt": "2026-11-12T08:44:05Z",
    "name": "Claude",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43130345261"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43185375717"
   },
   {
    "conclusion": "skipped",
-   "createdAt": "2026-11-12T00:51:23Z",
+   "createdAt": "2026-11-12T08:44:05Z",
    "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43130345071"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43185375691"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-12T00:47:19Z",
+   "createdAt": "2026-11-12T08:40:32Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43129851641"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43184895054"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-12T00:47:19Z",
+   "createdAt": "2026-11-12T08:40:32Z",
    "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43129851575"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43184895010"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-12T08:40:30Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43184889109"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-12T07:34:34Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43176271430"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-12T07:34:33Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43176271289"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-12T07:34:26Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43176255858"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-12T07:29:23Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43175620769"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-12T07:01:33Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43172227626"
   }
  ]
 }
