@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-12T16:20:57",
- "fetched": "2026-11-12T19:00:05.656014+00:00",
+ "generated": "2026-11-12T19:19:18",
+ "fetched": "2026-11-12T19:30:13.418862+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-12",
-   "count": 86,
+   "count": 80,
    "games": [
     {
      "t": "03:00",
@@ -771,9 +771,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Bianca Andreescu won"
     },
     {
      "t": "01:00",
@@ -1137,9 +1137,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "Polona Hercog won"
     },
     {
      "t": "01:00",
@@ -1195,8 +1195,8 @@
      "pick": "Lorenzo Musetti",
      "c": 0.6476,
      "p": null,
-     "hit": 0.5889,
-     "hitN": 90,
+     "hit": 0.5955,
+     "hitN": 89,
      "list": false,
      "reserve": true,
      "pinned": true,
@@ -1221,7 +1221,7 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "void",
      "score": null,
      "res": null
     },
@@ -1355,9 +1355,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "Elizabeth Mandlik won"
     },
     {
      "t": "22:00",
@@ -1418,64 +1418,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-11-12T16:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Madagascar",
-     "a": "Guinea-Bissau",
-     "side": "h",
-     "pick": "Madagascar",
-     "c": 0.539,
-     "p": {
-      "h": 0.539,
-      "d": 0.2699,
-      "a": 0.1912
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4993,
-     "o25": 0.4791,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-11-12T17:00:00Z",
-     "lg": "uefa.nations",
-     "lgName": "UEFA Nations League",
-     "country": "International",
-     "h": "Armenia",
-     "a": "Cyprus",
-     "side": "h",
-     "pick": "Armenia",
-     "c": 0.5282,
-     "p": {
-      "h": 0.5282,
-      "d": 0.2503,
-      "a": 0.2216
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5522,
-     "o25": 0.5443,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:30",
      "ko": "2026-11-12T17:30:00Z",
      "lg": "afc.143",
@@ -1500,35 +1442,6 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:00",
-     "ko": "2026-11-12T17:00:00Z",
-     "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
-     "h": "Lithuania",
-     "a": "Suriname",
-     "side": "a",
-     "pick": "Suriname",
-     "c": 0.4721,
-     "p": {
-      "h": 0.236,
-      "d": 0.292,
-      "a": 0.4721
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4983,
-     "o25": 0.4653,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -1615,35 +1528,6 @@
      "o25": 0.4539,
      "hit": 0.4634,
      "hitN": 259,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-11-12T16:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Equatorial Guinea",
-     "a": "Zimbabwe",
-     "side": "h",
-     "pick": "Equatorial Guinea",
-     "c": 0.4524,
-     "p": {
-      "h": 0.4524,
-      "d": 0.3005,
-      "a": 0.2471
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4913,
-     "o25": 0.4539,
-     "hit": null,
-     "hitN": null,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1882,8 +1766,8 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-12T20:00:00Z",
+     "t": "19:00",
+     "ko": "2026-11-12T19:00:00Z",
      "lg": "concacaf.nations",
      "lgName": "CONCACAF Nations League",
      "country": "International",
@@ -1903,35 +1787,6 @@
      ],
      "btts": 0.5524,
      "o25": 0.5233,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:50",
-     "ko": "2026-11-12T13:50:00Z",
-     "lg": "afc.1197",
-     "lgName": "FA Cup",
-     "country": "Oman",
-     "h": "Oman Club",
-     "a": "Al Nasr",
-     "side": "a",
-     "pick": "Al Nasr",
-     "c": 0.3761,
-     "p": {
-      "h": 0.2928,
-      "d": 0.331,
-      "a": 0.3761
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4781,
-     "o25": 0.4323,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -2025,35 +1880,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-11-12T15:00:00Z",
-     "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
-     "h": "Uzbekistan",
-     "a": "Russia",
-     "side": "d",
-     "pick": "Draw",
-     "c": 0.3346,
-     "p": {
-      "h": 0.3313,
-      "d": 0.3346,
-      "a": 0.3342
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5319,
-     "o25": 0.5018,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     }
    ],
    "pinned": {
@@ -2062,16 +1888,16 @@
      "won": 13,
      "lost": 2,
      "void": 0,
-     "started": 2,
-     "upcoming": 1
+     "started": 3,
+     "upcoming": 0
     },
     "reserve": {
      "n": 40,
-     "won": 17,
-     "lost": 7,
-     "void": 0,
-     "started": 2,
-     "upcoming": 14
+     "won": 18,
+     "lost": 9,
+     "void": 1,
+     "started": 5,
+     "upcoming": 7
     },
     "groupA": {
      "n": 5,
@@ -2086,8 +1912,8 @@
      "won": 2,
      "lost": 1,
      "void": 0,
-     "started": 1,
-     "upcoming": 1
+     "started": 2,
+     "upcoming": 0
     }
    }
   },
@@ -4644,7 +4470,7 @@
   },
   {
    "date": "2026-11-14",
-   "count": 522,
+   "count": 521,
    "games": [
     {
      "t": "02:30",
@@ -8344,35 +8170,6 @@
      "hit": 0.7052,
      "hitN": 78,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-11-14T15:00:00Z",
-     "lg": "en.3",
-     "lgName": "League One",
-     "country": "England",
-     "h": "Luton Town",
-     "a": "Cambridge United",
-     "side": "h",
-     "pick": "Luton Town",
-     "c": 0.598,
-     "p": {
-      "h": 0.598,
-      "d": 0.2219,
-      "a": 0.1801
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5533,
-     "o25": 0.5578,
-     "hit": 0.5352,
-     "hitN": 99,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -18241,7 +18038,7 @@
   },
   {
    "date": "2026-11-15",
-   "count": 500,
+   "count": 499,
    "games": [
     {
      "t": "17:00",
@@ -18363,22 +18160,6 @@
      "side": "h",
      "pick": "UT Martin Skyhawks",
      "c": 0.9289,
-     "hit": 0.9157,
-     "hitN": 1258,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-15T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "UNC Wilmington Seahawks",
-     "a": "Louisiana Ragin' Cajuns",
-     "side": "h",
-     "pick": "UNC Wilmington Seahawks",
-     "c": 0.8916,
      "hit": 0.9157,
      "hitN": 1258,
      "list": true,
