@@ -1,59 +1,59 @@
 {
- "id": 1794540475476,
- "time": "2026-11-13T03:27:55.476199+00:00",
- "trigger": "work",
+ "id": 1794581663769,
+ "time": "2026-11-13T14:54:23.769890+00:00",
+ "trigger": "scheduled 13:30",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Daily List, last 28 days: 286 of 323 landed against 280 expected (89% landed, 87% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +1.8); 1,167 football fixtures on the board, 0 unrated.",
+   "yesterday": "Daily List, last 28 days: 302 of 338 landed against 295 expected (89% landed, 87% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +1.8); 1,165 football fixtures on the board, 0 unrated.",
    "today": "Top of the backlog for legs: Card tennis legs: 8/15 against 12 expected.",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1153 football fixtures across 156 competitions for 2026-11-13, plus 452 other-sport and 18 tennis matches.",
-   "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes.",
+   "yesterday": "Swept 1165 football fixtures across 158 competitions for 2026-11-13, plus 453 other-sport and 19 tennis matches.",
+   "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #288 Add a free data source for an uncovered league (checking).",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 156 competitions matched to a rated team pool.",
-   "today": "Recheck club-name matching for new API-Football leagues.",
+   "yesterday": "0 unrated fixtures in today's slate; 158 competitions matched to a rated team pool.",
+   "today": "Recheck club-name matching for new API-Football leagues. Dev work: PR #281 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "source",
    "yesterday": "Coverage is API-Football plus free sources; 10/10 recent builds pulled data cleanly.",
-   "today": "Watch API rate limits during the 03:00 and 13:00 sweeps.",
+   "today": "Watch API rate limits during the 03:00 and 13:00 sweeps. Dev work: PR #282 Make one data source fail more gracefully (shipped, fixed data or grading).",
    "blockers": "None."
   },
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1153 fixtures; overall log loss is 1.0086.",
+   "today": "Rate today's 1165 fixtures; overall log loss is 1.0086.",
    "blockers": "None."
   },
   {
    "agent": "experiment",
-   "yesterday": "Weekly retune 2026-11-09 failed its gates. Latest test: FIFA big-lift damping tested and rejected (note and tool) (#273).",
-   "today": "Overnight at 23:30: backtest one change aimed at the weakest league.",
+   "yesterday": "Weekly retune 2026-11-09 failed its gates. Latest test: Office agent (engineer): Add tests for the least-tested module (#280).",
+   "today": "Overnight at 23:30: backtest one change aimed at the weakest league. Dev work: PR #287 Lift accuracy in Italy Serie D - Girone C (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 55/89, MLB 27/40, NBA 117/171, RUGBY 65/88, CFB 198/297, NCAAB 421/522, WNBA 9/11. Tennis 63% over 1434 matches (expected 64%).",
+   "yesterday": "Other sports: NFL 55/90, MLB 27/40, NBA 120/174, RUGBY 65/88, CFB 199/299, NCAAB 428/530, WNBA 9/11. Tennis 63% over 1434 matches (expected 64%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #267 Baseball (MLB) landing above its quotes (checking).",
    "blockers": "None."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-11-12: 29/48 correct (60%).",
+   "yesterday": "Graded 2026-11-13: 2/4 correct (50%).",
    "today": "Grade early kick-offs at 13:00 and the full day at 23:30.",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 40%-50% won 48% vs 45% expected (4668 games).",
+   "yesterday": "Biggest calibration gap: picks at 40%-50% won 48% vs 45% expected (4672 games).",
    "today": "Track tiers: Strong 78% vs 77%, Firm 69% vs 68%, Lean 61% vs 59%.",
    "blockers": "None."
   },
@@ -66,7 +66,7 @@
   {
    "agent": "engineer",
    "yesterday": "10/10 recent 'Rebuild and publish' runs green.",
-   "today": "Keep the build ahead of the 03:00 sweep.",
+   "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #280 Add tests for the least-tested module (shipped, tests only).",
    "blockers": "None."
   },
   {
@@ -77,7 +77,7 @@
   },
   {
    "agent": "h2",
-   "yesterday": "86% of today's picks carry a live bookmaker price (target 60%).",
+   "yesterday": "69% of today's picks carry a live bookmaker price (target 60%).",
    "today": "Price every candidate leg before the 07:45 briefing and flag anything still on an estimate.",
    "blockers": "None."
   },
@@ -101,7 +101,7 @@
   },
   {
    "agent": "h6",
-   "yesterday": "CFB: 198/297 correct (67%, target 55%).",
+   "yesterday": "CFB: 199/299 correct (67%, target 55%).",
    "today": "Grow graded history before the sport goes on the board.",
    "blockers": "None."
   },
@@ -117,7 +117,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.8854,
+   "actual": 0.8935,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -126,7 +126,7 @@
   {
    "owner": "chief",
    "name": "List landed minus quoted",
-   "actual": 0.01869999999999994,
+   "actual": 0.021499999999999964,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -153,7 +153,7 @@
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 156,
+   "actual": 158,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -225,7 +225,7 @@
   {
    "owner": "h2",
    "name": "Legs with a live price",
-   "actual": 0.8571428571428571,
+   "actual": 0.6944444444444444,
    "target": 0.6,
    "fmt": "pct",
    "higher": true,
@@ -261,7 +261,7 @@
   {
    "owner": "h6",
    "name": "CFB hit rate",
-   "actual": 0.6666666666666666,
+   "actual": 0.6655518394648829,
    "target": 0.55,
    "fmt": "pct",
    "higher": true,
@@ -297,16 +297,23 @@
    "metric": "groups"
   },
   {
-   "key": "hq-sport-ncaab",
-   "owner": "sports",
-   "title": "College basketball landing above its quotes",
-   "score": 3.24,
-   "metric": "honesty"
+   "key": "hq-card-seasons",
+   "owner": "experiment",
+   "title": "Replay the Card over 2022-23, 2023-24 and 2024-25",
+   "score": 3.0,
+   "metric": "card"
   },
   {
    "key": "hq-card-pool-replay",
    "owner": "accas",
    "title": "Replay every Card variant on the archived pool, not the football-data rows",
+   "score": 3.0,
+   "metric": "card"
+  },
+  {
+   "key": "hq-card-book",
+   "owner": "odds",
+   "title": "Which bookmaker to write the Card for",
    "score": 3.0,
    "metric": "card"
   },
@@ -318,18 +325,11 @@
    "metric": "card"
   },
   {
-   "key": "hq-reserve-football",
-   "owner": "curator",
-   "title": "Reserve (football) landing below its quotes",
-   "score": 2.61,
-   "metric": "honesty"
-  },
-  {
-   "key": "hq-league-en.7sc",
-   "owner": "experiment",
-   "title": "England Southern League Premier Central lands below its quotes",
-   "score": 2.47,
-   "metric": "honesty"
+   "key": "hq-card-stake",
+   "owner": "value",
+   "title": "Stake size and bankroll for the Card",
+   "score": 3.0,
+   "metric": "card"
   }
  ],
  "siteObjectives": {
@@ -350,36 +350,36 @@
   },
   "list": {
    "football": {
-    "n": 90,
-    "won": 73,
-    "expected": 74.0,
-    "z": -0.29,
-    "quoted": 0.8227,
-    "landed": 0.8111
+    "n": 91,
+    "won": 74,
+    "expected": 74.9,
+    "z": -0.25,
+    "quoted": 0.8229,
+    "landed": 0.8132
    },
    "tennis": {
-    "n": 66,
-    "won": 53,
-    "expected": 54.4,
-    "z": -0.45,
-    "quoted": 0.8238,
-    "landed": 0.803
+    "n": 55,
+    "won": 45,
+    "expected": 45.6,
+    "z": -0.21,
+    "quoted": 0.8287,
+    "landed": 0.8182
    },
    "nba": {
-    "n": 9,
-    "won": 9,
-    "expected": 7.5,
-    "z": 1.33,
-    "quoted": 0.8358,
+    "n": 10,
+    "won": 10,
+    "expected": 8.4,
+    "z": 1.41,
+    "quoted": 0.8354,
     "landed": 1.0
    },
    "ncaab": {
-    "n": 144,
-    "won": 137,
-    "expected": 132.2,
-    "z": 1.48,
-    "quoted": 0.9179,
-    "landed": 0.9514
+    "n": 169,
+    "won": 160,
+    "expected": 154.9,
+    "z": 1.42,
+    "quoted": 0.9168,
+    "landed": 0.9467
    },
    "nfl": {
     "n": 4,
@@ -390,48 +390,76 @@
     "landed": 1.0
    },
    "rugby": {
-    "n": 10,
-    "won": 10,
-    "expected": 8.5,
-    "z": 1.33,
-    "quoted": 0.8507,
+    "n": 9,
+    "won": 9,
+    "expected": 7.7,
+    "z": 1.25,
+    "quoted": 0.8539,
     "landed": 1.0
    }
   },
   "listAll": {
-   "n": 323,
-   "won": 286,
-   "expected": 279.9,
-   "z": 1.01,
-   "quoted": 0.8667,
-   "landed": 0.8854
+   "n": 338,
+   "won": 302,
+   "expected": 294.7,
+   "z": 1.2,
+   "quoted": 0.872,
+   "landed": 0.8935
   },
   "honesty": {
    "worstBand": {
-    "n": 646,
-    "won": 362,
-    "expected": 339.7,
-    "z": 1.76,
-    "quoted": 0.5259,
-    "landed": 0.5604,
+    "n": 652,
+    "won": 366,
+    "expected": 342.9,
+    "z": 1.81,
+    "quoted": 0.526,
+    "landed": 0.5613,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1167,
+   "fixtures": 1165,
    "unrated": 0
   }
  },
  "outcomes": {
   "days": 7,
-  "merged": 3,
+  "merged": 6,
   "count": {
    "model": 0,
-   "data": 0,
-   "tests": 0,
-   "evidence": 3
+   "data": 1,
+   "tests": 1,
+   "evidence": 4
   },
   "items": [
+   {
+    "n": 287,
+    "title": "Lift accuracy in Italy Serie D - Girone C",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/287",
+    "owner": "experiment",
+    "outcome": "evidence"
+   },
+   {
+    "n": 282,
+    "title": "Make one data source fail more gracefully",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/282",
+    "owner": "source",
+    "outcome": "data"
+   },
+   {
+    "n": 281,
+    "title": "Check today's fixtures for duplicates, wrong dates and doubtful name matches",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/281",
+    "owner": "quality",
+    "outcome": "evidence"
+   },
+   {
+    "n": 280,
+    "title": "Add tests for the least-tested module",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/280",
+    "owner": "engineer",
+    "outcome": "tests"
+   },
    {
     "n": 254,
     "title": "Replay own-band List admission for every sport",
@@ -445,17 +473,75 @@
     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/253",
     "owner": "legs",
     "outcome": "evidence"
-   },
-   {
-    "n": 223,
-    "title": "Log why tennis tournaments miss an Odds API key",
-    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/223",
-    "owner": "odds",
-    "outcome": "evidence"
    }
   ]
  },
  "dev": [
+  {
+   "n": 288,
+   "title": "[scout] Add a free data source for an uncovered league",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/288",
+   "owner": "scout",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-13T14:53:01Z",
+   "merged": null,
+   "closed": null,
+   "objective": "coverage",
+   "outcome": null
+  },
+  {
+   "n": 287,
+   "title": "[experiment] Lift accuracy in Italy Serie D - Girone C",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/287",
+   "owner": "experiment",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-13T14:48:46Z",
+   "merged": "2026-11-13T14:50:50Z",
+   "closed": "2026-11-13T14:50:50Z",
+   "objective": "weak-league-af.428",
+   "outcome": "evidence"
+  },
+  {
+   "n": 282,
+   "title": "[source] Make one data source fail more gracefully",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/282",
+   "owner": "source",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-13T07:19:05Z",
+   "merged": "2026-11-13T07:20:38Z",
+   "closed": "2026-11-13T07:20:38Z",
+   "objective": "source-resilience",
+   "outcome": "data"
+  },
+  {
+   "n": 281,
+   "title": "[quality] Check today's fixtures for duplicates, wrong dates and doubtful name matches",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/281",
+   "owner": "quality",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-13T07:13:20Z",
+   "merged": "2026-11-13T07:14:52Z",
+   "closed": "2026-11-13T07:14:52Z",
+   "objective": "fixture-integrity",
+   "outcome": "evidence"
+  },
+  {
+   "n": 280,
+   "title": "[engineer] Add tests for the least-tested module",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/280",
+   "owner": "engineer",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-13T07:08:34Z",
+   "merged": "2026-11-13T07:10:36Z",
+   "closed": "2026-11-13T07:10:36Z",
+   "objective": "tests-gap",
+   "outcome": "tests"
+  },
   {
    "n": 267,
    "title": "[sports] Baseball (MLB) landing above its quotes",
@@ -533,41 +619,31 @@
    "closed": null,
    "objective": "issue-245",
    "outcome": null
-  },
-  {
-   "n": 223,
-   "title": "[odds] Log why tennis tournaments miss an Odds API key",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/223",
-   "owner": "odds",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-10T19:56:50Z",
-   "merged": "2026-11-10T19:58:23Z",
-   "closed": "2026-11-10T19:58:23Z",
-   "objective": "hq-odds-keys",
-   "outcome": "evidence"
   }
  ],
  "shipped": [
+  "PR #287 Lift accuracy in Italy Serie D - Girone C (shipped, evidence only) by Mia",
+  "PR #282 Make one data source fail more gracefully (shipped, fixed data or grading) by Raj",
+  "PR #281 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped, evidence only) by Cory",
+  "PR #280 Add tests for the least-tested module (shipped, tests only) by Allan",
   "PR #254 Replay own-band List admission for every sport (shipped, evidence only) by Nina",
-  "PR #253 Card tennis legs: 8/15 against 12 expected (shipped, evidence only) by legs",
-  "PR #223 Log why tennis tournaments miss an Odds API key (shipped, evidence only) by odds"
+  "PR #253 Card tennis legs: 8/15 against 12 expected (shipped, evidence only) by legs"
  ],
  "lessons": [
   "Calibration: 40%-50% band won 48% vs 45% expected",
   "Weakest league: Italy Serie D - Girone C at 30% over 54 games"
  ],
  "stats": {
-  "fixtures": 1153,
-  "competitions": 156,
+  "fixtures": 1165,
+  "competitions": 158,
   "listPicks": 26,
-  "overallAcc": 0.5086,
+  "overallAcc": 0.5085,
   "listAcc": 0.8107,
   "listN": 169,
-  "graded": 11635,
+  "graded": 11639,
   "logLoss": 1.0086,
-  "dayAcc": 0.6042,
-  "dayDate": "2026-11-12",
+  "dayAcc": 0.5,
+  "dayDate": "2026-11-13",
   "tennisAcc": 0.6346,
   "runsOk": 10,
   "runsTotal": 10,
@@ -615,14 +691,14 @@
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 9270,
-    "correct": 4339,
+    "n": 9274,
+    "correct": 4341,
     "hit": 0.4681,
     "expected": 0.4427,
-    "reads": 6254,
-    "readHit": 0.6746,
+    "reads": 6257,
+    "readHit": 0.6747,
     "expectedRead": 0.6617,
-    "drawnOut": 2360
+    "drawnOut": 2362
    }
   ],
   "bands": [
@@ -640,11 +716,11 @@
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 4668,
+    "n": 4672,
     "hit": 0.4773,
-    "won": 2228,
+    "won": 2230,
     "expected": 0.4457,
-    "reads": 3191,
+    "reads": 3194,
     "readHit": 0.6836,
     "expectedRead": 0.6668
    },
@@ -683,6 +759,11 @@
    }
   ],
   "days": [
+   {
+    "date": "2026-11-13",
+    "acc": 0.5,
+    "n": 4
+   },
    {
     "date": "2026-11-12",
     "acc": 0.6042,
@@ -747,11 +828,6 @@
     "date": "2026-10-31",
     "acc": 0.5248,
     "n": 766
-   },
-   {
-    "date": "2026-10-30",
-    "acc": 0.5419,
-    "n": 155
    }
   ],
   "weak": [
