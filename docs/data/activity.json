@@ -196,8 +196,14 @@
    "outcome": null
   }
  ],
- "fetched": "2026-11-14T11:14:00.398591+00:00",
+ "fetched": "2026-11-14T12:40:41.969271+00:00",
  "commits": [
+  {
+   "sha": "2188999",
+   "msg": "Archive predictions and record for 2026-11-14 [skip ci]",
+   "date": "2026-11-14T12:14:27Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/2188999d7e07b45155c87d5dfcbac36e2ceb99b8"
+  },
   {
    "sha": "c336fea",
    "msg": "Archive predictions and record for 2026-11-14 [skip ci]",
@@ -311,15 +317,33 @@
    "msg": "Score the core leagues' October and November results from ESPN (#291)",
    "date": "2026-11-13T16:58:06Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1862be4caa8ff5148d1423ab9e94534824214b9e"
-  },
-  {
-   "sha": "fff0c22",
-   "msg": "Archive predictions and record for 2026-11-13 [skip ci]",
-   "date": "2026-11-13T15:43:43Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/fff0c2274aad5e4d720b9db649e241b33b081a92"
   }
  ],
  "runs": [
+  {
+   "conclusion": "",
+   "createdAt": "2026-11-14T12:40:22Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43595965342"
+  },
+  {
+   "conclusion": "",
+   "createdAt": "2026-11-14T12:40:22Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43595965181"
+  },
+  {
+   "conclusion": "",
+   "createdAt": "2026-11-14T12:40:13Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43595952834"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-14T12:10:00Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43593453578"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-11-14T10:55:35Z",
@@ -355,30 +379,6 @@
    "createdAt": "2026-11-14T08:57:41Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43578242706"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-14T08:57:41Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43578242639"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-14T08:57:33Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43578233673"
-  },
-  {
-   "conclusion": "failure",
-   "createdAt": "2026-11-14T06:49:59Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43568234609"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-14T06:08:33Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43564865705"
   }
  ]
 }

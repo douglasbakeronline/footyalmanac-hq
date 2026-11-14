@@ -1,267 +1,49 @@
 {
- "time": "2026-11-13T08:51:25.340928+00:00",
- "date": "2026-11-13",
- "stage": "briefing",
+ "time": "2026-11-14T12:40:37.237758+00:00",
+ "date": "2026-11-14",
+ "stage": "refresh",
  "pricing": {
-  "priced": 25,
-  "total": 36,
+  "priced": 120,
+  "total": 174,
   "site": true,
-  "generated": "2026-11-13T07:23:51Z"
+  "generated": "2026-11-14T12:12:44Z"
  },
  "review": {
   "dropped": [
+   "Multiplier",
+   "Multiplier (alternative)",
    "Multiplier"
   ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 82,
-  "list": 6,
-  "tomorrow": 545
+  "today": 445,
+  "list": 15,
+  "tomorrow": 530
  },
  "impactful": [
   {
    "sport": "tennis",
-   "event": "Elina Svitolina v Aryna Sabalenka",
-   "comp": "FAGE WTA Finals Indian Wells Group Stage",
+   "event": "Elizabeth Mandlik v Bianca Andreescu",
+   "comp": "DIRECTV Open Presentado por Compesar Final",
    "tour": "WTA",
-   "when": "2026-11-13T21:30:00Z",
-   "date": "2026-11-13",
-   "selection": "Aryna Sabalenka",
-   "opp": "Elina Svitolina",
-   "p": 0.6298,
-   "modelPick": "Aryna Sabalenka",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.5732,
-   "hitN": 157,
-   "id": "187379",
-   "rank": [
-    2,
-    6
-   ],
-   "status": "pending",
-   "why": "63% Aryna Sabalenka, ranked 2 v 6, calls at this level won 57% (157)"
-  },
-  {
-   "sport": "football",
-   "event": "Slovakia v Faroe Islands",
-   "comp": "UEFA Nations League",
-   "lg": "uefa.nations",
-   "country": "International",
-   "tier": 1,
-   "when": "2026-11-13T19:45:00Z",
-   "date": "2026-11-13",
-   "selection": "Slovakia",
-   "opp": "Faroe Islands",
-   "side": "h",
-   "home": "Slovakia",
-   "away": "Faroe Islands",
-   "p": 0.8046,
-   "modelPick": "Slovakia",
-   "list": false,
-   "reserve": true,
-   "hit": 0.8387,
-   "hitN": 62,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.45,
-    0.44
-   ],
-   "rankH": 45,
-   "rankA": 123,
-   "status": "pending",
-   "why": "80% Slovakia, likely 2-0, xG 2.5 v 0.4, world ranks 45 v 123, calls at this level won 84% (62)"
-  },
-  {
-   "sport": "football",
-   "event": "Netherlands v Greece",
-   "comp": "UEFA Nations League",
-   "lg": "uefa.nations",
-   "country": "International",
-   "tier": 1,
-   "when": "2026-11-13T19:45:00Z",
-   "date": "2026-11-13",
-   "selection": "Netherlands",
-   "opp": "Greece",
-   "side": "h",
-   "home": "Netherlands",
-   "away": "Greece",
-   "p": 0.7963,
-   "modelPick": "Netherlands",
-   "list": false,
-   "reserve": true,
-   "hit": 0.7857,
-   "hitN": 56,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.69,
-    0.63
-   ],
-   "rankH": 9,
-   "rankA": 46,
-   "status": "pending",
-   "why": "80% Netherlands, likely 2-0, xG 2.7 v 0.6, world ranks 9 v 46, calls at this level won 79% (56)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Bianca Andreescu v Polona Hercog",
-   "comp": "DIRECTV Open Presentado por Compesar Semifinal",
-   "tour": "WTA",
-   "when": "2026-11-13T16:30:00Z",
-   "date": "2026-11-13",
+   "when": "2026-11-14T17:00:00Z",
+   "date": "2026-11-14",
    "selection": "Bianca Andreescu",
-   "opp": "Polona Hercog",
-   "p": 0.7783,
+   "opp": "Elizabeth Mandlik",
+   "p": 0.7527,
    "modelPick": "Bianca Andreescu",
    "tierName": "Strong",
    "list": true,
-   "hit": 0.8182,
-   "hitN": 66,
-   "id": "186774",
+   "hit": 0.8209,
+   "hitN": 67,
+   "id": "186772",
    "rank": [
     100,
     null
    ],
    "status": "pending",
-   "why": "78% Bianca Andreescu, calls at this level won 82% (66)"
-  },
-  {
-   "sport": "football",
-   "event": "Puerto Rico v Dominica",
-   "comp": "CONCACAF Nations League",
-   "lg": "concacaf.nations",
-   "country": "International",
-   "tier": 1,
-   "when": "2026-11-13T19:00:00Z",
-   "date": "2026-11-13",
-   "selection": "Puerto Rico",
-   "opp": "Dominica",
-   "side": "h",
-   "home": "Puerto Rico",
-   "away": "Dominica",
-   "p": 0.6938,
-   "modelPick": "Puerto Rico",
-   "list": false,
-   "reserve": true,
-   "hit": 0.7272,
-   "hitN": 55,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.37,
-    0.83
-   ],
-   "rankH": 154,
-   "rankA": 182,
-   "status": "pending",
-   "why": "69% Puerto Rico, likely 2-0, xG 2.4 v 0.8, world ranks 154 v 182, calls at this level won 73% (55)"
-  },
-  {
-   "sport": "ncaab",
-   "event": "Miami Hurricanes v North Alabama Lions",
-   "comp": "NCAA",
-   "when": "2026-11-13T22:00Z",
-   "date": "2026-11-13",
-   "selection": "Miami Hurricanes",
-   "opp": "North Alabama Lions",
-   "p": 0.9349,
-   "modelPick": "Miami Hurricanes",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9157,
-   "hitN": 1258,
-   "id": "401921721",
-   "elo": [
-    1797,
-    1434
-   ],
-   "homeSide": true,
-   "form": "WWLLW",
-   "status": "pending",
-   "why": "93% Miami Hurricanes, rating 1797 v 1434, form WWLLW, at home, calls at this level won 92% (1258)"
-  }
- ],
- "tomorrow": [
-  {
-   "sport": "ncaab",
-   "event": "Oregon State Beavers v Mississippi Valley State Delta Devils",
-   "comp": "NCAA",
-   "when": "2026-11-14T02:30Z",
-   "date": "2026-11-14",
-   "selection": "Oregon State Beavers",
-   "opp": "Mississippi Valley State Delta Devils",
-   "p": 0.9786,
-   "modelPick": "Oregon State Beavers",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9157,
-   "hitN": 1258,
-   "id": "401925739",
-   "elo": [
-    1689,
-    1125
-   ],
-   "homeSide": true,
-   "form": "WWWLW",
-   "status": "pending",
-   "why": "98% Oregon State Beavers, rating 1689 v 1125, form WWWLW, at home, calls at this level won 92% (1258)"
-  },
-  {
-   "sport": "ncaab",
-   "event": "Arizona State Sun Devils v UL Monroe Warhawks",
-   "comp": "NCAA",
-   "when": "2026-11-14T02:00Z",
-   "date": "2026-11-14",
-   "selection": "Arizona State Sun Devils",
-   "opp": "UL Monroe Warhawks",
-   "p": 0.9643,
-   "modelPick": "Arizona State Sun Devils",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9157,
-   "hitN": 1258,
-   "id": "401917980",
-   "elo": [
-    1763,
-    1291
-   ],
-   "homeSide": true,
-   "form": "WWWLW",
-   "status": "pending",
-   "why": "96% Arizona State Sun Devils, rating 1763 v 1291, form WWWLW, at home, calls at this level won 92% (1258)"
-  },
-  {
-   "sport": "ncaab",
-   "event": "Duke Blue Devils v SIU Edwardsville Cougars",
-   "comp": "NCAA",
-   "when": "2026-11-14T01:00Z",
-   "date": "2026-11-14",
-   "selection": "Duke Blue Devils",
-   "opp": "SIU Edwardsville Cougars",
-   "p": 0.9629,
-   "modelPick": "Duke Blue Devils",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9157,
-   "hitN": 1258,
-   "id": "401909565",
-   "elo": [
-    2023,
-    1557
-   ],
-   "homeSide": true,
-   "form": "LWWLW",
-   "status": "pending",
-   "why": "96% Duke Blue Devils, rating 2023 v 1557, form LWWLW, at home, calls at this level won 92% (1258)"
+   "why": "75% Bianca Andreescu, calls at this level won 82% (67)"
   },
   {
    "sport": "ncaab",
@@ -310,6 +92,226 @@
    "form": "WWWLW",
    "status": "pending",
    "why": "95% Texas Tech Red Raiders, rating 1851 v 1423, form WWWLW, at home, calls at this level won 92% (1258)"
+  },
+  {
+   "sport": "football",
+   "event": "Norway v Wales",
+   "comp": "UEFA Nations League",
+   "lg": "uefa.nations",
+   "country": "International",
+   "tier": 1,
+   "when": "2026-11-14T17:00:00Z",
+   "date": "2026-11-14",
+   "selection": "Norway",
+   "opp": "Wales",
+   "side": "h",
+   "home": "Norway",
+   "away": "Wales",
+   "p": 0.6751,
+   "modelPick": "Norway",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7272,
+   "hitN": 55,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.28,
+    0.84
+   ],
+   "rankH": 19,
+   "rankA": 38,
+   "status": "pending",
+   "why": "68% Norway, likely 2-0, xG 2.3 v 0.8, world ranks 19 v 38, calls at this level won 73% (55)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "South Carolina Gamecocks v Gardner-Webb Runnin' Bulldogs",
+   "comp": "NCAA",
+   "when": "2026-11-14T19:00Z",
+   "date": "2026-11-14",
+   "selection": "South Carolina Gamecocks",
+   "opp": "Gardner-Webb Runnin' Bulldogs",
+   "p": 0.9196,
+   "modelPick": "South Carolina Gamecocks",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9157,
+   "hitN": 1258,
+   "id": "401911392",
+   "elo": [
+    1636,
+    1313
+   ],
+   "homeSide": true,
+   "form": "WWWLW",
+   "status": "pending",
+   "why": "92% South Carolina Gamecocks, rating 1636 v 1313, form WWWLW, at home, calls at this level won 92% (1258)"
+  },
+  {
+   "sport": "football",
+   "event": "Portugal v Denmark",
+   "comp": "UEFA Nations League",
+   "lg": "uefa.nations",
+   "country": "International",
+   "tier": 1,
+   "when": "2026-11-14T19:45:00Z",
+   "date": "2026-11-14",
+   "selection": "Portugal",
+   "opp": "Denmark",
+   "side": "h",
+   "home": "Portugal",
+   "away": "Denmark",
+   "p": 0.669,
+   "modelPick": "Portugal",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7272,
+   "hitN": 55,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.15,
+    0.76
+   ],
+   "rankH": 7,
+   "rankA": 21,
+   "status": "pending",
+   "why": "67% Portugal, likely 2-0, xG 2.1 v 0.8, world ranks 7 v 21, calls at this level won 73% (55)"
+  }
+ ],
+ "tomorrow": [
+  {
+   "sport": "football",
+   "event": "Finland v San Marino",
+   "comp": "UEFA Nations League",
+   "lg": "uefa.nations",
+   "country": "International",
+   "tier": 1,
+   "when": "2026-11-15T17:00:00Z",
+   "date": "2026-11-15",
+   "selection": "Finland",
+   "opp": "San Marino",
+   "side": "h",
+   "home": "Finland",
+   "away": "San Marino",
+   "p": 0.9805,
+   "modelPick": "Finland",
+   "list": true,
+   "reserve": false,
+   "hit": 0.9394,
+   "hitN": 33,
+   "score": [
+    4,
+    0
+   ],
+   "xg": [
+    4.8,
+    0.27
+   ],
+   "rankH": 75,
+   "rankA": 211,
+   "status": "pending",
+   "why": "98% Finland, likely 4-0, xG 4.8 v 0.3, world ranks 75 v 211, calls at this level won 94% (33)"
+  },
+  {
+   "sport": "nfl",
+   "event": "New York Jets v Buffalo Bills",
+   "comp": "NFL",
+   "when": "2026-11-15T18:00Z",
+   "date": "2026-11-15",
+   "selection": "Buffalo Bills",
+   "opp": "New York Jets",
+   "p": 0.8563,
+   "modelPick": "Buffalo Bills",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 1.0,
+   "hitN": 12,
+   "id": "401873054",
+   "elo": [
+    1691,
+    1331
+   ],
+   "homeSide": false,
+   "form": "WWWWL",
+   "status": "pending",
+   "why": "86% Buffalo Bills, rating 1691 v 1331, form WWWWL, away, calls at this level won 100% (12)"
+  },
+  {
+   "sport": "nfl",
+   "event": "Tennessee Titans v Jacksonville Jaguars",
+   "comp": "NFL",
+   "when": "2026-11-15T18:00Z",
+   "date": "2026-11-15",
+   "selection": "Jacksonville Jaguars",
+   "opp": "Tennessee Titans",
+   "p": 0.8385,
+   "modelPick": "Jacksonville Jaguars",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.8065,
+   "hitN": 31,
+   "id": "401873057",
+   "elo": [
+    1641,
+    1305
+   ],
+   "homeSide": false,
+   "form": "WWLWW",
+   "status": "pending",
+   "why": "84% Jacksonville Jaguars, rating 1641 v 1305, form WWLWW, away, calls at this level won 81% (31)"
+  },
+  {
+   "sport": "tennis",
+   "event": "Rafael Jodar v Alexander Zverev",
+   "comp": "Nitto ATP Finals Group Stage",
+   "tour": "ATP",
+   "when": "2026-11-15T13:00:00Z",
+   "date": "2026-11-15",
+   "selection": "Alexander Zverev",
+   "opp": "Rafael Jodar",
+   "p": 0.6494,
+   "modelPick": "Alexander Zverev",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.5934,
+   "hitN": 91,
+   "id": "187505",
+   "rank": [
+    1,
+    11
+   ],
+   "status": "pending",
+   "why": "65% Alexander Zverev, ranked 1 v 11, calls at this level won 59% (91)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Iowa State Cyclones v Niagara Purple Eagles",
+   "comp": "NCAA",
+   "when": "2026-11-15T18:00Z",
+   "date": "2026-11-15",
+   "selection": "Iowa State Cyclones",
+   "opp": "Niagara Purple Eagles",
+   "p": 0.9748,
+   "modelPick": "Iowa State Cyclones",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9157,
+   "hitN": 1258,
+   "id": "401909774",
+   "elo": [
+    1849,
+    1314
+   ],
+   "homeSide": true,
+   "form": "WWLLW",
+   "status": "pending",
+   "why": "97% Iowa State Cyclones, rating 1849 v 1314, form WWLLW, at home, calls at this level won 92% (1258)"
   }
  ],
  "groups": [],
@@ -342,7 +344,7 @@
    "legsWon": 0
   }
  },
- "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/52",
- "issue": 52,
- "text": "Good morning Douglas. Friday 13 November, 08:51 UK.\n\n### Yesterday\n**Susie (Auditor):** Daily List 3/3; football overall 60% of 48; tennis 5/8; other sports 42/56; groups landed 0/0, legs won 0/0.\n\n### Today: what matters and why\n- **Elina Svitolina v Aryna Sabalenka** (FAGE WTA Finals Indian Wells Group Stage, 21:30): 63% Aryna Sabalenka, ranked 2 v 6, calls at this level won 57% (157)\n- **Slovakia v Faroe Islands** (UEFA Nations League, 19:45): 80% Slovakia, likely 2-0, xG 2.5 v 0.4, world ranks 45 v 123, calls at this level won 84% (62)\n- **Netherlands v Greece** (UEFA Nations League, 19:45): 80% Netherlands, likely 2-0, xG 2.7 v 0.6, world ranks 9 v 46, calls at this level won 79% (56)\n- **Bianca Andreescu v Polona Hercog** (DIRECTV Open Presentado por Compesar Semifinal, 16:30): 78% Bianca Andreescu, calls at this level won 82% (66)\n- **Puerto Rico v Dominica** (CONCACAF Nations League, 19:00): 69% Puerto Rico, likely 2-0, xG 2.4 v 0.8, world ranks 154 v 182, calls at this level won 73% (55)\n- **Miami Hurricanes v North Alabama Lions** (NCAA, 22:00): 93% Miami Hurricanes, rating 1797 v 1434, form WWLLW, at home, calls at this level won 92% (1258)\n\n**Nina (Daily Board):** 82 games rated by the model today, 6 on the Daily List.\n\n### Tomorrow\n- **Oregon State Beavers v Mississippi Valley State Delta Devils** (NCAA, 02:30): 98% Oregon State Beavers, rating 1689 v 1125, form WWWLW, at home, calls at this level won 92% (1258)\n- **Arizona State Sun Devils v UL Monroe Warhawks** (NCAA, 02:00): 96% Arizona State Sun Devils, rating 1763 v 1291, form WWWLW, at home, calls at this level won 92% (1258)\n- **Duke Blue Devils v SIU Edwardsville Cougars** (NCAA, 01:00): 96% Duke Blue Devils, rating 2023 v 1557, form LWWLW, at home, calls at this level won 92% (1258)\n- **South Florida Bulls v Coppin State Eagles** (NCAA, 19:00): 96% South Florida Bulls, rating 1792 v 1351, form LLWLW, at home, calls at this level won 92% (1258)\n- **Texas Tech Red Raiders v Stonehill Skyhawks** (NCAA, 18:00): 95% Texas Tech Red Raiders, rating 1851 v 1423, form WWWLW, at home, calls at this level won 92% (1258)\n\n### Three groups of five\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (25 of today's 36 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/54",
+ "issue": 54,
+ "text": "Good afternoon Douglas. Saturday 14 November, 12:40 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (120 of today's 174 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
