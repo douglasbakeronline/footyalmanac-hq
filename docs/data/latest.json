@@ -1,23 +1,23 @@
 {
- "id": 1794626638697,
- "time": "2026-11-14T03:23:58.697470+00:00",
- "trigger": "work",
+ "id": 1794664068752,
+ "time": "2026-11-14T13:47:48.752648+00:00",
+ "trigger": "scheduled 13:30",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Daily List, last 28 days: 302 of 338 landed against 295 expected (89% landed, 87% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +1.8); 1,165 football fixtures on the board, 0 unrated.",
+   "yesterday": "Daily List, last 28 days: 323 of 359 landed against 314 expected (90% landed, 87% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +1.8); 1,254 football fixtures on the board, 0 unrated.",
    "today": "Top of the backlog for legs: Card tennis legs: 8/15 against 12 expected.",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1237 football fixtures across 195 competitions for 2026-11-14, plus 447 other-sport and 16 tennis matches.",
+   "yesterday": "Swept 1254 football fixtures across 197 competitions for 2026-11-14, plus 447 other-sport and 16 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #288 Add a free data source for an uncovered league (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 195 competitions matched to a rated team pool.",
+   "yesterday": "0 unrated fixtures in today's slate; 197 competitions matched to a rated team pool.",
    "today": "Recheck club-name matching for new API-Football leagues. Dev work: PR #281 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped, evidence only).",
    "blockers": "None."
   },
@@ -30,7 +30,7 @@
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-09-30: log loss 1.024 vs shipped 1.0249 (delta -0.0008).",
-   "today": "Rate today's 1237 fixtures; overall log loss is 1.0084. Dev work: PR #289 Test one ratings improvement (checking).",
+   "today": "Rate today's 1254 fixtures; overall log loss is 1.008. Dev work: PR #289 Test one ratings improvement (checking).",
    "blockers": "None."
   },
   {
@@ -41,20 +41,20 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 55/90, MLB 27/40, NBA 120/174, RUGBY 65/88, CFB 199/299, NCAAB 446/555, WNBA 9/11. Tennis 63% over 1440 matches (expected 64%).",
+   "yesterday": "Other sports: NFL 55/90, MLB 27/40, NBA 125/183, RUGBY 65/88, CFB 200/302, NCAAB 474/586, WNBA 9/11. Tennis 63% over 1440 matches (expected 64%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #267 Baseball (MLB) landing above its quotes (checking).",
    "blockers": "None."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-11-13: 36/69 correct (52%).",
+   "yesterday": "Graded 2026-11-14: 14/25 correct (56%).",
    "today": "Grade early kick-offs at 13:00 and the full day at 23:30.",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 40%-50% won 48% vs 45% expected (4694 games).",
-   "today": "Track tiers: Strong 78% vs 77%, Firm 69% vs 68%, Lean 61% vs 59%.",
+   "yesterday": "Biggest calibration gap: picks at 40%-50% won 48% vs 45% expected (4698 games).",
+   "today": "Track tiers: Strong 78% vs 77%, Firm 70% vs 68%, Lean 61% vs 59%.",
    "blockers": "None."
   },
   {
@@ -101,7 +101,7 @@
   },
   {
    "agent": "h6",
-   "yesterday": "CFB: 199/299 correct (67%, target 55%).",
+   "yesterday": "CFB: 200/302 correct (66%, target 55%).",
    "today": "Grow graded history before the sport goes on the board.",
    "blockers": "None."
   },
@@ -117,7 +117,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.8935,
+   "actual": 0.8997,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -126,7 +126,7 @@
   {
    "owner": "chief",
    "name": "List landed minus quoted",
-   "actual": 0.021499999999999964,
+   "actual": 0.026100000000000012,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -135,7 +135,7 @@
   {
    "owner": "ratings",
    "name": "Strong tier hit rate",
-   "actual": 0.7792,
+   "actual": 0.7797,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -144,7 +144,7 @@
   {
    "owner": "calib",
    "name": "Largest calibration gap",
-   "actual": 0.03150000000000003,
+   "actual": 0.031100000000000017,
    "target": 0.05,
    "fmt": "pct",
    "higher": false,
@@ -153,7 +153,7 @@
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 195,
+   "actual": 197,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -225,7 +225,7 @@
   {
    "owner": "h2",
    "name": "Legs with a live price",
-   "actual": 0.6944444444444444,
+   "actual": 0.6896551724137931,
    "target": 0.6,
    "fmt": "pct",
    "higher": true,
@@ -261,7 +261,7 @@
   {
    "owner": "h6",
    "name": "CFB hit rate",
-   "actual": 0.6655518394648829,
+   "actual": 0.6622516556291391,
    "target": 0.55,
    "fmt": "pct",
    "higher": true,
@@ -271,6 +271,7 @@
  "star": "chief",
  "wins": [
   "Morocco v Niger (95%) finished 5-1",
+  "Drina Zvornik v Vele\u017e Nevesinje (80%) finished 5-0",
   "Vasas II v Szegedi VSE (77%) finished 3-0"
  ],
  "backlog": [
@@ -349,36 +350,36 @@
   },
   "list": {
    "football": {
-    "n": 91,
-    "won": 74,
-    "expected": 74.9,
-    "z": -0.25,
-    "quoted": 0.8229,
-    "landed": 0.8132
+    "n": 93,
+    "won": 76,
+    "expected": 76.5,
+    "z": -0.13,
+    "quoted": 0.8224,
+    "landed": 0.8172
    },
    "tennis": {
-    "n": 55,
-    "won": 45,
-    "expected": 45.6,
-    "z": -0.21,
-    "quoted": 0.8287,
-    "landed": 0.8182
+    "n": 56,
+    "won": 46,
+    "expected": 46.4,
+    "z": -0.13,
+    "quoted": 0.8278,
+    "landed": 0.8214
    },
    "nba": {
-    "n": 10,
-    "won": 10,
-    "expected": 8.4,
-    "z": 1.41,
-    "quoted": 0.8354,
+    "n": 11,
+    "won": 11,
+    "expected": 9.2,
+    "z": 1.45,
+    "quoted": 0.8397,
     "landed": 1.0
    },
    "ncaab": {
-    "n": 169,
-    "won": 160,
-    "expected": 154.9,
-    "z": 1.42,
-    "quoted": 0.9168,
-    "landed": 0.9467
+    "n": 191,
+    "won": 182,
+    "expected": 174.9,
+    "z": 1.87,
+    "quoted": 0.9156,
+    "landed": 0.9529
    },
    "nfl": {
     "n": 4,
@@ -389,35 +390,35 @@
     "landed": 1.0
    },
    "rugby": {
-    "n": 9,
-    "won": 9,
-    "expected": 7.7,
-    "z": 1.25,
-    "quoted": 0.8539,
+    "n": 4,
+    "won": 4,
+    "expected": 3.4,
+    "z": 0.88,
+    "quoted": 0.8387,
     "landed": 1.0
    }
   },
   "listAll": {
-   "n": 338,
-   "won": 302,
-   "expected": 294.7,
-   "z": 1.2,
-   "quoted": 0.872,
-   "landed": 0.8935
+   "n": 359,
+   "won": 323,
+   "expected": 313.6,
+   "z": 1.52,
+   "quoted": 0.8736,
+   "landed": 0.8997
   },
   "honesty": {
    "worstBand": {
-    "n": 652,
-    "won": 366,
-    "expected": 342.9,
-    "z": 1.81,
-    "quoted": 0.526,
-    "landed": 0.5613,
+    "n": 662,
+    "won": 371,
+    "expected": 348.2,
+    "z": 1.78,
+    "quoted": 0.5259,
+    "landed": 0.5604,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1165,
+   "fixtures": 1254,
    "unrated": 0
   }
  },
@@ -674,16 +675,16 @@
   "Weakest league: Italy Serie D - Girone C at 30% over 54 games"
  ],
  "stats": {
-  "fixtures": 1237,
-  "competitions": 195,
+  "fixtures": 1254,
+  "competitions": 197,
   "listPicks": 27,
-  "overallAcc": 0.5088,
-  "listAcc": 0.8129,
-  "listN": 171,
-  "graded": 11714,
-  "logLoss": 1.0084,
-  "dayAcc": 0.5217,
-  "dayDate": "2026-11-13",
+  "overallAcc": 0.509,
+  "listAcc": 0.814,
+  "listN": 172,
+  "graded": 11742,
+  "logLoss": 1.008,
+  "dayAcc": 0.56,
+  "dayDate": "2026-11-14",
   "tennisAcc": 0.634,
   "runsOk": 10,
   "runsTotal": 10,
@@ -692,117 +693,122 @@
     "name": "Strong",
     "k": 3,
     "min": 0.7,
-    "n": 471,
-    "correct": 367,
-    "hit": 0.7792,
+    "n": 472,
+    "correct": 368,
+    "hit": 0.7797,
     "expected": 0.7748,
-    "reads": 368,
-    "readHit": 0.7813,
-    "expectedRead": 0.775,
+    "reads": 369,
+    "readHit": 0.7818,
+    "expectedRead": 0.7751,
     "drawnOut": 59
    },
    {
     "name": "Firm",
     "k": 2,
     "min": 0.62,
-    "n": 733,
-    "correct": 508,
-    "hit": 0.693,
-    "expected": 0.6788,
-    "reads": 508,
-    "readHit": 0.693,
-    "expectedRead": 0.6791,
+    "n": 738,
+    "correct": 513,
+    "hit": 0.6951,
+    "expected": 0.6789,
+    "reads": 513,
+    "readHit": 0.6951,
+    "expectedRead": 0.6792,
     "drawnOut": 127
    },
    {
     "name": "Lean",
     "k": 1,
     "min": 0.55,
-    "n": 1192,
-    "correct": 722,
-    "hit": 0.6057,
-    "expected": 0.5942,
-    "reads": 789,
-    "readHit": 0.6619,
-    "expectedRead": 0.6418,
-    "drawnOut": 275
+    "n": 1201,
+    "correct": 729,
+    "hit": 0.607,
+    "expected": 0.5941,
+    "reads": 797,
+    "readHit": 0.6636,
+    "expectedRead": 0.6417,
+    "drawnOut": 277
    },
    {
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 9318,
-    "correct": 4363,
-    "hit": 0.4682,
+    "n": 9331,
+    "correct": 4367,
+    "hit": 0.468,
     "expected": 0.4428,
-    "reads": 6283,
-    "readHit": 0.6743,
+    "reads": 6290,
+    "readHit": 0.6741,
     "expectedRead": 0.6616,
-    "drawnOut": 2371
+    "drawnOut": 2374
    }
   ],
   "bands": [
    {
     "from": 0.0,
     "to": 0.4,
-    "n": 2755,
-    "hit": 0.3931,
-    "won": 1083,
-    "expected": 0.3751,
-    "reads": 1825,
-    "readHit": 0.6624,
+    "n": 2760,
+    "hit": 0.3928,
+    "won": 1084,
+    "expected": 0.3752,
+    "reads": 1827,
+    "readHit": 0.662,
     "expectedRead": 0.6549
    },
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 4694,
-    "hit": 0.4772,
+    "n": 4698,
+    "hit": 0.4768,
     "won": 2240,
     "expected": 0.4457,
-    "reads": 3207,
-    "readHit": 0.6832,
+    "reads": 3209,
+    "readHit": 0.6831,
     "expectedRead": 0.6669
    },
    {
     "from": 0.5,
     "to": 0.6,
-    "n": 2526,
-    "hit": 0.5625,
-    "won": 1421,
+    "n": 2538,
+    "hit": 0.5634,
+    "won": 1430,
     "expected": 0.5442,
-    "reads": 1698,
-    "readHit": 0.6722,
-    "expectedRead": 0.6569
+    "reads": 1708,
+    "readHit": 0.673,
+    "expectedRead": 0.6568
    },
    {
     "from": 0.6,
     "to": 0.7,
-    "n": 1131,
-    "hit": 0.6569,
-    "won": 743,
+    "n": 1135,
+    "hit": 0.6581,
+    "won": 747,
     "expected": 0.6418,
-    "reads": 744,
-    "readHit": 0.6578,
-    "expectedRead": 0.6432
+    "reads": 748,
+    "readHit": 0.659,
+    "expectedRead": 0.6431
    },
    {
     "from": 0.7,
     "to": 1.0,
-    "n": 608,
-    "hit": 0.778,
-    "won": 473,
-    "expected": 0.7745,
-    "reads": 474,
-    "readHit": 0.7796,
-    "expectedRead": 0.7747
+    "n": 611,
+    "hit": 0.7791,
+    "won": 476,
+    "expected": 0.7746,
+    "reads": 477,
+    "readHit": 0.7807,
+    "expectedRead": 0.7748
    }
   ],
   "days": [
    {
+    "date": "2026-11-14",
+    "acc": 0.56,
+    "n": 25
+   },
+   {
     "date": "2026-11-13",
-    "acc": 0.5217,
-    "n": 69
+    "acc": 0.5417,
+    "n": 72
    },
    {
     "date": "2026-11-12",
@@ -863,11 +869,6 @@
     "date": "2026-11-01",
     "acc": 0.513,
     "n": 614
-   },
-   {
-    "date": "2026-10-31",
-    "acc": 0.5248,
-    "n": 766
    }
   ],
   "weak": [
@@ -935,7 +936,7 @@
    },
    {
     "m": "Lakta\u0161i v Famos Vojkovi\u0107i",
-    "c": 0.8719,
+    "c": 0.8698,
     "lg": "af.317"
    }
   ]

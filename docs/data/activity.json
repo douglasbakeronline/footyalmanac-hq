@@ -196,8 +196,20 @@
    "outcome": null
   }
  ],
- "fetched": "2026-11-14T12:40:41.969271+00:00",
+ "fetched": "2026-11-14T13:47:50.875084+00:00",
  "commits": [
+  {
+   "sha": "68a4412",
+   "msg": "Archive predictions and record for 2026-11-14 [skip ci]",
+   "date": "2026-11-14T12:45:55Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/68a44120dbea410ad52dc118af446f65d568aa2e"
+  },
+  {
+   "sha": "8af1e18",
+   "msg": "Pool: remember when a tennis order of play arrived (timeSet), so the replay and funnel stop refusing timed legs (#303)",
+   "date": "2026-11-14T12:43:36Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/8af1e1837cc64d6ea2f3be9c8b32a623998fe2a8"
+  },
   {
    "sha": "2188999",
    "msg": "Archive predictions and record for 2026-11-14 [skip ci]",
@@ -305,35 +317,47 @@
    "msg": "Match the lagging leagues' remaining ESPN names (#292)",
    "date": "2026-11-13T17:08:52Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/30560b254e2f799f2f411a783a85e7a0dd6bb8cb"
-  },
-  {
-   "sha": "b643460",
-   "msg": "Archive predictions and record for 2026-11-13 [skip ci]",
-   "date": "2026-11-13T17:02:51Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/b6434600217688717280d726ded13b417f9e25f8"
-  },
-  {
-   "sha": "1862be4",
-   "msg": "Score the core leagues' October and November results from ESPN (#291)",
-   "date": "2026-11-13T16:58:06Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1862be4caa8ff5148d1423ab9e94534824214b9e"
   }
  ],
  "runs": [
   {
-   "conclusion": "",
+   "conclusion": "failure",
+   "createdAt": "2026-11-14T13:41:46Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43601049058"
+  },
+  {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-14T12:43:40Z",
+   "name": "CEO",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43596225846"
+  },
+  {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-14T12:43:40Z",
+   "name": "Claude",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43596225834"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-14T12:43:39Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43596223996"
+  },
+  {
+   "conclusion": "success",
    "createdAt": "2026-11-14T12:40:22Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43595965342"
   },
   {
-   "conclusion": "",
+   "conclusion": "success",
    "createdAt": "2026-11-14T12:40:22Z",
    "name": "Evaluation",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43595965181"
   },
   {
-   "conclusion": "",
+   "conclusion": "success",
    "createdAt": "2026-11-14T12:40:13Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43595952834"
@@ -355,30 +379,6 @@
    "createdAt": "2026-11-14T10:01:40Z",
    "name": "Office merge window",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43583290046"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-14T08:59:00Z",
-   "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43578336853"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-14T08:59:00Z",
-   "name": "Claude",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43578336756"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-14T08:58:53Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43578328929"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-14T08:57:41Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43578242706"
   }
  ]
 }
