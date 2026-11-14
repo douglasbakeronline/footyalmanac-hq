@@ -196,8 +196,14 @@
    "outcome": null
   }
  ],
- "fetched": "2026-11-14T17:14:07.736855+00:00",
+ "fetched": "2026-11-14T17:38:06.769744+00:00",
  "commits": [
+  {
+   "sha": "98e5c01",
+   "msg": "Archive predictions and record for 2026-11-14 [skip ci]",
+   "date": "2026-11-14T17:26:53Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/98e5c01bfe27d3a0d0a03d226d3d75e4a1f47bbb"
+  },
   {
    "sha": "16dcb68",
    "msg": "Archive predictions and record for 2026-11-14 [skip ci]",
@@ -311,15 +317,15 @@
    "msg": "Office agent (legs): Tennis legs: 33/55 against 40 expected (#295)",
    "date": "2026-11-13T20:06:36Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/c568bd198b428ba4b482085fc50b4c18a82e7546"
-  },
-  {
-   "sha": "2dcb8e7",
-   "msg": "Office agent (experiment): Belgium: the 2026-27 openfootball file parses with no scores and junk club names (#294)",
-   "date": "2026-11-13T20:02:26Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/2dcb8e7e0e2240d97a4321d9ed56f1f30d184196"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-14T17:21:16Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43620647057"
+  },
   {
    "conclusion": "skipped",
    "createdAt": "2026-11-14T16:46:06Z",
@@ -373,12 +379,6 @@
    "createdAt": "2026-11-14T13:41:46Z",
    "name": "Office agents",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43601049058"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-14T12:43:40Z",
-   "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43596225846"
   }
  ]
 }
