@@ -1,6 +1,45 @@
 {
  "prs": [
   {
+   "n": 333,
+   "title": "[curator] Test the Daily List bar",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/333",
+   "owner": "curator",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-15T14:35:53Z",
+   "merged": "2026-11-15T14:37:26Z",
+   "closed": "2026-11-15T14:37:26Z",
+   "objective": "list-bar",
+   "outcome": "evidence"
+  },
+  {
+   "n": 332,
+   "title": "[calib] Check calibration by sport and confidence band",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/332",
+   "owner": "calib",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-15T14:30:07Z",
+   "merged": "2026-11-15T14:32:10Z",
+   "closed": "2026-11-15T14:32:10Z",
+   "objective": "calibration-check",
+   "outcome": "evidence"
+  },
+  {
+   "n": 331,
+   "title": "[sports] ATP landing below its quotes",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/331",
+   "owner": "sports",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-15T14:21:15Z",
+   "merged": "2026-11-15T14:23:19Z",
+   "closed": "2026-11-15T14:23:19Z",
+   "objective": "hq-tennis-atp",
+   "outcome": "evidence"
+  },
+  {
    "n": 330,
    "title": "[experiment] FIFA ranking stuck at 20 Jul 2026: FIFA's API answers nothing newer",
    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/330",
@@ -131,8 +170,50 @@
    "outcome": "tests"
   }
  ],
- "fetched": "2026-11-15T14:18:22.912136+00:00",
+ "fetched": "2026-11-15T17:53:37.967942+00:00",
  "commits": [
+  {
+   "sha": "246f49f",
+   "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
+   "date": "2026-11-15T16:47:30Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/246f49fc63356a6a18674570ad660386d3c3bb70"
+  },
+  {
+   "sha": "8997236",
+   "msg": "Briefing watch: dispatch a deploy when a briefing slot is overdue (#334)",
+   "date": "2026-11-15T16:42:24Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/899723648d5372ad2897347210b21450015998ac"
+  },
+  {
+   "sha": "f411986",
+   "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
+   "date": "2026-11-15T15:02:00Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f411986b4ff730027ab324ada05950dec5414c79"
+  },
+  {
+   "sha": "5912a53",
+   "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
+   "date": "2026-11-15T14:43:35Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5912a53bf6a137b2e52195ecf2357d7e13f8c2bb"
+  },
+  {
+   "sha": "7025181",
+   "msg": "Office agent (curator): Test the Daily List bar (#333)",
+   "date": "2026-11-15T14:37:25Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/7025181ebff276996e92a21231216588f7594b9f"
+  },
+  {
+   "sha": "840ca14",
+   "msg": "Office agent (calib): Check calibration by sport and confidence band (#332)",
+   "date": "2026-11-15T14:32:09Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/840ca140e06473ff1d164ca3aa55b503a1d0664a"
+  },
+  {
+   "sha": "29fb7e1",
+   "msg": "Office agent (sports): ATP landing below its quotes (#331)",
+   "date": "2026-11-15T14:23:18Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/29fb7e153f17e61decbd6a74e3432580827d3017"
+  },
   {
    "sha": "93433db",
    "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
@@ -210,110 +291,68 @@
    "msg": "Scale groups take football from every fixture; Starred rows match the Daily List (#324)",
    "date": "2026-11-15T12:47:04Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/4372ba83bc653c26bdf9a4664be46df47d54f247"
-  },
-  {
-   "sha": "459fdbc",
-   "msg": "FIFA ranking refresh: ask with rankingType=football, log the overview's shape, refuse short lists (#323)",
-   "date": "2026-11-15T12:41:59Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/459fdbc6a7a08c0c9cac2791ea9aedfc4526536d"
-  },
-  {
-   "sha": "acdaa7a",
-   "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
-   "date": "2026-11-15T12:41:10Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/acdaa7a73ddb24c13910c6193bcc3121f6523ead"
-  },
-  {
-   "sha": "6e1cbcb",
-   "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
-   "date": "2026-11-15T12:35:15Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/6e1cbcba1bb1ca1b668412b7183fb12492228cd5"
-  },
-  {
-   "sha": "e1c7f11",
-   "msg": "Scale: estimated prices where no feed prices the bet; standing merge authorisation in CLAUDE.md (#322)",
-   "date": "2026-11-15T12:34:05Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e1c7f11b4a5bbf7714bc46ef9aad5e1324514169"
-  },
-  {
-   "sha": "ac41e2b",
-   "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
-   "date": "2026-11-15T12:30:02Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ac41e2b5987606433c0d3a2850440df975a7a80d"
-  },
-  {
-   "sha": "aef9b91",
-   "msg": "[sports] Baseball (MLB) landing above its quotes (rebased on main) (#267)",
-   "date": "2026-11-15T12:29:48Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/aef9b911df8f7c9dd4e1569bd8a7e39d2ce2d7b7"
-  },
-  {
-   "sha": "5e088e4",
-   "msg": "[ratings] Test one ratings improvement (rebased on main) (#289)",
-   "date": "2026-11-15T12:29:37Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5e088e425127e4273f14f580401058509d4ed4ae"
   }
  ],
  "runs": [
   {
    "conclusion": "success",
-   "createdAt": "2026-11-15T14:16:55Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43723486717"
+   "createdAt": "2026-11-15T16:43:02Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43737032361"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-15T14:16:55Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43723486692"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T14:16:46Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43723474419"
-  },
-  {
-   "conclusion": "",
-   "createdAt": "2026-11-15T14:09:27Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43722796246"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T13:35:38Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43719810867"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T13:35:38Z",
+   "createdAt": "2026-11-15T16:42:28Z",
    "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43719810851"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43736978730"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-15T13:34:07Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43719673083"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T13:34:07Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43719673078"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T13:34:04Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43719669043"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T13:32:03Z",
+   "createdAt": "2026-11-15T16:42:28Z",
    "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43719489806"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43736978629"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T16:40:02Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43736749227"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T16:40:02Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43736749044"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T16:39:52Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43736733468"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T16:27:30Z",
+   "name": "Card review",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43735575125"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T14:56:35Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43727084856"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T14:37:42Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43725388865"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T14:35:56Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43725233805"
   }
  ]
 }

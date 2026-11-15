@@ -1,60 +1,26 @@
 {
- "time": "2026-11-15T08:33:21.158972+00:00",
+ "time": "2026-11-15T17:53:31.857991+00:00",
  "date": "2026-11-15",
- "stage": "briefing",
+ "stage": "refresh",
  "pricing": {
-  "priced": 119,
-  "total": 185,
+  "priced": 113,
+  "total": 144,
   "site": true,
-  "generated": "2026-11-15T06:20:21Z"
+  "generated": "2026-11-15T16:46:05Z"
  },
  "review": {
   "dropped": [
    "Multiplier",
-   "Multiplier (alternative)",
-   "Multiplier"
+   "Multiplier (alternative)"
   ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 480,
-  "list": 15,
-  "tomorrow": 70
+  "today": 324,
+  "list": 19,
+  "tomorrow": 67
  },
  "impactful": [
-  {
-   "sport": "football",
-   "event": "Finland v San Marino",
-   "comp": "UEFA Nations League",
-   "lg": "uefa.nations",
-   "country": "International",
-   "tier": 1,
-   "when": "2026-11-15T17:00:00Z",
-   "date": "2026-11-15",
-   "selection": "Finland",
-   "opp": "San Marino",
-   "side": "h",
-   "home": "Finland",
-   "away": "San Marino",
-   "p": 0.9805,
-   "modelPick": "Finland",
-   "list": true,
-   "reserve": false,
-   "hit": 0.9394,
-   "hitN": 33,
-   "score": [
-    4,
-    0
-   ],
-   "xg": [
-    4.8,
-    0.27
-   ],
-   "rankH": 75,
-   "rankA": 211,
-   "status": "pending",
-   "why": "98% Finland, likely 4-0, xG 4.8 v 0.3, world ranks 75 v 211, calls at this level won 94% (33)"
-  },
   {
    "sport": "nfl",
    "event": "New York Jets v Buffalo Bills",
@@ -104,29 +70,6 @@
    "why": "84% Jacksonville Jaguars, rating 1641 v 1305, form WWLWW, away, calls at this level won 81% (31)"
   },
   {
-   "sport": "tennis",
-   "event": "Rafael Jodar v Alexander Zverev",
-   "comp": "Nitto ATP Finals Group Stage",
-   "tour": "ATP",
-   "when": "2026-11-15T13:00:00Z",
-   "date": "2026-11-15",
-   "selection": "Alexander Zverev",
-   "opp": "Rafael Jodar",
-   "p": 0.6494,
-   "modelPick": "Alexander Zverev",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.5934,
-   "hitN": 91,
-   "id": "187505",
-   "rank": [
-    1,
-    10
-   ],
-   "status": "pending",
-   "why": "65% Alexander Zverev, ranked 1 v 10, calls at this level won 59% (91)"
-  },
-  {
    "sport": "ncaab",
    "event": "Iowa State Cyclones v Niagara Purple Eagles",
    "comp": "NCAA",
@@ -134,12 +77,12 @@
    "date": "2026-11-15",
    "selection": "Iowa State Cyclones",
    "opp": "Niagara Purple Eagles",
-   "p": 0.9748,
+   "p": 0.9842,
    "modelPick": "Iowa State Cyclones",
    "tierName": "Strong",
    "list": true,
-   "hit": 0.9157,
-   "hitN": 1258,
+   "hit": 0.9181,
+   "hitN": 1355,
    "id": "401909774",
    "elo": [
     1849,
@@ -148,7 +91,7 @@
    "homeSide": true,
    "form": "WWLLW",
    "status": "pending",
-   "why": "97% Iowa State Cyclones, rating 1849 v 1314, form WWLLW, at home, calls at this level won 92% (1258)"
+   "why": "98% Iowa State Cyclones, rating 1849 v 1314, form WWLLW, at home, calls at this level won 92% (1355)"
   },
   {
    "sport": "ncaab",
@@ -158,12 +101,12 @@
    "date": "2026-11-15",
    "selection": "Michigan Wolverines",
    "opp": "William & Mary Tribe",
-   "p": 0.9586,
+   "p": 0.9731,
    "modelPick": "Michigan Wolverines",
    "tierName": "Strong",
    "list": true,
-   "hit": 0.9157,
-   "hitN": 1258,
+   "hit": 0.9181,
+   "hitN": 1355,
    "id": "401918453",
    "elo": [
     2068,
@@ -172,7 +115,64 @@
    "homeSide": true,
    "form": "WLWWW",
    "status": "pending",
-   "why": "96% Michigan Wolverines, rating 2068 v 1622, form WLWWW, at home, calls at this level won 92% (1258)"
+   "why": "97% Michigan Wolverines, rating 2068 v 1622, form WLWWW, at home, calls at this level won 92% (1355)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "UT Martin Skyhawks v Ecclesia Royals",
+   "comp": "NCAA",
+   "when": "2026-11-15T23:00Z",
+   "date": "2026-11-15",
+   "selection": "UT Martin Skyhawks",
+   "opp": "Ecclesia Royals",
+   "p": 0.9534,
+   "modelPick": "UT Martin Skyhawks",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9181,
+   "hitN": 1355,
+   "id": "401926733",
+   "elo": [
+    1619,
+    1268
+   ],
+   "homeSide": true,
+   "form": "WWLLL",
+   "status": "pending",
+   "why": "95% UT Martin Skyhawks, rating 1619 v 1268, form WWLLL, at home, calls at this level won 92% (1355)"
+  },
+  {
+   "sport": "football",
+   "event": "Panama v Curaçao",
+   "comp": "CONCACAF Nations League",
+   "lg": "concacaf.nations",
+   "country": "International",
+   "tier": 1,
+   "when": "2026-11-15T23:00:00Z",
+   "date": "2026-11-15",
+   "selection": "Panama",
+   "opp": "Curaçao",
+   "side": "h",
+   "home": "Panama",
+   "away": "Curaçao",
+   "p": 0.6618,
+   "modelPick": "Panama",
+   "list": false,
+   "reserve": false,
+   "hit": 0.7272,
+   "hitN": 55,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.23,
+    0.85
+   ],
+   "rankH": 44,
+   "rankA": 82,
+   "status": "pending",
+   "why": "66% Panama, likely 2-0, xG 2.2 v 0.8, world ranks 44 v 82, calls at this level won 73% (55)"
   }
  ],
  "tomorrow": [
@@ -201,29 +201,6 @@
   },
   {
    "sport": "tennis",
-   "event": "Flavio Cobolli v Carlos Alcaraz",
-   "comp": "Nitto ATP Finals Group Stage",
-   "tour": "ATP",
-   "when": "2026-11-16T05:00:00Z",
-   "date": "2026-11-16",
-   "selection": "Carlos Alcaraz",
-   "opp": "Flavio Cobolli",
-   "p": 0.8605,
-   "modelPick": "Carlos Alcaraz",
-   "tierName": "Strong",
-   "list": false,
-   "hit": null,
-   "hitN": null,
-   "id": "187510",
-   "rank": [
-    3,
-    6
-   ],
-   "status": "pending",
-   "why": "86% Carlos Alcaraz, ranked 3 v 6"
-  },
-  {
-   "sport": "tennis",
    "event": "Flavio Cobolli v Daniil Medvedev",
    "comp": "Nitto ATP Finals Group Stage",
    "tour": "ATP",
@@ -235,15 +212,15 @@
    "modelPick": "Daniil Medvedev",
    "tierName": "Firm",
    "list": false,
-   "hit": 0.5934,
-   "hitN": 91,
+   "hit": 0.5978,
+   "hitN": 92,
    "id": "187512",
    "rank": [
     5,
     6
    ],
    "status": "pending",
-   "why": "65% Daniil Medvedev, ranked 5 v 6, calls at this level won 59% (91)"
+   "why": "65% Daniil Medvedev, ranked 5 v 6, calls at this level won 60% (92)"
   },
   {
    "sport": "football",
@@ -310,6 +287,39 @@
    "rankA": 167,
    "status": "pending",
    "why": "72% Guadeloupe, likely 2-1, xG 2.9 v 1.1, calls at this level won 74% (39)"
+  },
+  {
+   "sport": "football",
+   "event": "Switzerland v Scotland",
+   "comp": "UEFA Nations League",
+   "lg": "uefa.nations",
+   "country": "International",
+   "tier": 1,
+   "when": "2026-11-16T19:45:00Z",
+   "date": "2026-11-16",
+   "selection": "Switzerland",
+   "opp": "Scotland",
+   "side": "h",
+   "home": "Switzerland",
+   "away": "Scotland",
+   "p": 0.7201,
+   "modelPick": "Switzerland",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7665,
+   "hitN": 30,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.32,
+    0.69
+   ],
+   "rankH": 14,
+   "rankA": 42,
+   "status": "pending",
+   "why": "72% Switzerland, likely 2-0, xG 2.3 v 0.7, world ranks 14 v 42, calls at this level won 77% (30)"
   }
  ],
  "groups": [],
@@ -458,5 +468,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/55",
  "issue": 55,
- "text": "Good morning Douglas. Sunday 15 November, 08:33 UK.\n\n### Yesterday\n**Susie (Auditor):** Daily List 6/7 (misses: Pipinsried v TuS Geretsried 1-1); football overall 55% of 393; tennis 2/4; other sports 102/138.\n\n**Jade (Accumulator Strategist): yesterday's groups**\n\n| Group | Odds | Result | Legs | Lost on |\n|---|---|---|---|---|\n| Card 2x | 2.36 | Lost | 0 won, 1 lost, 2 to settle | VVV-Venlo (1-2) |\n\nRunning record: 38 of 130 groups won (tested chances expected 43.9), legs 364/503, return on 1 unit a group -19.48.\n\n### Today: what matters and why\n- **Finland v San Marino** (UEFA Nations League, 17:00): 98% Finland, likely 4-0, xG 4.8 v 0.3, world ranks 75 v 211, calls at this level won 94% (33)\n- **New York Jets v Buffalo Bills** (NFL, 18:00): 86% Buffalo Bills, rating 1691 v 1331, form WWWWL, away, calls at this level won 100% (12)\n- **Tennessee Titans v Jacksonville Jaguars** (NFL, 18:00): 84% Jacksonville Jaguars, rating 1641 v 1305, form WWLWW, away, calls at this level won 81% (31)\n- **Rafael Jodar v Alexander Zverev** (Nitto ATP Finals Group Stage, 13:00): 65% Alexander Zverev, ranked 1 v 10, calls at this level won 59% (91)\n- **Iowa State Cyclones v Niagara Purple Eagles** (NCAA, 18:00): 97% Iowa State Cyclones, rating 1849 v 1314, form WWLLW, at home, calls at this level won 92% (1258)\n- **Michigan Wolverines v William & Mary Tribe** (NCAA, 19:00): 96% Michigan Wolverines, rating 2068 v 1622, form WLWWW, at home, calls at this level won 92% (1258)\n\n**Nina (Daily Board):** 480 games rated by the model today, 15 on the Daily List.\n\n### Tomorrow\n- **Frances Tiafoe v Carlos Alcaraz** (Nitto ATP Finals Group Stage, 13:00): 82% Carlos Alcaraz, ranked 3 v 8\n- **Flavio Cobolli v Carlos Alcaraz** (Nitto ATP Finals Group Stage, 05:00): 86% Carlos Alcaraz, ranked 3 v 6\n- **Flavio Cobolli v Daniil Medvedev** (Nitto ATP Finals Group Stage, 19:30): 65% Daniil Medvedev, ranked 5 v 6, calls at this level won 59% (91)\n- **Lithuania v Liechtenstein** (UEFA Nations League, 17:00): 78% Lithuania, likely 2-0, xG 2.2 v 0.4, world ranks 149 v 206, calls at this level won 79% (56)\n- **Guadeloupe v Bermuda** (CONCACAF Nations League, 19:00): 72% Guadeloupe, likely 2-1, xG 2.9 v 1.1, calls at this level won 74% (39)\n\n### Three groups of five\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (119 of today's 185 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Sunday 15 November, 17:53 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (113 of today's 144 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
