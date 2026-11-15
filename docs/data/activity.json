@@ -1,6 +1,19 @@
 {
  "prs": [
   {
+   "n": 330,
+   "title": "[experiment] FIFA ranking stuck at 20 Jul 2026: FIFA's API answers nothing newer",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/330",
+   "owner": "experiment",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-15T14:16:51Z",
+   "merged": null,
+   "closed": null,
+   "objective": "issue-327",
+   "outcome": null
+  },
+  {
    "n": 295,
    "title": "[legs] Tennis legs: 33/55 against 40 expected",
    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/295",
@@ -118,7 +131,7 @@
    "outcome": "tests"
   }
  ],
- "fetched": "2026-11-15T14:10:01.461870+00:00",
+ "fetched": "2026-11-15T14:18:22.912136+00:00",
  "commits": [
   {
    "sha": "93433db",
@@ -243,6 +256,24 @@
  ],
  "runs": [
   {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T14:16:55Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43723486717"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T14:16:55Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43723486692"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T14:16:46Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43723474419"
+  },
+  {
    "conclusion": "",
    "createdAt": "2026-11-15T14:09:27Z",
    "name": "Office agents",
@@ -283,24 +314,6 @@
    "createdAt": "2026-11-15T13:32:03Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43719489806"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T13:32:03Z",
-   "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43719489799"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T13:25:32Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43718934413"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T13:25:32Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43718934376"
   }
  ]
 }
