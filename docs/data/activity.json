@@ -131,8 +131,20 @@
    "outcome": null
   }
  ],
- "fetched": "2026-11-15T08:33:32.371390+00:00",
+ "fetched": "2026-11-15T10:31:51.377158+00:00",
  "commits": [
+  {
+   "sha": "da4bcb0",
+   "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
+   "date": "2026-11-15T09:19:08Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/da4bcb0cd53cd9556eebbdbabc05b9e098436015"
+  },
+  {
+   "sha": "30dd0f1",
+   "msg": "Replays: the check season runs past 20 Sep, filled from the committed ESPN cache (#320)",
+   "date": "2026-11-15T09:13:25Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/30dd0f13ca4b104374bde804bb3dbb23703c840f"
+  },
   {
    "sha": "a0fbaeb",
    "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
@@ -240,80 +252,68 @@
    "msg": "Archive predictions and record for 2026-11-15 [skip ci]",
    "date": "2026-11-15T03:06:31Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1846b7caae2f8c05131c130fef69723c7926a0df"
-  },
-  {
-   "sha": "e2ae865",
-   "msg": "Away and Neutral marks on college picks (#313)",
-   "date": "2026-11-15T03:00:43Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e2ae8654da3e1f114a76c22e9425a01ecfecfce1"
-  },
-  {
-   "sha": "bc7879c",
-   "msg": "Away and Neutral marks on college picks, by-side tally and tripwire",
-   "date": "2026-11-15T02:59:00Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/bc7879c8bdc53470151f5036efccfd6fb9296cd3"
   }
  ],
  "runs": [
   {
-   "conclusion": "failure",
-   "createdAt": "2026-11-15T06:54:41Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43687561599"
-  },
-  {
    "conclusion": "success",
-   "createdAt": "2026-11-15T06:15:51Z",
+   "createdAt": "2026-11-15T09:13:28Z",
    "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43684638386"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43698195910"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-15T05:05:32Z",
+   "createdAt": "2026-11-15T09:13:28Z",
    "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43679562921"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43698195901"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-15T05:01:50Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43679285956"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-15T05:01:50Z",
+   "createdAt": "2026-11-15T09:01:34Z",
    "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43679285944"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43697216919"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-15T05:01:42Z",
+   "createdAt": "2026-11-15T09:01:34Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43679275480"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43697216806"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-15T04:48:12Z",
+   "createdAt": "2026-11-15T09:01:34Z",
    "name": "Card legs history",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43678334706"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-15T04:45:57Z",
-   "name": "Claude",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43678177560"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-15T04:45:57Z",
-   "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43678177556"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43697216805"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-15T04:43:51Z",
-   "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43678027767"
+   "createdAt": "2026-11-15T09:01:32Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43697213616"
+  },
+  {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-15T08:54:10Z",
+   "name": "CEO",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43696647620"
+  },
+  {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-15T08:54:10Z",
+   "name": "Claude",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43696647612"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T08:49:59Z",
+   "name": "Card legs history",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43696328038"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-15T08:49:59Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/43696328022"
   }
  ]
 }
