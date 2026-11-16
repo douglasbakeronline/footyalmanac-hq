@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-16T02:05:30",
- "fetched": "2026-11-16T02:53:25.199531+00:00",
+ "generated": "2026-11-16T08:42:19",
+ "fetched": "2026-11-16T08:42:55.977756+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-16",
-   "count": 64,
+   "count": 63,
    "games": [
     {
      "t": "00:00",
@@ -24,9 +24,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "79-62"
     },
     {
      "t": "00:00",
@@ -45,9 +45,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "122-46"
     },
     {
      "t": "01:00",
@@ -66,9 +66,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "89-81"
     },
     {
      "t": "23:00",
@@ -166,9 +166,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "80-68"
     },
     {
      "t": "14:00",
@@ -202,9 +202,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "103-125"
     },
     {
      "t": "17:00",
@@ -268,9 +268,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "119-147"
     },
     {
      "t": "15:00",
@@ -449,9 +449,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "67-87"
     },
     {
      "t": "01:00",
@@ -470,9 +470,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "106-113"
     },
     {
      "t": "19:30",
@@ -780,8 +780,8 @@
      "unrated": false
     },
     {
-     "t": "13:00",
-     "ko": "2026-11-16T13:00:00Z",
+     "t": "12:15",
+     "ko": "2026-11-16T12:15:00Z",
      "lg": "af.291",
      "lgName": "Azadegan League",
      "country": "Iran",
@@ -1062,35 +1062,6 @@
      ],
      "btts": 0.5119,
      "o25": 0.4831,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "01:10",
-     "ko": "2026-11-16T01:10:00Z",
-     "lg": "af.240",
-     "lgName": "Primera B",
-     "country": "Colombia",
-     "h": "Quindio",
-     "a": "Real Cartagena",
-     "side": "h",
-     "pick": "Quindio",
-     "c": 0.4388,
-     "p": {
-      "h": 0.4388,
-      "d": 0.2819,
-      "a": 0.2793
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5313,
-     "o25": 0.5014,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1682,26 +1653,26 @@
    "pinned": {
     "list": {
      "n": 8,
-     "won": 0,
+     "won": 3,
      "lost": 0,
      "void": 0,
-     "started": 3,
+     "started": 0,
      "upcoming": 5
     },
     "reserve": {
      "n": 13,
-     "won": 0,
+     "won": 5,
      "lost": 0,
      "void": 0,
-     "started": 5,
+     "started": 0,
      "upcoming": 8
     },
     "groupA": {
      "n": 5,
-     "won": 0,
+     "won": 3,
      "lost": 0,
      "void": 0,
-     "started": 3,
+     "started": 0,
      "upcoming": 2
     },
     "groupB": {
@@ -2708,6 +2679,22 @@
      "unrated": false
     },
     {
+     "t": "00:00",
+     "ko": "2026-11-17T00:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Washington Wizards",
+     "a": "Memphis Grizzlies",
+     "side": "a",
+     "pick": "Memphis Grizzlies",
+     "c": 0.6391,
+     "hit": 0.6496,
+     "hitN": 197,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "19:45",
      "ko": "2026-11-17T19:45:00Z",
      "lg": "en.6s",
@@ -2764,22 +2751,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-17T00:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Washington Wizards",
-     "a": "Memphis Grizzlies",
-     "side": "a",
-     "pick": "Memphis Grizzlies",
-     "c": 0.6294,
-     "hit": 0.6496,
-     "hitN": 197,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "16:00",
@@ -4611,6 +4582,22 @@
      "reserve": false
     },
     {
+     "t": "02:00",
+     "ko": "2026-11-18T02:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "UC Davis Aggies",
+     "a": "Alabama State Hornets",
+     "side": "h",
+     "pick": "UC Davis Aggies",
+     "c": 0.9228,
+     "hit": 0.9181,
+     "hitN": 1355,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-11-18T17:00Z",
      "lg": "ncaab",
@@ -4653,22 +4640,6 @@
      "side": "h",
      "pick": "Massachusetts Minutemen",
      "c": 0.9166,
-     "hit": 0.9181,
-     "hitN": 1355,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "02:00",
-     "ko": "2026-11-18T02:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "UC Davis Aggies",
-     "a": "Alabama State Hornets",
-     "side": "h",
-     "pick": "UC Davis Aggies",
-     "c": 0.9136,
      "hit": 0.9181,
      "hitN": 1355,
      "list": true,
@@ -7731,6 +7702,35 @@
      "unrated": false
     },
     {
+     "t": "12:00",
+     "ko": "2026-11-18T12:00:00Z",
+     "lg": "af.317",
+     "lgName": "1st League - RS",
+     "country": "Bosnia",
+     "h": "FK Romanija Pale",
+     "a": "Kozara Gradi\u0161ka",
+     "side": "a",
+     "pick": "Kozara Gradi\u0161ka",
+     "c": 0.3671,
+     "p": {
+      "h": 0.3401,
+      "d": 0.2928,
+      "a": 0.3671
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5283,
+     "o25": 0.4923,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "20:00",
      "ko": "2026-11-18T20:00:00Z",
      "lg": "pe.1",
@@ -7810,35 +7810,6 @@
      ],
      "btts": 0.4931,
      "o25": 0.4496,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:00",
-     "ko": "2026-11-18T12:00:00Z",
-     "lg": "af.317",
-     "lgName": "1st League - RS",
-     "country": "Bosnia",
-     "h": "FK Romanija Pale",
-     "a": "Kozara Gradi\u0161ka",
-     "side": "h",
-     "pick": "FK Romanija Pale",
-     "c": 0.3622,
-     "p": {
-      "h": 0.3622,
-      "d": 0.2936,
-      "a": 0.3442
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5275,
-     "o25": 0.4912,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -8030,6 +8001,22 @@
      "reserve": false
     },
     {
+     "t": "01:00",
+     "ko": "2026-11-19T01:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Texas State Bobcats",
+     "a": "Incarnate Word Cardinals",
+     "side": "h",
+     "pick": "Texas State Bobcats",
+     "c": 0.9694,
+     "hit": 0.9181,
+     "hitN": 1355,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "02:00",
      "ko": "2026-11-19T02:00Z",
      "lg": "ncaab",
@@ -8088,22 +8075,6 @@
      "side": "h",
      "pick": "Nebraska Cornhuskers",
      "c": 0.9653,
-     "hit": 0.9181,
-     "hitN": 1355,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "01:00",
-     "ko": "2026-11-19T01:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Texas State Bobcats",
-     "a": "Incarnate Word Cardinals",
-     "side": "h",
-     "pick": "Texas State Bobcats",
-     "c": 0.9651,
      "hit": 0.9181,
      "hitN": 1355,
      "list": true,
@@ -8190,6 +8161,22 @@
      "reserve": false
     },
     {
+     "t": "00:00",
+     "ko": "2026-11-19T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "St. John's Red Storm",
+     "a": "Siena Saints",
+     "side": "h",
+     "pick": "St. John's Red Storm",
+     "c": 0.918,
+     "hit": 0.9181,
+     "hitN": 1355,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "02:00",
      "ko": "2026-11-19T02:00Z",
      "lg": "ncaab",
@@ -8200,22 +8187,6 @@
      "side": "h",
      "pick": "BYU Cougars",
      "c": 0.9162,
-     "hit": 0.9181,
-     "hitN": 1355,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-19T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "St. John's Red Storm",
-     "a": "Siena Saints",
-     "side": "h",
-     "pick": "St. John's Red Storm",
-     "c": 0.9158,
      "hit": 0.9181,
      "hitN": 1355,
      "list": true,
@@ -8263,7 +8234,7 @@
      "a": "Arkansas-Pine Bluff Golden Lions",
      "side": "h",
      "pick": "Arkansas State Red Wolves",
-     "c": 0.8987,
+     "c": 0.9037,
      "hit": 0.9181,
      "hitN": 1355,
      "list": true,
@@ -8395,22 +8366,6 @@
      "reserve": true
     },
     {
-     "t": "02:00",
-     "ko": "2026-11-19T02:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Creighton Bluejays",
-     "a": "Bethune-Cookman Wildcats",
-     "side": "h",
-     "pick": "Creighton Bluejays",
-     "c": 0.8303,
-     "hit": 0.7776,
-     "hitN": 643,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "00:00",
      "ko": "2026-11-19T00:00Z",
      "lg": "ncaab",
@@ -8459,6 +8414,22 @@
      "reserve": true
     },
     {
+     "t": "02:00",
+     "ko": "2026-11-19T02:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Creighton Bluejays",
+     "a": "Bethune-Cookman Wildcats",
+     "side": "h",
+     "pick": "Creighton Bluejays",
+     "c": 0.7971,
+     "hit": 0.7526,
+     "hitN": 643,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:00",
      "ko": "2026-11-19T00:00Z",
      "lg": "ncaab",
@@ -8471,6 +8442,22 @@
      "c": 0.793,
      "hit": 0.7526,
      "hitN": 643,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-19T00:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Miami Heat",
+     "a": "Milwaukee Bucks",
+     "side": "h",
+     "pick": "Miami Heat",
+     "c": 0.7911,
+     "hit": 0.7668,
+     "hitN": 133,
      "list": false,
      "reserve": true
     },
@@ -8507,22 +8494,6 @@
      "reserve": true
     },
     {
-     "t": "01:00",
-     "ko": "2026-11-19T01:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "UTSA Roadrunners",
-     "a": "Florida A&M Rattlers",
-     "side": "h",
-     "pick": "UTSA Roadrunners",
-     "c": 0.7871,
-     "hit": 0.7526,
-     "hitN": 643,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "02:00",
      "ko": "2026-11-19T02:00Z",
      "lg": "ncaab",
@@ -8535,22 +8506,6 @@
      "c": 0.7865,
      "hit": 0.7526,
      "hitN": 643,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-19T00:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Miami Heat",
-     "a": "Milwaukee Bucks",
-     "side": "h",
-     "pick": "Miami Heat",
-     "c": 0.7843,
-     "hit": 0.7668,
-     "hitN": 133,
      "list": false,
      "reserve": true
     },
@@ -8625,9 +8580,25 @@
      "a": "Houston Rockets",
      "side": "a",
      "pick": "Houston Rockets",
-     "c": 0.7577,
+     "c": 0.7653,
      "hit": 0.7668,
      "hitN": 133,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "01:00",
+     "ko": "2026-11-19T01:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "UTSA Roadrunners",
+     "a": "Florida A&M Rattlers",
+     "side": "h",
+     "pick": "UTSA Roadrunners",
+     "c": 0.7633,
+     "hit": 0.7526,
+     "hitN": 643,
      "list": false,
      "reserve": true
     },
@@ -8664,6 +8635,22 @@
      "reserve": true
     },
     {
+     "t": "00:30",
+     "ko": "2026-11-19T00:30Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Toronto Raptors",
+     "a": "Washington Wizards",
+     "side": "h",
+     "pick": "Toronto Raptors",
+     "c": 0.719,
+     "hit": 0.7741,
+     "hitN": 177,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:00",
      "ko": "2026-11-19T00:00Z",
      "lg": "ncaab",
@@ -8696,18 +8683,18 @@
      "reserve": true
     },
     {
-     "t": "00:30",
-     "ko": "2026-11-19T00:30Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Toronto Raptors",
-     "a": "Washington Wizards",
+     "t": "02:00",
+     "ko": "2026-11-19T02:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Arizona Wildcats",
+     "a": "UConn Huskies",
      "side": "h",
-     "pick": "Toronto Raptors",
-     "c": 0.7104,
-     "hit": 0.7741,
-     "hitN": 177,
+     "pick": "Arizona Wildcats",
+     "c": 0.7044,
+     "hit": 0.6688,
+     "hitN": 592,
      "list": false,
      "reserve": true
     },
@@ -8721,25 +8708,9 @@
      "a": "Cornell Big Red",
      "side": "h",
      "pick": "Syracuse Orange",
-     "c": 0.7049,
-     "hit": 0.6688,
-     "hitN": 592,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "02:00",
-     "ko": "2026-11-19T02:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Arizona Wildcats",
-     "a": "UConn Huskies",
-     "side": "h",
-     "pick": "Arizona Wildcats",
-     "c": 0.7044,
-     "hit": 0.6688,
-     "hitN": 592,
+     "c": 0.699,
+     "hit": 0.6498,
+     "hitN": 619,
      "list": false,
      "reserve": true
     },
@@ -8801,7 +8772,7 @@
      "a": "Atlanta Hawks",
      "side": "h",
      "pick": "Oklahoma City Thunder",
-     "c": 0.6925,
+     "c": 0.6919,
      "hit": 0.6776,
      "hitN": 183,
      "list": false,
@@ -8910,7 +8881,7 @@
      "a": "Phoenix Suns",
      "side": "a",
      "pick": "Phoenix Suns",
-     "c": 0.6644,
+     "c": 0.6727,
      "hit": 0.6776,
      "hitN": 183,
      "list": false,
@@ -9090,20 +9061,20 @@
      "a": "Rudar Prijedor",
      "side": "a",
      "pick": "Rudar Prijedor",
-     "c": 0.551,
+     "c": 0.5486,
      "p": {
-      "h": 0.2023,
-      "d": 0.2467,
-      "a": 0.551
+      "h": 0.2028,
+      "d": 0.2486,
+      "a": 0.5486
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5383,
-     "o25": 0.5294,
-     "hit": 0.5868,
-     "hitN": 4716,
+     "btts": 0.5362,
+     "o25": 0.5264,
+     "hit": 0.5376,
+     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -10210,7 +10181,7 @@
      "a": "Tarleton State Texans",
      "side": "h",
      "pick": "USC Trojans",
-     "c": 0.8905,
+     "c": 0.8959,
      "hit": 0.9181,
      "hitN": 1355,
      "list": true,
@@ -10490,6 +10461,22 @@
      "reserve": true
     },
     {
+     "t": "01:00",
+     "ko": "2026-11-20T01:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Milwaukee Bucks",
+     "a": "Portland Trail Blazers",
+     "side": "a",
+     "pick": "Portland Trail Blazers",
+     "c": 0.7884,
+     "hit": 0.7668,
+     "hitN": 133,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:30",
      "ko": "2026-11-20T00:30Z",
      "lg": "ncaab",
@@ -10502,22 +10489,6 @@
      "c": 0.7863,
      "hit": 0.7526,
      "hitN": 643,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "01:00",
-     "ko": "2026-11-20T01:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Milwaukee Bucks",
-     "a": "Portland Trail Blazers",
-     "side": "a",
-     "pick": "Portland Trail Blazers",
-     "c": 0.7816,
-     "hit": 0.7668,
-     "hitN": 133,
      "list": false,
      "reserve": true
     },
@@ -10686,6 +10657,22 @@
      "reserve": true
     },
     {
+     "t": "01:30",
+     "ko": "2026-11-20T01:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Wisconsin Badgers",
+     "a": "Seton Hall Pirates",
+     "side": "h",
+     "pick": "Wisconsin Badgers",
+     "c": 0.7469,
+     "hit": 0.6688,
+     "hitN": 592,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "03:30",
      "ko": "2026-11-20T03:30Z",
      "lg": "ncaab",
@@ -10729,22 +10716,6 @@
      "list": false,
      "reserve": true,
      "unrated": false
-    },
-    {
-     "t": "01:30",
-     "ko": "2026-11-20T01:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Wisconsin Badgers",
-     "a": "Seton Hall Pirates",
-     "side": "h",
-     "pick": "Wisconsin Badgers",
-     "c": 0.7399,
-     "hit": 0.6688,
-     "hitN": 592,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "20:00",
@@ -11268,35 +11239,6 @@
      "unrated": false
     },
     {
-     "t": "12:00",
-     "ko": "2026-11-20T12:00:00Z",
-     "lg": "af.317",
-     "lgName": "1st League - RS",
-     "country": "Bosnia",
-     "h": "FK Majevica Lopare",
-     "a": "Zvijezda 09",
-     "side": "h",
-     "pick": "FK Majevica Lopare",
-     "c": 0.6425,
-     "p": {
-      "h": 0.6425,
-      "d": 0.2179,
-      "a": 0.1396
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5196,
-     "o25": 0.5323,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "18:30",
      "ko": "2026-11-20T18:30:00Z",
      "lg": "af.208",
@@ -11340,6 +11282,35 @@
      "hitN": 642,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "12:00",
+     "ko": "2026-11-20T12:00:00Z",
+     "lg": "af.317",
+     "lgName": "1st League - RS",
+     "country": "Bosnia",
+     "h": "FK Majevica Lopare",
+     "a": "Zvijezda 09",
+     "side": "h",
+     "pick": "FK Majevica Lopare",
+     "c": 0.6391,
+     "p": {
+      "h": 0.6391,
+      "d": 0.2203,
+      "a": 0.1406
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5177,
+     "o25": 0.5292,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
     },
     {
      "t": "17:30",
@@ -11508,35 +11479,6 @@
      ],
      "btts": 0.4658,
      "o25": 0.4627,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-11-20T16:00:00Z",
-     "lg": "af.872",
-     "lgName": "Liga Premier Serie B",
-     "country": "Mexico",
-     "h": "Celaya 2",
-     "a": "Heroes de Zaci 2",
-     "side": "h",
-     "pick": "Celaya 2",
-     "c": 0.6048,
-     "p": {
-      "h": 0.6048,
-      "d": 0.2355,
-      "a": 0.1597
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5184,
-     "o25": 0.5201,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -11893,6 +11835,35 @@
      "unrated": false
     },
     {
+     "t": "16:00",
+     "ko": "2026-11-20T16:00:00Z",
+     "lg": "af.872",
+     "lgName": "Liga Premier Serie B",
+     "country": "Mexico",
+     "h": "Celaya 2",
+     "a": "Heroes de Zaci 2",
+     "side": "h",
+     "pick": "Celaya 2",
+     "c": 0.5635,
+     "p": {
+      "h": 0.5635,
+      "d": 0.2507,
+      "a": 0.1859
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.5218,
+     "o25": 0.5132,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "18:00",
      "ko": "2026-11-20T18:00:00Z",
      "lg": "dnk.1",
@@ -11989,18 +11960,18 @@
      "a": "Gorilas de Juanacatlan",
      "side": "a",
      "pick": "Gorilas de Juanacatlan",
-     "c": 0.5546,
+     "c": 0.5544,
      "p": {
       "h": 0.1996,
-      "d": 0.2459,
-      "a": 0.5546
+      "d": 0.246,
+      "a": 0.5544
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5375,
-     "o25": 0.5292,
+     "btts": 0.5373,
+     "o25": 0.529,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -12154,35 +12125,6 @@
      "unrated": false
     },
     {
-     "t": "15:30",
-     "ko": "2026-11-20T15:30:00Z",
-     "lg": "af.317",
-     "lgName": "1st League - RS",
-     "country": "Bosnia",
-     "h": "Potkozarje",
-     "a": "Famos Vojkovi\u0107i",
-     "side": "h",
-     "pick": "Potkozarje",
-     "c": 0.5403,
-     "p": {
-      "h": 0.5403,
-      "d": 0.2685,
-      "a": 0.1911
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5052,
-     "o25": 0.4888,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:00",
      "ko": "2026-11-20T19:00:00Z",
      "lg": "nl.2",
@@ -12233,6 +12175,35 @@
      ],
      "btts": 0.5131,
      "o25": 0.4974,
+     "hit": 0.5376,
+     "hitN": 6805,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:30",
+     "ko": "2026-11-20T15:30:00Z",
+     "lg": "af.317",
+     "lgName": "1st League - RS",
+     "country": "Bosnia",
+     "h": "Potkozarje",
+     "a": "Famos Vojkovi\u0107i",
+     "side": "h",
+     "pick": "Potkozarje",
+     "c": 0.5381,
+     "p": {
+      "h": 0.5381,
+      "d": 0.2705,
+      "a": 0.1914
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.5033,
+     "o25": 0.4861,
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": false,
@@ -15405,7 +15376,7 @@
   },
   {
    "date": "2026-11-21",
-   "count": 760,
+   "count": 763,
    "games": [
     {
      "t": "01:00",
@@ -15603,7 +15574,7 @@
      "a": "Coastal Carolina Chanticleers",
      "side": "h",
      "pick": "Tennessee Volunteers",
-     "c": 0.952,
+     "c": 0.9537,
      "hit": 0.9181,
      "hitN": 1355,
      "list": true,
@@ -15751,6 +15722,22 @@
      "reserve": true
     },
     {
+     "t": "03:00",
+     "ko": "2026-11-21T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Fresno State Bulldogs",
+     "a": "Alabama State Hornets",
+     "side": "h",
+     "pick": "Fresno State Bulldogs",
+     "c": 0.8968,
+     "hit": 0.9181,
+     "hitN": 1355,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "20:30",
      "ko": "2026-11-21T20:30Z",
      "lg": "cfb",
@@ -15765,22 +15752,6 @@
      "hitN": 167,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "03:00",
-     "ko": "2026-11-21T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Fresno State Bulldogs",
-     "a": "Alabama State Hornets",
-     "side": "h",
-     "pick": "Fresno State Bulldogs",
-     "c": 0.885,
-     "hit": 0.9181,
-     "hitN": 1355,
-     "list": true,
-     "reserve": false
     },
     {
      "t": "01:00",
@@ -15831,6 +15802,22 @@
      "reserve": false
     },
     {
+     "t": "03:00",
+     "ko": "2026-11-21T03:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Los Angeles Lakers",
+     "a": "Sacramento Kings",
+     "side": "h",
+     "pick": "Los Angeles Lakers",
+     "c": 0.8751,
+     "hit": 0.8816,
+     "hitN": 76,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "00:30",
      "ko": "2026-11-21T00:30Z",
      "lg": "cfb",
@@ -15845,22 +15832,6 @@
      "hitN": 167,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "03:00",
-     "ko": "2026-11-21T03:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Los Angeles Lakers",
-     "a": "Sacramento Kings",
-     "side": "h",
-     "pick": "Los Angeles Lakers",
-     "c": 0.8709,
-     "hit": 0.8816,
-     "hitN": 76,
-     "list": true,
-     "reserve": false
     },
     {
      "t": "09:00",
@@ -16030,22 +16001,6 @@
      "unrated": false
     },
     {
-     "t": "19:00",
-     "ko": "2026-11-21T19:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Syracuse Orange",
-     "a": "Lafayette Leopards",
-     "side": "h",
-     "pick": "Syracuse Orange",
-     "c": 0.8445,
-     "hit": 0.7776,
-     "hitN": 643,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "17:00",
      "ko": "2026-11-21T17:00Z",
      "lg": "cfb",
@@ -16060,6 +16015,38 @@
      "hitN": 95,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "19:00",
+     "ko": "2026-11-21T19:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Syracuse Orange",
+     "a": "Lafayette Leopards",
+     "side": "h",
+     "pick": "Syracuse Orange",
+     "c": 0.8408,
+     "hit": 0.7776,
+     "hitN": 643,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-11-21T18:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Philadelphia 76ers",
+     "a": "Milwaukee Bucks",
+     "side": "h",
+     "pick": "Philadelphia 76ers",
+     "c": 0.8407,
+     "hit": 0.854,
+     "hitN": 89,
+     "list": true,
+     "reserve": false
     },
     {
      "t": "01:00",
@@ -16110,22 +16097,6 @@
      "reserve": true
     },
     {
-     "t": "18:00",
-     "ko": "2026-11-21T18:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Philadelphia 76ers",
-     "a": "Milwaukee Bucks",
-     "side": "h",
-     "pick": "Philadelphia 76ers",
-     "c": 0.8352,
-     "hit": 0.854,
-     "hitN": 89,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-21T15:00:00Z",
      "lg": "af.635",
@@ -16155,6 +16126,22 @@
      "unrated": false
     },
     {
+     "t": "01:00",
+     "ko": "2026-11-21T01:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Oklahoma City Thunder",
+     "a": "New Orleans Pelicans",
+     "side": "h",
+     "pick": "Oklahoma City Thunder",
+     "c": 0.8292,
+     "hit": 0.854,
+     "hitN": 89,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "19:00",
      "ko": "2026-11-21T19:00Z",
      "lg": "ncaab",
@@ -16169,22 +16156,6 @@
      "hitN": 643,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "01:00",
-     "ko": "2026-11-21T01:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Oklahoma City Thunder",
-     "a": "New Orleans Pelicans",
-     "side": "h",
-     "pick": "Oklahoma City Thunder",
-     "c": 0.8238,
-     "hit": 0.854,
-     "hitN": 89,
-     "list": true,
-     "reserve": false
     },
     {
      "t": "19:00",
@@ -16552,35 +16523,6 @@
     {
      "t": "12:00",
      "ko": "2026-11-21T12:00:00Z",
-     "lg": "af.317",
-     "lgName": "1st League - RS",
-     "country": "Bosnia",
-     "h": "Leotar",
-     "a": "Omarska",
-     "side": "h",
-     "pick": "Leotar",
-     "c": 0.7816,
-     "p": {
-      "h": 0.7816,
-      "d": 0.1622,
-      "a": 0.0561
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.455,
-     "o25": 0.52,
-     "hit": 0.7832,
-     "hitN": 964,
-     "celtic": false,
-     "list": true,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:00",
-     "ko": "2026-11-21T12:00:00Z",
      "lg": "af.635",
      "lgName": "NB III - Northwest",
      "country": "Hungary",
@@ -16929,20 +16871,62 @@
      "unrated": false
     },
     {
-     "t": "22:00",
-     "ko": "2026-11-21T22:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "UTSA Roadrunners",
-     "a": "Air Force Falcons",
+     "t": "12:00",
+     "ko": "2026-11-21T12:00:00Z",
+     "lg": "af.317",
+     "lgName": "1st League - RS",
+     "country": "Bosnia",
+     "h": "Leotar",
+     "a": "Omarska",
      "side": "h",
-     "pick": "UTSA Roadrunners",
-     "c": 0.7548,
-     "hit": 0.7526,
-     "hitN": 643,
+     "pick": "Leotar",
+     "c": 0.757,
+     "p": {
+      "h": 0.757,
+      "d": 0.1748,
+      "a": 0.0682
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4664,
+     "o25": 0.5196,
+     "hit": 0.7832,
+     "hitN": 964,
+     "celtic": false,
+     "list": true,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-21T12:30:00Z",
+     "lg": "af.316",
+     "lgName": "1st League - FBiH",
+     "country": "Bosnia",
+     "h": "Sloboda Tuzla",
+     "a": "Rudar Kakanj",
+     "side": "h",
+     "pick": "Sloboda Tuzla",
+     "c": 0.7543,
+     "p": {
+      "h": 0.7543,
+      "d": 0.1732,
+      "a": 0.0724
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4763,
+     "o25": 0.5284,
+     "hit": 0.7832,
+     "hitN": 964,
+     "celtic": false,
      "list": false,
-     "reserve": true
+     "reserve": false,
+     "unrated": false
     },
     {
      "t": "20:30",
@@ -17064,35 +17048,6 @@
      "unrated": false
     },
     {
-     "t": "12:30",
-     "ko": "2026-11-21T12:30:00Z",
-     "lg": "af.316",
-     "lgName": "1st League - FBiH",
-     "country": "Bosnia",
-     "h": "Sloboda Tuzla",
-     "a": "Rudar Kakanj",
-     "side": "h",
-     "pick": "Sloboda Tuzla",
-     "c": 0.745,
-     "p": {
-      "h": 0.745,
-      "d": 0.1774,
-      "a": 0.0776
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.481,
-     "o25": 0.5291,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "23:00",
      "ko": "2026-11-21T23:00Z",
      "lg": "ncaab",
@@ -17155,6 +17110,35 @@
      "hitN": 592,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-21T12:30:00Z",
+     "lg": "af.316",
+     "lgName": "1st League - FBiH",
+     "country": "Bosnia",
+     "h": "Travnik",
+     "a": "\u010capljina",
+     "side": "h",
+     "pick": "Travnik",
+     "c": 0.7368,
+     "p": {
+      "h": 0.7368,
+      "d": 0.1729,
+      "a": 0.0903
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5097,
+     "o25": 0.5549,
+     "hit": 0.7405,
+     "hitN": 1426,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
     },
     {
      "t": "00:30",
@@ -17229,6 +17213,22 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "22:00",
+     "ko": "2026-11-21T22:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "UTSA Roadrunners",
+     "a": "Air Force Falcons",
+     "side": "h",
+     "pick": "UTSA Roadrunners",
+     "c": 0.7286,
+     "hit": 0.6688,
+     "hitN": 592,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "15:00",
@@ -17313,35 +17313,6 @@
      "hit": 0.7405,
      "hitN": 1426,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:30",
-     "ko": "2026-11-21T12:30:00Z",
-     "lg": "af.316",
-     "lgName": "1st League - FBiH",
-     "country": "Bosnia",
-     "h": "Travnik",
-     "a": "\u010capljina",
-     "side": "h",
-     "pick": "Travnik",
-     "c": 0.722,
-     "p": {
-      "h": 0.722,
-      "d": 0.1791,
-      "a": 0.0988
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5156,
-     "o25": 0.5552,
-     "hit": 0.7405,
-     "hitN": 1426,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -19209,6 +19180,22 @@
      "unrated": false
     },
     {
+     "t": "00:00",
+     "ko": "2026-11-21T00:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Atlanta Hawks",
+     "a": "Charlotte Hornets",
+     "side": "h",
+     "pick": "Atlanta Hawks",
+     "c": 0.6285,
+     "hit": 0.6496,
+     "hitN": 197,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:30",
      "ko": "2026-11-21T00:30Z",
      "lg": "ncaab",
@@ -19254,6 +19241,22 @@
      "unrated": false
     },
     {
+     "t": "01:00",
+     "ko": "2026-11-21T01:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Chicago Bulls",
+     "a": "Washington Wizards",
+     "side": "h",
+     "pick": "Chicago Bulls",
+     "c": 0.6277,
+     "hit": 0.6496,
+     "hitN": 197,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "15:30",
      "ko": "2026-11-21T14:30:00Z",
      "lg": "de.1",
@@ -19297,6 +19300,35 @@
      "hitN": 642,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-11-21T18:00:00Z",
+     "lg": "af.872",
+     "lgName": "Liga Premier Serie B",
+     "country": "Mexico",
+     "h": "Irapuato II",
+     "a": "Racing de Veracruz 2",
+     "side": "a",
+     "pick": "Racing de Veracruz 2",
+     "c": 0.6255,
+     "p": {
+      "h": 0.1561,
+      "d": 0.2184,
+      "a": 0.6255
+     },
+     "score": [
+      0,
+      2
+     ],
+     "btts": 0.536,
+     "o25": 0.5456,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
     },
     {
      "t": "12:00",
@@ -19357,35 +19389,6 @@
      "unrated": false
     },
     {
-     "t": "12:00",
-     "ko": "2026-11-21T12:00:00Z",
-     "lg": "af.644",
-     "lgName": "3. liga - West",
-     "country": "Slovakia",
-     "h": "Slovan Duslo \u0160a\u013ea",
-     "a": "Spartak Myjava",
-     "side": "a",
-     "pick": "Spartak Myjava",
-     "c": 0.6161,
-     "p": {
-      "h": 0.1607,
-      "d": 0.2232,
-      "a": 0.6161
-     },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5343,
-     "o25": 0.5411,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-21T15:00:00Z",
      "lg": "en.7ss",
@@ -19439,35 +19442,6 @@
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "18:00",
-     "ko": "2026-11-21T18:00:00Z",
-     "lg": "af.872",
-     "lgName": "Liga Premier Serie B",
-     "country": "Mexico",
-     "h": "Irapuato II",
-     "a": "Racing de Veracruz 2",
-     "side": "a",
-     "pick": "Racing de Veracruz 2",
-     "c": 0.6134,
-     "p": {
-      "h": 0.166,
-      "d": 0.2206,
-      "a": 0.6134
-     },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5427,
-     "o25": 0.5498,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -19734,35 +19708,6 @@
      "unrated": false
     },
     {
-     "t": "12:00",
-     "ko": "2026-11-21T12:00:00Z",
-     "lg": "af.644",
-     "lgName": "3. liga - West",
-     "country": "Slovakia",
-     "h": "Gab\u010d\u00edkovo",
-     "a": "Nitra",
-     "side": "a",
-     "pick": "Nitra",
-     "c": 0.6091,
-     "p": {
-      "h": 0.1936,
-      "d": 0.1973,
-      "a": 0.6091
-     },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5985,
-     "o25": 0.6112,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "11:00",
      "ko": "2026-11-21T11:00:00Z",
      "lg": "af.637",
@@ -19787,6 +19732,35 @@
      "hit": 0.646,
      "hitN": 3240,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:00",
+     "ko": "2026-11-21T12:00:00Z",
+     "lg": "af.644",
+     "lgName": "3. liga - West",
+     "country": "Slovakia",
+     "h": "Gab\u010d\u00edkovo",
+     "a": "Nitra",
+     "side": "a",
+     "pick": "Nitra",
+     "c": 0.6073,
+     "p": {
+      "h": 0.1943,
+      "d": 0.1984,
+      "a": 0.6073
+     },
+     "score": [
+      1,
+      2
+     ],
+     "btts": 0.5975,
+     "o25": 0.6097,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -20198,35 +20172,6 @@
      "unrated": false
     },
     {
-     "t": "12:30",
-     "ko": "2026-11-21T12:30:00Z",
-     "lg": "af.316",
-     "lgName": "1st League - FBiH",
-     "country": "Bosnia",
-     "h": "Zvijezda Grada\u010dac",
-     "a": "Budu\u0107nost Banovi\u0107i",
-     "side": "h",
-     "pick": "Zvijezda Grada\u010dac",
-     "c": 0.5965,
-     "p": {
-      "h": 0.5965,
-      "d": 0.2413,
-      "a": 0.1621
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5137,
-     "o25": 0.5125,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-21T14:00:00Z",
      "lg": "it.1",
@@ -20250,6 +20195,35 @@
      "o25": 0.4567,
      "hit": 0.5352,
      "hitN": 99,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-21T12:30:00Z",
+     "lg": "af.316",
+     "lgName": "1st League - FBiH",
+     "country": "Bosnia",
+     "h": "Zvijezda Grada\u010dac",
+     "a": "Budu\u0107nost Banovi\u0107i",
+     "side": "h",
+     "pick": "Zvijezda Grada\u010dac",
+     "c": 0.5939,
+     "p": {
+      "h": 0.5939,
+      "d": 0.2428,
+      "a": 0.1634
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.5131,
+     "o25": 0.5111,
+     "hit": 0.5868,
+     "hitN": 4716,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -20685,6 +20659,35 @@
      "o25": 0.5336,
      "hit": 0.5352,
      "hitN": 99,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:00",
+     "ko": "2026-11-21T12:00:00Z",
+     "lg": "af.644",
+     "lgName": "3. liga - West",
+     "country": "Slovakia",
+     "h": "Slovan Duslo \u0160a\u013ea",
+     "a": "Spartak Myjava",
+     "side": "a",
+     "pick": "Spartak Myjava",
+     "c": 0.5861,
+     "p": {
+      "h": 0.1802,
+      "d": 0.2337,
+      "a": 0.5861
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5381,
+     "o25": 0.5375,
+     "hit": 0.5868,
+     "hitN": 4716,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -21410,6 +21413,35 @@
      "o25": 0.5174,
      "hit": 0.5868,
      "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-21T15:00:00Z",
+     "lg": "sco.1",
+     "lgName": "Premiership",
+     "country": "Scotland",
+     "h": "Falkirk",
+     "a": "Saint Johnstone",
+     "side": "h",
+     "pick": "Falkirk",
+     "c": 0.5705,
+     "p": {
+      "h": 0.5705,
+      "d": 0.2329,
+      "a": 0.1966
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5518,
+     "o25": 0.5496,
+     "hit": 0.5352,
+     "hitN": 99,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -22222,6 +22254,35 @@
      "o25": 0.5135,
      "hit": 0.4896,
      "hitN": 194,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-21T12:30:00Z",
+     "lg": "af.316",
+     "lgName": "1st League - FBiH",
+     "country": "Bosnia",
+     "h": "Radnik Had\u017ei\u0107i",
+     "a": "Tomislav",
+     "side": "h",
+     "pick": "Radnik Had\u017ei\u0107i",
+     "c": 0.5489,
+     "p": {
+      "h": 0.5489,
+      "d": 0.2423,
+      "a": 0.2088
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5482,
+     "o25": 0.5405,
+     "hit": 0.5376,
+     "hitN": 6805,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -24780,35 +24841,6 @@
      "unrated": false
     },
     {
-     "t": "12:30",
-     "ko": "2026-11-21T12:30:00Z",
-     "lg": "af.316",
-     "lgName": "1st League - FBiH",
-     "country": "Bosnia",
-     "h": "Radnik Had\u017ei\u0107i",
-     "a": "Tomislav",
-     "side": "h",
-     "pick": "Radnik Had\u017ei\u0107i",
-     "c": 0.5047,
-     "p": {
-      "h": 0.5047,
-      "d": 0.2564,
-      "a": 0.2389
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5475,
-     "o25": 0.531,
-     "hit": 0.5376,
-     "hitN": 6805,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-11-21T13:00:00Z",
      "lg": "fr.2",
@@ -25384,35 +25416,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-11-21T15:00:00Z",
-     "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
-     "h": "Falkirk",
-     "a": "Saint Johnstone",
-     "side": "h",
-     "pick": "Falkirk",
-     "c": 0.4932,
-     "p": {
-      "h": 0.4932,
-      "d": 0.252,
-      "a": 0.2548
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5609,
-     "o25": 0.5454,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -26007,18 +26010,18 @@
      "a": "Deportivo Ayense",
      "side": "a",
      "pick": "Deportivo Ayense",
-     "c": 0.4855,
+     "c": 0.4853,
      "p": {
-      "h": 0.2443,
-      "d": 0.2701,
-      "a": 0.4855
+      "h": 0.2444,
+      "d": 0.2703,
+      "a": 0.4853
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5328,
-     "o25": 0.51,
+     "btts": 0.5326,
+     "o25": 0.5098,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -26079,35 +26082,6 @@
      "o25": 0.5491,
      "hit": 0.4634,
      "hitN": 259,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:30",
-     "ko": "2026-11-21T12:30:00Z",
-     "lg": "af.316",
-     "lgName": "1st League - FBiH",
-     "country": "Bosnia",
-     "h": "Jedinstvo Biha\u0107",
-     "a": "Igman Konjic",
-     "side": "h",
-     "pick": "Jedinstvo Biha\u0107",
-     "c": 0.4831,
-     "p": {
-      "h": 0.4831,
-      "d": 0.271,
-      "a": 0.2459
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5324,
-     "o25": 0.5091,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -26486,6 +26460,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-21T12:30:00Z",
+     "lg": "af.316",
+     "lgName": "1st League - FBiH",
+     "country": "Bosnia",
+     "h": "Jedinstvo Biha\u0107",
+     "a": "Igman Konjic",
+     "side": "h",
+     "pick": "Jedinstvo Biha\u0107",
+     "c": 0.4788,
+     "p": {
+      "h": 0.4788,
+      "d": 0.2721,
+      "a": 0.2491
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5324,
+     "o25": 0.5084,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -28956,35 +28959,6 @@
      "unrated": false
     },
     {
-     "t": "12:00",
-     "ko": "2026-11-21T12:00:00Z",
-     "lg": "af.317",
-     "lgName": "1st League - RS",
-     "country": "Bosnia",
-     "h": "Slavija",
-     "a": "Drina Zvornik",
-     "side": "a",
-     "pick": "Drina Zvornik",
-     "c": 0.4435,
-     "p": {
-      "h": 0.257,
-      "d": 0.2995,
-      "a": 0.4435
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5033,
-     "o25": 0.4687,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "17:00",
      "ko": "2026-11-21T17:00:00Z",
      "lg": "srb.1",
@@ -29125,6 +29099,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:00",
+     "ko": "2026-11-21T12:00:00Z",
+     "lg": "af.317",
+     "lgName": "1st League - RS",
+     "country": "Bosnia",
+     "h": "Slavija",
+     "a": "Drina Zvornik",
+     "side": "a",
+     "pick": "Drina Zvornik",
+     "c": 0.4414,
+     "p": {
+      "h": 0.2572,
+      "d": 0.3014,
+      "a": 0.4414
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5013,
+     "o25": 0.466,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -30928,35 +30931,6 @@
      "unrated": false
     },
     {
-     "t": "12:00",
-     "ko": "2026-11-21T12:00:00Z",
-     "lg": "af.644",
-     "lgName": "3. liga - West",
-     "country": "Slovakia",
-     "h": "Ban\u00edk Prievidza",
-     "a": "Nov\u00e9 Z\u00e1mky",
-     "side": "h",
-     "pick": "Ban\u00edk Prievidza",
-     "c": 0.4165,
-     "p": {
-      "h": 0.4165,
-      "d": 0.2634,
-      "a": 0.3202
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5664,
-     "o25": 0.5432,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-21T15:00:00Z",
      "lg": "en.7i",
@@ -31007,6 +30981,35 @@
      ],
      "btts": 0.5346,
      "o25": 0.5031,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:00",
+     "ko": "2026-11-21T12:00:00Z",
+     "lg": "af.644",
+     "lgName": "3. liga - West",
+     "country": "Slovakia",
+     "h": "Ban\u00edk Prievidza",
+     "a": "Nov\u00e9 Z\u00e1mky",
+     "side": "h",
+     "pick": "Ban\u00edk Prievidza",
+     "c": 0.4161,
+     "p": {
+      "h": 0.4161,
+      "d": 0.2641,
+      "a": 0.3198
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5653,
+     "o25": 0.5417,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -34292,6 +34295,35 @@
      "unrated": false
     },
     {
+     "t": "13:00",
+     "ko": "2026-11-21T13:00:00Z",
+     "lg": "af.104",
+     "lgName": "1. Division",
+     "country": "Norway",
+     "h": "Sogndal",
+     "a": "Bjarg",
+     "side": "h",
+     "pick": "Sogndal",
+     "c": 0.3726,
+     "p": {
+      "h": 0.3726,
+      "d": 0.2565,
+      "a": 0.3709
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5824,
+     "o25": 0.5623,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:15",
      "ko": "2026-11-21T15:15:00Z",
      "lg": "es.2",
@@ -36151,7 +36183,7 @@
   },
   {
    "date": "2026-11-22",
-   "count": 581,
+   "count": 582,
    "games": [
     {
      "t": "20:00",
@@ -36484,6 +36516,22 @@
      "reserve": true
     },
     {
+     "t": "03:00",
+     "ko": "2026-11-22T03:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Sacramento Kings",
+     "a": "Boston Celtics",
+     "side": "a",
+     "pick": "Boston Celtics",
+     "c": 0.8324,
+     "hit": 0.854,
+     "hitN": 89,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "12:15",
      "ko": "2026-11-22T11:15:00Z",
      "lg": "nl.1",
@@ -36541,22 +36589,6 @@
      "c": 0.8298,
      "hit": 0.8065,
      "hitN": 31,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "03:00",
-     "ko": "2026-11-22T03:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Sacramento Kings",
-     "a": "Boston Celtics",
-     "side": "a",
-     "pick": "Boston Celtics",
-     "c": 0.827,
-     "hit": 0.854,
-     "hitN": 89,
      "list": true,
      "reserve": false
     },
@@ -36772,18 +36804,18 @@
      "a": "Lakta\u0161i",
      "side": "a",
      "pick": "Lakta\u0161i",
-     "c": 0.7734,
+     "c": 0.7725,
      "p": {
       "h": 0.0703,
-      "d": 0.1563,
-      "a": 0.7734
+      "d": 0.1572,
+      "a": 0.7725
      },
      "score": [
       0,
       2
      ],
-     "btts": 0.4938,
-     "o25": 0.5546,
+     "btts": 0.4926,
+     "o25": 0.553,
      "hit": 0.7832,
      "hitN": 964,
      "celtic": false,
@@ -37486,18 +37518,18 @@
      "a": "Cruz Azul Lagunas",
      "side": "a",
      "pick": "Cruz Azul Lagunas",
-     "c": 0.7039,
+     "c": 0.7038,
      "p": {
       "h": 0.1054,
-      "d": 0.1907,
-      "a": 0.7039
+      "d": 0.1908,
+      "a": 0.7038
      },
      "score": [
       0,
       2
      ],
-     "btts": 0.5104,
-     "o25": 0.5431,
+     "btts": 0.5103,
+     "o25": 0.543,
      "hit": 0.7405,
      "hitN": 1426,
      "celtic": true,
@@ -37712,8 +37744,8 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-22T17:00:00Z",
+     "t": "16:30",
+     "ko": "2026-11-22T16:30:00Z",
      "lg": "af.442",
      "lgName": "Tercera Divisi\u00f3n RFEF - Group 4",
      "country": "Spain",
@@ -37769,22 +37801,6 @@
      "c": 0.6774,
      "hit": 0.6498,
      "hitN": 619,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "18:00",
-     "ko": "2026-11-22T18:00Z",
-     "lg": "nfl",
-     "lgName": "NFL",
-     "sport": "nfl",
-     "h": "Philadelphia Eagles",
-     "a": "Pittsburgh Steelers",
-     "side": "a",
-     "pick": "Pittsburgh Steelers",
-     "c": 0.6758,
-     "hit": 0.667,
-     "hitN": 33,
      "list": false,
      "reserve": true
     },
@@ -38333,6 +38349,38 @@
      "reserve": true
     },
     {
+     "t": "20:30",
+     "ko": "2026-11-22T20:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Texas State Bobcats",
+     "a": "McNeese Cowboys",
+     "side": "h",
+     "pick": "Texas State Bobcats",
+     "c": 0.6473,
+     "hit": 0.5826,
+     "hitN": 642,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-11-22T18:00Z",
+     "lg": "nfl",
+     "lgName": "NFL",
+     "sport": "nfl",
+     "h": "Philadelphia Eagles",
+     "a": "Pittsburgh Steelers",
+     "side": "a",
+     "pick": "Pittsburgh Steelers",
+     "c": 0.6437,
+     "hit": 0.6537,
+     "hitN": 52,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-22T15:00:00Z",
      "lg": "af.144",
@@ -38446,35 +38494,6 @@
      "celtic": false,
      "list": false,
      "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:30",
-     "ko": "2026-11-22T12:30:00Z",
-     "lg": "af.316",
-     "lgName": "1st League - FBiH",
-     "country": "Bosnia",
-     "h": "Stup\u010danica Olovo",
-     "a": "Bratstvo Gra\u010danica",
-     "side": "h",
-     "pick": "Stup\u010danica Olovo",
-     "c": 0.6361,
-     "p": {
-      "h": 0.6361,
-      "d": 0.219,
-      "a": 0.1449
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5239,
-     "o25": 0.5352,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
      "unrated": false
     },
     {
@@ -38671,8 +38690,8 @@
      "reserve": true
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-22T17:00:00Z",
+     "t": "11:00",
+     "ko": "2026-11-22T11:00:00Z",
      "lg": "af.441",
      "lgName": "Tercera Divisi\u00f3n RFEF - Group 3",
      "country": "Spain",
@@ -38692,6 +38711,35 @@
      ],
      "btts": 0.4848,
      "o25": 0.4903,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-22T12:30:00Z",
+     "lg": "af.316",
+     "lgName": "1st League - FBiH",
+     "country": "Bosnia",
+     "h": "Stup\u010danica Olovo",
+     "a": "Bratstvo Gra\u010danica",
+     "side": "h",
+     "pick": "Stup\u010danica Olovo",
+     "c": 0.6269,
+     "p": {
+      "h": 0.6269,
+      "d": 0.2238,
+      "a": 0.1493
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5226,
+     "o25": 0.531,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -38875,6 +38923,35 @@
      "hit": 0.7052,
      "hitN": 78,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "12:30",
+     "ko": "2026-11-22T12:30:00Z",
+     "lg": "af.316",
+     "lgName": "1st League - FBiH",
+     "country": "Bosnia",
+     "h": "GO\u0160K Gabela",
+     "a": "Vitez",
+     "side": "h",
+     "pick": "GO\u0160K Gabela",
+     "c": 0.6123,
+     "p": {
+      "h": 0.6123,
+      "d": 0.2469,
+      "a": 0.1408
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4881,
+     "o25": 0.4888,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -39220,35 +39297,6 @@
      ],
      "btts": 0.5338,
      "o25": 0.5334,
-     "hit": 0.5868,
-     "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:30",
-     "ko": "2026-11-22T12:30:00Z",
-     "lg": "af.316",
-     "lgName": "1st League - FBiH",
-     "country": "Bosnia",
-     "h": "GO\u0160K Gabela",
-     "a": "Vitez",
-     "side": "h",
-     "pick": "GO\u0160K Gabela",
-     "c": 0.589,
-     "p": {
-      "h": 0.589,
-      "d": 0.2585,
-      "a": 0.1525
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4867,
-     "o25": 0.4806,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -44361,8 +44409,8 @@
      "unrated": false
     },
     {
-     "t": "13:30",
-     "ko": "2026-11-22T13:30:00Z",
+     "t": "16:00",
+     "ko": "2026-11-22T16:00:00Z",
      "lg": "af.433",
      "lgName": "Serie D - Girone H",
      "country": "Italy",
@@ -47087,8 +47135,8 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-22T17:00:00Z",
+     "t": "11:30",
+     "ko": "2026-11-22T11:30:00Z",
      "lg": "af.452",
      "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
      "country": "Spain",
@@ -49726,8 +49774,8 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-22T17:00:00Z",
+     "t": "15:30",
+     "ko": "2026-11-22T15:30:00Z",
      "lg": "af.452",
      "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
      "country": "Spain",
@@ -50045,6 +50093,35 @@
      "unrated": false
     },
     {
+     "t": "12:30",
+     "ko": "2026-11-22T12:30:00Z",
+     "lg": "af.316",
+     "lgName": "1st League - FBiH",
+     "country": "Bosnia",
+     "h": "TO\u0160K Te\u0161anj",
+     "a": "Posu\u0161je",
+     "side": "h",
+     "pick": "TO\u0160K Te\u0161anj",
+     "c": 0.3787,
+     "p": {
+      "h": 0.3787,
+      "d": 0.3081,
+      "a": 0.3131
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5062,
+     "o25": 0.4657,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "16:00",
      "ko": "2026-11-22T16:00:00Z",
      "lg": "ru.1",
@@ -50330,35 +50407,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:30",
-     "ko": "2026-11-22T12:30:00Z",
-     "lg": "af.316",
-     "lgName": "1st League - FBiH",
-     "country": "Bosnia",
-     "h": "TO\u0160K Te\u0161anj",
-     "a": "Posu\u0161je",
-     "side": "h",
-     "pick": "TO\u0160K Te\u0161anj",
-     "c": 0.3754,
-     "p": {
-      "h": 0.3754,
-      "d": 0.3079,
-      "a": 0.3167
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5068,
-     "o25": 0.4663,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -51321,8 +51369,8 @@
      "unrated": false
     },
     {
-     "t": "13:30",
-     "ko": "2026-11-22T13:30:00Z",
+     "t": "14:30",
+     "ko": "2026-11-22T14:30:00Z",
      "lg": "af.426",
      "lgName": "Serie D - Girone A",
      "country": "Italy",
@@ -52280,7 +52328,7 @@
      "a": "Louisiana Ragin' Cajuns",
      "side": "h",
      "pick": "USC Trojans",
-     "c": 0.912,
+     "c": 0.9164,
      "hit": 0.9181,
      "hitN": 1355,
      "list": true,
@@ -52312,7 +52360,7 @@
      "a": "San Jos\u00e9 State Spartans",
      "side": "h",
      "pick": "Loyola Chicago Ramblers",
-     "c": 0.7407,
+     "c": 0.7166,
      "hit": 0.6688,
      "hitN": 592,
      "list": false,
@@ -52376,7 +52424,7 @@
      "a": "Orlando Magic",
      "side": "a",
      "pick": "Orlando Magic",
-     "c": 0.6288,
+     "c": 0.6386,
      "hit": 0.6496,
      "hitN": 197,
      "list": false,
