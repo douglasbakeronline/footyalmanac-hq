@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-16T11:22:10",
- "fetched": "2026-11-16T12:27:36.237698+00:00",
+ "generated": "2026-11-16T16:10:30",
+ "fetched": "2026-11-16T16:25:24.952144+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-16",
-   "count": 59,
+   "count": 55,
    "games": [
     {
      "t": "00:00",
@@ -120,18 +120,24 @@
     },
     {
      "t": "13:00",
+     "ko": "2026-11-16T13:00:00Z",
      "lg": "ATP",
-     "lgName": "ATP \u00b7 Nitto ATP Finals",
+     "lgName": "ATP \u00b7 Nitto ATP Finals \u00b7 Group Stage",
      "sport": "tennis",
      "h": "Frances Tiafoe",
      "a": "Carlos Alcaraz",
      "side": "a",
      "pick": "Carlos Alcaraz",
      "c": 0.8243,
+     "p": null,
      "hit": null,
      "hitN": null,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "won",
+     "score": null,
+     "res": "Carlos Alcaraz won"
     },
     {
      "t": "23:00",
@@ -171,19 +177,25 @@
      "res": "80-68"
     },
     {
-     "t": "14:00",
+     "t": "14:05",
+     "ko": "2026-11-16T14:05:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 LP Open by IND",
+     "lgName": "WTA \u00b7 LP Open by IND \u00b7 Round 1",
      "sport": "tennis",
      "h": "Diletta Cherubini",
      "a": "Rebeka Masarova",
      "side": "a",
      "pick": "Rebeka Masarova",
      "c": 0.7982,
+     "p": null,
      "hit": 0.8235,
      "hitN": 68,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "won",
+     "score": null,
+     "res": "Rebeka Masarova won"
     },
     {
      "t": "02:00",
@@ -302,35 +314,6 @@
      "unrated": false
     },
     {
-     "t": "13:00",
-     "ko": "2026-11-16T13:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Sudan",
-     "a": "Senegal",
-     "side": "a",
-     "pick": "Senegal",
-     "c": 0.7729,
-     "p": {
-      "h": 0.088,
-      "d": 0.139,
-      "a": 0.7729
-     },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.481,
-     "o25": 0.4602,
-     "hit": 0.7857,
-     "hitN": 56,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:45",
      "ko": "2026-11-16T19:45:00Z",
      "lg": "uefa.nations",
@@ -360,7 +343,7 @@
      "unrated": false
     },
     {
-     "t": "17:00",
+     "t": "17:30",
      "lg": "WTA",
      "lgName": "WTA \u00b7 LP Open by IND",
      "sport": "tennis",
@@ -490,35 +473,6 @@
      "reserve": true
     },
     {
-     "t": "00:00",
-     "ko": "2026-11-16T00:00:00Z",
-     "lg": "af.1048",
-     "lgName": "Premier Division",
-     "country": "Antigua And Barbuda",
-     "h": "Pigotts Bullets",
-     "a": "Freemansville",
-     "side": "h",
-     "pick": "Pigotts Bullets",
-     "c": 0.6311,
-     "p": {
-      "h": 0.6311,
-      "d": 0.2029,
-      "a": 0.1659
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5665,
-     "o25": 0.5809,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-16T15:00:00Z",
      "lg": "uefa.nations",
@@ -540,35 +494,6 @@
      ],
      "btts": 0.4912,
      "o25": 0.4814,
-     "hit": 0.7047,
-     "hitN": 44,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:00",
-     "ko": "2026-11-16T13:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Namibia",
-     "a": "Cameroon",
-     "side": "a",
-     "pick": "Cameroon",
-     "c": 0.5917,
-     "p": {
-      "h": 0.1887,
-      "d": 0.2196,
-      "a": 0.5917
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4818,
-     "o25": 0.4388,
      "hit": 0.7047,
      "hitN": 44,
      "celtic": false,
@@ -925,8 +850,8 @@
      "unrated": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-16T17:00:00Z",
+     "t": "16:00",
+     "ko": "2026-11-16T16:00:00Z",
      "lg": "afcon.q",
      "lgName": "Africa Cup of Nations qualifying",
      "country": "International",
@@ -1149,35 +1074,6 @@
      ],
      "btts": 0.4528,
      "o25": 0.4084,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:00",
-     "ko": "2026-11-16T13:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Zimbabwe",
-     "a": "Equatorial Guinea",
-     "side": "h",
-     "pick": "Zimbabwe",
-     "c": 0.4014,
-     "p": {
-      "h": 0.4014,
-      "d": 0.3484,
-      "a": 0.2501
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.4884,
-     "o25": 0.4595,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1537,11 +1433,11 @@
    "pinned": {
     "list": {
      "n": 8,
-     "won": 3,
+     "won": 5,
      "lost": 0,
      "void": 0,
      "started": 0,
-     "upcoming": 5
+     "upcoming": 3
     },
     "reserve": {
      "n": 13,
@@ -1561,11 +1457,11 @@
     },
     "groupB": {
      "n": 3,
-     "won": 0,
+     "won": 2,
      "lost": 0,
      "void": 0,
      "started": 0,
-     "upcoming": 3
+     "upcoming": 1
     }
    }
   },
