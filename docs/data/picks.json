@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-17T09:22:51",
- "fetched": "2026-11-17T09:50:40.546465+00:00",
+ "generated": "2026-11-17T11:11:20",
+ "fetched": "2026-11-17T11:35:43.023478+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-17",
-   "count": 113,
+   "count": 112,
    "games": [
     {
      "t": "03:00",
@@ -74,8 +74,8 @@
      "t": "10:00",
      "ko": "2026-11-17T10:00:00Z",
      "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
+     "lgName": "International International friendly",
+     "sport": "football",
      "h": "Singapore",
      "a": "Brazil",
      "side": "a",
@@ -86,18 +86,14 @@
       "d": 0.0279,
       "a": 0.9614
      },
-     "score": [
-      0,
-      4
-     ],
-     "btts": 0.4914,
-     "o25": 0.5931,
      "hit": 0.9394,
      "hitN": 33,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:00",
@@ -2542,35 +2538,6 @@
      "unrated": false
     },
     {
-     "t": "10:00",
-     "ko": "2026-11-17T10:00:00Z",
-     "lg": "af.334",
-     "lgName": "Persha Liga",
-     "country": "Ukraine",
-     "h": "UCSA",
-     "a": "Polissya II",
-     "side": "h",
-     "pick": "UCSA",
-     "c": 0.4196,
-     "p": {
-      "h": 0.4196,
-      "d": 0.2737,
-      "a": 0.3067
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5493,
-     "o25": 0.5217,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:45",
      "ko": "2026-11-17T19:45:00Z",
      "lg": "en.7ss",
@@ -2925,8 +2892,8 @@
      "won": 14,
      "lost": 0,
      "void": 0,
-     "started": 2,
-     "upcoming": 7
+     "started": 3,
+     "upcoming": 6
     },
     "reserve": {
      "n": 25,
@@ -2941,8 +2908,8 @@
      "won": 4,
      "lost": 0,
      "void": 0,
-     "started": 0,
-     "upcoming": 1
+     "started": 1,
+     "upcoming": 0
     },
     "groupB": {
      "n": 5,
@@ -7699,20 +7666,20 @@
      "country": "Uruguay",
      "h": "Atletico Torque",
      "a": "Club Nacional",
-     "side": "a",
-     "pick": "Club Nacional",
-     "c": 0.4432,
+     "side": "h",
+     "pick": "Atletico Torque",
+     "c": 0.4322,
      "p": {
-      "h": 0.3056,
-      "d": 0.2512,
-      "a": 0.4432
+      "h": 0.4322,
+      "d": 0.2756,
+      "a": 0.2922
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5625,
-     "o25": 0.5388,
+     "btts": 0.5296,
+     "o25": 0.4965,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -19880,6 +19847,35 @@
     {
      "t": "15:00",
      "ko": "2026-11-21T15:00:00Z",
+     "lg": "sco.1",
+     "lgName": "Premiership",
+     "country": "Scotland",
+     "h": "Falkirk",
+     "a": "Saint Johnstone",
+     "side": "h",
+     "pick": "Falkirk",
+     "c": 0.5705,
+     "p": {
+      "h": 0.5705,
+      "d": 0.2329,
+      "a": 0.1966
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5518,
+     "o25": 0.5496,
+     "hit": 0.5352,
+     "hitN": 99,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-21T15:00:00Z",
      "lg": "sco.2",
      "lgName": "Championship",
      "country": "Scotland",
@@ -20400,8 +20396,8 @@
      "unrated": false
     },
     {
-     "t": "03:00",
-     "ko": "2026-11-21T03:00:00Z",
+     "t": "03:10",
+     "ko": "2026-11-21T03:10:00Z",
      "lg": "mx.1",
      "lgName": "Liga MX",
      "country": "Mexico",
@@ -23967,35 +23963,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-11-21T15:00:00Z",
-     "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
-     "h": "Falkirk",
-     "a": "Saint Johnstone",
-     "side": "h",
-     "pick": "Falkirk",
-     "c": 0.4932,
-     "p": {
-      "h": 0.4932,
-      "d": 0.252,
-      "a": 0.2548
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5609,
-     "o25": 0.5454,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-21T13:30:00Z",
      "lg": "af.202",
@@ -25383,35 +25350,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-21T19:00:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Real Tomayapo",
-     "a": "Nacional Potos\u00ed",
-     "side": "a",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.474,
-     "p": {
-      "h": 0.234,
-      "d": 0.292,
-      "a": 0.474
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.5028,
-     "o25": 0.4728,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -27729,6 +27667,35 @@
      ],
      "btts": 0.502,
      "o25": 0.4668,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "19:00",
+     "ko": "2026-11-21T19:00:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Real Tomayapo",
+     "a": "Nacional Potos\u00ed",
+     "side": "a",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.4401,
+     "p": {
+      "h": 0.2538,
+      "d": 0.3061,
+      "a": 0.4401
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.495,
+     "o25": 0.4587,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -51994,35 +51961,6 @@
      "unrated": false
     },
     {
-     "t": "23:15",
-     "ko": "2026-11-23T23:15:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Cerro Porte\u00f1o",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.495,
-     "p": {
-      "h": 0.495,
-      "d": 0.2772,
-      "a": 0.2278
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5166,
-     "o25": 0.4925,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-23T15:00:00Z",
      "lg": "af.284",
@@ -52163,6 +52101,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "23:15",
+     "ko": "2026-11-23T23:15:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Cerro Porte\u00f1o",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.4753,
+     "p": {
+      "h": 0.4753,
+      "d": 0.2854,
+      "a": 0.2393
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5124,
+     "o25": 0.4841,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -52371,8 +52338,8 @@
      "unrated": false
     },
     {
-     "t": "01:00",
-     "ko": "2026-11-23T01:00:00Z",
+     "t": "01:10",
+     "ko": "2026-11-23T01:10:00Z",
      "lg": "mx.1",
      "lgName": "Liga MX",
      "country": "Mexico",
