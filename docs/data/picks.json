@@ -1,11 +1,11 @@
 {
  "generated": "2026-11-17T21:13:23",
- "fetched": "2026-11-17T21:31:34.968542+00:00",
+ "fetched": "2026-11-17T23:13:52.476299+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-17",
-   "count": 78,
+   "count": 79,
    "games": [
     {
      "t": "03:00",
@@ -162,8 +162,8 @@
      "t": "23:00",
      "ko": "2026-11-17T23:00:00Z",
      "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
+     "lgName": "International International friendly",
+     "sport": "football",
      "h": "Argentina",
      "a": "Costa Rica",
      "side": "h",
@@ -174,18 +174,14 @@
       "d": 0.0586,
       "a": 0.0247
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.4943,
-     "o25": 0.5736,
      "hit": 0.9394,
      "hitN": 33,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "23:30",
@@ -423,8 +419,29 @@
     },
     {
      "t": "23:00",
-     "ko": "2026-11-17T23:00Z",
-     "lg": "ncaab",
+     "ko": "2026-11-17T23:00:00Z",
+     "lg": "NCAA FBS",
+     "lgName": "NCAA FBS",
+     "sport": "cfb",
+     "h": "Western Michigan Broncos",
+     "a": "Eastern Michigan Eagles",
+     "side": "h",
+     "pick": "Western Michigan Broncos",
+     "c": 0.8777,
+     "p": null,
+     "hit": 0.9341,
+     "hitN": 167,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
+    },
+    {
+     "t": "23:00",
+     "ko": "2026-11-17T23:00:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "UMass Lowell River Hawks",
@@ -432,10 +449,15 @@
      "side": "h",
      "pick": "UMass Lowell River Hawks",
      "c": 0.8658,
+     "p": null,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:00",
