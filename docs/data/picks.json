@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-17T04:54:01",
- "fetched": "2026-11-17T05:08:06.264790+00:00",
+ "generated": "2026-11-17T09:22:51",
+ "fetched": "2026-11-17T09:50:40.546465+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -24,9 +24,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "105-66"
     },
     {
      "t": "01:00",
@@ -237,9 +237,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "97-92"
     },
     {
      "t": "03:00",
@@ -258,9 +258,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "94-78"
     },
     {
      "t": "21:30",
@@ -643,8 +643,8 @@
      "t": "05:30",
      "ko": "2026-11-17T05:30:00Z",
      "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
+     "lgName": "International International friendly",
+     "sport": "football",
      "h": "Tahiti",
      "a": "Cook Islands",
      "side": "h",
@@ -655,18 +655,14 @@
       "d": 0.1519,
       "a": 0.071
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.505,
-     "o25": 0.5726,
      "hit": 0.7857,
      "hitN": 56,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:00",
@@ -2926,11 +2922,11 @@
    "pinned": {
     "list": {
      "n": 23,
-     "won": 11,
+     "won": 14,
      "lost": 0,
      "void": 0,
-     "started": 4,
-     "upcoming": 8
+     "started": 2,
+     "upcoming": 7
     },
     "reserve": {
      "n": 25,
@@ -2942,18 +2938,18 @@
     },
     "groupA": {
      "n": 5,
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "void": 0,
-     "started": 1,
+     "started": 0,
      "upcoming": 1
     },
     "groupB": {
      "n": 5,
-     "won": 2,
+     "won": 3,
      "lost": 0,
      "void": 0,
-     "started": 1,
+     "started": 0,
      "upcoming": 2
     }
    }
@@ -6316,6 +6312,22 @@
      "reserve": false
     },
     {
+     "t": "03:00",
+     "ko": "2026-11-19T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "San Diego State Aztecs",
+     "a": "Texas Southern Tigers",
+     "side": "h",
+     "pick": "San Diego State Aztecs",
+     "c": 0.9697,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "02:00",
      "ko": "2026-11-19T02:00Z",
      "lg": "ncaab",
@@ -6326,22 +6338,6 @@
      "side": "h",
      "pick": "Utah State Aggies",
      "c": 0.9694,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "03:00",
-     "ko": "2026-11-19T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "San Diego State Aztecs",
-     "a": "Texas Southern Tigers",
-     "side": "h",
-     "pick": "San Diego State Aztecs",
-     "c": 0.9681,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -6437,7 +6433,7 @@
      "a": "Cal State Fullerton Titans",
      "side": "h",
      "pick": "UCLA Bruins",
-     "c": 0.9267,
+     "c": 0.9288,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -8443,22 +8439,6 @@
      "reserve": false
     },
     {
-     "t": "03:00",
-     "ko": "2026-11-20T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Portland State Vikings",
-     "a": "Northwest Indian RedHawks",
-     "side": "h",
-     "pick": "Portland State Vikings",
-     "c": 0.9425,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "01:00",
      "ko": "2026-11-20T01:00Z",
      "lg": "ncaab",
@@ -8485,6 +8465,22 @@
      "side": "h",
      "pick": "Stanford Cardinal",
      "c": 0.9379,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "03:00",
+     "ko": "2026-11-20T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Portland State Vikings",
+     "a": "Northwest Indian RedHawks",
+     "side": "h",
+     "pick": "Portland State Vikings",
+     "c": 0.9376,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -14602,6 +14598,22 @@
      "unrated": false
     },
     {
+     "t": "04:00",
+     "ko": "2026-11-21T04:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Saint Mary's Gaels",
+     "a": "Saint Louis Billikens",
+     "side": "h",
+     "pick": "Saint Mary's Gaels",
+     "c": 0.8278,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "19:00",
      "ko": "2026-11-21T19:00Z",
      "lg": "ncaab",
@@ -14645,22 +14657,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "04:00",
-     "ko": "2026-11-21T04:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Saint Mary's Gaels",
-     "a": "Saint Louis Billikens",
-     "side": "h",
-     "pick": "Saint Mary's Gaels",
-     "c": 0.8153,
-     "hit": 0.7802,
-     "hitN": 614,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "12:00",
@@ -14886,22 +14882,6 @@
      "list": false,
      "reserve": true,
      "unrated": false
-    },
-    {
-     "t": "18:00",
-     "ko": "2026-11-21T18:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Eastern Michigan Eagles",
-     "a": "Denver Pioneers",
-     "side": "h",
-     "pick": "Eastern Michigan Eagles",
-     "c": 0.7864,
-     "hit": 0.7408,
-     "hitN": 629,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "00:00",
@@ -15808,6 +15788,22 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-11-21T18:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Eastern Michigan Eagles",
+     "a": "Denver Pioneers",
+     "side": "h",
+     "pick": "Eastern Michigan Eagles",
+     "c": 0.728,
+     "hit": 0.6881,
+     "hitN": 619,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "16:00",
@@ -35834,22 +35830,6 @@
      "reserve": true
     },
     {
-     "t": "22:00",
-     "ko": "2026-11-22T22:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Portland State Vikings",
-     "a": "Cal State Fullerton Titans",
-     "side": "h",
-     "pick": "Portland State Vikings",
-     "c": 0.7415,
-     "hit": 0.6881,
-     "hitN": 619,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "18:00",
      "ko": "2026-11-22T18:00Z",
      "lg": "nfl",
@@ -36041,6 +36021,22 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "22:00",
+     "ko": "2026-11-22T22:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Portland State Vikings",
+     "a": "Cal State Fullerton Titans",
+     "side": "h",
+     "pick": "Portland State Vikings",
+     "c": 0.7247,
+     "hit": 0.6881,
+     "hitN": 619,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "16:00",
@@ -51213,7 +51209,7 @@
      "a": "Delaware Blue Hens",
      "side": "h",
      "pick": "UCLA Bruins",
-     "c": 0.969,
+     "c": 0.9699,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -51261,7 +51257,7 @@
      "a": "Long Beach State Beach",
      "side": "h",
      "pick": "Florida International Panthers",
-     "c": 0.8871,
+     "c": 0.8902,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -51428,7 +51424,7 @@
      "a": "Seattle U Redhawks",
      "side": "h",
      "pick": "UC San Diego Tritons",
-     "c": 0.7348,
+     "c": 0.7447,
      "hit": 0.6881,
      "hitN": 619,
      "list": false,
@@ -53198,11 +53194,11 @@
      "lg": "ncaab",
      "lgName": "NCAA",
      "sport": "ncaab",
-     "h": "Kansas Jayhawks",
-     "a": "Denver Pioneers",
+     "h": "Illinois Fighting Illini",
+     "a": "Winthrop Eagles",
      "side": "h",
-     "pick": "Kansas Jayhawks",
-     "c": 0.9754,
+     "pick": "Illinois Fighting Illini",
+     "c": 0.9665,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -53214,11 +53210,11 @@
      "lg": "ncaab",
      "lgName": "NCAA",
      "sport": "ncaab",
-     "h": "Illinois Fighting Illini",
-     "a": "Winthrop Eagles",
+     "h": "Kansas Jayhawks",
+     "a": "Denver Pioneers",
      "side": "h",
-     "pick": "Illinois Fighting Illini",
-     "c": 0.9665,
+     "pick": "Kansas Jayhawks",
+     "c": 0.9664,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
