@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-17T16:13:36",
- "fetched": "2026-11-17T16:28:57.956179+00:00",
+ "generated": "2026-11-17T19:53:11",
+ "fetched": "2026-11-17T19:56:33.147497+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-17",
-   "count": 99,
+   "count": 87,
    "games": [
     {
      "t": "03:00",
@@ -297,8 +297,8 @@
     },
     {
      "t": "19:00",
-     "ko": "2026-11-17T19:00Z",
-     "lg": "ncaab",
+     "ko": "2026-11-17T19:00:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "Houston Cougars",
@@ -306,10 +306,15 @@
      "side": "h",
      "pick": "Houston Cougars",
      "c": 0.8965,
+     "p": null,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:00",
@@ -841,35 +846,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-11-17T16:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Togo",
-     "a": "Algeria",
-     "side": "a",
-     "pick": "Algeria",
-     "c": 0.7106,
-     "p": {
-      "h": 0.1347,
-      "d": 0.1547,
-      "a": 0.7106
-     },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5265,
-     "o25": 0.5031,
-     "hit": 0.7665,
-     "hitN": 30,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "20:30",
      "lg": "WTA",
      "lgName": "WTA \u00b7 LP Open by IND",
@@ -999,8 +975,8 @@
      "t": "19:00",
      "ko": "2026-11-17T19:00:00Z",
      "lg": "efl.trophy",
-     "lgName": "EFL Trophy",
-     "country": "England",
+     "lgName": "England EFL Trophy",
+     "sport": "football",
      "h": "Luton Town",
      "a": "Peterborough United",
      "side": "h",
@@ -1011,18 +987,14 @@
       "d": 0.2007,
       "a": 0.1447
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5477,
-     "o25": 0.5667,
      "hit": null,
      "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "02:00",
@@ -1083,9 +1055,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Polona Hercog won"
     },
     {
      "t": "19:45",
@@ -1141,8 +1113,8 @@
      "t": "19:45",
      "ko": "2026-11-17T19:45:00Z",
      "lg": "en.6s",
-     "lgName": "National League South",
-     "country": "England",
+     "lgName": "England National League South",
+     "sport": "football",
      "h": "Tonbridge Angels",
      "a": "Chesham United",
      "side": "h",
@@ -1153,52 +1125,19 @@
       "d": 0.2084,
       "a": 0.1585
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5517,
-     "o25": 0.5652,
      "hit": 0.7052,
      "hitN": 78,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-11-17T16:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Gambia",
-     "a": "Ivory Coast",
-     "side": "a",
-     "pick": "Ivory Coast",
-     "c": 0.6288,
-     "p": {
-      "h": 0.1891,
-      "d": 0.182,
-      "a": 0.6288
-     },
-     "score": [
-      0,
-      2
-     ],
-     "btts": 0.5246,
-     "o25": 0.4898,
-     "hit": 0.6086,
-     "hitN": 46,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:00",
-     "ko": "2026-11-17T17:00Z",
-     "lg": "ncaab",
+     "ko": "2026-11-17T17:00:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "Murray State Racers",
@@ -1206,10 +1145,15 @@
      "side": "h",
      "pick": "Murray State Racers",
      "c": 0.6201,
+     "p": null,
      "hit": 0.583,
      "hitN": 674,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "won",
+     "score": null,
+     "res": "82-66"
     },
     {
      "t": "19:00",
@@ -1236,35 +1180,6 @@
      "hit": 0.6086,
      "hitN": 46,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:45",
-     "ko": "2026-11-17T19:45:00Z",
-     "lg": "en.6n",
-     "lgName": "National League North",
-     "country": "England",
-     "h": "South Shields",
-     "a": "Harborough Town",
-     "side": "h",
-     "pick": "South Shields",
-     "c": 0.5923,
-     "p": {
-      "h": 0.5923,
-      "d": 0.2312,
-      "a": 0.1765
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5383,
-     "o25": 0.5393,
-     "hit": 0.5352,
-     "hitN": 99,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -1473,35 +1388,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-11-17T16:00:00Z",
-     "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
-     "h": "Russia",
-     "a": "Venezuela",
-     "side": "h",
-     "pick": "Russia",
-     "c": 0.5593,
-     "p": {
-      "h": 0.5593,
-      "d": 0.251,
-      "a": 0.1897
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5283,
-     "o25": 0.5222,
-     "hit": 0.7047,
-     "hitN": 44,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "23:00",
      "ko": "2026-11-17T23:00:00Z",
      "lg": "friendly",
@@ -1584,35 +1470,6 @@
      "hit": 0.5352,
      "hitN": 99,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-11-17T16:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Kenya",
-     "a": "South Africa",
-     "side": "a",
-     "pick": "South Africa",
-     "c": 0.5372,
-     "p": {
-      "h": 0.2344,
-      "d": 0.2285,
-      "a": 0.5372
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4984,
-     "o25": 0.4557,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -1734,35 +1591,6 @@
      "unrated": false
     },
     {
-     "t": "16:15",
-     "ko": "2026-11-17T16:15:00Z",
-     "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
-     "h": "Iraq",
-     "a": "Iran",
-     "side": "a",
-     "pick": "Iran",
-     "c": 0.5063,
-     "p": {
-      "h": 0.2435,
-      "d": 0.2502,
-      "a": 0.5063
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.5105,
-     "o25": 0.4728,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "01:00",
      "ko": "2026-11-17T01:00:00Z",
      "lg": "af.322",
@@ -1792,64 +1620,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-11-17T16:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Libya",
-     "a": "Tunisia",
-     "side": "a",
-     "pick": "Tunisia",
-     "c": 0.5019,
-     "p": {
-      "h": 0.2531,
-      "d": 0.245,
-      "a": 0.5019
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4999,
-     "o25": 0.4574,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-11-17T16:00:00Z",
-     "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
-     "h": "Jordan",
-     "a": "Australia",
-     "side": "a",
-     "pick": "Australia",
-     "c": 0.4966,
-     "p": {
-      "h": 0.2702,
-      "d": 0.2332,
-      "a": 0.4966
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5281,
-     "o25": 0.4921,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:45",
      "ko": "2026-11-17T19:45:00Z",
      "lg": "en.7i",
@@ -1873,35 +1643,6 @@
      "o25": 0.5821,
      "hit": 0.439,
      "hitN": 335,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:30",
-     "ko": "2026-11-17T16:30:00Z",
-     "lg": "af.946",
-     "lgName": "Second NL",
-     "country": "Croatia",
-     "h": "Koprivnica",
-     "a": "Solin",
-     "side": "a",
-     "pick": "Solin",
-     "c": 0.4826,
-     "p": {
-      "h": 0.246,
-      "d": 0.2714,
-      "a": 0.4826
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.532,
-     "o25": 0.5085,
-     "hit": 0.4867,
-     "hitN": 9010,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -2103,64 +1844,6 @@
      ],
      "btts": 0.5393,
      "o25": 0.5117,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:30",
-     "ko": "2026-11-17T15:30:00Z",
-     "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
-     "h": "Saudi Arabia",
-     "a": "Uzbekistan",
-     "side": "h",
-     "pick": "Saudi Arabia",
-     "c": 0.4281,
-     "p": {
-      "h": 0.4281,
-      "d": 0.3189,
-      "a": 0.253
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4885,
-     "o25": 0.4519,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "16:30",
-     "ko": "2026-11-17T16:30:00Z",
-     "lg": "friendly",
-     "lgName": "International friendly",
-     "country": "International",
-     "h": "Kuwait",
-     "a": "Honduras",
-     "side": "a",
-     "pick": "Honduras",
-     "c": 0.4232,
-     "p": {
-      "h": 0.209,
-      "d": 0.3678,
-      "a": 0.4232
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5292,
-     "o25": 0.4937,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -2486,35 +2169,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "16:00",
-     "ko": "2026-11-17T16:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Guinea-Bissau",
-     "a": "Madagascar",
-     "side": "h",
-     "pick": "Guinea-Bissau",
-     "c": 0.3605,
-     "p": {
-      "h": 0.3605,
-      "d": 0.3349,
-      "a": 0.3046
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5053,
-     "o25": 0.4683,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     }
    ],
    "pinned": {
@@ -2523,16 +2177,16 @@
      "won": 14,
      "lost": 0,
      "void": 0,
-     "started": 3,
-     "upcoming": 6
+     "started": 4,
+     "upcoming": 5
     },
     "reserve": {
      "n": 25,
-     "won": 7,
+     "won": 9,
      "lost": 7,
      "void": 0,
-     "started": 4,
-     "upcoming": 7
+     "started": 5,
+     "upcoming": 4
     },
     "groupA": {
      "n": 5,
@@ -8486,22 +8140,6 @@
      "reserve": true
     },
     {
-     "t": "23:00",
-     "ko": "2026-11-20T23:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Cal State Northridge Matadors",
-     "a": "Delaware Blue Hens",
-     "side": "h",
-     "pick": "Cal State Northridge Matadors",
-     "c": 0.7918,
-     "hit": 0.7408,
-     "hitN": 629,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "01:00",
      "ko": "2026-11-20T01:00Z",
      "lg": "ncaab",
@@ -8827,6 +8465,22 @@
      "side": "h",
      "pick": "Middle Tennessee Blue Raiders",
      "c": 0.7319,
+     "hit": 0.6881,
+     "hitN": 619,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "23:00",
+     "ko": "2026-11-20T23:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Cal State Northridge Matadors",
+     "a": "Delaware Blue Hens",
+     "side": "h",
+     "pick": "Cal State Northridge Matadors",
+     "c": 0.7263,
      "hit": 0.6881,
      "hitN": 619,
      "list": false,
@@ -13591,7 +13245,7 @@
   },
   {
    "date": "2026-11-21",
-   "count": 781,
+   "count": 785,
    "games": [
     {
      "t": "01:00",
@@ -17031,18 +16685,18 @@
      "a": "Slavonija Po\u017eega",
      "side": "h",
      "pick": "Uskok Klis",
-     "c": 0.6439,
+     "c": 0.6449,
      "p": {
-      "h": 0.6439,
-      "d": 0.207,
-      "a": 0.1491
+      "h": 0.6449,
+      "d": 0.2063,
+      "a": 0.1488
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.5439,
-     "o25": 0.5595,
+     "btts": 0.5445,
+     "o25": 0.5605,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -19021,18 +18675,18 @@
      "a": "Hrvatski Dragovoljac",
      "side": "h",
      "pick": "Jarun",
-     "c": 0.5843,
+     "c": 0.585,
      "p": {
-      "h": 0.5843,
-      "d": 0.2353,
-      "a": 0.1804
+      "h": 0.585,
+      "d": 0.2347,
+      "a": 0.1803
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5363,
-     "o25": 0.5349,
+     "btts": 0.537,
+     "o25": 0.5359,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -19354,6 +19008,35 @@
      "o25": 0.5581,
      "hit": null,
      "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "23:00",
+     "ko": "2026-11-21T23:00:00Z",
+     "lg": "af.396",
+     "lgName": "Primera Division",
+     "country": "Nicaragua",
+     "h": "UNAN Managua",
+     "a": "Matagalpa",
+     "side": "h",
+     "pick": "UNAN Managua",
+     "c": 0.5769,
+     "p": {
+      "h": 0.5769,
+      "d": 0.2541,
+      "a": 0.1689
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.5049,
+     "o25": 0.4974,
+     "hit": 0.5868,
+     "hitN": 4716,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -25546,18 +25229,18 @@
      "a": "Lucko",
      "side": "h",
      "pick": "Inter Zapresic",
-     "c": 0.4655,
+     "c": 0.4659,
      "p": {
-      "h": 0.4655,
-      "d": 0.286,
-      "a": 0.2485
+      "h": 0.4659,
+      "d": 0.2855,
+      "a": 0.2486
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5156,
-     "o25": 0.4862,
+     "btts": 0.5162,
+     "o25": 0.4871,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -27886,6 +27569,35 @@
      "unrated": false
     },
     {
+     "t": "00:00",
+     "ko": "2026-11-21T00:00:00Z",
+     "lg": "af.396",
+     "lgName": "Primera Division",
+     "country": "Nicaragua",
+     "h": "Rancho Santana",
+     "a": "Jalapa",
+     "side": "a",
+     "pick": "Jalapa",
+     "c": 0.4378,
+     "p": {
+      "h": 0.2734,
+      "d": 0.2889,
+      "a": 0.4378
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5209,
+     "o25": 0.4887,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": null,
      "ko": null,
      "lg": "br.1",
@@ -28118,6 +27830,35 @@
      "unrated": false
     },
     {
+     "t": "12:30",
+     "ko": "2026-11-21T12:30:00Z",
+     "lg": "af.946",
+     "lgName": "Second NL",
+     "country": "Croatia",
+     "h": "Bjelovar",
+     "a": "Uljanik",
+     "side": "h",
+     "pick": "Bjelovar",
+     "c": 0.4337,
+     "p": {
+      "h": 0.4337,
+      "d": 0.2402,
+      "a": 0.326
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.6007,
+     "o25": 0.5884,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-21T15:00:00Z",
      "lg": "en.7sc",
@@ -28168,35 +27909,6 @@
      ],
      "btts": 0.55,
      "o25": 0.5239,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:30",
-     "ko": "2026-11-21T12:30:00Z",
-     "lg": "af.946",
-     "lgName": "Second NL",
-     "country": "Croatia",
-     "h": "Bjelovar",
-     "a": "Uljanik",
-     "side": "h",
-     "pick": "Bjelovar",
-     "c": 0.4332,
-     "p": {
-      "h": 0.4332,
-      "d": 0.2408,
-      "a": 0.326
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.6,
-     "o25": 0.5874,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -28794,18 +28506,18 @@
      "a": "Dugo Selo",
      "side": "h",
      "pick": "Kri\u017eevci",
-     "c": 0.4242,
+     "c": 0.4244,
      "p": {
-      "h": 0.4242,
-      "d": 0.3231,
-      "a": 0.2527
+      "h": 0.4244,
+      "d": 0.3226,
+      "a": 0.253
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.4772,
-     "o25": 0.4368,
+     "btts": 0.4778,
+     "o25": 0.4375,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -29896,18 +29608,18 @@
      "a": "Zagora",
      "side": "a",
      "pick": "Zagora",
-     "c": 0.4111,
+     "c": 0.4116,
      "p": {
       "h": 0.3187,
-      "d": 0.2702,
-      "a": 0.4111
+      "d": 0.2697,
+      "a": 0.4116
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5565,
-     "o25": 0.5301,
+     "btts": 0.5572,
+     "o25": 0.5311,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -30931,6 +30643,35 @@
      "unrated": false
     },
     {
+     "t": "12:30",
+     "ko": "2026-11-21T12:30:00Z",
+     "lg": "af.946",
+     "lgName": "Second NL",
+     "country": "Croatia",
+     "h": "Grobni\u010dan \u010cavle",
+     "a": "Trnje",
+     "side": "h",
+     "pick": "Grobni\u010dan \u010cavle",
+     "c": 0.397,
+     "p": {
+      "h": 0.397,
+      "d": 0.2672,
+      "a": 0.3358
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5636,
+     "o25": 0.5384,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "06:00",
      "ko": "2026-11-21T06:00:00Z",
      "lg": "au.1",
@@ -30981,35 +30722,6 @@
      ],
      "btts": 0.4514,
      "o25": 0.4066,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "12:30",
-     "ko": "2026-11-21T12:30:00Z",
-     "lg": "af.946",
-     "lgName": "Second NL",
-     "country": "Croatia",
-     "h": "Grobni\u010dan \u010cavle",
-     "a": "Trnje",
-     "side": "h",
-     "pick": "Grobni\u010dan \u010cavle",
-     "c": 0.3968,
-     "p": {
-      "h": 0.3968,
-      "d": 0.2677,
-      "a": 0.3355
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5629,
-     "o25": 0.5374,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -32236,6 +31948,35 @@
      "unrated": false
     },
     {
+     "t": "13:30",
+     "ko": "2026-11-21T13:30:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Rangers",
+     "a": "Royal Leopards",
+     "side": "a",
+     "pick": "Royal Leopards",
+     "c": 0.3829,
+     "p": {
+      "h": 0.3303,
+      "d": 0.2868,
+      "a": 0.3829
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5355,
+     "o25": 0.502,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-21T14:00:00Z",
      "lg": "cze.1",
@@ -32489,6 +32230,35 @@
      ],
      "btts": 0.5183,
      "o25": 0.4804,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-21T13:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Tabankulu",
+     "a": "Ubombo Sugar",
+     "side": "h",
+     "pick": "Tabankulu",
+     "c": 0.3793,
+     "p": {
+      "h": 0.3793,
+      "d": 0.3255,
+      "a": 0.2953
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.484,
+     "o25": 0.4399,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -34907,7 +34677,7 @@
   },
   {
    "date": "2026-11-22",
-   "count": 591,
+   "count": 598,
    "games": [
     {
      "t": "20:00",
@@ -37272,6 +37042,35 @@
      "unrated": false
     },
     {
+     "t": "23:00",
+     "ko": "2026-11-22T23:00:00Z",
+     "lg": "af.396",
+     "lgName": "Primera Division",
+     "country": "Nicaragua",
+     "h": "Walter Ferretti",
+     "a": "H&H Export",
+     "side": "h",
+     "pick": "Walter Ferretti",
+     "c": 0.6362,
+     "p": {
+      "h": 0.6362,
+      "d": 0.1947,
+      "a": 0.1691
+     },
+     "score": [
+      2,
+      1
+     ],
+     "btts": 0.5812,
+     "o25": 0.5983,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
      "t": "23:30",
      "ko": "2026-11-22T23:30:00Z",
      "lg": "bo.1",
@@ -38206,6 +38005,35 @@
      "unrated": false
     },
     {
+     "t": "11:30",
+     "ko": "2026-11-22T11:30:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Highlanders",
+     "a": "Red Rhinos",
+     "side": "h",
+     "pick": "Highlanders",
+     "c": 0.5777,
+     "p": {
+      "h": 0.5777,
+      "d": 0.2461,
+      "a": 0.1763
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.52,
+     "o25": 0.5146,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-11-22T13:00:00Z",
      "lg": "af.392",
@@ -38575,6 +38403,35 @@
      ],
      "btts": 0.5123,
      "o25": 0.5019,
+     "hit": 0.5868,
+     "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "14:00",
+     "ko": "2026-11-22T14:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Moneni Pirates",
+     "a": "Amawele",
+     "side": "h",
+     "pick": "Moneni Pirates",
+     "c": 0.561,
+     "p": {
+      "h": 0.561,
+      "d": 0.2835,
+      "a": 0.1555
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4657,
+     "o25": 0.4506,
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
@@ -41852,6 +41709,35 @@
      ],
      "btts": 0.5007,
      "o25": 0.4725,
+     "hit": 0.4867,
+     "hitN": 9010,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "01:00",
+     "ko": "2026-11-22T01:00:00Z",
+     "lg": "af.396",
+     "lgName": "Primera Division",
+     "country": "Nicaragua",
+     "h": "San Marcos",
+     "a": "Real Estel\u00ed",
+     "side": "a",
+     "pick": "Real Estel\u00ed",
+     "c": 0.4857,
+     "p": {
+      "h": 0.2461,
+      "d": 0.2682,
+      "a": 0.4857
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5361,
+     "o25": 0.514,
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
@@ -45161,6 +45047,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-22T13:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "PPK Professionals",
+     "a": "Young Buffaloes",
+     "side": "h",
+     "pick": "PPK Professionals",
+     "c": 0.4259,
+     "p": {
+      "h": 0.4259,
+      "d": 0.2982,
+      "a": 0.2759
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5105,
+     "o25": 0.4749,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -48878,6 +48793,35 @@
      "unrated": false
     },
     {
+     "t": "11:30",
+     "ko": "2026-11-22T11:30:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Ezulwini United",
+     "a": "Madlenya",
+     "side": "h",
+     "pick": "Ezulwini United",
+     "c": 0.3793,
+     "p": {
+      "h": 0.3793,
+      "d": 0.35,
+      "a": 0.2706
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4562,
+     "o25": 0.4098,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-11-22T12:00:00Z",
      "lg": "af.553",
@@ -49537,6 +49481,35 @@
      ],
      "btts": 0.4812,
      "o25": 0.4364,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "14:00",
+     "ko": "2026-11-22T14:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Mbabane Swallows",
+     "a": "Nsingizini Hotspurs",
+     "side": "d",
+     "pick": "Draw",
+     "c": 0.3737,
+     "p": {
+      "h": 0.2692,
+      "d": 0.3737,
+      "a": 0.3571
+     },
+     "score": [
+      0,
+      0
+     ],
+     "btts": 0.4366,
+     "o25": 0.3888,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -51259,7 +51232,7 @@
   },
   {
    "date": "2026-11-23",
-   "count": 80,
+   "count": 82,
    "games": [
     {
      "t": "00:00",
@@ -51271,7 +51244,7 @@
      "a": "Delaware Blue Hens",
      "side": "h",
      "pick": "UCLA Bruins",
-     "c": 0.9699,
+     "c": 0.9575,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -51326,8 +51299,8 @@
      "reserve": false
     },
     {
-     "t": "05:00",
-     "ko": "2026-11-23T05:00Z",
+     "t": "16:00",
+     "ko": "2026-11-23T16:00Z",
      "lg": "ncaab",
      "lgName": "NCAA",
      "sport": "ncaab",
@@ -53042,6 +53015,35 @@
      "unrated": false
     },
     {
+     "t": "01:00",
+     "ko": "2026-11-23T01:00:00Z",
+     "lg": "af.396",
+     "lgName": "Primera Division",
+     "country": "Nicaragua",
+     "h": "Diriang\u00e9n",
+     "a": "Managua",
+     "side": "h",
+     "pick": "Diriang\u00e9n",
+     "c": 0.4044,
+     "p": {
+      "h": 0.4044,
+      "d": 0.2574,
+      "a": 0.3382
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5781,
+     "o25": 0.5575,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-11-23T15:00:00Z",
      "lg": "gr.1",
@@ -53298,6 +53300,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "13:00",
+     "ko": "2026-11-23T13:00:00Z",
+     "lg": "af.847",
+     "lgName": "Premier League",
+     "country": "Eswatini",
+     "h": "Manzini Sea Birds",
+     "a": "Green Mamba",
+     "side": "a",
+     "pick": "Green Mamba",
+     "c": 0.3545,
+     "p": {
+      "h": 0.3391,
+      "d": 0.3064,
+      "a": 0.3545
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5104,
+     "o25": 0.47,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
