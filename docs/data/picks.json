@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-17T20:10:51",
- "fetched": "2026-11-17T20:26:07.698108+00:00",
+ "generated": "2026-11-17T21:13:23",
+ "fetched": "2026-11-17T21:31:34.968542+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-17",
-   "count": 87,
+   "count": 78,
    "games": [
     {
      "t": "03:00",
@@ -260,8 +260,8 @@
     },
     {
      "t": "21:30",
-     "ko": "2026-11-17T21:30Z",
-     "lg": "ncaab",
+     "ko": "2026-11-17T21:30:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "Florida Gators",
@@ -269,10 +269,15 @@
      "side": "h",
      "pick": "Florida Gators",
      "c": 0.9004,
+     "p": null,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:00",
@@ -415,22 +420,6 @@
      "status": "won",
      "score": null,
      "res": "109-71"
-    },
-    {
-     "t": "23:00",
-     "ko": "2026-11-17T23:00Z",
-     "lg": "cfb",
-     "lgName": "NCAA FBS",
-     "sport": "cfb",
-     "h": "Western Michigan Broncos",
-     "a": "Eastern Michigan Eagles",
-     "side": "h",
-     "pick": "Western Michigan Broncos",
-     "c": 0.8777,
-     "hit": 0.9341,
-     "hitN": 167,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "23:00",
@@ -846,19 +835,25 @@
      "unrated": false
     },
     {
-     "t": "20:30",
+     "t": "21:15",
+     "ko": "2026-11-17T21:15:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 LP Open by IND",
+     "lgName": "WTA \u00b7 LP Open by IND \u00b7 Round 1",
      "sport": "tennis",
      "h": "Andrea Lazaro Garcia",
      "a": "Barbara Gatica",
      "side": "h",
      "pick": "Andrea Lazaro Garcia",
      "c": 0.7092,
+     "p": null,
      "hit": 0.6747,
      "hitN": 83,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:15",
@@ -1162,35 +1157,6 @@
      "res": "82-66"
     },
     {
-     "t": "19:00",
-     "ko": "2026-11-17T19:00:00Z",
-     "lg": "concacaf.nations",
-     "lgName": "CONCACAF Nations League",
-     "country": "International",
-     "h": "Dominica",
-     "a": "Cayman Islands",
-     "side": "h",
-     "pick": "Dominica",
-     "c": 0.6119,
-     "p": {
-      "h": 0.6119,
-      "d": 0.2405,
-      "a": 0.1476
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.514,
-     "o25": 0.5291,
-     "hit": 0.6086,
-     "hitN": 46,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:45",
      "ko": "2026-11-17T19:45:00Z",
      "lg": "en.7n",
@@ -1214,35 +1180,6 @@
      "o25": 0.4786,
      "hit": 0.5389,
      "hitN": 193,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-17T19:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Rwanda",
-     "a": "Mali",
-     "side": "a",
-     "pick": "Mali",
-     "c": 0.5866,
-     "p": {
-      "h": 0.1654,
-      "d": 0.2479,
-      "a": 0.5866
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4443,
-     "o25": 0.4004,
-     "hit": 0.7047,
-     "hitN": 44,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1307,35 +1244,6 @@
      "unrated": false
     },
     {
-     "t": "19:00",
-     "ko": "2026-11-17T19:00:00Z",
-     "lg": "concacaf.nations",
-     "lgName": "CONCACAF Nations League",
-     "country": "International",
-     "h": "Belize",
-     "a": "Sint Maarten",
-     "side": "h",
-     "pick": "Belize",
-     "c": 0.5742,
-     "p": {
-      "h": 0.5742,
-      "d": 0.2182,
-      "a": 0.2077
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5796,
-     "o25": 0.5827,
-     "hit": 0.721,
-     "hitN": 43,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:45",
      "ko": "2026-11-17T19:45:00Z",
      "lg": "en.7n",
@@ -1359,35 +1267,6 @@
      "o25": 0.4717,
      "hit": 0.5389,
      "hitN": 193,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-17T19:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Liberia",
-     "a": "Cape Verde",
-     "side": "a",
-     "pick": "Cape Verde",
-     "c": 0.5608,
-     "p": {
-      "h": 0.2146,
-      "d": 0.2247,
-      "a": 0.5608
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4951,
-     "o25": 0.4529,
-     "hit": 0.7047,
-     "hitN": 44,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1533,35 +1412,6 @@
      "o25": 0.5869,
      "hit": 0.4811,
      "hitN": 266,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-17T19:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Mauritania",
-     "a": "Burkina Faso",
-     "side": "a",
-     "pick": "Burkina Faso",
-     "c": 0.5247,
-     "p": {
-      "h": 0.2219,
-      "d": 0.2534,
-      "a": 0.5247
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4868,
-     "o25": 0.4446,
-     "hit": null,
-     "hitN": null,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -1887,35 +1737,6 @@
      "unrated": false
     },
     {
-     "t": "18:00",
-     "ko": "2026-11-17T18:00:00Z",
-     "lg": "afc.1165",
-     "lgName": "Copa Fares Lopes",
-     "country": "Brazil",
-     "h": "Palmacia",
-     "a": "Fortaleza B",
-     "side": "h",
-     "pick": "Palmacia",
-     "c": 0.4229,
-     "p": {
-      "h": 0.4229,
-      "d": 0.2603,
-      "a": 0.3168
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.548,
-     "o25": 0.5187,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "19:45",
      "ko": "2026-11-17T19:45:00Z",
      "lg": "uefa.nations",
@@ -1974,35 +1795,6 @@
      "unrated": false
     },
     {
-     "t": "19:00",
-     "ko": "2026-11-17T19:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Botswana",
-     "a": "Uganda",
-     "side": "d",
-     "pick": "Draw",
-     "c": 0.3997,
-     "p": {
-      "h": 0.2267,
-      "d": 0.3997,
-      "a": 0.3736
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4735,
-     "o25": 0.4267,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "23:15",
      "ko": "2026-11-17T23:15:00Z",
      "lg": "af.134",
@@ -2024,35 +1816,6 @@
      ],
      "btts": 0.4146,
      "o25": 0.3711,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-17T19:00:00Z",
-     "lg": "afcon.q",
-     "lgName": "Africa Cup of Nations qualifying",
-     "country": "International",
-     "h": "Congo",
-     "a": "Comoros",
-     "side": "a",
-     "pick": "Comoros",
-     "c": 0.3775,
-     "p": {
-      "h": 0.2963,
-      "d": 0.3262,
-      "a": 0.3775
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5262,
-     "o25": 0.4896,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -2214,7 +1977,7 @@
   },
   {
    "date": "2026-11-18",
-   "count": 137,
+   "count": 135,
    "games": [
     {
      "t": "01:00",
@@ -2516,22 +2279,6 @@
      "hitN": 1389,
      "list": true,
      "reserve": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-18T00:00Z",
-     "lg": "cfb",
-     "lgName": "NCAA FBS",
-     "sport": "cfb",
-     "h": "Ohio Bobcats",
-     "a": "Ball State Cardinals",
-     "side": "h",
-     "pick": "Ohio Bobcats",
-     "c": 0.8811,
-     "hit": 0.9341,
-     "hitN": 167,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "01:00",
@@ -2888,22 +2635,6 @@
      "c": 0.7619,
      "hit": 0.7408,
      "hitN": 629,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-18T00:00Z",
-     "lg": "cfb",
-     "lgName": "NCAA FBS",
-     "sport": "cfb",
-     "h": "Kent State Golden Flashes",
-     "a": "Miami (OH) RedHawks",
-     "side": "a",
-     "pick": "Miami (OH) RedHawks",
-     "c": 0.7519,
-     "hit": 0.7687,
-     "hitN": 108,
      "list": false,
      "reserve": true
     },
@@ -4436,18 +4167,18 @@
      "a": "Ceara B",
      "side": "h",
      "pick": "Uniclinic Atletico Clube",
-     "c": 0.4356,
+     "c": 0.4354,
      "p": {
-      "h": 0.4356,
-      "d": 0.27,
-      "a": 0.2944
+      "h": 0.4354,
+      "d": 0.2692,
+      "a": 0.2954
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5367,
-     "o25": 0.5055,
+     "btts": 0.5377,
+     "o25": 0.5068,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -4668,18 +4399,18 @@
      "a": "Guarani De Juazeiro",
      "side": "h",
      "pick": "Quixada",
-     "c": 0.4118,
+     "c": 0.411,
      "p": {
-      "h": 0.4118,
-      "d": 0.2527,
-      "a": 0.3355
+      "h": 0.411,
+      "d": 0.2511,
+      "a": 0.3379
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5557,
-     "o25": 0.528,
+     "btts": 0.5575,
+     "o25": 0.5303,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -6805,6 +6536,35 @@
      "unrated": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-11-19T20:00:00Z",
+     "lg": "afc.1165",
+     "lgName": "Copa Fares Lopes",
+     "country": "Brazil",
+     "h": "Fortaleza B",
+     "a": "Tirol/CEFAT",
+     "side": "h",
+     "pick": "Fortaleza B",
+     "c": 0.4785,
+     "p": {
+      "h": 0.4785,
+      "d": 0.2663,
+      "a": 0.2553
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5403,
+     "o25": 0.517,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-11-19T13:00:00Z",
      "lg": "af.400",
@@ -6892,35 +6652,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-19T20:00:00Z",
-     "lg": "afc.1165",
-     "lgName": "Copa Fares Lopes",
-     "country": "Brazil",
-     "h": "Fortaleza B",
-     "a": "Tirol/CEFAT",
-     "side": "h",
-     "pick": "Fortaleza B",
-     "c": 0.4605,
-     "p": {
-      "h": 0.4605,
-      "d": 0.2657,
-      "a": 0.2738
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5427,
-     "o25": 0.5162,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:00",
      "ko": "2026-11-19T16:00:00Z",
      "lg": "af.542",
@@ -6957,20 +6688,20 @@
      "country": "Uruguay",
      "h": "Atletico Torque",
      "a": "Club Nacional",
-     "side": "a",
-     "pick": "Club Nacional",
-     "c": 0.4432,
+     "side": "h",
+     "pick": "Atletico Torque",
+     "c": 0.4322,
      "p": {
-      "h": 0.3056,
-      "d": 0.2512,
-      "a": 0.4432
+      "h": 0.4322,
+      "d": 0.2756,
+      "a": 0.2922
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5625,
-     "o25": 0.5388,
+     "btts": 0.5296,
+     "o25": 0.4965,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -19341,6 +19072,35 @@
     {
      "t": "15:00",
      "ko": "2026-11-21T15:00:00Z",
+     "lg": "sco.1",
+     "lgName": "Premiership",
+     "country": "Scotland",
+     "h": "Falkirk",
+     "a": "Saint Johnstone",
+     "side": "h",
+     "pick": "Falkirk",
+     "c": 0.5705,
+     "p": {
+      "h": 0.5705,
+      "d": 0.2329,
+      "a": 0.1966
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5518,
+     "o25": 0.5496,
+     "hit": 0.5352,
+     "hitN": 99,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-21T15:00:00Z",
      "lg": "sco.2",
      "lgName": "Championship",
      "country": "Scotland",
@@ -23486,35 +23246,6 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-11-21T15:00:00Z",
-     "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
-     "h": "Falkirk",
-     "a": "Saint Johnstone",
-     "side": "h",
-     "pick": "Falkirk",
-     "c": 0.4932,
-     "p": {
-      "h": 0.4932,
-      "d": 0.252,
-      "a": 0.2548
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5609,
-     "o25": 0.5454,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-21T13:30:00Z",
      "lg": "af.202",
@@ -24931,35 +24662,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-21T19:00:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Real Tomayapo",
-     "a": "Nacional Potos\u00ed",
-     "side": "a",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.474,
-     "p": {
-      "h": 0.234,
-      "d": 0.292,
-      "a": 0.474
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.5028,
-     "o25": 0.4728,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -27277,6 +26979,35 @@
      ],
      "btts": 0.502,
      "o25": 0.4668,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "19:00",
+     "ko": "2026-11-21T19:00:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Real Tomayapo",
+     "a": "Nacional Potos\u00ed",
+     "side": "a",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.4401,
+     "p": {
+      "h": 0.2538,
+      "d": 0.3061,
+      "a": 0.4401
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.495,
+     "o25": 0.4587,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -41027,6 +40758,35 @@
      "unrated": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-11-22T20:00:00Z",
+     "lg": "afc.1165",
+     "lgName": "Copa Fares Lopes",
+     "country": "Brazil",
+     "h": "Tirol/CEFAT",
+     "a": "Palmacia",
+     "side": "h",
+     "pick": "Tirol/CEFAT",
+     "c": 0.5009,
+     "p": {
+      "h": 0.5009,
+      "d": 0.267,
+      "a": 0.2321
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.534,
+     "o25": 0.5166,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "16:30",
      "ko": "2026-11-22T16:30:00Z",
      "lg": "af.454",
@@ -42013,35 +41773,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-22T20:00:00Z",
-     "lg": "afc.1165",
-     "lgName": "Copa Fares Lopes",
-     "country": "Brazil",
-     "h": "Tirol/CEFAT",
-     "a": "Palmacia",
-     "side": "h",
-     "pick": "Tirol/CEFAT",
-     "c": 0.4796,
-     "p": {
-      "h": 0.4796,
-      "d": 0.2648,
-      "a": 0.2557
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5426,
-     "o25": 0.5201,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:30",
      "ko": "2026-11-22T13:30:00Z",
      "lg": "at.1",
@@ -42245,6 +41976,35 @@
      "unrated": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-11-22T20:00:00Z",
+     "lg": "afc.1165",
+     "lgName": "Copa Fares Lopes",
+     "country": "Brazil",
+     "h": "Vila Real",
+     "a": "Uniclinic Atletico Clube",
+     "side": "h",
+     "pick": "Vila Real",
+     "c": 0.474,
+     "p": {
+      "h": 0.474,
+      "d": 0.2661,
+      "a": 0.2599
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5411,
+     "o25": 0.5169,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:35",
      "ko": "2026-11-22T12:35:00Z",
      "lg": "af.406",
@@ -42269,35 +42029,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-11-22T20:00:00Z",
-     "lg": "afc.1165",
-     "lgName": "Copa Fares Lopes",
-     "country": "Brazil",
-     "h": "Vila Real",
-     "a": "Uniclinic Atletico Clube",
-     "side": "h",
-     "pick": "Vila Real",
-     "c": 0.4732,
-     "p": {
-      "h": 0.4732,
-      "d": 0.2666,
-      "a": 0.2602
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5405,
-     "o25": 0.516,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -46015,35 +45746,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-22T20:00:00Z",
-     "lg": "afc.1165",
-     "lgName": "Copa Fares Lopes",
-     "country": "Brazil",
-     "h": "Guarani De Juazeiro",
-     "a": "Icasa",
-     "side": "h",
-     "pick": "Guarani De Juazeiro",
-     "c": 0.4128,
-     "p": {
-      "h": 0.4128,
-      "d": 0.2499,
-      "a": 0.3374
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5593,
-     "o25": 0.5327,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "14:00",
      "ko": "2026-11-22T14:00:00Z",
      "lg": "af.432",
@@ -46126,6 +45828,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-22T20:00:00Z",
+     "lg": "afc.1165",
+     "lgName": "Copa Fares Lopes",
+     "country": "Brazil",
+     "h": "Guarani De Juazeiro",
+     "a": "Icasa",
+     "side": "h",
+     "pick": "Guarani De Juazeiro",
+     "c": 0.4118,
+     "p": {
+      "h": 0.4118,
+      "d": 0.2484,
+      "a": 0.3398
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5609,
+     "o25": 0.5347,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -52035,35 +51766,6 @@
      "unrated": false
     },
     {
-     "t": "23:15",
-     "ko": "2026-11-23T23:15:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Cerro Porte\u00f1o",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.495,
-     "p": {
-      "h": 0.495,
-      "d": 0.2772,
-      "a": 0.2278
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5166,
-     "o25": 0.4925,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-23T15:00:00Z",
      "lg": "af.284",
@@ -52233,6 +51935,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "23:15",
+     "ko": "2026-11-23T23:15:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Cerro Porte\u00f1o",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.4753,
+     "p": {
+      "h": 0.4753,
+      "d": 0.2854,
+      "a": 0.2393
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5124,
+     "o25": 0.4841,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
