@@ -1,11 +1,11 @@
 {
- "id": 1794973525586,
- "time": "2026-11-18T03:45:25.586350+00:00",
- "trigger": "work",
+ "id": 1794976546873,
+ "time": "2026-11-18T04:35:46.873690+00:00",
+ "trigger": "scheduled 04:00",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Daily List, last 28 days: 317 of 352 landed against 306 expected (90% landed, 87% quoted); widest football band gap 50-55%: 57% landed v 53% quoted (z +2.2); 1,643 football fixtures on the board, 0 unrated.",
+   "yesterday": "Daily List, last 28 days: 330 of 369 landed against 322 expected (89% landed, 87% quoted); widest football band gap 50-55%: 57% landed v 53% quoted (z +2.1); 1,692 football fixtures on the board, 0 unrated.",
    "today": "Top of the backlog for legs: Card tennis legs: 8/15 against 12 expected.",
    "blockers": "None."
   },
@@ -23,7 +23,7 @@
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 9/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 10/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps.",
    "blockers": "None."
   },
@@ -41,7 +41,7 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 64/103, MLB 27/40, NBA 141/205, RUGBY 65/88, CFB 243/360, NCAAB 589/742, WNBA 9/11. Tennis 64% over 1469 matches (expected 64%).",
+   "yesterday": "Other sports: NFL 64/103, MLB 27/40, NBA 143/208, RUGBY 65/88, CFB 244/361, NCAAB 597/754, WNBA 9/11. Tennis 64% over 1469 matches (expected 64%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #399 Lift the weakest of the other sports (shipped, evidence only).",
    "blockers": "None."
   },
@@ -65,7 +65,7 @@
   },
   {
    "agent": "engineer",
-   "yesterday": "9/10 recent 'Rebuild and publish' runs green.",
+   "yesterday": "10/10 recent 'Rebuild and publish' runs green.",
    "today": "Keep the build ahead of the 03:00 sweep.",
    "blockers": "None."
   },
@@ -83,13 +83,13 @@
   },
   {
    "agent": "h3",
-   "yesterday": "Groups since 2026-10-19: 30 of 79 won against 27.5 expected.",
+   "yesterday": "Groups since 2026-10-19: 30 of 80 won against 27.9 expected.",
    "today": "Lead the desk: check today's groups against their honest chances before the 07:45 briefing.",
    "blockers": "None."
   },
   {
    "agent": "h4",
-   "yesterday": "Legs since 2026-10-19: 72% landed against 71% quoted over 235.",
+   "yesterday": "Legs since 2026-10-19: 72% landed against 71% quoted over 236.",
    "today": "Compare each settled leg's quote with the bookmaker's fair chance, by price range.",
    "blockers": "None."
   },
@@ -101,7 +101,7 @@
   },
   {
    "agent": "h6",
-   "yesterday": "CFB: 243/360 correct (68%, target 55%).",
+   "yesterday": "CFB: 244/361 correct (68%, target 55%).",
    "today": "Grow graded history before the sport goes on the board.",
    "blockers": "None."
   },
@@ -117,7 +117,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.9006,
+   "actual": 0.8943,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -126,7 +126,7 @@
   {
    "owner": "chief",
    "name": "List landed minus quoted",
-   "actual": 0.029899999999999927,
+   "actual": 0.022399999999999975,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -171,20 +171,20 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 0.9,
+   "actual": 1.0,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
-   "status": "at risk"
+   "status": "on track"
   },
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 0.9,
+   "actual": 1.0,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
-   "status": "behind"
+   "status": "on track"
   },
   {
    "owner": "sports",
@@ -234,7 +234,7 @@
   {
    "owner": "h3",
    "name": "Groups won minus expected",
-   "actual": 0.03108227848101267,
+   "actual": 0.026441250000000017,
    "target": 0.0,
    "fmt": "pt",
    "higher": true,
@@ -243,7 +243,7 @@
   {
    "owner": "h4",
    "name": "Legs landed minus quoted",
-   "actual": 0.005341276595744682,
+   "actual": 0.0023906779661017064,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -261,7 +261,7 @@
   {
    "owner": "h6",
    "name": "CFB hit rate",
-   "actual": 0.675,
+   "actual": 0.6759002770083102,
    "target": 0.55,
    "fmt": "pct",
    "higher": true,
@@ -285,77 +285,77 @@
   {
    "key": "hq-card-return",
    "owner": "accas",
-   "title": "The Card returns 0.831 a unit over 27 groups",
-   "score": 5.69,
+   "title": "The Card returns 0.797 a unit over 28 groups",
+   "score": 6.03,
    "metric": "card"
   },
   {
    "key": "hq-band-50",
    "owner": "calib",
    "title": "Football 50-55% band lands over its quote",
-   "score": 4.32,
+   "score": 4.28,
    "metric": "honesty"
+  },
+  {
+   "key": "hq-legs-tennis",
+   "owner": "legs",
+   "title": "Tennis legs: 34/56 against 41 expected",
+   "score": 3.1,
+   "metric": "groups"
   },
   {
    "key": "hq-card-opp-0",
    "owner": "legs",
    "title": "Card legs with the opposition priced under 6 land above their chance",
-   "score": 3.3,
+   "score": 2.75,
    "metric": "card"
   },
   {
-   "key": "hq-legs-tennis",
-   "owner": "legs",
-   "title": "Tennis legs: 33/55 against 40 expected",
-   "score": 3.27,
-   "metric": "groups"
+   "key": "hq-sport-mlb",
+   "owner": "sports",
+   "title": "Baseball (MLB) landing above its quotes",
+   "score": 1.85,
+   "metric": "honesty"
   },
   {
-   "key": "hq-card-seasons",
-   "owner": "experiment",
-   "title": "Replay the Card over 2022-23, 2023-24 and 2024-25",
-   "score": 3.0,
-   "metric": "card"
+   "key": "hq-sport-ncaab",
+   "owner": "sports",
+   "title": "College basketball landing above its quotes",
+   "score": 1.82,
+   "metric": "honesty"
   },
   {
-   "key": "hq-card-pool-replay",
-   "owner": "accas",
-   "title": "Replay every Card variant on the archived pool, not the football-data rows",
-   "score": 3.0,
-   "metric": "card"
-  },
-  {
-   "key": "hq-card-book",
-   "owner": "odds",
-   "title": "Which bookmaker to write the Card for",
-   "score": 3.0,
-   "metric": "card"
+   "key": "hq-own-band",
+   "owner": "curator",
+   "title": "Replay own-band List admission for every sport",
+   "score": 1.0,
+   "metric": "roadmap"
   }
  ],
  "siteObjectives": {
   "card": {
-   "groups": 27,
+   "groups": 28,
    "won": 9,
-   "return": 0.831,
+   "return": 0.797,
    "gap": {
-    "n": 27,
+    "n": 28,
     "won": 9,
-    "expected": 9.7,
-    "z": -0.27,
-    "quoted": 0.358,
-    "landed": 0.3333
+    "expected": 10.0,
+    "z": -0.4,
+    "quoted": 0.3574,
+    "landed": 0.3214
    },
    "emptyDays": 2,
-   "closingMovePct": 0.34
+   "closingMovePct": 0.32
   },
   "list": {
    "football": {
-    "n": 92,
-    "won": 78,
-    "expected": 75.4,
-    "z": 0.72,
-    "quoted": 0.8192,
-    "landed": 0.8478
+    "n": 95,
+    "won": 79,
+    "expected": 78.0,
+    "z": 0.27,
+    "quoted": 0.8212,
+    "landed": 0.8316
    },
    "tennis": {
     "n": 59,
@@ -374,12 +374,12 @@
     "landed": 0.9091
    },
    "ncaab": {
-    "n": 182,
-    "won": 172,
-    "expected": 166.5,
-    "z": 1.48,
-    "quoted": 0.9147,
-    "landed": 0.9451
+    "n": 196,
+    "won": 184,
+    "expected": 179.0,
+    "z": 1.27,
+    "quoted": 0.9135,
+    "landed": 0.9388
    },
    "nfl": {
     "n": 5,
@@ -399,26 +399,26 @@
    }
   },
   "listAll": {
-   "n": 352,
-   "won": 317,
-   "expected": 306.5,
-   "z": 1.7,
-   "quoted": 0.8707,
-   "landed": 0.9006
+   "n": 369,
+   "won": 330,
+   "expected": 321.7,
+   "z": 1.31,
+   "quoted": 0.8719,
+   "landed": 0.8943
   },
   "honesty": {
    "worstBand": {
-    "n": 721,
-    "won": 408,
-    "expected": 379.0,
-    "z": 2.16,
+    "n": 729,
+    "won": 412,
+    "expected": 383.2,
+    "z": 2.14,
     "quoted": 0.5257,
-    "landed": 0.5659,
+    "landed": 0.5652,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1643,
+   "fixtures": 1692,
    "unrated": 0
   }
  },
@@ -702,7 +702,7 @@
   "dayAcc": 0.5,
   "dayDate": "2026-11-17",
   "tennisAcc": 0.6385,
-  "runsOk": 9,
+  "runsOk": 10,
   "runsTotal": 10,
   "tiers": [
    {
