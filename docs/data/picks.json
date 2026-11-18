@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-18T07:21:33",
- "fetched": "2026-11-18T09:23:34.723750+00:00",
+ "generated": "2026-11-18T11:12:24",
+ "fetched": "2026-11-18T11:19:58.211561+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -783,8 +783,8 @@
      "t": "10:00",
      "ko": "2026-11-18T10:00:00Z",
      "lg": "af.205",
-     "lgName": "2. Lig",
-     "country": "Turkey",
+     "lgName": "Turkey 2. Lig",
+     "sport": "football",
      "h": "Elaz\u0131\u011fspor",
      "a": "Menemen FK",
      "side": "h",
@@ -795,18 +795,14 @@
       "d": 0.1592,
       "a": 0.0785
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5067,
-     "o25": 0.5624,
      "hit": 0.7832,
      "hitN": 964,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:30",
@@ -1113,8 +1109,8 @@
      "t": "10:00",
      "ko": "2026-11-18T10:00:00Z",
      "lg": "af.205",
-     "lgName": "2. Lig",
-     "country": "Turkey",
+     "lgName": "Turkey 2. Lig",
+     "sport": "football",
      "h": "Isparta 32 Spor",
      "a": "Somaspor",
      "side": "h",
@@ -1125,18 +1121,14 @@
       "d": 0.1937,
       "a": 0.1434
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5559,
-     "o25": 0.5781,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "21:30",
@@ -3601,16 +3593,16 @@
      "won": 16,
      "lost": 4,
      "void": 0,
-     "started": 0,
-     "upcoming": 3
+     "started": 1,
+     "upcoming": 2
     },
     "reserve": {
      "n": 40,
      "won": 19,
      "lost": 9,
      "void": 0,
-     "started": 3,
-     "upcoming": 9
+     "started": 4,
+     "upcoming": 8
     },
     "groupA": {
      "n": 5,
@@ -11276,7 +11268,7 @@
   },
   {
    "date": "2026-11-21",
-   "count": 787,
+   "count": 786,
    "games": [
     {
      "t": "01:00",
@@ -23006,35 +22998,6 @@
      "unrated": false
     },
     {
-     "t": "19:00",
-     "ko": "2026-11-21T19:00:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Real Tomayapo",
-     "a": "Nacional Potos\u00ed",
-     "side": "a",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.474,
-     "p": {
-      "h": 0.234,
-      "d": 0.292,
-      "a": 0.474
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.5028,
-     "o25": 0.4728,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:00",
      "ko": "2026-11-21T12:00:00Z",
      "lg": "af.633",
@@ -24132,35 +24095,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "13:00",
-     "ko": "2026-11-21T13:00:00Z",
-     "lg": "fr.2",
-     "lgName": "Ligue 2",
-     "country": "France",
-     "h": "Nantes",
-     "a": "Grenoble",
-     "side": "h",
-     "pick": "Nantes",
-     "c": 0.4571,
-     "p": {
-      "h": 0.4571,
-      "d": 0.2807,
-      "a": 0.2623
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5272,
-     "o25": 0.4988,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -25347,6 +25281,35 @@
      ],
      "btts": 0.502,
      "o25": 0.4668,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "19:00",
+     "ko": "2026-11-21T19:00:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Real Tomayapo",
+     "a": "Nacional Potos\u00ed",
+     "side": "a",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.4401,
+     "p": {
+      "h": 0.2538,
+      "d": 0.3061,
+      "a": 0.4401
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.495,
+     "o25": 0.4587,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -49279,7 +49242,7 @@
   },
   {
    "date": "2026-11-23",
-   "count": 84,
+   "count": 85,
    "games": [
     {
      "t": "00:00",
@@ -50121,35 +50084,6 @@
      "unrated": false
     },
     {
-     "t": "23:15",
-     "ko": "2026-11-23T23:15:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Cerro Porte\u00f1o",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.495,
-     "p": {
-      "h": 0.495,
-      "d": 0.2772,
-      "a": 0.2278
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5166,
-     "o25": 0.4925,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-23T15:00:00Z",
      "lg": "af.284",
@@ -50319,6 +50253,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "23:15",
+     "ko": "2026-11-23T23:15:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Cerro Porte\u00f1o",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.4753,
+     "p": {
+      "h": 0.4753,
+      "d": 0.2854,
+      "a": 0.2393
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5124,
+     "o25": 0.4841,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -50522,6 +50485,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "19:45",
+     "ko": "2026-11-23T19:45:00Z",
+     "lg": "fr.2",
+     "lgName": "Ligue 2",
+     "country": "France",
+     "h": "Nantes",
+     "a": "Grenoble",
+     "side": "h",
+     "pick": "Nantes",
+     "c": 0.4571,
+     "p": {
+      "h": 0.4571,
+      "d": 0.2807,
+      "a": 0.2623
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5272,
+     "o25": 0.4988,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -55926,22 +55918,6 @@
      "reserve": true
     },
     {
-     "t": "01:00",
-     "ko": "2026-11-25T01:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Auburn Tigers",
-     "a": "Lipscomb Bisons",
-     "side": "h",
-     "pick": "Auburn Tigers",
-     "c": 0.8313,
-     "hit": 0.7802,
-     "hitN": 614,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "00:00",
      "ko": "2026-11-25T00:00Z",
      "lg": "ncaab",
@@ -56048,6 +56024,22 @@
      "side": "h",
      "pick": "Notre Dame Fighting Irish",
      "c": 0.795,
+     "hit": 0.7408,
+     "hitN": 629,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "01:00",
+     "ko": "2026-11-25T01:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Auburn Tigers",
+     "a": "Lipscomb Bisons",
+     "side": "h",
+     "pick": "Auburn Tigers",
+     "c": 0.7934,
      "hit": 0.7408,
      "hitN": 629,
      "list": false,
