@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-18T03:50:29",
- "fetched": "2026-11-18T04:35:49.844966+00:00",
+ "generated": "2026-11-18T07:21:33",
+ "fetched": "2026-11-18T09:23:34.723750+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-18",
-   "count": 142,
+   "count": 141,
    "games": [
     {
      "t": "01:00",
@@ -137,9 +137,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "85-65"
     },
     {
      "t": "00:00",
@@ -221,9 +221,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "74-62"
     },
     {
      "t": "02:00",
@@ -242,9 +242,9 @@
      "list": true,
      "reserve": false,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "68-75"
     },
     {
      "t": "17:00",
@@ -712,9 +712,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "81-79"
     },
     {
      "t": "04:00",
@@ -733,9 +733,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "118-114"
     },
     {
      "t": "02:30",
@@ -754,9 +754,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "102-77"
     },
     {
      "t": "03:30",
@@ -775,9 +775,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "107-132"
     },
     {
      "t": "10:00",
@@ -1038,9 +1038,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "65-61"
     },
     {
      "t": "03:00",
@@ -1187,9 +1187,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "lost",
      "score": null,
-     "res": null
+     "res": "54-83"
     },
     {
      "t": "01:00",
@@ -1818,35 +1818,6 @@
      ],
      "btts": 0.5304,
      "o25": 0.5262,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "01:30",
-     "ko": "2026-11-18T01:30:00Z",
-     "lg": "afc.241",
-     "lgName": "Copa Colombia",
-     "country": "Colombia",
-     "h": "America de Cali",
-     "a": "Internacional de Bogota",
-     "side": "h",
-     "pick": "America de Cali",
-     "c": 0.5258,
-     "p": {
-      "h": 0.5258,
-      "d": 0.2792,
-      "a": 0.195
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4962,
-     "o25": 0.486,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -3627,19 +3598,19 @@
    "pinned": {
     "list": {
      "n": 23,
-     "won": 14,
-     "lost": 3,
+     "won": 16,
+     "lost": 4,
      "void": 0,
-     "started": 2,
-     "upcoming": 4
+     "started": 0,
+     "upcoming": 3
     },
     "reserve": {
      "n": 40,
-     "won": 15,
-     "lost": 7,
+     "won": 19,
+     "lost": 9,
      "void": 0,
-     "started": 8,
-     "upcoming": 10
+     "started": 3,
+     "upcoming": 9
     },
     "groupA": {
      "n": 5,
@@ -3651,11 +3622,11 @@
     },
     "groupB": {
      "n": 5,
-     "won": 1,
+     "won": 3,
      "lost": 2,
      "void": 0,
-     "started": 1,
-     "upcoming": 1
+     "started": 0,
+     "upcoming": 0
     }
    }
   },
@@ -3920,22 +3891,6 @@
      "reserve": false
     },
     {
-     "t": "03:00",
-     "ko": "2026-11-19T03:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Los Angeles Lakers",
-     "a": "Utah Jazz",
-     "side": "h",
-     "pick": "Los Angeles Lakers",
-     "c": 0.8951,
-     "hit": 0.8816,
-     "hitN": 76,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "01:00",
      "ko": "2026-11-19T01:00Z",
      "lg": "ncaab",
@@ -4009,6 +3964,22 @@
      "c": 0.8811,
      "hit": 0.9201,
      "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "03:00",
+     "ko": "2026-11-19T03:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Los Angeles Lakers",
+     "a": "Utah Jazz",
+     "side": "h",
+     "pick": "Los Angeles Lakers",
+     "c": 0.8792,
+     "hit": 0.8816,
+     "hitN": 76,
      "list": true,
      "reserve": false
     },
@@ -5783,6 +5754,22 @@
      "reserve": false
     },
     {
+     "t": "03:00",
+     "ko": "2026-11-20T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Stanford Cardinal",
+     "a": "Sacramento State Hornets",
+     "side": "h",
+     "pick": "Stanford Cardinal",
+     "c": 0.9469,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "01:00",
      "ko": "2026-11-20T01:00Z",
      "lg": "ncaab",
@@ -5793,22 +5780,6 @@
      "side": "h",
      "pick": "Illinois State Redbirds",
      "c": 0.9449,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "03:00",
-     "ko": "2026-11-20T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Stanford Cardinal",
-     "a": "Sacramento State Hornets",
-     "side": "h",
-     "pick": "Stanford Cardinal",
-     "c": 0.9379,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -5856,7 +5827,7 @@
      "a": "Montana State Bobcats",
      "side": "h",
      "pick": "High Point Panthers",
-     "c": 0.923,
+     "c": 0.9272,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -6017,6 +5988,22 @@
      "unrated": false
     },
     {
+     "t": "02:00",
+     "ko": "2026-11-20T02:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Washington Huskies",
+     "a": "Utah Tech Trailblazers",
+     "side": "h",
+     "pick": "Washington Huskies",
+     "c": 0.8435,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:00",
      "ko": "2026-11-20T00:00Z",
      "lg": "ncaab",
@@ -6152,20 +6139,20 @@
      "reserve": true
     },
     {
-     "t": "02:00",
-     "ko": "2026-11-20T02:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Washington Huskies",
-     "a": "Utah Tech Trailblazers",
+     "t": "01:00",
+     "ko": "2026-11-20T01:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "San Antonio Spurs",
+     "a": "LA Clippers",
      "side": "h",
-     "pick": "Washington Huskies",
-     "c": 0.825,
-     "hit": 0.7802,
-     "hitN": 614,
-     "list": false,
-     "reserve": true
+     "pick": "San Antonio Spurs",
+     "c": 0.8258,
+     "hit": 0.854,
+     "hitN": 89,
+     "list": true,
+     "reserve": false
     },
     {
      "t": "01:00",
@@ -6212,22 +6199,6 @@
      "c": 0.8099,
      "hit": 0.7802,
      "hitN": 614,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "01:00",
-     "ko": "2026-11-20T01:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "San Antonio Spurs",
-     "a": "LA Clippers",
-     "side": "h",
-     "pick": "San Antonio Spurs",
-     "c": 0.7978,
-     "hit": 0.7668,
-     "hitN": 133,
      "list": false,
      "reserve": true
     },
@@ -11305,7 +11276,7 @@
   },
   {
    "date": "2026-11-21",
-   "count": 788,
+   "count": 787,
    "games": [
     {
      "t": "01:00",
@@ -11349,7 +11320,7 @@
      "a": "Loyola Maryland Greyhounds",
      "side": "h",
      "pick": "Virginia Cavaliers",
-     "c": 0.987,
+     "c": 0.9878,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -11372,22 +11343,6 @@
      "reserve": false
     },
     {
-     "t": "17:00",
-     "ko": "2026-11-21T17:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Michigan State Spartans",
-     "a": "Detroit Mercy Titans",
-     "side": "h",
-     "pick": "Michigan State Spartans",
-     "c": 0.9803,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "21:00",
      "ko": "2026-11-21T21:00Z",
      "lg": "cfb",
@@ -11402,6 +11357,22 @@
      "hitN": 167,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "17:00",
+     "ko": "2026-11-21T17:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Michigan State Spartans",
+     "a": "Detroit Mercy Titans",
+     "side": "h",
+     "pick": "Michigan State Spartans",
+     "c": 0.9714,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
     },
     {
      "t": "12:00",
@@ -11431,6 +11402,22 @@
      "list": true,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-21T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Tennessee Volunteers",
+     "a": "Coastal Carolina Chanticleers",
+     "side": "h",
+     "pick": "Tennessee Volunteers",
+     "c": 0.967,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
     },
     {
      "t": "23:00",
@@ -11476,22 +11463,6 @@
      "list": true,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-21T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Tennessee Volunteers",
-     "a": "Coastal Carolina Chanticleers",
-     "side": "h",
-     "pick": "Tennessee Volunteers",
-     "c": 0.9524,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
     },
     {
      "t": "00:00",
@@ -11572,22 +11543,6 @@
      "hitN": 167,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "03:00",
-     "ko": "2026-11-21T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Fresno State Bulldogs",
-     "a": "Alabama State Hornets",
-     "side": "h",
-     "pick": "Fresno State Bulldogs",
-     "c": 0.9054,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
     },
     {
      "t": "16:00",
@@ -11740,7 +11695,7 @@
      "a": "Sacramento Kings",
      "side": "h",
      "pick": "Los Angeles Lakers",
-     "c": 0.8751,
+     "c": 0.8776,
      "hit": 0.8816,
      "hitN": 76,
      "list": true,
@@ -11976,6 +11931,22 @@
      "hitN": 89,
      "list": true,
      "reserve": false
+    },
+    {
+     "t": "03:00",
+     "ko": "2026-11-21T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Fresno State Bulldogs",
+     "a": "Alabama State Hornets",
+     "side": "h",
+     "pick": "Fresno State Bulldogs",
+     "c": 0.8428,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "17:00",
@@ -12299,6 +12270,22 @@
      "reserve": true
     },
     {
+     "t": "02:00",
+     "ko": "2026-11-21T02:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Boise State Broncos",
+     "a": "Sam Houston Bearkats",
+     "side": "h",
+     "pick": "Boise State Broncos",
+     "c": 0.7916,
+     "hit": 0.7408,
+     "hitN": 629,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-21T15:00:00Z",
      "lg": "en.7i",
@@ -12490,22 +12477,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "02:00",
-     "ko": "2026-11-21T02:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Boise State Broncos",
-     "a": "Sam Houston Bearkats",
-     "side": "h",
-     "pick": "Boise State Broncos",
-     "c": 0.7784,
-     "hit": 0.7408,
-     "hitN": 629,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "00:00",
@@ -13052,22 +13023,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "02:30",
-     "ko": "2026-11-21T02:30Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Utah Jazz",
-     "a": "Phoenix Suns",
-     "side": "a",
-     "pick": "Phoenix Suns",
-     "c": 0.7379,
-     "hit": 0.7741,
-     "hitN": 177,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "12:30",
@@ -13671,6 +13626,22 @@
      "c": 0.705,
      "hit": 0.6881,
      "hitN": 619,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "02:30",
+     "ko": "2026-11-21T02:30Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Utah Jazz",
+     "a": "Phoenix Suns",
+     "side": "a",
+     "pick": "Phoenix Suns",
+     "c": 0.7009,
+     "hit": 0.7741,
+     "hitN": 177,
      "list": false,
      "reserve": true
     },
@@ -14932,22 +14903,6 @@
      "unrated": false
     },
     {
-     "t": "21:30",
-     "ko": "2026-11-21T21:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "San Diego Toreros",
-     "a": "UC Irvine Anteaters",
-     "side": "a",
-     "pick": "UC Irvine Anteaters",
-     "c": 0.6344,
-     "hit": 0.583,
-     "hitN": 674,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "17:00",
      "ko": "2026-11-21T17:00Z",
      "lg": "cfb",
@@ -14960,6 +14915,22 @@
      "c": 0.6342,
      "hit": 0.5897,
      "hitN": 139,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-21T00:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Atlanta Hawks",
+     "a": "Charlotte Hornets",
+     "side": "h",
+     "pick": "Atlanta Hawks",
+     "c": 0.634,
+     "hit": 0.6496,
+     "hitN": 197,
      "list": false,
      "reserve": true
     },
@@ -15155,22 +15126,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-21T00:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Atlanta Hawks",
-     "a": "Charlotte Hornets",
-     "side": "h",
-     "pick": "Atlanta Hawks",
-     "c": 0.6285,
-     "hit": 0.6496,
-     "hitN": 197,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "19:00",
@@ -17448,6 +17403,35 @@
      "o25": 0.5174,
      "hit": 0.5868,
      "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-21T15:00:00Z",
+     "lg": "sco.1",
+     "lgName": "Premiership",
+     "country": "Scotland",
+     "h": "Falkirk",
+     "a": "Saint Johnstone",
+     "side": "h",
+     "pick": "Falkirk",
+     "c": 0.5705,
+     "p": {
+      "h": 0.5705,
+      "d": 0.2329,
+      "a": 0.1966
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5518,
+     "o25": 0.5496,
+     "hit": 0.5352,
+     "hitN": 99,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -21596,35 +21580,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-11-21T15:00:00Z",
-     "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
-     "h": "Falkirk",
-     "a": "Saint Johnstone",
-     "side": "h",
-     "pick": "Falkirk",
-     "c": 0.4932,
-     "p": {
-      "h": 0.4932,
-      "d": 0.252,
-      "a": 0.2548
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5609,
-     "o25": 0.5454,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -33413,6 +33368,22 @@
      "reserve": true
     },
     {
+     "t": "03:00",
+     "ko": "2026-11-22T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Pacific Tigers",
+     "a": "Bradley Braves",
+     "side": "h",
+     "pick": "Pacific Tigers",
+     "c": 0.7824,
+     "hit": 0.7408,
+     "hitN": 629,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "02:00",
      "ko": "2026-11-22T02:00Z",
      "lg": "cfb",
@@ -33606,22 +33577,6 @@
      "reserve": true
     },
     {
-     "t": "03:00",
-     "ko": "2026-11-22T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Pacific Tigers",
-     "a": "Bradley Braves",
-     "side": "h",
-     "pick": "Pacific Tigers",
-     "c": 0.7621,
-     "hit": 0.7408,
-     "hitN": 629,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "00:00",
      "ko": "2026-11-22T00:00Z",
      "lg": "ncaab",
@@ -33723,6 +33678,22 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-22T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Loyola Marymount Lions",
+     "a": "California Baptist Lancers",
+     "side": "h",
+     "pick": "Loyola Marymount Lions",
+     "c": 0.7435,
+     "hit": 0.6881,
+     "hitN": 619,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "16:00",
@@ -34307,22 +34278,6 @@
      "unrated": false
     },
     {
-     "t": "21:30",
-     "ko": "2026-11-22T21:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Loyola Marymount Lions",
-     "a": "UC Irvine Anteaters",
-     "side": "a",
-     "pick": "UC Irvine Anteaters",
-     "c": 0.6944,
-     "hit": 0.6454,
-     "hitN": 592,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "11:00",
      "ko": "2026-11-22T11:00:00Z",
      "lg": "af.454",
@@ -34883,6 +34838,22 @@
      "unrated": false
     },
     {
+     "t": "21:30",
+     "ko": "2026-11-22T21:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Loyola Marymount Lions",
+     "a": "UC Irvine Anteaters",
+     "side": "a",
+     "pick": "UC Irvine Anteaters",
+     "c": 0.6583,
+     "hit": 0.6454,
+     "hitN": 592,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "06:00",
      "ko": "2026-11-22T06:00:00Z",
      "lg": "af.100",
@@ -35264,22 +35235,6 @@
      "list": false,
      "reserve": true,
      "unrated": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-22T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Loyola Marymount Lions",
-     "a": "California Baptist Lancers",
-     "side": "h",
-     "pick": "Loyola Marymount Lions",
-     "c": 0.634,
-     "hit": 0.583,
-     "hitN": 674,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "15:30",
@@ -49423,22 +49378,6 @@
      "reserve": false
     },
     {
-     "t": "22:00",
-     "ko": "2026-11-23T22:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "BYU Cougars",
-     "a": "Washington Huskies",
-     "side": "h",
-     "pick": "BYU Cougars",
-     "c": 0.8009,
-     "hit": 0.7802,
-     "hitN": 614,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "18:00",
      "ko": "2026-11-23T18:00:00Z",
      "lg": "swe.1",
@@ -49497,6 +49436,38 @@
      "unrated": false
     },
     {
+     "t": "22:00",
+     "ko": "2026-11-23T22:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "BYU Cougars",
+     "a": "Washington Huskies",
+     "side": "h",
+     "pick": "BYU Cougars",
+     "c": 0.7786,
+     "hit": 0.7408,
+     "hitN": 629,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-23T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Portland Pilots",
+     "a": "California Baptist Lancers",
+     "side": "h",
+     "pick": "Portland Pilots",
+     "c": 0.7674,
+     "hit": 0.7408,
+     "hitN": 629,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "04:59",
      "ko": "2026-11-23T04:59Z",
      "lg": "ncaab",
@@ -49540,22 +49511,6 @@
      "list": true,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "02:30",
-     "ko": "2026-11-23T02:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "UC San Diego Tritons",
-     "a": "Seattle U Redhawks",
-     "side": "h",
-     "pick": "UC San Diego Tritons",
-     "c": 0.7447,
-     "hit": 0.6881,
-     "hitN": 619,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "21:00",
@@ -49656,38 +49611,6 @@
      "lg": "nba",
      "lgName": "NBA",
      "sport": "nba",
-     "h": "Utah Jazz",
-     "a": "Dallas Mavericks",
-     "side": "a",
-     "pick": "Dallas Mavericks",
-     "c": 0.6637,
-     "hit": 0.6776,
-     "hitN": 183,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-23T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Portland Pilots",
-     "a": "California Baptist Lancers",
-     "side": "h",
-     "pick": "Portland Pilots",
-     "c": 0.6635,
-     "hit": 0.6454,
-     "hitN": 592,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-23T00:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
      "h": "Chicago Bulls",
      "a": "Denver Nuggets",
      "side": "a",
@@ -49695,6 +49618,22 @@
      "c": 0.6579,
      "hit": 0.6776,
      "hitN": 183,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "02:30",
+     "ko": "2026-11-23T02:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "UC San Diego Tritons",
+     "a": "Seattle U Redhawks",
+     "side": "h",
+     "pick": "UC San Diego Tritons",
+     "c": 0.6354,
+     "hit": 0.583,
+     "hitN": 674,
      "list": false,
      "reserve": true
     },
@@ -49742,6 +49681,22 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-23T00:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Utah Jazz",
+     "a": "Dallas Mavericks",
+     "side": "a",
+     "pick": "Dallas Mavericks",
+     "c": 0.6216,
+     "hit": 0.6496,
+     "hitN": 197,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "01:30",
@@ -51560,7 +51515,7 @@
      "a": "Denver Pioneers",
      "side": "h",
      "pick": "Kansas Jayhawks",
-     "c": 0.9664,
+     "c": 0.9731,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -51599,22 +51554,6 @@
      "reserve": false
     },
     {
-     "t": "03:00",
-     "ko": "2026-11-24T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "California Golden Bears",
-     "a": "Alabama State Hornets",
-     "side": "h",
-     "pick": "California Golden Bears",
-     "c": 0.9269,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "23:30",
      "ko": "2026-11-24T23:30Z",
      "lg": "ncaab",
@@ -51647,6 +51586,22 @@
      "reserve": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-11-24T20:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Maryland Terrapins",
+     "a": "Tennessee Volunteers",
+     "side": "a",
+     "pick": "Tennessee Volunteers",
+     "c": 0.8846,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "03:00",
      "ko": "2026-11-24T03:00Z",
      "lg": "nba",
@@ -51656,9 +51611,25 @@
      "a": "Utah Jazz",
      "side": "h",
      "pick": "Los Angeles Lakers",
-     "c": 0.8951,
+     "c": 0.8792,
      "hit": 0.8816,
      "hitN": 76,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "03:00",
+     "ko": "2026-11-24T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "California Golden Bears",
+     "a": "Alabama State Hornets",
+     "side": "h",
+     "pick": "California Golden Bears",
+     "c": 0.8766,
+     "hit": 0.9201,
+     "hitN": 1389,
      "list": true,
      "reserve": false
     },
@@ -51673,22 +51644,6 @@
      "side": "h",
      "pick": "North Carolina Tar Heels",
      "c": 0.8656,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "03:00",
-     "ko": "2026-11-24T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "UNLV Rebels",
-     "a": "Eastern Washington Eagles",
-     "side": "h",
-     "pick": "UNLV Rebels",
-     "c": 0.8537,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -51727,22 +51682,6 @@
      "reserve": true
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-24T20:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Maryland Terrapins",
-     "a": "Tennessee Volunteers",
-     "side": "a",
-     "pick": "Tennessee Volunteers",
-     "c": 0.8396,
-     "hit": 0.7802,
-     "hitN": 614,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "00:30",
      "ko": "2026-11-24T00:30Z",
      "lg": "nba",
@@ -51769,6 +51708,22 @@
      "side": "h",
      "pick": "Santa Clara Broncos",
      "c": 0.8335,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "03:00",
+     "ko": "2026-11-24T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "UNLV Rebels",
+     "a": "Eastern Washington Eagles",
+     "side": "h",
+     "pick": "UNLV Rebels",
+     "c": 0.8227,
      "hit": 0.7802,
      "hitN": 614,
      "list": false,
@@ -51855,6 +51810,22 @@
      "reserve": true
     },
     {
+     "t": "01:30",
+     "ko": "2026-11-24T01:30Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Houston Rockets",
+     "a": "LA Clippers",
+     "side": "h",
+     "pick": "Houston Rockets",
+     "c": 0.7637,
+     "hit": 0.7668,
+     "hitN": 133,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:30",
      "ko": "2026-11-24T00:30Z",
      "lg": "nba",
@@ -51935,18 +51906,18 @@
      "reserve": true
     },
     {
-     "t": "01:30",
-     "ko": "2026-11-24T01:30Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Houston Rockets",
-     "a": "LA Clippers",
-     "side": "h",
-     "pick": "Houston Rockets",
-     "c": 0.729,
-     "hit": 0.7741,
-     "hitN": 177,
+     "t": "22:30",
+     "ko": "2026-11-24T22:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Kent State Golden Flashes",
+     "a": "Wyoming Cowboys",
+     "side": "a",
+     "pick": "Wyoming Cowboys",
+     "c": 0.7265,
+     "hit": 0.6881,
+     "hitN": 619,
      "list": false,
      "reserve": true
     },
@@ -51961,22 +51932,6 @@
      "side": "h",
      "pick": "Purdue Boilermakers",
      "c": 0.7228,
-     "hit": 0.6881,
-     "hitN": 619,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "22:30",
-     "ko": "2026-11-24T22:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Kent State Golden Flashes",
-     "a": "Wyoming Cowboys",
-     "side": "a",
-     "pick": "Wyoming Cowboys",
-     "c": 0.7108,
      "hit": 0.6881,
      "hitN": 619,
      "list": false,
@@ -55779,22 +55734,6 @@
      "reserve": false
     },
     {
-     "t": "00:00",
-     "ko": "2026-11-25T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Old Dominion Monarchs",
-     "a": "Hampton Pirates",
-     "side": "h",
-     "pick": "Old Dominion Monarchs",
-     "c": 0.9124,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "02:00",
      "ko": "2026-11-25T02:00Z",
      "lg": "ncaab",
@@ -55805,6 +55744,22 @@
      "side": "h",
      "pick": "Missouri Tigers",
      "c": 0.9115,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-11-25T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Old Dominion Monarchs",
+     "a": "Hampton Pirates",
+     "side": "h",
+     "pick": "Old Dominion Monarchs",
+     "c": 0.9072,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -56131,6 +56086,22 @@
      "reserve": true
     },
     {
+     "t": "05:30",
+     "ko": "2026-11-25T05:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Kansas State Wildcats",
+     "a": "Gonzaga Bulldogs",
+     "side": "a",
+     "pick": "Gonzaga Bulldogs",
+     "c": 0.7581,
+     "hit": 0.7408,
+     "hitN": 629,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:00",
      "ko": "2026-11-25T00:00Z",
      "lg": "ncaab",
@@ -56175,22 +56146,6 @@
      "c": 0.7526,
      "hit": 0.7408,
      "hitN": 629,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "05:30",
-     "ko": "2026-11-25T05:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Kansas State Wildcats",
-     "a": "Gonzaga Bulldogs",
-     "side": "a",
-     "pick": "Gonzaga Bulldogs",
-     "c": 0.7468,
-     "hit": 0.6881,
-     "hitN": 619,
      "list": false,
      "reserve": true
     },
