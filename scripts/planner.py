@@ -204,11 +204,18 @@ def plan(files, today=None, done=()):
                 k = (grp["date"], l.get("event"))
                 if l.get("status") in ("won", "lost") and l.get("p") is not None and k not in seen:
                     seen.add(k); legs.append(l)
+        # 19 Nov 2026: a sport with its own Card floor (tennis 85% since CARD_RULE 10) is judged on the legs that
+        # floor admits, as the repo's tripwire is (cardLegsBySport.<sport>.atFloor, 14 Nov 2026): legs the floor
+        # now refuses cannot reach the Card, so a shortfall among them is not a task.
+        floors = {sp: v["floor"] for sp, v in ((files.get("groupings-record.json") or {}).get("cardLegsBySport") or {}).items()
+                  if isinstance(v, dict) and v.get("floor") is not None}
         for sp in sorted({l.get("sport") for l in legs} - {None}):
-            g = gap((l["p"], l["status"] == "won") for l in legs if l.get("sport") == sp)
+            fl = floors.get(sp)
+            g = gap((l["p"], l["status"] == "won") for l in legs if l.get("sport") == sp and (fl is None or l["p"] >= fl))
             if g["n"] >= 15 and g["z"] <= -1.0:
-                T.append(task(f"card-legs-{sp}", "legs", f"Card {sp} legs: {g['won']}/{g['n']} against {g['expected']:.0f} expected",
-                    f"{sp.title()} legs on the Card since {CARD_FROM}: {says(g)}. The chance is the bookmakers' own, so a "
+                at = f" at {fl * 100:.0f}%+" if fl is not None else ""
+                T.append(task(f"card-legs-{sp}", "legs", f"Card {sp} legs{at}: {g['won']}/{g['n']} against {g['expected']:.0f} expected",
+                    f"{sp.title()} legs on the Card since {CARD_FROM}{at}: {says(g)}. The chance is the bookmakers' own, so a "
                     "shortfall means the Card picks the kind of favourite the market over-rates. Find which (competition, "
                     "price, home or away, the opposition's price) and replay a rule that excludes it; if the sport as a "
                     "whole is under quote by two standard errors on 50+ legs, propose it for CARD_SPORTS_OFF.", g, 3.0, "card"))

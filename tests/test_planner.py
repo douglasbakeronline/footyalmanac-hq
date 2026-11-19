@@ -122,7 +122,7 @@ class CardFirst(unittest.TestCase):
         import planner as P
         days = [{"date": f"2026-11-{d:02d}", "groups": [
             {"name": "Card 2x", "status": "won" if d % 4 == 0 else "lost", "p": 0.34, "odds": 2.4, "stake": 2,
-             "legs": [{"event": f"e{d}", "sport": "football", "status": "won", "p": 0.7, "odds": 1.3, "opp": 10.0}]}]} for d in range(1, 25)]
+             "legs": [{"event": f"e{d}", "sport": "football", "status": "won", "p": 0.7, "odds": 1.3}]}]} for d in range(1, 25)]
         b = P.plan({"groupings-record.json": {"days": days}, "record-graded.json": {"graded": []},
                     "tennis-record.json": {}, "sports-record.json": {}, "record.json": {}, "predictions": []}, today=P.date(2026, 11, 25))
         self.assertEqual(b["tasks"][0]["key"], "hq-card-return")
@@ -137,3 +137,27 @@ class CardFirst(unittest.TestCase):
         b = P.plan({"groupings-record.json": {"days": days}, "record-graded.json": {"graded": []},
                     "tennis-record.json": {}, "sports-record.json": {}, "record.json": {}, "predictions": []}, today=P.date(2026, 11, 25))
         self.assertNotIn("hq-card-return", [t["key"] for t in b["tasks"]])
+
+
+class CardLegsAtFloor(unittest.TestCase):
+    """19 Nov 2026: a sport with its own Card floor (groupings-record cardLegsBySport.<sport>.floor, tennis 85%)
+    is judged on the legs that floor admits, as the repo's tripwire is (`atFloor`, 14 Nov 2026)."""
+    def plan(self, p, floor=0.85):
+        import planner as P
+        days = [{"date": f"2026-11-{d:02d}", "groups": [
+            {"name": "Card 2x", "status": "lost", "p": 0.34, "odds": 2.4, "stake": 2,
+             "legs": [{"event": f"t{d}", "sport": "tennis", "status": "won" if d % 2 else "lost", "p": p, "odds": 1.2}]}]}
+            for d in range(1, 25)]
+        rec = {"days": days, "cardLegsBySport": {"tennis": {"floor": floor}} if floor else {}}
+        return P.plan({"groupings-record.json": rec, "record-graded.json": {"graded": []}, "tennis-record.json": {},
+                       "sports-record.json": {}, "record.json": {}, "predictions": []}, today=P.date(2026, 11, 25))
+
+    def test_legs_under_the_floor_raise_no_task(self):
+        self.assertNotIn("hq-card-legs-tennis", [t["key"] for t in self.plan(0.75)["tasks"]])
+
+    def test_without_a_floor_every_leg_counts(self):
+        self.assertIn("hq-card-legs-tennis", [t["key"] for t in self.plan(0.75, floor=None)["tasks"]])
+
+    def test_legs_at_the_floor_still_count(self):
+        t = [t for t in self.plan(0.88)["tasks"] if t["key"] == "hq-card-legs-tennis"]
+        self.assertTrue(t); self.assertIn("85%", t[0]["title"])

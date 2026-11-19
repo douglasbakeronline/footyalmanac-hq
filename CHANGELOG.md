@@ -1,3 +1,9 @@
+# The planner reads the Card's tennis floor - November 19, 2026 (Claude)
+
+- **Card legs by sport at the floor.** The planner's "Card <sport> legs" task now counts only the legs today's floor would admit, read from footyalmanac's `groupings-record.json` `cardLegsBySport.<sport>.floor` (tennis 85% since `CARD_RULE` 10), as the site's own tripwire has since 14 Nov (`atFloor`). Every tennis Card leg on record was under 85%, so the top task of the backlog ("Card tennis legs: 8/15 against 12 expected") pointed the office sprint at legs that can no longer reach the Card. On the 19 Nov record the task drops out and the Card's return task leads. A sport without a floor is unchanged; a sport with one names it in the title ("at 85%+").
+- `test_losing_card_tops_the_backlog`'s fixture no longer carries an opposition price on every winning leg: it raised an "opposition 9+ lands above" task that outscored the return task the test is about (failing on main before this change).
+- Tests: `tests/test_planner.py` `CardLegsAtFloor`.
+
 # Elena works, and the Groups & Odds Desk opens - October 20, 2026 (Claude)
 
 - **Elena is real.** The CEO tab now briefs her on GitHub: type a question or a change, tap Brief Elena, submit the issue. footyalmanac's new `ceo.yml` runs Claude as Elena on the whole repository. She answers on the issue, ships what is safe through the agents' merge gate, and delegates bigger work as backlog issues the next sprint takes first. The tab lists recent briefs live from GitHub with their status. The OpenAI worker is no longer called.
