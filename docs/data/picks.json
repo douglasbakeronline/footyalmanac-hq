@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-19T21:10:50",
- "fetched": "2026-11-19T21:12:11.831597+00:00",
+ "generated": "2026-11-19T21:46:36",
+ "fetched": "2026-11-19T22:49:04.819032+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-19",
-   "count": 68,
+   "count": 65,
    "games": [
     {
      "t": "00:00",
@@ -521,18 +521,24 @@
     },
     {
      "t": "22:00",
+     "ko": "2026-11-19T22:00:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 LP Open by IND",
+     "lgName": "WTA \u00b7 LP Open by IND \u00b7 Round 2",
      "sport": "tennis",
      "h": "Andrea Lazaro Garcia",
      "a": "Fernanda Labrana",
      "side": "h",
      "pick": "Andrea Lazaro Garcia",
      "c": 0.8344,
+     "p": null,
      "hit": 0.7714,
      "hitN": 35,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:30",
@@ -1107,8 +1113,8 @@
     },
     {
      "t": "22:00",
-     "ko": "2026-11-19T22:00Z",
-     "lg": "ncaab",
+     "ko": "2026-11-19T22:00:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "Auburn Tigers",
@@ -1116,10 +1122,15 @@
      "side": "h",
      "pick": "Auburn Tigers",
      "c": 0.67,
+     "p": null,
      "hit": 0.6454,
      "hitN": 592,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:00",
@@ -1201,9 +1212,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "Alexander Zverev won"
     },
     {
      "t": "01:00",
@@ -1267,35 +1278,6 @@
      "status": "lost",
      "score": null,
      "res": "121-124"
-    },
-    {
-     "t": "19:30",
-     "ko": "2026-11-19T19:30:00Z",
-     "lg": "uy.1",
-     "lgName": "Primera Divisi\u00f3n",
-     "country": "Uruguay",
-     "h": "Pe\u00f1arol",
-     "a": "Cerro Largo",
-     "side": "h",
-     "pick": "Pe\u00f1arol",
-     "c": 0.6009,
-     "p": {
-      "h": 0.6009,
-      "d": 0.2557,
-      "a": 0.1434
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4816,
-     "o25": 0.4784,
-     "hit": 0.7052,
-     "hitN": 78,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     },
     {
      "t": "22:30",
@@ -1385,35 +1367,6 @@
      "unrated": false
     },
     {
-     "t": "19:30",
-     "ko": "2026-11-19T19:30:00Z",
-     "lg": "uy.1",
-     "lgName": "Primera Divisi\u00f3n",
-     "country": "Uruguay",
-     "h": "Progreso",
-     "a": "Montevideo City Torque",
-     "side": "a",
-     "pick": "Montevideo City Torque",
-     "c": 0.4987,
-     "p": {
-      "h": 0.2433,
-      "d": 0.258,
-      "a": 0.4987
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5476,
-     "o25": 0.5301,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "20:00",
      "ko": "2026-11-19T20:00:00Z",
      "lg": "afc.1165",
@@ -1435,35 +1388,6 @@
      ],
      "btts": 0.5441,
      "o25": 0.5226,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:30",
-     "ko": "2026-11-19T19:30:00Z",
-     "lg": "uy.1",
-     "lgName": "Primera Divisi\u00f3n",
-     "country": "Uruguay",
-     "h": "Boston River",
-     "a": "Deportivo Maldonado",
-     "side": "a",
-     "pick": "Deportivo Maldonado",
-     "c": 0.4368,
-     "p": {
-      "h": 0.2636,
-      "d": 0.2996,
-      "a": 0.4368
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5053,
-     "o25": 0.4701,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -1512,10 +1436,10 @@
     },
     "reserve": {
      "n": 34,
-     "won": 19,
+     "won": 20,
      "lost": 13,
      "void": 0,
-     "started": 1,
+     "started": 0,
      "upcoming": 1
     },
     "groupA": {
@@ -3353,6 +3277,35 @@
      "unrated": false
     },
     {
+     "t": "19:30",
+     "ko": "2026-11-20T19:30:00Z",
+     "lg": "uy.1",
+     "lgName": "Primera Divisi\u00f3n",
+     "country": "Uruguay",
+     "h": "Liverpool",
+     "a": "Montevideo Wanderers",
+     "side": "h",
+     "pick": "Liverpool",
+     "c": 0.5771,
+     "p": {
+      "h": 0.5771,
+      "d": 0.2542,
+      "a": 0.1687
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.5047,
+     "o25": 0.4972,
+     "hit": 0.5352,
+     "hitN": 99,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-11-20T13:00:00Z",
      "lg": "af.585",
@@ -3376,35 +3329,6 @@
      "o25": 0.4991,
      "hit": 0.5868,
      "hitN": 4716,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:30",
-     "ko": "2026-11-20T19:30:00Z",
-     "lg": "uy.1",
-     "lgName": "Primera Divisi\u00f3n",
-     "country": "Uruguay",
-     "h": "Liverpool",
-     "a": "Montevideo Wanderers",
-     "side": "h",
-     "pick": "Liverpool",
-     "c": 0.5766,
-     "p": {
-      "h": 0.5766,
-      "d": 0.2546,
-      "a": 0.1688
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5043,
-     "o25": 0.4966,
-     "hit": 0.5352,
-     "hitN": 99,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -3817,6 +3741,35 @@
      "unrated": false
     },
     {
+     "t": "19:30",
+     "ko": "2026-11-20T19:30:00Z",
+     "lg": "uy.1",
+     "lgName": "Primera Divisi\u00f3n",
+     "country": "Uruguay",
+     "h": "Racing (Montevideo)",
+     "a": "Central Espa\u00f1ol F\u00fatbol Club",
+     "side": "h",
+     "pick": "Racing (Montevideo)",
+     "c": 0.5399,
+     "p": {
+      "h": 0.5399,
+      "d": 0.2759,
+      "a": 0.1842
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4929,
+     "o25": 0.4749,
+     "hit": 0.4896,
+     "hitN": 194,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:00",
      "ko": "2026-11-20T19:00:00Z",
      "lg": "nl.2",
@@ -3841,35 +3794,6 @@
      "hit": 0.4896,
      "hitN": 194,
      "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:30",
-     "ko": "2026-11-20T19:30:00Z",
-     "lg": "uy.1",
-     "lgName": "Primera Divisi\u00f3n",
-     "country": "Uruguay",
-     "h": "Racing (Montevideo)",
-     "a": "Central Espa\u00f1ol F\u00fatbol Club",
-     "side": "h",
-     "pick": "Racing (Montevideo)",
-     "c": 0.5394,
-     "p": {
-      "h": 0.5394,
-      "d": 0.2763,
-      "a": 0.1843
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4925,
-     "o25": 0.4743,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -4928,18 +4852,18 @@
      "a": "Nacional",
      "side": "a",
      "pick": "Nacional",
-     "c": 0.463,
+     "c": 0.4633,
      "p": {
       "h": 0.2499,
-      "d": 0.2872,
-      "a": 0.463
+      "d": 0.2868,
+      "a": 0.4633
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5148,
-     "o25": 0.4849,
+     "btts": 0.5153,
+     "o25": 0.4855,
      "hit": 0.4634,
      "hitN": 259,
      "celtic": false,
@@ -18811,35 +18735,6 @@
      "unrated": false
     },
     {
-     "t": "19:00",
-     "ko": "2026-11-21T19:00:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Real Tomayapo",
-     "a": "Nacional Potos\u00ed",
-     "side": "a",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.474,
-     "p": {
-      "h": 0.234,
-      "d": 0.292,
-      "a": 0.474
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.5028,
-     "o25": 0.4728,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:00",
      "ko": "2026-11-21T12:00:00Z",
      "lg": "af.633",
@@ -21007,6 +20902,35 @@
      ],
      "btts": 0.502,
      "o25": 0.4668,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "19:00",
+     "ko": "2026-11-21T19:00:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Real Tomayapo",
+     "a": "Nacional Potos\u00ed",
+     "side": "a",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.4401,
+     "p": {
+      "h": 0.2538,
+      "d": 0.3061,
+      "a": 0.4401
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.495,
+     "o25": 0.4587,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -46006,18 +45930,18 @@
      "a": "Danubio",
      "side": "h",
      "pick": "Albion",
-     "c": 0.5182,
+     "c": 0.5187,
      "p": {
-      "h": 0.5182,
-      "d": 0.2792,
+      "h": 0.5187,
+      "d": 0.2787,
       "a": 0.2026
      },
      "score": [
       1,
       0
      ],
-     "btts": 0.5008,
-     "o25": 0.4789,
+     "btts": 0.5013,
+     "o25": 0.4796,
      "hit": 0.4896,
      "hitN": 194,
      "celtic": true,
@@ -46165,35 +46089,6 @@
      "o25": 0.434,
      "hit": 0.4867,
      "hitN": 9010,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "23:15",
-     "ko": "2026-11-23T23:15:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Cerro Porte\u00f1o",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.495,
-     "p": {
-      "h": 0.495,
-      "d": 0.2772,
-      "a": 0.2278
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5166,
-     "o25": 0.4925,
-     "hit": 0.4634,
-     "hitN": 259,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -46369,6 +46264,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "23:15",
+     "ko": "2026-11-23T23:15:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Cerro Porte\u00f1o",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.4753,
+     "p": {
+      "h": 0.4753,
+      "d": 0.2854,
+      "a": 0.2393
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5124,
+     "o25": 0.4841,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -47360,6 +47284,35 @@
      "unrated": false
     },
     {
+     "t": "19:30",
+     "ko": "2026-11-23T19:30:00Z",
+     "lg": "uy.1",
+     "lgName": "Primera Divisi\u00f3n",
+     "country": "Uruguay",
+     "h": "Juventud",
+     "a": "Defensor Sporting",
+     "side": "h",
+     "pick": "Juventud",
+     "c": 0.4036,
+     "p": {
+      "h": 0.4036,
+      "d": 0.3115,
+      "a": 0.2849
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4975,
+     "o25": 0.4574,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:00",
      "ko": "2026-11-23T15:00:00Z",
      "lg": "gr.1",
@@ -47381,35 +47334,6 @@
      ],
      "btts": 0.5459,
      "o25": 0.5161,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:30",
-     "ko": "2026-11-23T19:30:00Z",
-     "lg": "uy.1",
-     "lgName": "Primera Divisi\u00f3n",
-     "country": "Uruguay",
-     "h": "Juventud",
-     "a": "Defensor Sporting",
-     "side": "h",
-     "pick": "Juventud",
-     "c": 0.4033,
-     "p": {
-      "h": 0.4033,
-      "d": 0.3119,
-      "a": 0.2848
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.497,
-     "o25": 0.4568,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -51850,19 +51774,19 @@
   },
   {
    "date": "2026-11-25",
-   "count": 177,
+   "count": 176,
    "games": [
     {
-     "t": "05:00",
-     "ko": "2026-11-25T05:00Z",
+     "t": "00:00",
+     "ko": "2026-11-25T00:00Z",
      "lg": "ncaab",
      "lgName": "NCAA",
      "sport": "ncaab",
-     "h": "New Mexico Lobos",
-     "a": "Mississippi Valley State Delta Devils",
+     "h": "Florida Gators",
+     "a": "Milwaukee Panthers",
      "side": "h",
-     "pick": "New Mexico Lobos",
-     "c": 0.9903,
+     "pick": "Florida Gators",
+     "c": 0.968,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -51911,22 +51835,6 @@
      "side": "h",
      "pick": "Utah Tech Trailblazers",
      "c": 0.9646,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-11-25T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Florida Gators",
-     "a": "Milwaukee Panthers",
-     "side": "h",
-     "pick": "Florida Gators",
-     "c": 0.9614,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -52981,35 +52889,6 @@
      "reserve": true
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-25T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Rubio \u00d1\u00fa",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.6947,
-     "p": {
-      "h": 0.6947,
-      "d": 0.201,
-      "a": 0.1043
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4961,
-     "o25": 0.5246,
-     "hit": 0.8148,
-     "hitN": 54,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "21:30",
      "ko": "2026-11-25T21:30Z",
      "lg": "ncaab",
@@ -53143,6 +53022,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-25T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Rubio \u00d1\u00fa",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.6722,
+     "p": {
+      "h": 0.6722,
+      "d": 0.2141,
+      "a": 0.1137
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4935,
+     "o25": 0.5139,
+     "hit": 0.8148,
+     "hitN": 54,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -56079,8 +55987,24 @@
   },
   {
    "date": "2026-11-26",
-   "count": 15,
+   "count": 16,
    "games": [
+    {
+     "t": "02:00",
+     "ko": "2026-11-26T02:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "New Mexico Lobos",
+     "a": "Mississippi Valley State Delta Devils",
+     "side": "h",
+     "pick": "New Mexico Lobos",
+     "c": 0.9903,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
     {
      "t": "00:00",
      "ko": "2026-11-26T00:00Z",
