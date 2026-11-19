@@ -261,8 +261,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-19T19:32:39.079989+00:00",
+ "fetched": "2026-11-19T19:54:58.280518+00:00",
  "commits": [
+  {
+   "sha": "5aaf9d2",
+   "msg": "Archive predictions and record for 2026-11-19 [skip ci]",
+   "date": "2026-11-19T19:43:13Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5aaf9d2c1f1dce564a5e5989fa2f14765cf38b30"
+  },
   {
    "sha": "92f5ee8",
    "msg": "Archive predictions and record for 2026-11-19 [skip ci]",
@@ -376,17 +382,29 @@
    "msg": "Merge pull request #423: a started game keeps its last price on the Daily List",
    "date": "2026-11-19T15:52:10Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/07b17901d19ff3ca981e0aa9a96d5dba8c3be925"
-  },
-  {
-   "sha": "970f56f",
-   "msg": "Archive predictions and record for 2026-11-19 [skip ci]",
-   "date": "2026-11-19T15:50:53Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/970f56f86b4a46ccfaf81f1cd87431d05994222b"
   }
  ],
  "runs": [
   {
    "conclusion": "",
+   "createdAt": "2026-11-19T19:45:52Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44601683201"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-19T19:39:01Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44600510375"
+  },
+  {
+   "conclusion": "cancelled",
+   "createdAt": "2026-11-19T19:34:26Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44599717771"
+  },
+  {
+   "conclusion": "success",
    "createdAt": "2026-11-19T19:27:36Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44598524810"
@@ -404,7 +422,7 @@
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44587312666"
   },
   {
-   "conclusion": "",
+   "conclusion": "cancelled",
    "createdAt": "2026-11-19T18:04:01Z",
    "name": "Briefing watch",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44583823988"
@@ -426,24 +444,6 @@
    "createdAt": "2026-11-19T17:54:44Z",
    "name": "Evaluation",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44582202629"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-19T17:54:44Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44582202514"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-19T17:54:41Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44582192504"
-  },
-  {
-   "conclusion": "cancelled",
-   "createdAt": "2026-11-19T16:57:30Z",
-   "name": "Briefing watch",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44571884906"
   }
  ]
 }
