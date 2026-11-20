@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-19T04:16+00:00",
+ "generated": "2026-11-20T04:04+00:00",
  "window": 28,
- "since": "2026-10-22",
+ "since": "2026-10-23",
  "objectives": {
   "card": {
-   "groups": 29,
-   "won": 9,
-   "return": 0.766,
+   "groups": 31,
+   "won": 10,
+   "return": 0.797,
    "gap": {
-    "n": 29,
-    "won": 9,
-    "expected": 10.3,
-    "z": -0.52,
-    "quoted": 0.3564,
-    "landed": 0.3103
+    "n": 31,
+    "won": 10,
+    "expected": 11.1,
+    "z": -0.4,
+    "quoted": 0.3567,
+    "landed": 0.3226
    },
-   "emptyDays": 2,
-   "closingMovePct": 0.57
+   "emptyDays": 3,
+   "closingMovePct": 0.63
   },
   "list": {
    "football": {
@@ -24,32 +24,32 @@
     "won": 76,
     "expected": 76.3,
     "z": -0.09,
-    "quoted": 0.8206,
+    "quoted": 0.8207,
     "landed": 0.8172
    },
    "tennis": {
-    "n": 59,
-    "won": 49,
-    "expected": 48.7,
-    "z": 0.09,
-    "quoted": 0.826,
-    "landed": 0.8305
+    "n": 60,
+    "won": 50,
+    "expected": 49.6,
+    "z": 0.15,
+    "quoted": 0.8261,
+    "landed": 0.8333
    },
    "nba": {
-    "n": 10,
+    "n": 11,
     "won": 9,
-    "expected": 8.4,
-    "z": 0.5,
-    "quoted": 0.8426,
-    "landed": 0.9
+    "expected": 9.3,
+    "z": -0.26,
+    "quoted": 0.8459,
+    "landed": 0.8182
    },
    "ncaab": {
-    "n": 207,
-    "won": 194,
-    "expected": 189.2,
-    "z": 1.2,
-    "quoted": 0.9141,
-    "landed": 0.9372
+    "n": 203,
+    "won": 191,
+    "expected": 185.8,
+    "z": 1.33,
+    "quoted": 0.9152,
+    "landed": 0.9409
    },
    "nfl": {
     "n": 5,
@@ -69,26 +69,26 @@
    }
   },
   "listAll": {
-   "n": 377,
-   "won": 336,
-   "expected": 329.4,
-   "z": 1.05,
-   "quoted": 0.8736,
-   "landed": 0.8912
+   "n": 375,
+   "won": 334,
+   "expected": 327.7,
+   "z": 1.01,
+   "quoted": 0.8738,
+   "landed": 0.8907
   },
   "honesty": {
    "worstBand": {
-    "n": 733,
-    "won": 414,
-    "expected": 385.3,
-    "z": 2.12,
-    "quoted": 0.5256,
-    "landed": 0.5648,
+    "n": 737,
+    "won": 416,
+    "expected": 387.4,
+    "z": 2.11,
+    "quoted": 0.5257,
+    "landed": 0.5645,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1741,
+   "fixtures": 1765,
    "unrated": 0
   }
  },
@@ -112,66 +112,66 @@
   {
    "key": "hq-card-return",
    "owner": "accas",
-   "title": "The Card returns 0.766 a unit over 29 groups",
-   "brief": "Settled Card groups since 2026-10-29: 9 of 29 landed (31%) against 10.3 expected (36% quoted), z -0.5; return at the published price 0.766 a unit. The Card's only purpose is a return above 1. Find which class of leg or group loses (sport, price band, the opposition's price band, the gap between model and market, the day of the week) on the pool archive and the football-data replay, and replay a rule that leaves it out. Pre-registered variants are in tools/card_replay.py; add yours there before reading its result.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "title": "The Card returns 0.797 a unit over 31 groups",
+   "brief": "Settled Card groups since 2026-10-29: 10 of 31 landed (32%) against 11.1 expected (36% quoted), z -0.4; return at the published price 0.797 a unit. The Card's only purpose is a return above 1. Find which class of leg or group loses (sport, price band, the opposition's price band, the gap between model and market, the day of the week) on the pool archive and the football-data replay, and replay a rule that leaves it out. Pre-registered variants are in tools/card_replay.py; add yours there before reading its result.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 29,
-    "won": 9,
-    "expected": 10.3,
-    "z": -0.52,
-    "quoted": 0.3564,
-    "landed": 0.3103
+    "n": 31,
+    "won": 10,
+    "expected": 11.1,
+    "z": -0.4,
+    "quoted": 0.3567,
+    "landed": 0.3226
    },
    "metric": "card",
-   "score": 6.34
+   "score": 6.03
   },
   {
    "key": "hq-band-50",
    "owner": "calib",
    "title": "Football 50-55% band lands over its quote",
-   "brief": "Every graded football call quoted (pick, or pick-or-draw where the predicted score is a draw) 50-55%: 414 of 733 landed (56%) against 385.3 expected (53% quoted), z +2.1. A gap in either direction is a bug. Check whether the calibration curve (calibration.json, a straight line in confidence) can bend enough here, or whether one group of competitions (wider API-Football leagues, cups, Celtic's Law) drives it. calibration.json only changes through tune.py's gates (Rule 5): improve the method, never hand-edit the file.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "brief": "Every graded football call quoted (pick, or pick-or-draw where the predicted score is a draw) 50-55%: 416 of 737 landed (56%) against 387.4 expected (53% quoted), z +2.1. A gap in either direction is a bug. Check whether the calibration curve (calibration.json, a straight line in confidence) can bend enough here, or whether one group of competitions (wider API-Football leagues, cups, Celtic's Law) drives it. calibration.json only changes through tune.py's gates (Rule 5): improve the method, never hand-edit the file.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 733,
-    "won": 414,
-    "expected": 385.3,
-    "z": 2.12,
-    "quoted": 0.5256,
-    "landed": 0.5648
+    "n": 737,
+    "won": 416,
+    "expected": 387.4,
+    "z": 2.11,
+    "quoted": 0.5257,
+    "landed": 0.5645
    },
    "metric": "honesty",
-   "score": 4.24
+   "score": 4.22
   },
   {
    "key": "hq-legs-tennis",
    "owner": "legs",
-   "title": "Tennis legs: 35/57 against 42 expected",
-   "brief": "Tennis legs in the Odds tab's groups since 2026-10-19: 35 of 57 landed (61%) against 41.6 expected (73% quoted), z -2.0. Find which kind of tennis leg falls short (competition tier, tested band, home or away, price) and replay a selection rule that leaves it out.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "title": "Tennis legs: 36/59 against 43 expected",
+   "brief": "Tennis legs in the Odds tab's groups since 2026-10-19: 36 of 59 landed (61%) against 42.9 expected (73% quoted), z -2.0. Find which kind of tennis leg falls short (competition tier, tested band, home or away, price) and replay a selection rule that leaves it out.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 57,
-    "won": 35,
-    "expected": 41.6,
-    "z": -1.98,
-    "quoted": 0.7291,
-    "landed": 0.614
+    "n": 59,
+    "won": 36,
+    "expected": 42.9,
+    "z": -2.05,
+    "quoted": 0.7274,
+    "landed": 0.6102
    },
    "metric": "groups",
-   "score": 2.97
+   "score": 3.07
   },
   {
-   "key": "hq-card-price-1.3",
-   "owner": "value",
-   "title": "Card legs priced 1.3-1.6 land below their chance",
-   "brief": "Card legs priced 1.30 to 1.60 since 2026-10-29: 30 of 50 landed (60%) against 33.8 expected (68% quoted), z -1.2. Replay CARD_ODDS without this band (tools/card_replay.py `short` is the 1.15-1.35 variant) on the pool and on football-data.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "key": "hq-card-empty-days",
+   "owner": "accas",
+   "title": "3 of 18 Card days had no full-rule group",
+   "brief": "Days since 2026-10-29 with no Card group under the full rule: 2026-11-05, 2026-11-09, 2026-11-19. A thin Card earns nothing. Test the fillers on the replay before loosening anything: the opposition at 7+ (opp7), five short legs (short), the Championship-tier leagues that landed above quote. Ship the one that keeps the return and fills the most days.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 50,
-    "won": 30,
-    "expected": 33.8,
-    "z": -1.16,
-    "quoted": 0.6762,
-    "landed": 0.6
+    "n": 18,
+    "won": 15,
+    "expected": 18.0,
+    "quoted": 1.0,
+    "landed": 0.833,
+    "z": -1.5
    },
    "metric": "card",
-   "score": 2.9
+   "score": 3.0
   },
   {
    "key": "hq-sport-mlb",
@@ -188,6 +188,15 @@
    },
    "metric": "honesty",
    "score": 1.85
+  },
+  {
+   "key": "hq-tennis-surface",
+   "owner": "sports",
+   "title": "Give tennis results a surface",
+   "brief": "ESPN tennis results carry no surface, so every result since June is rated as hard court; WTA live calls run below their quotes. Find a free, automatable source or a maintained tournament-to-surface map, apply it in build_tennis.py, and replay the live period on both tours. Tennis returns to the List only on that evidence.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "evidence": null,
+   "metric": "roadmap",
+   "score": 1.0
   }
  ]
 }

@@ -1,11 +1,11 @@
 {
- "id": 1795145797555,
- "time": "2026-11-20T03:36:37.555795+00:00",
- "trigger": "work",
+ "id": 1795147460424,
+ "time": "2026-11-20T04:04:20.424648+00:00",
+ "trigger": "scheduled 04:00",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Daily List, last 28 days: 336 of 377 landed against 329 expected (89% landed, 87% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +2.1); 1,741 football fixtures on the board, 0 unrated.",
+   "yesterday": "Daily List, last 28 days: 334 of 375 landed against 328 expected (89% landed, 87% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +2.1); 1,765 football fixtures on the board, 0 unrated.",
    "today": "Top of the backlog for legs: Card tennis legs: 8/15 against 12 expected. Dev work: PR #407 Write the office review and next week's priorities (shipped, evidence only).",
    "blockers": "None."
   },
@@ -117,7 +117,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.8912,
+   "actual": 0.8907,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -126,7 +126,7 @@
   {
    "owner": "chief",
    "name": "List landed minus quoted",
-   "actual": 0.01759999999999995,
+   "actual": 0.016900000000000026,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -283,29 +283,29 @@
   {
    "key": "hq-card-return",
    "owner": "accas",
-   "title": "The Card returns 0.766 a unit over 29 groups",
-   "score": 6.34,
+   "title": "The Card returns 0.797 a unit over 31 groups",
+   "score": 6.03,
    "metric": "card"
   },
   {
    "key": "hq-band-50",
    "owner": "calib",
    "title": "Football 50-55% band lands over its quote",
-   "score": 4.24,
+   "score": 4.22,
    "metric": "honesty"
   },
   {
    "key": "hq-legs-tennis",
    "owner": "legs",
-   "title": "Tennis legs: 35/57 against 42 expected",
-   "score": 2.97,
+   "title": "Tennis legs: 36/59 against 43 expected",
+   "score": 3.07,
    "metric": "groups"
   },
   {
-   "key": "hq-card-price-1.3",
-   "owner": "value",
-   "title": "Card legs priced 1.3-1.6 land below their chance",
-   "score": 2.9,
+   "key": "hq-card-empty-days",
+   "owner": "accas",
+   "title": "3 of 18 Card days had no full-rule group",
+   "score": 3.0,
    "metric": "card"
   },
   {
@@ -314,23 +314,30 @@
    "title": "Baseball (MLB) landing above its quotes",
    "score": 1.85,
    "metric": "honesty"
+  },
+  {
+   "key": "hq-tennis-surface",
+   "owner": "sports",
+   "title": "Give tennis results a surface",
+   "score": 1.0,
+   "metric": "roadmap"
   }
  ],
  "siteObjectives": {
   "card": {
-   "groups": 29,
-   "won": 9,
-   "return": 0.766,
+   "groups": 31,
+   "won": 10,
+   "return": 0.797,
    "gap": {
-    "n": 29,
-    "won": 9,
-    "expected": 10.3,
-    "z": -0.52,
-    "quoted": 0.3564,
-    "landed": 0.3103
+    "n": 31,
+    "won": 10,
+    "expected": 11.1,
+    "z": -0.4,
+    "quoted": 0.3567,
+    "landed": 0.3226
    },
-   "emptyDays": 2,
-   "closingMovePct": 0.57
+   "emptyDays": 3,
+   "closingMovePct": 0.63
   },
   "list": {
    "football": {
@@ -338,32 +345,32 @@
     "won": 76,
     "expected": 76.3,
     "z": -0.09,
-    "quoted": 0.8206,
+    "quoted": 0.8207,
     "landed": 0.8172
    },
    "tennis": {
-    "n": 59,
-    "won": 49,
-    "expected": 48.7,
-    "z": 0.09,
-    "quoted": 0.826,
-    "landed": 0.8305
+    "n": 60,
+    "won": 50,
+    "expected": 49.6,
+    "z": 0.15,
+    "quoted": 0.8261,
+    "landed": 0.8333
    },
    "nba": {
-    "n": 10,
+    "n": 11,
     "won": 9,
-    "expected": 8.4,
-    "z": 0.5,
-    "quoted": 0.8426,
-    "landed": 0.9
+    "expected": 9.3,
+    "z": -0.26,
+    "quoted": 0.8459,
+    "landed": 0.8182
    },
    "ncaab": {
-    "n": 207,
-    "won": 194,
-    "expected": 189.2,
-    "z": 1.2,
-    "quoted": 0.9141,
-    "landed": 0.9372
+    "n": 203,
+    "won": 191,
+    "expected": 185.8,
+    "z": 1.33,
+    "quoted": 0.9152,
+    "landed": 0.9409
    },
    "nfl": {
     "n": 5,
@@ -383,26 +390,26 @@
    }
   },
   "listAll": {
-   "n": 377,
-   "won": 336,
-   "expected": 329.4,
-   "z": 1.05,
-   "quoted": 0.8736,
-   "landed": 0.8912
+   "n": 375,
+   "won": 334,
+   "expected": 327.7,
+   "z": 1.01,
+   "quoted": 0.8738,
+   "landed": 0.8907
   },
   "honesty": {
    "worstBand": {
-    "n": 733,
-    "won": 414,
-    "expected": 385.3,
-    "z": 2.12,
-    "quoted": 0.5256,
-    "landed": 0.5648,
+    "n": 737,
+    "won": 416,
+    "expected": 387.4,
+    "z": 2.11,
+    "quoted": 0.5257,
+    "landed": 0.5645,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1741,
+   "fixtures": 1765,
    "unrated": 0
   }
  },
