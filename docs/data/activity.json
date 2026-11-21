@@ -183,8 +183,32 @@
    "outcome": null
   }
  ],
- "fetched": "2026-11-21T04:05:36.386403+00:00",
+ "fetched": "2026-11-21T08:55:00.606631+00:00",
  "commits": [
+  {
+   "sha": "a0826a2",
+   "msg": "Round-date rows graded from the copy published the day before the match (#463)",
+   "date": "2026-11-21T08:53:10Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a0826a28ce0f6b3e0c9daa9be536450b863b31b0"
+  },
+  {
+   "sha": "a8a44a0",
+   "msg": "Archive predictions and record for 2026-11-21 [skip ci]",
+   "date": "2026-11-21T07:02:43Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a8a44a0267d59e8a0228d25367aa421222c67ae7"
+  },
+  {
+   "sha": "6325187",
+   "msg": "Archive predictions and record for 2026-11-21 [skip ci]",
+   "date": "2026-11-21T04:45:27Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/6325187b486bdebbd0ceffe1cad71a8f93d2a64a"
+  },
+  {
+   "sha": "e509992",
+   "msg": "Football price fallback reads API-Football's short names (QPR, Wolves) (#461)",
+   "date": "2026-11-21T04:41:16Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e5099929f1468be1683e40d8b374c7d476a330e2"
+  },
   {
    "sha": "f49030e",
    "msg": "Archive predictions and record for 2026-11-21 [skip ci]",
@@ -280,92 +304,68 @@
    "msg": "Archive predictions and record for 2026-11-20 [skip ci]",
    "date": "2026-11-20T22:43:09Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/abf7fa60e6d3c2e0a734aa7c99823a78f45b0277"
-  },
-  {
-   "sha": "715e132",
-   "msg": "Archive predictions and record for 2026-11-20 [skip ci]",
-   "date": "2026-11-20T21:10:05Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/715e13218ca02bccc19a1d00bd0b1dab289e11fd"
-  },
-  {
-   "sha": "a4403a8",
-   "msg": "Archive predictions and record for 2026-11-20 [skip ci]",
-   "date": "2026-11-20T20:50:05Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a4403a879fbadc96b76a679addcd5eff8a1475ad"
-  },
-  {
-   "sha": "04fe0af",
-   "msg": "score.py: grade the Czech First League from the API-Football pool (#450)",
-   "date": "2026-11-20T20:45:21Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/04fe0af8acbf9bf37a5d3eb1dc00f88a0c6c1bb3"
-  },
-  {
-   "sha": "3d54902",
-   "msg": "Archive predictions and record for 2026-11-20 [skip ci]",
-   "date": "2026-11-20T19:20:50Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/3d54902a506a00b4daf37b70e3b7def4eef68f70"
   }
  ],
  "runs": [
   {
-   "conclusion": "",
-   "createdAt": "2026-11-21T03:21:05Z",
-   "name": "Briefing watch",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44860667830"
+   "conclusion": "skipped",
+   "createdAt": "2026-11-21T08:53:15Z",
+   "name": "CEO",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886962994"
+  },
+  {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-21T08:53:15Z",
+   "name": "Claude",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886962966"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-21T03:11:21Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44859807424"
-  },
-  {
-   "conclusion": "cancelled",
-   "createdAt": "2026-11-21T02:56:07Z",
-   "name": "Briefing watch",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44858513349"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-21T02:49:12Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44857925708"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-21T02:49:11Z",
+   "createdAt": "2026-11-21T08:53:13Z",
    "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44857925659"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-21T02:44:48Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44857539341"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-21T02:44:48Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44857539308"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-21T02:44:32Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44857518394"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886960280"
   },
   {
    "conclusion": "",
-   "createdAt": "2026-11-21T02:16:34Z",
-   "name": "Briefing watch",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44854974840"
+   "createdAt": "2026-11-21T08:53:13Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886960264"
+  },
+  {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-21T08:49:02Z",
+   "name": "CEO",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886640862"
+  },
+  {
+   "conclusion": "skipped",
+   "createdAt": "2026-11-21T08:49:02Z",
+   "name": "Claude",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886640580"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-21T02:07:58Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44854157719"
+   "createdAt": "2026-11-21T08:48:51Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886627077"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-21T08:48:51Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886627055"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-21T08:48:41Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44886613777"
+  },
+  {
+   "conclusion": "",
+   "createdAt": "2026-11-21T07:04:47Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44878537126"
   }
  ]
 }
