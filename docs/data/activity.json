@@ -157,8 +157,14 @@
    "outcome": "model"
   }
  ],
- "fetched": "2026-11-21T18:06:56.899314+00:00",
+ "fetched": "2026-11-21T18:39:39.462563+00:00",
  "commits": [
+  {
+   "sha": "a43281d",
+   "msg": "Archive predictions and record for 2026-11-21 [skip ci]",
+   "date": "2026-11-21T18:22:51Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a43281dbcd3f2b18c7157ebbfe36c9d9b43e1faf"
+  },
   {
    "sha": "d67fb31",
    "msg": "Archive predictions and record for 2026-11-21 [skip ci]",
@@ -272,17 +278,23 @@
    "msg": "Archive predictions and record for 2026-11-21 [skip ci]",
    "date": "2026-11-21T04:45:27Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/6325187b486bdebbd0ceffe1cad71a8f93d2a64a"
-  },
-  {
-   "sha": "e509992",
-   "msg": "Football price fallback reads API-Football's short names (QPR, Wolves) (#461)",
-   "date": "2026-11-21T04:41:16Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e5099929f1468be1683e40d8b374c7d476a330e2"
   }
  ],
  "runs": [
   {
    "conclusion": "",
+   "createdAt": "2026-11-21T18:24:53Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44935395382"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-21T18:18:44Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44934820740"
+  },
+  {
+   "conclusion": "cancelled",
    "createdAt": "2026-11-21T18:05:39Z",
    "name": "Briefing watch",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44933607057"
@@ -328,18 +340,6 @@
    "createdAt": "2026-11-21T16:45:12Z",
    "name": "Claude",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44926276558"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-21T16:45:12Z",
-   "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44926276408"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-21T16:45:11Z",
-   "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/44926274593"
   }
  ]
 }
