@@ -1,11 +1,11 @@
 {
- "id": 1795231154372,
- "time": "2026-11-21T03:19:14.372944+00:00",
- "trigger": "work",
+ "id": 1795233934912,
+ "time": "2026-11-21T04:05:34.912806+00:00",
+ "trigger": "scheduled 04:00",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Daily List, last 28 days: 334 of 375 landed against 328 expected (89% landed, 87% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +2.1); 1,765 football fixtures on the board, 0 unrated.",
+   "yesterday": "Daily List, last 28 days: 320 of 361 landed against 316 expected (89% landed, 87% quoted); widest football band gap 50-55%: 57% landed v 53% quoted (z +2.3); 1,694 football fixtures on the board, 0 unrated.",
    "today": "Top of the backlog for legs: Card tennis legs: 8/15 against 12 expected.",
    "blockers": "None."
   },
@@ -23,7 +23,7 @@
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 9/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 10/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps. Dev work: PR #446 Make one data source fail more gracefully (shipped, changed the model or picks).",
    "blockers": "None."
   },
@@ -65,7 +65,7 @@
   },
   {
    "agent": "engineer",
-   "yesterday": "9/10 recent 'Rebuild and publish' runs green.",
+   "yesterday": "10/10 recent 'Rebuild and publish' runs green.",
    "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #444 Add tests for the least-tested module (shipped, tests only).",
    "blockers": "None."
   },
@@ -117,7 +117,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.8907,
+   "actual": 0.8864,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -126,7 +126,7 @@
   {
    "owner": "chief",
    "name": "List landed minus quoted",
-   "actual": 0.016900000000000026,
+   "actual": 0.0121,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -171,20 +171,20 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 0.9,
+   "actual": 1.0,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
-   "status": "at risk"
+   "status": "on track"
   },
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 0.9,
+   "actual": 1.0,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
-   "status": "behind"
+   "status": "on track"
   },
   {
    "owner": "sports",
@@ -291,8 +291,15 @@
    "key": "hq-band-50",
    "owner": "calib",
    "title": "Football 50-55% band lands over its quote",
-   "score": 4.22,
+   "score": 4.66,
    "metric": "honesty"
+  },
+  {
+   "key": "hq-card-empty-days",
+   "owner": "accas",
+   "title": "4 of 19 Card days had no full-rule group",
+   "score": 4.0,
+   "metric": "card"
   },
   {
    "key": "hq-legs-tennis",
@@ -302,25 +309,25 @@
    "metric": "groups"
   },
   {
-   "key": "hq-card-empty-days",
-   "owner": "accas",
-   "title": "3 of 18 Card days had no full-rule group",
+   "key": "hq-card-seasons",
+   "owner": "experiment",
+   "title": "Replay the Card over 2022-23, 2023-24 and 2024-25",
    "score": 3.0,
    "metric": "card"
   },
   {
-   "key": "hq-sport-mlb",
-   "owner": "sports",
-   "title": "Baseball (MLB) landing above its quotes",
-   "score": 1.85,
-   "metric": "honesty"
+   "key": "hq-card-pool-replay",
+   "owner": "accas",
+   "title": "Replay every Card variant on the archived pool, not the football-data rows",
+   "score": 3.0,
+   "metric": "card"
   },
   {
-   "key": "hq-tennis-surface",
-   "owner": "sports",
-   "title": "Give tennis results a surface",
-   "score": 1.0,
-   "metric": "roadmap"
+   "key": "hq-card-book",
+   "owner": "odds",
+   "title": "Which bookmaker to write the Card for",
+   "score": 3.0,
+   "metric": "card"
   }
  ],
  "siteObjectives": {
@@ -336,41 +343,41 @@
     "quoted": 0.3567,
     "landed": 0.3226
    },
-   "emptyDays": 3,
+   "emptyDays": 4,
    "closingMovePct": 0.63
   },
   "list": {
    "football": {
-    "n": 93,
-    "won": 76,
-    "expected": 76.3,
-    "z": -0.09,
-    "quoted": 0.8207,
-    "landed": 0.8172
+    "n": 89,
+    "won": 74,
+    "expected": 73.2,
+    "z": 0.23,
+    "quoted": 0.8223,
+    "landed": 0.8315
    },
    "tennis": {
-    "n": 60,
-    "won": 50,
-    "expected": 49.6,
-    "z": 0.15,
-    "quoted": 0.8261,
-    "landed": 0.8333
+    "n": 62,
+    "won": 52,
+    "expected": 51.2,
+    "z": 0.27,
+    "quoted": 0.8259,
+    "landed": 0.8387
    },
    "nba": {
     "n": 11,
     "won": 9,
     "expected": 9.3,
-    "z": -0.26,
-    "quoted": 0.8459,
+    "z": -0.28,
+    "quoted": 0.8482,
     "landed": 0.8182
    },
    "ncaab": {
-    "n": 203,
-    "won": 191,
-    "expected": 185.8,
-    "z": 1.33,
-    "quoted": 0.9152,
-    "landed": 0.9409
+    "n": 194,
+    "won": 180,
+    "expected": 177.7,
+    "z": 0.59,
+    "quoted": 0.9162,
+    "landed": 0.9278
    },
    "nfl": {
     "n": 5,
@@ -379,37 +386,29 @@
     "z": 1.01,
     "quoted": 0.8308,
     "landed": 1.0
-   },
-   "rugby": {
-    "n": 3,
-    "won": 3,
-    "expected": 2.5,
-    "z": 0.76,
-    "quoted": 0.8392,
-    "landed": 1.0
    }
   },
   "listAll": {
-   "n": 375,
-   "won": 334,
-   "expected": 327.7,
-   "z": 1.01,
-   "quoted": 0.8738,
-   "landed": 0.8907
+   "n": 361,
+   "won": 320,
+   "expected": 315.6,
+   "z": 0.71,
+   "quoted": 0.8743,
+   "landed": 0.8864
   },
   "honesty": {
    "worstBand": {
-    "n": 737,
-    "won": 416,
-    "expected": 387.4,
-    "z": 2.11,
-    "quoted": 0.5257,
-    "landed": 0.5645,
+    "n": 786,
+    "won": 446,
+    "expected": 413.4,
+    "z": 2.33,
+    "quoted": 0.5259,
+    "landed": 0.5674,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1765,
+   "fixtures": 1694,
    "unrated": 0
   }
  },
@@ -664,7 +663,7 @@
   "dayAcc": 0.0,
   "dayDate": "2026-11-21",
   "tennisAcc": 0.6411,
-  "runsOk": 9,
+  "runsOk": 10,
   "runsTotal": 10,
   "tiers": [
    {
