@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-21T13:36:32",
- "fetched": "2026-11-21T13:52:29.824781+00:00",
+ "generated": "2026-11-21T13:54:11",
+ "fetched": "2026-11-21T14:55:56.949608+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -721,8 +721,8 @@
      "t": "14:00",
      "ko": "2026-11-21T14:00:00Z",
      "lg": "af.404",
-     "lgName": "Campionato",
-     "country": "San Marino",
+     "lgName": "San Marino Campionato",
+     "sport": "football",
      "h": "Cosmos",
      "a": "Faetano",
      "side": "h",
@@ -733,18 +733,14 @@
       "d": 0.1199,
       "a": 0.0335
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4424,
-     "o25": 0.5451,
      "hit": 0.8075,
      "hitN": 644,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:00",
@@ -3061,35 +3057,6 @@
      "reserve": true
     },
     {
-     "t": "15:00",
-     "ko": "2026-11-21T14:00:00Z",
-     "lg": "it.1",
-     "lgName": "Serie A",
-     "country": "Italy",
-     "h": "SS Lazio",
-     "a": "US Lecce",
-     "side": "h",
-     "pick": "SS Lazio",
-     "c": 0.6678,
-     "p": {
-      "h": 0.6678,
-      "d": 0.2238,
-      "a": 0.1084
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4764,
-     "o25": 0.4941,
-     "hit": 0.8148,
-     "hitN": 54,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "20:30",
      "ko": "2026-11-21T20:30Z",
      "lg": "cfb",
@@ -3104,6 +3071,31 @@
      "hitN": 125,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "14:00",
+     "ko": "2026-11-21T14:00:00Z",
+     "lg": "it.1",
+     "lgName": "Italy Serie A",
+     "sport": "football",
+     "h": "SS Lazio",
+     "a": "US Lecce",
+     "side": "h",
+     "pick": "SS Lazio",
+     "c": 0.6678,
+     "p": {
+      "h": 0.6678,
+      "d": 0.2238,
+      "a": 0.1084
+     },
+     "hit": 0.8148,
+     "hitN": 54,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "12:30",
@@ -3704,8 +3696,8 @@
      "t": "14:00",
      "ko": "2026-11-21T14:00:00Z",
      "lg": "af.404",
-     "lgName": "Campionato",
-     "country": "San Marino",
+     "lgName": "San Marino Campionato",
+     "sport": "football",
      "h": "San Giovanni",
      "a": "Virtus",
      "side": "a",
@@ -3716,18 +3708,14 @@
       "d": 0.2332,
       "a": 0.6359
      },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.4925,
-     "o25": 0.5007,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:00",
@@ -3957,11 +3945,11 @@
      "reserve": true
     },
     {
-     "t": "15:30",
+     "t": "14:30",
      "ko": "2026-11-21T14:30:00Z",
      "lg": "de.1",
-     "lgName": "Bundesliga",
-     "country": "Germany",
+     "lgName": "Germany Bundesliga",
+     "sport": "football",
      "h": "1. FC Union Berlin",
      "a": "RB Leipzig",
      "side": "a",
@@ -3972,18 +3960,14 @@
       "d": 0.2031,
       "a": 0.6275
      },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5696,
-     "o25": 0.5835,
      "hit": 0.7052,
      "hitN": 78,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "02:30",
@@ -10424,6 +10408,35 @@
      "unrated": false
     },
     {
+     "t": "19:00",
+     "ko": "2026-11-21T19:00:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Real Tomayapo",
+     "a": "Nacional Potos\u00ed",
+     "side": "a",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.474,
+     "p": {
+      "h": 0.234,
+      "d": 0.292,
+      "a": 0.474
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.5028,
+     "o25": 0.4728,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "12:00",
      "ko": "2026-11-21T12:00:00Z",
      "lg": "af.633",
@@ -12188,35 +12201,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-21T19:00:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Real Tomayapo",
-     "a": "Nacional Potos\u00ed",
-     "side": "a",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.4401,
-     "p": {
-      "h": 0.2538,
-      "d": 0.3061,
-      "a": 0.4401
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.495,
-     "o25": 0.4587,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -18326,8 +18310,8 @@
      "won": 26,
      "lost": 10,
      "void": 0,
-     "started": 8,
-     "upcoming": 73
+     "started": 9,
+     "upcoming": 72
     },
     "groupA": {
      "n": 5,
@@ -35984,6 +35968,35 @@
      "unrated": false
     },
     {
+     "t": "23:15",
+     "ko": "2026-11-23T23:15:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Cerro Porte\u00f1o",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.495,
+     "p": {
+      "h": 0.495,
+      "d": 0.2772,
+      "a": 0.2278
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5166,
+     "o25": 0.4925,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "21:15",
      "ko": "2026-11-23T21:15:00Z",
      "lg": "bo.1",
@@ -36124,35 +36137,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "23:15",
-     "ko": "2026-11-23T23:15:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Cerro Porte\u00f1o",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.4753,
-     "p": {
-      "h": 0.4753,
-      "d": 0.2854,
-      "a": 0.2393
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5124,
-     "o25": 0.4841,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -42868,6 +42852,35 @@
      "unrated": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-11-25T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Rubio \u00d1\u00fa",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.6946,
+     "p": {
+      "h": 0.6946,
+      "d": 0.2011,
+      "a": 0.1043
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.496,
+     "o25": 0.5246,
+     "hit": 0.8148,
+     "hitN": 54,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "01:00",
      "ko": "2026-11-25T01:00Z",
      "lg": "ncaab",
@@ -43052,35 +43065,6 @@
      "hitN": 592,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-11-25T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Rubio \u00d1\u00fa",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.6722,
-     "p": {
-      "h": 0.6722,
-      "d": 0.2141,
-      "a": 0.1137
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4935,
-     "o25": 0.5138,
-     "hit": 0.8148,
-     "hitN": 54,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
     },
     {
      "t": "10:00",
