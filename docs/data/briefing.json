@@ -1,12 +1,12 @@
 {
- "time": "2026-11-21T08:54:52.331174+00:00",
+ "time": "2026-11-21T13:52:18.336655+00:00",
  "date": "2026-11-21",
- "stage": "briefing",
+ "stage": "refresh",
  "pricing": {
-  "priced": 232,
-  "total": 317,
+  "priced": 219,
+  "total": 294,
   "site": true,
-  "generated": "2026-11-21T07:00:03Z"
+  "generated": "2026-11-21T13:32:15Z"
  },
  "review": {
   "dropped": [
@@ -17,34 +17,11 @@
   "haircut": 0.0719
  },
  "counts": {
-  "today": 81,
-  "list": 7,
-  "tomorrow": 78
+  "today": 636,
+  "list": 14,
+  "tomorrow": 610
  },
  "impactful": [
-  {
-   "sport": "tennis",
-   "event": "Ben Shelton v Carlos Alcaraz",
-   "comp": "Nitto ATP Finals Semifinal",
-   "tour": "ATP",
-   "when": "2026-11-21T13:30:00Z",
-   "date": "2026-11-21",
-   "selection": "Carlos Alcaraz",
-   "opp": "Ben Shelton",
-   "p": 0.7588,
-   "modelPick": "Carlos Alcaraz",
-   "tierName": "Strong",
-   "list": false,
-   "hit": 0.8462,
-   "hitN": 39,
-   "id": "187528",
-   "rank": [
-    3,
-    4
-   ],
-   "status": "pending",
-   "why": "76% Carlos Alcaraz, ranked 3 v 4, calls at this level won 85% (39)"
-  },
   {
    "sport": "tennis",
    "event": "Daniil Medvedev v Alexander Zverev",
@@ -67,6 +44,72 @@
    ],
    "status": "pending",
    "why": "64% Alexander Zverev, ranked 1 v 5, calls at this level won 61% (95)"
+  },
+  {
+   "sport": "football",
+   "event": "Celtic v St. Mirren",
+   "comp": "Premiership",
+   "lg": "sco.1",
+   "country": "Scotland",
+   "tier": 1,
+   "when": "2026-11-21T15:00:00Z",
+   "date": "2026-11-21",
+   "selection": "Celtic",
+   "opp": "St. Mirren",
+   "side": "h",
+   "home": "Celtic",
+   "away": "St. Mirren",
+   "p": 0.7864,
+   "modelPick": "Celtic",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.6,
+    0.61
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "79% Celtic, likely 2-0, xG 2.6 v 0.6, calls at this level won 73% (111)"
+  },
+  {
+   "sport": "football",
+   "event": "Feyenoord Rotterdam v SBV Excelsior",
+   "comp": "Eredivisie",
+   "lg": "nl.1",
+   "country": "Netherlands",
+   "tier": 1,
+   "when": "2026-11-21T17:45:00Z",
+   "date": "2026-11-21",
+   "selection": "Feyenoord Rotterdam",
+   "opp": "SBV Excelsior",
+   "side": "h",
+   "home": "Feyenoord Rotterdam",
+   "away": "SBV Excelsior",
+   "p": 0.767,
+   "modelPick": "Feyenoord Rotterdam",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.83,
+    0.84
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "77% Feyenoord Rotterdam, likely 2-0, xG 2.8 v 0.8, calls at this level won 73% (111)"
   },
   {
    "sport": "ncaab",
@@ -139,33 +182,42 @@
    "form": "WWWWW",
    "status": "pending",
    "why": "98% Georgetown Hoyas, rating 1834 v 1313, form WWWWW, at home, calls at this level won 92% (1389)"
-  },
-  {
-   "sport": "ncaab",
-   "event": "Wake Forest Demon Deacons v Western Carolina Catamounts",
-   "comp": "NCAA",
-   "when": "2026-11-21T19:00Z",
-   "date": "2026-11-21",
-   "selection": "Wake Forest Demon Deacons",
-   "opp": "Western Carolina Catamounts",
-   "p": 0.9022,
-   "modelPick": "Wake Forest Demon Deacons",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9201,
-   "hitN": 1389,
-   "id": "401909730",
-   "elo": [
-    1767,
-    1527
-   ],
-   "homeSide": true,
-   "form": "WWWLW",
-   "status": "pending",
-   "why": "90% Wake Forest Demon Deacons, rating 1767 v 1527, form WWWLW, at home, calls at this level won 92% (1389)"
   }
  ],
  "tomorrow": [
+  {
+   "sport": "football",
+   "event": "Trabzonspor v Eyüpspor",
+   "comp": "Super Lig",
+   "lg": "tr.1",
+   "country": "Turkey",
+   "tier": 1,
+   "when": "2026-11-22T16:00:00Z",
+   "date": "2026-11-22",
+   "selection": "Trabzonspor",
+   "opp": "Eyüpspor",
+   "side": "h",
+   "home": "Trabzonspor",
+   "away": "Eyüpspor",
+   "p": 0.8609,
+   "modelPick": "Trabzonspor",
+   "list": true,
+   "reserve": false,
+   "hit": 0.8397,
+   "hitN": 131,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.93,
+    0.47
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "86% Trabzonspor, likely 2-0, xG 2.9 v 0.5, calls at this level won 84% (131)"
+  },
   {
    "sport": "nfl",
    "event": "Buffalo Bills v Miami Dolphins",
@@ -261,30 +313,6 @@
    "form": "WWLLW",
    "status": "pending",
    "why": "82% Kansas City Chiefs, rating 1583 v 1368, form WWLLW, at home, calls at this level won 81% (31)"
-  },
-  {
-   "sport": "ncaab",
-   "event": "Texas Longhorns v Southern Indiana Screaming Eagles",
-   "comp": "NCAA",
-   "when": "2026-11-22T20:00Z",
-   "date": "2026-11-22",
-   "selection": "Texas Longhorns",
-   "opp": "Southern Indiana Screaming Eagles",
-   "p": 0.9668,
-   "modelPick": "Texas Longhorns",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9201,
-   "hitN": 1389,
-   "id": "401906868",
-   "elo": [
-    1870,
-    1426
-   ],
-   "homeSide": true,
-   "form": "WWWWW",
-   "status": "pending",
-   "why": "97% Texas Longhorns, rating 1870 v 1426, form WWWWW, at home, calls at this level won 92% (1389)"
   }
  ],
  "groups": [],
@@ -436,5 +464,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/63",
  "issue": 63,
- "text": "Good morning Douglas. Saturday 21 November, 08:54 UK.\n\n### Yesterday\n**Susie (Auditor):** Daily List 1/2 (misses: FC Bayern München v 1. FC Köln 1-1); football overall 52% of 168; tennis 5/5; other sports 34/50.\n\n**Jade (Accumulator Strategist): yesterday's groups**\n\n| Group | Odds | Result | Legs | Lost on |\n|---|---|---|---|---|\n| Daily 2x | 3.47 | Won | 3 won, 0 lost | – |\n\nRunning record: 41 of 141 groups won (tested chances expected 48.0), legs 391/540, return on 1 unit a group -20.92.\n\n### Today: what matters and why\n- **Ben Shelton v Carlos Alcaraz** (Nitto ATP Finals Semifinal, 13:30): 76% Carlos Alcaraz, ranked 3 v 4, calls at this level won 85% (39)\n- **Daniil Medvedev v Alexander Zverev** (Nitto ATP Finals Semifinal, 19:30): 64% Alexander Zverev, ranked 1 v 5, calls at this level won 61% (95)\n- **James Madison Dukes v Virginia Lynchburg Dragons** (NCAA, 19:00): 99% James Madison Dukes, rating 1767 v 1079, form WWWLL, at home, calls at this level won 92% (1389)\n- **Michigan State Spartans v Detroit Mercy Titans** (NCAA, 17:00): 98% Michigan State Spartans, rating 1974 v 1448, form LWWWW, at home, calls at this level won 92% (1389)\n- **Georgetown Hoyas v Coppin State Eagles** (NCAA, 23:00): 98% Georgetown Hoyas, rating 1834 v 1313, form WWWWW, at home, calls at this level won 92% (1389)\n- **Wake Forest Demon Deacons v Western Carolina Catamounts** (NCAA, 19:00): 90% Wake Forest Demon Deacons, rating 1767 v 1527, form WWWLW, at home, calls at this level won 92% (1389)\n\n**Nina (Daily Board):** 81 games rated by the model today, 7 on the Daily List.\n\n### Tomorrow\n- **Buffalo Bills v Miami Dolphins** (NFL, 18:00): 91% Buffalo Bills, rating 1698 v 1353, form WWWWW, at home, calls at this level won 100% (12)\n- **Denver Broncos v Las Vegas Raiders** (NFL, 21:25): 85% Denver Broncos, rating 1643 v 1393, form WWWWW, at home, calls at this level won 81% (31)\n- **Chicago Bears v New Orleans Saints** (NFL, 18:00): 83% Chicago Bears, rating 1625 v 1399, form WWWWL, at home, calls at this level won 81% (31)\n- **Kansas City Chiefs v Arizona Cardinals** (NFL, 18:00): 82% Kansas City Chiefs, rating 1583 v 1368, form WWLLW, at home, calls at this level won 81% (31)\n- **Texas Longhorns v Southern Indiana Screaming Eagles** (NCAA, 20:00): 97% Texas Longhorns, rating 1870 v 1426, form WWWWW, at home, calls at this level won 92% (1389)\n\n### Three groups of five\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (232 of today's 317 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Saturday 21 November, 13:52 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (219 of today's 294 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
