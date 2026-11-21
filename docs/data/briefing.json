@@ -1,12 +1,12 @@
 {
- "time": "2026-11-21T13:52:18.336655+00:00",
+ "time": "2026-11-21T18:06:51.532375+00:00",
  "date": "2026-11-21",
  "stage": "refresh",
  "pricing": {
-  "priced": 219,
-  "total": 294,
+  "priced": 120,
+  "total": 143,
   "site": true,
-  "generated": "2026-11-21T13:32:15Z"
+  "generated": "2026-11-21T18:02:43Z"
  },
  "review": {
   "dropped": [
@@ -17,9 +17,9 @@
   "haircut": 0.0719
  },
  "counts": {
-  "today": 636,
-  "list": 14,
-  "tomorrow": 610
+  "today": 279,
+  "list": 8,
+  "tomorrow": 611
  },
  "impactful": [
   {
@@ -44,72 +44,6 @@
    ],
    "status": "pending",
    "why": "64% Alexander Zverev, ranked 1 v 5, calls at this level won 61% (95)"
-  },
-  {
-   "sport": "football",
-   "event": "Celtic v St. Mirren",
-   "comp": "Premiership",
-   "lg": "sco.1",
-   "country": "Scotland",
-   "tier": 1,
-   "when": "2026-11-21T15:00:00Z",
-   "date": "2026-11-21",
-   "selection": "Celtic",
-   "opp": "St. Mirren",
-   "side": "h",
-   "home": "Celtic",
-   "away": "St. Mirren",
-   "p": 0.7864,
-   "modelPick": "Celtic",
-   "list": false,
-   "reserve": true,
-   "hit": 0.7298,
-   "hitN": 111,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.6,
-    0.61
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "79% Celtic, likely 2-0, xG 2.6 v 0.6, calls at this level won 73% (111)"
-  },
-  {
-   "sport": "football",
-   "event": "Feyenoord Rotterdam v SBV Excelsior",
-   "comp": "Eredivisie",
-   "lg": "nl.1",
-   "country": "Netherlands",
-   "tier": 1,
-   "when": "2026-11-21T17:45:00Z",
-   "date": "2026-11-21",
-   "selection": "Feyenoord Rotterdam",
-   "opp": "SBV Excelsior",
-   "side": "h",
-   "home": "Feyenoord Rotterdam",
-   "away": "SBV Excelsior",
-   "p": 0.767,
-   "modelPick": "Feyenoord Rotterdam",
-   "list": false,
-   "reserve": true,
-   "hit": 0.7298,
-   "hitN": 111,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.83,
-    0.84
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "77% Feyenoord Rotterdam, likely 2-0, xG 2.8 v 0.8, calls at this level won 73% (111)"
   },
   {
    "sport": "ncaab",
@@ -137,30 +71,6 @@
   },
   {
    "sport": "ncaab",
-   "event": "Michigan State Spartans v Detroit Mercy Titans",
-   "comp": "NCAA",
-   "when": "2026-11-21T17:00Z",
-   "date": "2026-11-21",
-   "selection": "Michigan State Spartans",
-   "opp": "Detroit Mercy Titans",
-   "p": 0.9789,
-   "modelPick": "Michigan State Spartans",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9201,
-   "hitN": 1389,
-   "id": "401925756",
-   "elo": [
-    1974,
-    1448
-   ],
-   "homeSide": true,
-   "form": "LWWWW",
-   "status": "pending",
-   "why": "98% Michigan State Spartans, rating 1974 v 1448, form LWWWW, at home, calls at this level won 92% (1389)"
-  },
-  {
-   "sport": "ncaab",
    "event": "Georgetown Hoyas v Coppin State Eagles",
    "comp": "NCAA",
    "when": "2026-11-21T23:00Z",
@@ -182,6 +92,87 @@
    "form": "WWWWW",
    "status": "pending",
    "why": "98% Georgetown Hoyas, rating 1834 v 1313, form WWWWW, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "football",
+   "event": "Real Madrid v RC Celta de Vigo",
+   "comp": "La Liga",
+   "lg": "es.1",
+   "country": "Spain",
+   "tier": 1,
+   "when": "2026-11-21T20:00:00Z",
+   "date": "2026-11-21",
+   "selection": "Real Madrid",
+   "opp": "RC Celta de Vigo",
+   "side": "h",
+   "home": "Real Madrid",
+   "away": "RC Celta de Vigo",
+   "p": 0.6634,
+   "modelPick": "Real Madrid",
+   "list": false,
+   "reserve": true,
+   "hit": 0.8148,
+   "hitN": 54,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    1.96,
+    0.64
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "66% Real Madrid, likely 2-0, xG 2.0 v 0.6, calls at this level won 81% (54)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Wake Forest Demon Deacons v Western Carolina Catamounts",
+   "comp": "NCAA",
+   "when": "2026-11-21T19:00Z",
+   "date": "2026-11-21",
+   "selection": "Wake Forest Demon Deacons",
+   "opp": "Western Carolina Catamounts",
+   "p": 0.9022,
+   "modelPick": "Wake Forest Demon Deacons",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401909730",
+   "elo": [
+    1767,
+    1527
+   ],
+   "homeSide": true,
+   "form": "WWWLW",
+   "status": "pending",
+   "why": "90% Wake Forest Demon Deacons, rating 1767 v 1527, form WWWLW, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Massachusetts Minutemen v Maine Black Bears",
+   "comp": "NCAA",
+   "when": "2026-11-21T23:00Z",
+   "date": "2026-11-21",
+   "selection": "Massachusetts Minutemen",
+   "opp": "Maine Black Bears",
+   "p": 0.8686,
+   "modelPick": "Massachusetts Minutemen",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401911023",
+   "elo": [
+    1565,
+    1385
+   ],
+   "homeSide": true,
+   "form": "LWLWL",
+   "status": "pending",
+   "why": "87% Massachusetts Minutemen, rating 1565 v 1385, form LWLWL, at home, calls at this level won 92% (1389)"
   }
  ],
  "tomorrow": [
@@ -464,5 +455,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/63",
  "issue": 63,
- "text": "Good afternoon Douglas. Saturday 21 November, 13:52 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (219 of today's 294 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good evening Douglas. Saturday 21 November, 18:06 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (120 of today's 143 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
