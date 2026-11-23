@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-23T22:40:50",
- "fetched": "2026-11-23T22:47:24.256094+00:00",
+ "generated": "2026-11-23T23:02:38",
+ "fetched": "2026-11-23T23:20:55.383258+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-23",
-   "count": 46,
+   "count": 45,
    "games": [
     {
      "t": "01:00",
@@ -283,8 +283,8 @@
      "t": "23:00",
      "ko": "2026-11-23T23:00:00Z",
      "lg": "af.1048",
-     "lgName": "Premier Division",
-     "country": "Antigua And Barbuda",
+     "lgName": "Antigua And Barbuda Premier Division",
+     "sport": "football",
      "h": "Grenades",
      "a": "Potters Tigers",
      "side": "h",
@@ -295,18 +295,14 @@
       "d": 0.146,
       "a": 0.0988
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5661,
-     "o25": 0.6145,
      "hit": 0.7832,
      "hitN": 964,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "20:30",
@@ -325,9 +321,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "82-87"
     },
     {
      "t": "21:00",
@@ -346,9 +342,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "68-60"
     },
     {
      "t": "18:30",
@@ -478,8 +474,8 @@
     },
     {
      "t": "23:00",
-     "ko": "2026-11-23T23:00Z",
-     "lg": "ncaab",
+     "ko": "2026-11-23T23:00:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "UT Martin Skyhawks",
@@ -487,10 +483,15 @@
      "side": "h",
      "pick": "UT Martin Skyhawks",
      "c": 0.6498,
+     "p": null,
      "hit": 0.583,
      "hitN": 674,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "16:00",
@@ -698,35 +699,6 @@
      "unrated": false
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-23T21:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "2 de Mayo",
-     "a": "Sportivo San Lorenzo",
-     "side": "h",
-     "pick": "2 de Mayo",
-     "c": 0.5124,
-     "p": {
-      "h": 0.5124,
-      "d": 0.2792,
-      "a": 0.2085
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5036,
-     "o25": 0.4795,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "20:00",
      "ko": "2026-11-23T20:00:00Z",
      "lg": "ar.1",
@@ -765,18 +737,18 @@
      "a": "Cerro Porte\u00f1o",
      "side": "h",
      "pick": "Nacional Asunci\u00f3n",
-     "c": 0.5014,
+     "c": 0.5016,
      "p": {
-      "h": 0.5014,
-      "d": 0.2749,
+      "h": 0.5016,
+      "d": 0.2747,
       "a": 0.2237
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5161,
-     "o25": 0.4918,
+     "btts": 0.5163,
+     "o25": 0.4921,
      "hit": 0.4896,
      "hitN": 194,
      "celtic": true,
@@ -1110,16 +1082,16 @@
      "won": 8,
      "lost": 0,
      "void": 0,
-     "started": 0,
-     "upcoming": 2
+     "started": 1,
+     "upcoming": 1
     },
     "reserve": {
      "n": 21,
-     "won": 7,
+     "won": 9,
      "lost": 6,
      "void": 1,
-     "started": 6,
-     "upcoming": 1
+     "started": 5,
+     "upcoming": 0
     },
     "groupA": {
      "n": 5,
@@ -1134,8 +1106,8 @@
      "won": 3,
      "lost": 0,
      "void": 0,
-     "started": 0,
-     "upcoming": 2
+     "started": 1,
+     "upcoming": 1
     }
    }
   },
@@ -5847,6 +5819,22 @@
      "reserve": false
     },
     {
+     "t": "17:30",
+     "ko": "2026-11-25T17:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Wright State Raiders",
+     "a": "Yale Bulldogs",
+     "side": "h",
+     "pick": "Wright State Raiders",
+     "c": 0.8785,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "00:30",
      "ko": "2026-11-25T00:30Z",
      "lg": "ncaab",
@@ -5943,22 +5931,6 @@
      "reserve": false
     },
     {
-     "t": "17:30",
-     "ko": "2026-11-25T17:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Wright State Raiders",
-     "a": "Yale Bulldogs",
-     "side": "h",
-     "pick": "Wright State Raiders",
-     "c": 0.8556,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "05:30",
      "ko": "2026-11-25T05:30Z",
      "lg": "ncaab",
@@ -5989,6 +5961,22 @@
      "hitN": 1389,
      "list": true,
      "reserve": false
+    },
+    {
+     "t": "18:30",
+     "ko": "2026-11-25T18:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Davidson Wildcats",
+     "a": "Tulane Green Wave",
+     "side": "h",
+     "pick": "Davidson Wildcats",
+     "c": 0.85,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "15:10",
@@ -6155,22 +6143,6 @@
      "side": "h",
      "pick": "Richmond Spiders",
      "c": 0.7978,
-     "hit": 0.7408,
-     "hitN": 629,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "18:30",
-     "ko": "2026-11-25T18:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Davidson Wildcats",
-     "a": "Tulane Green Wave",
-     "side": "h",
-     "pick": "Davidson Wildcats",
-     "c": 0.7966,
      "hit": 0.7408,
      "hitN": 629,
      "list": false,
@@ -6420,18 +6392,18 @@
      "a": "Rubio \u00d1\u00fa",
      "side": "h",
      "pick": "Nacional Asunci\u00f3n",
-     "c": 0.7039,
+     "c": 0.7042,
      "p": {
-      "h": 0.7039,
-      "d": 0.1962,
+      "h": 0.7042,
+      "d": 0.196,
       "a": 0.0999
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.496,
-     "o25": 0.5254,
+     "btts": 0.4962,
+     "o25": 0.5257,
      "hit": 0.718,
      "hitN": 39,
      "celtic": true,
@@ -6770,18 +6742,18 @@
      "a": "2 de Mayo",
      "side": "h",
      "pick": "Libertad",
-     "c": 0.6425,
+     "c": 0.6393,
      "p": {
-      "h": 0.6425,
-      "d": 0.2183,
-      "a": 0.1391
+      "h": 0.6393,
+      "d": 0.2195,
+      "a": 0.1413
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.5184,
-     "o25": 0.5287,
+     "btts": 0.5192,
+     "o25": 0.5286,
      "hit": 0.7052,
      "hitN": 78,
      "celtic": true,
@@ -6876,18 +6848,18 @@
      "a": "Deportivo Recoleta",
      "side": "h",
      "pick": "Sportivo Trinidense",
-     "c": 0.6031,
+     "c": 0.6033,
      "p": {
-      "h": 0.6031,
-      "d": 0.2135,
-      "a": 0.1835
+      "h": 0.6033,
+      "d": 0.2133,
+      "a": 0.1834
      },
      "score": [
       2,
       1
      ],
-     "btts": 0.5657,
-     "o25": 0.5712,
+     "btts": 0.5659,
+     "o25": 0.5715,
      "hit": 0.7052,
      "hitN": 78,
      "celtic": false,
@@ -6905,18 +6877,18 @@
      "a": "Club Olimpia",
      "side": "a",
      "pick": "Club Olimpia",
-     "c": 0.5963,
+     "c": 0.5966,
      "p": {
       "h": 0.1803,
-      "d": 0.2234,
-      "a": 0.5963
+      "d": 0.2232,
+      "a": 0.5966
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5501,
-     "o25": 0.5518,
+     "btts": 0.5504,
+     "o25": 0.5521,
      "hit": 0.5352,
      "hitN": 99,
      "celtic": false,
@@ -8326,18 +8298,18 @@
      "a": "Guaran\u00ed",
      "side": "h",
      "pick": "Cerro Porte\u00f1o",
-     "c": 0.4449,
+     "c": 0.4451,
      "p": {
-      "h": 0.4449,
-      "d": 0.2898,
+      "h": 0.4451,
+      "d": 0.2896,
       "a": 0.2654
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5158,
-     "o25": 0.4828,
+     "btts": 0.516,
+     "o25": 0.4831,
      "hit": null,
      "hitN": null,
      "celtic": true,
@@ -8370,35 +8342,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-11-25T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Sportivo San Lorenzo",
-     "a": "Sportivo Ameliano",
-     "side": "a",
-     "pick": "Sportivo Ameliano",
-     "c": 0.4431,
-     "p": {
-      "h": 0.2654,
-      "d": 0.2916,
-      "a": 0.4431
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5137,
-     "o25": 0.4802,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -8457,6 +8400,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-25T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Sportivo San Lorenzo",
+     "a": "Sportivo Ameliano",
+     "side": "a",
+     "pick": "Sportivo Ameliano",
+     "c": 0.4385,
+     "p": {
+      "h": 0.2695,
+      "d": 0.292,
+      "a": 0.4385
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5145,
+     "o25": 0.4805,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -16407,6 +16379,22 @@
      "reserve": false
     },
     {
+     "t": "23:30",
+     "ko": "2026-11-28T23:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Middle Tennessee Blue Raiders",
+     "a": "Toccoa Falls Eagles",
+     "side": "h",
+     "pick": "Middle Tennessee Blue Raiders",
+     "c": 0.9611,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "02:00",
      "ko": "2026-11-28T02:00Z",
      "lg": "cfb",
@@ -16421,22 +16409,6 @@
      "hitN": 167,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "23:30",
-     "ko": "2026-11-28T23:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Middle Tennessee Blue Raiders",
-     "a": "Toccoa Falls Eagles",
-     "side": "h",
-     "pick": "Middle Tennessee Blue Raiders",
-     "c": 0.9591,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
     },
     {
      "t": "20:00",
@@ -21691,6 +21663,35 @@
      "unrated": false
     },
     {
+     "t": "15:00",
+     "ko": "2026-11-28T15:00:00Z",
+     "lg": "sco.1",
+     "lgName": "Premiership",
+     "country": "Scotland",
+     "h": "Dundee United",
+     "a": "Saint Johnstone",
+     "side": "h",
+     "pick": "Dundee United",
+     "c": 0.5704,
+     "p": {
+      "h": 0.5704,
+      "d": 0.2358,
+      "a": 0.1938
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5445,
+     "o25": 0.5392,
+     "hit": 0.5352,
+     "hitN": 99,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "08:30",
      "ko": "2026-11-28T08:30:00Z",
      "lg": "af.275",
@@ -25252,35 +25253,6 @@
      "o25": 0.4999,
      "hit": null,
      "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-11-28T15:00:00Z",
-     "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
-     "h": "Dundee United",
-     "a": "Saint Johnstone",
-     "side": "h",
-     "pick": "Dundee United",
-     "c": 0.4954,
-     "p": {
-      "h": 0.4954,
-      "d": 0.2541,
-      "a": 0.2505
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5534,
-     "o25": 0.5354,
-     "hit": 0.4634,
-     "hitN": 259,
      "celtic": true,
      "list": false,
      "reserve": false,
@@ -35271,6 +35243,22 @@
      "reserve": false
     },
     {
+     "t": "19:00",
+     "ko": "2026-11-29T19:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Tulsa Golden Hurricane",
+     "a": "IU Indianapolis Jaguars",
+     "side": "h",
+     "pick": "Tulsa Golden Hurricane",
+     "c": 0.8916,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "20:00",
      "ko": "2026-11-29T20:00Z",
      "lg": "ncaab",
@@ -35297,22 +35285,6 @@
      "side": "h",
      "pick": "Longwood Lancers",
      "c": 0.8892,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-29T19:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Tulsa Golden Hurricane",
-     "a": "IU Indianapolis Jaguars",
-     "side": "h",
-     "pick": "Tulsa Golden Hurricane",
-     "c": 0.8855,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -35417,22 +35389,6 @@
      "lg": "ncaab",
      "lgName": "NCAA",
      "sport": "ncaab",
-     "h": "Tulane Green Wave",
-     "a": "UL Monroe Warhawks",
-     "side": "h",
-     "pick": "Tulane Green Wave",
-     "c": 0.8711,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-29T19:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
      "h": "Sacred Heart Pioneers",
      "a": "NJIT Highlanders",
      "side": "h",
@@ -35460,35 +35416,6 @@
      "reserve": true
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-29T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Club Olimpia",
-     "a": "Sportivo San Lorenzo",
-     "side": "h",
-     "pick": "Club Olimpia",
-     "c": 0.8484,
-     "p": {
-      "h": 0.8484,
-      "d": 0.111,
-      "a": 0.0406
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4819,
-     "o25": 0.5804,
-     "hit": 0.8397,
-     "hitN": 131,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:00",
      "ko": "2026-11-29T12:00:00Z",
      "lg": "af.275",
@@ -35514,6 +35441,35 @@
      "hitN": 644,
      "celtic": false,
      "list": true,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-29T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Club Olimpia",
+     "a": "Sportivo San Lorenzo",
+     "side": "h",
+     "pick": "Club Olimpia",
+     "c": 0.8453,
+     "p": {
+      "h": 0.8453,
+      "d": 0.1129,
+      "a": 0.0418
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4831,
+     "o25": 0.5796,
+     "hit": 0.8397,
+     "hitN": 131,
+     "celtic": true,
+     "list": false,
      "reserve": false,
      "unrated": false
     },
@@ -35559,22 +35515,6 @@
      "c": 0.8403,
      "hit": 0.8737,
      "hitN": 95,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "19:00",
-     "ko": "2026-11-29T19:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Yale Bulldogs",
-     "a": "Quinnipiac Bobcats",
-     "side": "h",
-     "pick": "Yale Bulldogs",
-     "c": 0.8397,
-     "hit": 0.7802,
-     "hitN": 614,
      "list": false,
      "reserve": true
     },
@@ -35669,6 +35609,22 @@
      "reserve": true
     },
     {
+     "t": "19:00",
+     "ko": "2026-11-29T19:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Tulane Green Wave",
+     "a": "UL Monroe Warhawks",
+     "side": "h",
+     "pick": "Tulane Green Wave",
+     "c": 0.8237,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "18:00",
      "ko": "2026-11-29T18:00Z",
      "lg": "nfl",
@@ -35724,6 +35680,22 @@
      "side": "h",
      "pick": "East Tennessee State Buccaneers",
      "c": 0.8128,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "19:00",
+     "ko": "2026-11-29T19:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Yale Bulldogs",
+     "a": "Quinnipiac Bobcats",
+     "side": "h",
+     "pick": "Yale Bulldogs",
+     "c": 0.811,
      "hit": 0.7802,
      "hitN": 614,
      "list": false,
@@ -36035,22 +36007,6 @@
      "unrated": false
     },
     {
-     "t": "00:00",
-     "ko": "2026-11-29T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Southern Illinois Salukis",
-     "a": "Portland State Vikings",
-     "side": "h",
-     "pick": "Southern Illinois Salukis",
-     "c": 0.7487,
-     "hit": 0.6881,
-     "hitN": 619,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "17:00",
      "ko": "2026-11-29T17:00:00Z",
      "lg": "af.445",
@@ -36225,6 +36181,22 @@
      "unrated": false
     },
     {
+     "t": "00:00",
+     "ko": "2026-11-29T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Southern Illinois Salukis",
+     "a": "Portland State Vikings",
+     "side": "h",
+     "pick": "Southern Illinois Salukis",
+     "c": 0.7385,
+     "hit": 0.6881,
+     "hitN": 619,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "18:15",
      "ko": "2026-11-29T18:15:00Z",
      "lg": "nor.1",
@@ -36341,22 +36313,6 @@
      "unrated": false
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-29T21:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "James Madison Dukes",
-     "a": "William & Mary Tribe",
-     "side": "h",
-     "pick": "James Madison Dukes",
-     "c": 0.7308,
-     "hit": 0.6881,
-     "hitN": 619,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "05:00",
      "ko": "2026-11-29T05:00:00Z",
      "lg": "af.293",
@@ -36442,6 +36398,22 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "21:00",
+     "ko": "2026-11-29T21:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "James Madison Dukes",
+     "a": "William & Mary Tribe",
+     "side": "h",
+     "pick": "James Madison Dukes",
+     "c": 0.7184,
+     "hit": 0.6881,
+     "hitN": 619,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "21:00",
@@ -40852,18 +40824,18 @@
      "a": "Sportivo Luque\u00f1o",
      "side": "h",
      "pick": "Deportivo Recoleta",
-     "c": 0.5206,
+     "c": 0.5208,
      "p": {
-      "h": 0.5206,
-      "d": 0.2286,
+      "h": 0.5208,
+      "d": 0.2284,
       "a": 0.2508
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5871,
-     "o25": 0.5806,
+     "btts": 0.5873,
+     "o25": 0.5809,
      "hit": 0.4896,
      "hitN": 194,
      "celtic": false,
@@ -42177,35 +42149,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-29T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "2 de Mayo",
-     "a": "Nacional Asunci\u00f3n",
-     "side": "a",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.4975,
-     "p": {
-      "h": 0.2194,
-      "d": 0.2831,
-      "a": 0.4975
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.505,
-     "o25": 0.4783,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "10:00",
      "ko": "2026-11-29T10:00:00Z",
      "lg": "af.554",
@@ -42433,6 +42376,35 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-29T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "2 de Mayo",
+     "a": "Nacional Asunci\u00f3n",
+     "side": "a",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.4943,
+     "p": {
+      "h": 0.222,
+      "d": 0.2836,
+      "a": 0.4943
+     },
+     "score": [
+      0,
+      1
+     ],
+     "btts": 0.5057,
+     "o25": 0.4785,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -43868,18 +43840,18 @@
      "a": "Cerro Porte\u00f1o",
      "side": "a",
      "pick": "Cerro Porte\u00f1o",
-     "c": 0.4603,
+     "c": 0.4605,
      "p": {
       "h": 0.2576,
-      "d": 0.282,
-      "a": 0.4603
+      "d": 0.2818,
+      "a": 0.4605
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5221,
-     "o25": 0.4924,
+     "btts": 0.5223,
+     "o25": 0.4927,
      "hit": 0.4634,
      "hitN": 259,
      "celtic": true,
@@ -48015,18 +47987,18 @@
      "a": "Sportivo Trinidense",
      "side": "h",
      "pick": "Guaran\u00ed",
-     "c": 0.4001,
+     "c": 0.4002,
      "p": {
-      "h": 0.4001,
-      "d": 0.2878,
-      "a": 0.3121
+      "h": 0.4002,
+      "d": 0.2876,
+      "a": 0.3122
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5289,
-     "o25": 0.4945,
+     "btts": 0.5292,
+     "o25": 0.4948,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -49891,6 +49863,35 @@
      "unrated": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-11-29T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Sportivo Ameliano",
+     "a": "Libertad",
+     "side": "a",
+     "pick": "Libertad",
+     "c": 0.3724,
+     "p": {
+      "h": 0.347,
+      "d": 0.2806,
+      "a": 0.3724
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5421,
+     "o25": 0.5099,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "13:00",
      "ko": "2026-11-29T13:00:00Z",
      "lg": "af.86",
@@ -49915,35 +49916,6 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-11-29T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Sportivo Ameliano",
-     "a": "Libertad",
-     "side": "a",
-     "pick": "Libertad",
-     "c": 0.3723,
-     "p": {
-      "h": 0.347,
-      "d": 0.2808,
-      "a": 0.3723
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5418,
-     "o25": 0.5095,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
