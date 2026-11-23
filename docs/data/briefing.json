@@ -1,234 +1,74 @@
 {
- "time": "2026-11-22T08:57:17.763963+00:00",
- "date": "2026-11-22",
- "stage": "briefing",
+ "time": "2026-11-23T14:04:03.276386+00:00",
+ "date": "2026-11-23",
+ "stage": "refresh",
  "pricing": {
-  "priced": 166,
-  "total": 215,
+  "priced": 35,
+  "total": 40,
   "site": true,
-  "generated": "2026-11-22T08:47:10Z"
+  "generated": "2026-11-23T12:58:39Z"
  },
  "review": {
-  "dropped": [
-   "Multiplier",
-   "Multiplier (alternative)",
-   "Multiplier"
-  ],
+  "dropped": [],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 565,
-  "list": 17,
-  "tomorrow": 101
+  "today": 92,
+  "list": 6,
+  "tomorrow": 183
  },
  "impactful": [
   {
-   "sport": "football",
-   "event": "Trabzonspor v Eyüpspor",
-   "comp": "Super Lig",
-   "lg": "tr.1",
-   "country": "Turkey",
-   "tier": 1,
-   "when": "2026-11-22T16:00:00Z",
-   "date": "2026-11-22",
-   "selection": "Trabzonspor",
-   "opp": "Eyüpspor",
-   "side": "h",
-   "home": "Trabzonspor",
-   "away": "Eyüpspor",
-   "p": 0.8632,
-   "modelPick": "Trabzonspor",
-   "list": true,
-   "reserve": false,
-   "hit": 0.8397,
-   "hitN": 131,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.95,
-    0.47
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "86% Trabzonspor, likely 2-0, xG 3.0 v 0.5, calls at this level won 84% (131)"
-  },
-  {
-   "sport": "nfl",
-   "event": "Buffalo Bills v Miami Dolphins",
-   "comp": "NFL",
-   "when": "2026-11-22T18:00Z",
-   "date": "2026-11-22",
-   "selection": "Buffalo Bills",
-   "opp": "Miami Dolphins",
-   "p": 0.9068,
-   "modelPick": "Buffalo Bills",
+   "sport": "tennis",
+   "event": "Ariana Geerlings v Josefina Estevez",
+   "comp": "IEB+ Argentina Open Round 1",
+   "tour": "WTA",
+   "when": "2026-11-23T15:30:00Z",
+   "date": "2026-11-23",
+   "selection": "Ariana Geerlings",
+   "opp": "Josefina Estevez",
+   "p": 0.9009,
+   "modelPick": "Ariana Geerlings",
    "tierName": "Strong",
    "list": true,
-   "hit": 1.0,
-   "hitN": 12,
-   "id": "401873070",
-   "elo": [
-    1698,
-    1353
+   "hit": null,
+   "hitN": null,
+   "id": "186817",
+   "rank": [
+    null,
+    null
    ],
-   "homeSide": true,
-   "form": "WWWWW",
    "status": "pending",
-   "why": "91% Buffalo Bills, rating 1698 v 1353, form WWWWW, at home, calls at this level won 100% (12)"
-  },
-  {
-   "sport": "nfl",
-   "event": "Denver Broncos v Las Vegas Raiders",
-   "comp": "NFL",
-   "when": "2026-11-22T21:25Z",
-   "date": "2026-11-22",
-   "selection": "Denver Broncos",
-   "opp": "Las Vegas Raiders",
-   "p": 0.8484,
-   "modelPick": "Denver Broncos",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.8065,
-   "hitN": 31,
-   "id": "401873075",
-   "elo": [
-    1643,
-    1393
-   ],
-   "homeSide": true,
-   "form": "WWWWW",
-   "status": "pending",
-   "why": "85% Denver Broncos, rating 1643 v 1393, form WWWWW, at home, calls at this level won 81% (31)"
-  },
-  {
-   "sport": "nfl",
-   "event": "Chicago Bears v New Orleans Saints",
-   "comp": "NFL",
-   "when": "2026-11-22T18:00Z",
-   "date": "2026-11-22",
-   "selection": "Chicago Bears",
-   "opp": "New Orleans Saints",
-   "p": 0.8298,
-   "modelPick": "Chicago Bears",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.8065,
-   "hitN": 31,
-   "id": "401873071",
-   "elo": [
-    1625,
-    1399
-   ],
-   "homeSide": true,
-   "form": "WWWWL",
-   "status": "pending",
-   "why": "83% Chicago Bears, rating 1625 v 1399, form WWWWL, at home, calls at this level won 81% (31)"
-  },
-  {
-   "sport": "nfl",
-   "event": "Kansas City Chiefs v Arizona Cardinals",
-   "comp": "NFL",
-   "when": "2026-11-22T18:00Z",
-   "date": "2026-11-22",
-   "selection": "Kansas City Chiefs",
-   "opp": "Arizona Cardinals",
-   "p": 0.8207,
-   "modelPick": "Kansas City Chiefs",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.8065,
-   "hitN": 31,
-   "id": "401873067",
-   "elo": [
-    1583,
-    1368
-   ],
-   "homeSide": true,
-   "form": "WWLLW",
-   "status": "pending",
-   "why": "82% Kansas City Chiefs, rating 1583 v 1368, form WWLLW, at home, calls at this level won 81% (31)"
+   "why": "90% Ariana Geerlings"
   },
   {
    "sport": "tennis",
-   "event": "Carlos Alcaraz v Alexander Zverev",
-   "comp": "Nitto ATP Finals Final",
-   "tour": "ATP",
-   "when": "2026-11-22T17:00:00Z",
-   "date": "2026-11-22",
-   "selection": "Carlos Alcaraz",
-   "opp": "Alexander Zverev",
-   "p": 0.682,
-   "modelPick": "Carlos Alcaraz",
-   "tierName": "Firm",
-   "list": false,
-   "hit": 0.6438,
-   "hitN": 73,
-   "id": "187529",
+   "event": "Abigail Rencheli v Varvara Lepchenko",
+   "comp": "IEB+ Argentina Open Round 1",
+   "tour": "WTA",
+   "when": "2026-11-23T17:00:00Z",
+   "date": "2026-11-23",
+   "selection": "Varvara Lepchenko",
+   "opp": "Abigail Rencheli",
+   "p": 0.8308,
+   "modelPick": "Varvara Lepchenko",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.7778,
+   "hitN": 36,
+   "id": "186823",
    "rank": [
-    3,
-    1
+    null,
+    null
    ],
    "status": "pending",
-   "why": "68% Carlos Alcaraz, ranked 3 v 1, calls at this level won 64% (73)"
-  }
- ],
- "tomorrow": [
-  {
-   "sport": "ncaab",
-   "event": "USC Trojans v Louisiana Ragin' Cajuns",
-   "comp": "NCAA",
-   "when": "2026-11-23T01:00Z",
-   "date": "2026-11-23",
-   "selection": "USC Trojans",
-   "opp": "Louisiana Ragin' Cajuns",
-   "p": 0.9561,
-   "modelPick": "USC Trojans",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9201,
-   "hitN": 1389,
-   "id": "401926774",
-   "elo": [
-    1835,
-    1442
-   ],
-   "homeSide": true,
-   "form": "WWWWW",
-   "status": "pending",
-   "why": "96% USC Trojans, rating 1835 v 1442, form WWWWW, at home, calls at this level won 92% (1389)"
-  },
-  {
-   "sport": "ncaab",
-   "event": "UCLA Bruins v Delaware Blue Hens",
-   "comp": "NCAA",
-   "when": "2026-11-23T00:00Z",
-   "date": "2026-11-23",
-   "selection": "UCLA Bruins",
-   "opp": "Delaware Blue Hens",
-   "p": 0.9457,
-   "modelPick": "UCLA Bruins",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9201,
-   "hitN": 1389,
-   "id": "401920905",
-   "elo": [
-    1960,
-    1607
-   ],
-   "homeSide": true,
-   "form": "WWWWW",
-   "status": "pending",
-   "why": "95% UCLA Bruins, rating 1960 v 1607, form WWWWW, at home, calls at this level won 92% (1389)"
+   "why": "83% Varvara Lepchenko, calls at this level won 78% (36)"
   },
   {
    "sport": "ncaab",
    "event": "Grambling Tigers v Ecclesia Royals",
    "comp": "NCAA",
-   "when": "2026-11-23T16:00Z",
+   "when": "2026-11-23T20:00Z",
    "date": "2026-11-23",
    "selection": "Grambling Tigers",
    "opp": "Ecclesia Royals",
@@ -247,6 +87,30 @@
    "form": "LLLWL",
    "status": "pending",
    "why": "86% Grambling Tigers, rating 1378 v 1213, form LLLWL, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Youngstown State Penguins v Maryland Eastern Shore Hawks",
+   "comp": "NCAA",
+   "when": "2026-11-23T23:30Z",
+   "date": "2026-11-23",
+   "selection": "Youngstown State Penguins",
+   "opp": "Maryland Eastern Shore Hawks",
+   "p": 0.8567,
+   "modelPick": "Youngstown State Penguins",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401920752",
+   "elo": [
+    1509,
+    1346
+   ],
+   "homeSide": true,
+   "form": "LLWLL",
+   "status": "pending",
+   "why": "86% Youngstown State Penguins, rating 1509 v 1346, form LLWLL, at home, calls at this level won 92% (1389)"
   },
   {
    "sport": "ncaab",
@@ -273,28 +137,149 @@
    "why": "86% Florida International Panthers, rating 1645 v 1484, form LWWWL, at home, calls at this level won 92% (1389)"
   },
   {
-   "sport": "ncaab",
-   "event": "Youngstown State Penguins v Maryland Eastern Shore Hawks",
-   "comp": "NCAA",
-   "when": "2026-11-23T23:30Z",
+   "sport": "tennis",
+   "event": "Ipek Oz v Polona Hercog",
+   "comp": "IEB+ Argentina Open Round 1",
+   "tour": "WTA",
+   "when": "2026-11-23T15:30:00Z",
    "date": "2026-11-23",
-   "selection": "Youngstown State Penguins",
-   "opp": "Maryland Eastern Shore Hawks",
-   "p": 0.8506,
-   "modelPick": "Youngstown State Penguins",
+   "selection": "Polona Hercog",
+   "opp": "Ipek Oz",
+   "p": 0.6519,
+   "modelPick": "Polona Hercog",
+   "tierName": "Firm",
+   "list": false,
+   "hit": 0.7071,
+   "hitN": 99,
+   "id": "186816",
+   "rank": [
+    null,
+    null
+   ],
+   "status": "pending",
+   "why": "65% Polona Hercog, calls at this level won 71% (99)"
+  }
+ ],
+ "tomorrow": [
+  {
+   "sport": "ncaab",
+   "event": "Illinois Fighting Illini v Winthrop Eagles",
+   "comp": "NCAA",
+   "when": "2026-11-24T01:00Z",
+   "date": "2026-11-24",
+   "selection": "Illinois Fighting Illini",
+   "opp": "Winthrop Eagles",
+   "p": 0.9885,
+   "modelPick": "Illinois Fighting Illini",
    "tierName": "Strong",
    "list": true,
    "hit": 0.9201,
    "hitN": 1389,
-   "id": "401920752",
+   "id": "401913530",
    "elo": [
-    1562,
-    1408
+    2074,
+    1438
    ],
    "homeSide": true,
-   "form": "LWLLW",
+   "form": "WWWLW",
    "status": "pending",
-   "why": "85% Youngstown State Penguins, rating 1562 v 1408, form LWLLW, at home, calls at this level won 92% (1389)"
+   "why": "99% Illinois Fighting Illini, rating 2074 v 1438, form WWWLW, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Kansas Jayhawks v Denver Pioneers",
+   "comp": "NCAA",
+   "when": "2026-11-24T01:00Z",
+   "date": "2026-11-24",
+   "selection": "Kansas Jayhawks",
+   "opp": "Denver Pioneers",
+   "p": 0.972,
+   "modelPick": "Kansas Jayhawks",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401909788",
+   "elo": [
+    1973,
+    1498
+   ],
+   "homeSide": true,
+   "form": "LWWWW",
+   "status": "pending",
+   "why": "97% Kansas Jayhawks, rating 1973 v 1498, form LWWWW, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Wichita State Shockers v Texas A&M-Corpus Christi Islanders",
+   "comp": "NCAA",
+   "when": "2026-11-24T00:30Z",
+   "date": "2026-11-24",
+   "selection": "Wichita State Shockers",
+   "opp": "Texas A&M-Corpus Christi Islanders",
+   "p": 0.9414,
+   "modelPick": "Wichita State Shockers",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401919032",
+   "elo": [
+    1881,
+    1542
+   ],
+   "homeSide": true,
+   "form": "WWWWL",
+   "status": "pending",
+   "why": "94% Wichita State Shockers, rating 1881 v 1542, form WWWWL, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Arizona Wildcats v Colorado State Rams",
+   "comp": "NCAA",
+   "when": "2026-11-24T04:30Z",
+   "date": "2026-11-24",
+   "selection": "Arizona Wildcats",
+   "opp": "Colorado State Rams",
+   "p": 0.9358,
+   "modelPick": "Arizona Wildcats",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401909743",
+   "elo": [
+    2088,
+    1667
+   ],
+   "homeSide": true,
+   "form": "WWWWL",
+   "status": "pending",
+   "why": "94% Arizona Wildcats, rating 2088 v 1667, form WWWWL, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "California Golden Bears v Alabama State Hornets",
+   "comp": "NCAA",
+   "when": "2026-11-24T03:00Z",
+   "date": "2026-11-24",
+   "selection": "California Golden Bears",
+   "opp": "Alabama State Hornets",
+   "p": 0.9101,
+   "modelPick": "California Golden Bears",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401918057",
+   "elo": [
+    1687,
+    1431
+   ],
+   "homeSide": true,
+   "form": "WWLLW",
+   "status": "pending",
+   "why": "91% California Golden Bears, rating 1687 v 1431, form WWLLW, at home, calls at this level won 92% (1389)"
   }
  ],
  "groups": [],
@@ -866,7 +851,7 @@
    "legsWon": 0
   }
  },
- "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/64",
- "issue": 64,
- "text": "Good morning Douglas. Sunday 22 November, 08:57 UK.\n\n### Yesterday\n**Susie (Auditor):** Daily List 8/8; football overall 52% of 644; tennis 3/4; other sports 94/127.\n\n**Jade (Accumulator Strategist): yesterday's groups**\n\n| Group | Odds | Result | Legs | Lost on |\n|---|---|---|---|---|\n| Daily 2x | 2.34 | Lost | 3 won, 1 lost | Feyenoord Rotterdam (2-3) |\n| List long | 2.02 | Won | 5 won, 0 lost | – |\n| Card 2x | 2.49 | Won | 3 won, 0 lost | – |\n| Card 2x | 2.88 | Lost | 2 won, 1 lost | Ascoli (2-2) |\n| List 2x | 2.27 | Lost | 3 won, 1 lost | Boston Celtics (97-96) |\n\nRunning record: 43 of 146 groups won (tested chances expected 49.9), legs 408/560, return on 1 unit a group -21.41.\n\n### Today: what matters and why\n- **Trabzonspor v Eyüpspor** (Super Lig, 16:00): 86% Trabzonspor, likely 2-0, xG 3.0 v 0.5, calls at this level won 84% (131)\n- **Buffalo Bills v Miami Dolphins** (NFL, 18:00): 91% Buffalo Bills, rating 1698 v 1353, form WWWWW, at home, calls at this level won 100% (12)\n- **Denver Broncos v Las Vegas Raiders** (NFL, 21:25): 85% Denver Broncos, rating 1643 v 1393, form WWWWW, at home, calls at this level won 81% (31)\n- **Chicago Bears v New Orleans Saints** (NFL, 18:00): 83% Chicago Bears, rating 1625 v 1399, form WWWWL, at home, calls at this level won 81% (31)\n- **Kansas City Chiefs v Arizona Cardinals** (NFL, 18:00): 82% Kansas City Chiefs, rating 1583 v 1368, form WWLLW, at home, calls at this level won 81% (31)\n- **Carlos Alcaraz v Alexander Zverev** (Nitto ATP Finals Final, 17:00): 68% Carlos Alcaraz, ranked 3 v 1, calls at this level won 64% (73)\n\n**Nina (Daily Board):** 565 games rated by the model today, 17 on the Daily List.\n\n### Tomorrow\n- **USC Trojans v Louisiana Ragin' Cajuns** (NCAA, 01:00): 96% USC Trojans, rating 1835 v 1442, form WWWWW, at home, calls at this level won 92% (1389)\n- **UCLA Bruins v Delaware Blue Hens** (NCAA, 00:00): 95% UCLA Bruins, rating 1960 v 1607, form WWWWW, at home, calls at this level won 92% (1389)\n- **Grambling Tigers v Ecclesia Royals** (NCAA, 16:00): 86% Grambling Tigers, rating 1378 v 1213, form LLLWL, at home, calls at this level won 92% (1389)\n- **Florida International Panthers v Long Beach State Beach** (NCAA, 18:00): 86% Florida International Panthers, rating 1645 v 1484, form LWWWL, at home, calls at this level won 92% (1389)\n- **Youngstown State Penguins v Maryland Eastern Shore Hawks** (NCAA, 23:30): 85% Youngstown State Penguins, rating 1562 v 1408, form LWLLW, at home, calls at this level won 92% (1389)\n\n### Three groups of five\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (166 of today's 215 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/66",
+ "issue": 66,
+ "text": "Good afternoon Douglas. Monday 23 November, 14:04 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (35 of today's 40 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
