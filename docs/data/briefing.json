@@ -1,50 +1,26 @@
 {
- "time": "2026-11-24T13:25:03.959592+00:00",
+ "time": "2026-11-24T18:19:25.930357+00:00",
  "date": "2026-11-24",
  "stage": "refresh",
  "pricing": {
-  "priced": 55,
-  "total": 55,
+  "priced": 46,
+  "total": 46,
   "site": true,
-  "generated": "2026-11-24T12:51:43Z"
+  "generated": "2026-11-24T17:51:57Z"
  },
  "review": {
   "dropped": [
    "Multiplier",
-   "Multiplier (alternative)",
-   "Multiplier"
+   "Multiplier (alternative)"
   ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 147,
+  "today": 132,
   "list": 6,
-  "tomorrow": 194
+  "tomorrow": 198
  },
  "impactful": [
-  {
-   "sport": "tennis",
-   "event": "Luna Maria Cinalli v Guiomar Maristany Zuleta De Reales",
-   "comp": "IEB+ Argentina Open Round 1",
-   "tour": "WTA",
-   "when": "2026-11-24T15:30:00Z",
-   "date": "2026-11-24",
-   "selection": "Guiomar Maristany Zuleta De Reales",
-   "opp": "Luna Maria Cinalli",
-   "p": 0.8317,
-   "modelPick": "Guiomar Maristany Zuleta De Reales",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.7838,
-   "hitN": 37,
-   "id": "186814",
-   "rank": [
-    147,
-    null
-   ],
-   "status": "pending",
-   "why": "83% Guiomar Maristany Zuleta De Reales, calls at this level won 78% (37)"
-  },
   {
    "sport": "football",
    "event": "RB Leipzig v Lens",
@@ -191,6 +167,39 @@
    "rankA": null,
    "status": "pending",
    "why": "63% Real Madrid, likely 2-1, xG 2.5 v 1.2"
+  },
+  {
+   "sport": "football",
+   "event": "Manchester City v Napoli",
+   "comp": "Champions League",
+   "lg": "eu.cl",
+   "country": "Europe",
+   "tier": 1,
+   "when": "2026-11-24T20:00:00Z",
+   "date": "2026-11-24",
+   "selection": "Manchester City",
+   "opp": "Napoli",
+   "side": "h",
+   "home": "Manchester City",
+   "away": "Napoli",
+   "p": 0.6335,
+   "modelPick": "Manchester City",
+   "list": false,
+   "reserve": true,
+   "hit": null,
+   "hitN": null,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.03,
+    0.83
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "63% Manchester City, likely 2-0, xG 2.0 v 0.8"
   }
  ],
  "tomorrow": [
@@ -895,5 +904,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/68",
  "issue": 68,
- "text": "Good afternoon Douglas. Tuesday 24 November, 13:25 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (55 of today's 55 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good evening Douglas. Tuesday 24 November, 18:19 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (46 of today's 46 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
