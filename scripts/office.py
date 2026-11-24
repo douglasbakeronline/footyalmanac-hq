@@ -69,12 +69,33 @@ def gather():
     return dict(prs=prs, rec=rec, calib=calib, tune=tune, srec=srec, trec=trec, grec=grec, pdate=(pname or "").replace(".json", ""),
                 preds=preds or [], spreds=spreds or [], tpreds=tpreds or [], commits=commits, runs=runs)
 
-def agent_prs():
+PR_DAYS = 31      # the planner rests a finished hq- task for 30 days, so read back at least that far
+PR_PAGES = 6      # 100 a page: about two months at the office's pace, a bound on the calls
+OUTCOME_DAYS = 8  # outcomes() reads one week; older merged PRs are classed only if already cached
+
+
+def pull_pages(get=None, days=PR_DAYS, pages=PR_PAGES, now=None):
+    """Every pull request opened in the last `days`, newest first, a page of 100 at a time.
+    24 Nov 2026: one page of 50 covered about three days (518 PRs, office and session ones alike),
+    so the planner's 30-day `done` saw only the last few merges and finished roadmap tasks came back
+    a week later (hq-tennis-surface merged 17 Nov as #376, re-run 24 Nov as #516)."""
+    get = get or (lambda n: gh_json(["api", f"repos/{REPO}/pulls?state=all&per_page=100&page={n}"]))
+    cut = ((now or datetime.now(timezone.utc)) - timedelta(days=days)).isoformat()
+    out = []
+    for n in range(1, pages + 1):
+        page = get(n)
+        if not isinstance(page, list) or not page: break
+        out += [p for p in page if isinstance(p, dict)]
+        if min((p.get("created_at") or "") for p in page if isinstance(p, dict)) < cut: break
+    return out
+
+
+def agent_prs(get=None, now=None):
     """Real development work: pull requests the office agents and the other AI platforms opened on footyalmanac.
     REST, not `gh pr list`: the GraphQL call returned nothing from the HQ workflow's token on 5 Oct 2026."""
     out = []
-    for p in gh_json(["api", f"repos/{REPO}/pulls?state=all&per_page=50"]) or []:
-        if not isinstance(p, dict): continue
+    ocut = ((now or datetime.now(timezone.utc)) - timedelta(days=OUTCOME_DAYS)).isoformat()
+    for p in pull_pages(get, now=now):
         lab = {l["name"] for l in p.get("labels", [])}
         if "office-agent" not in lab: continue
         owner = next((l[6:] for l in lab if l.startswith("agent:")), None)
@@ -88,7 +109,8 @@ def agent_prs():
         out.append({"n": p["number"], "title": p["title"], "url": p["html_url"], "owner": owner, "platform": platform,
                     "status": status, "opened": p["created_at"], "merged": p.get("merged_at"),
                     "closed": p.get("closed_at"), "objective": objective,
-                    "outcome": pr_outcome(p["number"]) if p.get("merged_at") else None})
+                    "outcome": (pr_outcome(p["number"]) if p["merged_at"] >= ocut else OUTCOMES.get(str(p["number"])))
+                               if p.get("merged_at") else None})
     _save("pr-outcomes.json", OUTCOMES)
     return out
 
@@ -483,7 +505,7 @@ def list_yesterday():
 def write_activity():
     cm = gh_json(["api", f"repos/{REPO}/commits?per_page=20"]) or []
     runs = gh_json(["run", "list", "-R", REPO, "-L", "10", "--json", "name,conclusion,createdAt,url"]) or []
-    _save("activity.json", {"prs": agent_prs(), "fetched": datetime.now(UK).isoformat(),
+    _save("activity.json", {"prs": agent_prs()[:50], "fetched": datetime.now(UK).isoformat(),
         "commits": [{"sha": c["sha"][:7], "msg": c["commit"]["message"].split("\n")[0], "date": c["commit"]["author"]["date"], "url": c["html_url"]} for c in cm if isinstance(c, dict)],
         "runs": runs})
 

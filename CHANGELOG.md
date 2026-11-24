@@ -1,3 +1,10 @@
+# The planner remembers a month of finished work - November 24, 2026 (Claude)
+
+- **Fixed: finished roadmap tasks came back after a week.** The planner rests an `hq-` task for 30 days once a pull request for it merges, but `office.py` read only the newest 50 pull requests on footyalmanac, about three days of them at today's pace (office and session PRs together). So `hq-tennis-surface`, merged as #376 on 17 Nov, was back in the 23 Nov backlog and re-run as #516 on 24 Nov with the same "nothing to ship" answer; each such re-run takes a sprint place.
+- `agent_prs` now reads pages of 100 back to 31 days (`pull_pages`, at most 6 pages). Merged PRs older than 8 days are no longer classed afresh (one API call each); they keep a cached outcome, as the week's outcomes read only 8 days. `activity.json` keeps the newest 50 as before.
+- Tests: `tests/test_office_prs.py` (four, each failing on the old code). `tests/test_planner.py` `test_losing_card_tops_the_backlog` was already failing before this change (the fixture's all-won legs raise an opposition task above the return task) and is left as it was.
+- Not changed: the planner's ranking, the 30-day rest, footyalmanac's own 7-day cooldown in `agents/pick_task.py` (the desk's standing tasks still repeat weekly by design).
+
 # Elena works, and the Groups & Odds Desk opens - October 20, 2026 (Claude)
 
 - **Elena is real.** The CEO tab now briefs her on GitHub: type a question or a change, tap Brief Elena, submit the issue. footyalmanac's new `ceo.yml` runs Claude as Elena on the whole repository. She answers on the issue, ships what is safe through the agents' merge gate, and delegates bigger work as backlog issues the next sprint takes first. The tab lists recent briefs live from GitHub with their status. The OpenAI worker is no longer called.
