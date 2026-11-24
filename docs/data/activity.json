@@ -51,23 +51,28 @@
    "closed": "2026-11-21T14:55:02Z",
    "objective": "hq-reserve-other-sports",
    "outcome": "evidence"
-  },
-  {
-   "n": 454,
-   "title": "[odds] Price more of the Odds tab legs",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/454",
-   "owner": "odds",
-   "platform": "office",
-   "status": "closed",
-   "opened": "2026-11-21T00:15:58Z",
-   "merged": null,
-   "closed": "2026-11-21T00:16:02Z",
-   "objective": "odds-coverage",
-   "outcome": null
   }
  ],
- "fetched": "2026-11-23T23:20:53.207033+00:00",
+ "fetched": "2026-11-24T00:36:24.761859+00:00",
  "commits": [
+  {
+   "sha": "82314f1",
+   "msg": "Archive predictions and record for 2026-11-24 [skip ci]",
+   "date": "2026-11-24T00:20:40Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/82314f149e7a4de9df91bcd83c2042848e83db7a"
+  },
+  {
+   "sha": "76309dc",
+   "msg": "Merge pull request #509 from douglasbakeronline/list-results-every-sport-2026-11-24",
+   "date": "2026-11-24T00:15:34Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/76309dced1c23cb5a99200bfe9cbbccdf5dd6415"
+  },
+  {
+   "sha": "f3abb00",
+   "msg": "Recent list results: every sport, scores from the pick's side",
+   "date": "2026-11-24T00:12:48Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f3abb00902ee4e79ae98c701a63bf49ffcb839d1"
+  },
   {
    "sha": "b33ec44",
    "msg": "Archive predictions and record for 2026-11-23 [skip ci]",
@@ -169,27 +174,45 @@
    "msg": "Archive predictions and record for 2026-11-23 [skip ci]",
    "date": "2026-11-23T17:49:15Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ee433fe426a320368b52233d465e719d29eb74c7"
-  },
-  {
-   "sha": "16a10ff",
-   "msg": "UX 4: the page you are on is the link you share (#502)",
-   "date": "2026-11-23T17:45:21Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/16a10ffba696c804581bbb6ae58123725245656a"
-  },
-  {
-   "sha": "dff717d",
-   "msg": "Archive predictions and record for 2026-11-23 [skip ci]",
-   "date": "2026-11-23T17:32:05Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/dff717dd11861a703e76af2fd342c1d3fd2835a9"
-  },
-  {
-   "sha": "5fd362d",
-   "msg": "UX 3: one day ribbon on every page, past and future (#501)",
-   "date": "2026-11-23T17:27:42Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/5fd362dd3d11d7f39961ae2d997565b3d9882faf"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-24T00:23:02Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45296700262"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-24T00:15:38Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45295702546"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-24T00:15:38Z",
+   "name": "Release tags",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45295702506"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-24T00:12:56Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45295315606"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-24T00:12:56Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45295315577"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-24T00:12:52Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45295305168"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-11-23T23:02:59Z",
@@ -213,42 +236,6 @@
    "createdAt": "2026-11-23T22:42:54Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45282278592"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-23T22:42:54Z",
-   "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45282278422"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-23T22:41:09Z",
-   "name": "Briefing watch",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45282017212"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-23T22:40:06Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45281854378"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-23T22:40:06Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45281854363"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-23T22:39:55Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45281824979"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-23T22:35:00Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45281050848"
   }
  ]
 }
