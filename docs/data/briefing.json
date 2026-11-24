@@ -1,285 +1,327 @@
 {
- "time": "2026-11-23T14:04:03.276386+00:00",
- "date": "2026-11-23",
+ "time": "2026-11-24T13:25:03.959592+00:00",
+ "date": "2026-11-24",
  "stage": "refresh",
  "pricing": {
-  "priced": 35,
-  "total": 40,
+  "priced": 55,
+  "total": 55,
   "site": true,
-  "generated": "2026-11-23T12:58:39Z"
+  "generated": "2026-11-24T12:51:43Z"
  },
  "review": {
-  "dropped": [],
+  "dropped": [
+   "Multiplier",
+   "Multiplier (alternative)",
+   "Multiplier"
+  ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 92,
+  "today": 147,
   "list": 6,
-  "tomorrow": 183
+  "tomorrow": 194
  },
  "impactful": [
   {
    "sport": "tennis",
-   "event": "Ariana Geerlings v Josefina Estevez",
+   "event": "Luna Maria Cinalli v Guiomar Maristany Zuleta De Reales",
    "comp": "IEB+ Argentina Open Round 1",
    "tour": "WTA",
-   "when": "2026-11-23T15:30:00Z",
-   "date": "2026-11-23",
-   "selection": "Ariana Geerlings",
-   "opp": "Josefina Estevez",
-   "p": 0.9009,
-   "modelPick": "Ariana Geerlings",
+   "when": "2026-11-24T15:30:00Z",
+   "date": "2026-11-24",
+   "selection": "Guiomar Maristany Zuleta De Reales",
+   "opp": "Luna Maria Cinalli",
+   "p": 0.8317,
+   "modelPick": "Guiomar Maristany Zuleta De Reales",
    "tierName": "Strong",
    "list": true,
+   "hit": 0.7838,
+   "hitN": 37,
+   "id": "186814",
+   "rank": [
+    147,
+    null
+   ],
+   "status": "pending",
+   "why": "83% Guiomar Maristany Zuleta De Reales, calls at this level won 78% (37)"
+  },
+  {
+   "sport": "football",
+   "event": "RB Leipzig v Lens",
+   "comp": "Champions League",
+   "lg": "eu.cl",
+   "country": "Europe",
+   "tier": 1,
+   "when": "2026-11-24T20:00:00Z",
+   "date": "2026-11-24",
+   "selection": "RB Leipzig",
+   "opp": "Lens",
+   "side": "h",
+   "home": "RB Leipzig",
+   "away": "Lens",
+   "p": 0.6618,
+   "modelPick": "RB Leipzig",
+   "list": false,
+   "reserve": false,
    "hit": null,
    "hitN": null,
-   "id": "186817",
-   "rank": [
-    null,
-    null
+   "score": [
+    2,
+    1
    ],
-   "status": "pending",
-   "why": "90% Ariana Geerlings"
-  },
-  {
-   "sport": "tennis",
-   "event": "Abigail Rencheli v Varvara Lepchenko",
-   "comp": "IEB+ Argentina Open Round 1",
-   "tour": "WTA",
-   "when": "2026-11-23T17:00:00Z",
-   "date": "2026-11-23",
-   "selection": "Varvara Lepchenko",
-   "opp": "Abigail Rencheli",
-   "p": 0.8308,
-   "modelPick": "Varvara Lepchenko",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.7778,
-   "hitN": 36,
-   "id": "186823",
-   "rank": [
-    null,
-    null
+   "xg": [
+    2.63,
+    1.21
    ],
+   "rankH": null,
+   "rankA": null,
    "status": "pending",
-   "why": "83% Varvara Lepchenko, calls at this level won 78% (36)"
+   "why": "66% RB Leipzig, likely 2-1, xG 2.6 v 1.2"
   },
   {
    "sport": "ncaab",
-   "event": "Grambling Tigers v Ecclesia Royals",
+   "event": "Furman Paladins v Elon Phoenix",
    "comp": "NCAA",
-   "when": "2026-11-23T20:00Z",
-   "date": "2026-11-23",
-   "selection": "Grambling Tigers",
-   "opp": "Ecclesia Royals",
-   "p": 0.8585,
-   "modelPick": "Grambling Tigers",
+   "when": "2026-11-24T23:30Z",
+   "date": "2026-11-24",
+   "selection": "Furman Paladins",
+   "opp": "Elon Phoenix",
+   "p": 0.8927,
+   "modelPick": "Furman Paladins",
    "tierName": "Strong",
    "list": true,
    "hit": 0.9201,
    "hitN": 1389,
-   "id": "401928389",
+   "id": "401921142",
    "elo": [
-    1378,
-    1213
+    1786,
+    1564
    ],
    "homeSide": true,
-   "form": "LLLWL",
+   "form": "WWLWW",
    "status": "pending",
-   "why": "86% Grambling Tigers, rating 1378 v 1213, form LLLWL, at home, calls at this level won 92% (1389)"
+   "why": "89% Furman Paladins, rating 1786 v 1564, form WWLWW, at home, calls at this level won 92% (1389)"
   },
   {
-   "sport": "ncaab",
-   "event": "Youngstown State Penguins v Maryland Eastern Shore Hawks",
-   "comp": "NCAA",
-   "when": "2026-11-23T23:30Z",
-   "date": "2026-11-23",
-   "selection": "Youngstown State Penguins",
-   "opp": "Maryland Eastern Shore Hawks",
-   "p": 0.8567,
-   "modelPick": "Youngstown State Penguins",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9201,
-   "hitN": 1389,
-   "id": "401920752",
-   "elo": [
-    1509,
-    1346
-   ],
-   "homeSide": true,
-   "form": "LLWLL",
-   "status": "pending",
-   "why": "86% Youngstown State Penguins, rating 1509 v 1346, form LLWLL, at home, calls at this level won 92% (1389)"
-  },
-  {
-   "sport": "ncaab",
-   "event": "Florida International Panthers v Long Beach State Beach",
-   "comp": "NCAA",
-   "when": "2026-11-23T18:00Z",
-   "date": "2026-11-23",
-   "selection": "Florida International Panthers",
-   "opp": "Long Beach State Beach",
-   "p": 0.8561,
-   "modelPick": "Florida International Panthers",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9201,
-   "hitN": 1389,
-   "id": "401924266",
-   "elo": [
-    1645,
-    1484
-   ],
-   "homeSide": true,
-   "form": "LWWWL",
-   "status": "pending",
-   "why": "86% Florida International Panthers, rating 1645 v 1484, form LWWWL, at home, calls at this level won 92% (1389)"
-  },
-  {
-   "sport": "tennis",
-   "event": "Ipek Oz v Polona Hercog",
-   "comp": "IEB+ Argentina Open Round 1",
-   "tour": "WTA",
-   "when": "2026-11-23T15:30:00Z",
-   "date": "2026-11-23",
-   "selection": "Polona Hercog",
-   "opp": "Ipek Oz",
-   "p": 0.6519,
-   "modelPick": "Polona Hercog",
-   "tierName": "Firm",
+   "sport": "football",
+   "event": "Rangers v Aberdeen",
+   "comp": "Premiership",
+   "lg": "sco.1",
+   "country": "Scotland",
+   "tier": 1,
+   "when": "2026-11-24T20:00:00Z",
+   "date": "2026-11-24",
+   "selection": "Rangers",
+   "opp": "Aberdeen",
+   "side": "h",
+   "home": "Rangers",
+   "away": "Aberdeen",
+   "p": 0.6422,
+   "modelPick": "Rangers",
    "list": false,
-   "hit": 0.7071,
-   "hitN": 99,
-   "id": "186816",
-   "rank": [
-    null,
-    null
+   "reserve": true,
+   "hit": 0.7052,
+   "hitN": 78,
+   "score": [
+    2,
+    0
    ],
+   "xg": [
+    1.93,
+    0.72
+   ],
+   "rankH": null,
+   "rankA": null,
    "status": "pending",
-   "why": "65% Polona Hercog, calls at this level won 71% (99)"
+   "why": "64% Rangers, likely 2-0, xG 1.9 v 0.7, calls at this level won 71% (78)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Michigan Wolverines v Creighton Bluejays",
+   "comp": "NCAA",
+   "when": "2026-11-24T22:30Z",
+   "date": "2026-11-24",
+   "selection": "Michigan Wolverines",
+   "opp": "Creighton Bluejays",
+   "p": 0.8856,
+   "modelPick": "Michigan Wolverines",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401909495",
+   "elo": [
+    1998,
+    1689
+   ],
+   "homeSide": true,
+   "form": "LWWLW",
+   "status": "pending",
+   "why": "89% Michigan Wolverines, rating 1998 v 1689, form LWWLW, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "football",
+   "event": "Real Madrid v PSV Eindhoven",
+   "comp": "Champions League",
+   "lg": "eu.cl",
+   "country": "Europe",
+   "tier": 1,
+   "when": "2026-11-24T20:00:00Z",
+   "date": "2026-11-24",
+   "selection": "Real Madrid",
+   "opp": "PSV Eindhoven",
+   "side": "h",
+   "home": "Real Madrid",
+   "away": "PSV Eindhoven",
+   "p": 0.6337,
+   "modelPick": "Real Madrid",
+   "list": false,
+   "reserve": true,
+   "hit": null,
+   "hitN": null,
+   "score": [
+    2,
+    1
+   ],
+   "xg": [
+    2.5,
+    1.23
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "63% Real Madrid, likely 2-1, xG 2.5 v 1.2"
   }
  ],
  "tomorrow": [
   {
-   "sport": "ncaab",
-   "event": "Illinois Fighting Illini v Winthrop Eagles",
-   "comp": "NCAA",
-   "when": "2026-11-24T01:00Z",
-   "date": "2026-11-24",
-   "selection": "Illinois Fighting Illini",
-   "opp": "Winthrop Eagles",
-   "p": 0.9885,
-   "modelPick": "Illinois Fighting Illini",
-   "tierName": "Strong",
-   "list": true,
-   "hit": 0.9201,
-   "hitN": 1389,
-   "id": "401913530",
-   "elo": [
-    2074,
-    1438
+   "sport": "football",
+   "event": "Sabah FK v Barcelona",
+   "comp": "Champions League",
+   "lg": "eu.cl",
+   "country": "Europe",
+   "tier": 1,
+   "when": "2026-11-25T17:45:00Z",
+   "date": "2026-11-25",
+   "selection": "Barcelona",
+   "opp": "Sabah FK",
+   "side": "a",
+   "home": "Sabah FK",
+   "away": "Barcelona",
+   "p": 0.9227,
+   "modelPick": "Barcelona",
+   "list": false,
+   "reserve": false,
+   "hit": null,
+   "hitN": null,
+   "score": [
+    0,
+    4
    ],
-   "homeSide": true,
-   "form": "WWWLW",
+   "xg": [
+    0.76,
+    4.27
+   ],
+   "rankH": null,
+   "rankA": null,
    "status": "pending",
-   "why": "99% Illinois Fighting Illini, rating 2074 v 1438, form WWWLW, at home, calls at this level won 92% (1389)"
+   "why": "92% Barcelona, likely 0-4, xG 0.8 v 4.3"
   },
   {
    "sport": "ncaab",
-   "event": "Kansas Jayhawks v Denver Pioneers",
+   "event": "Florida Gators v Milwaukee Panthers",
    "comp": "NCAA",
-   "when": "2026-11-24T01:00Z",
-   "date": "2026-11-24",
-   "selection": "Kansas Jayhawks",
-   "opp": "Denver Pioneers",
-   "p": 0.972,
-   "modelPick": "Kansas Jayhawks",
+   "when": "2026-11-25T00:00Z",
+   "date": "2026-11-25",
+   "selection": "Florida Gators",
+   "opp": "Milwaukee Panthers",
+   "p": 0.9785,
+   "modelPick": "Florida Gators",
    "tierName": "Strong",
    "list": true,
    "hit": 0.9201,
    "hitN": 1389,
-   "id": "401909788",
+   "id": "401906774",
    "elo": [
-    1973,
-    1498
+    2033,
+    1510
    ],
    "homeSide": true,
-   "form": "LWWWW",
+   "form": "WLWWW",
    "status": "pending",
-   "why": "97% Kansas Jayhawks, rating 1973 v 1498, form LWWWW, at home, calls at this level won 92% (1389)"
+   "why": "98% Florida Gators, rating 2033 v 1510, form WLWWW, at home, calls at this level won 92% (1389)"
   },
   {
    "sport": "ncaab",
-   "event": "Wichita State Shockers v Texas A&M-Corpus Christi Islanders",
+   "event": "Texas State Bobcats v Alcorn State Braves",
    "comp": "NCAA",
-   "when": "2026-11-24T00:30Z",
-   "date": "2026-11-24",
-   "selection": "Wichita State Shockers",
-   "opp": "Texas A&M-Corpus Christi Islanders",
-   "p": 0.9414,
-   "modelPick": "Wichita State Shockers",
+   "when": "2026-11-25T22:00Z",
+   "date": "2026-11-25",
+   "selection": "Texas State Bobcats",
+   "opp": "Alcorn State Braves",
+   "p": 0.9755,
+   "modelPick": "Texas State Bobcats",
    "tierName": "Strong",
    "list": true,
    "hit": 0.9201,
    "hitN": 1389,
-   "id": "401919032",
+   "id": "401925688",
    "elo": [
-    1881,
-    1542
+    1879,
+    1279
    ],
    "homeSide": true,
-   "form": "WWWWL",
+   "form": "WWWWW",
    "status": "pending",
-   "why": "94% Wichita State Shockers, rating 1881 v 1542, form WWWWL, at home, calls at this level won 92% (1389)"
+   "why": "98% Texas State Bobcats, rating 1879 v 1279, form WWWWW, at home, calls at this level won 92% (1389)"
   },
   {
    "sport": "ncaab",
-   "event": "Arizona Wildcats v Colorado State Rams",
+   "event": "Indiana Hoosiers v Jacksonville Dolphins",
    "comp": "NCAA",
-   "when": "2026-11-24T04:30Z",
-   "date": "2026-11-24",
-   "selection": "Arizona Wildcats",
-   "opp": "Colorado State Rams",
-   "p": 0.9358,
-   "modelPick": "Arizona Wildcats",
+   "when": "2026-11-25T00:00Z",
+   "date": "2026-11-25",
+   "selection": "Indiana Hoosiers",
+   "opp": "Jacksonville Dolphins",
+   "p": 0.9753,
+   "modelPick": "Indiana Hoosiers",
    "tierName": "Strong",
    "list": true,
    "hit": 0.9201,
    "hitN": 1389,
-   "id": "401909743",
+   "id": "401916291",
    "elo": [
-    2088,
-    1667
+    1895,
+    1396
    ],
    "homeSide": true,
-   "form": "WWWWL",
+   "form": "WWWWW",
    "status": "pending",
-   "why": "94% Arizona Wildcats, rating 2088 v 1667, form WWWWL, at home, calls at this level won 92% (1389)"
+   "why": "98% Indiana Hoosiers, rating 1895 v 1396, form WWWWW, at home, calls at this level won 92% (1389)"
   },
   {
    "sport": "ncaab",
-   "event": "California Golden Bears v Alabama State Hornets",
+   "event": "Villanova Wildcats v Coppin State Eagles",
    "comp": "NCAA",
-   "when": "2026-11-24T03:00Z",
-   "date": "2026-11-24",
-   "selection": "California Golden Bears",
-   "opp": "Alabama State Hornets",
-   "p": 0.9101,
-   "modelPick": "California Golden Bears",
+   "when": "2026-11-25T00:00Z",
+   "date": "2026-11-25",
+   "selection": "Villanova Wildcats",
+   "opp": "Coppin State Eagles",
+   "p": 0.9736,
+   "modelPick": "Villanova Wildcats",
    "tierName": "Strong",
    "list": true,
    "hit": 0.9201,
    "hitN": 1389,
-   "id": "401918057",
+   "id": "401921777",
    "elo": [
-    1687,
-    1431
+    1796,
+    1309
    ],
    "homeSide": true,
-   "form": "WWLLW",
+   "form": "WLWWW",
    "status": "pending",
-   "why": "91% California Golden Bears, rating 1687 v 1431, form WWLLW, at home, calls at this level won 92% (1389)"
+   "why": "97% Villanova Wildcats, rating 1796 v 1309, form WLWWW, at home, calls at this level won 92% (1389)"
   }
  ],
  "groups": [],
@@ -851,7 +893,7 @@
    "legsWon": 0
   }
  },
- "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/66",
- "issue": 66,
- "text": "Good afternoon Douglas. Monday 23 November, 14:04 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (35 of today's 40 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/68",
+ "issue": 68,
+ "text": "Good afternoon Douglas. Tuesday 24 November, 13:25 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (55 of today's 55 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative), Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
