@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-26T04:59:11",
- "fetched": "2026-11-26T05:13:41.453763+00:00",
+ "generated": "2026-11-26T09:21:28",
+ "fetched": "2026-11-26T10:08:18.725200+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -188,22 +188,22 @@
      "a": "FC Thun",
      "side": "h",
      "pick": "Ajax Amsterdam",
-     "c": 0.8647,
+     "c": 0.8738,
      "p": {
-      "h": 0.8647,
-      "d": 0.0877,
-      "a": 0.0475
+      "h": 0.8738,
+      "d": 0.0827,
+      "a": 0.0435
      },
      "score": [
       3,
       0
      ],
-     "btts": 0.5572,
-     "o25": 0.6484,
+     "btts": 0.5548,
+     "o25": 0.6507,
      "hit": null,
      "hitN": null,
-     "celtic": true,
-     "list": false,
+     "celtic": false,
+     "list": true,
      "reserve": false,
      "unrated": false
     },
@@ -253,9 +253,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "83-81"
     },
     {
      "t": "01:00",
@@ -286,8 +286,8 @@
      "t": "10:00",
      "ko": "2026-11-26T10:00:00Z",
      "lg": "af.343",
-     "lgName": "First League",
-     "country": "Armenia",
+     "lgName": "Armenia First League",
+     "sport": "football",
      "h": "Bentonit Ijevan",
      "a": "Shirak II",
      "side": "h",
@@ -298,18 +298,14 @@
       "d": 0.1162,
       "a": 0.0723
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.567,
-     "o25": 0.6348,
      "hit": 0.8075,
      "hitN": 644,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:00",
@@ -419,9 +415,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "129-110"
     },
     {
      "t": "03:00",
@@ -440,9 +436,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "80-78"
     },
     {
      "t": "21:30",
@@ -459,6 +455,35 @@
      "hitN": 619,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "17:45",
+     "ko": "2026-11-26T17:45:00Z",
+     "lg": "eu.el",
+     "lgName": "Europa League",
+     "country": "Europe",
+     "h": "Marseille",
+     "a": "Levski Sofia",
+     "side": "h",
+     "pick": "Marseille",
+     "c": 0.7369,
+     "p": {
+      "h": 0.7369,
+      "d": 0.1625,
+      "a": 0.1006
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5425,
+     "o25": 0.5855,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
     },
     {
      "t": "00:00",
@@ -496,35 +521,6 @@
      "hitN": 619,
      "list": false,
      "reserve": true
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-11-26T20:00:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "Braga",
-     "a": "KuPS Kuopio",
-     "side": "h",
-     "pick": "Braga",
-     "c": 0.7178,
-     "p": {
-      "h": 0.7178,
-      "d": 0.1828,
-      "a": 0.0994
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5119,
-     "o25": 0.5472,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
     },
     {
      "t": "00:30",
@@ -663,6 +659,35 @@
      "res": "115-97"
     },
     {
+     "t": "20:00",
+     "ko": "2026-11-26T20:00:00Z",
+     "lg": "eu.ec",
+     "lgName": "Conference League",
+     "country": "Europe",
+     "h": "Braga",
+     "a": "KuPS Kuopio",
+     "side": "h",
+     "pick": "Braga",
+     "c": 0.6999,
+     "p": {
+      "h": 0.6999,
+      "d": 0.1915,
+      "a": 0.1086
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5143,
+     "o25": 0.5431,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
+    },
+    {
      "t": "00:00",
      "ko": "2026-11-26T00:00:00Z",
      "lg": "NCAA",
@@ -704,51 +729,22 @@
      "lg": "eu.el",
      "lgName": "Europa League",
      "country": "Europe",
-     "h": "Marseille",
-     "a": "Levski Sofia",
-     "side": "h",
-     "pick": "Marseille",
-     "c": 0.6917,
-     "p": {
-      "h": 0.6917,
-      "d": 0.1828,
-      "a": 0.1255
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5488,
-     "o25": 0.5769,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
-     "t": "17:45",
-     "ko": "2026-11-26T17:45:00Z",
-     "lg": "eu.el",
-     "lgName": "Europa League",
-     "country": "Europe",
      "h": "Union St.-Gilloise",
      "a": "Lech Poznan",
      "side": "h",
      "pick": "Union St.-Gilloise",
-     "c": 0.6813,
+     "c": 0.6938,
      "p": {
-      "h": 0.6813,
-      "d": 0.1963,
-      "a": 0.1224
+      "h": 0.6938,
+      "d": 0.1907,
+      "a": 0.1155
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.5264,
-     "o25": 0.5497,
+     "btts": 0.5248,
+     "o25": 0.5522,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -794,35 +790,6 @@
      "res": "70-68"
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-26T20:00:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "KAA Gent",
-     "a": "Red Star Belgrade",
-     "side": "h",
-     "pick": "KAA Gent",
-     "c": 0.6717,
-     "p": {
-      "h": 0.6717,
-      "d": 0.213,
-      "a": 0.1153
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4974,
-     "o25": 0.5152,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "01:00",
      "ko": "2026-11-26T01:00:00Z",
      "lg": "NFL",
@@ -860,9 +827,38 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "73-79"
+    },
+    {
+     "t": "17:45",
+     "ko": "2026-11-26T17:45:00Z",
+     "lg": "eu.el",
+     "lgName": "Europa League",
+     "country": "Europe",
+     "h": "RB Salzburg",
+     "a": "Ararat-Armenia",
+     "side": "h",
+     "pick": "RB Salzburg",
+     "c": 0.6705,
+     "p": {
+      "h": 0.6705,
+      "d": 0.1929,
+      "a": 0.1366
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5484,
+     "o25": 0.5699,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": true,
+     "unrated": false
     },
     {
      "t": "20:00",
@@ -870,27 +866,56 @@
      "lg": "eu.el",
      "lgName": "Europa League",
      "country": "Europe",
-     "h": "TSG Hoffenheim",
-     "a": "SK Sturm Graz",
+     "h": "Sunderland",
+     "a": "Jagiellonia Bialystok",
      "side": "h",
-     "pick": "TSG Hoffenheim",
-     "c": 0.6704,
+     "pick": "Sunderland",
+     "c": 0.668,
      "p": {
-      "h": 0.6704,
-      "d": 0.1909,
-      "a": 0.1387
+      "h": 0.668,
+      "d": 0.2145,
+      "a": 0.1174
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.5535,
-     "o25": 0.5754,
+     "btts": 0.4982,
+     "o25": 0.5149,
      "hit": null,
      "hitN": null,
      "celtic": false,
      "list": false,
      "reserve": true,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-26T20:00:00Z",
+     "lg": "eu.ec",
+     "lgName": "Conference League",
+     "country": "Europe",
+     "h": "KAA Gent",
+     "a": "Red Star Belgrade",
+     "side": "h",
+     "pick": "KAA Gent",
+     "c": 0.6653,
+     "p": {
+      "h": 0.6653,
+      "d": 0.216,
+      "a": 0.1187
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.4981,
+     "o25": 0.5139,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
      "unrated": false
     },
     {
@@ -953,22 +978,22 @@
      "lg": "eu.el",
      "lgName": "Europa League",
      "country": "Europe",
-     "h": "Sunderland",
-     "a": "Jagiellonia Bialystok",
+     "h": "TSG Hoffenheim",
+     "a": "SK Sturm Graz",
      "side": "h",
-     "pick": "Sunderland",
-     "c": 0.6618,
+     "pick": "TSG Hoffenheim",
+     "c": 0.6632,
      "p": {
-      "h": 0.6618,
-      "d": 0.2174,
-      "a": 0.1208
+      "h": 0.6632,
+      "d": 0.1938,
+      "a": 0.143
      },
      "score": [
       2,
       0
      ],
-     "btts": 0.4989,
-     "o25": 0.5136,
+     "btts": 0.5544,
+     "o25": 0.5742,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -993,9 +1018,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "66-64"
     },
     {
      "t": "20:00",
@@ -1043,35 +1068,6 @@
      "reserve": true
     },
     {
-     "t": "17:45",
-     "ko": "2026-11-26T17:45:00Z",
-     "lg": "eu.el",
-     "lgName": "Europa League",
-     "country": "Europe",
-     "h": "RB Salzburg",
-     "a": "Ararat-Armenia",
-     "side": "h",
-     "pick": "RB Salzburg",
-     "c": 0.6509,
-     "p": {
-      "h": 0.6509,
-      "d": 0.2007,
-      "a": 0.1484
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5507,
-     "o25": 0.5668,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
-    },
-    {
      "t": "01:30",
      "ko": "2026-11-26T01:30:00Z",
      "lg": "NCAA",
@@ -1091,35 +1087,6 @@
      "status": "won",
      "score": null,
      "res": "72-54"
-    },
-    {
-     "t": "10:00",
-     "ko": "2026-11-26T10:00:00Z",
-     "lg": "af.343",
-     "lgName": "First League",
-     "country": "Armenia",
-     "h": "Andranik",
-     "a": "Araks Ararat",
-     "side": "h",
-     "pick": "Andranik",
-     "c": 0.6424,
-     "p": {
-      "h": 0.6424,
-      "d": 0.2121,
-      "a": 0.1455
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5327,
-     "o25": 0.5444,
-     "hit": 0.646,
-     "hitN": 3240,
-     "celtic": false,
-     "list": false,
-     "reserve": true,
-     "unrated": false
     },
     {
      "t": "01:30",
@@ -1143,6 +1110,31 @@
      "res": "116-104"
     },
     {
+     "t": "10:00",
+     "ko": "2026-11-26T10:00:00Z",
+     "lg": "af.343",
+     "lgName": "Armenia First League",
+     "sport": "football",
+     "h": "Andranik",
+     "a": "Araks Ararat",
+     "side": "h",
+     "pick": "Andranik",
+     "c": 0.6424,
+     "p": {
+      "h": 0.6424,
+      "d": 0.2121,
+      "a": 0.1455
+     },
+     "hit": 0.646,
+     "hitN": 3240,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
+    },
+    {
      "t": "21:30",
      "ko": "2026-11-26T21:30Z",
      "lg": "nfl",
@@ -1162,8 +1154,8 @@
      "t": "09:00",
      "ko": "2026-11-26T09:00:00Z",
      "lg": "af.571",
-     "lgName": "Vysshaya Liga",
-     "country": "Tajikistan",
+     "lgName": "Tajikistan Vysshaya Liga",
+     "sport": "football",
      "h": "Regar-TadAZ",
      "a": "Sardor Tursunzoda",
      "side": "h",
@@ -1174,18 +1166,14 @@
       "d": 0.2307,
       "a": 0.1367
      },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5017,
-     "o25": 0.5072,
      "hit": 0.646,
      "hitN": 3240,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "19:30",
@@ -1262,27 +1250,27 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-26T20:00:00Z",
+     "t": "17:45",
+     "ko": "2026-11-26T17:45:00Z",
      "lg": "eu.el",
      "lgName": "Europa League",
      "country": "Europe",
-     "h": "Ferencvaros",
-     "a": "NK Celje",
-     "side": "h",
-     "pick": "Ferencvaros",
-     "c": 0.5593,
+     "h": "Viktoria Plzen",
+     "a": "Benfica",
+     "side": "a",
+     "pick": "Benfica",
+     "c": 0.5664,
      "p": {
-      "h": 0.5593,
-      "d": 0.2205,
-      "a": 0.2202
+      "h": 0.2226,
+      "d": 0.2111,
+      "a": 0.5664
      },
      "score": [
-      2,
-      1
+      1,
+      2
      ],
-     "btts": 0.5817,
-     "o25": 0.5806,
+     "btts": 0.596,
+     "o25": 0.5987,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1373,6 +1361,64 @@
      "hit": 0.5376,
      "hitN": 6805,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:45",
+     "ko": "2026-11-26T17:45:00Z",
+     "lg": "eu.ec",
+     "lgName": "Conference League",
+     "country": "Europe",
+     "h": "Kauno Zalgiris",
+     "a": "Riga",
+     "side": "a",
+     "pick": "Riga",
+     "c": 0.5424,
+     "p": {
+      "h": 0.2053,
+      "d": 0.2523,
+      "a": 0.5424
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5319,
+     "o25": 0.5183,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-26T20:00:00Z",
+     "lg": "eu.el",
+     "lgName": "Europa League",
+     "country": "Europe",
+     "h": "Ferencvaros",
+     "a": "NK Celje",
+     "side": "h",
+     "pick": "Ferencvaros",
+     "c": 0.538,
+     "p": {
+      "h": 0.538,
+      "d": 0.226,
+      "a": 0.236
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5833,
+     "o25": 0.5787,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -1552,35 +1598,6 @@
      "unrated": false
     },
     {
-     "t": "17:45",
-     "ko": "2026-11-26T17:45:00Z",
-     "lg": "eu.el",
-     "lgName": "Europa League",
-     "country": "Europe",
-     "h": "Viktoria Plzen",
-     "a": "Benfica",
-     "side": "a",
-     "pick": "Benfica",
-     "c": 0.5147,
-     "p": {
-      "h": 0.2622,
-      "d": 0.2231,
-      "a": 0.5147
-     },
-     "score": [
-      1,
-      2
-     ],
-     "btts": 0.5996,
-     "o25": 0.5949,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "12:30",
      "ko": "2026-11-26T12:30:00Z",
      "lg": "af.887",
@@ -1673,22 +1690,22 @@
      "lg": "eu.ec",
      "lgName": "Conference League",
      "country": "Europe",
-     "h": "Kauno Zalgiris",
-     "a": "Riga",
-     "side": "a",
-     "pick": "Riga",
-     "c": 0.4852,
+     "h": "Pafos",
+     "a": "FC Midtjylland",
+     "side": "h",
+     "pick": "Pafos",
+     "c": 0.4844,
      "p": {
-      "h": 0.2475,
-      "d": 0.2673,
-      "a": 0.4852
+      "h": 0.4844,
+      "d": 0.275,
+      "a": 0.2406
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5357,
-     "o25": 0.5124,
+     "btts": 0.5236,
+     "o25": 0.4977,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1702,22 +1719,22 @@
      "lg": "eu.ec",
      "lgName": "Conference League",
      "country": "Europe",
-     "h": "Pafos",
-     "a": "FC Midtjylland",
+     "h": "SK Brann",
+     "a": "AGF",
      "side": "h",
-     "pick": "Pafos",
-     "c": 0.4787,
+     "pick": "SK Brann",
+     "c": 0.4797,
      "p": {
-      "h": 0.4787,
-      "d": 0.2764,
-      "a": 0.245
+      "h": 0.4797,
+      "d": 0.2467,
+      "a": 0.2735
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5239,
-     "o25": 0.4972,
+     "btts": 0.572,
+     "o25": 0.5563,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -1871,35 +1888,6 @@
      "unrated": false
     },
     {
-     "t": "17:45",
-     "ko": "2026-11-26T17:45:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "SK Brann",
-     "a": "AGF",
-     "side": "h",
-     "pick": "SK Brann",
-     "c": 0.4664,
-     "p": {
-      "h": 0.4664,
-      "d": 0.2491,
-      "a": 0.2845
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5727,
-     "o25": 0.5554,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "15:00",
      "ko": "2026-11-26T15:00:00Z",
      "lg": "af.418",
@@ -1958,6 +1946,35 @@
      "unrated": false
     },
     {
+     "t": "20:00",
+     "ko": "2026-11-26T20:00:00Z",
+     "lg": "eu.ec",
+     "lgName": "Conference League",
+     "country": "Europe",
+     "h": "Borac Banja Luka",
+     "a": "Atalanta",
+     "side": "a",
+     "pick": "Atalanta",
+     "c": 0.4553,
+     "p": {
+      "h": 0.2473,
+      "d": 0.2973,
+      "a": 0.4553
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5015,
+     "o25": 0.4675,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "17:45",
      "ko": "2026-11-26T17:45:00Z",
      "lg": "eu.el",
@@ -1969,7 +1986,7 @@
      "pick": "AFC Bournemouth",
      "c": 0.4533,
      "p": {
-      "h": 0.2562,
+      "h": 0.2563,
       "d": 0.2905,
       "a": 0.4533
      },
@@ -1996,18 +2013,76 @@
      "a": "FC Twente",
      "side": "h",
      "pick": "SC Freiburg",
-     "c": 0.444,
+     "c": 0.4505,
      "p": {
-      "h": 0.444,
-      "d": 0.2692,
-      "a": 0.2868
+      "h": 0.4505,
+      "d": 0.2681,
+      "a": 0.2813
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.547,
-     "o25": 0.5208,
+     "btts": 0.5467,
+     "o25": 0.5212,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-26T20:00:00Z",
+     "lg": "eu.ec",
+     "lgName": "Conference League",
+     "country": "Europe",
+     "h": "CSKA Sofia",
+     "a": "Trabzonspor",
+     "side": "a",
+     "pick": "Trabzonspor",
+     "c": 0.4482,
+     "p": {
+      "h": 0.2587,
+      "d": 0.2931,
+      "a": 0.4482
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5099,
+     "o25": 0.4763,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "20:00",
+     "ko": "2026-11-26T20:00:00Z",
+     "lg": "eu.ec",
+     "lgName": "Conference League",
+     "country": "Europe",
+     "h": "FC Nordsj\u00e6lland",
+     "a": "Panathinaikos",
+     "side": "a",
+     "pick": "Panathinaikos",
+     "c": 0.4449,
+     "p": {
+      "h": 0.2799,
+      "d": 0.2752,
+      "a": 0.4449
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5374,
+     "o25": 0.509,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -2037,35 +2112,6 @@
      ],
      "btts": 0.589,
      "o25": 0.5738,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-11-26T20:00:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "FC Nordsj\u00e6lland",
-     "a": "Panathinaikos",
-     "side": "a",
-     "pick": "Panathinaikos",
-     "c": 0.4392,
-     "p": {
-      "h": 0.2847,
-      "d": 0.2761,
-      "a": 0.4392
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5377,
-     "o25": 0.5087,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -2182,35 +2228,6 @@
      ],
      "btts": 0.5384,
      "o25": 0.5091,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-11-26T20:00:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "Borac Banja Luka",
-     "a": "Atalanta",
-     "side": "a",
-     "pick": "Atalanta",
-     "c": 0.4331,
-     "p": {
-      "h": 0.2651,
-      "d": 0.3017,
-      "a": 0.4331
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5025,
-     "o25": 0.4658,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -2509,64 +2526,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-26T20:00:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "CSKA Sofia",
-     "a": "Trabzonspor",
-     "side": "a",
-     "pick": "Trabzonspor",
-     "c": 0.4029,
-     "p": {
-      "h": 0.2969,
-      "d": 0.3002,
-      "a": 0.4029
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5115,
-     "o25": 0.4735,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "17:45",
-     "ko": "2026-11-26T17:45:00Z",
-     "lg": "eu.ec",
-     "lgName": "Conference League",
-     "country": "Europe",
-     "h": "Iberia 1999",
-     "a": "Getafe",
-     "side": "a",
-     "pick": "Getafe",
-     "c": 0.3974,
-     "p": {
-      "h": 0.2971,
-      "d": 0.3055,
-      "a": 0.3974
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5054,
-     "o25": 0.4658,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "09:30",
      "ko": "2026-11-26T09:30:00Z",
      "lg": "af.326",
@@ -2591,6 +2550,35 @@
      "hit": null,
      "hitN": null,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:45",
+     "ko": "2026-11-26T17:45:00Z",
+     "lg": "eu.el",
+     "lgName": "Europa League",
+     "country": "Europe",
+     "h": "Olympiacos",
+     "a": "AC Milan",
+     "side": "a",
+     "pick": "AC Milan",
+     "c": 0.3945,
+     "p": {
+      "h": 0.3089,
+      "d": 0.2966,
+      "a": 0.3945
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5177,
+     "o25": 0.4804,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -2625,35 +2613,6 @@
      "unrated": false
     },
     {
-     "t": "17:45",
-     "ko": "2026-11-26T17:45:00Z",
-     "lg": "eu.el",
-     "lgName": "Europa League",
-     "country": "Europe",
-     "h": "Olympiacos",
-     "a": "AC Milan",
-     "side": "a",
-     "pick": "AC Milan",
-     "c": 0.3833,
-     "p": {
-      "h": 0.3191,
-      "d": 0.2976,
-      "a": 0.3833
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5179,
-     "o25": 0.48,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "20:00",
      "ko": "2026-11-26T20:00:00Z",
      "lg": "eu.el",
@@ -2663,18 +2622,47 @@
      "a": "AZ Alkmaar",
      "side": "a",
      "pick": "AZ Alkmaar",
-     "c": 0.3815,
+     "c": 0.3927,
      "p": {
-      "h": 0.3506,
-      "d": 0.2679,
-      "a": 0.3815
+      "h": 0.34,
+      "d": 0.2673,
+      "a": 0.3927
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5597,
-     "o25": 0.5327,
+     "btts": 0.5596,
+     "o25": 0.5329,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "17:45",
+     "ko": "2026-11-26T17:45:00Z",
+     "lg": "eu.ec",
+     "lgName": "Conference League",
+     "country": "Europe",
+     "h": "Iberia 1999",
+     "a": "Getafe",
+     "side": "a",
+     "pick": "Getafe",
+     "c": 0.3867,
+     "p": {
+      "h": 0.3067,
+      "d": 0.3066,
+      "a": 0.3867
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5057,
+     "o25": 0.4654,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -2859,20 +2847,20 @@
    ],
    "pinned": {
     "list": {
-     "n": 12,
+     "n": 13,
      "won": 7,
      "lost": 1,
      "void": 0,
      "started": 0,
-     "upcoming": 4
+     "upcoming": 5
     },
     "reserve": {
      "n": 33,
-     "won": 9,
+     "won": 14,
      "lost": 1,
      "void": 0,
-     "started": 6,
-     "upcoming": 17
+     "started": 2,
+     "upcoming": 16
     },
     "groupA": {
      "n": 5,
@@ -3519,51 +3507,6 @@
      "reserve": true
     },
     {
-     "t": "20:30",
-     "ko": "2026-11-27T20:30:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "Nacional Asunci\u00f3n",
-     "a": "Rubio \u00d1\u00fa",
-     "side": "h",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.7107,
-     "p": {
-      "h": 0.7107,
-      "d": 0.193,
-      "a": 0.0963
-     },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4944,
-     "o25": 0.5263,
-     "hit": 0.718,
-     "hitN": 39,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "03:30",
-     "ko": "2026-11-27T03:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Omaha Mavericks",
-     "a": "Pacific Tigers",
-     "side": "a",
-     "pick": "Pacific Tigers",
-     "c": 0.7104,
-     "hit": 0.6881,
-     "hitN": 619,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "17:00",
      "ko": "2026-11-27T17:00Z",
      "lg": "ncaab",
@@ -3639,6 +3582,35 @@
      "hitN": 125,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "20:30",
+     "ko": "2026-11-27T20:30:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "Nacional Asunci\u00f3n",
+     "a": "Rubio \u00d1\u00fa",
+     "side": "h",
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.6893,
+     "p": {
+      "h": 0.6893,
+      "d": 0.2058,
+      "a": 0.1049
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.492,
+     "o25": 0.5158,
+     "hit": 0.8148,
+     "hitN": 54,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
     },
     {
      "t": "19:15",
@@ -3903,6 +3875,22 @@
      "list": false,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "03:30",
+     "ko": "2026-11-27T03:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Omaha Mavericks",
+     "a": "Pacific Tigers",
+     "side": "a",
+     "pick": "Pacific Tigers",
+     "c": 0.6536,
+     "hit": 0.6454,
+     "hitN": 592,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "20:00",
@@ -6125,6 +6113,35 @@
      "unrated": false
     },
     {
+     "t": "01:00",
+     "ko": "2026-11-27T01:00:00Z",
+     "lg": "mx.1",
+     "lgName": "Liga MX",
+     "country": "Mexico",
+     "h": "Pachuca",
+     "a": "Guadalajara",
+     "side": "h",
+     "pick": "Pachuca",
+     "c": 0.4084,
+     "p": {
+      "h": 0.4084,
+      "d": 0.2822,
+      "a": 0.3095
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5356,
+     "o25": 0.5034,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "18:00",
      "ko": "2026-11-27T18:00:00Z",
      "lg": "af.85",
@@ -6183,35 +6200,6 @@
      "unrated": false
     },
     {
-     "t": "01:00",
-     "ko": "2026-11-27T01:00:00Z",
-     "lg": "mx.1",
-     "lgName": "Liga MX",
-     "country": "Mexico",
-     "h": "Pachuca",
-     "a": "Guadalajara",
-     "side": "h",
-     "pick": "Pachuca",
-     "c": 0.4076,
-     "p": {
-      "h": 0.4076,
-      "d": 0.2833,
-      "a": 0.3091
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5341,
-     "o25": 0.5014,
-     "hit": null,
-     "hitN": null,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "03:10",
      "ko": "2026-11-27T03:10:00Z",
      "lg": "mx.1",
@@ -6221,18 +6209,18 @@
      "a": "Cruz Azul",
      "side": "a",
      "pick": "Cruz Azul",
-     "c": 0.4063,
+     "c": 0.4068,
      "p": {
-      "h": 0.3435,
-      "d": 0.2502,
-      "a": 0.4063
+      "h": 0.3441,
+      "d": 0.2491,
+      "a": 0.4068
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5841,
-     "o25": 0.5652,
+     "btts": 0.5857,
+     "o25": 0.5673,
      "hit": null,
      "hitN": null,
      "celtic": false,
@@ -7317,7 +7305,7 @@
   },
   {
    "date": "2026-11-28",
-   "count": 712,
+   "count": 715,
    "games": [
     {
      "t": "00:30",
@@ -8713,6 +8701,22 @@
      "unrated": false
     },
     {
+     "t": "00:30",
+     "ko": "2026-11-28T00:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Mississippi State Bulldogs",
+     "a": "Penn State Nittany Lions",
+     "side": "h",
+     "pick": "Mississippi State Bulldogs",
+     "c": 0.7595,
+     "hit": 0.7408,
+     "hitN": 629,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "14:00",
      "ko": "2026-11-28T14:00:00Z",
      "lg": "af.404",
@@ -9147,6 +9151,22 @@
      "reserve": true
     },
     {
+     "t": "02:30",
+     "ko": "2026-11-28T02:30Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Portland Trail Blazers",
+     "a": "Golden State Warriors",
+     "side": "h",
+     "pick": "Portland Trail Blazers",
+     "c": 0.7241,
+     "hit": 0.7741,
+     "hitN": 177,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "18:00",
      "ko": "2026-11-28T18:00Z",
      "lg": "ncaab",
@@ -9204,22 +9224,6 @@
      "c": 0.7196,
      "hit": 0.7797,
      "hitN": 168,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "02:30",
-     "ko": "2026-11-28T02:30Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Portland Trail Blazers",
-     "a": "Golden State Warriors",
-     "side": "h",
-     "pick": "Portland Trail Blazers",
-     "c": 0.7195,
-     "hit": 0.7741,
-     "hitN": 177,
      "list": false,
      "reserve": true
     },
@@ -10630,22 +10634,6 @@
      "unrated": false
     },
     {
-     "t": "02:30",
-     "ko": "2026-11-28T02:30Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "San Antonio Spurs",
-     "a": "Los Angeles Lakers",
-     "side": "h",
-     "pick": "San Antonio Spurs",
-     "c": 0.6491,
-     "hit": 0.6496,
-     "hitN": 197,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "23:00",
      "ko": "2026-11-28T23:00Z",
      "lg": "nba",
@@ -11061,6 +11049,22 @@
      "reserve": true
     },
     {
+     "t": "02:30",
+     "ko": "2026-11-28T02:30Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "San Antonio Spurs",
+     "a": "Los Angeles Lakers",
+     "side": "h",
+     "pick": "San Antonio Spurs",
+     "c": 0.6317,
+     "hit": 0.6496,
+     "hitN": 197,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "15:30",
      "ko": "2026-11-28T15:30:00Z",
      "lg": "af.456",
@@ -11370,6 +11374,22 @@
      "unrated": false
     },
     {
+     "t": "03:30",
+     "ko": "2026-11-28T03:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Omaha Mavericks",
+     "a": "Jacksonville State Gamecocks",
+     "side": "a",
+     "pick": "Jacksonville State Gamecocks",
+     "c": 0.622,
+     "hit": 0.583,
+     "hitN": 674,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "13:45",
      "ko": "2026-11-28T13:45:00Z",
      "lg": "af.542",
@@ -11478,6 +11498,35 @@
      ],
      "btts": 0.5397,
      "o25": 0.5446,
+     "hit": 0.646,
+     "hitN": 3240,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "16:00",
+     "ko": "2026-11-28T16:00:00Z",
+     "lg": "af.186",
+     "lgName": "Ligue 1",
+     "country": "Algeria",
+     "h": "MC Alger",
+     "a": "JS Saoura",
+     "side": "h",
+     "pick": "MC Alger",
+     "c": 0.6146,
+     "p": {
+      "h": 0.6146,
+      "d": 0.2756,
+      "a": 0.1098
+     },
+     "score": [
+      1,
+      0
+     ],
+     "btts": 0.4361,
+     "o25": 0.433,
      "hit": 0.646,
      "hitN": 3240,
      "celtic": false,
@@ -17692,35 +17741,6 @@
      "unrated": false
     },
     {
-     "t": "23:30",
-     "ko": "2026-11-28T23:30:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "Nacional Potos\u00ed",
-     "a": "Oriente Petrolero",
-     "side": "h",
-     "pick": "Nacional Potos\u00ed",
-     "c": 0.4773,
-     "p": {
-      "h": 0.4773,
-      "d": 0.2677,
-      "a": 0.255
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5383,
-     "o25": 0.5143,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "21:00",
      "ko": "2026-11-28T19:00:00Z",
      "lg": "gr.1",
@@ -19920,6 +19940,35 @@
      "hit": null,
      "hitN": null,
      "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "23:30",
+     "ko": "2026-11-28T23:30:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "Nacional Potos\u00ed",
+     "a": "Oriente Petrolero",
+     "side": "h",
+     "pick": "Nacional Potos\u00ed",
+     "c": 0.4437,
+     "p": {
+      "h": 0.4437,
+      "d": 0.28,
+      "a": 0.2763
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5306,
+     "o25": 0.5005,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -24072,6 +24121,35 @@
      "unrated": false
     },
     {
+     "t": "16:00",
+     "ko": "2026-11-28T16:00:00Z",
+     "lg": "af.186",
+     "lgName": "Ligue 1",
+     "country": "Algeria",
+     "h": "MC Oran",
+     "a": "CR Belouizdad",
+     "side": "h",
+     "pick": "MC Oran",
+     "c": 0.3898,
+     "p": {
+      "h": 0.3898,
+      "d": 0.318,
+      "a": 0.2922
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.4911,
+     "o25": 0.4486,
+     "hit": null,
+     "hitN": null,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "en.7ss",
@@ -26682,35 +26760,6 @@
      "unrated": false
     },
     {
-     "t": "16:00",
-     "ko": "2026-11-28T16:00:00Z",
-     "lg": "af.186",
-     "lgName": "Ligue 1",
-     "country": "Algeria",
-     "h": "JS Saoura",
-     "a": "T\u00e9mouchent",
-     "side": "d",
-     "pick": "Draw",
-     "c": 0.3443,
-     "p": {
-      "h": 0.3374,
-      "d": 0.3443,
-      "a": 0.3183
-     },
-     "score": [
-      0,
-      0
-     ],
-     "btts": 0.4669,
-     "o25": 0.4192,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:00",
      "ko": "2026-11-28T13:00:00Z",
      "lg": "af.567",
@@ -27076,22 +27125,6 @@
      "reserve": false
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-29T21:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Stanford Cardinal",
-     "a": "Portland Pilots",
-     "side": "h",
-     "pick": "Stanford Cardinal",
-     "c": 0.8733,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "06:30",
      "ko": "2026-11-29T06:30:00Z",
      "lg": "af.275",
@@ -27163,6 +27196,22 @@
      "side": "h",
      "pick": "Tulsa Golden Hurricane",
      "c": 0.865,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "21:00",
+     "ko": "2026-11-29T21:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Stanford Cardinal",
+     "a": "Portland Pilots",
+     "side": "h",
+     "pick": "Stanford Cardinal",
+     "c": 0.8641,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -27394,6 +27443,22 @@
      "unrated": false
     },
     {
+     "t": "23:00",
+     "ko": "2026-11-29T23:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Portland Trail Blazers",
+     "a": "New Orleans Pelicans",
+     "side": "h",
+     "pick": "Portland Trail Blazers",
+     "c": 0.8244,
+     "hit": 0.854,
+     "hitN": 89,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "14:00",
      "ko": "2026-11-29T14:00:00Z",
      "lg": "af.962",
@@ -27450,22 +27515,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "23:00",
-     "ko": "2026-11-29T23:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Portland Trail Blazers",
-     "a": "New Orleans Pelicans",
-     "side": "h",
-     "pick": "Portland Trail Blazers",
-     "c": 0.8132,
-     "hit": 0.854,
-     "hitN": 89,
-     "list": true,
-     "reserve": false
     },
     {
      "t": "18:00",
@@ -29240,22 +29289,6 @@
      "reserve": true
     },
     {
-     "t": "21:00",
-     "ko": "2026-11-29T21:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "San Antonio Spurs",
-     "a": "Boston Celtics",
-     "side": "h",
-     "pick": "San Antonio Spurs",
-     "c": 0.6588,
-     "hit": 0.6776,
-     "hitN": 183,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-29T13:30:00Z",
      "lg": "af.434",
@@ -29577,6 +29610,22 @@
      "c": 0.6429,
      "hit": 0.583,
      "hitN": 674,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "21:00",
+     "ko": "2026-11-29T21:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "San Antonio Spurs",
+     "a": "Boston Celtics",
+     "side": "h",
+     "pick": "San Antonio Spurs",
+     "c": 0.6417,
+     "hit": 0.6496,
+     "hitN": 197,
      "list": false,
      "reserve": true
     },
@@ -31321,35 +31370,6 @@
      "unrated": false
     },
     {
-     "t": "03:10",
-     "ko": "2026-11-29T03:10:00Z",
-     "lg": "mx.1",
-     "lgName": "Liga MX",
-     "country": "Mexico",
-     "h": "Am\u00e9rica",
-     "a": "Monterrey",
-     "side": "h",
-     "pick": "Am\u00e9rica",
-     "c": 0.5585,
-     "p": {
-      "h": 0.5585,
-      "d": 0.2196,
-      "a": 0.2219
-     },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.584,
-     "o25": 0.5833,
-     "hit": 0.5352,
-     "hitN": 99,
-     "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "05:00",
      "ko": "2026-11-29T05:00:00Z",
      "lg": "af.293",
@@ -31518,6 +31538,35 @@
      "o25": 0.4781,
      "hit": 0.5868,
      "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "03:10",
+     "ko": "2026-11-29T03:10:00Z",
+     "lg": "mx.1",
+     "lgName": "Liga MX",
+     "country": "Mexico",
+     "h": "Am\u00e9rica",
+     "a": "Monterrey",
+     "side": "h",
+     "pick": "Am\u00e9rica",
+     "c": 0.5496,
+     "p": {
+      "h": 0.5496,
+      "d": 0.2278,
+      "a": 0.2226
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5733,
+     "o25": 0.5689,
+     "hit": 0.4896,
+     "hitN": 194,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -33525,35 +33574,6 @@
      "unrated": false
     },
     {
-     "t": "20:00",
-     "ko": "2026-11-29T20:00:00Z",
-     "lg": "py.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Paraguay",
-     "h": "2 de Mayo",
-     "a": "Nacional Asunci\u00f3n",
-     "side": "a",
-     "pick": "Nacional Asunci\u00f3n",
-     "c": 0.5014,
-     "p": {
-      "h": 0.2163,
-      "d": 0.2824,
-      "a": 0.5014
-     },
-     "score": [
-      0,
-      1
-     ],
-     "btts": 0.5043,
-     "o25": 0.4782,
-     "hit": 0.4896,
-     "hitN": 194,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "13:30",
      "ko": "2026-11-29T13:30:00Z",
      "lg": "af.431",
@@ -34366,6 +34386,35 @@
      "unrated": false
     },
     {
+     "t": "01:00",
+     "ko": "2026-11-29T01:00:00Z",
+     "lg": "mx.1",
+     "lgName": "Liga MX",
+     "country": "Mexico",
+     "h": "Atlas",
+     "a": "Toluca",
+     "side": "a",
+     "pick": "Toluca",
+     "c": 0.4838,
+     "p": {
+      "h": 0.283,
+      "d": 0.2332,
+      "a": 0.4838
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5937,
+     "o25": 0.5838,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "14:30",
      "ko": "2026-11-29T14:30:00Z",
      "lg": "af.813",
@@ -34395,30 +34444,30 @@
      "unrated": false
     },
     {
-     "t": "01:00",
-     "ko": "2026-11-29T01:00:00Z",
-     "lg": "mx.1",
-     "lgName": "Liga MX",
-     "country": "Mexico",
-     "h": "Atlas",
-     "a": "Toluca",
+     "t": "20:00",
+     "ko": "2026-11-29T20:00:00Z",
+     "lg": "py.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Paraguay",
+     "h": "2 de Mayo",
+     "a": "Nacional Asunci\u00f3n",
      "side": "a",
-     "pick": "Toluca",
-     "c": 0.4827,
+     "pick": "Nacional Asunci\u00f3n",
+     "c": 0.482,
      "p": {
-      "h": 0.283,
-      "d": 0.2344,
-      "a": 0.4827
+      "h": 0.2271,
+      "d": 0.2909,
+      "a": 0.482
      },
      "score": [
-      1,
+      0,
       1
      ],
-     "btts": 0.592,
-     "o25": 0.5816,
+     "btts": 0.5003,
+     "o25": 0.4702,
      "hit": 0.4634,
      "hitN": 259,
-     "celtic": false,
+     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -42575,7 +42624,7 @@
      "a": "Incarnate Word Cardinals",
      "side": "h",
      "pick": "Grand Canyon Lopes",
-     "c": 0.9589,
+     "c": 0.9657,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -42591,7 +42640,7 @@
      "a": "Norfolk State Spartans",
      "side": "h",
      "pick": "Washington Huskies",
-     "c": 0.9496,
+     "c": 0.9466,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -42623,7 +42672,7 @@
      "a": "Minnesota Timberwolves",
      "side": "a",
      "pick": "Minnesota Timberwolves",
-     "c": 0.8235,
+     "c": 0.831,
      "hit": 0.854,
      "hitN": 89,
      "list": true,
@@ -42762,6 +42811,22 @@
      "reserve": true
     },
     {
+     "t": "01:30",
+     "ko": "2026-11-30T01:30Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Golden State Warriors",
+     "a": "LA Clippers",
+     "side": "h",
+     "pick": "Golden State Warriors",
+     "c": 0.6567,
+     "hit": 0.6776,
+     "hitN": 183,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "08:30",
      "ko": "2026-11-30T08:30:00Z",
      "lg": "af.275",
@@ -42789,22 +42854,6 @@
      "list": false,
      "reserve": true,
      "unrated": false
-    },
-    {
-     "t": "01:30",
-     "ko": "2026-11-30T01:30Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Golden State Warriors",
-     "a": "LA Clippers",
-     "side": "h",
-     "pick": "Golden State Warriors",
-     "c": 0.6448,
-     "hit": 0.6496,
-     "hitN": 197,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "13:00",
@@ -42845,18 +42894,18 @@
      "a": "Le\u00f3n",
      "side": "h",
      "pick": "Cruz Azul",
-     "c": 0.6061,
+     "c": 0.6074,
      "p": {
-      "h": 0.6061,
-      "d": 0.2092,
-      "a": 0.1847
+      "h": 0.6074,
+      "d": 0.208,
+      "a": 0.1846
      },
      "score": [
       2,
       1
      ],
-     "btts": 0.5724,
-     "o25": 0.5795,
+     "btts": 0.5739,
+     "o25": 0.5816,
      "hit": 0.7052,
      "hitN": 78,
      "celtic": false,
@@ -43541,18 +43590,18 @@
      "a": "Pachuca",
      "side": "h",
      "pick": "Guadalajara",
-     "c": 0.4719,
+     "c": 0.473,
      "p": {
-      "h": 0.4719,
-      "d": 0.2732,
-      "a": 0.2549
+      "h": 0.473,
+      "d": 0.272,
+      "a": 0.2551
      },
      "score": [
       1,
       1
      ],
-     "btts": 0.5316,
-     "o25": 0.5054,
+     "btts": 0.5331,
+     "o25": 0.5073,
      "hit": 0.4634,
      "hitN": 259,
      "celtic": false,
@@ -44680,7 +44729,7 @@
      "a": "San Antonio Spurs",
      "side": "a",
      "pick": "San Antonio Spurs",
-     "c": 0.8693,
+     "c": 0.8605,
      "hit": 0.8816,
      "hitN": 76,
      "list": true,
@@ -47786,7 +47835,7 @@
   },
   {
    "date": "2026-12-02",
-   "count": 182,
+   "count": 183,
    "games": [
     {
      "t": "00:00",
@@ -48109,22 +48158,6 @@
      "reserve": false
     },
     {
-     "t": "02:30",
-     "ko": "2026-12-02T02:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "San Diego Toreros",
-     "a": "Hawai'i Rainbow Warriors",
-     "side": "h",
-     "pick": "San Diego Toreros",
-     "c": 0.8713,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "01:00",
      "ko": "2026-12-02T01:00Z",
      "lg": "ncaab",
@@ -48135,6 +48168,22 @@
      "side": "h",
      "pick": "Indiana Hoosiers",
      "c": 0.8649,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "02:30",
+     "ko": "2026-12-02T02:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "San Diego Toreros",
+     "a": "Hawai'i Rainbow Warriors",
+     "side": "h",
+     "pick": "San Diego Toreros",
+     "c": 0.8643,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -48184,6 +48233,22 @@
      "list": true,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "00:00",
+     "ko": "2026-12-02T00:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Jacksonville State Gamecocks",
+     "a": "Little Rock Trojans",
+     "side": "h",
+     "pick": "Jacksonville State Gamecocks",
+     "c": 0.8438,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "01:00",
@@ -48302,22 +48367,6 @@
      "side": "h",
      "pick": "Michigan State Spartans",
      "c": 0.8093,
-     "hit": 0.7802,
-     "hitN": 614,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "00:00",
-     "ko": "2026-12-02T00:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Jacksonville State Gamecocks",
-     "a": "Little Rock Trojans",
-     "side": "h",
-     "pick": "Jacksonville State Gamecocks",
-     "c": 0.806,
      "hit": 0.7802,
      "hitN": 614,
      "list": false,
@@ -48526,6 +48575,22 @@
      "unrated": false
     },
     {
+     "t": "03:00",
+     "ko": "2026-12-02T03:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Golden State Warriors",
+     "a": "Utah Jazz",
+     "side": "h",
+     "pick": "Golden State Warriors",
+     "c": 0.7294,
+     "hit": 0.7741,
+     "hitN": 177,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "05:00",
      "ko": "2026-12-02T05:00Z",
      "lg": "ncaab",
@@ -48583,22 +48648,6 @@
      "c": 0.7205,
      "hit": 0.6881,
      "hitN": 619,
-     "list": false,
-     "reserve": true
-    },
-    {
-     "t": "03:00",
-     "ko": "2026-12-02T03:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Golden State Warriors",
-     "a": "Utah Jazz",
-     "side": "h",
-     "pick": "Golden State Warriors",
-     "c": 0.719,
-     "hit": 0.7741,
-     "hitN": 177,
      "list": false,
      "reserve": true
     },
@@ -49207,6 +49256,22 @@
      "reserve": true
     },
     {
+     "t": "02:00",
+     "ko": "2026-12-02T02:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Colorado State Rams",
+     "a": "UT Arlington Mavericks",
+     "side": "h",
+     "pick": "Colorado State Rams",
+     "c": 0.624,
+     "hit": 0.583,
+     "hitN": 674,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "00:00",
      "ko": "2026-12-02T00:00Z",
      "lg": "ncaab",
@@ -49716,8 +49781,8 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-12-02T15:00:00Z",
+     "t": "14:30",
+     "ko": "2026-12-02T14:30:00Z",
      "lg": "afc.732",
      "lgName": "Cup",
      "country": "Serbia",
@@ -49774,8 +49839,8 @@
      "unrated": false
     },
     {
-     "t": "09:00",
-     "ko": "2026-12-02T09:00:00Z",
+     "t": "10:00",
+     "ko": "2026-12-02T10:00:00Z",
      "lg": "af.637",
      "lgName": "V.League 2",
      "country": "Vietnam",
@@ -49861,8 +49926,8 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-12-02T15:00:00Z",
+     "t": "12:00",
+     "ko": "2026-12-02T12:00:00Z",
      "lg": "afc.732",
      "lgName": "Cup",
      "country": "Serbia",
@@ -50122,8 +50187,8 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-12-02T15:00:00Z",
+     "t": "14:30",
+     "ko": "2026-12-02T14:30:00Z",
      "lg": "afc.732",
      "lgName": "Cup",
      "country": "Serbia",
@@ -50238,8 +50303,8 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-12-02T15:00:00Z",
+     "t": "16:00",
+     "ko": "2026-12-02T16:00:00Z",
      "lg": "afc.732",
      "lgName": "Cup",
      "country": "Serbia",
@@ -50528,6 +50593,35 @@
      "unrated": false
     },
     {
+     "t": "22:30",
+     "ko": "2026-12-02T22:30:00Z",
+     "lg": "bo.1",
+     "lgName": "Divisi\u00f3n Profesional",
+     "country": "Bolivia",
+     "h": "The Strongest",
+     "a": "Nacional Potos\u00ed",
+     "side": "h",
+     "pick": "The Strongest",
+     "c": 0.4803,
+     "p": {
+      "h": 0.4803,
+      "d": 0.2708,
+      "a": 0.2488
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.532,
+     "o25": 0.5071,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "19:45",
      "ko": "2026-12-02T19:45:00Z",
      "lg": "sco.1",
@@ -50615,8 +50709,8 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-12-02T15:00:00Z",
+     "t": "12:00",
+     "ko": "2026-12-02T12:00:00Z",
      "lg": "afc.732",
      "lgName": "Cup",
      "country": "Serbia",
@@ -50810,35 +50904,6 @@
      ],
      "btts": 0.5039,
      "o25": 0.471,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "22:30",
-     "ko": "2026-12-02T22:30:00Z",
-     "lg": "bo.1",
-     "lgName": "Divisi\u00f3n Profesional",
-     "country": "Bolivia",
-     "h": "The Strongest",
-     "a": "Nacional Potos\u00ed",
-     "side": "h",
-     "pick": "The Strongest",
-     "c": 0.4585,
-     "p": {
-      "h": 0.4585,
-      "d": 0.2693,
-      "a": 0.2721
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5424,
-     "o25": 0.5168,
      "hit": 0.4634,
      "hitN": 259,
      "celtic": true,
@@ -51949,8 +52014,8 @@
      "unrated": false
     },
     {
-     "t": "15:00",
-     "ko": "2026-12-02T15:00:00Z",
+     "t": "14:30",
+     "ko": "2026-12-02T14:30:00Z",
      "lg": "afc.732",
      "lgName": "Cup",
      "country": "Serbia",
@@ -52341,7 +52406,7 @@
      "a": "Arkansas-Pine Bluff Golden Lions",
      "side": "h",
      "pick": "Saint Louis Billikens",
-     "c": 0.9654,
+     "c": 0.968,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -52597,7 +52662,7 @@
      "a": "Stanford Cardinal",
      "side": "h",
      "pick": "Texas A&M Aggies",
-     "c": 0.8797,
+     "c": 0.888,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -52662,6 +52727,22 @@
      "side": "h",
      "pick": "Western Michigan Broncos",
      "c": 0.873,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
+     "t": "03:00",
+     "ko": "2026-12-03T03:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Nevada Wolf Pack",
+     "a": "Pacific Tigers",
+     "side": "h",
+     "pick": "Nevada Wolf Pack",
+     "c": 0.8686,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -52764,22 +52845,6 @@
      "reserve": false
     },
     {
-     "t": "03:00",
-     "ko": "2026-12-03T03:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Nevada Wolf Pack",
-     "a": "Pacific Tigers",
-     "side": "h",
-     "pick": "Nevada Wolf Pack",
-     "c": 0.8357,
-     "hit": 0.7802,
-     "hitN": 614,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "03:30",
      "ko": "2026-12-03T03:30Z",
      "lg": "ncaab",
@@ -52789,7 +52854,7 @@
      "a": "Washington Huskies",
      "side": "h",
      "pick": "USC Trojans",
-     "c": 0.8238,
+     "c": 0.8324,
      "hit": 0.7802,
      "hitN": 614,
      "list": false,
@@ -52828,6 +52893,22 @@
      "reserve": true
     },
     {
+     "t": "02:00",
+     "ko": "2026-12-03T02:00Z",
+     "lg": "nba",
+     "lgName": "NBA",
+     "sport": "nba",
+     "h": "Phoenix Suns",
+     "a": "Sacramento Kings",
+     "side": "h",
+     "pick": "Phoenix Suns",
+     "c": 0.8054,
+     "hit": 0.854,
+     "hitN": 89,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "01:00",
      "ko": "2026-12-03T01:00Z",
      "lg": "nba",
@@ -52842,22 +52923,6 @@
      "hitN": 89,
      "list": true,
      "reserve": false
-    },
-    {
-     "t": "02:00",
-     "ko": "2026-12-03T02:00Z",
-     "lg": "nba",
-     "lgName": "NBA",
-     "sport": "nba",
-     "h": "Phoenix Suns",
-     "a": "Sacramento Kings",
-     "side": "h",
-     "pick": "Phoenix Suns",
-     "c": 0.7971,
-     "hit": 0.7668,
-     "hitN": 133,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "00:30",
@@ -53004,22 +53069,6 @@
      "reserve": true
     },
     {
-     "t": "01:00",
-     "ko": "2026-12-03T01:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Oklahoma State Cowboys",
-     "a": "Grand Canyon Lopes",
-     "side": "h",
-     "pick": "Oklahoma State Cowboys",
-     "c": 0.7176,
-     "hit": 0.6881,
-     "hitN": 619,
-     "list": false,
-     "reserve": true
-    },
-    {
      "t": "00:00",
      "ko": "2026-12-03T00:00Z",
      "lg": "ncaab",
@@ -53046,6 +53095,22 @@
      "side": "h",
      "pick": "UAB Blazers",
      "c": 0.6952,
+     "hit": 0.6454,
+     "hitN": 592,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "01:00",
+     "ko": "2026-12-03T01:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Oklahoma State Cowboys",
+     "a": "Grand Canyon Lopes",
+     "side": "h",
+     "pick": "Oklahoma State Cowboys",
+     "c": 0.6913,
      "hit": 0.6454,
      "hitN": 592,
      "list": false,
