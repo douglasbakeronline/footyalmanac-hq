@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T04:14+00:00",
+ "generated": "2026-11-26T13:35+00:00",
  "window": 28,
  "since": "2026-10-29",
  "objectives": {
@@ -80,7 +80,7 @@
    }
   },
   "coverage": {
-   "fixtures": 1650,
+   "fixtures": 1660,
    "unrated": 0
   }
  },
@@ -137,17 +137,17 @@
    "key": "hq-reserve-other-sports",
    "owner": "curator",
    "title": "Reserve (other sports) landing below its quotes",
-   "brief": "Other Sports reserve picks over the last 28 days: 321 of 482 landed (67%) against 354.3 expected (74% quoted), z -3.5. Find which bands or competitions carry the gap and whether the reserve should exclude them.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "brief": "Other Sports reserve picks over the last 28 days: 327 of 488 landed (67%) against 358.6 expected (73% quoted), z -3.3. Find which bands or competitions carry the gap and whether the reserve should exclude them.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 482,
-    "won": 321,
-    "expected": 354.3,
-    "z": -3.48,
-    "quoted": 0.7351,
-    "landed": 0.666
+    "n": 488,
+    "won": 327,
+    "expected": 358.6,
+    "z": -3.28,
+    "quoted": 0.7348,
+    "landed": 0.6701
    },
    "metric": "honesty",
-   "score": 5.22
+   "score": 4.92
   },
   {
    "key": "hq-band-50",
