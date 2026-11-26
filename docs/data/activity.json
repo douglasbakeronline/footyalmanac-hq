@@ -651,8 +651,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-26T20:53:29.594202+00:00",
+ "fetched": "2026-11-26T22:08:31.451892+00:00",
  "commits": [
+  {
+   "sha": "2d948cd",
+   "msg": "Archive predictions and record for 2026-11-26 [skip ci]",
+   "date": "2026-11-26T21:08:43Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/2d948cdc784bcbdc0172b1113e138dd03eb0d0ac"
+  },
   {
    "sha": "1dda6be",
    "msg": "Archive predictions and record for 2026-11-26 [skip ci]",
@@ -766,17 +772,23 @@
    "msg": "Archive predictions and record for 2026-11-26 [skip ci]",
    "date": "2026-11-26T11:09:46Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1ec52353e7d4a64c2e7e3821df3f6af23d342128"
-  },
-  {
-   "sha": "e8d4787",
-   "msg": "Archive predictions and record for 2026-11-26 [skip ci]",
-   "date": "2026-11-26T09:19:54Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e8d478750d06d6459d6c7e17b81c806297b1a56d"
   }
  ],
  "runs": [
   {
-   "conclusion": "",
+   "conclusion": "success",
+   "createdAt": "2026-11-26T21:11:08Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45896351344"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-26T21:05:02Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45895615909"
+  },
+  {
+   "conclusion": "success",
    "createdAt": "2026-11-26T20:49:35Z",
    "name": "Briefing watch",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45893821234"
@@ -822,18 +834,6 @@
    "createdAt": "2026-11-26T20:35:18Z",
    "name": "Rebuild and publish",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45892127414"
-  },
-  {
-   "conclusion": "cancelled",
-   "createdAt": "2026-11-26T20:14:04Z",
-   "name": "Briefing watch",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45889530170"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-26T20:06:42Z",
-   "name": "Rebuild and publish",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/45888605525"
   }
  ]
 }
