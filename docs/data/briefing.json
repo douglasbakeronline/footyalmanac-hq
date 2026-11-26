@@ -1,21 +1,23 @@
 {
- "time": "2026-11-26T13:34:42.757695+00:00",
+ "time": "2026-11-26T17:18:51.308026+00:00",
  "date": "2026-11-26",
  "stage": "refresh",
  "pricing": {
-  "priced": 29,
-  "total": 33,
+  "priced": 21,
+  "total": 23,
   "site": true,
-  "generated": "2026-11-26T11:08:24Z"
+  "generated": "2026-11-26T17:02:06Z"
  },
  "review": {
-  "dropped": [],
+  "dropped": [
+   "Multiplier"
+  ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 88,
-  "list": 5,
-  "tomorrow": 180
+  "today": 62,
+  "list": 3,
+  "tomorrow": 181
  },
  "impactful": [
   {
@@ -919,5 +921,5 @@
  },
  "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/70",
  "issue": 70,
- "text": "Good afternoon Douglas. Thursday 26 November, 13:34 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (29 of today's 33 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Every group still clears its price after the haircut.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "text": "Good afternoon Douglas. Thursday 26 November, 17:18 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (21 of today's 23 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
