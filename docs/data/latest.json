@@ -1,36 +1,36 @@
 {
- "id": 1795650728599,
- "time": "2026-11-25T23:52:08.599138+00:00",
- "trigger": "work",
+ "id": 1795666459297,
+ "time": "2026-11-26T04:14:19.297954+00:00",
+ "trigger": "scheduled 04:00",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Daily List, last 28 days: 346 of 389 landed against 341 expected (89% landed, 88% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +2.2); 1,638 football fixtures on the board, 0 unrated.",
-   "today": "Top of the backlog for accas: 7 of 24 Card days had no full-rule group. Dev work: PR #407 Write the office review and next week's priorities (shipped, evidence only).",
+   "yesterday": "Daily List, last 28 days: 349 of 392 landed against 344 expected (89% landed, 88% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +2.3); 1,650 football fixtures on the board, 0 unrated.",
+   "today": "Top of the backlog for accas: 7 of 24 Card days had no full-rule group. Dev work: PR #543 Write the office review and next week's priorities (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1656 football fixtures across 224 competitions for 2026-11-25, plus 438 other-sport and 8 tennis matches.",
+   "yesterday": "Swept 1650 football fixtures across 221 competitions for 2026-11-26, plus 444 other-sport and 5 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #447 Add a free data source for an uncovered league (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "quality",
-   "yesterday": "0 unrated fixtures in today's slate; 224 competitions matched to a rated team pool.",
+   "yesterday": "0 unrated fixtures in today's slate; 221 competitions matched to a rated team pool.",
    "today": "Recheck club-name matching for new API-Football leagues. Dev work: PR #445 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped, changed the model or picks).",
    "blockers": "None."
   },
   {
    "agent": "source",
-   "yesterday": "Coverage is API-Football plus free sources; 10/10 recent builds pulled data cleanly.",
+   "yesterday": "Coverage is API-Football plus free sources; 9/10 recent builds pulled data cleanly.",
    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps. Dev work: PR #446 Make one data source fail more gracefully (shipped, changed the model or picks).",
    "blockers": "None."
   },
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-11-23: log loss 1.006 vs shipped 1.0069 (delta -0.0009).",
-   "today": "Rate today's 1656 fixtures; overall log loss is 1.0078. Dev work: PR #289 Test one ratings improvement (shipped).",
+   "today": "Rate today's 1650 fixtures; overall log loss is 1.0077. Dev work: PR #289 Test one ratings improvement (shipped).",
    "blockers": "None."
   },
   {
@@ -41,37 +41,37 @@
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 73/116, MLB 27/40, NBA 174/261, RUGBY 65/88, CFB 293/426, NCAAB 855/1123, WNBA 9/11. Tennis 64% over 1510 matches (expected 64%).",
+   "yesterday": "Other sports: NFL 73/116, MLB 27/40, NBA 179/268, RUGBY 65/88, CFB 293/426, NCAAB 880/1163, WNBA 9/11. Tennis 64% over 1512 matches (expected 64%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #529 Lift the weakest of the other sports (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "auditor",
-   "yesterday": "Graded 2026-11-25: 26/60 correct (43%).",
-   "today": "Grade early kick-offs at 13:00 and the full day at 23:30. Dev work: PR #406 Audit the grading of recent results (shipped, evidence only).",
+   "yesterday": "Graded 2026-11-26: 1/2 correct (50%). Daily List misses: Managua v Walter Ferretti (77%, finished 0-2).",
+   "today": "Grade early kick-offs at 13:00 and the full day at 23:30. Dev work: PR #542 Audit the grading of recent results (checking).",
    "blockers": "None."
   },
   {
    "agent": "calib",
-   "yesterday": "Biggest calibration gap: picks at 40%-50% won 47% vs 45% expected (6162 games).",
+   "yesterday": "Biggest calibration gap: picks at 40%-50% won 47% vs 45% expected (6187 games).",
    "today": "Track tiers: Strong 79% vs 77%, Firm 70% vs 68%, Lean 61% vs 59%. Dev work: PR #524 Football 50-55% band lands over its quote (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "curator",
-   "yesterday": "Daily List for 2026-11-25: 28 picks. Top: Betlemi v Varketili 91%; Boreham Wood v Gateshead 89%; Alia\u011fa FA\u015e v Kastamonuspor 88%.",
+   "yesterday": "Daily List for 2026-11-26: 29 picks. Top: Betlemi v Varketili 91%; Boreham Wood v Gateshead 90%; Alia\u011fa FA\u015e v Kastamonuspor 88%.",
    "today": "Re-rank at 13:00 if any team news shifts confidence. Dev work: PR #482 Test the Daily List bar (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "engineer",
-   "yesterday": "10/10 recent 'Rebuild and publish' runs green.",
+   "yesterday": "9/10 recent 'Rebuild and publish' runs green.",
    "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #444 Add tests for the least-tested module (shipped, tests only).",
    "blockers": "None."
   },
   {
    "agent": "h1",
-   "yesterday": "England Championship: 43% over 181 graded games (target 50%), 47 drawn out.",
+   "yesterday": "England Championship: 44% over 185 graded games (target 50%), 47 drawn out.",
    "today": "Review every miss in the league with Mia and queue one tested change.",
    "blockers": "None."
   },
@@ -83,13 +83,13 @@
   },
   {
    "agent": "h3",
-   "yesterday": "Groups since 2026-10-19: 38 of 99 won against 35.3 expected.",
+   "yesterday": "Groups since 2026-10-19: 38 of 100 won against 35.8 expected.",
    "today": "Lead the desk: check today's groups against their honest chances before the 07:45 briefing.",
    "blockers": "None."
   },
   {
    "agent": "h4",
-   "yesterday": "Legs since 2026-10-19: 73% landed against 72% quoted over 291.",
+   "yesterday": "Legs since 2026-10-19: 72% landed against 72% quoted over 293.",
    "today": "Compare each settled leg's quote with the bookmaker's fair chance, by price range.",
    "blockers": "None."
   },
@@ -117,7 +117,7 @@
   {
    "owner": "curator",
    "name": "Daily List hit rate",
-   "actual": 0.8895,
+   "actual": 0.8903,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -126,7 +126,7 @@
   {
    "owner": "chief",
    "name": "List landed minus quoted",
-   "actual": 0.013499999999999956,
+   "actual": 0.013299999999999979,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -135,7 +135,7 @@
   {
    "owner": "ratings",
    "name": "Strong tier hit rate",
-   "actual": 0.7923,
+   "actual": 0.7914,
    "target": 0.8,
    "fmt": "pct",
    "higher": true,
@@ -144,7 +144,7 @@
   {
    "owner": "calib",
    "name": "Largest calibration gap",
-   "actual": 0.028600000000000014,
+   "actual": 0.028900000000000037,
    "target": 0.05,
    "fmt": "pct",
    "higher": false,
@@ -153,7 +153,7 @@
   {
    "owner": "scout",
    "name": "Competitions covered today",
-   "actual": 224,
+   "actual": 221,
    "target": 150,
    "fmt": "num",
    "higher": true,
@@ -171,25 +171,25 @@
   {
    "owner": "source",
    "name": "Clean data pulls (last 10)",
-   "actual": 1.0,
+   "actual": 0.9,
    "target": 0.95,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "at risk"
   },
   {
    "owner": "engineer",
    "name": "Builds green (last 10)",
-   "actual": 1.0,
+   "actual": 0.9,
    "target": 1.0,
    "fmt": "pct",
    "higher": true,
-   "status": "on track"
+   "status": "behind"
   },
   {
    "owner": "sports",
    "name": "Tennis hit vs expected",
-   "actual": 0.0032999999999999696,
+   "actual": 0.0031999999999999806,
    "target": 0.0,
    "fmt": "pt",
    "higher": true,
@@ -216,7 +216,7 @@
   {
    "owner": "h1",
    "name": "England Championship hit rate",
-   "actual": 0.4309,
+   "actual": 0.4432,
    "target": 0.5,
    "fmt": "pct",
    "higher": true,
@@ -234,7 +234,7 @@
   {
    "owner": "h3",
    "name": "Groups won minus expected",
-   "actual": 0.0273,
+   "actual": 0.02242600000000003,
    "target": 0.0,
    "fmt": "pt",
    "higher": true,
@@ -243,7 +243,7 @@
   {
    "owner": "h4",
    "name": "Legs landed minus quoted",
-   "actual": 0.0030412371134019844,
+   "actual": 0.0010044368600682363,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -270,8 +270,7 @@
  ],
  "star": "chief",
  "wins": [
-  "Al Ula v Al-Adalah (85%) finished 3-0",
-  "Shan United v Thitsar Arman (81%) finished 4-3"
+  "Real Estel\u00ed v Rancho Santana (82%) finished 3-0"
  ],
  "backlog": [
   {
@@ -299,35 +298,35 @@
    "key": "hq-reserve-other-sports",
    "owner": "curator",
    "title": "Reserve (other sports) landing below its quotes",
-   "score": 4.49,
+   "score": 5.22,
    "metric": "honesty"
   },
   {
    "key": "hq-band-50",
    "owner": "calib",
    "title": "Football 50-55% band lands over its quote",
-   "score": 4.48,
+   "score": 4.58,
    "metric": "honesty"
   },
   {
    "key": "hq-legs-tennis",
    "owner": "legs",
-   "title": "Tennis legs: 37/60 against 44 expected",
-   "score": 2.94,
+   "title": "Tennis legs: 38/61 against 44 expected",
+   "score": 2.85,
    "metric": "groups"
-  },
-  {
-   "key": "hq-tennis-wta",
-   "owner": "sports",
-   "title": "WTA landing above its quotes",
-   "score": 2.7,
-   "metric": "honesty"
   },
   {
    "key": "hq-league-en.7i",
    "owner": "experiment",
    "title": "England Isthmian League Premier lands below its quotes",
    "score": 2.44,
+   "metric": "honesty"
+  },
+  {
+   "key": "hq-sport-mlb",
+   "owner": "sports",
+   "title": "Baseball (MLB) landing above its quotes",
+   "score": 1.85,
    "metric": "honesty"
   }
  ],
@@ -349,36 +348,36 @@
   },
   "list": {
    "football": {
-    "n": 89,
-    "won": 76,
-    "expected": 73.6,
-    "z": 0.69,
-    "quoted": 0.8268,
-    "landed": 0.8539
+    "n": 91,
+    "won": 78,
+    "expected": 75.3,
+    "z": 0.77,
+    "quoted": 0.8271,
+    "landed": 0.8571
    },
    "tennis": {
     "n": 66,
     "won": 56,
-    "expected": 54.6,
-    "z": 0.45,
-    "quoted": 0.8277,
+    "expected": 54.7,
+    "z": 0.42,
+    "quoted": 0.8292,
     "landed": 0.8485
    },
    "nba": {
-    "n": 15,
-    "won": 12,
-    "expected": 12.8,
-    "z": -0.55,
-    "quoted": 0.8506,
-    "landed": 0.8
+    "n": 14,
+    "won": 11,
+    "expected": 11.9,
+    "z": -0.7,
+    "quoted": 0.852,
+    "landed": 0.7857
    },
    "ncaab": {
-    "n": 213,
-    "won": 196,
-    "expected": 194.7,
-    "z": 0.32,
-    "quoted": 0.9141,
-    "landed": 0.9202
+    "n": 215,
+    "won": 198,
+    "expected": 196.8,
+    "z": 0.31,
+    "quoted": 0.9151,
+    "landed": 0.9209
    },
    "nfl": {
     "n": 6,
@@ -390,39 +389,53 @@
    }
   },
   "listAll": {
-   "n": 389,
-   "won": 346,
-   "expected": 340.8,
+   "n": 392,
+   "won": 349,
+   "expected": 343.8,
    "z": 0.82,
-   "quoted": 0.876,
-   "landed": 0.8895
+   "quoted": 0.877,
+   "landed": 0.8903
   },
   "honesty": {
    "worstBand": {
-    "n": 880,
-    "won": 496,
-    "expected": 462.9,
-    "z": 2.24,
+    "n": 886,
+    "won": 500,
+    "expected": 466.0,
+    "z": 2.29,
     "quoted": 0.526,
-    "landed": 0.5636,
+    "landed": 0.5643,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1638,
+   "fixtures": 1650,
    "unrated": 0
   }
  },
  "outcomes": {
   "days": 7,
-  "merged": 19,
+  "merged": 20,
   "count": {
    "model": 4,
    "data": 0,
    "tests": 1,
-   "evidence": 14
+   "evidence": 15
   },
   "items": [
+   {
+    "n": 543,
+    "title": "Write the office review and next week's priorities",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/543",
+    "owner": "chief",
+    "outcome": "evidence"
+   },
+   {
+    "n": 539,
+    "title": "Card tennis legs: 8/15 against 12 expected",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/539",
+    "owner": "legs",
+    "outcome": "evidence"
+   },
    {
     "n": 535,
     "title": "Card: replay every variant on the archived pool, not the football-data rows",
@@ -492,24 +505,75 @@
     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/481",
     "owner": "calib",
     "outcome": "evidence"
-   },
-   {
-    "n": 468,
-    "title": "Reserve (other sports) landing below its quotes",
-    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/468",
-    "owner": "curator",
-    "outcome": "evidence"
-   },
-   {
-    "n": 447,
-    "title": "Add a free data source for an uncovered league",
-    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/447",
-    "owner": "scout",
-    "outcome": "evidence"
    }
   ]
  },
  "dev": [
+  {
+   "n": 543,
+   "title": "[chief] Write the office review and next week's priorities",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/543",
+   "owner": "chief",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-26T02:27:51Z",
+   "merged": "2026-11-26T02:31:29Z",
+   "closed": "2026-11-26T02:31:29Z",
+   "objective": "office-review",
+   "outcome": "evidence"
+  },
+  {
+   "n": 542,
+   "title": "[auditor] Audit the grading of recent results",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/542",
+   "owner": "auditor",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-26T02:21:08Z",
+   "merged": null,
+   "closed": null,
+   "objective": "grading-audit",
+   "outcome": null
+  },
+  {
+   "n": 541,
+   "title": "[champ] Find why the Championship misses",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/541",
+   "owner": "champ",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-26T02:13:09Z",
+   "merged": null,
+   "closed": null,
+   "objective": "championship-deep-dive",
+   "outcome": null
+  },
+  {
+   "n": 540,
+   "title": "[accas] The Card returns 0.800 a unit over 34 groups",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/540",
+   "owner": "accas",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-26T02:06:34Z",
+   "merged": null,
+   "closed": null,
+   "objective": "hq-card-return",
+   "outcome": null
+  },
+  {
+   "n": 539,
+   "title": "[legs] Card tennis legs: 8/15 against 12 expected",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/539",
+   "owner": "legs",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-26T01:58:23Z",
+   "merged": "2026-11-26T02:02:01Z",
+   "closed": "2026-11-26T02:02:01Z",
+   "objective": "hq-card-legs-tennis",
+   "outcome": "evidence"
+  },
   {
    "n": 535,
    "title": "[accas] Card: replay every variant on the archived pool, not the football-data rows",
@@ -600,110 +664,46 @@
    "closed": "2026-11-24T04:09:05Z",
    "objective": "hq-tennis-surface",
    "outcome": "evidence"
-  },
-  {
-   "n": 485,
-   "title": "[experiment] England Isthmian League Premier lands below its quotes",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/485",
-   "owner": "experiment",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-22T23:47:58Z",
-   "merged": "2026-11-22T23:50:35Z",
-   "closed": "2026-11-22T23:50:35Z",
-   "objective": "hq-league-en.7i",
-   "outcome": "evidence"
-  },
-  {
-   "n": 482,
-   "title": "[curator] Test the Daily List bar",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/482",
-   "owner": "curator",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-22T15:06:12Z",
-   "merged": "2026-11-22T15:10:16Z",
-   "closed": "2026-11-22T15:10:16Z",
-   "objective": "list-bar",
-   "outcome": "evidence"
-  },
-  {
-   "n": 481,
-   "title": "[calib] Check calibration by sport and confidence band",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/481",
-   "owner": "calib",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-22T15:00:20Z",
-   "merged": "2026-11-22T15:02:55Z",
-   "closed": "2026-11-22T15:02:55Z",
-   "objective": "calibration-check",
-   "outcome": "evidence"
-  },
-  {
-   "n": 468,
-   "title": "[curator] Reserve (other sports) landing below its quotes",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/468",
-   "owner": "curator",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-21T14:52:28Z",
-   "merged": "2026-11-21T14:55:02Z",
-   "closed": "2026-11-21T14:55:02Z",
-   "objective": "hq-reserve-other-sports",
-   "outcome": "evidence"
-  },
-  {
-   "n": 454,
-   "title": "[odds] Price more of the Odds tab legs",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/454",
-   "owner": "odds",
-   "platform": "office",
-   "status": "closed",
-   "opened": "2026-11-21T00:15:58Z",
-   "merged": null,
-   "closed": "2026-11-21T00:16:02Z",
-   "objective": "odds-coverage",
-   "outcome": null
   }
  ],
  "shipped": [
+  "PR #543 Write the office review and next week's priorities (shipped, evidence only) by Luke",
+  "PR #539 Card tennis legs: 8/15 against 12 expected (shipped, evidence only) by legs",
   "PR #535 Card: replay every variant on the archived pool, not the football-data rows (shipped, evidence only) by accas",
   "PR #529 Lift the weakest of the other sports (shipped, evidence only) by Theo",
   "PR #525 WTA landing above its quotes (shipped, changed the model or picks) by Theo",
-  "PR #524 Football 50-55% band lands over its quote (shipped, evidence only) by Andrew",
-  "PR #518 Find which legs land at or above their quote (shipped, evidence only) by legs",
-  "PR #517 Test whether the model has any edge over bookmaker prices (shipped, evidence only) by value"
+  "PR #524 Football 50-55% band lands over its quote (shipped, evidence only) by Andrew"
  ],
  "lessons": [
+  "Daily List miss: Managua v Walter Ferretti (77%, finished 0-2)",
   "Calibration: 40%-50% band won 47% vs 45% expected",
   "Weakest league: Italy Serie D - Girone C at 32% over 72 games"
  ],
  "stats": {
-  "fixtures": 1656,
-  "competitions": 224,
-  "listPicks": 28,
-  "overallAcc": 0.5085,
-  "listAcc": 0.8233,
-  "listN": 215,
-  "graded": 15322,
-  "logLoss": 1.0078,
-  "dayAcc": 0.4333,
-  "dayDate": "2026-11-25",
-  "tennisAcc": 0.643,
-  "runsOk": 10,
+  "fixtures": 1650,
+  "competitions": 221,
+  "listPicks": 29,
+  "overallAcc": 0.5086,
+  "listAcc": 0.8203,
+  "listN": 217,
+  "graded": 15367,
+  "logLoss": 1.0077,
+  "dayAcc": 0.5,
+  "dayDate": "2026-11-26",
+  "tennisAcc": 0.6429,
+  "runsOk": 9,
   "runsTotal": 10,
   "tiers": [
    {
     "name": "Strong",
     "k": 3,
     "min": 0.7,
-    "n": 626,
-    "correct": 496,
-    "hit": 0.7923,
+    "n": 628,
+    "correct": 497,
+    "hit": 0.7914,
     "expected": 0.7743,
-    "reads": 497,
-    "readHit": 0.7939,
+    "reads": 498,
+    "readHit": 0.793,
     "expectedRead": 0.7745,
     "drawnOut": 69
    },
@@ -711,13 +711,13 @@
     "name": "Firm",
     "k": 2,
     "min": 0.62,
-    "n": 912,
-    "correct": 639,
-    "hit": 0.7007,
-    "expected": 0.6779,
-    "reads": 639,
-    "readHit": 0.7007,
-    "expectedRead": 0.6781,
+    "n": 917,
+    "correct": 644,
+    "hit": 0.7023,
+    "expected": 0.6782,
+    "reads": 644,
+    "readHit": 0.7023,
+    "expectedRead": 0.6784,
     "drawnOut": 154
    },
    {
@@ -737,78 +737,83 @@
     "name": "No read",
     "k": 0,
     "min": 0.0,
-    "n": 12223,
-    "correct": 5698,
-    "hit": 0.4662,
+    "n": 12261,
+    "correct": 5717,
+    "hit": 0.4663,
     "expected": 0.4433,
-    "reads": 8211,
-    "readHit": 0.6718,
-    "expectedRead": 0.6625,
-    "drawnOut": 3108
+    "reads": 8238,
+    "readHit": 0.6719,
+    "expectedRead": 0.6626,
+    "drawnOut": 3117
    }
   ],
   "bands": [
    {
     "from": 0.0,
     "to": 0.4,
-    "n": 3580,
-    "hit": 0.3947,
-    "won": 1413,
+    "n": 3588,
+    "hit": 0.3944,
+    "won": 1415,
     "expected": 0.3751,
-    "reads": 2364,
-    "readHit": 0.6603,
-    "expectedRead": 0.6548
+    "reads": 2368,
+    "readHit": 0.66,
+    "expectedRead": 0.6549
    },
    {
     "from": 0.4,
     "to": 0.5,
-    "n": 6162,
-    "hit": 0.4744,
-    "won": 2923,
+    "n": 6187,
+    "hit": 0.4747,
+    "won": 2937,
     "expected": 0.4458,
-    "reads": 4202,
-    "readHit": 0.6819,
-    "expectedRead": 0.6687
+    "reads": 4221,
+    "readHit": 0.6822,
+    "expectedRead": 0.6688
    },
    {
     "from": 0.5,
     "to": 0.6,
-    "n": 3356,
+    "n": 3361,
     "hit": 0.5608,
-    "won": 1882,
+    "won": 1885,
     "expected": 0.5443,
-    "reads": 2250,
-    "readHit": 0.6704,
-    "expectedRead": 0.6573
+    "reads": 2254,
+    "readHit": 0.6706,
+    "expectedRead": 0.6574
    },
    {
     "from": 0.6,
     "to": 0.7,
-    "n": 1426,
-    "hit": 0.6613,
-    "won": 943,
-    "expected": 0.6416,
-    "reads": 944,
-    "readHit": 0.662,
-    "expectedRead": 0.6429
+    "n": 1430,
+    "hit": 0.6622,
+    "won": 947,
+    "expected": 0.6417,
+    "reads": 948,
+    "readHit": 0.6629,
+    "expectedRead": 0.643
    },
    {
     "from": 0.7,
     "to": 1.0,
-    "n": 798,
-    "hit": 0.7895,
-    "won": 630,
-    "expected": 0.7733,
-    "reads": 631,
-    "readHit": 0.7907,
-    "expectedRead": 0.7735
+    "n": 801,
+    "hit": 0.789,
+    "won": 632,
+    "expected": 0.7736,
+    "reads": 633,
+    "readHit": 0.7903,
+    "expectedRead": 0.7737
    }
   ],
   "days": [
    {
+    "date": "2026-11-26",
+    "acc": 0.5,
+    "n": 2
+   },
+   {
     "date": "2026-11-25",
-    "acc": 0.4333,
-    "n": 60
+    "acc": 0.4854,
+    "n": 103
    },
    {
     "date": "2026-11-24",
@@ -869,11 +874,6 @@
     "date": "2026-11-13",
     "acc": 0.5417,
     "n": 72
-   },
-   {
-    "date": "2026-11-12",
-    "acc": 0.6042,
-    "n": 48
    }
   ],
   "weak": [
@@ -911,7 +911,7 @@
    },
    {
     "m": "Boreham Wood v Gateshead",
-    "c": 0.8933,
+    "c": 0.8993,
     "lg": "en.5"
    },
    {
@@ -925,24 +925,24 @@
     "lg": "af.568"
    },
    {
-    "m": "Istiqlol v Istaravshan",
-    "c": 0.8766,
-    "lg": "af.571"
-   },
-   {
     "m": "Pipinsried v Schalding-Heining",
     "c": 0.8595,
     "lg": "af.939"
    },
    {
-    "m": "Al Ula v Al-Adalah",
-    "c": 0.8503,
-    "lg": "af.308"
+    "m": "Shkendija v Aresimi",
+    "c": 0.8474,
+    "lg": "af.371"
    },
    {
     "m": "Tornado Pekanbaru v Persiba Balikpapan",
     "c": 0.8457,
     "lg": "af.275"
+   },
+   {
+    "m": "Slavia Praha v Ban\u00edk Ostrava",
+    "c": 0.844,
+    "lg": "cze.1"
    }
   ]
  }
