@@ -1,17 +1,69 @@
 {
  "prs": [
   {
+   "n": 580,
+   "title": "[scout] Add a free data source for an uncovered league",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/580",
+   "owner": "scout",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-27T17:35:05Z",
+   "merged": "2026-11-27T17:39:12Z",
+   "closed": "2026-11-27T17:39:12Z",
+   "objective": "coverage",
+   "outcome": "evidence"
+  },
+  {
+   "n": 579,
+   "title": "[source] Make one data source fail more gracefully",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/579",
+   "owner": "source",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-27T17:26:42Z",
+   "merged": null,
+   "closed": null,
+   "objective": "source-resilience",
+   "outcome": null
+  },
+  {
+   "n": 578,
+   "title": "[quality] Check today's fixtures for duplicates, wrong dates and doubtful name matches",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/578",
+   "owner": "quality",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-27T17:15:09Z",
+   "merged": "2026-11-27T17:18:17Z",
+   "closed": "2026-11-27T17:18:17Z",
+   "objective": "fixture-integrity",
+   "outcome": "evidence"
+  },
+  {
+   "n": 577,
+   "title": "[engineer] Add tests for the least-tested module",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/577",
+   "owner": "engineer",
+   "platform": "office",
+   "status": "shipped",
+   "opened": "2026-11-27T17:07:24Z",
+   "merged": "2026-11-27T17:11:01Z",
+   "closed": "2026-11-27T17:11:01Z",
+   "objective": "tests-gap",
+   "outcome": "tests"
+  },
+  {
    "n": 576,
    "title": "[accas] 9 of 26 Card days had no full-rule group",
    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/576",
    "owner": "accas",
    "platform": "office",
-   "status": "checking",
+   "status": "shipped",
    "opened": "2026-11-27T16:56:21Z",
-   "merged": null,
-   "closed": null,
+   "merged": "2026-11-27T17:00:30Z",
+   "closed": "2026-11-27T17:00:30Z",
    "objective": "hq-card-empty-days",
-   "outcome": null
+   "outcome": "evidence"
   },
   {
    "n": 554,
@@ -597,62 +649,52 @@
    "closed": "2026-11-17T16:35:34Z",
    "objective": "hq-band-50",
    "outcome": "evidence"
-  },
-  {
-   "n": 387,
-   "title": "[accas] The Card returns 0.831 a unit over 27 groups",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/387",
-   "owner": "accas",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-17T16:21:48Z",
-   "merged": "2026-11-17T16:24:55Z",
-   "closed": "2026-11-17T16:24:56Z",
-   "objective": "hq-card-return",
-   "outcome": "evidence"
-  },
-  {
-   "n": 378,
-   "title": "[legs] Find which legs land at or above their quote",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/378",
-   "owner": "legs",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-17T02:24:13Z",
-   "merged": "2026-11-17T02:26:16Z",
-   "closed": "2026-11-17T02:26:16Z",
-   "objective": "firm-legs",
-   "outcome": "evidence"
-  },
-  {
-   "n": 377,
-   "title": "[value] Test whether the model has any edge over bookmaker prices",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/377",
-   "owner": "value",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-17T02:19:50Z",
-   "merged": "2026-11-17T02:21:54Z",
-   "closed": "2026-11-17T02:21:54Z",
-   "objective": "value-edge",
-   "outcome": "evidence"
-  },
-  {
-   "n": 376,
-   "title": "[sports] Give tennis results a surface",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/376",
-   "owner": "sports",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-17T02:11:33Z",
-   "merged": "2026-11-17T02:13:37Z",
-   "closed": "2026-11-17T02:13:37Z",
-   "objective": "hq-tennis-surface",
-   "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-27T16:58:38.609354+00:00",
+ "fetched": "2026-11-27T20:05:29.429780+00:00",
  "commits": [
+  {
+   "sha": "ce09d30",
+   "msg": "Archive predictions and record for 2026-11-27 [skip ci]",
+   "date": "2026-11-27T20:00:02Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/ce09d30db0f75f476722dc18c9a0fb919e1b7ab8"
+  },
+  {
+   "sha": "bdb8dce",
+   "msg": "Archive predictions and record for 2026-11-27 [skip ci]",
+   "date": "2026-11-27T17:50:05Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/bdb8dce2c61d2b2573ceed7f186291db89d20752"
+  },
+  {
+   "sha": "a3f90ed",
+   "msg": "Archive predictions and record for 2026-11-27 [skip ci]",
+   "date": "2026-11-27T17:43:30Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a3f90ed851ced531fc13b25937d32c5e5fff94e2"
+  },
+  {
+   "sha": "f8f9adb",
+   "msg": "Office agent (scout): Add a free data source for an uncovered league (#580)",
+   "date": "2026-11-27T17:39:11Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/f8f9adb518f2327d479c526010b60d614ad70a28"
+  },
+  {
+   "sha": "e974a51",
+   "msg": "Office agent (quality): Check today's fixtures for duplicates, wrong dates and doubtful name matches (#578)",
+   "date": "2026-11-27T17:18:16Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/e974a5126d912f01c148f7225dc76ac0e3a7589f"
+  },
+  {
+   "sha": "32d5702",
+   "msg": "Office agent (engineer): Add tests for the least-tested module (#577)",
+   "date": "2026-11-27T17:11:00Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/32d570285adcce88121515d9b8f412c0eee69a7f"
+  },
+  {
+   "sha": "8aeeab1",
+   "msg": "Office agent (accas): 9 of 26 Card days had no full-rule group (#576)",
+   "date": "2026-11-27T17:00:29Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/8aeeab17a085524cdb4ddca0eff195b7af5c0223"
+  },
   {
    "sha": "a46d790",
    "msg": "Replay the Daily 2x and List card ordered by confidence alone (#569) (#575)",
@@ -730,110 +772,68 @@
    "msg": "Archive predictions and record for 2026-11-27 [skip ci]",
    "date": "2026-11-27T13:41:09Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/a4cad7c0319a74cf405d18bf86c40cea87c50878"
-  },
-  {
-   "sha": "6f33235",
-   "msg": "Merge pull request #571 from douglasbakeronline/tabs-tidy-2",
-   "date": "2026-11-27T13:37:14Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/6f332356c2bf298263e3cde16e6f366a60255930"
-  },
-  {
-   "sha": "114cd05",
-   "msg": "Release note: the roll back line",
-   "date": "2026-11-27T13:31:12Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/114cd058ab1829a0226cd71c548b09c0eef714e0"
-  },
-  {
-   "sha": "483e53f",
-   "msg": "Bets puts today's slips first; Scale, Racing and the Mailer say plainly what they are",
-   "date": "2026-11-27T13:04:03Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/483e53fc39a14618664062dac5ce411662c8415e"
-  },
-  {
-   "sha": "d38179e",
-   "msg": "Archive predictions and record for 2026-11-27 [skip ci]",
-   "date": "2026-11-27T13:08:49Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/d38179e45bf09515e7ed17c9ce7ffa5569cb271d"
-  },
-  {
-   "sha": "b039a5b",
-   "msg": "Mark the legs of two-legged ties and play-off series on football rows (#568)",
-   "date": "2026-11-27T13:03:42Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/b039a5ba849225aa722cd780d9e8ed9d07dbbe88"
-  },
-  {
-   "sha": "1f0663d",
-   "msg": "Archive predictions and record for 2026-11-27 [skip ci]",
-   "date": "2026-11-27T12:58:12Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/1f0663d1a4f8ec73ba7ed9ffcf6bbabf9ba4f504"
-  },
-  {
-   "sha": "af995e5",
-   "msg": "Merge pull request #567 from douglasbakeronline/boards-bands",
-   "date": "2026-11-27T12:54:46Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/af995e5dc0aca98f1905941fd151c593c57c8fed"
   }
  ],
  "runs": [
   {
    "conclusion": "",
-   "createdAt": "2026-11-27T16:56:26Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46037775516"
+   "createdAt": "2026-11-27T20:02:14Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46060824922"
   },
   {
    "conclusion": "success",
-   "createdAt": "2026-11-27T16:56:26Z",
+   "createdAt": "2026-11-27T19:54:27Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46059941596"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-27T19:25:27Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46056593903"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-27T19:03:42Z",
+   "name": "Card review",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46053976291"
+  },
+  {
+   "conclusion": "cancelled",
+   "createdAt": "2026-11-27T17:52:03Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46045130206"
+  },
+  {
+   "conclusion": "cancelled",
+   "createdAt": "2026-11-27T17:45:57Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46044374837"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-27T17:39:28Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46043549865"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-27T17:38:11Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46043390492"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-27T17:35:09Z",
    "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46037775423"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46042993672"
   },
   {
-   "conclusion": "",
-   "createdAt": "2026-11-27T16:56:17Z",
+   "conclusion": "success",
+   "createdAt": "2026-11-27T17:35:09Z",
    "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46037755928"
-  },
-  {
-   "conclusion": "",
-   "createdAt": "2026-11-27T16:52:10Z",
-   "name": "Office agents",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46037198846"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-27T16:49:02Z",
-   "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46036771051"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-27T16:45:41Z",
-   "name": "Claude",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46036310318"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-27T16:45:41Z",
-   "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46036310157"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-27T16:45:34Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46036293422"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-27T16:45:34Z",
-   "name": "Evaluation",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46036293223"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-27T16:45:25Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46036271551"
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46042993664"
   }
  ]
 }
