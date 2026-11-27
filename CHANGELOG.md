@@ -1,3 +1,9 @@
+# The planner reads the Card's tennis floor - November 27, 2026 (Claude)
+
+- **Card legs by sport at the floor.** The planner's "Card <sport> legs" task now counts only the legs today's floor would admit, read from footyalmanac's `groupings-record.json` `cardLegsBySport.<sport>.floor` (tennis 75% under `CARD_RULE` 14, 85% under rule 10), as the site's own tripwire has since 14 Nov (`atFloor`). On 19 Nov every tennis Card leg on record was under the 85% floor then live, so the top task of the backlog ("Card tennis legs: 8/15 against 12 expected") pointed the office sprint at legs that can no longer reach the Card. On the 27 Nov record (tennis at 75%: 15 legs, 11 landed v 11.9 expected, z -0.57, against 23 of 41, z -2.13, for every leg) the task drops out and the Card's return task leads. A sport without a floor is unchanged; a sport with one names it in the title ("at 85%+").
+- `test_losing_card_tops_the_backlog`'s fixture no longer carries an opposition price on every winning leg: it raised an "opposition 9+ lands above" task that outscored the return task the test is about (failing on main before this change).
+- Tests: `tests/test_planner.py` `CardLegsAtFloor`.
+
 # The planner remembers a month of finished work - November 24, 2026 (Claude)
 
 - **Fixed: finished roadmap tasks came back after a week.** The planner rests an `hq-` task for 30 days once a pull request for it merges, but `office.py` read only the newest 50 pull requests on footyalmanac, about three days of them at today's pace (office and session PRs together). So `hq-tennis-surface`, merged as #376 on 17 Nov, was back in the 23 Nov backlog and re-run as #516 on 24 Nov with the same "nothing to ship" answer; each such re-run takes a sprint place.
