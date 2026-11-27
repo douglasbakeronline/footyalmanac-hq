@@ -1,17 +1,17 @@
 {
- "id": 1795753319826,
- "time": "2026-11-27T04:21:59.826907+00:00",
- "trigger": "scheduled 04:00",
+ "id": 1795786293167,
+ "time": "2026-11-27T13:31:33.167872+00:00",
+ "trigger": "scheduled 13:30",
  "lines": [
   {
    "agent": "chief",
-   "yesterday": "Daily List, last 28 days: 336 of 378 landed against 331 expected (89% landed, 88% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +2.2); 1,641 football fixtures on the board, 0 unrated.",
-   "today": "Top of the backlog for accas: 8 of 25 Card days had no full-rule group. Dev work: PR #543 Write the office review and next week's priorities (shipped, evidence only).",
+   "yesterday": "Daily List, last 28 days: 336 of 378 landed against 331 expected (89% landed, 88% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +2.2); 1,642 football fixtures on the board, 0 unrated.",
+   "today": "Top of the backlog for accas: 9 of 26 Card days had no full-rule group. Dev work: PR #543 Write the office review and next week's priorities (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "scout",
-   "yesterday": "Swept 1641 football fixtures across 215 competitions for 2026-11-27, plus 454 other-sport and 4 tennis matches.",
+   "yesterday": "Swept 1642 football fixtures across 215 competitions for 2026-11-27, plus 462 other-sport and 4 tennis matches.",
    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #447 Add a free data source for an uncovered league (shipped, evidence only).",
    "blockers": "None."
   },
@@ -30,18 +30,18 @@
   {
    "agent": "ratings",
    "yesterday": "Calibration refit 2026-11-23: log loss 1.006 vs shipped 1.0069 (delta -0.0009).",
-   "today": "Rate today's 1641 fixtures; overall log loss is 1.0078. Dev work: PR #289 Test one ratings improvement (shipped).",
+   "today": "Rate today's 1642 fixtures; overall log loss is 1.0078. Dev work: PR #289 Test one ratings improvement (shipped).",
    "blockers": "None."
   },
   {
    "agent": "experiment",
-   "yesterday": "Weekly retune 2026-11-23 passed its gates. Latest test: Office agent (accas): Backtest the Odds tab group rules (#554).",
+   "yesterday": "Weekly retune 2026-11-23 passed its gates. ",
    "today": "Overnight at 23:30: backtest one change aimed at the weakest league. Dev work: PR #485 England Isthmian League Premier lands below its quotes (shipped, evidence only).",
    "blockers": "None."
   },
   {
    "agent": "sports",
-   "yesterday": "Other sports: NFL 74/119, MLB 27/40, NBA 180/270, RUGBY 65/88, CFB 293/426, NCAAB 894/1186, WNBA 9/11. Tennis 64% over 1515 matches (expected 64%).",
+   "yesterday": "Other sports: NFL 75/120, MLB 27/40, NBA 180/270, RUGBY 65/88, CFB 294/427, NCAAB 898/1191, WNBA 9/11. Tennis 64% over 1515 matches (expected 64%).",
    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #553 Baseball (MLB) landing above its quotes (shipped, evidence only).",
    "blockers": "None."
   },
@@ -77,7 +77,7 @@
   },
   {
    "agent": "h2",
-   "yesterday": "91% of today's picks carry a live bookmaker price (target 60%).",
+   "yesterday": "86% of today's picks carry a live bookmaker price (target 60%).",
    "today": "Price every candidate leg before the 07:45 briefing and flag anything still on an estimate.",
    "blockers": "None."
   },
@@ -89,19 +89,19 @@
   },
   {
    "agent": "h4",
-   "yesterday": "Legs since 2026-10-19: 72% landed against 72% quoted over 296.",
+   "yesterday": "Legs since 2026-10-19: 72% landed against 72% quoted over 297.",
    "today": "Compare each settled leg's quote with the bookmaker's fair chance, by price range.",
    "blockers": "None."
   },
   {
    "agent": "h5",
-   "yesterday": "Average leg chance 72% over 300 legs grouped since 2026-10-19 (target 75%).",
+   "yesterday": "Average leg chance 72% over 304 legs grouped since 2026-10-19 (target 75%).",
    "today": "Rank today's candidate legs by how firmly their kind of leg has landed against its quote.",
    "blockers": "None."
   },
   {
    "agent": "h6",
-   "yesterday": "CFB: 293/426 correct (69%, target 55%).",
+   "yesterday": "CFB: 294/427 correct (69%, target 55%).",
    "today": "Grow graded history before the sport goes on the board.",
    "blockers": "None."
   },
@@ -225,7 +225,7 @@
   {
    "owner": "h2",
    "name": "Legs with a live price",
-   "actual": 0.9130434782608695,
+   "actual": 0.8571428571428571,
    "target": 0.6,
    "fmt": "pct",
    "higher": true,
@@ -243,7 +243,7 @@
   {
    "owner": "h4",
    "name": "Legs landed minus quoted",
-   "actual": -0.000153378378378366,
+   "actual": 0.000808417508417536,
    "target": -0.02,
    "fmt": "pt",
    "higher": true,
@@ -252,7 +252,7 @@
   {
    "owner": "h5",
    "name": "Average leg chance",
-   "actual": 0.7235773333333333,
+   "actual": 0.7242453947368421,
    "target": 0.75,
    "fmt": "pct",
    "higher": true,
@@ -261,7 +261,7 @@
   {
    "owner": "h6",
    "name": "CFB hit rate",
-   "actual": 0.687793427230047,
+   "actual": 0.6885245901639344,
    "target": 0.55,
    "fmt": "pct",
    "higher": true,
@@ -276,7 +276,7 @@
   {
    "key": "hq-card-empty-days",
    "owner": "accas",
-   "title": "8 of 25 Card days had no full-rule group",
+   "title": "9 of 26 Card days had no full-rule group",
    "score": 8.0,
    "metric": "card"
   },
@@ -298,7 +298,7 @@
    "key": "hq-reserve-other-sports",
    "owner": "curator",
    "title": "Reserve (other sports) landing below its quotes",
-   "score": 4.84,
+   "score": 4.7,
    "metric": "honesty"
   },
   {
@@ -343,7 +343,7 @@
     "quoted": 0.3615,
     "landed": 0.3235
    },
-   "emptyDays": 8,
+   "emptyDays": 9,
    "closingMovePct": 0.67
   },
   "list": {
@@ -408,7 +408,7 @@
    }
   },
   "coverage": {
-   "fixtures": 1641,
+   "fixtures": 1642,
    "unrated": 0
   }
  },
@@ -679,7 +679,7 @@
   "Weakest league: Italy Serie D - Girone C at 32% over 72 games"
  ],
  "stats": {
-  "fixtures": 1641,
+  "fixtures": 1642,
   "competitions": 215,
   "listPicks": 24,
   "overallAcc": 0.5084,

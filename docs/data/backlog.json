@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T04:21+00:00",
+ "generated": "2026-11-27T13:31+00:00",
  "window": 28,
  "since": "2026-10-30",
  "objectives": {
@@ -15,7 +15,7 @@
     "quoted": 0.3615,
     "landed": 0.3235
    },
-   "emptyDays": 8,
+   "emptyDays": 9,
    "closingMovePct": 0.67
   },
   "list": {
@@ -80,7 +80,7 @@
    }
   },
   "coverage": {
-   "fixtures": 1641,
+   "fixtures": 1642,
    "unrated": 0
   }
  },
@@ -88,14 +88,14 @@
   {
    "key": "hq-card-empty-days",
    "owner": "accas",
-   "title": "8 of 25 Card days had no full-rule group",
-   "brief": "Days since 2026-10-29 with no Card group under the full rule: 2026-11-05, 2026-11-09, 2026-11-19, 2026-11-20, 2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26. A thin Card earns nothing. Test the fillers on the replay before loosening anything: the opposition at 7+ (opp7), five short legs (short), the Championship-tier leagues that landed above quote. Ship the one that keeps the return and fills the most days.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "title": "9 of 26 Card days had no full-rule group",
+   "brief": "Days since 2026-10-29 with no Card group under the full rule: 2026-11-09, 2026-11-19, 2026-11-20, 2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26, 2026-11-27. A thin Card earns nothing. Test the fillers on the replay before loosening anything: the opposition at 7+ (opp7), five short legs (short), the Championship-tier leagues that landed above quote. Ship the one that keeps the return and fills the most days.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 25,
+    "n": 26,
     "won": 17,
-    "expected": 25.0,
+    "expected": 26.0,
     "quoted": 1.0,
-    "landed": 0.68,
+    "landed": 0.654,
     "z": -4.0
    },
    "metric": "card",
@@ -137,17 +137,17 @@
    "key": "hq-reserve-other-sports",
    "owner": "curator",
    "title": "Reserve (other sports) landing below its quotes",
-   "brief": "Other Sports reserve picks over the last 28 days: 323 of 482 landed (67%) against 353.9 expected (73% quoted), z -3.2. Find which bands or competitions carry the gap and whether the reserve should exclude them.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "brief": "Other Sports reserve picks over the last 28 days: 329 of 489 landed (67%) against 359.2 expected (73% quoted), z -3.1. Find which bands or competitions carry the gap and whether the reserve should exclude them.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 482,
-    "won": 323,
-    "expected": 353.9,
-    "z": -3.23,
-    "quoted": 0.7342,
-    "landed": 0.6701
+    "n": 489,
+    "won": 329,
+    "expected": 359.2,
+    "z": -3.13,
+    "quoted": 0.7345,
+    "landed": 0.6728
    },
    "metric": "honesty",
-   "score": 4.84
+   "score": 4.7
   },
   {
    "key": "hq-band-50",

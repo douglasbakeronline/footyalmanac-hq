@@ -1,225 +1,26 @@
 {
- "time": "2026-11-26T17:18:51.308026+00:00",
- "date": "2026-11-26",
+ "time": "2026-11-27T13:31:10.108873+00:00",
+ "date": "2026-11-27",
  "stage": "refresh",
  "pricing": {
-  "priced": 21,
-  "total": 23,
+  "priced": 72,
+  "total": 84,
   "site": true,
-  "generated": "2026-11-26T17:02:06Z"
+  "generated": "2026-11-27T13:07:47Z"
  },
  "review": {
   "dropped": [
-   "Multiplier"
+   "Multiplier",
+   "Multiplier (alternative)"
   ],
   "haircut": 0.0719
  },
  "counts": {
-  "today": 62,
-  "list": 3,
-  "tomorrow": 181
+  "today": 173,
+  "list": 8,
+  "tomorrow": 747
  },
  "impactful": [
-  {
-   "sport": "football",
-   "event": "Ajax Amsterdam v FC Thun",
-   "comp": "Conference League",
-   "lg": "eu.ec",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-11-26T17:45:00Z",
-   "date": "2026-11-26",
-   "selection": "Ajax Amsterdam",
-   "opp": "FC Thun",
-   "side": "h",
-   "home": "Ajax Amsterdam",
-   "away": "FC Thun",
-   "p": 0.8738,
-   "modelPick": "Ajax Amsterdam",
-   "list": true,
-   "reserve": false,
-   "hit": null,
-   "hitN": null,
-   "score": [
-    3,
-    0
-   ],
-   "xg": [
-    3.8,
-    0.89
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "87% Ajax Amsterdam, likely 3-0, xG 3.8 v 0.9"
-  },
-  {
-   "sport": "football",
-   "event": "Marseille v Levski Sofia",
-   "comp": "Europa League",
-   "lg": "eu.el",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-11-26T17:45:00Z",
-   "date": "2026-11-26",
-   "selection": "Marseille",
-   "opp": "Levski Sofia",
-   "side": "h",
-   "home": "Marseille",
-   "away": "Levski Sofia",
-   "p": 0.7369,
-   "modelPick": "Marseille",
-   "list": false,
-   "reserve": true,
-   "hit": null,
-   "hitN": null,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.65,
-    0.88
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "74% Marseille, likely 2-0, xG 2.6 v 0.9"
-  },
-  {
-   "sport": "football",
-   "event": "Braga v KuPS Kuopio",
-   "comp": "Conference League",
-   "lg": "eu.ec",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-11-26T20:00:00Z",
-   "date": "2026-11-26",
-   "selection": "Braga",
-   "opp": "KuPS Kuopio",
-   "side": "h",
-   "home": "Braga",
-   "away": "KuPS Kuopio",
-   "p": 0.6999,
-   "modelPick": "Braga",
-   "list": false,
-   "reserve": true,
-   "hit": null,
-   "hitN": null,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.26,
-    0.75
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "70% Braga, likely 2-0, xG 2.3 v 0.8"
-  },
-  {
-   "sport": "football",
-   "event": "Union St.-Gilloise v Lech Poznan",
-   "comp": "Europa League",
-   "lg": "eu.el",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-11-26T17:45:00Z",
-   "date": "2026-11-26",
-   "selection": "Union St.-Gilloise",
-   "opp": "Lech Poznan",
-   "side": "h",
-   "home": "Union St.-Gilloise",
-   "away": "Lech Poznan",
-   "p": 0.6938,
-   "modelPick": "Union St.-Gilloise",
-   "list": false,
-   "reserve": true,
-   "hit": null,
-   "hitN": null,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.3,
-    0.81
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "69% Union St.-Gilloise, likely 2-0, xG 2.3 v 0.8"
-  },
-  {
-   "sport": "football",
-   "event": "RB Salzburg v Ararat-Armenia",
-   "comp": "Europa League",
-   "lg": "eu.el",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-11-26T17:45:00Z",
-   "date": "2026-11-26",
-   "selection": "RB Salzburg",
-   "opp": "Ararat-Armenia",
-   "side": "h",
-   "home": "RB Salzburg",
-   "away": "Ararat-Armenia",
-   "p": 0.6705,
-   "modelPick": "RB Salzburg",
-   "list": false,
-   "reserve": true,
-   "hit": null,
-   "hitN": null,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.37,
-    0.96
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "67% RB Salzburg, likely 2-0, xG 2.4 v 1.0"
-  },
-  {
-   "sport": "football",
-   "event": "Sunderland v Jagiellonia Bialystok",
-   "comp": "Europa League",
-   "lg": "eu.el",
-   "country": "Europe",
-   "tier": 1,
-   "when": "2026-11-26T20:00:00Z",
-   "date": "2026-11-26",
-   "selection": "Sunderland",
-   "opp": "Jagiellonia Bialystok",
-   "side": "h",
-   "home": "Sunderland",
-   "away": "Jagiellonia Bialystok",
-   "p": 0.668,
-   "modelPick": "Sunderland",
-   "list": false,
-   "reserve": true,
-   "hit": null,
-   "hitN": null,
-   "score": [
-    2,
-    0
-   ],
-   "xg": [
-    2.01,
-    0.69
-   ],
-   "rankH": null,
-   "rankA": null,
-   "status": "pending",
-   "why": "67% Sunderland, likely 2-0, xG 2.0 v 0.7"
-  }
- ],
- "tomorrow": [
   {
    "sport": "ncaab",
    "event": "Vanderbilt Commodores v Southern Jaguars",
@@ -348,6 +149,179 @@
    "form": "WWWWL",
    "status": "pending",
    "why": "94% Illinois Fighting Illini, rating 2076 v 1747, form WWWWL, at home, calls at this level won 92% (1389)"
+  },
+  {
+   "sport": "ncaab",
+   "event": "Pennsylvania Quakers v Towson Tigers",
+   "comp": "NCAA",
+   "when": "2026-11-27T23:00Z",
+   "date": "2026-11-27",
+   "selection": "Pennsylvania Quakers",
+   "opp": "Towson Tigers",
+   "p": 0.8814,
+   "modelPick": "Pennsylvania Quakers",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.9201,
+   "hitN": 1389,
+   "id": "401921185",
+   "elo": [
+    1771,
+    1570
+   ],
+   "homeSide": true,
+   "form": "WWWLL",
+   "status": "pending",
+   "why": "88% Pennsylvania Quakers, rating 1771 v 1570, form WWWLL, at home, calls at this level won 92% (1389)"
+  }
+ ],
+ "tomorrow": [
+  {
+   "sport": "rugby",
+   "event": "La Rochelle v Perpignan",
+   "comp": "Top 14",
+   "when": "2026-11-28T15:35Z",
+   "date": "2026-11-28",
+   "selection": "La Rochelle",
+   "opp": "Perpignan",
+   "p": 0.8234,
+   "modelPick": "La Rochelle",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.8923,
+   "hitN": 65,
+   "id": "604427",
+   "elo": [
+    1553,
+    1386
+   ],
+   "homeSide": true,
+   "form": "WLLWW",
+   "status": "pending",
+   "why": "82% La Rochelle, rating 1553 v 1386, form WLLWW, at home, calls at this level won 89% (65)"
+  },
+  {
+   "sport": "rugby",
+   "event": "Stade Francais Paris v Vannes",
+   "comp": "Top 14",
+   "when": "2026-11-28T15:35Z",
+   "date": "2026-11-28",
+   "selection": "Stade Francais Paris",
+   "opp": "Vannes",
+   "p": 0.8214,
+   "modelPick": "Stade Francais Paris",
+   "tierName": "Strong",
+   "list": true,
+   "hit": 0.8923,
+   "hitN": 65,
+   "id": "604429",
+   "elo": [
+    1553,
+    1388
+   ],
+   "homeSide": true,
+   "form": "LWLWL",
+   "status": "pending",
+   "why": "82% Stade Francais Paris, rating 1553 v 1388, form LWLWL, at home, calls at this level won 89% (65)"
+  },
+  {
+   "sport": "football",
+   "event": "PSV v Go Ahead Eagles",
+   "comp": "Eredivisie",
+   "lg": "nl.1",
+   "country": "Netherlands",
+   "tier": 1,
+   "when": "2026-11-28T17:45:00Z",
+   "date": "2026-11-28",
+   "selection": "PSV",
+   "opp": "Go Ahead Eagles",
+   "side": "h",
+   "home": "PSV",
+   "away": "Go Ahead Eagles",
+   "p": 0.785,
+   "modelPick": "PSV",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    3,
+    1
+   ],
+   "xg": [
+    3.18,
+    1.02
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "78% PSV, likely 3-1, xG 3.2 v 1.0, calls at this level won 73% (111)"
+  },
+  {
+   "sport": "football",
+   "event": "Hamburger v FC Bayern München",
+   "comp": "Bundesliga",
+   "lg": "de.1",
+   "country": "Germany",
+   "tier": 1,
+   "when": "2026-11-28T14:30:00Z",
+   "date": "2026-11-28",
+   "selection": "FC Bayern München",
+   "opp": "Hamburger",
+   "side": "a",
+   "home": "Hamburger",
+   "away": "FC Bayern München",
+   "p": 0.7797,
+   "modelPick": "FC Bayern München",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    0,
+    2
+   ],
+   "xg": [
+    0.92,
+    3.0
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "78% FC Bayern München, likely 0-2, xG 0.9 v 3.0, calls at this level won 73% (111)"
+  },
+  {
+   "sport": "football",
+   "event": "Real Madrid v Deportivo Alavés",
+   "comp": "La Liga",
+   "lg": "es.1",
+   "country": "Spain",
+   "tier": 1,
+   "when": "2026-11-28T20:00:00Z",
+   "date": "2026-11-28",
+   "selection": "Real Madrid",
+   "opp": "Deportivo Alavés",
+   "side": "h",
+   "home": "Real Madrid",
+   "away": "Deportivo Alavés",
+   "p": 0.7546,
+   "modelPick": "Real Madrid",
+   "list": false,
+   "reserve": true,
+   "hit": 0.7298,
+   "hitN": 111,
+   "score": [
+    2,
+    0
+   ],
+   "xg": [
+    2.57,
+    0.75
+   ],
+   "rankH": null,
+   "rankA": null,
+   "status": "pending",
+   "why": "75% Real Madrid, likely 2-0, xG 2.6 v 0.8, calls at this level won 73% (111)"
   }
  ],
  "groups": [],
@@ -919,7 +893,7 @@
    "legsWon": 0
   }
  },
- "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/70",
- "issue": 70,
- "text": "Good afternoon Douglas. Thursday 26 November, 17:18 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (21 of today's 23 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier.\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
+ "url": "https://github.com/douglasbakeronline/footyalmanac-hq/issues/71",
+ "issue": 71,
+ "text": "Good afternoon Douglas. Friday 27 November, 13:31 UK.\n\n### Updated groups from games still to start\n**Oscar (Odds Analyst):** 0 of the 0 legs below have a live bookmaker price (72 of today's 84 picks priced in all); prices from the Sports Almanac's Odds tab: API-Football for football, ESPN for US sports, The Odds API for tennis and rugby; only bookmaker-priced legs are grouped.\n\n**Jade (Accumulator Strategist):** Not enough strong picks left to start today to build a group inside the bands.\n\n**Ravi (Calibration):** Groupings review asks for a 7.2% haircut on every quoted chance, and the chances above already carry it. Held back today as not value at the real price: Multiplier, Multiplier (alternative).\n\nModel probabilities are footyalmanac's own; our backtest says bookmakers still price football slightly better than the model, so treat these as informed suggestions, not value bets. Accumulators multiply the bookmaker margin. Not betting advice."
 }
