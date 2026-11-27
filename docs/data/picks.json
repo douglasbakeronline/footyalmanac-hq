@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-27T20:01:55",
- "fetched": "2026-11-27T20:05:31.040412+00:00",
+ "generated": "2026-11-27T20:31:13",
+ "fetched": "2026-11-27T20:38:52.271712+00:00",
  "bar": 0.8,
  "days": [
   {
@@ -78,8 +78,8 @@
     },
     {
      "t": "20:30",
-     "ko": "2026-11-27T20:30Z",
-     "lg": "cfb",
+     "ko": "2026-11-27T20:30:00Z",
+     "lg": "NCAA FBS",
      "lgName": "NCAA FBS",
      "sport": "cfb",
      "h": "Memphis Tigers",
@@ -87,10 +87,15 @@
      "side": "h",
      "pick": "Memphis Tigers",
      "c": 0.937,
+     "p": null,
      "hit": 0.9341,
      "hitN": 167,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:00",
@@ -160,8 +165,8 @@
     },
     {
      "t": "20:30",
-     "ko": "2026-11-27T20:30Z",
-     "lg": "cfb",
+     "ko": "2026-11-27T20:30:00Z",
+     "lg": "NCAA FBS",
      "lgName": "NCAA FBS",
      "sport": "cfb",
      "h": "San Jos\u00e9 State Spartans",
@@ -169,10 +174,15 @@
      "side": "a",
      "pick": "North Dakota State Bison",
      "c": 0.8698,
+     "p": null,
      "hit": 0.9341,
      "hitN": 167,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "21:30",
@@ -223,9 +233,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "41-17"
     },
     {
      "t": "01:00",
@@ -290,9 +300,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "9-17"
     },
     {
      "t": "20:00",
@@ -369,9 +379,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "31-7"
     },
     {
      "t": "02:00",
@@ -461,9 +471,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "55-72"
     },
     {
      "t": "14:20",
@@ -492,8 +502,8 @@
     },
     {
      "t": "20:30",
-     "ko": "2026-11-27T20:30Z",
-     "lg": "ncaab",
+     "ko": "2026-11-27T20:30:00Z",
+     "lg": "NCAA",
      "lgName": "NCAA",
      "sport": "ncaab",
      "h": "Hofstra Pride",
@@ -501,10 +511,15 @@
      "side": "h",
      "pick": "Hofstra Pride",
      "c": 0.7732,
+     "p": null,
      "hit": 0.7408,
      "hitN": 629,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "22:00",
@@ -871,9 +886,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "80-75"
     },
     {
      "t": "22:30",
@@ -1108,9 +1123,9 @@
      "list": false,
      "reserve": true,
      "pinned": true,
-     "status": "started",
+     "status": "won",
      "score": null,
-     "res": null
+     "res": "55-72"
     },
     {
      "t": "13:30",
@@ -2625,11 +2640,11 @@
     },
     "reserve": {
      "n": 45,
-     "won": 11,
+     "won": 17,
      "lost": 4,
      "void": 0,
-     "started": 20,
-     "upcoming": 10
+     "started": 17,
+     "upcoming": 7
     },
     "groupA": {
      "n": 5,
@@ -3616,6 +3631,22 @@
      "unrated": false
     },
     {
+     "t": "18:00",
+     "ko": "2026-11-28T18:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Radford Highlanders",
+     "a": "Hampton Pirates",
+     "side": "h",
+     "pick": "Radford Highlanders",
+     "c": 0.8005,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
+    },
+    {
      "t": "20:30",
      "ko": "2026-11-28T20:30Z",
      "lg": "cfb",
@@ -3955,22 +3986,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "18:00",
-     "ko": "2026-11-28T18:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Radford Highlanders",
-     "a": "Hampton Pirates",
-     "side": "h",
-     "pick": "Radford Highlanders",
-     "c": 0.7686,
-     "hit": 0.7408,
-     "hitN": 629,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "19:30",
@@ -4402,22 +4417,6 @@
      "list": false,
      "reserve": false,
      "unrated": false
-    },
-    {
-     "t": "21:00",
-     "ko": "2026-11-28T21:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "American University Eagles",
-     "a": "UMass Lowell River Hawks",
-     "side": "h",
-     "pick": "American University Eagles",
-     "c": 0.7272,
-     "hit": 0.6881,
-     "hitN": 619,
-     "list": false,
-     "reserve": true
     },
     {
      "t": "18:00",
@@ -4959,6 +4958,22 @@
      "c": 0.6883,
      "hit": 0.6776,
      "hitN": 183,
+     "list": false,
+     "reserve": true
+    },
+    {
+     "t": "21:00",
+     "ko": "2026-11-28T21:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "American University Eagles",
+     "a": "UMass Lowell River Hawks",
+     "side": "h",
+     "pick": "American University Eagles",
+     "c": 0.6881,
+     "hit": 0.6454,
+     "hitN": 592,
      "list": false,
      "reserve": true
     },
@@ -8199,6 +8214,35 @@
      "o25": 0.5305,
      "hit": 0.5868,
      "hitN": 4716,
+     "celtic": false,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-28T15:00:00Z",
+     "lg": "sco.1",
+     "lgName": "Premiership",
+     "country": "Scotland",
+     "h": "Dundee United",
+     "a": "Saint Johnstone",
+     "side": "h",
+     "pick": "Dundee United",
+     "c": 0.5688,
+     "p": {
+      "h": 0.5688,
+      "d": 0.2372,
+      "a": 0.194
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5429,
+     "o25": 0.537,
+     "hit": 0.5352,
+     "hitN": 99,
      "celtic": false,
      "list": false,
      "reserve": false,
@@ -12144,35 +12188,6 @@
      "hit": 0.4867,
      "hitN": 9010,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "15:00",
-     "ko": "2026-11-28T15:00:00Z",
-     "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
-     "h": "Dundee United",
-     "a": "Saint Johnstone",
-     "side": "h",
-     "pick": "Dundee United",
-     "c": 0.4938,
-     "p": {
-      "h": 0.4938,
-      "d": 0.2555,
-      "a": 0.2507
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5517,
-     "o25": 0.5332,
-     "hit": 0.4634,
-     "hitN": 259,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -22505,7 +22520,7 @@
   },
   {
    "date": "2026-11-29",
-   "count": 579,
+   "count": 580,
    "games": [
     {
      "t": "21:00",
@@ -22652,6 +22667,22 @@
      "reserve": false
     },
     {
+     "t": "21:00",
+     "ko": "2026-11-29T21:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "American University Eagles",
+     "a": "Hampton Pirates",
+     "side": "h",
+     "pick": "American University Eagles",
+     "c": 0.8985,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "20:00",
      "ko": "2026-11-29T20:00Z",
      "lg": "ncaab",
@@ -22758,22 +22789,6 @@
      "side": "h",
      "pick": "App State Mountaineers",
      "c": 0.8841,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "21:00",
-     "ko": "2026-11-29T21:00Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "American University Eagles",
-     "a": "Hampton Pirates",
-     "side": "h",
-     "pick": "American University Eagles",
-     "c": 0.8799,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -25135,6 +25150,22 @@
      "list": false,
      "reserve": true,
      "unrated": false
+    },
+    {
+     "t": "18:00",
+     "ko": "2026-11-29T18:00Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "UMass Lowell River Hawks",
+     "a": "Radford Highlanders",
+     "side": "h",
+     "pick": "UMass Lowell River Hawks",
+     "c": 0.6505,
+     "hit": 0.6454,
+     "hitN": 592,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "13:00",
@@ -40572,6 +40603,22 @@
      "reserve": false
     },
     {
+     "t": "23:30",
+     "ko": "2026-12-01T23:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "St. John's Red Storm",
+     "a": "Columbia Lions",
+     "side": "h",
+     "pick": "St. John's Red Storm",
+     "c": 0.8953,
+     "hit": 0.9201,
+     "hitN": 1389,
+     "list": true,
+     "reserve": false
+    },
+    {
      "t": "01:00",
      "ko": "2026-12-01T01:00Z",
      "lg": "ncaab",
@@ -40582,22 +40629,6 @@
      "side": "h",
      "pick": "Missouri State Bears",
      "c": 0.8946,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
-     "t": "23:30",
-     "ko": "2026-12-01T23:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "St. John's Red Storm",
-     "a": "Columbia Lions",
-     "side": "h",
-     "pick": "St. John's Red Storm",
-     "c": 0.8838,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -43824,7 +43855,7 @@
      "a": "Alcorn State Braves",
      "side": "h",
      "pick": "Iowa State Cyclones",
-     "c": 0.9878,
+     "c": 0.9863,
      "hit": 0.9201,
      "hitN": 1389,
      "list": true,
@@ -44103,22 +44134,6 @@
      "reserve": false
     },
     {
-     "t": "23:30",
-     "ko": "2026-12-02T23:30Z",
-     "lg": "ncaab",
-     "lgName": "NCAA",
-     "sport": "ncaab",
-     "h": "Georgetown Hoyas",
-     "a": "UMass Lowell River Hawks",
-     "side": "h",
-     "pick": "Georgetown Hoyas",
-     "c": 0.8707,
-     "hit": 0.9201,
-     "hitN": 1389,
-     "list": true,
-     "reserve": false
-    },
-    {
      "t": "01:00",
      "ko": "2026-12-02T01:00Z",
      "lg": "ncaab",
@@ -44194,6 +44209,22 @@
      "list": true,
      "reserve": false,
      "unrated": false
+    },
+    {
+     "t": "23:30",
+     "ko": "2026-12-02T23:30Z",
+     "lg": "ncaab",
+     "lgName": "NCAA",
+     "sport": "ncaab",
+     "h": "Georgetown Hoyas",
+     "a": "UMass Lowell River Hawks",
+     "side": "h",
+     "pick": "Georgetown Hoyas",
+     "c": 0.8479,
+     "hit": 0.7802,
+     "hitN": 614,
+     "list": false,
+     "reserve": true
     },
     {
      "t": "00:30",
@@ -45665,35 +45696,6 @@
      "unrated": false
     },
     {
-     "t": "19:45",
-     "ko": "2026-12-02T19:45:00Z",
-     "lg": "sco.1",
-     "lgName": "Premiership",
-     "country": "Scotland",
-     "h": "Saint Johnstone",
-     "a": "St. Mirren",
-     "side": "h",
-     "pick": "Saint Johnstone",
-     "c": 0.5556,
-     "p": {
-      "h": 0.5556,
-      "d": 0.2527,
-      "a": 0.1917
-     },
-     "score": [
-      1,
-      1
-     ],
-     "btts": 0.5228,
-     "o25": 0.5106,
-     "hit": 0.5352,
-     "hitN": 99,
-     "celtic": true,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
      "t": "16:00",
      "ko": "2026-12-02T16:00:00Z",
      "lg": "af.411",
@@ -46559,6 +46561,35 @@
      "hit": 0.4634,
      "hitN": 259,
      "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
+     "t": "19:45",
+     "ko": "2026-12-02T19:45:00Z",
+     "lg": "sco.1",
+     "lgName": "Premiership",
+     "country": "Scotland",
+     "h": "Saint Johnstone",
+     "a": "St. Mirren",
+     "side": "h",
+     "pick": "Saint Johnstone",
+     "c": 0.4797,
+     "p": {
+      "h": 0.4797,
+      "d": 0.2756,
+      "a": 0.2447
+     },
+     "score": [
+      1,
+      1
+     ],
+     "btts": 0.5246,
+     "o25": 0.4982,
+     "hit": 0.4634,
+     "hitN": 259,
+     "celtic": false,
      "list": false,
      "reserve": false,
      "unrated": false
@@ -49452,6 +49483,35 @@
      "reserve": true
     },
     {
+     "t": "20:00",
+     "ko": "2026-12-03T20:00:00Z",
+     "lg": "it.cup",
+     "lgName": "Coppa Italia",
+     "country": "Italy",
+     "h": "Juventus",
+     "a": "Sassuolo",
+     "side": "h",
+     "pick": "Juventus",
+     "c": 0.6733,
+     "p": {
+      "h": 0.6733,
+      "d": 0.2075,
+      "a": 0.1192
+     },
+     "score": [
+      2,
+      0
+     ],
+     "btts": 0.5085,
+     "o25": 0.5277,
+     "hit": null,
+     "hitN": null,
+     "celtic": true,
+     "list": false,
+     "reserve": false,
+     "unrated": false
+    },
+    {
      "t": "02:00",
      "ko": "2026-12-03T02:00:00Z",
      "lg": "us.1",
@@ -49698,35 +49758,6 @@
      "hit": 0.5868,
      "hitN": 4716,
      "celtic": false,
-     "list": false,
-     "reserve": false,
-     "unrated": false
-    },
-    {
-     "t": "20:00",
-     "ko": "2026-12-03T20:00:00Z",
-     "lg": "it.cup",
-     "lgName": "Coppa Italia",
-     "country": "Italy",
-     "h": "Juventus",
-     "a": "Sassuolo",
-     "side": "h",
-     "pick": "Juventus",
-     "c": 0.5661,
-     "p": {
-      "h": 0.5661,
-      "d": 0.2556,
-      "a": 0.1782
-     },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.5101,
-     "o25": 0.4985,
-     "hit": null,
-     "hitN": null,
-     "celtic": true,
      "list": false,
      "reserve": false,
      "unrated": false
