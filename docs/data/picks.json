@@ -1,11 +1,11 @@
 {
  "generated": "2026-11-28T14:18:13",
- "fetched": "2026-11-28T14:43:31.438421+00:00",
+ "fetched": "2026-11-28T15:49:39.308914+00:00",
  "bar": 0.8,
  "days": [
   {
    "date": "2026-11-28",
-   "count": 603,
+   "count": 605,
    "games": [
     {
      "t": "00:30",
@@ -338,8 +338,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "en.5",
-     "lgName": "National League",
-     "country": "England",
+     "lgName": "England National League",
+     "sport": "football",
      "h": "Boreham Wood",
      "a": "Gateshead",
      "side": "h",
@@ -350,18 +350,14 @@
       "d": 0.0739,
       "a": 0.0275
      },
-     "score": [
-      3,
-      0
-     ],
-     "btts": 0.5006,
-     "o25": 0.6273,
      "hit": 0.8397,
      "hitN": 131,
-     "celtic": false,
      "list": true,
      "reserve": false,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "19:00",
@@ -838,8 +834,8 @@
     },
     {
      "t": "15:35",
-     "ko": "2026-11-28T15:35Z",
-     "lg": "rugby",
+     "ko": "2026-11-28T15:35:00Z",
+     "lg": "Top 14",
      "lgName": "Top 14",
      "sport": "rugby",
      "h": "La Rochelle",
@@ -847,15 +843,20 @@
      "side": "h",
      "pick": "La Rochelle",
      "c": 0.8234,
+     "p": null,
      "hit": 0.8923,
      "hitN": 65,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:35",
-     "ko": "2026-11-28T15:35Z",
-     "lg": "rugby",
+     "ko": "2026-11-28T15:35:00Z",
+     "lg": "Top 14",
      "lgName": "Top 14",
      "sport": "rugby",
      "h": "Stade Francais Paris",
@@ -863,10 +864,15 @@
      "side": "h",
      "pick": "Stade Francais Paris",
      "c": 0.8214,
+     "p": null,
      "hit": 0.8923,
      "hitN": 65,
      "list": true,
-     "reserve": false
+     "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "20:00",
@@ -945,8 +951,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "en.6s",
-     "lgName": "National League South",
-     "country": "England",
+     "lgName": "England National League South",
+     "sport": "football",
      "h": "Dorking Wanderers",
      "a": "Farnborough",
      "side": "h",
@@ -957,18 +963,14 @@
       "d": 0.1239,
       "a": 0.0792
      },
-     "score": [
-      3,
-      1
-     ],
-     "btts": 0.5676,
-     "o25": 0.6301,
      "hit": 0.7298,
      "hitN": 111,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "00:00",
@@ -995,8 +997,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "nor.1",
-     "lgName": "Eliteserien",
-     "country": "Norway",
+     "lgName": "Norway Eliteserien",
+     "sport": "football",
      "h": "Bodo/Glimt",
      "a": "KFUM Oslo",
      "side": "h",
@@ -1007,18 +1009,14 @@
       "d": 0.144,
       "a": 0.0649
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.4999,
-     "o25": 0.5663,
      "hit": 0.7298,
      "hitN": 111,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "18:00",
@@ -1101,6 +1099,31 @@
      "hitN": 964,
      "list": true,
      "reserve": false,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-28T15:00:00Z",
+     "lg": "en.7n",
+     "lgName": "England Northern Premier League",
+     "sport": "football",
+     "h": "Guiseley",
+     "a": "Whitby Town",
+     "side": "h",
+     "pick": "Guiseley",
+     "c": 0.7838,
+     "p": {
+      "h": 0.7838,
+      "d": 0.1458,
+      "a": 0.0704
+     },
+     "hit": 0.7097,
+     "hitN": 31,
+     "list": false,
+     "reserve": true,
      "pinned": true,
      "status": "started",
      "score": null,
@@ -1624,8 +1647,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "en.6n",
-     "lgName": "National League North",
-     "country": "England",
+     "lgName": "England National League North",
+     "sport": "football",
      "h": "Buxton",
      "a": "Spennymoor Town",
      "side": "h",
@@ -1636,18 +1659,14 @@
       "d": 0.1588,
       "a": 0.1126
      },
-     "score": [
-      2,
-      1
-     ],
-     "btts": 0.5671,
-     "o25": 0.607,
      "hit": 0.718,
      "hitN": 39,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "16:00",
@@ -2357,8 +2376,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "en.6n",
-     "lgName": "National League North",
-     "country": "England",
+     "lgName": "England National League North",
+     "sport": "football",
      "h": "Oxford City",
      "a": "Southport",
      "side": "h",
@@ -2369,18 +2388,14 @@
       "d": 0.1995,
       "a": 0.1234
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5236,
-     "o25": 0.5452,
      "hit": 0.8148,
      "hitN": 54,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:00",
@@ -2436,8 +2451,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "en.7i",
-     "lgName": "Isthmian League Premier",
-     "country": "England",
+     "lgName": "England Isthmian League Premier",
+     "sport": "football",
      "h": "Brentwood Town",
      "a": "Whitehawk",
      "side": "h",
@@ -2448,18 +2463,14 @@
       "d": 0.1921,
       "a": 0.1317
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5436,
-     "o25": 0.5665,
      "hit": 0.6437,
      "hitN": 73,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "16:00",
@@ -2494,8 +2505,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "af.455",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 17",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 17",
+     "sport": "football",
      "h": "Huesca II",
      "a": "Belchite 97",
      "side": "h",
@@ -2506,18 +2517,14 @@
       "d": 0.2346,
       "a": 0.0906
      },
-     "score": [
-      1,
-      0
-     ],
-     "btts": 0.4459,
-     "o25": 0.4623,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "11:00",
@@ -2870,18 +2877,24 @@
     },
     {
      "t": "15:00",
+     "ko": "2026-11-28T15:00:00Z",
      "lg": "WTA",
-     "lgName": "WTA \u00b7 IEB+ Argentina Open",
+     "lgName": "WTA \u00b7 IEB+ Argentina Open \u00b7 Semifinal",
      "sport": "tennis",
      "h": "Varvara Lepchenko",
      "a": "Guiomar Maristany Zuleta De Reales",
      "side": "a",
      "pick": "Guiomar Maristany Zuleta De Reales",
      "c": 0.6598,
+     "p": null,
      "hit": 0.71,
      "hitN": 100,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "19:45",
@@ -2970,8 +2983,8 @@
      "t": "15:30",
      "ko": "2026-11-28T15:30:00Z",
      "lg": "pt.1",
-     "lgName": "Primeira Liga",
-     "country": "Portugal",
+     "lgName": "Portugal Primeira Liga",
+     "sport": "football",
      "h": "FC Arouca",
      "a": "Rio Ave",
      "side": "h",
@@ -2982,25 +2995,21 @@
       "d": 0.2119,
       "a": 0.1311
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5175,
-     "o25": 0.5321,
      "hit": 0.8148,
      "hitN": 54,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "15:15",
      "ko": "2026-11-28T15:15:00Z",
      "lg": "af.452",
-     "lgName": "Tercera Divisi\u00f3n RFEF - Group 14",
-     "country": "Spain",
+     "lgName": "Spain Tercera Divisi\u00f3n RFEF - Group 14",
+     "sport": "football",
      "h": "Jara\u00edz",
      "a": "G\u00e9vora",
      "side": "h",
@@ -3011,18 +3020,14 @@
       "d": 0.2047,
       "a": 0.1388
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5351,
-     "o25": 0.5513,
      "hit": 0.6793,
      "hitN": 2254,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "14:00",
@@ -3064,6 +3069,31 @@
      "hitN": 592,
      "list": false,
      "reserve": true
+    },
+    {
+     "t": "15:00",
+     "ko": "2026-11-28T15:00:00Z",
+     "lg": "en.7ss",
+     "lgName": "England Southern League Premier South",
+     "sport": "football",
+     "h": "Taunton Town",
+     "a": "Gosport Borough",
+     "side": "h",
+     "pick": "Taunton Town",
+     "c": 0.6553,
+     "p": {
+      "h": 0.6553,
+      "d": 0.1756,
+      "a": 0.1691
+     },
+     "hit": 0.6437,
+     "hitN": 73,
+     "list": false,
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "02:00",
@@ -3509,8 +3539,8 @@
     },
     {
      "t": "15:35",
-     "ko": "2026-11-28T15:35Z",
-     "lg": "rugby",
+     "ko": "2026-11-28T15:35:00Z",
+     "lg": "Top 14",
      "lgName": "Top 14",
      "sport": "rugby",
      "h": "Bayonne",
@@ -3518,10 +3548,15 @@
      "side": "h",
      "pick": "Bayonne",
      "c": 0.6319,
+     "p": null,
      "hit": 0.6003,
      "hitN": 110,
      "list": false,
-     "reserve": true
+     "reserve": true,
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "02:30",
@@ -3577,8 +3612,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "en.6s",
-     "lgName": "National League South",
-     "country": "England",
+     "lgName": "England National League South",
+     "sport": "football",
      "h": "Maidstone Utd",
      "a": "Chesham United",
      "side": "h",
@@ -3589,18 +3624,14 @@
       "d": 0.2168,
       "a": 0.1549
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.5363,
-     "o25": 0.5444,
      "hit": 0.7052,
      "hitN": 78,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "01:00",
@@ -3776,8 +3807,8 @@
      "t": "15:00",
      "ko": "2026-11-28T15:00:00Z",
      "lg": "en.7ss",
-     "lgName": "Southern League Premier South",
-     "country": "England",
+     "lgName": "England Southern League Premier South",
+     "sport": "football",
      "h": "Berkhamsted",
      "a": "Evesham United",
      "side": "h",
@@ -3788,18 +3819,14 @@
       "d": 0.2149,
       "a": 0.1594
      },
-     "score": [
-      2,
-      0
-     ],
-     "btts": 0.543,
-     "o25": 0.5512,
      "hit": 0.5574,
      "hitN": 131,
-     "celtic": false,
      "list": false,
      "reserve": true,
-     "unrated": false
+     "pinned": true,
+     "status": "started",
+     "score": null,
+     "res": null
     },
     {
      "t": "17:00",

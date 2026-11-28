@@ -1,6 +1,19 @@
 {
  "prs": [
   {
+   "n": 591,
+   "title": "[curator] Reserve (other sports) landing below its quotes",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/591",
+   "owner": "curator",
+   "platform": "office",
+   "status": "checking",
+   "opened": "2026-11-28T15:47:33Z",
+   "merged": null,
+   "closed": null,
+   "objective": "hq-reserve-other-sports",
+   "outcome": null
+  },
+  {
    "n": 585,
    "title": "[odds] Price more of the Odds tab legs",
    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/585",
@@ -636,22 +649,9 @@
    "closed": "2026-11-18T01:16:48Z",
    "objective": "hq-card-pool-replay",
    "outcome": "evidence"
-  },
-  {
-   "n": 391,
-   "title": "[odds] Which bookmaker to write the Card for",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/pull/391",
-   "owner": "odds",
-   "platform": "office",
-   "status": "shipped",
-   "opened": "2026-11-17T16:53:35Z",
-   "merged": "2026-11-17T16:56:12Z",
-   "closed": "2026-11-17T16:56:12Z",
-   "objective": "hq-card-book",
-   "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-28T14:43:29.636186+00:00",
+ "fetched": "2026-11-28T15:49:37.506527+00:00",
  "commits": [
   {
    "sha": "c14998f",
@@ -777,6 +777,36 @@
  "runs": [
   {
    "conclusion": "",
+   "createdAt": "2026-11-28T15:47:37Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46161724228"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-28T15:47:37Z",
+   "name": "Evaluation",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46161724153"
+  },
+  {
+   "conclusion": "",
+   "createdAt": "2026-11-28T15:47:28Z",
+   "name": "Tests",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46161711503"
+  },
+  {
+   "conclusion": "",
+   "createdAt": "2026-11-28T15:43:03Z",
+   "name": "Office agents",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46161323001"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-28T15:24:22Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46159696337"
+  },
+  {
+   "conclusion": "",
    "createdAt": "2026-11-28T14:18:31Z",
    "name": "Briefing watch",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46153982223"
@@ -804,36 +834,6 @@
    "createdAt": "2026-11-28T13:05:27Z",
    "name": "Tests",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46147862619"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-28T13:01:22Z",
-   "name": "Tests",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46147516070"
-  },
-  {
-   "conclusion": "cancelled",
-   "createdAt": "2026-11-28T13:00:00Z",
-   "name": "Briefing watch",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46147383224"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-28T12:52:26Z",
-   "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46146800783"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-28T12:52:26Z",
-   "name": "Claude",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46146800769"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-28T12:52:25Z",
-   "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46146798772"
   }
  ]
 }
