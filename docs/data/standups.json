@@ -1,5 +1,955 @@
 [
  {
+  "id": 1795877005669,
+  "time": "2026-11-28T14:43:25.669835+00:00",
+  "trigger": "scheduled 13:30",
+  "lines": [
+   {
+    "agent": "chief",
+    "yesterday": "Daily List, last 28 days: 318 of 357 landed against 313 expected (89% landed, 88% quoted); widest football band gap 50-55%: 56% landed v 53% quoted (z +2.2); 1,678 football fixtures on the board, 0 unrated.",
+    "today": "Top of the backlog for accas: 9 of 27 Card days had no full-rule group. Dev work: PR #543 Write the office review and next week's priorities (shipped, evidence only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "scout",
+    "yesterday": "Swept 1678 football fixtures across 221 competitions for 2026-11-28, plus 415 other-sport and 2 tennis matches.",
+    "today": "Next sweep at 13:00 for late-added fixtures and kick-off changes. Dev work: PR #580 Add a free data source for an uncovered league (shipped, evidence only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "quality",
+    "yesterday": "0 unrated fixtures in today's slate; 221 competitions matched to a rated team pool.",
+    "today": "Recheck club-name matching for new API-Football leagues. Dev work: PR #578 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped, evidence only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "source",
+    "yesterday": "Coverage is API-Football plus free sources; 10/10 recent builds pulled data cleanly.",
+    "today": "Watch API rate limits during the 03:00 and 13:00 sweeps. Dev work: PR #579 Make one data source fail more gracefully (checking).",
+    "blockers": "None."
+   },
+   {
+    "agent": "ratings",
+    "yesterday": "Calibration refit 2026-11-23: log loss 1.006 vs shipped 1.0069 (delta -0.0009).",
+    "today": "Rate today's 1678 fixtures; overall log loss is 1.008. Dev work: PR #584 Test one ratings improvement (checking).",
+    "blockers": "None."
+   },
+   {
+    "agent": "experiment",
+    "yesterday": "Weekly retune 2026-11-23 passed its gates. Latest test: List card replay: the Bookies mark tried as a veto (nobookies), rejected (#582).",
+    "today": "Overnight at 23:30: backtest one change aimed at the weakest league. Dev work: PR #485 England Isthmian League Premier lands below its quotes (shipped, evidence only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "sports",
+    "yesterday": "Other sports: NFL 75/121, MLB 27/40, NBA 186/281, RUGBY 65/88, CFB 306/440, NCAAB 931/1240, WNBA 9/11. Tennis 64% over 1517 matches (expected 64%).",
+    "today": "Build up NBA and rugby graded history before they go on the board. Dev work: PR #553 Baseball (MLB) landing above its quotes (shipped, evidence only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "auditor",
+    "yesterday": "Graded 2026-11-28: 34/81 correct (42%).",
+    "today": "Grade early kick-offs at 13:00 and the full day at 23:30. Dev work: PR #542 Audit the grading of recent results (shipped, evidence only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "calib",
+    "yesterday": "Biggest calibration gap: picks at 40%-50% won 47% vs 45% expected (6302 games).",
+    "today": "Track tiers: Strong 79% vs 77%, Firm 70% vs 68%, Lean 61% vs 59%. Dev work: PR #524 Football 50-55% band lands over its quote (shipped, evidence only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "curator",
+    "yesterday": "Daily List for 2026-11-28: 29 picks. Top: Varketili v Gardabani 96%; WIT Georgia v Betlemi 92%; Boreham Wood v Gateshead 90%.",
+    "today": "Re-rank at 13:00 if any team news shifts confidence. Dev work: PR #482 Test the Daily List bar (shipped, evidence only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "engineer",
+    "yesterday": "10/10 recent 'Rebuild and publish' runs green.",
+    "today": "Keep the build ahead of the 03:00 sweep. Dev work: PR #577 Add tests for the least-tested module (shipped, tests only).",
+    "blockers": "None."
+   },
+   {
+    "agent": "h1",
+    "yesterday": "England Championship: 45% over 186 graded games (target 50%), 47 drawn out.",
+    "today": "Review every miss in the league with Mia and queue one tested change.",
+    "blockers": "None."
+   },
+   {
+    "agent": "h2",
+    "yesterday": "82% of today's picks carry a live bookmaker price (target 60%).",
+    "today": "Price every candidate leg before the 07:45 briefing and flag anything still on an estimate.",
+    "blockers": "None."
+   },
+   {
+    "agent": "h3",
+    "yesterday": "Groups since 2026-10-19: 38 of 102 won against 36.6 expected.",
+    "today": "Lead the desk: check today's groups against their honest chances before the 07:45 briefing.",
+    "blockers": "None."
+   },
+   {
+    "agent": "h4",
+    "yesterday": "Legs since 2026-10-19: 73% landed against 72% quoted over 303.",
+    "today": "Compare each settled leg's quote with the bookmaker's fair chance, by price range.",
+    "blockers": "None."
+   },
+   {
+    "agent": "h5",
+    "yesterday": "Average leg chance 73% over 314 legs grouped since 2026-10-19 (target 75%).",
+    "today": "Rank today's candidate legs by how firmly their kind of leg has landed against its quote.",
+    "blockers": "None."
+   },
+   {
+    "agent": "h6",
+    "yesterday": "CFB: 306/440 correct (70%, target 55%).",
+    "today": "Grow graded history before the sport goes on the board.",
+    "blockers": "None."
+   },
+   {
+    "agent": "chief",
+    "yesterday": "Shout-out: Luke for 'List landed minus quoted', ahead of target.",
+    "today": "Keep encouraging each other: every objective owner posts one learning in the playback.",
+    "blockers": "None.",
+    "kudos": "chief"
+   }
+  ],
+  "objectives": [
+   {
+    "owner": "curator",
+    "name": "Daily List hit rate",
+    "actual": 0.8908,
+    "target": 0.8,
+    "fmt": "pct",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "chief",
+    "name": "List landed minus quoted",
+    "actual": 0.014600000000000057,
+    "target": -0.02,
+    "fmt": "pt",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "ratings",
+    "name": "Strong tier hit rate",
+    "actual": 0.7926,
+    "target": 0.8,
+    "fmt": "pct",
+    "higher": true,
+    "status": "at risk"
+   },
+   {
+    "owner": "calib",
+    "name": "Largest calibration gap",
+    "actual": 0.026900000000000035,
+    "target": 0.05,
+    "fmt": "pct",
+    "higher": false,
+    "status": "on track"
+   },
+   {
+    "owner": "scout",
+    "name": "Competitions covered today",
+    "actual": 221,
+    "target": 150,
+    "fmt": "num",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "quality",
+    "name": "Unrated fixtures",
+    "actual": 0,
+    "target": 0,
+    "fmt": "num",
+    "higher": false,
+    "status": "on track"
+   },
+   {
+    "owner": "source",
+    "name": "Clean data pulls (last 10)",
+    "actual": 1.0,
+    "target": 0.95,
+    "fmt": "pct",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "engineer",
+    "name": "Builds green (last 10)",
+    "actual": 1.0,
+    "target": 1.0,
+    "fmt": "pct",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "sports",
+    "name": "Tennis hit vs expected",
+    "actual": 0.0023999999999999577,
+    "target": 0.0,
+    "fmt": "pt",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "experiment",
+    "name": "Weekly retune passed",
+    "actual": 1,
+    "target": 1,
+    "fmt": "bool",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "auditor",
+    "name": "Graded days in record",
+    "actual": 14,
+    "target": 14,
+    "fmt": "num",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "h1",
+    "name": "England Championship hit rate",
+    "actual": 0.4462,
+    "target": 0.5,
+    "fmt": "pct",
+    "higher": true,
+    "status": "behind"
+   },
+   {
+    "owner": "h2",
+    "name": "Legs with a live price",
+    "actual": 0.8235294117647058,
+    "target": 0.6,
+    "fmt": "pct",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "h3",
+    "name": "Groups won minus expected",
+    "actual": 0.014025490196078415,
+    "target": 0.0,
+    "fmt": "pt",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "h4",
+    "name": "Legs landed minus quoted",
+    "actual": 0.0018356435643563929,
+    "target": -0.02,
+    "fmt": "pt",
+    "higher": true,
+    "status": "on track"
+   },
+   {
+    "owner": "h5",
+    "name": "Average leg chance",
+    "actual": 0.7263057324840765,
+    "target": 0.75,
+    "fmt": "pct",
+    "higher": true,
+    "status": "at risk"
+   },
+   {
+    "owner": "h6",
+    "name": "CFB hit rate",
+    "actual": 0.6954545454545454,
+    "target": 0.55,
+    "fmt": "pct",
+    "higher": true,
+    "status": "on track"
+   }
+  ],
+  "star": "chief",
+  "wins": [
+   "Shan United v Sagaing United (82%) finished 4-0",
+   "Boeung Ket v National Defense (81%) finished 3-1",
+   "\u015eanl\u0131urfaspor v Somaspor (78%) finished 3-2"
+  ],
+  "backlog": [
+   {
+    "key": "hq-card-empty-days",
+    "owner": "accas",
+    "title": "9 of 27 Card days had no full-rule group",
+    "score": 8.0,
+    "metric": "card"
+   },
+   {
+    "key": "hq-card-legs-tennis",
+    "owner": "legs",
+    "title": "Card tennis legs: 8/15 against 12 expected",
+    "score": 6.36,
+    "metric": "card"
+   },
+   {
+    "key": "hq-card-return",
+    "owner": "accas",
+    "title": "The Card returns 0.800 a unit over 34 groups",
+    "score": 6.0,
+    "metric": "card"
+   },
+   {
+    "key": "hq-reserve-other-sports",
+    "owner": "curator",
+    "title": "Reserve (other sports) landing below its quotes",
+    "score": 4.81,
+    "metric": "honesty"
+   },
+   {
+    "key": "hq-band-50",
+    "owner": "calib",
+    "title": "Football 50-55% band lands over its quote",
+    "score": 4.42,
+    "metric": "honesty"
+   },
+   {
+    "key": "hq-tennis-wta",
+    "owner": "sports",
+    "title": "WTA landing above its quotes",
+    "score": 3.0,
+    "metric": "honesty"
+   },
+   {
+    "key": "hq-legs-tennis",
+    "owner": "legs",
+    "title": "Tennis legs: 38/61 against 44 expected",
+    "score": 2.85,
+    "metric": "groups"
+   },
+   {
+    "key": "hq-league-en.7i",
+    "owner": "experiment",
+    "title": "England Isthmian League Premier lands below its quotes",
+    "score": 2.44,
+    "metric": "honesty"
+   }
+  ],
+  "siteObjectives": {
+   "card": {
+    "groups": 34,
+    "won": 11,
+    "return": 0.8,
+    "gap": {
+     "n": 34,
+     "won": 11,
+     "expected": 12.3,
+     "z": -0.46,
+     "quoted": 0.3615,
+     "landed": 0.3235
+    },
+    "emptyDays": 9,
+    "closingMovePct": 0.67
+   },
+   "list": {
+    "football": {
+     "n": 98,
+     "won": 84,
+     "expected": 81.1,
+     "z": 0.78,
+     "quoted": 0.8279,
+     "landed": 0.8571
+    },
+    "tennis": {
+     "n": 52,
+     "won": 46,
+     "expected": 43.1,
+     "z": 1.09,
+     "quoted": 0.8285,
+     "landed": 0.8846
+    },
+    "nba": {
+     "n": 14,
+     "won": 11,
+     "expected": 11.9,
+     "z": -0.68,
+     "quoted": 0.8505,
+     "landed": 0.7857
+    },
+    "ncaab": {
+     "n": 187,
+     "won": 171,
+     "expected": 171.6,
+     "z": -0.16,
+     "quoted": 0.9176,
+     "landed": 0.9144
+    },
+    "nfl": {
+     "n": 6,
+     "won": 6,
+     "expected": 5.1,
+     "z": 1.03,
+     "quoted": 0.8501,
+     "landed": 1.0
+    }
+   },
+   "listAll": {
+    "n": 357,
+    "won": 318,
+    "expected": 312.8,
+    "z": 0.85,
+    "quoted": 0.8762,
+    "landed": 0.8908
+   },
+   "honesty": {
+    "worstBand": {
+     "n": 901,
+     "won": 507,
+     "expected": 473.9,
+     "z": 2.21,
+     "quoted": 0.526,
+     "landed": 0.5627,
+     "band": "50-55%"
+    }
+   },
+   "coverage": {
+    "fixtures": 1678,
+    "unrated": 0
+   }
+  },
+  "outcomes": {
+   "days": 7,
+   "merged": 24,
+   "count": {
+    "model": 1,
+    "data": 0,
+    "tests": 1,
+    "evidence": 22
+   },
+   "items": [
+    {
+     "n": 585,
+     "title": "Price more of the Odds tab legs",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/585",
+     "owner": "odds",
+     "outcome": "evidence"
+    },
+    {
+     "n": 583,
+     "title": "Tennis legs: 38/61 against 44 expected",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/583",
+     "owner": "legs",
+     "outcome": "evidence"
+    },
+    {
+     "n": 580,
+     "title": "Add a free data source for an uncovered league",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/580",
+     "owner": "scout",
+     "outcome": "evidence"
+    },
+    {
+     "n": 578,
+     "title": "Check today's fixtures for duplicates, wrong dates and doubtful name matches",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/578",
+     "owner": "quality",
+     "outcome": "evidence"
+    },
+    {
+     "n": 577,
+     "title": "Add tests for the least-tested module",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/577",
+     "owner": "engineer",
+     "outcome": "tests"
+    },
+    {
+     "n": 576,
+     "title": "9 of 26 Card days had no full-rule group",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/576",
+     "owner": "accas",
+     "outcome": "evidence"
+    },
+    {
+     "n": 554,
+     "title": "Backtest the Odds tab group rules",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/554",
+     "owner": "accas",
+     "outcome": "evidence"
+    },
+    {
+     "n": 553,
+     "title": "Baseball (MLB) landing above its quotes",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/553",
+     "owner": "sports",
+     "outcome": "evidence"
+    },
+    {
+     "n": 543,
+     "title": "Write the office review and next week's priorities",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/543",
+     "owner": "chief",
+     "outcome": "evidence"
+    },
+    {
+     "n": 542,
+     "title": "Audit the grading of recent results",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/542",
+     "owner": "auditor",
+     "outcome": "evidence"
+    },
+    {
+     "n": 541,
+     "title": "Find why the Championship misses",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/541",
+     "owner": "champ",
+     "outcome": "evidence"
+    },
+    {
+     "n": 540,
+     "title": "The Card returns 0.800 a unit over 34 groups",
+     "url": "https://github.com/douglasbakeronline/footyalmanac/pull/540",
+     "owner": "accas",
+     "outcome": "evidence"
+    }
+   ]
+  },
+  "dev": [
+   {
+    "n": 585,
+    "title": "[odds] Price more of the Odds tab legs",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/585",
+    "owner": "odds",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-28T01:57:58Z",
+    "merged": "2026-11-28T02:01:37Z",
+    "closed": "2026-11-28T02:01:37Z",
+    "objective": "odds-coverage",
+    "outcome": "evidence"
+   },
+   {
+    "n": 584,
+    "title": "[ratings] Test one ratings improvement",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/584",
+    "owner": "ratings",
+    "platform": "office",
+    "status": "checking",
+    "opened": "2026-11-28T01:49:35Z",
+    "merged": null,
+    "closed": null,
+    "objective": "ratings-idea",
+    "outcome": null
+   },
+   {
+    "n": 583,
+    "title": "[legs] Tennis legs: 38/61 against 44 expected",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/583",
+    "owner": "legs",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-28T01:39:55Z",
+    "merged": "2026-11-28T01:44:02Z",
+    "closed": "2026-11-28T01:44:02Z",
+    "objective": "hq-legs-tennis",
+    "outcome": "evidence"
+   },
+   {
+    "n": 580,
+    "title": "[scout] Add a free data source for an uncovered league",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/580",
+    "owner": "scout",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-27T17:35:05Z",
+    "merged": "2026-11-27T17:39:12Z",
+    "closed": "2026-11-27T17:39:12Z",
+    "objective": "coverage",
+    "outcome": "evidence"
+   },
+   {
+    "n": 579,
+    "title": "[source] Make one data source fail more gracefully",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/579",
+    "owner": "source",
+    "platform": "office",
+    "status": "checking",
+    "opened": "2026-11-27T17:26:42Z",
+    "merged": null,
+    "closed": null,
+    "objective": "source-resilience",
+    "outcome": null
+   },
+   {
+    "n": 578,
+    "title": "[quality] Check today's fixtures for duplicates, wrong dates and doubtful name matches",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/578",
+    "owner": "quality",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-27T17:15:09Z",
+    "merged": "2026-11-27T17:18:17Z",
+    "closed": "2026-11-27T17:18:17Z",
+    "objective": "fixture-integrity",
+    "outcome": "evidence"
+   },
+   {
+    "n": 577,
+    "title": "[engineer] Add tests for the least-tested module",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/577",
+    "owner": "engineer",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-27T17:07:24Z",
+    "merged": "2026-11-27T17:11:01Z",
+    "closed": "2026-11-27T17:11:01Z",
+    "objective": "tests-gap",
+    "outcome": "tests"
+   },
+   {
+    "n": 576,
+    "title": "[accas] 9 of 26 Card days had no full-rule group",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/576",
+    "owner": "accas",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-27T16:56:21Z",
+    "merged": "2026-11-27T17:00:30Z",
+    "closed": "2026-11-27T17:00:30Z",
+    "objective": "hq-card-empty-days",
+    "outcome": "evidence"
+   },
+   {
+    "n": 554,
+    "title": "[accas] Backtest the Odds tab group rules",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/554",
+    "owner": "accas",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-26T17:20:21Z",
+    "merged": "2026-11-26T17:24:31Z",
+    "closed": "2026-11-26T17:24:32Z",
+    "objective": "group-rules",
+    "outcome": "evidence"
+   },
+   {
+    "n": 553,
+    "title": "[sports] Baseball (MLB) landing above its quotes",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/553",
+    "owner": "sports",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-26T17:13:07Z",
+    "merged": "2026-11-26T17:16:46Z",
+    "closed": "2026-11-26T17:16:46Z",
+    "objective": "hq-sport-mlb",
+    "outcome": "evidence"
+   },
+   {
+    "n": 543,
+    "title": "[chief] Write the office review and next week's priorities",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/543",
+    "owner": "chief",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-26T02:27:51Z",
+    "merged": "2026-11-26T02:31:29Z",
+    "closed": "2026-11-26T02:31:29Z",
+    "objective": "office-review",
+    "outcome": "evidence"
+   },
+   {
+    "n": 542,
+    "title": "[auditor] Audit the grading of recent results",
+    "url": "https://github.com/douglasbakeronline/footyalmanac/pull/542",
+    "owner": "auditor",
+    "platform": "office",
+    "status": "shipped",
+    "opened": "2026-11-26T02:21:08Z",
+    "merged": "2026-11-26T12:59:56Z",
+    "closed": "2026-11-26T12:59:56Z",
+    "objective": "grading-audit",
+    "outcome": "evidence"
+   }
+  ],
+  "shipped": [
+   "PR #585 Price more of the Odds tab legs (shipped, evidence only) by odds",
+   "PR #583 Tennis legs: 38/61 against 44 expected (shipped, evidence only) by legs",
+   "PR #580 Add a free data source for an uncovered league (shipped, evidence only) by Ava",
+   "PR #578 Check today's fixtures for duplicates, wrong dates and doubtful name matches (shipped, evidence only) by Cory",
+   "PR #577 Add tests for the least-tested module (shipped, tests only) by Allan",
+   "PR #576 9 of 26 Card days had no full-rule group (shipped, evidence only) by accas"
+  ],
+  "lessons": [
+   "Calibration: 40%-50% band won 47% vs 45% expected",
+   "Weakest league: Italy Serie D - Girone C at 32% over 72 games"
+  ],
+  "stats": {
+   "fixtures": 1678,
+   "competitions": 221,
+   "listPicks": 29,
+   "overallAcc": 0.5077,
+   "listAcc": 0.823,
+   "listN": 226,
+   "graded": 15648,
+   "logLoss": 1.008,
+   "dayAcc": 0.4198,
+   "dayDate": "2026-11-28",
+   "tennisAcc": 0.6421,
+   "runsOk": 10,
+   "runsTotal": 10,
+   "tiers": [
+    {
+     "name": "Strong",
+     "k": 3,
+     "min": 0.7,
+     "n": 646,
+     "correct": 512,
+     "hit": 0.7926,
+     "expected": 0.7747,
+     "reads": 513,
+     "readHit": 0.7941,
+     "expectedRead": 0.7749,
+     "drawnOut": 72
+    },
+    {
+     "name": "Firm",
+     "k": 2,
+     "min": 0.62,
+     "n": 942,
+     "correct": 662,
+     "hit": 0.7028,
+     "expected": 0.6783,
+     "reads": 662,
+     "readHit": 0.7028,
+     "expectedRead": 0.6785,
+     "drawnOut": 159
+    },
+    {
+     "name": "Lean",
+     "k": 1,
+     "min": 0.55,
+     "n": 1588,
+     "correct": 972,
+     "hit": 0.6121,
+     "expected": 0.594,
+     "reads": 1058,
+     "readHit": 0.6662,
+     "expectedRead": 0.6434,
+     "drawnOut": 346
+    },
+    {
+     "name": "No read",
+     "k": 0,
+     "min": 0.0,
+     "n": 12472,
+     "correct": 5798,
+     "hit": 0.4649,
+     "expected": 0.4433,
+     "reads": 8362,
+     "readHit": 0.6705,
+     "expectedRead": 0.6626,
+     "drawnOut": 3173
+    }
+   ],
+   "bands": [
+    {
+     "from": 0.0,
+     "to": 0.4,
+     "n": 3644,
+     "hit": 0.393,
+     "won": 1432,
+     "expected": 0.3751,
+     "reads": 2402,
+     "readHit": 0.6592,
+     "expectedRead": 0.655
+    },
+    {
+     "from": 0.4,
+     "to": 0.5,
+     "n": 6302,
+     "hit": 0.4727,
+     "won": 2979,
+     "expected": 0.4458,
+     "reads": 4285,
+     "readHit": 0.6799,
+     "expectedRead": 0.6687
+    },
+    {
+     "from": 0.5,
+     "to": 0.6,
+     "n": 3415,
+     "hit": 0.5605,
+     "won": 1914,
+     "expected": 0.5443,
+     "reads": 2287,
+     "readHit": 0.6697,
+     "expectedRead": 0.6575
+    },
+    {
+     "from": 0.6,
+     "to": 0.7,
+     "n": 1462,
+     "hit": 0.6621,
+     "won": 968,
+     "expected": 0.6419,
+     "reads": 969,
+     "readHit": 0.6628,
+     "expectedRead": 0.6434
+    },
+    {
+     "from": 0.7,
+     "to": 1.0,
+     "n": 825,
+     "hit": 0.7891,
+     "won": 651,
+     "expected": 0.7738,
+     "reads": 652,
+     "readHit": 0.7903,
+     "expectedRead": 0.7739
+    }
+   ],
+   "days": [
+    {
+     "date": "2026-11-28",
+     "acc": 0.4198,
+     "n": 81
+    },
+    {
+     "date": "2026-11-27",
+     "acc": 0.4793,
+     "n": 121
+    },
+    {
+     "date": "2026-11-26",
+     "acc": 0.4568,
+     "n": 81
+    },
+    {
+     "date": "2026-11-25",
+     "acc": 0.4854,
+     "n": 103
+    },
+    {
+     "date": "2026-11-24",
+     "acc": 0.5417,
+     "n": 120
+    },
+    {
+     "date": "2026-11-23",
+     "acc": 0.52,
+     "n": 75
+    },
+    {
+     "date": "2026-11-22",
+     "acc": 0.5056,
+     "n": 540
+    },
+    {
+     "date": "2026-11-21",
+     "acc": 0.5145,
+     "n": 655
+    },
+    {
+     "date": "2026-11-20",
+     "acc": 0.5207,
+     "n": 169
+    },
+    {
+     "date": "2026-11-19",
+     "acc": 0.4889,
+     "n": 45
+    },
+    {
+     "date": "2026-11-18",
+     "acc": 0.5357,
+     "n": 84
+    },
+    {
+     "date": "2026-11-17",
+     "acc": 0.5,
+     "n": 76
+    },
+    {
+     "date": "2026-11-16",
+     "acc": 0.5581,
+     "n": 43
+    },
+    {
+     "date": "2026-11-15",
+     "acc": 0.4897,
+     "n": 435
+    }
+   ],
+   "weak": [
+    {
+     "name": "Italy Serie D - Girone C",
+     "acc": 0.3194,
+     "n": 72
+    },
+    {
+     "name": "Colombia Primera B",
+     "acc": 0.3284,
+     "n": 67
+    },
+    {
+     "name": "Turkey 3. Lig - Group 1",
+     "acc": 0.3488,
+     "n": 86
+    },
+    {
+     "name": "Ecuador Liga Pro",
+     "acc": 0.3594,
+     "n": 64
+    },
+    {
+     "name": "Venezuela Primera Divisi\u00f3n",
+     "acc": 0.3659,
+     "n": 41
+    }
+   ],
+   "top": [
+    {
+     "m": "Varketili v Gardabani",
+     "c": 0.9551,
+     "lg": "af.1104"
+    },
+    {
+     "m": "WIT Georgia v Betlemi",
+     "c": 0.9212,
+     "lg": "af.1104"
+    },
+    {
+     "m": "Boreham Wood v Gateshead",
+     "c": 0.8986,
+     "lg": "en.5"
+    },
+    {
+     "m": "Alia\u011fa FA\u015e v Kastamonuspor",
+     "c": 0.8842,
+     "lg": "af.205"
+    },
+    {
+     "m": "Shkendija v Aresimi",
+     "c": 0.8642,
+     "lg": "af.371"
+    },
+    {
+     "m": "Police v Phoenix",
+     "c": 0.8606,
+     "lg": "af.591"
+    },
+    {
+     "m": "Pipinsried v Schalding-Heining",
+     "c": 0.8597,
+     "lg": "af.939"
+    },
+    {
+     "m": "Tornado Pekanbaru v Persiba Balikpapan",
+     "c": 0.8469,
+     "lg": "af.275"
+    }
+   ]
+  }
+ },
+ {
   "id": 1795838530332,
   "time": "2026-11-28T04:02:10.332421+00:00",
   "trigger": "scheduled 04:00",
