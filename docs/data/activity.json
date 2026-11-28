@@ -651,8 +651,14 @@
    "outcome": "evidence"
   }
  ],
- "fetched": "2026-11-27T23:48:40.174062+00:00",
+ "fetched": "2026-11-28T00:16:24.897192+00:00",
  "commits": [
+  {
+   "sha": "28f82b6",
+   "msg": "Archive predictions and record for 2026-11-28 [skip ci]",
+   "date": "2026-11-28T00:09:09Z",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/28f82b61ab3808e547b5cd38208348a6f21c5009"
+  },
   {
    "sha": "c016b66",
    "msg": "Archive predictions and record for 2026-11-27 [skip ci]",
@@ -766,15 +772,21 @@
    "msg": "Merge pull request #573 from douglasbakeronline/list-together",
    "date": "2026-11-27T14:06:39Z",
    "url": "https://github.com/douglasbakeronline/footyalmanac/commit/af562a812a59098b4f4e598312045bad5efcc853"
-  },
-  {
-   "sha": "dd9538e",
-   "msg": "The Daily List all together from 70% up; the bands taken out",
-   "date": "2026-11-27T14:03:48Z",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/commit/dd9538ecf3cb4a2f8ecd5fca6dca17387fabae10"
   }
  ],
  "runs": [
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-28T00:11:44Z",
+   "name": "Briefing watch",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46086575038"
+  },
+  {
+   "conclusion": "success",
+   "createdAt": "2026-11-27T23:59:46Z",
+   "name": "Rebuild and publish",
+   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46085474271"
+  },
   {
    "conclusion": "success",
    "createdAt": "2026-11-27T23:22:53Z",
@@ -822,18 +834,6 @@
    "createdAt": "2026-11-27T20:50:56Z",
    "name": "Claude",
    "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46066388199"
-  },
-  {
-   "conclusion": "skipped",
-   "createdAt": "2026-11-27T20:50:56Z",
-   "name": "CEO",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46066386965"
-  },
-  {
-   "conclusion": "success",
-   "createdAt": "2026-11-27T20:50:46Z",
-   "name": "Release tags",
-   "url": "https://github.com/douglasbakeronline/footyalmanac/actions/runs/46066370292"
   }
  ]
 }
