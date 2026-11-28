@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-27T13:31+00:00",
+ "generated": "2026-11-28T04:02+00:00",
  "window": 28,
- "since": "2026-10-30",
+ "since": "2026-10-31",
  "objectives": {
   "card": {
    "groups": 34,
@@ -22,34 +22,34 @@
    "football": {
     "n": 95,
     "won": 81,
-    "expected": 78.6,
-    "z": 0.66,
-    "quoted": 0.8272,
+    "expected": 78.7,
+    "z": 0.63,
+    "quoted": 0.8287,
     "landed": 0.8526
    },
    "tennis": {
-    "n": 57,
-    "won": 50,
-    "expected": 47.1,
-    "z": 1.03,
-    "quoted": 0.8259,
-    "landed": 0.8772
+    "n": 52,
+    "won": 46,
+    "expected": 43.1,
+    "z": 1.09,
+    "quoted": 0.8285,
+    "landed": 0.8846
    },
    "nba": {
     "n": 14,
     "won": 11,
     "expected": 11.9,
-    "z": -0.7,
-    "quoted": 0.852,
+    "z": -0.68,
+    "quoted": 0.8505,
     "landed": 0.7857
    },
    "ncaab": {
-    "n": 206,
-    "won": 188,
-    "expected": 188.7,
-    "z": -0.17,
-    "quoted": 0.9159,
-    "landed": 0.9126
+    "n": 187,
+    "won": 171,
+    "expected": 171.6,
+    "z": -0.16,
+    "quoted": 0.9176,
+    "landed": 0.9144
    },
    "nfl": {
     "n": 6,
@@ -61,26 +61,26 @@
    }
   },
   "listAll": {
-   "n": 378,
-   "won": 336,
-   "expected": 331.4,
-   "z": 0.74,
-   "quoted": 0.8767,
-   "landed": 0.8889
+   "n": 354,
+   "won": 315,
+   "expected": 310.4,
+   "z": 0.76,
+   "quoted": 0.8769,
+   "landed": 0.8898
   },
   "honesty": {
    "worstBand": {
-    "n": 893,
-    "won": 502,
-    "expected": 469.7,
-    "z": 2.17,
+    "n": 898,
+    "won": 506,
+    "expected": 472.4,
+    "z": 2.25,
     "quoted": 0.526,
-    "landed": 0.5622,
+    "landed": 0.5635,
     "band": "50-55%"
    }
   },
   "coverage": {
-   "fixtures": 1642,
+   "fixtures": 1655,
    "unrated": 0
   }
  },
@@ -137,33 +137,49 @@
    "key": "hq-reserve-other-sports",
    "owner": "curator",
    "title": "Reserve (other sports) landing below its quotes",
-   "brief": "Other Sports reserve picks over the last 28 days: 329 of 489 landed (67%) against 359.2 expected (73% quoted), z -3.1. Find which bands or competitions carry the gap and whether the reserve should exclude them.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "brief": "Other Sports reserve picks over the last 28 days: 295 of 444 landed (66%) against 324.9 expected (73% quoted), z -3.2. Find which bands or competitions carry the gap and whether the reserve should exclude them.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 489,
-    "won": 329,
-    "expected": 359.2,
-    "z": -3.13,
-    "quoted": 0.7345,
-    "landed": 0.6728
+    "n": 444,
+    "won": 295,
+    "expected": 324.9,
+    "z": -3.24,
+    "quoted": 0.7318,
+    "landed": 0.6644
    },
    "metric": "honesty",
-   "score": 4.7
+   "score": 4.86
   },
   {
    "key": "hq-band-50",
    "owner": "calib",
    "title": "Football 50-55% band lands over its quote",
-   "brief": "Every graded football call quoted (pick, or pick-or-draw where the predicted score is a draw) 50-55%: 502 of 893 landed (56%) against 469.7 expected (53% quoted), z +2.2. A gap in either direction is a bug. Check whether the calibration curve (calibration.json, a straight line in confidence) can bend enough here, or whether one group of competitions (wider API-Football leagues, cups, Celtic's Law) drives it. calibration.json only changes through tune.py's gates (Rule 5): improve the method, never hand-edit the file.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "brief": "Every graded football call quoted (pick, or pick-or-draw where the predicted score is a draw) 50-55%: 506 of 898 landed (56%) against 472.4 expected (53% quoted), z +2.2. A gap in either direction is a bug. Check whether the calibration curve (calibration.json, a straight line in confidence) can bend enough here, or whether one group of competitions (wider API-Football leagues, cups, Celtic's Law) drives it. calibration.json only changes through tune.py's gates (Rule 5): improve the method, never hand-edit the file.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
    "evidence": {
-    "n": 893,
-    "won": 502,
-    "expected": 469.7,
-    "z": 2.17,
+    "n": 898,
+    "won": 506,
+    "expected": 472.4,
+    "z": 2.25,
     "quoted": 0.526,
-    "landed": 0.5622
+    "landed": 0.5635
    },
    "metric": "honesty",
-   "score": 4.34
+   "score": 4.5
+  },
+  {
+   "key": "hq-tennis-wta",
+   "owner": "sports",
+   "title": "WTA landing above its quotes",
+   "brief": "WTA calls over the last 28 days: 183 of 258 landed (71%) against 168.2 expected (65% quoted), z +2.0. Tennis is off the Daily List until its live record holds. Known cause: ESPN results carry no surface, so everything since June is rated as hard court. Find a free, automatable surface source or test a tournament-to-surface map, then replay the live period.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
+   "evidence": {
+    "n": 258,
+    "won": 183,
+    "expected": 168.2,
+    "z": 2.0,
+    "quoted": 0.652,
+    "landed": 0.7093
+   },
+   "metric": "honesty",
+   "score": 3.0
   },
   {
    "key": "hq-legs-tennis",
@@ -180,22 +196,6 @@
    },
    "metric": "groups",
    "score": 2.85
-  },
-  {
-   "key": "hq-tennis-wta",
-   "owner": "sports",
-   "title": "WTA landing above its quotes",
-   "brief": "WTA calls over the last 28 days: 191 of 274 landed (70%) against 178.5 expected (65% quoted), z +1.6. Tennis is off the Daily List until its live record holds. Known cause: ESPN results carry no surface, so everything since June is rated as hard court. Find a free, automatable surface source or test a tournament-to-surface map, then replay the live period.\n\nUse the live record only to locate the gap: never fit on record.json (Rule 1). Test any fix on history, paired and bootstrapped, fitted on the last completed season and confirmed on the current one (Rule 3 gates: 250+ check games, p(worse) at most 0.30, gain at least 0.0005 log loss). If it passes, ship the code change with its evidence. If it does not, ship a dated claude/ note with the numbers so nobody repeats it. Check claude/ and RELEASES.md first: if this exact idea was already rejected, test a different one.",
-   "evidence": {
-    "n": 274,
-    "won": 191,
-    "expected": 178.5,
-    "z": 1.64,
-    "quoted": 0.6513,
-    "landed": 0.6971
-   },
-   "metric": "honesty",
-   "score": 2.46
   },
   {
    "key": "hq-league-en.7i",
