@@ -105,6 +105,24 @@ def card_groups(grec):
     return out
 
 
+def card_floors(grec):
+    """{sport: floor} for the sports the site holds to their own Card floor
+    (groupings-record.json cardLegsBySport.<sport>.floor; tennis 75% under rule 14).
+    The site's own tripwire reads only the legs that floor admits (`atFloor`,
+    14 Nov 2026), because legs under it are already off the Card. A shortfall on
+    them is a closed question: tennis legs were sent to an agent five times from
+    13 to 28 Nov on legs the rule had already excluded (28 Nov 2026)."""
+    out = {}
+    for sp, t in ((grec.get("cardLegsBySport") or {}).items()):
+        if isinstance(t, dict) and isinstance(t.get("floor"), (int, float)): out[sp] = float(t["floor"])
+    return out
+
+
+def at_floor(leg, floors):
+    f = floors.get(leg.get("sport"))
+    return f is None or (leg.get("p") or 0) >= f
+
+
 def card_return(gs):
     st = sum(g.get("stake") or 1 for g in gs); rt = sum((g.get("stake") or 1) * g["odds"] for g in gs if g["status"] == "won")
     return round(rt / st, 3) if st else None
@@ -204,11 +222,13 @@ def plan(files, today=None, done=()):
                 k = (grp["date"], l.get("event"))
                 if l.get("status") in ("won", "lost") and l.get("p") is not None and k not in seen:
                     seen.add(k); legs.append(l)
+        floors = card_floors(files.get("groupings-record.json") or {})
         for sp in sorted({l.get("sport") for l in legs} - {None}):
-            g = gap((l["p"], l["status"] == "won") for l in legs if l.get("sport") == sp)
+            g = gap((l["p"], l["status"] == "won") for l in legs if l.get("sport") == sp and at_floor(l, floors))
             if g["n"] >= 15 and g["z"] <= -1.0:
+                fl = f" at the live floor ({floors[sp]:.0%}+)" if sp in floors else ""
                 T.append(task(f"card-legs-{sp}", "legs", f"Card {sp} legs: {g['won']}/{g['n']} against {g['expected']:.0f} expected",
-                    f"{sp.title()} legs on the Card since {CARD_FROM}: {says(g)}. The chance is the bookmakers' own, so a "
+                    f"{sp.title()} legs on the Card since {CARD_FROM}{fl}: {says(g)}. The chance is the bookmakers' own, so a "
                     "shortfall means the Card picks the kind of favourite the market over-rates. Find which (competition, "
                     "price, home or away, the opposition's price) and replay a rule that excludes it; if the sport as a "
                     "whole is under quote by two standard errors on 50+ legs, propose it for CARD_SPORTS_OFF.", g, 3.0, "card"))
@@ -382,8 +402,9 @@ def plan(files, today=None, done=()):
             "competition carries it. Prices never feed a model.", g, 1.5, "honesty"))
 
     # 8b. The Groups & Odds Desk: where the legs fall short, by sport and by price, and which group bands miss
+    floors = card_floors(files.get("groupings-record.json") or {})
     for sp in sorted({l.get("sport") for l in uniq} - {None}):
-        g = gap((l["p"], l["status"] == "won") for l in uniq if l.get("sport") == sp)
+        g = gap((l["p"], l["status"] == "won") for l in uniq if l.get("sport") == sp and at_floor(l, floors))
         if g["n"] >= 20 and g["z"] <= -1.5:
             T.append(task(f"legs-{sp}", "legs", f"{sp.title()} legs: {g['won']}/{g['n']} against {g['expected']:.0f} expected",
                 f"{sp.title()} legs in the Odds tab's groups since {GROUPS_RULE_FROM}: {says(g)}. Find which kind of "

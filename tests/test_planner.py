@@ -112,9 +112,6 @@ class TestOutcomes(unittest.TestCase):
         self.assertEqual(O.classify(["international.json"]), "model")
 
 
-if __name__ == "__main__":
-    unittest.main()
-
 
 class CardFirst(unittest.TestCase):
     """9 Nov 2026: the Card's return outranks accuracy gaps, and the standing Card tasks outrank the README list."""
@@ -137,3 +134,35 @@ class CardFirst(unittest.TestCase):
         b = P.plan({"groupings-record.json": {"days": days}, "record-graded.json": {"graded": []},
                     "tennis-record.json": {}, "sports-record.json": {}, "record.json": {}, "predictions": []}, today=P.date(2026, 11, 25))
         self.assertNotIn("hq-card-return", [t["key"] for t in b["tasks"]])
+
+
+class CardFloor(unittest.TestCase):
+    """28 Nov 2026: a sport held to its own Card floor is read on the legs that floor admits, as the site's tripwire is."""
+    def run_plan(self, floor):
+        import planner as P
+        legs = [{"event": f"e{i}", "sport": "tennis", "odds": 1.3, "p": 0.7, "status": "lost" if i % 2 else "won"} for i in range(20)]
+        legs += [{"event": f"f{i}", "sport": "tennis", "odds": 1.2, "p": 0.8, "status": "lost" if i < 3 else "won"} for i in range(16)]
+        days = [{"date": f"2026-11-{d + 1:02d}", "groups": [{"name": "Card 2x", "status": "won", "p": 0.5, "odds": 2.1, "stake": 2,
+                 "legs": legs[d * 3:(d + 1) * 3]}]} for d in range(12)]
+        grec = {"days": days}
+        if floor: grec["cardLegsBySport"] = {"tennis": {"floor": floor, "atFloor": {}}}
+        b = P.plan({"groupings-record.json": grec, "record-graded.json": {"graded": []}, "tennis-record.json": {},
+                    "sports-record.json": {}, "record.json": {}, "predictions": []}, today=P.date(2026, 11, 25))
+        return {t["key"]: t for t in b["tasks"]}
+
+    def test_without_a_floor_every_leg_counts(self):
+        self.assertIn("hq-card-legs-tennis", self.run_plan(None))
+
+    def test_legs_under_the_floor_raise_no_task(self):
+        self.assertNotIn("hq-card-legs-tennis", self.run_plan(0.75))
+
+    def test_floor(self):
+        import planner as P
+        f = P.card_floors({"cardLegsBySport": {"tennis": {"floor": 0.75}, "nba": {"legs": 3}}})
+        self.assertEqual(f, {"tennis": 0.75})
+        self.assertTrue(P.at_floor({"sport": "nba", "p": 0.6}, f))
+        self.assertFalse(P.at_floor({"sport": "tennis", "p": 0.74}, f))
+
+
+if __name__ == "__main__":
+    unittest.main()
